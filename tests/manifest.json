@@ -6,6 +6,13 @@
       "baterias": [
         "tests/udemy/securityplus/1.json"
       ]
+    },
+    {
+      "id": "udemy-curso-completo-de-comptia-security-sy0-701-con-practica",
+      "titulo": "Udemy cursocompleto de comptia security sy0 701 con practica",
+      "baterias": [
+        "tests/udemy/curso-completo-de-comptia-security-sy0-701-con-practica/1.json"
+      ]
     }
   ]
 }
