@@ -13,6 +13,18 @@
       "baterias": [
         "tests/udemy/curso-completo-de-comptia-security-sy0-701-con-practica/1.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-sy0-701-practice-exams",
+      "titulo": "Udemy comptia security sy0 701 practice exams",
+      "baterias": [
+        "tests/udemy/comptia-security-sy0-701-practice-exams/1.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams/2.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams/3.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams/4.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams/5.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams/6.json"
+      ]
     }
   ]
 }

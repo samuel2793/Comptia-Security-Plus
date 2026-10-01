@@ -1,0 +1,917 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams - Set 1 - Sexto test",
+  "procedencia": "Udemy - Jason Dion - Full-length CompTIA Security+ (SY0-701) Practice Exams - Set 1",
+  "descripcion": "Batería de 90 preguntas de práctica para CompTIA Security+ SY0-701 sobre conceptos generales de seguridad, amenazas, arquitectura, operaciones y gestión de programas de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el propósito principal de una política de seguridad de la información?",
+      "opciones": [
+        "Explicar qué pueden hacer los empleados con la información después de dejar la empresa",
+        "Definir el uso aceptable de los recursos de TI",
+        "Establecer directrices para proteger los datos",
+        "Describir los pasos para responder a incidentes"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una política de seguridad de la información establece principios y directrices para proteger la confidencialidad, integridad y disponibilidad de los activos de información."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes motivaciones se refiere al acto de sustraer información de un sistema o red?",
+      "opciones": [
+        "Disrupción/caos",
+        "Interrupción del servicio",
+        "Motivaciones éticas",
+        "Exfiltración de datos"
+      ],
+      "respuesta": 3,
+      "explicacion": "La exfiltración de datos consiste en extraer sin autorización información sensible o confidencial de un sistema o red."
+    },
+    {
+      "pregunta": "Eres analista de seguridad en Dion Training y descubres que se ha conectado un dispositivo no autorizado a la red de la empresa. Al investigar, averiguas que una empleada lo añadió para poder jugar a videojuegos durante sus descansos. ¿Con qué tipo de actor de amenaza estás tratando?",
+      "opciones": [
+        "Amenaza interna",
+        "Actor de Estado-nación",
+        "Actor no cualificado",
+        "Shadow IT"
+      ],
+      "respuesta": 3,
+      "explicacion": "Shadow IT se refiere al uso de sistemas o dispositivos de TI no autorizados por la organización, aunque no exista intención maliciosa."
+    },
+    {
+      "pregunta": "Holi, un pequeño productor de hilo, está creciendo y acaba de realizar su primera venta internacional. Holly contrata a Hani para implantar un sistema que recopile y analice datos sobre la seguridad de la red, detectando y respondiendo a incidentes o anomalías. ¿De cuál de las siguientes técnicas de seguridad se encargará Hani?",
+      "opciones": [
+        "Registro de eventos",
+        "Monitorización",
+        "Aplicación de parches",
+        "Auditoría"
+      ],
+      "respuesta": 1,
+      "explicacion": "La monitorización observa continuamente sistemas y redes para detectar anomalías, generar alertas y facilitar una respuesta en tiempo real."
+    },
+    {
+      "pregunta": "Florence es la CEO de una empresa y tiene la última palabra sobre todas las decisiones relativas al negocio, TI, contabilidad y otros departamentos. ¿Qué tipo de gobernanza tiene la empresa?",
+      "opciones": [
+        "Gobernanza centralizada",
+        "Gobernanza mediante comités",
+        "Gobernanza descentralizada",
+        "Gobernanza del consejo de administración"
+      ],
+      "respuesta": 0,
+      "explicacion": "La gobernanza centralizada concentra la autoridad de decisión en una única persona o nivel superior de la organización."
+    },
+    {
+      "pregunta": "El equipo de TI de Abstract Simplicity quiere establecer directrices para crear y gestionar credenciales fuertes y seguras. ¿Qué conjunto de estándares debería consultar?",
+      "opciones": [
+        "Estándar de seguridad física",
+        "Estándar de contraseñas",
+        "Estándar de control de acceso",
+        "Estándar de cifrado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un estándar de contraseñas define requisitos como longitud, complejidad, gestión y otras reglas para proteger las credenciales."
+    },
+    {
+      "pregunta": "Eagle Eyes ha nombrado a Abdul custodio de datos. ¿Cuál será su responsabilidad principal?",
+      "opciones": [
+        "Procesar y manipular datos en nombre del controlador de datos",
+        "Garantizar la integridad y confidencialidad de los datos",
+        "Gestionar y controlar el acceso a los datos",
+        "Establecer la propiedad y el control de los datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "El custodio o steward de datos aplica los permisos definidos por el propietario y gestiona quién puede acceder a los datos."
+    },
+    {
+      "pregunta": "¿Qué hace un propietario de datos?",
+      "opciones": [
+        "Garantiza la integridad y confidencialidad de los datos",
+        "Toma decisiones sobre cómo se utilizan y se accede a los datos",
+        "Procesa y manipula datos en nombre del controlador de datos",
+        "Gestiona el control de acceso"
+      ],
+      "respuesta": 1,
+      "explicacion": "El propietario de datos es responsable de decidir cómo se utilizan, protegen y autorizan los accesos a los datos bajo su responsabilidad."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ataque basado en mensajes que utiliza llamadas de voz fraudulentas para engañar a las víctimas y conseguir información sensible o que realicen determinadas acciones?",
+      "opciones": ["Phishing", "Vishing", "Smishing", "IM"],
+      "respuesta": 1,
+      "explicacion": "El vishing utiliza llamadas de voz fraudulentas como técnica de ingeniería social."
+    },
+    {
+      "pregunta": "Gekko va a desplegar una nueva red inalámbrica en su sede. ¿Qué debería hacer Carthy antes de instalar los puntos de acceso para optimizar su ubicación y reducir interferencias?",
+      "opciones": [
+        "Configurar WPA3 en todos los puntos de acceso durante la instalación",
+        "Instalar repetidores inalámbricos en las esquinas del edificio",
+        "Crear un mapa de calor inalámbrico del edificio",
+        "Desactivar la difusión del SSID en todos los dispositivos inalámbricos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un mapa de calor permite visualizar cobertura, zonas muertas, solapamientos e interferencias antes de decidir dónde colocar los puntos de acceso."
+    },
+    {
+      "pregunta": "Una aplicación web utiliza las búsquedas de los usuarios para construir consultas SQL y muestra comentarios de usuarios sin restricciones. ¿Qué técnica debería aplicarse para mitigar eficazmente SQL injection y XSS?",
+      "opciones": [
+        "Habilitar HTTPS en el servidor web",
+        "Implementar un WAF para filtrar el tráfico",
+        "Limitar el acceso a las páginas mediante autenticación fuerte",
+        "Validar y sanear la entrada de usuario tanto en búsquedas como en comentarios"
+      ],
+      "respuesta": 3,
+      "explicacion": "La validación y el saneamiento de entradas impiden que datos controlados por el usuario se interpreten como consultas SQL o scripts maliciosos."
+    },
+    {
+      "pregunta": "El equipo de TI de Dion Training quiere determinar cuánto tiempo necesitará, de media, para reparar un sistema después de una interrupción. ¿Qué medida desea calcular?",
+      "opciones": ["RTO", "MTTR", "MTBF", "RPO"],
+      "respuesta": 1,
+      "explicacion": "MTTR, Mean Time to Repair, mide el tiempo medio necesario para reparar y restaurar un sistema después de un fallo."
+    },
+    {
+      "pregunta": "Recibes un SMS aparentemente enviado por tu banco que te pide confirmar los datos de tu cuenta y PIN mediante un enlace. ¿Qué tipo de ataque podría ser?",
+      "opciones": ["Vishing", "Typosquatting", "Smishing", "Phishing"],
+      "respuesta": 2,
+      "explicacion": "El smishing utiliza mensajes SMS fraudulentos para inducir a la víctima a revelar información o visitar enlaces maliciosos."
+    },
+    {
+      "pregunta": "Cyberdud necesita proteger el tráfico de datos enviado entre sus numerosas ubicaciones internacionales. ¿Cuál de los siguientes dispositivos de red sería el MÁS adecuado?",
+      "opciones": ["Routers", "Bridges", "Hubs", "Switches"],
+      "respuesta": 0,
+      "explicacion": "Los routers conectan redes diferentes y pueden aplicar controles de acceso y políticas de seguridad sobre el tráfico entre ubicaciones."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito de realizar due diligence durante la selección de un proveedor?",
+      "opciones": [
+        "Garantizar que las prácticas del proveedor se ajusten a los requisitos de la organización",
+        "Comparar los proveedores de los distintos candidatos para comprobar toda su cadena de suministro",
+        "Garantizar que el proveedor elegido sea simplemente el mejor de todos los candidatos",
+        "Evaluar únicamente si el proveedor entregará los bienes o servicios en la fecha prometida"
+      ],
+      "respuesta": 0,
+      "explicacion": "La due diligence evalúa, entre otros aspectos, si las prácticas de seguridad, fiabilidad y cumplimiento del proveedor satisfacen los requisitos de la organización."
+    },
+    {
+      "pregunta": "Trent revisa periódicamente a los proveedores de su empresa para comprobar que siguen cumpliendo los niveles de seguridad acordados en sus contratos. ¿Qué actividad forma parte ahora de sus funciones?",
+      "opciones": [
+        "Monitorización de proveedores",
+        "Evaluación de proveedores",
+        "Selección de proveedores",
+        "Informes de cumplimiento"
+      ],
+      "respuesta": 0,
+      "explicacion": "La monitorización de proveedores consiste en supervisar de forma continuada su rendimiento y cumplimiento después de haber sido seleccionados."
+    },
+    {
+      "pregunta": "Globex Corporation quiere establecer con un proveedor las condiciones generales que regirán una relación comercial a largo plazo y futuros acuerdos. ¿Qué tipo de acuerdo necesita?",
+      "opciones": ["MOU", "MSA", "SLA", "SOW"],
+      "respuesta": 1,
+      "explicacion": "Un Master Service Agreement (MSA) establece el marco general, responsabilidades y condiciones aplicables a futuros trabajos entre las partes."
+    },
+    {
+      "pregunta": "¿Qué ataque web consiste en insertar scripts maliciosos en páginas web para que sean ejecutados por el navegador de usuarios desprevenidos?",
+      "opciones": [
+        "Escape de máquina virtual (VM escape)",
+        "Cross-site scripting (XSS)",
+        "SQL injection",
+        "Vulnerabilidad de firmware"
+      ],
+      "respuesta": 1,
+      "explicacion": "XSS permite ejecutar código malicioso en el navegador de la víctima, por ejemplo para robar cookies o tokens de sesión."
+    },
+    {
+      "pregunta": "Dini investiga un incidente en el que el atacante parece conocer todo lo escrito en un terminal y ha utilizado esa información para averiguar PIN de usuarios. ¿Qué tipo de malware es el MÁS probable?",
+      "opciones": ["Worm", "Keylogger", "Trojan", "Ransomware"],
+      "respuesta": 1,
+      "explicacion": "Un keylogger registra las pulsaciones del teclado y puede capturar credenciales, PIN y otros datos sensibles."
+    },
+    {
+      "pregunta": "Barzun descubre una vulnerabilidad que permite a usuarios obtener fácilmente acceso de nivel root. ¿Qué tipo de ataque a aplicaciones describe MEJOR el problema?",
+      "opciones": [
+        "Escalada de privilegios",
+        "Buffer overflow",
+        "Injection",
+        "Replay"
+      ],
+      "respuesta": 0,
+      "explicacion": "La escalada de privilegios explota una vulnerabilidad o mala configuración para obtener permisos superiores a los autorizados."
+    },
+    {
+      "pregunta": "Future Tech quiere impedir el acceso físico no autorizado a sus instalaciones. ¿Cuál es un ejemplo de control de seguridad físico?",
+      "opciones": [
+        "Formación de concienciación en seguridad",
+        "Tarjetas de identificación de seguridad",
+        "Sistema de prevención de intrusiones",
+        "Firewall"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las tarjetas o credenciales físicas permiten controlar la entrada de personal autorizado a las instalaciones."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC quiere destruir discos duros con datos sensibles de forma que la información sea completamente irrecuperable. ¿Cuál sería el MEJOR método entre los siguientes?",
+      "opciones": [
+        "Degaussing",
+        "Triturado a nivel 1",
+        "Incineración en incineradores municipales",
+        "Pulverización con maquinaria industrial"
+      ],
+      "respuesta": 3,
+      "explicacion": "La pulverización industrial destruye físicamente el soporte de forma exhaustiva, dificultando de manera extrema cualquier recuperación de datos."
+    },
+    {
+      "pregunta": "¿Qué técnica de hardening puede ayudar a prevenir buffer overflows utilizando software capaz de detectar y bloquear intentos de escribir más allá del espacio de memoria asignado?",
+      "opciones": [
+        "Eliminar software innecesario",
+        "Host-based Intrusion Prevention System (HIPS)",
+        "Deshabilitar puertos y protocolos",
+        "Aislamiento"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un HIPS puede detectar comportamientos anómalos en el host y bloquear acciones asociadas con intentos de explotación, incluidos ciertos buffer overflows."
+    },
+    {
+      "pregunta": "¿Qué técnica de hardening es la MÁS eficaz para evitar que las contraseñas sean fáciles de descifrar mediante diccionarios?",
+      "opciones": [
+        "Cambiar las contraseñas predeterminadas",
+        "Instalar protección de endpoints",
+        "Aislar el dispositivo",
+        "Deshabilitar puertos y protocolos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las contraseñas predeterminadas suelen ser conocidas o predecibles, por lo que sustituirlas por credenciales fuertes reduce la eficacia de ataques de diccionario."
+    },
+    {
+      "pregunta": "¿Qué término se refiere a dividir una red en subredes más pequeñas según criterios como función, ubicación o nivel de seguridad?",
+      "opciones": [
+        "Segmentación lógica",
+        "Air-gapped",
+        "Aislamiento físico",
+        "Software-defined networking (SDN)"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación lógica divide una red en segmentos separados según criterios organizativos o de seguridad."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones describe MEJOR la importancia de DLP?",
+      "opciones": [
+        "DLP monitoriza la red principalmente para detener ataques DDoS",
+        "DLP identifica y bloquea exclusivamente malware y virus",
+        "DLP es un conjunto de técnicas y herramientas para impedir la transmisión no autorizada de datos",
+        "DLP es una técnica de cifrado utilizada para proteger bases de datos y entornos cloud"
+      ],
+      "respuesta": 2,
+      "explicacion": "Data Loss Prevention (DLP) ayuda a detectar y evitar que información sensible sea transmitida o extraída sin autorización."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones describe MEJOR la importancia de SCAP?",
+      "opciones": [
+        "SCAP es un IDS que analiza el tráfico de red",
+        "SCAP es un marco de ciberseguridad que permite automatizar evaluaciones de vulnerabilidades y comprobaciones de cumplimiento",
+        "SCAP es un protocolo de red para transmitir datos cifrados",
+        "SCAP es una tecnología de firewall que bloquea conexiones sospechosas"
+      ],
+      "respuesta": 1,
+      "explicacion": "SCAP estandariza formatos y mecanismos que permiten automatizar la evaluación de vulnerabilidades, configuraciones y cumplimiento."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones NO es cierta sobre la Dark Web?",
+      "opciones": [
+        "Todo el contenido disponible en la Dark Web es ilegal y perjudicial",
+        "Normalmente se necesita software especializado como Tor para acceder a la Dark Web",
+        "La Dark Web forma parte de la Deep Web y está deliberadamente oculta a los navegadores convencionales",
+        "La Dark Web puede servir como mercado para actividades ilícitas debido al anonimato que ofrece"
+      ],
+      "respuesta": 0,
+      "explicacion": "No todo el contenido de la Dark Web es ilegal; también puede alojar servicios y contenidos legítimos."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones explica MEJOR la importancia de aplicar baselines al automatizar y orquestar operaciones seguras?",
+      "opciones": [
+        "Permiten automatizar prácticamente toda la respuesta a incidentes y eliminar la necesidad de grandes equipos de seguridad",
+        "Establecen objetivos iniciales para automatizar threat hunting y pruebas de penetración sin intervención humana",
+        "Eliminan la necesidad de monitorización continua",
+        "Ayudan a estandarizar configuraciones, facilitan la automatización y reducen el riesgo de incidentes"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las baselines proporcionan configuraciones de referencia consistentes, reducen configuration drift y facilitan una automatización segura."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones explica MEJOR la importancia del workforce multiplier?",
+      "opciones": [
+        "Reduce la necesidad de profesionales cualificados en ciberseguridad",
+        "Sustituye todas las tareas manuales de seguridad por procesos automáticos",
+        "Permite escalar rápidamente las capacidades de seguridad combinando recursos humanos y automatizados",
+        "Limita los incidentes desplegando automáticamente firewalls virtuales"
+      ],
+      "respuesta": 2,
+      "explicacion": "El workforce multiplier amplifica la capacidad del equipo combinando el conocimiento humano con automatización y orquestación."
+    },
+    {
+      "pregunta": "Constance inicia sesión en su banco mediante nombre de usuario y contraseña. ¿Qué método común de autenticación representa?",
+      "opciones": [
+        "Autenticación basada en conocimiento",
+        "Autenticación basada en posesión",
+        "Autenticación biométrica",
+        "Autenticación basada en ubicación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una contraseña es un factor de conocimiento: algo que el usuario sabe."
+    },
+    {
+      "pregunta": "Dado que una arquitectura cloud asigna recursos dinámicamente, ¿qué consideración de seguridad es la MÁS crítica para el componente de computación?",
+      "opciones": [
+        "Limitar el número de máquinas virtuales",
+        "Realizar copias frecuentes de los datos de las cargas de trabajo",
+        "Garantizar el aislamiento entre distintas instancias",
+        "Implementar autenticación fuerte de usuarios"
+      ],
+      "respuesta": 2,
+      "explicacion": "El aislamiento entre instancias evita que una vulnerabilidad o compromiso de una carga afecte a otras cargas alojadas en la infraestructura compartida."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe MEJOR el objetivo principal de los informes externos de cumplimiento?",
+      "opciones": [
+        "Solicitar consentimiento a los interesados",
+        "Informar del estado de cumplimiento al público y a las partes interesadas",
+        "Realizar auditorías internas",
+        "Compartir la información de cumplimiento únicamente con la dirección"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los informes externos comunican el estado y las actividades de cumplimiento a reguladores, stakeholders y otras entidades externas."
+    },
+    {
+      "pregunta": "¿Qué modelo de arquitectura combina recursos cloud y on-premises para ofrecer servicios y aplicaciones?",
+      "opciones": [
+        "Híbrido",
+        "Serverless",
+        "Descentralizado",
+        "Virtualización"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una arquitectura híbrida combina infraestructura local con recursos de cloud."
+    },
+    {
+      "pregunta": "Una empresa situada en una zona inundable contrata un seguro adicional contra inundaciones. ¿Qué método de tratamiento del riesgo está utilizando?",
+      "opciones": [
+        "Aceptación del riesgo",
+        "Mitigación del riesgo",
+        "Evitación del riesgo",
+        "Transferencia del riesgo"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un seguro transfiere parte del impacto financiero del riesgo a una aseguradora."
+    },
+    {
+      "pregunta": "Tras introducir tu usuario y contraseña, debes escanear tu huella dactilar para acceder al entorno de desarrollo. ¿Qué tipo de factor MFA representa la biometría?",
+      "opciones": [
+        "Algún lugar en el que estás",
+        "Algo que sabes",
+        "Algo que eres",
+        "Algo que tienes"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una huella dactilar es un factor inherente o biométrico, es decir, algo que eres."
+    },
+    {
+      "pregunta": "Un bufete exige que todas las modificaciones de sus planes de seguridad sean revisadas por un consejo asesor y aprobadas por un directivo antes de implantarse. ¿De qué proceso es un ejemplo?",
+      "opciones": [
+        "Propiedad",
+        "Gestión de cambios",
+        "Plan de reversión",
+        "Análisis de impacto"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de cambios establece un proceso formal para revisar, autorizar, probar e implantar cambios de forma controlada."
+    },
+    {
+      "pregunta": "¿Qué actividad tiene lugar durante la fase de detección del proceso de respuesta a incidentes?",
+      "opciones": [
+        "Determinar cuánto se tardará en restaurar los sistemas a su funcionamiento normal",
+        "Identificar y clasificar incidentes según su gravedad e impacto",
+        "Analizar evidencias para determinar la causa raíz",
+        "Aislar el dispositivo afectado del resto de la red"
+      ],
+      "respuesta": 1,
+      "explicacion": "La fase de detección identifica posibles incidentes y los clasifica para determinar su gravedad e impacto."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones explica MEJOR la importancia del Root Cause Analysis en respuesta a incidentes?",
+      "opciones": [
+        "Determina qué personas son responsables para iniciar procedimientos legales",
+        "Consiste en eliminar directamente la causa raíz de los sistemas afectados",
+        "Determina únicamente la gravedad y el impacto del incidente",
+        "Ayuda a comprender cómo ocurrió el incidente y cómo evitar que vuelva a producirse"
+      ],
+      "respuesta": 3,
+      "explicacion": "El análisis de causa raíz identifica los factores subyacentes que permitieron el incidente para poder corregirlos y prevenir recurrencias."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones explica MEJOR la importancia de la preservación en respuesta a incidentes?",
+      "opciones": [
+        "Consiste en manipular cuidadosamente las evidencias para mantener su integridad de cara a futuros análisis forenses",
+        "Consiste en documentar únicamente el impacto y las posibles soluciones",
+        "Consiste en mantener actualizados los controles de seguridad",
+        "Consiste en identificar amenazas potenciales contra la infraestructura"
+      ],
+      "respuesta": 0,
+      "explicacion": "La preservación mantiene la integridad de las evidencias mediante su recopilación, etiquetado, almacenamiento y manipulación controlados."
+    },
+    {
+      "pregunta": "El CSO de una empresa quiere un dispositivo que evalúe activamente el tráfico y pueda rechazar o modificar paquetes según las políticas establecidas. ¿Qué tipo de dispositivo describe?",
+      "opciones": [
+        "Network tap",
+        "Acceso remoto",
+        "Dispositivo in-line",
+        "Sistema fail-closed"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un dispositivo in-line se encuentra directamente en la ruta del tráfico y puede inspeccionar, bloquear o modificar paquetes en tiempo real."
+    },
+    {
+      "pregunta": "¿Qué método convierte datos en un valor numérico o alfanumérico de tamaño fijo que no está diseñado para revertirse a su forma original?",
+      "opciones": ["Hashing", "Tokenización", "Cifrado", "Ofuscación"],
+      "respuesta": 0,
+      "explicacion": "El hashing es una función unidireccional que produce un digest de longitud definida y no está diseñado para ser reversible."
+    },
+    {
+      "pregunta": "¿Qué técnica sustituye datos sensibles por datos ficticios pero estructuralmente similares, especialmente en entornos de prueba o no productivos?",
+      "opciones": ["Hashing", "Segmentación", "Cifrado", "Enmascaramiento"],
+      "respuesta": 3,
+      "explicacion": "El data masking oculta o sustituye valores sensibles manteniendo una estructura útil para pruebas y análisis."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre la certificación en el proceso de eliminación de activos NO es cierta?",
+      "opciones": [
+        "Los certificados de eliminación deberían incluir el método, fecha, hora y personal responsable",
+        "La certificación verifica que se aplicaron métodos adecuados de sanitización y destrucción",
+        "La certificación no es necesaria si un empleado supervisó personalmente la destrucción",
+        "La certificación ayuda a reducir el riesgo de acceso o recuperación no autorizada de datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "La supervisión de un empleado no sustituye la necesidad de documentar formalmente la destrucción mediante un certificado de eliminación."
+    },
+    {
+      "pregunta": "D2V dispone de un edificio de respaldo que antes estaba casi vacío y recientemente ha instalado parte del equipamiento necesario para acelerar una futura recuperación. ¿Qué tipo de sitio es ahora?",
+      "opciones": ["Cold site", "Hot site", "Warm site", "Sitio ecológico"],
+      "respuesta": 2,
+      "explicacion": "Un warm site cuenta con parte de la infraestructura y equipamiento ya preparados, aunque necesita trabajo adicional antes de entrar en servicio."
+    },
+    {
+      "pregunta": "¿Qué práctica considera las necesidades futuras de infraestructura para garantizar que los sistemas puedan soportar las cargas esperadas sin degradar rendimiento o disponibilidad?",
+      "opciones": [
+        "Technology forecasting",
+        "Gestión de parches",
+        "Planificación de recuperación ante desastres",
+        "Hardening del sistema"
+      ],
+      "respuesta": 0,
+      "explicacion": "Technology forecasting analiza tendencias y necesidades futuras para anticipar la capacidad e infraestructura que será necesaria."
+    },
+    {
+      "pregunta": "Un sitio web utiliza varios servidores y asigna una funcionalidad distinta a cada uno, de forma que el fallo de un servidor solo elimina una parte del servicio. ¿Qué describe MEJOR este sistema?",
+      "opciones": [
+        "Clustering",
+        "Hot site",
+        "Load balancing",
+        "Procesamiento paralelo"
+      ],
+      "respuesta": 0,
+      "explicacion": "El clustering puede agrupar varios servidores para distribuir funciones y proporcionar mayor tolerancia a fallos."
+    },
+    {
+      "pregunta": "Safeguard Systems quiere cifrar específicamente las comunicaciones de voz sobre IP entre sus oficinas. ¿Qué protocolo debería utilizar?",
+      "opciones": ["DHCP", "ARP", "SRTP", "ICMP"],
+      "respuesta": 2,
+      "explicacion": "SRTP protege tráfico RTP de voz y vídeo proporcionando cifrado, integridad y autenticación."
+    },
+    {
+      "pregunta": "Un cliente informa de que el certificado de un sitio parece no ser válido, pero Timothy no conoce exactamente qué certificado es. ¿Qué puede consultar para comprobar si ha sido revocado?",
+      "opciones": [
+        "Certificate Revocation Lists",
+        "Online Certificate Status Protocol",
+        "Root of Trust",
+        "Certificate Authorities"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una Certificate Revocation List (CRL) contiene certificados que una CA ha revocado antes de su fecha de expiración."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes términos describe una penalización monetaria impuesta por incumplir regulaciones, reglas o acuerdos?",
+      "opciones": ["Tarifa", "Franquicia", "Multa", "Sanción"],
+      "respuesta": 2,
+      "explicacion": "Una multa es una penalización económica impuesta por una autoridad como consecuencia de una infracción."
+    },
+    {
+      "pregunta": "En el modelo Zero Trust, ¿qué componente se encarga principalmente de transmitir correctamente los datos una vez tomada la decisión de acceso?",
+      "opciones": [
+        "Reducción del alcance de amenazas",
+        "Identidad adaptativa",
+        "Control Plane",
+        "Data Plane"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Data Plane ejecuta y transporta el tráfico autorizado, mientras el Control Plane toma las decisiones de acceso."
+    },
+    {
+      "pregunta": "¿Qué término hace referencia a la complejidad de los métodos y operaciones de un actor de amenazas?",
+      "opciones": ["Capacidad", "Financiación", "Sofisticación", "Recursos"],
+      "respuesta": 2,
+      "explicacion": "La sofisticación refleja el grado de complejidad y avance de las tácticas, técnicas y procedimientos utilizados por el actor."
+    },
+    {
+      "pregunta": "¿Qué actor de amenazas es MÁS probable que disponga del presupuesto y los medios para desarrollar exploits únicos tanto de software como de hardware?",
+      "opciones": [
+        "Atacante DDoS",
+        "Banda de ransomware",
+        "Estafador de phishing",
+        "Actor de Estado-nación"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los actores patrocinados por Estados pueden disponer de financiación, personal e infraestructura suficientes para desarrollar capacidades avanzadas y exclusivas."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes actores representa el nivel más alto de capacidad, pudiendo utilizar tanto medios digitales como no digitales para alcanzar sus objetivos?",
+      "opciones": [
+        "Troll",
+        "Advanced Persistent Threat patrocinada por un Estado",
+        "Whistleblower",
+        "Hacker grey hat"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una APT patrocinada por un Estado puede combinar capacidades cibernéticas avanzadas con recursos políticos, de inteligencia o militares."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes escenarios ejemplifica MEJOR un Business Email Compromise (BEC)?",
+      "opciones": [
+        "Un pop-up que solicita datos de una tarjeta de crédito",
+        "Un correo de un compañero pidiendo revisar una factura adjunta",
+        "Un supuesto CEO que solicita urgentemente a finanzas realizar una transferencia bancaria",
+        "Un correo spam que anuncia un premio de lotería"
+      ],
+      "respuesta": 2,
+      "explicacion": "En un BEC, el atacante suele suplantar a un directivo u otra persona de confianza para ordenar pagos o revelar información sensible."
+    },
+    {
+      "pregunta": "Un portal web registra solicitudes como /users/../admin/config en lugar de /users/[usuario]/profile. ¿Qué tipo de ataque intenta realizar probablemente el usuario?",
+      "opciones": [
+        "Inyectar scripts maliciosos",
+        "Explotar un buffer overflow",
+        "Acceder a archivos fuera de los directorios permitidos",
+        "Escalar privilegios"
+      ],
+      "respuesta": 2,
+      "explicacion": "El uso de secuencias como ../ es característico de directory traversal para intentar acceder a rutas fuera del directorio autorizado."
+    },
+    {
+      "pregunta": "Un sitio web recibe búsquedas con caracteres como '=', '%20' y 'OR', seguidas de consultas no autorizadas que exponen datos de empleados. ¿Qué ataque describe MEJOR la situación?",
+      "opciones": [
+        "SQL injection",
+        "Parameter tampering",
+        "Cross-site scripting (XSS)",
+        "Buffer overflow"
+      ],
+      "respuesta": 0,
+      "explicacion": "SQL injection introduce elementos de sintaxis SQL manipulados en entradas para alterar las consultas ejecutadas contra la base de datos."
+    },
+    {
+      "pregunta": "Los archivos de los usuarios han sido cifrados y aparece una cuenta atrás exigiendo criptomonedas a cambio de la clave de descifrado. ¿Qué malware es el MÁS probable?",
+      "opciones": [
+        "Rootkit",
+        "Crypto-malware ransomware",
+        "Adware",
+        "Screen-locking ransomware"
+      ],
+      "respuesta": 1,
+      "explicacion": "El crypto-ransomware cifra los archivos de la víctima y exige un rescate para proporcionar la clave de descifrado."
+    },
+    {
+      "pregunta": "¿Qué técnica de mitigación utiliza herramientas como Nagios o Splunk para observar y comprobar continuamente el funcionamiento de un sistema o red?",
+      "opciones": [
+        "Monitorización",
+        "Segmentación",
+        "Técnicas de hardening",
+        "Patching"
+      ],
+      "respuesta": 0,
+      "explicacion": "La monitorización permite observar continuamente el estado, actividad y seguridad de sistemas y redes."
+    },
+    {
+      "pregunta": "¿Qué opción describe MEJOR un enfoque en el que la infraestructura se aprovisiona y administra mediante scripts y herramientas automatizadas en lugar de procesos manuales?",
+      "opciones": [
+        "Arquitectura serverless",
+        "Microservicios",
+        "IaC",
+        "Red air-gapped"
+      ],
+      "respuesta": 2,
+      "explicacion": "Infrastructure as Code (IaC) permite definir, desplegar y gestionar infraestructura mediante código."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC quiere que los administradores puedan gestionar varios servidores a través de un punto intermedio seguro sin conectarse directamente a cada uno. ¿Qué solución se ajusta MEJOR?",
+      "opciones": ["Jump server", "Proxy server", "VPN", "Firewall"],
+      "respuesta": 0,
+      "explicacion": "Un jump server actúa como punto de acceso administrativo controlado desde el que se gestionan otros sistemas internos."
+    },
+    {
+      "pregunta": "Para creaciones intelectuales como diseños originales u obras literarias, ¿qué mecanismo permite a sus autores conservar derechos y recibir reconocimiento o beneficios económicos?",
+      "opciones": [
+        "Activar autenticación de dos factores",
+        "Implementar cifrado de extremo a extremo",
+        "Protección mediante copyright",
+        "Realizar auditorías de seguridad periódicas"
+      ],
+      "respuesta": 2,
+      "explicacion": "El copyright protege legalmente las obras originales y permite a sus autores controlar su reproducción, distribución y licenciamiento."
+    },
+    {
+      "pregunta": "Para cumplir leyes internacionales de protección de datos y proteger información confidencial de clientes, ¿qué estrategia sería la MEJOR para un bufete multinacional?",
+      "opciones": [
+        "Utilizar únicamente correo electrónico cifrado de extremo a extremo",
+        "Implementar prácticas de tratamiento de datos conformes con GDPR",
+        "Obtener únicamente una certificación ISO 27001",
+        "Almacenar todos los datos en servidores locales"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las prácticas conformes con GDPR proporcionan un marco jurídico y operativo específico para proteger datos personales de personas sujetas a esta regulación."
+    },
+    {
+      "pregunta": "Una empresa de comercio electrónico quiere entregar al equipo de marketing un conjunto de datos con estructura similar a la base real, pero sin mostrar nombres ni tarjetas de crédito reales. ¿Qué método es el MÁS adecuado?",
+      "opciones": ["IDS", "Cifrado de datos", "Ofuscación de datos", "RBAC"],
+      "respuesta": 2,
+      "explicacion": "La ofuscación modifica los datos para ocultar sus valores reales manteniendo una estructura que puede seguir utilizándose para análisis."
+    },
+    {
+      "pregunta": "Enrique diseña una defensa frente a ransomware después de que otra empresa sufriera exfiltración de datos y compromiso de sus copias de seguridad. ¿Qué aspecto de los backups debería considerar especialmente?",
+      "opciones": [
+        "Compresión de archivos",
+        "Duplicación de backups",
+        "Cifrar los backups",
+        "Programar backups"
+      ],
+      "respuesta": 2,
+      "explicacion": "Cifrar las copias de seguridad protege su confidencialidad si un atacante consigue acceder a ellas o exfiltrarlas."
+    },
+    {
+      "pregunta": "¿Cuál sería el MEJOR enfoque para aumentar la seguridad de los routers de una organización?",
+      "opciones": [
+        "Implementar ACL para filtrar el tráfico",
+        "Habilitar SNMPv1 por compatibilidad",
+        "Cambiar frecuentemente las direcciones IP de los routers",
+        "Habilitar Telnet para administración remota"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las ACL permiten autorizar o denegar tráfico según reglas definidas y reducen la exposición de los routers."
+    },
+    {
+      "pregunta": "Dion Training acaba de desplegar un servidor web. ¿Qué práctica sería la MÁS efectiva para su hardening?",
+      "opciones": [
+        "Identificar únicamente software y hardware que se aproximen al fin de vida",
+        "Aplicar el principio de mínimo privilegio y una buena gestión de parches",
+        "Aumentar almacenamiento y número de servidores",
+        "Crear una cuenta de invitado para todos los usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "El mínimo privilegio reduce permisos innecesarios y el patch management corrige vulnerabilidades conocidas, dos medidas fundamentales de hardening."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe MEJOR los controles compensatorios en seguridad de la información?",
+      "opciones": [
+        "Parches de software para corregir vulnerabilidades conocidas",
+        "Regulaciones obligatorias para todas las empresas",
+        "Herramientas principales de gestión de riesgos",
+        "Medidas alternativas para mitigar un riesgo cuando el control estándar no es viable"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un control compensatorio proporciona una protección alternativa cuando el control recomendado no puede implantarse directamente."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes representa un formato válido para un identificador CVE?",
+      "opciones": [
+        "2022-12345",
+        "10.0-AV:N/AC:L/PR:N/UI:N",
+        "22-0123",
+        "2022-Vulnerability Name"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los identificadores CVE utilizan un año y un número secuencial, normalmente expresados con el prefijo CVE, por ejemplo CVE-2022-12345."
+    },
+    {
+      "pregunta": "¿Qué aspecto es MÁS importante para determinar si una nueva herramienta de automatización de seguridad podrá mantenerse y recibir soporte de forma continuada dentro de la organización?",
+      "opciones": [
+        "Presencia del proveedor en el mercado",
+        "Popularidad de la herramienta",
+        "Capacidades de integración",
+        "Disponibilidad de personal cualificado"
+      ],
+      "respuesta": 3,
+      "explicacion": "La organización necesita personal con los conocimientos necesarios para mantener, solucionar problemas y actualizar la herramienta."
+    },
+    {
+      "pregunta": "Una herramienta de cracking descifra fácilmente muchas contraseñas porque los usuarios emplean palabras y patrones predecibles. ¿Cuál es el MEJOR enfoque para dificultar su descifrado?",
+      "opciones": [
+        "Aumentar la frecuencia obligatoria de cambio de contraseña",
+        "Cambiar el algoritmo de cifrado utilizado para almacenar las contraseñas",
+        "Exigir mayor complejidad en las contraseñas",
+        "Implementar MFA"
+      ],
+      "respuesta": 2,
+      "explicacion": "Aumentar la complejidad y reducir patrones predecibles dificulta los ataques basados en diccionarios y reglas comunes."
+    },
+    {
+      "pregunta": "Muchos empleados llevan más de un año usando la misma contraseña. ¿Qué estrategia permite pedirles regularmente que actualicen sus credenciales?",
+      "opciones": [
+        "Implementar autenticación biométrica",
+        "Establecer una política de expiración de contraseñas",
+        "Impartir formación periódica de seguridad",
+        "Aumentar los requisitos de complejidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una política de expiración obliga a cambiar la contraseña cuando alcanza una antigüedad definida."
+    },
+    {
+      "pregunta": "Una empresa utiliza muchas aplicaciones con credenciales diferentes y sufre numerosos tickets por contraseñas olvidadas. ¿Qué solución aliviaría MEJOR la carga de recordar múltiples contraseñas y mejoraría su seguridad?",
+      "opciones": [
+        "Adoptar un gestor de contraseñas aprobado por la empresa",
+        "Pedir a los empleados que anoten sus contraseñas",
+        "Aumentar el periodo de expiración de las contraseñas",
+        "Desplegar un firewall stateful"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un gestor de contraseñas puede almacenar de forma segura credenciales únicas y fuertes, reduciendo la reutilización y la fatiga de contraseñas."
+    },
+    {
+      "pregunta": "Los empleados utilizan un dispositivo físico conectado al ordenador y pulsan un botón para obtener acceso sin introducir una contraseña. ¿Qué método de autenticación passwordless están utilizando?",
+      "opciones": [
+        "Autenticación mediante PIN",
+        "Autenticación mediante token hardware",
+        "Autenticación biométrica",
+        "Autenticación cognitiva"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los tokens hardware, como determinadas llaves USB de seguridad, proporcionan autenticación mediante un dispositivo físico."
+    },
+    {
+      "pregunta": "Mary busca un dispositivo que pueda transportar y que, al insertarlo o acercarlo a su ordenador o teléfono, proporcione un nivel elevado de garantía de autenticación. ¿Qué está considerando?",
+      "opciones": [
+        "Certificados basados en software",
+        "Escáneres de códigos QR",
+        "Tarjetas biométricas",
+        "Llaves físicas de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las llaves físicas de seguridad utilizan hardware, normalmente USB o NFC, para proporcionar autenticación fuerte."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC quiere utilizar una aplicación en el smartphone de los empleados que genere un código único y temporal para verificar su identidad. ¿Qué método describe MEJOR esta solución?",
+      "opciones": [
+        "Autenticación biométrica",
+        "Llaves físicas de seguridad",
+        "Tokens de autenticación por software",
+        "Contraseñas estáticas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los software tokens generan códigos temporales, como TOTP, mediante una aplicación instalada en un dispositivo."
+    },
+    {
+      "pregunta": "¿Qué metodología divide la creación y mantenimiento de software en fases diferenciadas y permite integrar la seguridad a lo largo de todo el proceso?",
+      "opciones": ["CI/CD", "RAD", "SDLC", "Metodología Scrum"],
+      "respuesta": 2,
+      "explicacion": "El Software Development Life Cycle (SDLC) estructura el desarrollo en fases y permite incorporar controles de seguridad desde el diseño hasta el mantenimiento."
+    },
+    {
+      "pregunta": "Al realizar cambios en un sistema de TI, ¿qué práctica destaca la importancia de hacer una prueba previa de los cambios más importantes antes de desplegarlos completamente?",
+      "opciones": [
+        "Planificación de continuidad del negocio",
+        "Política de segmentación de red",
+        "Protocolo de respuesta a incidentes",
+        "Prácticas de gestión de cambios"
+      ],
+      "respuesta": 3,
+      "explicacion": "La gestión de cambios promueve que las modificaciones importantes sean probadas, revisadas y autorizadas antes de un despliegue general."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe MEJOR un playbook de ciberseguridad?",
+      "opciones": [
+        "Una lista de analistas junior y sus tareas",
+        "Un procedimiento operativo estándar basado en datos para responder a ciberamenazas",
+        "Un historial de todos los ciberataques sufridos por una organización",
+        "Un manual exclusivamente para instalar un SIEM"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un playbook o runbook define pasos repetibles y estructurados para detectar, investigar y responder a tipos concretos de amenazas."
+    },
+    {
+      "pregunta": "¿Qué aspecto NO suele formar parte de los procedimientos de gestión de claves dentro de un estándar de cifrado?",
+      "opciones": [
+        "Actualizar periódicamente el software para soportar nuevos métodos de cifrado",
+        "Procedimientos para revocar claves comprometidas",
+        "Almacenamiento y rotación de claves",
+        "Generación y distribución de claves"
+      ],
+      "respuesta": 0,
+      "explicacion": "La generación, distribución, almacenamiento, rotación y revocación son actividades de gestión de claves; actualizar software es una tarea distinta."
+    },
+    {
+      "pregunta": "¿Qué término describe MEJOR el proceso de detectar y documentar amenazas potenciales, como malware, amenazas internas o políticas inadecuadas, para orientar la gestión del riesgo?",
+      "opciones": [
+        "Threat intelligence",
+        "Identificación de riesgos",
+        "Evaluación de vulnerabilidades",
+        "Revisión de políticas"
+      ],
+      "respuesta": 1,
+      "explicacion": "La identificación de riesgos reconoce y documenta amenazas y otras condiciones que podrían afectar negativamente a la organización."
+    },
+    {
+      "pregunta": "¿Qué aspecto NO suele incluirse en un Business Partnership Agreement (BPA) entre dos entidades colaboradoras?",
+      "opciones": [
+        "Estrategias de salida",
+        "Acuerdos de reparto de beneficios",
+        "Propiedad de la propiedad intelectual",
+        "Responsabilidades sobre actualizaciones de software"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las responsabilidades técnicas de actualización de software suelen detallarse en acuerdos de servicio o soporte, no en un BPA general."
+    },
+    {
+      "pregunta": "En un modelo Zero Trust, ¿qué principio describe MEJOR cómo se concede acceso a los recursos?",
+      "opciones": [
+        "Trust but Verify",
+        "Confianza implícita",
+        "Role-based Access Control",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 3,
+      "explicacion": "Zero Trust aplica el mínimo privilegio y concede únicamente el acceso necesario, verificando continuamente cada solicitud."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el proceso de analizar y prever los efectos de un cambio propuesto teniendo en cuenta su repercusión en distintas áreas de una organización o sistema?",
+      "opciones": [
+        "Control de versiones",
+        "Proceso de aprobación",
+        "Análisis de impacto",
+        "Plan de reversión"
+      ],
+      "respuesta": 2,
+      "explicacion": "El análisis de impacto estudia las consecuencias potenciales de un cambio antes de su implantación."
+    },
+    {
+      "pregunta": "¿Cuál es una posible consecuencia técnica de no actualizar aplicaciones legacy en un entorno seguro?",
+      "opciones": [
+        "Mayor rendimiento del sistema",
+        "Mayor compatibilidad con sistemas modernos",
+        "Cumplimiento automático de nuevas políticas de seguridad",
+        "Mayor riesgo de vulnerabilidades de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las aplicaciones legacy sin actualizar pueden conservar vulnerabilidades conocidas sin parchear y no ser compatibles con controles modernos."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de seguridad de utilizar una longitud de clave mayor en algoritmos de cifrado?",
+      "opciones": [
+        "Aumenta la dificultad de los ataques de fuerza bruta",
+        "Mejora la compatibilidad con sistemas legacy",
+        "Simplifica la gestión de claves",
+        "Acelera el cifrado y descifrado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una clave más larga aumenta enormemente el espacio de claves y, por tanto, el esfuerzo necesario para probar todas las combinaciones posibles."
+    },
+    {
+      "pregunta": "¿Cuál es una consecuencia habitual de un ataque Cross-site scripting (XSS)?",
+      "opciones": [
+        "Denegación de servicio a usuarios legítimos",
+        "Ejecución de comandos no autorizados directamente en el servidor",
+        "Modificación directa de registros de la base de datos",
+        "Robo de datos de sesión del usuario"
+      ],
+      "respuesta": 3,
+      "explicacion": "XSS puede ejecutar scripts en el navegador de la víctima y robar cookies, tokens y otros datos de sesión."
+    },
+    {
+      "pregunta": "Ahmed abre un archivo adjunto malicioso y poco después sus archivos quedan inaccesibles mientras aparece una petición de pago en criptomonedas. El malware se propaga además a otros sistemas de la organización. ¿Qué tipo de malware es el MÁS probable?",
+      "opciones": ["Ransomware", "Adware", "Worm", "Spyware"],
+      "respuesta": 0,
+      "explicacion": "La característica principal descrita es el cifrado o bloqueo de los datos acompañado de una exigencia de rescate, propio del ransomware."
+    },
+    {
+      "pregunta": "¿Qué técnica de mitigación es más eficaz para aislar diferentes componentes de una red y evitar que una brecha se propague?",
+      "opciones": [
+        "Segmentación de red",
+        "VPN",
+        "Cifrado de datos",
+        "Software antivirus"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación divide la red en zonas separadas y limita el movimiento lateral de un atacante entre ellas."
+    },
+    {
+      "pregunta": "Una organización contrata a una empresa externa de ciberseguridad para simular, con autorización, un ataque real contra su red, explotar vulnerabilidades y entregar un informe con los fallos descubiertos. ¿Qué actividad de seguridad describe el escenario?",
+      "opciones": [
+        "Escaneo de vulnerabilidades",
+        "Prueba de penetración",
+        "Formación de concienciación en seguridad",
+        "Auditoría de cumplimiento"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una prueba de penetración intenta explotar de forma controlada vulnerabilidades para comprobar qué podría conseguir un atacante real."
+    }
+  ]
+}
