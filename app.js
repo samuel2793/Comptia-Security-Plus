@@ -139,16 +139,16 @@ const SUMMARIES = [
   {
     id: "resumen-dominio-4",
     number: "Dominio 4",
-    title: "Security Operations",
+    title: "Operaciones de seguridad",
     file: "Resumenes y chuletas/Dominio 4 - Security Operations.md",
-    available: false
+    available: true
   },
   {
     id: "resumen-dominio-5",
     number: "Dominio 5",
-    title: "Security Program Management and Oversight",
+    title: "Gestión y supervisión del programa de seguridad",
     file: "Resumenes y chuletas/Dominio 5 - Security Program Management and Oversight.md",
-    available: false
+    available: true
   },
   {
     id: "resumen-simulacro-2026",
