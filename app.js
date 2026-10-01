@@ -125,9 +125,9 @@ const SUMMARIES = [
   {
     id: "resumen-dominio-2",
     number: "Dominio 2",
-    title: "Threats, Vulnerabilities, and Mitigations",
+    title: "Amenazas, vulnerabilidades y mitigaciones",
     file: "Resumenes y chuletas/Dominio 2 - Threats, Vulnerabilities, and Mitigations.md",
-    available: false
+    available: true
   },
   {
     id: "resumen-dominio-3",
