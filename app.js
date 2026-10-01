@@ -120,9 +120,9 @@ const SUMMARIES = [
   {
     id: "resumen-dominio-1",
     number: "Dominio 1",
-    title: "General Security Concepts",
+    title: "Conceptos generales de seguridad",
     file: "Resumenes y chuletas/Dominio 1 - General Security Concepts.md",
-    available: false
+    available: true
   },
   {
     id: "resumen-dominio-2",
