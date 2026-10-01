@@ -1,10 +1,10 @@
 {
   "grupos": [
     {
-      "id": "ejemplo-basico",
-      "titulo": "Ejemplo basico Comptia Security+",
+      "id": "udemy-securityplus",
+      "titulo": "Udemy securityplus",
       "baterias": [
-        "tests/ejemplos/ejemplo-basico.json"
+        "tests/udemy/securityplus/1.json"
       ]
     }
   ]
