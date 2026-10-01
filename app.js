@@ -84,14 +84,16 @@ let activeDomain = null;
 let activeLessons = [];
 let testBatteries = [];
 let currentTestRun = null;
+let activeTestSelection = null;
 let officialMockRun = null;
 let officialMockTimer = null;
 let testPopoverOutsideHandler = null;
 let testDomainResizeHandler = null;
 const textEncoder = new TextEncoder();
 const baseUrl = new URL(".", document.baseURI);
-const OFFICIAL_PASSING_SCORE = 700;
-const OFFICIAL_SCORE_MAX = 1000;
+const OFFICIAL_PASSING_SCORE = 750;
+const OFFICIAL_SCORE_MIN = 100;
+const OFFICIAL_SCORE_MAX = 900;
 const TEST_ORIGIN_ORDER = ["oficial", "gpt-2026", "udemy", "github", "otros"];
 const TEST_ORIGIN_LABELS = {
   oficial: "Oficial",
@@ -182,6 +184,7 @@ function parseInline(value, basePath, options = {}) {
 
   html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
   html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, "$1<em>$2</em>");
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
     const url = href.startsWith("http") || href.startsWith("#") ? href : siteUrl(`${basePath}/${href}`);
     const attributes = options.xhtml ? "" : ' target="_blank" rel="noopener noreferrer"';
@@ -301,6 +304,12 @@ function renderMarkdown(markdown, basePath, options = {}) {
         index += 1;
       }
       blocks.push(`<div class="table-wrap"><table><thead><tr>${headers.map((cell) => `<th>${parseInline(cell, basePath, options)}</th>`).join("")}</tr></thead><tbody>${rows.map((row) => `<tr>${headers.map((_, cellIndex) => `<td>${parseInline(row[cellIndex] || "", basePath, options)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`);
+      continue;
+    }
+
+    if (/^(?:(?:\*\s*){3,}|(?:-\s*){3,}|(?:_\s*){3,})$/.test(trimmed)) {
+      blocks.push("<hr>");
+      index += 1;
       continue;
     }
 
@@ -1071,7 +1080,7 @@ function renderTestHome(errorMessage = "") {
   ];
   const originControls = orderedOrigins.map((origin) => `
     <label class="origin-toggle" data-origin="${escapeHtml(origin.id)}">
-      <input type="checkbox" name="testOriginOption" value="${escapeHtml(origin.id)}" checked>
+      <input type="checkbox" name="testOriginOption" value="${escapeHtml(origin.id)}" ${!activeTestSelection || activeTestSelection.originIds.includes(origin.id) ? "checked" : ""}>
       <span class="origin-toggle-icon" aria-hidden="true">${escapeHtml(origin.icon)}</span>
       <span class="origin-toggle-copy">
         <span class="origin-toggle-title">${escapeHtml(origin.title)}</span>
@@ -1081,8 +1090,8 @@ function renderTestHome(errorMessage = "") {
     </label>
   `).join("");
   const hiddenBatteryInputs = orderedOrigins.flatMap((origin) => (
-    origin.items.map(({ index }) => (
-      `<input type="checkbox" name="testBatteryOption" value="${index}" checked hidden data-origin-id="${escapeHtml(origin.id)}">`
+    origin.items.map(({ battery, index }) => (
+      `<input type="checkbox" name="testBatteryOption" value="${index}" ${!activeTestSelection || activeTestSelection.batteryIds.includes(battery.id) ? "checked" : ""} hidden data-origin-id="${escapeHtml(origin.id)}">`
     ))
   )).join("");
 
@@ -1091,9 +1100,9 @@ function renderTestHome(errorMessage = "") {
       <div class="test-shell">
         <section class="test-topbar">
           <div class="test-heading">
-            <span class="test-kicker">Simulador CC</span>
+            <span class="test-kicker">Simulador CompTIA Security+</span>
             <h1>Tests</h1>
-            <p>Sesion continua, correccion inmediata y combinacion libre de baterias en una interfaz pensada para practicar sin ruido.</p>
+            <p>Practica por dominio y origen. El progreso y las respuestas se conservan al cambiar de seccion; puedes consultar el historial.</p>
           </div>
 
           <div class="test-selector">
@@ -1104,9 +1113,9 @@ function renderTestHome(errorMessage = "") {
             </label>
 
             <label class="field-label">
-              Origenes activos
+              Orígenes activos
               <div id="testOriginPicker" class="origin-picker">
-                ${originControls || '<p class="test-meta">No hay origenes cargados.</p>'}
+                ${originControls || '<p class="test-meta">No hay orígenes cargados.</p>'}
               </div>
               <div id="testBatteryPicker" class="hidden-battery-picker" aria-hidden="true">${hiddenBatteryInputs}</div>
             </label>
@@ -1114,15 +1123,16 @@ function renderTestHome(errorMessage = "") {
         </section>
 
         ${errorMessage ? `<div class="error-state">${escapeHtml(errorMessage)}</div>` : ""}
+  ${currentTestRun ? `<p class="test-resume-notice" role="status">${currentTestRun.completed ? `Resultado conservado: ${currentTestRun.answers.length} respuestas guardadas. Pulsa Reiniciar test para empezar otro intento.` : `Sesión conservada: pregunta ${currentTestRun.position + 1}/${currentTestRun.order.length}, ${currentTestRun.answers.length} respuestas guardadas. Pulsa Reiniciar test para empezar de nuevo.`}</p>` : ""}
 
         <section class="test-dashboard">
           <div class="test-stat test-stat-emphasis">
             <span class="test-stat-value">${orderedOrigins.length}</span>
-            <span class="test-stat-label">Origenes cargados</span>
+            <span class="test-stat-label">Orígenes cargados</span>
           </div>
           <div class="test-stat">
             <span class="test-stat-value">${testBatteries.length}</span>
-            <span class="test-stat-label">Baterias disponibles</span>
+            <span class="test-stat-label">Baterías disponibles</span>
           </div>
           <div class="test-stat">
             <span class="test-stat-value">${totalQuestions}</span>
@@ -1130,11 +1140,11 @@ function renderTestHome(errorMessage = "") {
           </div>
           <div class="test-stat">
             <span class="test-stat-value">${OFFICIAL_PASSING_SCORE}/${OFFICIAL_SCORE_MAX}</span>
-            <span class="test-stat-label">Escala oficial publicada</span>
+            <span class="test-stat-label">Umbral de aprobado</span>
           </div>
         </section>
 
-        <p class="test-official-note">ISC2 publica para Certified in Cybersecurity un umbral de aprobado de ${OFFICIAL_PASSING_SCORE} sobre ${OFFICIAL_SCORE_MAX}. La puntuacion mostrada aqui es solo una equivalencia orientativa del simulador.</p>
+      <p class="test-official-note">CompTIA Security+ exige 750 puntos en la escala oficial de 100 a 900. La equivalencia lineal del simulador es orientativa y no predice la puntuación escalada del examen.</p>
 
         <div id="testMount"></div>
       </div>
@@ -1183,7 +1193,7 @@ function renderTestHome(errorMessage = "") {
   function updateDomainOptions() {
     if (!domainFilter) return;
 
-    const selectedValue = selectedTestDomain();
+    const selectedValue = selectedTestDomain() || activeTestSelection?.domainId || "";
     const counts = selectedDomainCounts();
     const totalSelectedQuestions = Object.values(counts).reduce((sum, count) => sum + count, 0);
     const useCompactLabels = window.matchMedia("(max-width: 560px)").matches;
@@ -1219,7 +1229,12 @@ function renderTestHome(errorMessage = "") {
     syncBatterySelectionsFromOrigins();
     updateOriginCards();
     updateDomainOptions();
-    startSelectedBatteries();
+        if (currentTestRun) {
+          if (currentTestRun.completed) renderTestResult();
+          else renderCurrentQuestion();
+        } else {
+          startSelectedBatteries();
+        }
   }
 }
 
@@ -1241,7 +1256,8 @@ function startBattery(battery) {
     position: 0,
     correct: 0,
     answers: [],
-    currentAnswer: null
+    currentAnswer: null,
+    completed: false
   };
 
   renderCurrentQuestion();
@@ -1257,7 +1273,8 @@ function batteryInputs() {
 }
 
 function selectedTestDomain() {
-  const value = document.querySelector("#testDomainFilter")?.value || "";
+  const domainFilter = document.querySelector("#testDomainFilter");
+  const value = domainFilter ? domainFilter.value : activeTestSelection?.domainId || "";
   return TEST_DOMAIN_OPTIONS.some((domain) => domain.id === value) ? value : "";
 }
 
@@ -1284,6 +1301,12 @@ function startSelectedBatteries() {
   const batteries = selectedBatteries();
   const domainId = selectedTestDomain();
   const domainLabel = TEST_DOMAIN_OPTIONS.find((domain) => domain.id === domainId)?.label || "";
+  activeTestSelection = {
+    originIds: [...document.querySelectorAll('input[name="testOriginOption"]:checked')].map((input) => input.value),
+    batteryIds: batteries.map((battery) => battery.id),
+    domainId
+  };
+
   if (!batteries.length) {
     const mount = document.querySelector("#testMount");
     if (mount) {
@@ -1337,7 +1360,9 @@ function scoreSnapshot(run) {
   const answered = run.answers.length;
   const incorrect = answered - run.correct;
   const percent = answered ? Math.round((run.correct / answered) * 100) : 0;
-  const estimatedScaled = Math.round((percent / 100) * OFFICIAL_SCORE_MAX);
+  const estimatedScaled = answered
+    ? OFFICIAL_SCORE_MIN + Math.round((percent / 100) * (OFFICIAL_SCORE_MAX - OFFICIAL_SCORE_MIN))
+    : null;
   const remaining = run.order.length - answered;
 
   return {
@@ -1346,8 +1371,31 @@ function scoreSnapshot(run) {
     percent,
     estimatedScaled,
     remaining,
-    passStatus: estimatedScaled >= OFFICIAL_PASSING_SCORE
+    passStatus: estimatedScaled !== null && estimatedScaled >= OFFICIAL_PASSING_SCORE
   };
+}
+
+function renderAnswerHistory(run) {
+  const entries = run.answers.map((answer, index) => {
+    const question = run.battery.preguntas[answer.questionIndex];
+    const selectedAnswer = question.opciones[answer.selected] || "Sin respuesta";
+    const correctAnswer = question.opciones[answerIndex(question)];
+
+    return `
+      <li class="test-history-item ${answer.correct ? "correct" : "incorrect"}">
+        <strong>Pregunta ${index + 1}: ${escapeHtml(question.pregunta)}</strong>
+        <span>Tu respuesta: ${escapeHtml(selectedAnswer)}</span>
+        ${answer.correct ? "" : `<span>Respuesta correcta: ${escapeHtml(correctAnswer)}</span>`}
+      </li>
+    `;
+  }).join("");
+
+  return `
+    <details class="test-history">
+      <summary>Historial de respuestas (${run.answers.length})</summary>
+      ${entries ? `<ol>${entries}</ol>` : "<p>Aún no has respondido preguntas.</p>"}
+    </details>
+  `;
 }
 
 function renderCurrentQuestion() {
@@ -1404,7 +1452,7 @@ function renderCurrentQuestion() {
       <div class="test-main">
         <article class="question-card${answered ? (isCorrect ? " correct" : " incorrect") : ""}">
           <div class="question-eyebrow">
-            <span class="question-chip">Sesion activa</span>
+            <span class="question-chip">Sesión activa</span>
             ${questionDomainLabel ? `<span class="question-chip muted">${escapeHtml(questionDomainLabel)}</span>` : ""}
             ${battery.descripcion ? `<span class="question-chip muted">${escapeHtml(battery.descripcion)}</span>` : ""}
           </div>
@@ -1412,7 +1460,7 @@ function renderCurrentQuestion() {
           <div class="option-list">${options}</div>
           ${feedback}
           <div class="test-actions">
-            <button id="restartTestButton" class="action-button" type="button">Reiniciar</button>
+            <button id="restartTestButton" class="action-button" type="button">Reiniciar test</button>
             ${answered ? `<button id="nextQuestionButton" class="action-button" type="button">${position + 1 === order.length ? "Ver resultado" : "Siguiente"}</button>` : ""}
           </div>
         </article>
@@ -1432,10 +1480,11 @@ function renderCurrentQuestion() {
             <span class="test-stat-label">Porcentaje de acierto</span>
           </div>
           <div class="test-stat test-stat-inline test-stat-highlight">
-            <span class="test-stat-value">${score.estimatedScaled}/${OFFICIAL_SCORE_MAX}</span>
+            <span class="test-stat-value">${score.estimatedScaled ?? "--"}/${OFFICIAL_SCORE_MAX}</span>
             <span class="test-stat-label">Equivalencia orientativa</span>
           </div>
-          <p class="test-score-panel-copy">Aprobado oficial publicado: ${OFFICIAL_PASSING_SCORE}/${OFFICIAL_SCORE_MAX}. Esta conversion es aproximada y solo sirve como referencia durante el simulador.</p>
+          ${renderAnswerHistory(currentTestRun)}
+          <p class="test-score-panel-copy">Umbral CompTIA Security+: ${OFFICIAL_PASSING_SCORE}/${OFFICIAL_SCORE_MAX}. La estimación lineal solo es una referencia; la puntuación oficial es escalada.</p>
         </aside>
       </div>
     </section>
@@ -1468,6 +1517,7 @@ function nextQuestion() {
   if (!currentTestRun) return;
 
   if (currentTestRun.position + 1 >= currentTestRun.order.length) {
+    currentTestRun.completed = true;
     renderTestResult();
     return;
   }
@@ -1497,9 +1547,9 @@ function renderTestResult() {
             <span class="question-chip muted">${escapeHtml(battery.procedencia || battery.titulo)}</span>
           </div>
           <p class="question-title">${escapeHtml(battery.titulo)}</p>
-          <p class="score-box">Resultado final: ${correct} / ${order.length} - ${score.percent}% - estimacion ${score.estimatedScaled}/${OFFICIAL_SCORE_MAX}</p>
+          <p class="score-box">Resultado final: ${correct} / ${order.length} - ${score.percent}% - estimación ${score.estimatedScaled ?? "--"}/${OFFICIAL_SCORE_MAX}</p>
           <div class="test-actions">
-            <button id="restartTestButton" class="action-button" type="button">Repetir aleatorio</button>
+            <button id="restartTestButton" class="action-button" type="button">Reiniciar test</button>
           </div>
         </section>
         <aside class="test-score-panel">
@@ -1517,10 +1567,11 @@ function renderTestResult() {
             <span class="test-stat-label">Porcentaje</span>
           </div>
           <div class="test-stat test-stat-inline test-stat-highlight">
-            <span class="test-stat-value">${score.estimatedScaled}/${OFFICIAL_SCORE_MAX}</span>
+            <span class="test-stat-value">${score.estimatedScaled ?? "--"}/${OFFICIAL_SCORE_MAX}</span>
             <span class="test-stat-label">Equivalencia orientativa</span>
           </div>
-          <p class="test-score-panel-copy">Aprobado oficial publicado por ISC2 para CC: ${OFFICIAL_PASSING_SCORE}/${OFFICIAL_SCORE_MAX}. El examen real no te devuelve una puntuacion numerica exacta.</p>
+            ${renderAnswerHistory(currentTestRun)}
+            <p class="test-score-panel-copy">CompTIA Security+ utiliza una escala de 100 a 900; 750 es el umbral de aprobado. El porcentaje del test no permite calcular la puntuación oficial exacta.</p>
         </aside>
       </div>
     </section>
@@ -1900,7 +1951,7 @@ h5 {
 }
 
 h1 {
-  color: #0d5268;
+  color: #8f2028;
 }
 
 img {
