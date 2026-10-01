@@ -1,0 +1,10 @@
+node_modules/
+www/
+
+# Capacitor/Android build outputs
+android/.gradle/
+android/**/build/
+android/local.properties
+
+# OS/editor files
+.DS_Store

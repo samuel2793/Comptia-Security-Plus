@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ISC2 CC</string>
+    <string name="title_activity_main">ISC2 CC</string>
+    <string name="package_name">com.isc2cc.app</string>
+    <string name="custom_url_scheme">com.isc2cc.app</string>
+</resources>

@@ -1,0 +1,11 @@
+{
+  "grupos": [
+    {
+      "id": "ejemplo-basico",
+      "titulo": "Ejemplo basico Comptia Security+",
+      "baterias": [
+        "tests/ejemplos/ejemplo-basico.json"
+      ]
+    }
+  ]
+}

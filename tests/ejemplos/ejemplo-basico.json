@@ -1,0 +1,41 @@
+{
+  "id": "ejemplo-basico",
+  "titulo": "Ejemplo basico Comptia Security+",
+  "procedencia": "Ejemplo interno",
+  "descripcion": "Bateria corta de ejemplo para validar el formato JSON de tests.",
+  "preguntas": [
+    {
+      "pregunta": "Que propiedad de la triada CIA busca que la informacion solo sea accesible por personas autorizadas?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 0,
+      "explicacion": "La confidencialidad limita el acceso a la informacion a usuarios, procesos o sistemas autorizados."
+    },
+    {
+      "pregunta": "Que control ayuda a reducir el impacto si una cuenta de usuario se ve comprometida?",
+      "opciones": [
+        "Minimo privilegio",
+        "Exposicion publica de datos",
+        "Eliminar los logs",
+        "Reutilizar contrasenas"
+      ],
+      "respuesta": "Minimo privilegio",
+      "explicacion": "El minimo privilegio concede solo los permisos necesarios para realizar una tarea."
+    },
+    {
+      "pregunta": "Que archivo debe actualizarse para que GitHub Pages cargue automaticamente una nueva bateria JSON en la carpeta tests?",
+      "opciones": [
+        "README.md",
+        "tests/manifest.json",
+        "portada.jpg",
+        "index.html"
+      ],
+      "respuesta": 1,
+      "explicacion": "GitHub Pages no permite listar carpetas desde JavaScript, por eso el manifiesto indica que baterias debe cargar la web."
+    }
+  ]
+}

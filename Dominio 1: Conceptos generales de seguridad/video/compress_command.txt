@@ -1,0 +1,6 @@
+ffmpeg -i "cc - Obrizum.mp4" \
+  -vf "scale='min(960,iw)':-2,fps=24" \
+  -c:v libx264 -preset slow -crf 32 \
+  -c:a aac -b:a 48k -ac 1 \
+  -movflags +faststart \
+  "cc - Obrizum.ligero.mp4"
