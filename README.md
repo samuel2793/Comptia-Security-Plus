@@ -1,1 +1,1 @@
-# ISC2-CC
+# Comptia Security Plus
