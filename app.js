@@ -132,9 +132,9 @@ const SUMMARIES = [
   {
     id: "resumen-dominio-3",
     number: "Dominio 3",
-    title: "Security Architecture",
+    title: "Arquitectura de seguridad",
     file: "Resumenes y chuletas/Dominio 3 - Security Architecture.md",
-    available: false
+    available: true
   },
   {
     id: "resumen-dominio-4",
