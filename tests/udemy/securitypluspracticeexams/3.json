@@ -1,0 +1,902 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams - Tercer Test",
+  "procedencia": "CompTIA Security+ (SY0-701) Practice Exams, creado por TIA Training y Andrew Ramdayal",
+  "descripcion": "Batería de 90 preguntas de práctica para CompTIA Security+ SY0-701 sobre controles de seguridad, gestión de riesgos, amenazas, arquitectura, identidad, continuidad, proveedores y seguridad de aplicaciones.",
+  "preguntas": [
+    {
+      "pregunta": "Para mejorar la postura de seguridad de la organización, la dirección decide realizar formación de concienciación en seguridad para todos los empleados. ¿A qué categoría de control pertenece esta iniciativa?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 1,
+      "explicacion": "La formación de concienciación se considera un control gerencial porque forma parte de las políticas, procedimientos y estrategias de gestión de la seguridad."
+    },
+    {
+      "pregunta": "Una empresa tiene un centro de datos que contiene infraestructura crítica y datos sensibles. Para mejorar su protección, se colocan guardias de seguridad en todas las entradas. ¿A qué categoría de control pertenece esta medida?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 3,
+      "explicacion": "Los guardias de seguridad son un control físico destinado a impedir el acceso físico no autorizado a instalaciones y recursos."
+    },
+    {
+      "pregunta": "Una organización decide documentar todos sus procedimientos de seguridad, incluidos los protocolos de respuesta para distintos tipos de incidentes. ¿A qué categoría de control pertenece esta documentación?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 1,
+      "explicacion": "La documentación de políticas y procedimientos forma parte de los controles gerenciales que establecen el marco de gestión de la seguridad."
+    },
+    {
+      "pregunta": "Para identificar y alertar sobre posibles brechas de seguridad, una organización despliega un IDS que supervisa el tráfico de red en busca de actividades sospechosas. ¿Qué tipo de control representa el IDS?",
+      "opciones": ["Preventivo", "Disuasorio", "Detectivo", "Correctivo"],
+      "respuesta": 2,
+      "explicacion": "Un IDS es un control detectivo porque identifica actividades potencialmente maliciosas y genera alertas para facilitar la respuesta."
+    },
+    {
+      "pregunta": "Para garantizar que el remitente no pueda negar posteriormente haber enviado correos electrónicos desde la oficina corporativa, la empresa implementa firmas digitales. ¿Qué concepto de seguridad representa esta medida?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las firmas digitales proporcionan no repudio al permitir demostrar que un mensaje fue firmado por una determinada entidad."
+    },
+    {
+      "pregunta": "Una organización implementa un sistema en el que el acceso de los empleados a la información se determina según su función laboral, restringiendo los datos sensibles únicamente al personal autorizado. ¿Qué modelo de autorización representa?",
+      "opciones": ["RBAC", "MAC", "DAC", "ABAC"],
+      "respuesta": 0,
+      "explicacion": "RBAC asigna permisos en función de los roles laborales definidos dentro de la organización."
+    },
+    {
+      "pregunta": "Una empresa realiza una evaluación para identificar la diferencia entre su postura de seguridad actual y las mejores prácticas del sector, con el objetivo de detectar áreas de mejora. ¿Cómo se denomina esta evaluación?",
+      "opciones": [
+        "Implementación de Zero Trust",
+        "Análisis de brechas",
+        "Evaluación del protocolo AAA",
+        "Auditoría de no repudio"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un análisis de brechas compara el estado actual con un estado objetivo o estándar para identificar carencias y oportunidades de mejora."
+    },
+    {
+      "pregunta": "¿Qué principio de seguridad se aplica específicamente al configurar los sistemas de usuario para proporcionar únicamente el acceso necesario para realizar el trabajo?",
+      "opciones": [
+        "Autenticación",
+        "Mínimo privilegio",
+        "Zero Trust",
+        "Contabilidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "El principio de mínimo privilegio concede únicamente los permisos necesarios para desempeñar las funciones asignadas."
+    },
+    {
+      "pregunta": "Una institución financiera implementa un modelo de seguridad que exige verificar continuamente cada solicitud de acceso a su red, independientemente de la ubicación o del dispositivo del usuario. ¿Qué concepto de seguridad representa?",
+      "opciones": ["Análisis de brechas", "AAA", "Zero Trust", "No repudio"],
+      "respuesta": 2,
+      "explicacion": "Zero Trust parte del principio de no confiar implícitamente en ningún usuario, dispositivo o ubicación y verificar cada acceso."
+    },
+    {
+      "pregunta": "Tras la finalización del contrato de un empleado, una empresa revoca inmediatamente todos sus derechos de acceso a los sistemas. ¿Qué aspecto del marco AAA representa esta acción?",
+      "opciones": [
+        "Autenticación",
+        "Autorización",
+        "Contabilidad",
+        "Compensatorio"
+      ],
+      "respuesta": 1,
+      "explicacion": "La autorización determina qué recursos puede utilizar un usuario y debe retirarse cuando deja de estar autorizado."
+    },
+    {
+      "pregunta": "Antes de aprobar una actualización importante de un sistema, una organización evalúa cómo afectará a los flujos de trabajo, la disponibilidad y los posibles riesgos para la seguridad de los datos. ¿Cómo se denomina esta evaluación?",
+      "opciones": [
+        "Análisis de impacto",
+        "Resultados de pruebas",
+        "Partes interesadas",
+        "Procedimiento operativo estándar"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis de impacto estudia las posibles consecuencias operativas y de seguridad de un cambio antes de aplicarlo."
+    },
+    {
+      "pregunta": "Después de que una actualización provoque una interrupción inesperada, una organización vuelve rápidamente a la versión anterior del software mientras investiga la causa. ¿Qué aspecto de la gestión de cambios demuestra esta acción?",
+      "opciones": [
+        "Plan de reversión",
+        "Resultados de pruebas",
+        "Ventana de mantenimiento",
+        "Procedimiento operativo estándar"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un plan de reversión o backout plan permite deshacer un cambio problemático y restaurar el estado anterior."
+    },
+    {
+      "pregunta": "Una organización decide mejorar sus políticas de control de acceso mediante listas de permitidos para aplicaciones, permitiendo ejecutar únicamente software aprobado en su red. ¿Cuál es el principal beneficio de seguridad?",
+      "opciones": [
+        "Reducir el tiempo de inactividad",
+        "Restringir actividades",
+        "Actualizar políticas y procedimientos",
+        "Control de versiones"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las listas de permitidos restringen la ejecución a aplicaciones autorizadas, reduciendo el riesgo de software malicioso o no aprobado."
+    },
+    {
+      "pregunta": "Después de aplicar parches de seguridad, es necesario reiniciar determinados servicios para que los cambios entren en vigor. ¿Cuál es la implicación técnica inmediata?",
+      "opciones": [
+        "Tiempo de inactividad",
+        "Actividades restringidas",
+        "Documentación",
+        "Control de versiones"
+      ],
+      "respuesta": 0,
+      "explicacion": "El reinicio de servicios puede provocar una interrupción temporal de su disponibilidad."
+    },
+    {
+      "pregunta": "Antes de desplegar una nueva aplicación, un equipo de TI analiza sus dependencias respecto a otro software y servicios de la infraestructura. ¿Por qué es crítico comprender estas dependencias?",
+      "opciones": [
+        "Listas de permitidos y denegados",
+        "Actividades restringidas",
+        "Tiempo de inactividad",
+        "Dependencias"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las dependencias pueden afectar a la funcionalidad, compatibilidad y seguridad de la aplicación y deben identificarse antes del despliegue."
+    },
+    {
+      "pregunta": "Después de una actualización de seguridad, una aplicación crítica necesita reiniciarse para aplicar los cambios. ¿Cuál es la principal consideración de este proceso?",
+      "opciones": [
+        "Reinicio de servicio",
+        "Reinicio de aplicación",
+        "Documentación",
+        "Control de versiones"
+      ],
+      "respuesta": 1,
+      "explicacion": "El reinicio de la aplicación es necesario para aplicar los cambios y puede interrumpir temporalmente su disponibilidad."
+    },
+    {
+      "pregunta": "Tras realizar cambios importantes en la infraestructura de red, incluida la incorporación de nuevos dispositivos y la retirada de otros obsoletos, el departamento de TI actualiza los diagramas de red. ¿Qué importancia pone de manifiesto esta acción?",
+      "opciones": [
+        "Dependencias",
+        "Actividades restringidas",
+        "Documentación",
+        "Control de versiones"
+      ],
+      "respuesta": 2,
+      "explicacion": "Mantener actualizados los diagramas de red demuestra la importancia de disponer de documentación precisa sobre la infraestructura."
+    },
+    {
+      "pregunta": "En el contexto de la seguridad de red, ¿por qué es recomendable cambiar las credenciales predeterminadas de los dispositivos antes de conectarlos a la red?",
+      "opciones": [
+        "Para evitar la congestión de red causada por demasiados dispositivos.",
+        "Para evitar posibles problemas legales con los fabricantes.",
+        "Para reducir el riesgo de acceso y control no autorizados.",
+        "Para garantizar la compatibilidad del dispositivo con la red."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las credenciales predeterminadas suelen ser conocidas públicamente y pueden facilitar el acceso no autorizado."
+    },
+    {
+      "pregunta": "Una organización detecta un aumento de mensajes SMS que aparentan proceder de Recursos Humanos y solicitan datos personales para actualizar registros de empleados. ¿Cuál debería ser la respuesta inmediata para evitar fugas de información?",
+      "opciones": [
+        "Indicar a los empleados que respondan si reconocen el número del remitente.",
+        "Aconsejar a los empleados que ignoren todos los SMS.",
+        "Formar a los empleados para que verifiquen estas solicitudes mediante canales internos antes de responder.",
+        "Animar a los empleados a bloquear cualquier número que envíe SMS no solicitados."
+      ],
+      "respuesta": 2,
+      "explicacion": "Verificar las solicitudes mediante canales internos conocidos reduce el riesgo de revelar información ante ataques de ingeniería social."
+    },
+    {
+      "pregunta": "Un empleado hace clic en un enlace de un mensaje instantáneo enviado por un remitente desconocido y accede a un sitio web sospechoso. ¿Cuál es el principal riesgo de seguridad?",
+      "opciones": [
+        "Perder tiempo de trabajo navegando por sitios no relacionados con la empresa.",
+        "Exponer potencialmente la red corporativa a malware o ransomware.",
+        "Incumplir la política empresarial sobre mensajería instantánea.",
+        "Sobrecargar el ancho de banda de Internet de la empresa."
+      ],
+      "respuesta": 1,
+      "explicacion": "El enlace podría descargar malware o ransomware y comprometer el dispositivo y la red corporativa."
+    },
+    {
+      "pregunta": "Un diseñador gráfico recibe frecuentemente archivos de imagen de clientes externos. ¿Cuál es la mejor práctica para prevenir riesgos de seguridad asociados a estos archivos?",
+      "opciones": [
+        "Abrir y editar las imágenes únicamente en equipos aislados de la red.",
+        "Analizar todos los archivos recibidos con software antivirus actualizado antes de abrirlos.",
+        "Convertir todas las imágenes a otro formato antes de utilizarlas.",
+        "Aceptar imágenes únicamente de clientes conocidos personalmente."
+      ],
+      "respuesta": 1,
+      "explicacion": "Analizar los archivos con herramientas de seguridad actualizadas ayuda a detectar malware antes de abrirlos."
+    },
+    {
+      "pregunta": "Una empresa utiliza software de seguridad basado en agentes en sus estaciones de trabajo, pero no emplea soluciones de seguridad sin agente en sus entornos virtualizados. ¿Cuál es el principal riesgo?",
+      "opciones": [
+        "Mayor consumo de recursos en el equipo anfitrión.",
+        "Imposibilidad de conocer la ubicación física de las máquinas virtuales.",
+        "Posibles brechas de seguridad en el entorno virtual por falta de visibilidad.",
+        "Mayor complejidad al gestionar soluciones distintas para sistemas físicos y virtuales."
+      ],
+      "respuesta": 2,
+      "explicacion": "La falta de visibilidad y controles adecuados sobre las cargas virtuales puede dejar amenazas sin detectar."
+    },
+    {
+      "pregunta": "Una gran empresa minorista sufre una brecha en la que se roba información de tarjetas de crédito y se vende en la dark web. El ataque fue muy organizado, dirigido y dejó pocas evidencias. ¿Qué actor de amenazas es el más probable?",
+      "opciones": [
+        "Amenaza interna",
+        "Atacante no cualificado",
+        "Crimen organizado",
+        "Hacktivista"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los grupos de crimen organizado suelen realizar ataques sofisticados y dirigidos con motivación económica."
+    },
+    {
+      "pregunta": "Un empleado filtra deliberadamente información sensible de la empresa a un competidor. ¿Qué tipo de amenaza representa mejor este comportamiento?",
+      "opciones": [
+        "Amenaza interna",
+        "Shadow IT",
+        "Atacante no cualificado",
+        "Hacktivista"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una amenaza interna procede de una persona con acceso legítimo que utiliza ese acceso para perjudicar a la organización."
+    },
+    {
+      "pregunta": "Una pequeña empresa descubre que su red ha sido comprometida por malware no detectado por su antivirus. El malware llegó mediante un correo de phishing abierto por un empleado. ¿Qué tipo de actor podría haber realizado este ataque?",
+      "opciones": [
+        "Atacante no cualificado",
+        "Amenaza interna",
+        "Crimen organizado",
+        "Estado-nación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un atacante poco cualificado puede utilizar herramientas y técnicas ampliamente disponibles, como campañas de phishing y malware conocido."
+    },
+    {
+      "pregunta": "Un grupo de usuarios recibe correos que afirman que sus cuentas han sido comprometidas y les indican que hagan clic en un enlace para restablecer sus contraseñas. El mensaje genera urgencia y parece proceder de un servicio de confianza. ¿Qué ataque es?",
+      "opciones": ["Phishing", "Smishing", "Vishing", "Suplantación de marca"],
+      "respuesta": 0,
+      "explicacion": "El phishing emplea correos fraudulentos para inducir a las víctimas a visitar enlaces maliciosos o revelar credenciales."
+    },
+    {
+      "pregunta": "Un alto directivo recibe una llamada que parece proceder del departamento de TI y en la que se solicita confirmar urgentemente su usuario y contraseña debido a una supuesta brecha crítica. ¿Qué tipo de ataque de ingeniería social representa?",
+      "opciones": ["Suplantación", "Phishing", "Pretexting", "Vishing"],
+      "respuesta": 3,
+      "explicacion": "El vishing utiliza llamadas o comunicaciones de voz para engañar a la víctima y obtener información sensible."
+    },
+    {
+      "pregunta": "Un usuario ve un anuncio de software popular a un precio muy reducido en un sitio web nuevo. Tras comprarlo, recibe un enlace de descarga que instala malware. ¿Qué tipo de ataque representa?",
+      "opciones": [
+        "Watering hole",
+        "Suplantación de marca",
+        "Pretexting",
+        "Typosquatting"
+      ],
+      "respuesta": 1,
+      "explicacion": "La suplantación de marca explota la confianza en una marca conocida mediante sitios o anuncios fraudulentos."
+    },
+    {
+      "pregunta": "Un analista de seguridad observa una cantidad inusualmente alta de tráfico en el puerto 23. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "La red está sufriendo un ataque DDoS.",
+        "Un dispositivo interno está descargando actualizaciones.",
+        "Se está utilizando Telnet, que no es seguro.",
+        "El firewall está mal configurado."
+      ],
+      "respuesta": 2,
+      "explicacion": "Telnet utiliza normalmente el puerto TCP 23 y transmite la información sin cifrado."
+    },
+    {
+      "pregunta": "Un analista de seguridad observa varios intentos fallidos de inicio de sesión desde direcciones IP extranjeras en un servidor de base de datos. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Un ataque de fuerza bruta que intenta adivinar contraseñas.",
+        "Una amenaza interna probando la seguridad de la red.",
+        "Una configuración incorrecta del firewall del servidor.",
+        "Mantenimiento rutinario del departamento de TI."
+      ],
+      "respuesta": 0,
+      "explicacion": "Numerosos intentos fallidos de autenticación desde una fuente externa son un indicador típico de un ataque de fuerza bruta."
+    },
+    {
+      "pregunta": "El sistema de seguridad de una empresa detecta una anomalía en el tráfico de red que indica una posible intrusión. ¿Qué acción debería priorizarse para responder eficazmente?",
+      "opciones": [
+        "Aislar los sistemas afectados para contener la brecha.",
+        "Actualizar inmediatamente todas las contraseñas.",
+        "Desconectar de Internet toda la red.",
+        "Informar por correo electrónico a todos los empleados."
+      ],
+      "respuesta": 0,
+      "explicacion": "El aislamiento de los sistemas afectados ayuda a contener el incidente y evitar que se propague."
+    },
+    {
+      "pregunta": "Una empresa se prepara para reforzar sus sistemas frente a posibles ataques. ¿Cuál de las siguientes medidas se considera una buena práctica de hardening?",
+      "opciones": [
+        "Mantener abiertos todos los puertos no utilizados para futuros usos.",
+        "Habilitar firewalls basados en host en todos los endpoints.",
+        "Utilizar la misma contraseña en todos los dispositivos.",
+        "Instalar varios antivirus simultáneamente en cada equipo."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los firewalls basados en host controlan el tráfico de cada endpoint y reducen su exposición a conexiones no autorizadas."
+    },
+    {
+      "pregunta": "Durante una revisión de seguridad se observa que varios servidores ejecutan servicios innecesarios. ¿Cuál es la medida más efectiva para mejorar su postura de seguridad?",
+      "opciones": [
+        "Instalar software de seguridad adicional.",
+        "Deshabilitar servicios y puertos innecesarios.",
+        "Aumentar la memoria y CPU de los servidores.",
+        "Cambiar periódicamente la contraseña del administrador."
+      ],
+      "respuesta": 1,
+      "explicacion": "Deshabilitar servicios y puertos innecesarios reduce la superficie de ataque disponible."
+    },
+    {
+      "pregunta": "Un administrador de seguridad implementa cifrado para proteger datos corporativos. ¿Cuál es el factor más importante para garantizar la confidencialidad?",
+      "opciones": [
+        "El tiempo necesario para cifrar y descifrar los datos.",
+        "La complejidad de la contraseña utilizada para acceder a la red corporativa.",
+        "La fortaleza del algoritmo de cifrado y la longitud de la clave.",
+        "La marca del software de cifrado."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un algoritmo criptográfico sólido y una longitud de clave adecuada determinan directamente la resistencia del cifrado."
+    },
+    {
+      "pregunta": "Una empresa quiere mejorar la seguridad de sus endpoints. ¿Qué opción proporciona la protección más completa?",
+      "opciones": [
+        "Instalar antivirus.",
+        "Implementar una política de contraseñas robusta.",
+        "Instalar un HIPS.",
+        "Exigir autenticación de dos factores en todos los dispositivos."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un HIPS supervisa y puede bloquear actividades maliciosas en el host, incluyendo amenazas que no dependen únicamente de firmas de antivirus."
+    },
+    {
+      "pregunta": "En relación con la seguridad de dispositivos IoT, ¿por qué es crítico implementar mecanismos de autenticación de dispositivos?",
+      "opciones": [
+        "Para garantizar que solo dispositivos autorizados puedan actualizar su firmware.",
+        "Para aumentar la velocidad general de la red.",
+        "Para facilitar el acceso de los usuarios.",
+        "Para reducir los costes de mantenimiento."
+      ],
+      "respuesta": 0,
+      "explicacion": "La autenticación impide que dispositivos no autorizados suplanten a dispositivos legítimos o realicen acciones sensibles."
+    },
+    {
+      "pregunta": "¿Cuál es una preocupación de seguridad significativa de las redes descentralizadas, como blockchain, frente a redes centralizadas?",
+      "opciones": [
+        "Las redes descentralizadas ofrecen inherentemente menos privacidad.",
+        "Necesitan más energía para funcionar eficientemente.",
+        "La inmutabilidad de las transacciones puede hacer irreversibles determinadas exposiciones de datos.",
+        "Las redes centralizadas son más fáciles de actualizar con nuevas medidas de seguridad."
+      ],
+      "respuesta": 2,
+      "explicacion": "La inmutabilidad dificulta o imposibilita eliminar información que se haya registrado por error o de forma maliciosa."
+    },
+    {
+      "pregunta": "¿Por qué es importante considerar la alta disponibilidad al diseñar la infraestructura de red para sistemas críticos?",
+      "opciones": [
+        "Para hacer los sistemas resistentes a manipulaciones físicas.",
+        "Para garantizar que las actualizaciones puedan instalarse instantáneamente.",
+        "Para garantizar que los sistemas críticos sigan operativos ante distintos tipos de fallo.",
+        "La alta disponibilidad solo es necesaria en sistemas no críticos."
+      ],
+      "respuesta": 2,
+      "explicacion": "La alta disponibilidad utiliza redundancia y mecanismos de failover para reducir interrupciones ante fallos."
+    },
+    {
+      "pregunta": "Al prepararse para un incidente de ciberseguridad, ¿qué actividad consiste en discutir en equipo escenarios hipotéticos para mejorar la toma de decisiones sin utilizar sistemas reales?",
+      "opciones": [
+        "Simulación",
+        "Ejercicio tabletop",
+        "Prueba de failover",
+        "Procesamiento paralelo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los ejercicios tabletop permiten discutir escenarios y procedimientos de respuesta sin afectar a sistemas de producción."
+    },
+    {
+      "pregunta": "¿Qué diseño de sistema permite una transición fluida a un sistema de respaldo cuando falla el principal, minimizando la interrupción del servicio?",
+      "opciones": [
+        "Procesamiento paralelo",
+        "Conmutación manual",
+        "Failover",
+        "Ejercicios tabletop"
+      ],
+      "respuesta": 2,
+      "explicacion": "El failover conmuta el servicio a un sistema de respaldo cuando falla el sistema principal."
+    },
+    {
+      "pregunta": "En formación de ciberseguridad, ¿qué método utiliza un entorno controlado para reproducir posibles brechas y permitir que los profesionales practiquen su respuesta?",
+      "opciones": [
+        "Ejercicios tabletop",
+        "Simulación",
+        "Journaling",
+        "Failover"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una simulación reproduce de forma controlada un incidente para practicar procedimientos técnicos y operativos de respuesta."
+    },
+    {
+      "pregunta": "¿Qué técnica se utiliza para aumentar la eficiencia de cálculo dividiendo las tareas entre múltiples procesadores?",
+      "opciones": ["Failover", "Redundancia", "Procesamiento paralelo", "UPS"],
+      "respuesta": 2,
+      "explicacion": "El procesamiento paralelo distribuye trabajo entre varios procesadores para ejecutar tareas simultáneamente."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de las copias de seguridad externas frente a las copias almacenadas en las instalaciones dentro de un plan de recuperación ante desastres?",
+      "opciones": [
+        "Mayor velocidad de transferencia.",
+        "Acceso inmediato.",
+        "Protección frente a desastres locales.",
+        "Menor coste."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las copias offsite permanecen protegidas cuando un desastre físico afecta al emplazamiento principal."
+    },
+    {
+      "pregunta": "Al establecer líneas base seguras para una red nueva, ¿cuál es el primer paso más crítico?",
+      "opciones": [
+        "Desplegar antivirus en todos los dispositivos.",
+        "Realizar una evaluación integral de riesgos de seguridad.",
+        "Configurar un firewall en el perímetro.",
+        "Implementar autenticación de dos factores."
+      ],
+      "respuesta": 1,
+      "explicacion": "La evaluación de riesgos identifica amenazas y vulnerabilidades y permite definir una línea base adaptada a las necesidades reales."
+    },
+    {
+      "pregunta": "Para realizar hardening de los dispositivos móviles de una empresa, ¿cuál es la estrategia más efectiva?",
+      "opciones": [
+        "Exigir bloqueo de pantalla con biometría.",
+        "Instalar una tienda de aplicaciones de terceros.",
+        "Deshabilitar Bluetooth y NFC.",
+        "Implementar una solución MDM."
+      ],
+      "respuesta": 3,
+      "explicacion": "Una solución MDM permite aplicar de forma centralizada políticas, configuraciones, restricciones y borrado remoto."
+    },
+    {
+      "pregunta": "Al desplegar switches en una red, ¿qué práctica aumenta la seguridad?",
+      "opciones": [
+        "Deshabilitar los puertos no utilizados.",
+        "Habilitar port mirroring.",
+        "Configurar todos los puertos en modo trunk.",
+        "Configurar todos los puertos a máxima velocidad."
+      ],
+      "respuesta": 0,
+      "explicacion": "Deshabilitar puertos no utilizados evita que dispositivos no autorizados puedan conectarse fácilmente a la red."
+    },
+    {
+      "pregunta": "¿Cuál es una consideración crítica de seguridad al integrar dispositivos IoT en una red existente?",
+      "opciones": [
+        "Asignar direcciones IP estáticas a todos los dispositivos IoT.",
+        "Aislar los dispositivos IoT en una VLAN separada.",
+        "Aumentar la potencia de los puntos de acceso inalámbricos.",
+        "Garantizar que todos los dispositivos sean del mismo fabricante."
+      ],
+      "respuesta": 1,
+      "explicacion": "La segmentación mediante una VLAN limita el impacto de un dispositivo IoT comprometido sobre el resto de la red."
+    },
+    {
+      "pregunta": "¿Qué método proporciona comunicación segura entre un cliente y un servidor validando las identidades de las partes antes de transmitir datos?",
+      "opciones": ["WPA3", "SSL/TLS", "RADIUS", "Análisis estático de código"],
+      "respuesta": 1,
+      "explicacion": "SSL/TLS proporciona cifrado y autenticación mediante certificados; con autenticación mutua puede validar tanto al servidor como al cliente."
+    },
+    {
+      "pregunta": "Al aprovisionar una cuenta para un nuevo empleado, ¿qué paso es crítico para garantizar un control de acceso seguro?",
+      "opciones": [
+        "Asignar permisos según el principio de mínimo privilegio.",
+        "Configurar MFA.",
+        "Actualizar periódicamente la política de privacidad.",
+        "Dar privilegios administrativos a todas las cuentas."
+      ],
+      "respuesta": 0,
+      "explicacion": "El mínimo privilegio garantiza que el nuevo usuario reciba únicamente los permisos necesarios para su función."
+    },
+    {
+      "pregunta": "¿Qué protocolo está diseñado para permitir que aplicaciones de terceros obtengan acceso autorizado a recursos sin exponer las credenciales del usuario?",
+      "opciones": ["SAML", "LDAP", "OAuth", "Federación"],
+      "respuesta": 2,
+      "explicacion": "OAuth es un marco de autorización delegada que utiliza tokens para conceder acceso sin compartir directamente las credenciales del usuario."
+    },
+    {
+      "pregunta": "Al implementar identity proofing, ¿qué consideración es clave para que el proceso sea seguro y eficaz?",
+      "opciones": [
+        "Dar a todos los usuarios el mismo nivel de acceso.",
+        "Utilizar perfiles de redes sociales como único método de verificación.",
+        "Verificar la identidad mediante múltiples evidencias.",
+        "Asignar contraseñas temporales que nunca caduquen."
+      ],
+      "respuesta": 2,
+      "explicacion": "Utilizar múltiples evidencias aumenta la confianza en que una identidad presentada corresponde realmente a la persona correcta."
+    },
+    {
+      "pregunta": "Un administrador necesita conceder a un nuevo empleado acceso a varios sistemas y aplicaciones. ¿Qué método es el MÁS seguro para aprovisionar estos accesos?",
+      "opciones": [
+        "Cuentas compartidas con otros miembros del equipo.",
+        "Cuentas individuales con permisos definidos según un rol preestablecido.",
+        "Cuentas genéricas utilizables por cualquier persona del departamento.",
+        "Acceso abierto con registro de actividad."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las cuentas individuales con permisos basados en roles permiten mínimo privilegio y mantienen la trazabilidad de las acciones."
+    },
+    {
+      "pregunta": "Al analizar registros de firewall para identificar actividad maliciosa, ¿qué evento sería el MÁS indicativo de un ataque?",
+      "opciones": [
+        "Gran volumen de tráfico entrante permitido fuera del horario habitual.",
+        "Flujo constante de tráfico con socios externos conocidos.",
+        "Intentos fallidos de inicio de sesión repetidos desde una única IP externa.",
+        "Picos ocasionales de tráfico saliente hacia distintos destinos."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los intentos repetidos de autenticación fallida desde una misma IP son característicos de intentos de fuerza bruta."
+    },
+    {
+      "pregunta": "Para una empresa con requisitos estrictos de cumplimiento, ¿qué resultado de un análisis de vulnerabilidades debería priorizarse para evitar posibles brechas de datos?",
+      "opciones": [
+        "Vulnerabilidades de gravedad baja en sistemas no esenciales.",
+        "Vulnerabilidades de gravedad alta en sistemas que almacenan datos sensibles.",
+        "Vulnerabilidades de gravedad media en servidores web públicos.",
+        "Hallazgos informativos en infraestructura interna."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las vulnerabilidades graves en sistemas que contienen información sensible representan el riesgo más inmediato para la confidencialidad y el cumplimiento."
+    },
+    {
+      "pregunta": "El departamento de TI despliega una nueva aplicación que requiere autenticación de usuarios. ¿Qué opción proporciona el mejor equilibrio entre seguridad y comodidad?",
+      "opciones": [
+        "Solo contraseñas",
+        "2FA",
+        "Solo biometría",
+        "Preguntas de seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "2FA combina dos factores distintos y aumenta significativamente la seguridad sin imponer una carga excesiva al usuario."
+    },
+    {
+      "pregunta": "Al actualizar un plan de recuperación ante desastres, ¿qué medida es más importante para minimizar la pérdida de datos?",
+      "opciones": [
+        "Copias de seguridad externas periódicas.",
+        "Simulacros anuales de recuperación.",
+        "Inversión en soluciones de alta disponibilidad.",
+        "Cobertura de seguros integral."
+      ],
+      "respuesta": 0,
+      "explicacion": "Las copias de seguridad periódicas y externas permiten restaurar datos recientes incluso si el emplazamiento principal queda destruido."
+    },
+    {
+      "pregunta": "En la fase inicial de respuesta a incidentes, ¿cuál es el paso más crítico para contener eficazmente una brecha de seguridad?",
+      "opciones": [
+        "Gestión de relaciones públicas.",
+        "Identificación de la extensión de la brecha.",
+        "Aislamiento de los sistemas afectados.",
+        "Notificación a las fuerzas de seguridad."
+      ],
+      "respuesta": 2,
+      "explicacion": "Aislar los sistemas comprometidos limita la propagación del incidente y reduce daños adicionales."
+    },
+    {
+      "pregunta": "Al implementar un sistema nuevo, ¿qué procedimiento de gestión de cambios ayuda a minimizar el impacto sobre las operaciones actuales?",
+      "opciones": [
+        "Realizar pruebas exhaustivas antes de la implementación.",
+        "Realizar inmediatamente una implementación a gran escala.",
+        "Impartir formación a usuarios después de la implementación.",
+        "Recoger comentarios de un grupo piloto antes de la implementación completa."
+      ],
+      "respuesta": 3,
+      "explicacion": "Un grupo piloto permite detectar problemas en condiciones reales y corregirlos antes de desplegar el sistema a toda la organización."
+    },
+    {
+      "pregunta": "¿Cuál es la forma más efectiva de garantizar que los empleados solo tengan acceso a los recursos necesarios para su función?",
+      "opciones": [
+        "RBAC",
+        "Conceder acceso administrativo a todos y confiar en las auditorías.",
+        "Utilizar DAC para todos los recursos.",
+        "Exigir aprobación del responsable para cada solicitud de acceso."
+      ],
+      "respuesta": 0,
+      "explicacion": "RBAC asigna permisos de forma estructurada según los roles laborales y facilita la aplicación del mínimo privilegio."
+    },
+    {
+      "pregunta": "Una organización planea utilizar servicios cloud para almacenar datos sensibles de clientes. ¿Cuál debería ser una consideración principal para garantizar el cumplimiento de las regulaciones del sector?",
+      "opciones": [
+        "Maximizar la capacidad de almacenamiento.",
+        "Garantizar la portabilidad de los datos.",
+        "Elegir un proveedor cloud con una sólida reputación de seguridad.",
+        "Reducir al máximo los costes de almacenamiento."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un proveedor con controles de seguridad y cumplimiento sólidos ayuda a proteger los datos y cumplir requisitos regulatorios."
+    },
+    {
+      "pregunta": "En una empresa con una estructura de gobierno centralizada, ¿quién suele ser responsable de tomar las decisiones finales sobre políticas y procedimientos de seguridad de la información?",
+      "opciones": [
+        "Responsable del departamento de TI",
+        "CISO",
+        "Responsables departamentales",
+        "Todos los empleados mediante votación"
+      ],
+      "respuesta": 1,
+      "explicacion": "El CISO suele supervisar la estrategia de seguridad y las políticas corporativas de seguridad de la información."
+    },
+    {
+      "pregunta": "Una organización está evaluando su cumplimiento de HIPAA. ¿Qué función es crucial para garantizar que la información sanitaria se procese, almacene y transmita de acuerdo con sus requisitos?",
+      "opciones": [
+        "Procesador de datos",
+        "Responsable de cumplimiento de HIPAA",
+        "Custodio de datos",
+        "Especialista de soporte de TI"
+      ],
+      "respuesta": 1,
+      "explicacion": "El responsable de cumplimiento de HIPAA supervisa específicamente que los procesos y políticas se ajusten a los requisitos de HIPAA."
+    },
+    {
+      "pregunta": "Una empresa planea lanzar un nuevo servicio online crítico para su expansión. ¿Qué estrategia de gestión de riesgos debería priorizar para garantizar que la disponibilidad cumpla el RTO sin provocar pérdidas significativas?",
+      "opciones": ["Aceptar", "Evitar", "Transferir", "Mitigar"],
+      "respuesta": 3,
+      "explicacion": "La mitigación introduce medidas que reducen la probabilidad o el impacto de interrupciones y ayudan a cumplir el RTO."
+    },
+    {
+      "pregunta": "Una pequeña empresa dispone de un presupuesto limitado para ciberseguridad y debe decidir dónde asignar sus recursos. ¿Qué factor debería guiar principalmente qué amenazas abordar primero?",
+      "opciones": ["Tolerancia al riesgo", "Apetito de riesgo", "RPO", "MTBF"],
+      "respuesta": 0,
+      "explicacion": "La tolerancia al riesgo establece cuánto riesgo puede aceptar la organización y ayuda a priorizar dónde aplicar recursos limitados."
+    },
+    {
+      "pregunta": "Durante un BIA, una empresa identifica un proceso crítico cuya interrupción podría afectar gravemente a las operaciones. ¿En qué métrica debería centrarse para garantizar la continuidad del negocio?",
+      "opciones": ["Tolerancia al riesgo", "RTO", "Apetito de riesgo", "MTTR"],
+      "respuesta": 1,
+      "explicacion": "El RTO establece el tiempo máximo objetivo para restaurar un proceso después de una interrupción."
+    },
+    {
+      "pregunta": "Una empresa decide almacenar datos sensibles de clientes con un proveedor externo. ¿Qué estrategia de gestión de riesgos está empleando?",
+      "opciones": ["Evitar", "Mitigar", "Aceptar", "Transferir"],
+      "respuesta": 3,
+      "explicacion": "La transferencia desplaza parte de la responsabilidad o impacto asociado al riesgo hacia un tercero mediante contratación u otros mecanismos."
+    },
+    {
+      "pregunta": "Tras una evaluación de riesgos, una empresa identifica una amenaza potencial pero decide que el coste de tratarla supera su impacto probable. ¿Qué decisión representa?",
+      "opciones": [
+        "Evitación del riesgo",
+        "Aceptación del riesgo",
+        "Mitigación del riesgo",
+        "Transferencia del riesgo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La aceptación del riesgo consiste en reconocer un riesgo y decidir no aplicar medidas adicionales para reducirlo."
+    },
+    {
+      "pregunta": "Una empresa evalúa los riesgos de un nuevo proyecto y tiene una política de mantener un equilibrio entre riesgo y recompensa. ¿Qué tipo de apetito de riesgo presenta?",
+      "opciones": ["Expansionista", "Conservador", "Neutral", "Agresivo"],
+      "respuesta": 2,
+      "explicacion": "Un apetito neutral busca un equilibrio entre las oportunidades de beneficio y el nivel de riesgo asumido."
+    },
+    {
+      "pregunta": "Durante una evaluación rutinaria se descubre que una actualización crítica podría introducir nuevas vulnerabilidades. ¿Qué estrategia debería priorizarse?",
+      "opciones": [
+        "Aceptar mediante una excepción.",
+        "Mitigar mediante pruebas exhaustivas.",
+        "Evitar el riesgo no instalando la actualización.",
+        "Transferir el proceso de actualización a un tercero."
+      ],
+      "respuesta": 1,
+      "explicacion": "Probar exhaustivamente la actualización permite detectar problemas y reducir el riesgo antes de desplegarla."
+    },
+    {
+      "pregunta": "Una empresa con alta tolerancia al riesgo planea expandirse a un mercado nuevo y no probado. ¿Qué tipo de estrategia representa?",
+      "opciones": [
+        "Conservadora",
+        "Expansionista",
+        "Neutral",
+        "Evitación del riesgo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una estrategia expansionista acepta niveles mayores de riesgo con la expectativa de obtener mayores oportunidades o beneficios."
+    },
+    {
+      "pregunta": "Al seleccionar un proveedor, ¿por qué es crucial analizar posibles conflictos de interés?",
+      "opciones": [
+        "Para garantizar precios competitivos.",
+        "Para garantizar que no tenga vínculos con competidores.",
+        "Para establecer una relación comercial transparente y ética.",
+        "Para evaluar sus capacidades tecnológicas."
+      ],
+      "respuesta": 2,
+      "explicacion": "Identificar conflictos de interés ayuda a mantener decisiones imparciales, transparencia y una relación comercial ética."
+    },
+    {
+      "pregunta": "¿Qué ventaja ofrece un MOA frente a un entendimiento de colaboración menos formal?",
+      "opciones": [
+        "Proporciona un acuerdo jurídicamente vinculante que especifica funciones, responsabilidades y condiciones financieras.",
+        "Permite términos indefinidos que pueden cambiar libremente.",
+        "Se centra únicamente en el intercambio de servicios sin implicaciones financieras.",
+        "Sirve solo como documento preliminar sin compromiso."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un MOA formaliza responsabilidades, obligaciones y términos acordados, reduciendo ambigüedades entre las partes."
+    },
+    {
+      "pregunta": "En la supervisión de proveedores, ¿por qué es crítico disponer de un documento de Rules of Engagement claramente definido?",
+      "opciones": [
+        "Para detallar las consecuencias legales de finalizar el contrato.",
+        "Para establecer límites y directrices para la interacción y el intercambio de información.",
+        "Para especificar el calendario de pagos y las penalizaciones.",
+        "Para describir las estrategias publicitarias del proveedor."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las Rules of Engagement definen cómo pueden interactuar las partes y qué límites deben respetarse, especialmente respecto a seguridad e información sensible."
+    },
+    {
+      "pregunta": "¿Cómo beneficia a una organización incluir una cláusula de no competencia en un BPA?",
+      "opciones": [
+        "Restringe la capacidad del proveedor para celebrar acuerdos con competidores de la organización.",
+        "Garantiza el precio más bajo durante todo el acuerdo.",
+        "Garantiza prioridad de servicio frente a otros clientes.",
+        "Obliga al proveedor a utilizar tecnologías concretas."
+      ],
+      "respuesta": 0,
+      "explicacion": "Una cláusula de no competencia puede limitar relaciones del proveedor con competidores y proteger intereses estratégicos."
+    },
+    {
+      "pregunta": "Una empresa quiere evaluar su postura de seguridad para confirmar que cumple regulaciones específicas de su sector. ¿Qué tipo de auditoría es la más apropiada?",
+      "opciones": [
+        "Autoevaluación interna",
+        "Atestación",
+        "Auditoría regulatoria externa",
+        "Comité de auditoría interna"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una auditoría regulatoria externa proporciona una evaluación independiente del cumplimiento de requisitos legales y regulatorios."
+    },
+    {
+      "pregunta": "Una empresa quiere identificar posibles deficiencias en sus medidas de seguridad física. ¿Qué tipo de prueba de penetración debería realizar?",
+      "opciones": ["Ofensiva", "Defensiva", "Física", "Reconocimiento"],
+      "respuesta": 2,
+      "explicacion": "Una prueba de penetración física evalúa controles como cerraduras, barreras, cámaras y procedimientos de acceso."
+    },
+    {
+      "pregunta": "¿Cómo protege un NDA a una organización cuando trabaja con proveedores?",
+      "opciones": [
+        "Garantizando que la organización conserve la propiedad de toda propiedad intelectual desarrollada.",
+        "Impidiendo que el proveedor trabaje con competidores durante un periodo determinado.",
+        "Prohibiendo al proveedor divulgar o utilizar indebidamente información confidencial de la organización.",
+        "Obligando al proveedor a seguir procesos operativos específicos."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un NDA establece obligaciones de confidencialidad que impiden divulgar o utilizar sin autorización información protegida."
+    },
+    {
+      "pregunta": "¿Por qué son los cuestionarios una herramienta esencial para supervisar proveedores?",
+      "opciones": [
+        "Para evaluar de forma continua su alineación con los objetivos estratégicos de la organización.",
+        "Para permitir que anuncien nuevos productos.",
+        "Para garantizar exclusivamente que su personal esté certificado.",
+        "Para actualizar los datos de contacto de sus representantes."
+      ],
+      "respuesta": 0,
+      "explicacion": "Los cuestionarios permiten evaluar periódicamente el desempeño, cumplimiento, controles y adecuación del proveedor."
+    },
+    {
+      "pregunta": "¿Cuál es la importancia de disponer de un SOW o WO detallado al trabajar con proveedores?",
+      "opciones": [
+        "Enumerar todos los proveedores potenciales.",
+        "Establecer únicamente el calendario de pagos.",
+        "Definir con precisión el alcance, entregables, plazos y condiciones de pago.",
+        "Garantizar que el material de marketing de ambas partes sea coherente."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un SOW o WO detallado establece claramente qué debe realizarse, los entregables, los plazos y otras condiciones del trabajo."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de realizar pruebas de penetración en los sistemas de un proveedor antes de formalizar un acuerdo con terceros?",
+      "opciones": [
+        "Evaluar la capacidad de respuesta de su atención al cliente.",
+        "Evaluar la seguridad física de sus instalaciones.",
+        "Identificar vulnerabilidades en sus sistemas y aplicaciones de TI.",
+        "Medir su eficiencia operativa."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las pruebas de penetración identifican debilidades explotables en los sistemas y aplicaciones del proveedor."
+    },
+    {
+      "pregunta": "¿Por qué es importante incluir evidencias de auditorías internas en un proceso de evaluación de proveedores?",
+      "opciones": [
+        "Para verificar su solvencia financiera.",
+        "Para comprobar su adhesión a estándares del sector y requisitos regulatorios.",
+        "Para evaluar su alcance geográfico.",
+        "Para valorar sus iniciativas de responsabilidad social corporativa."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las auditorías internas aportan evidencias sobre controles, procesos y cumplimiento de normas y regulaciones."
+    },
+    {
+      "pregunta": "¿Cuál es la función de un WO en la gestión de servicios continuos de un proveedor?",
+      "opciones": [
+        "Actuar únicamente como acuerdo para un proyecto puntual.",
+        "Proporcionar autorización continuada para servicios rutinarios y definir tareas específicas.",
+        "Servir únicamente como registro de trabajos completados para facturación.",
+        "Establecer la dirección estratégica general de la asociación."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un Work Order define tareas, entregables, plazos y autorizaciones operativas dentro de una relación contractual más amplia."
+    },
+    {
+      "pregunta": "¿Cómo se beneficia una organización de que un proveedor presente evidencias de auditorías internas durante el proceso de evaluación?",
+      "opciones": [
+        "Proporciona confianza en el compromiso del proveedor con la mejora continua.",
+        "Elimina la necesidad de auditorías externas.",
+        "Garantiza la superioridad tecnológica del proveedor.",
+        "Sirve como herramienta de marketing."
+      ],
+      "respuesta": 0,
+      "explicacion": "Las auditorías internas muestran que el proveedor revisa sus propios controles y procesos e identifica áreas de mejora."
+    },
+    {
+      "pregunta": "Una auditoría de seguridad descubre que varios dispositivos móviles utilizados para fines empresariales han sido sometidos a jailbreaking, permitiendo software no autorizado. ¿Qué tipo de vulnerabilidad representa?",
+      "opciones": [
+        "Dispositivo móvil - Jailbreaking",
+        "Dispositivo móvil - Sideloading",
+        "Configuración incorrecta",
+        "Hardware"
+      ],
+      "respuesta": 0,
+      "explicacion": "El jailbreaking elimina restricciones de seguridad del sistema operativo y puede permitir aplicaciones o modificaciones no autorizadas."
+    },
+    {
+      "pregunta": "Durante una revisión se descubre que las deficientes medidas de seguridad de un proveedor de servicios externo provocaron acceso no autorizado a datos confidenciales. ¿Qué tipo de vulnerabilidad representa?",
+      "opciones": [
+        "Proveedor de servicios",
+        "Proveedor de hardware",
+        "Proveedor de software",
+        "Específica de cloud"
+      ],
+      "respuesta": 0,
+      "explicacion": "La vulnerabilidad deriva directamente de los controles de seguridad inadecuados de un proveedor de servicios externo."
+    },
+    {
+      "pregunta": "Un atacante explota una vulnerabilidad del sistema operativo de un smartphone que le permite instalar spyware remotamente sin conocimiento del usuario. ¿Qué tipo de vulnerabilidad representa?",
+      "opciones": [
+        "Dispositivo móvil",
+        "Zero-day",
+        "Configuración incorrecta",
+        "Firmware"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una vulnerabilidad zero-day puede explotarse antes de que el fabricante o los usuarios dispongan de una corrección."
+    },
+    {
+      "pregunta": "En el contexto de seguridad de aplicaciones, ¿cuál es el objetivo principal de la validación de entradas?",
+      "opciones": [
+        "Cifrar las entradas del usuario.",
+        "Garantizar que las entradas sean sintáctica y semánticamente válidas.",
+        "Autenticar la identidad del usuario.",
+        "Firmar digitalmente el código."
+      ],
+      "respuesta": 1,
+      "explicacion": "La validación comprueba que los datos recibidos cumplen el formato y contenido esperados, reduciendo ataques como inyecciones."
+    },
+    {
+      "pregunta": "¿Qué mecanismo de seguridad es más efectivo para aislar aplicaciones no confiables e impedir que accedan a recursos de todo el sistema?",
+      "opciones": ["Sandboxing", "WPA3", "Firma de código", "RADIUS"],
+      "respuesta": 0,
+      "explicacion": "El sandboxing ejecuta aplicaciones dentro de un entorno restringido que limita su acceso a recursos y datos."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es una característica clave de WPA3 que mejora la seguridad de las redes inalámbricas?",
+      "opciones": [
+        "Validación de entradas",
+        "Cifrado individualizado de datos",
+        "Análisis estático de código",
+        "Sandboxing"
+      ],
+      "respuesta": 1,
+      "explicacion": "WPA3 mejora la privacidad en redes inalámbricas mediante mecanismos que proporcionan protección individualizada del tráfico de los usuarios."
+    },
+    {
+      "pregunta": "Una empresa quiere implementar SSO para sus servicios cloud con el fin de mejorar la experiencia del usuario y la seguridad. ¿Qué tecnología facilitaría mejor esta implementación?",
+      "opciones": ["OAuth", "LDAP", "Federación", "Identity proofing"],
+      "respuesta": 2,
+      "explicacion": "La federación permite compartir identidades y autenticación entre diferentes dominios o servicios y facilita escenarios de SSO."
+    }
+  ]
+}

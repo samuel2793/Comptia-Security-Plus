@@ -1,0 +1,936 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams - Segundo Test",
+  "procedencia": "CompTIA Security+ (SY0-701) Practice Exams, TIA Training y Andrew Ramdayal",
+  "descripcion": "Segundo test de práctica para la certificación CompTIA Security+ SY0-701.",
+  "preguntas": [
+    {
+      "pregunta": "Una empresa detecta transmisiones de datos inusuales desde sus dispositivos IoT. Al investigar, descubre que los dispositivos seguían utilizando la configuración predeterminada de fábrica, incluidas las contraseñas, lo que permitió a un atacante tomar el control fácilmente. ¿Qué tipo de vulnerabilidad representa esta situación?",
+      "opciones": [
+        "Fallo de hardware",
+        "Explotación del firmware",
+        "Explotación de una configuración incorrecta",
+        "Hardware al final de su vida útil"
+      ],
+      "respuesta": 2,
+      "explicacion": "Mantener configuraciones y credenciales predeterminadas constituye una misconfiguración que facilita el acceso no autorizado."
+    },
+    {
+      "pregunta": "Los sistemas de seguridad de una empresa detectan un intento de registrar las pulsaciones de teclado en un servidor expuesto públicamente. ¿Qué tipo de malware está diseñado específicamente para este propósito?",
+      "opciones": ["Virus", "Gusano", "Keylogger", "Spyware"],
+      "respuesta": 2,
+      "explicacion": "Un keylogger está diseñado específicamente para registrar pulsaciones de teclado y capturar información como contraseñas u otros datos sensibles."
+    },
+    {
+      "pregunta": "Durante un análisis rutinario de la red, observas un aumento significativo del volumen de tráfico, especialmente paquetes UDP, dirigidos a uno de tus servidores desde múltiples orígenes. Esta actividad es especialmente intensa fuera del horario habitual. ¿Qué está ocurriendo con mayor probabilidad?",
+      "opciones": [
+        "Intrusión inalámbrica",
+        "Ataque on-path",
+        "Ataque DDoS amplificado",
+        "Ataque de repetición de credenciales"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un DDoS amplificado utiliza servicios reflectores para generar grandes cantidades de tráfico, frecuentemente UDP, hacia la víctima."
+    },
+    {
+      "pregunta": "Una persona quiere mejorar la privacidad de un mensaje de correo ocultándolo de forma que su existencia no sea detectable para observadores no autorizados. ¿Qué técnica debería utilizar?",
+      "opciones": [
+        "Esteganografía",
+        "Tokenización",
+        "Enmascaramiento de datos",
+        "Secure Enclave"
+      ],
+      "respuesta": 0,
+      "explicacion": "La esteganografía oculta la existencia de información dentro de otro contenido, como una imagen o un archivo."
+    },
+    {
+      "pregunta": "Una organización descubre que uno de sus certificados SSL ha sido comprometido. Para evitar su uso indebido, necesita que navegadores y clientes sepan inmediatamente que el certificado ya no es válido. ¿Qué mecanismo debería utilizar?",
+      "opciones": ["CRL", "OCSP", "Secure Enclave", "Blockchain"],
+      "respuesta": 1,
+      "explicacion": "OCSP permite consultar en tiempo real el estado de revocación de un certificado, proporcionando información más inmediata que una CRL."
+    },
+    {
+      "pregunta": "Un bufete jurídico necesita autenticar documentos digitales, garantizar que su contenido no haya sido modificado y verificar la identidad del firmante. ¿Qué tecnología debería implementar?",
+      "opciones": ["Firmas digitales", "Hashing", "Salting", "Key stretching"],
+      "respuesta": 0,
+      "explicacion": "Las firmas digitales proporcionan integridad y autenticidad al vincular criptográficamente el documento con la identidad del firmante."
+    },
+    {
+      "pregunta": "La base de datos de contraseñas de una empresa está expuesta al riesgo de ataques de fuerza bruta. ¿Qué técnica debería implementar para aumentar la seguridad de las contraseñas almacenadas?",
+      "opciones": [
+        "Key stretching",
+        "Firmas digitales",
+        "Certificados",
+        "Blockchain"
+      ],
+      "respuesta": 0,
+      "explicacion": "El key stretching aumenta el coste computacional de cada intento de derivación de contraseña, dificultando los ataques de fuerza bruta."
+    },
+    {
+      "pregunta": "Una corporación multinacional descubre un sofisticado ciberataque dirigido contra sus datos propietarios. El ataque utilizó amenazas persistentes avanzadas y vulnerabilidades zero-day. ¿Quién es el actor más probable?",
+      "opciones": [
+        "Estado-nación",
+        "Atacante poco cualificado",
+        "Hacktivista",
+        "Amenaza interna"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los actores patrocinados por Estados suelen disponer de los recursos y capacidades necesarios para realizar operaciones avanzadas con APT y vulnerabilidades zero-day."
+    },
+    {
+      "pregunta": "El departamento de TI de una organización detecta instalaciones de software no autorizadas que eluden los procesos estándar de adquisición y TI. ¿Qué amenaza describe mejor esta actividad?",
+      "opciones": [
+        "Crimen organizado",
+        "Shadow IT",
+        "Hacktivista",
+        "Atacante poco cualificado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Shadow IT es el uso de sistemas, servicios o aplicaciones sin la aprobación formal del departamento de TI."
+    },
+    {
+      "pregunta": "Poco después de una decisión política controvertida, un sitio web gubernamental queda inaccesible debido a una avalancha de tráfico que satura sus servidores. ¿Qué tipo de actor de amenaza es el más probable?",
+      "opciones": [
+        "Estado-nación",
+        "Hacktivista",
+        "Crimen organizado",
+        "Atacante poco cualificado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los hacktivistas suelen emplear ataques DDoS para interrumpir servicios como forma de protesta o para promover objetivos políticos o sociales."
+    },
+    {
+      "pregunta": "El sitio web de una organización queda temporalmente fuera de servicio debido a una cantidad abrumadora de solicitudes aparentemente legítimas. ¿Qué tipo de impacto busca principalmente el atacante?",
+      "opciones": [
+        "Espionaje",
+        "Beneficio financiero",
+        "Interrupción del servicio",
+        "Impacto ético"
+      ],
+      "respuesta": 2,
+      "explicacion": "La saturación deliberada de un servicio busca afectar su disponibilidad, por lo que el objetivo principal es interrumpir el servicio."
+    },
+    {
+      "pregunta": "Durante una evaluación de red observas que varios dispositivos utilizan las credenciales predeterminadas proporcionadas por el fabricante. ¿Cuál debería ser tu primera acción para reducir este riesgo?",
+      "opciones": [
+        "Mantener las credenciales porque no representan un riesgo significativo",
+        "Cambiar las credenciales predeterminadas por contraseñas fuertes y únicas",
+        "Deshabilitar todas las cuentas que utilizan credenciales predeterminadas",
+        "Limitarse a supervisar más atentamente el tráfico de red"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las credenciales predeterminadas son ampliamente conocidas y deben sustituirse inmediatamente por credenciales fuertes y únicas."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe mejor una estrategia eficaz para proteger una red inalámbrica contra escuchas no autorizadas?",
+      "opciones": [
+        "Mantener el SSID predeterminado",
+        "Utilizar cifrado WEP para mantener compatibilidad",
+        "Habilitar WPA3 en la red inalámbrica",
+        "Limitar la intensidad de la señal al interior de la oficina"
+      ],
+      "respuesta": 2,
+      "explicacion": "WPA3 proporciona mecanismos de cifrado y autenticación más robustos que estándares antiguos como WEP."
+    },
+    {
+      "pregunta": "Durante una auditoría de seguridad descubres que varios servidores críticos son accesibles desde Internet debido a puertos de servicio abiertos. ¿Cuál debería ser el siguiente paso inmediato?",
+      "opciones": [
+        "Cerrar todos los puertos abiertos",
+        "Implementar un firewall para controlar el acceso a los puertos",
+        "Mantener los puertos abiertos y limitarse a supervisarlos",
+        "Cerrar únicamente los puertos que se sabe que explota el malware"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un firewall permite restringir de forma selectiva el acceso a los servicios necesarios sin bloquear indiscriminadamente funciones legítimas."
+    },
+    {
+      "pregunta": "El equipo de seguridad de una empresa detecta un aumento inusual de solicitudes de emparejamiento Bluetooth. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Un empleado intenta conectar un dispositivo nuevo",
+        "Existe un fallo generalizado en los dispositivos Bluetooth",
+        "Atacantes están intentando realizar Bluejacking",
+        "Los dispositivos Bluetooth se están actualizando automáticamente"
+      ],
+      "respuesta": 2,
+      "explicacion": "El Bluejacking implica el envío no solicitado de mensajes o solicitudes mediante Bluetooth y puede explicar un aumento anómalo de intentos de conexión."
+    },
+    {
+      "pregunta": "Al configurar un nuevo dispositivo de red, ¿por qué es importante deshabilitar los servicios y puertos que no se utilizan?",
+      "opciones": [
+        "Para aumentar el ancho de banda disponible",
+        "Para reducir la superficie de ataque disponible para los atacantes",
+        "Para simplificar la administración de los dispositivos",
+        "Para cumplir automáticamente todas las normativas internacionales"
+      ],
+      "respuesta": 1,
+      "explicacion": "Cada servicio o puerto innecesario representa un posible punto de entrada, por lo que deshabilitarlos reduce la superficie de ataque."
+    },
+    {
+      "pregunta": "¿Cuál es la medida más eficaz para protegerse contra ataques que aprovechan conexiones físicas de red cableadas sin proteger?",
+      "opciones": [
+        "Utilizar VPN para todo el tráfico",
+        "Implementar filtrado de direcciones MAC",
+        "Cifrar los datos en reposo",
+        "Proteger físicamente los puertos y la infraestructura de red"
+      ],
+      "respuesta": 3,
+      "explicacion": "La protección física impide que una persona no autorizada conecte directamente un dispositivo a un puerto de red accesible."
+    },
+    {
+      "pregunta": "¿Cuál es una preocupación principal de seguridad al utilizar Bluetooth para transferir archivos entre dispositivos?",
+      "opciones": [
+        "El límite de tamaño de los archivos",
+        "La menor velocidad respecto a Wi-Fi",
+        "La vulnerabilidad a escuchas e interceptación de datos",
+        "La necesidad de proximidad entre dispositivos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una conexión Bluetooth mal protegida puede permitir la interceptación del tráfico y comprometer la confidencialidad de los datos."
+    },
+    {
+      "pregunta": "¿Por qué es importante que las organizaciones gestionen y supervisen los riesgos de ciberseguridad de su cadena de suministro?",
+      "opciones": [
+        "Para garantizar entregas puntuales",
+        "Para impedir accesos no autorizados a través de proveedores externos",
+        "Para mantener precios competitivos",
+        "Para cumplir estándares generales de gestión logística"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un proveedor menos protegido puede servir como punto de entrada a la red de la organización, por lo que el riesgo de terceros debe gestionarse."
+    },
+    {
+      "pregunta": "Un empleado encuentra una memoria USB en el aparcamiento y la conecta a su estación de trabajo para identificar al propietario. ¿Cuál es el riesgo más grave para la organización?",
+      "opciones": [
+        "La memoria puede ser incompatible con el hardware",
+        "El empleado puede perder tiempo intentando localizar al propietario",
+        "La memoria USB podría introducir malware en la red corporativa",
+        "El empleado podría dañar la memoria USB"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un dispositivo USB desconocido puede contener malware capaz de comprometer el equipo y propagarse por la red."
+    },
+    {
+      "pregunta": "Un analista descubre que una aplicación utilizada en la empresa ya no recibe soporte del fabricante y lleva más de un año sin actualizaciones. ¿Qué debería recomendar para reducir el riesgo?",
+      "opciones": [
+        "Continuar utilizándola y vigilar actividad inusual",
+        "Sustituirla por una alternativa compatible y actualizada regularmente",
+        "Desconectarla de Internet pero permitir su uso interno",
+        "Formar a los empleados para que la utilicen con precaución"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una aplicación sin soporte puede acumular vulnerabilidades sin parchear; sustituirla elimina este riesgo de raíz."
+    },
+    {
+      "pregunta": "Al proteger una aplicación web, ¿cuál es la forma más eficaz de defenderse tanto contra SQL injection como contra XSS?",
+      "opciones": [
+        "Restringir los permisos de archivos del servidor web",
+        "Realizar periódicamente pruebas de seguridad de caja negra",
+        "Utilizar cabeceras CSP",
+        "Validar y sanear todas las entradas de usuario"
+      ],
+      "respuesta": 3,
+      "explicacion": "SQL injection y XSS explotan entradas mal gestionadas; la validación y el saneamiento reducen directamente el riesgo de introducir contenido malicioso."
+    },
+    {
+      "pregunta": "El equipo de seguridad recibe informes de empleados que reciben llamadas de personas que dicen pertenecer al soporte técnico y solicitan sus credenciales. ¿Cuál es la mejor acción inmediata contra esta forma de ingeniería social?",
+      "opciones": [
+        "Indicar a los empleados que cuelguen y llamen a un número oficial conocido de la empresa",
+        "Permitir que entreguen la contraseña si el interlocutor proporciona un código de verificación",
+        "Ignorar las llamadas suponiendo que los empleados no compartirán credenciales",
+        "Grabar todas las llamadas para identificar posteriormente a los atacantes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Finalizar la llamada y contactar mediante un número oficial permite verificar de forma independiente la identidad del supuesto soporte."
+    },
+    {
+      "pregunta": "Durante una auditoría de la infraestructura de TI se descubre que varios servidores críticos son accesibles mediante credenciales predeterminadas. ¿Cuál debe ser la acción correctiva inmediata?",
+      "opciones": [
+        "Implementar autenticación de dos factores",
+        "Cambiar las credenciales predeterminadas por contraseñas fuertes y únicas",
+        "Deshabilitar el acceso remoto a los servidores",
+        "Realizar una prueba de penetración"
+      ],
+      "respuesta": 1,
+      "explicacion": "El riesgo inmediato procede de las credenciales conocidas públicamente, por lo que deben sustituirse de inmediato."
+    },
+    {
+      "pregunta": "El equipo de seguridad identifica que un atacante ha accedido a la red mediante un dispositivo con Bluetooth. ¿Cuál es la estrategia de mitigación más eficaz para evitar futuros incidentes?",
+      "opciones": [
+        "Deshabilitar Bluetooth en todos los dispositivos donde no sea necesario",
+        "Aumentar el nivel de cifrado de los dispositivos Bluetooth",
+        "Realizar evaluaciones periódicas de seguridad de la red",
+        "Implementar un NIDS"
+      ],
+      "respuesta": 0,
+      "explicacion": "Desactivar Bluetooth cuando no es necesario elimina puntos de entrada y reduce directamente la superficie de ataque."
+    },
+    {
+      "pregunta": "Una organización detecta un aumento de correos de phishing dirigidos a sus empleados. ¿Qué medida es la más eficaz para mitigar esta amenaza?",
+      "opciones": [
+        "Implementar una solución de filtrado de correo electrónico",
+        "Aumentar los niveles de seguridad del firewall",
+        "Actualizar los protocolos de cifrado de red",
+        "Implementar una VPN para el acceso remoto"
+      ],
+      "respuesta": 0,
+      "explicacion": "El filtrado de correo puede identificar y bloquear mensajes de phishing antes de que lleguen a los usuarios."
+    },
+    {
+      "pregunta": "Durante una revisión de seguridad se descubre que un contratista externo tiene acceso sin restricciones a la red mediante VPN. ¿Qué medida es la más apropiada?",
+      "opciones": [
+        "Implementar segmentación de red",
+        "Revocar el acceso VPN a todos los contratistas externos",
+        "Exigir MFA para el acceso VPN",
+        "Realizar comprobaciones de antecedentes a todos los contratistas"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación permite limitar al contratista únicamente a los sistemas que necesita, aplicando el principio de mínimo privilegio."
+    },
+    {
+      "pregunta": "Al proteger una aplicación web, ¿cuál es la forma más eficaz de defenderse tanto contra SQL injection como contra XSS?",
+      "opciones": [
+        "Restringir los permisos de archivos del servidor web",
+        "Realizar periódicamente pruebas de seguridad de caja negra",
+        "Utilizar cabeceras Content Security Policy (CSP)",
+        "Validar y sanear todas las entradas de usuario"
+      ],
+      "respuesta": 3,
+      "explicacion": "La validación y el saneamiento de entradas mitigan directamente el procesamiento de datos maliciosos que puede provocar SQL injection o XSS."
+    },
+    {
+      "pregunta": "Un analista de seguridad está preocupado por vulnerabilidades en una aplicación desarrollada internamente. ¿Qué práctica es MÁS eficaz para identificar tempranamente vulnerabilidades de inyección en memoria?",
+      "opciones": [
+        "Implementar un NIDS",
+        "Implementar 2FA",
+        "Realizar revisiones de código centradas en seguridad",
+        "Cifrar los datos almacenados por la aplicación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las revisiones de código permiten detectar errores de programación relacionados con la gestión de memoria antes de desplegar la aplicación."
+    },
+    {
+      "pregunta": "Una empresa descubre que se han filtrado datos propietarios debido a un dispositivo no autorizado que accedió a su red. El dispositivo era un router retirado que no fue sanitizado correctamente antes de desecharlo. ¿Qué tipo de vulnerabilidad ilustra mejor este escenario?",
+      "opciones": [
+        "Hardware al final de su vida útil",
+        "Explotación del firmware",
+        "Configuración incorrecta",
+        "Cadena de suministro"
+      ],
+      "respuesta": 0,
+      "explicacion": "El escenario implica hardware retirado cuyo tratamiento inadecuado permitió exponer información, un riesgo asociado al final de la vida útil del dispositivo."
+    },
+    {
+      "pregunta": "Una organización detecta que el tráfico hacia el sitio web de su dominio está siendo redirigido incorrectamente a un sitio malicioso. La investigación revela registros DNS alterados. ¿Qué ataque describe mejor este escenario?",
+      "opciones": [
+        "DNS poisoning",
+        "Ataque inalámbrico",
+        "Ataque DDoS reflejado",
+        "Ataque on-path"
+      ],
+      "respuesta": 0,
+      "explicacion": "El DNS poisoning manipula información DNS para redirigir a los usuarios hacia destinos controlados por el atacante."
+    },
+    {
+      "pregunta": "El equipo de seguridad observa múltiples intentos de inicio de sesión fallidos desde diferentes ubicaciones geográficas en un periodo corto. ¿Qué tipo de ataque probablemente está ocurriendo?",
+      "opciones": [
+        "Ataque on-path",
+        "Ataque de repetición de credenciales",
+        "Ataque DDoS amplificado",
+        "Ataque inalámbrico"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un ataque de repetición de credenciales reutiliza credenciales obtenidas previamente para intentar conseguir acceso no autorizado."
+    },
+    {
+      "pregunta": "Durante una respuesta a incidentes, un analista descubre dispositivos no autorizados conectándose a la red Wi-Fi corporativa sin ser detectados por el sistema de prevención de intrusiones. ¿Qué tipo de ataque es el más probable?",
+      "opciones": [
+        "Ataque DDoS reflejado",
+        "DNS poisoning",
+        "Ataque inalámbrico",
+        "Ataque on-path"
+      ],
+      "respuesta": 2,
+      "explicacion": "La conexión no autorizada a una red Wi-Fi corporativa es indicativa de un ataque contra la infraestructura inalámbrica."
+    },
+    {
+      "pregunta": "Un investigador analiza malware que se disfraza de software legítimo pero contiene funcionalidad oculta que permite acceso no autorizado al sistema. ¿Qué tipo de malware es?",
+      "opciones": ["Virus", "Gusano", "Troyano", "Spyware"],
+      "respuesta": 2,
+      "explicacion": "Un troyano aparenta ser software legítimo mientras ejecuta funciones maliciosas ocultas."
+    },
+    {
+      "pregunta": "Una empresa utiliza tarjetas RFID únicas para controlar el acceso físico. Un atacante duplica la tarjeta RFID de un usuario autorizado para acceder. ¿Cómo se denomina este ataque?",
+      "opciones": [
+        "Ingeniería social",
+        "Tailgating",
+        "Clonación RFID",
+        "Fuerza bruta"
+      ],
+      "respuesta": 2,
+      "explicacion": "La clonación RFID consiste en copiar la información o señal de una credencial RFID legítima para suplantarla."
+    },
+    {
+      "pregunta": "Un empleado observa que su ordenador ejecuta comandos no autorizados en momentos concretos, como eliminar archivos todos los viernes a las 15:00. ¿Qué tipo de malware describe mejor este comportamiento?",
+      "opciones": ["Logic bomb", "Ransomware", "Gusano", "Rootkit"],
+      "respuesta": 0,
+      "explicacion": "Una logic bomb ejecuta una acción maliciosa cuando se cumple una condición concreta, como una fecha u hora."
+    },
+    {
+      "pregunta": "Una empresa implementa un sistema de mensajería cifrada. Un atacante intercepta los mensajes e intenta descifrarlos sin alterar ni redirigir el tráfico. ¿Cómo se clasifica mejor esta actividad?",
+      "opciones": [
+        "Ataque man-in-the-middle",
+        "Eavesdropping",
+        "Phishing",
+        "Spoofing"
+      ],
+      "respuesta": 1,
+      "explicacion": "El eavesdropping consiste en interceptar pasivamente comunicaciones sin modificarlas."
+    },
+    {
+      "pregunta": "Durante una inspección rutinaria, un administrador observa un número inusualmente alto de intentos de inicio de sesión fallidos en un servidor desde múltiples direcciones IP. ¿Cuál es el ataque más probable?",
+      "opciones": [
+        "Buffer overflow",
+        "Replay attack",
+        "Privilege escalation",
+        "Password spraying"
+      ],
+      "respuesta": 3,
+      "explicacion": "El password spraying prueba contraseñas comunes contra múltiples cuentas para reducir la probabilidad de activar bloqueos."
+    },
+    {
+      "pregunta": "Un desarrollador descubre que los campos de entrada de su aplicación web están provocando la ejecución de comandos en el servidor. ¿Qué tipo de ataque representa?",
+      "opciones": [
+        "Injection",
+        "Buffer overflow",
+        "Replay",
+        "Directory traversal"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una vulnerabilidad de injection permite introducir datos maliciosos que son interpretados como comandos por el sistema."
+    },
+    {
+      "pregunta": "Un profesional de TI descubre que un atacante ha obtenido acceso no autorizado a un sistema y está ejecutando comandos con los mismos derechos que el usuario autenticado. ¿Qué tipo de ataque ha ocurrido probablemente?",
+      "opciones": [
+        "Privilege escalation",
+        "Replay",
+        "Injection",
+        "Directory traversal"
+      ],
+      "respuesta": 0,
+      "explicacion": "Según la clasificación del test, el escenario corresponde a privilege escalation, donde el atacante obtiene capacidades o permisos no autorizados dentro del sistema."
+    },
+    {
+      "pregunta": "El equipo de seguridad descubre que el mismo paquete de datos ha sido enviado varias veces a su servidor, cada vez con una marca temporal diferente. ¿Qué tipo de ataque describe mejor este escenario?",
+      "opciones": [
+        "Replay",
+        "Buffer overflow",
+        "Injection",
+        "Privilege escalation"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un replay attack consiste en retransmitir de forma maliciosa una comunicación válida previamente capturada."
+    },
+    {
+      "pregunta": "Una empresa quiere supervisar el tráfico de su red en tiempo real para detectar y responder a amenazas. ¿Cuál de los siguientes elementos es el más importante?",
+      "opciones": [
+        "Desplegar una red Wi-Fi para invitados",
+        "Implementar políticas estrictas de contraseñas",
+        "Monitorización",
+        "Realizar copias de seguridad periódicas"
+      ],
+      "respuesta": 2,
+      "explicacion": "La monitorización en tiempo real proporciona visibilidad del tráfico y permite detectar rápidamente comportamientos maliciosos."
+    },
+    {
+      "pregunta": "Cuando los sistemas legacy no pueden sustituirse ni actualizarse inmediatamente, ¿qué método permite reducir mejor el riesgo?",
+      "opciones": [
+        "Aplicar cambios frecuentes de contraseña",
+        "Aumentar el rendimiento de la red",
+        "Aislamiento",
+        "Exigir autenticación de dos factores"
+      ],
+      "respuesta": 2,
+      "explicacion": "Aislar un sistema legacy limita su comunicación con otros recursos y reduce las vías disponibles para explotar sus vulnerabilidades."
+    },
+    {
+      "pregunta": "Para garantizar que no se realicen cambios no autorizados en la configuración de un sistema, ¿qué estrategia debe utilizarse?",
+      "opciones": [
+        "Configuration enforcement",
+        "Instalación de antivirus",
+        "Actualización de dispositivos de red",
+        "Fomento de contraseñas robustas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Configuration enforcement mantiene los sistemas en un estado autorizado e impide o revierte modificaciones de configuración no aprobadas."
+    },
+    {
+      "pregunta": "Al retirar hardware antiguo, ¿cuál es la consideración más importante para evitar fugas de datos?",
+      "opciones": [
+        "Aumentar el valor de reventa del hardware",
+        "Garantizar la destrucción física de los dispositivos de almacenamiento",
+        "Actualizar al hardware más reciente",
+        "Mantener registros de inventario"
+      ],
+      "respuesta": 1,
+      "explicacion": "La destrucción física adecuada del almacenamiento impide recuperar los datos de equipos retirados."
+    },
+    {
+      "pregunta": "Para limitar el acceso a segmentos sensibles de una red, ¿qué tipo de control debe configurarse cuidadosamente?",
+      "opciones": [
+        "ACL",
+        "Software antimalware",
+        "Formación de concienciación de usuarios",
+        "Limitación del ancho de banda"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las ACL definen qué usuarios, sistemas o flujos pueden acceder a determinados recursos o segmentos de red."
+    },
+    {
+      "pregunta": "Para mantener la integridad de los sistemas y protegerlos frente a vulnerabilidades conocidas, ¿qué práctica debe realizarse periódicamente?",
+      "opciones": [
+        "Monitorización de redes sociales",
+        "Patching",
+        "Simulaciones de phishing",
+        "Restricciones de Wi-Fi público"
+      ],
+      "respuesta": 1,
+      "explicacion": "El patching corrige vulnerabilidades conocidas mediante la aplicación de actualizaciones de seguridad."
+    },
+    {
+      "pregunta": "Un analista evalúa métodos para proteger una aplicación web expuesta públicamente. ¿Cuál de las siguientes soluciones es la más eficaz?",
+      "opciones": [
+        "Implementar un WAF",
+        "Aumentar el ancho de banda del servidor",
+        "Cambiar periódicamente la URL del sitio",
+        "Deshabilitar las cookies de la aplicación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un WAF inspecciona y filtra tráfico dirigido a aplicaciones web y puede bloquear ataques como SQL injection y XSS."
+    },
+    {
+      "pregunta": "Un departamento de TI está implementando medidas para proteger dispositivos móviles. ¿Cuál de los siguientes es el control de seguridad más eficaz?",
+      "opciones": [
+        "Exigir bloqueos de pantalla",
+        "Prohibir el uso de dispositivos móviles",
+        "Permitir únicamente llamadas de voz",
+        "Exigir la instalación de tiendas de aplicaciones de terceros"
+      ],
+      "respuesta": 0,
+      "explicacion": "El bloqueo de pantalla reduce el riesgo de acceso no autorizado cuando un dispositivo se pierde o es robado."
+    },
+    {
+      "pregunta": "Una empresa va a desechar discos duros antiguos que contienen información sensible. ¿Cuál es el método más seguro de eliminación de los datos entre las opciones indicadas?",
+      "opciones": [
+        "Eliminar todos los archivos",
+        "Desmagnetizar los discos mediante degaussing",
+        "Formatear los discos varias veces",
+        "Vender los discos tal como están"
+      ],
+      "respuesta": 1,
+      "explicacion": "El degaussing altera el campo magnético del soporte y hace que los datos almacenados en discos magnéticos dejen de ser recuperables."
+    },
+    {
+      "pregunta": "¿Qué tema de formación en concienciación de seguridad sería más eficaz para prevenir ataques de phishing?",
+      "opciones": [
+        "Historia de la informática",
+        "Importancia de utilizar contraseñas robustas",
+        "Cómo identificar y responder a correos de phishing",
+        "Ventajas del software de código abierto"
+      ],
+      "respuesta": 2,
+      "explicacion": "Enseñar a reconocer y gestionar correos de phishing actúa directamente sobre la técnica utilizada por estos ataques."
+    },
+    {
+      "pregunta": "La política de seguridad de una organización restringe el uso de dispositivos USB. ¿Cuál es el motivo principal?",
+      "opciones": [
+        "Aumentar la velocidad de la red interna",
+        "Evitar pérdidas de datos mediante su extracción física",
+        "Fomentar el uso de almacenamiento en la nube",
+        "Reducir el consumo eléctrico"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los dispositivos USB facilitan copiar y extraer grandes cantidades de información sensible fuera de la organización."
+    },
+    {
+      "pregunta": "Un departamento de TI configura la seguridad de una nueva infraestructura de red. ¿Cuál de las siguientes opciones segmentaría y aislaría mejor los datos sensibles?",
+      "opciones": [
+        "Implementar VLAN con controles de acceso adecuados",
+        "Configurar todos los equipos con la misma zona horaria",
+        "Utilizar una sola cuenta compartida para la administración",
+        "Colocar todas las impresoras en la misma subred"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las VLAN permiten separar lógicamente grupos de sistemas y controlar el tráfico entre segmentos mediante políticas de acceso."
+    },
+    {
+      "pregunta": "Una empresa desarrolla una política interna para gestionar incidentes de seguridad. ¿Cuál es el elemento más crítico que debe incluir?",
+      "opciones": [
+        "Un historial detallado de incidentes anteriores del sector",
+        "Procedimientos para informar y responder a incidentes de seguridad",
+        "Una lista de proveedores de software de seguridad preferidos",
+        "Métricas de rendimiento de los empleados relacionadas con incidentes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una política de respuesta a incidentes debe definir claramente cómo informar, escalar, contener y responder a los incidentes."
+    },
+    {
+      "pregunta": "Al desplegar un nuevo NIDS en un entorno empresarial, ¿cuál es su ubicación más eficaz teniendo en cuenta una arquitectura de red típica?",
+      "opciones": [
+        "Directamente en los dispositivos endpoint",
+        "En línea entre la red interna y la puerta de enlace a Internet",
+        "En un puerto espejo del switch principal",
+        "En línea entre el punto de acceso inalámbrico y los endpoints"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un puerto espejo permite al NIDS observar una gran cantidad de tráfico de red de forma pasiva sin convertirse en un punto de fallo en línea."
+    },
+    {
+      "pregunta": "En un entorno de alta seguridad, ¿qué método de seguridad de puertos debe implementarse para garantizar que solo los dispositivos autorizados puedan conectarse a la red?",
+      "opciones": [
+        "Filtrado de direcciones MAC",
+        "Autenticación 802.1X",
+        "Port forwarding simple",
+        "Deshabilitar puertos no utilizados"
+      ],
+      "respuesta": 1,
+      "explicacion": "802.1X exige autenticación antes de conceder acceso a la red y proporciona un control más robusto que el filtrado MAC."
+    },
+    {
+      "pregunta": "¿En qué escenario sería preferible un sistema fail-closed frente a uno fail-open?",
+      "opciones": [
+        "En un sistema de alarma contra incendios de un gran edificio comercial",
+        "En la pasarela de pago de una plataforma de comercio electrónico",
+        "En la red Wi-Fi gratuita de una biblioteca pública",
+        "En una red de pantallas publicitarias digitales"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una pasarela de pago debe denegar operaciones en caso de fallo para evitar transacciones no autorizadas."
+    },
+    {
+      "pregunta": "¿Qué característica de despliegue de un dispositivo es más adecuada para una solución de monitorización destinada a identificar y analizar filtraciones de datos a gran escala?",
+      "opciones": [
+        "Ubicación activa del dispositivo",
+        "Ubicación pasiva del dispositivo",
+        "Ubicación inline del dispositivo",
+        "Modo tap/monitor del dispositivo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un despliegue pasivo permite analizar y registrar tráfico sin modificar ni interrumpir el funcionamiento de la red."
+    },
+    {
+      "pregunta": "Una empresa quiere proteger su granja interna de servidores frente a accesos no autorizados, pero necesita permitir el acceso de técnicos para tareas de mantenimiento. ¿Cuál es la mejor solución?",
+      "opciones": [
+        "Implementar un jump server",
+        "Configurar una VPN directa para cada técnico",
+        "Permitir acceso SSH desde Internet",
+        "Trasladar todos los servicios internos a una nube pública"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un jump server centraliza y controla el acceso administrativo a sistemas internos, facilitando además su supervisión y registro."
+    },
+    {
+      "pregunta": "Eres analista de seguridad de una corporación multinacional que maneja información financiera altamente sensible. ¿Qué método sería más eficaz para proteger estos datos mientras se transmiten entre oficinas de distintos países?",
+      "opciones": ["Hashing", "Cifrado", "Ofuscación", "Enmascaramiento"],
+      "respuesta": 1,
+      "explicacion": "El cifrado protege la confidencialidad de los datos en tránsito al hacerlos ilegibles para partes no autorizadas."
+    },
+    {
+      "pregunta": "Eres administrador de bases de datos en una organización sanitaria y eres responsable de proteger historiales de pacientes. ¿Qué clasificación de datos describe mejor esta información?",
+      "opciones": ["Restricted", "Public", "Sensitive", "Confidential"],
+      "respuesta": 2,
+      "explicacion": "Según la clasificación empleada en el test, los historiales de pacientes son datos Sensitive debido a su carácter privado y a la necesidad de controlar estrictamente su acceso."
+    },
+    {
+      "pregunta": "Una empresa necesita garantizar que solo los empleados autorizados puedan acceder a los datos de su infraestructura crítica. ¿Qué método sería más eficaz?",
+      "opciones": [
+        "Segmentación",
+        "Cifrado",
+        "Restricciones de permisos",
+        "Ofuscación"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación limita el acceso y el flujo de tráfico hacia recursos críticos, reduciendo su exposición a usuarios o sistemas no autorizados."
+    },
+    {
+      "pregunta": "Debes proteger secretos comerciales almacenados en una base de datos. ¿Qué tipo de información describe mejor estos datos?",
+      "opciones": [
+        "Información legal",
+        "Propiedad intelectual",
+        "Datos regulados",
+        "Información financiera"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los secretos comerciales constituyen propiedad intelectual y representan información empresarial con valor competitivo."
+    },
+    {
+      "pregunta": "Una organización quiere impedir el acceso no autorizado a su base de datos privada de clientes. ¿Qué método sería más eficaz?",
+      "opciones": [
+        "Tokenización",
+        "Enmascaramiento",
+        "Restricciones de permisos",
+        "Cifrado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las restricciones de permisos controlan directamente qué usuarios pueden acceder a los datos en función de sus privilegios."
+    },
+    {
+      "pregunta": "¿Por qué son críticos los sistemas UPS para las operaciones de un centro de datos?",
+      "opciones": [
+        "Proporcionan suministro eléctrico a largo plazo",
+        "Reducen el consumo energético total",
+        "Proporcionan alimentación de respaldo inmediata durante cortes eléctricos",
+        "Mejoran las velocidades de transferencia de datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una UPS proporciona energía de respaldo inmediata para mantener los sistemas operativos hasta recuperar el suministro o activar otra fuente."
+    },
+    {
+      "pregunta": "Una organización quiere garantizar que los usuarios únicamente tengan acceso a los recursos necesarios para su función actual. ¿Qué principio debe aplicar?",
+      "opciones": [
+        "DAC",
+        "MAC",
+        "Least Privilege",
+        "Restricciones por hora del día"
+      ],
+      "respuesta": 2,
+      "explicacion": "El principio de mínimo privilegio limita los permisos al nivel estrictamente necesario para realizar las funciones asignadas."
+    },
+    {
+      "pregunta": "Para una nueva aplicación móvil, un equipo de desarrollo quiere utilizar un método de autenticación que no implique contraseñas. ¿Cuál sería una alternativa adecuada?",
+      "opciones": [
+        "Gestores de contraseñas",
+        "Biometría",
+        "Requisitos de complejidad de contraseñas",
+        "Políticas de expiración de contraseñas"
+      ],
+      "respuesta": 1,
+      "explicacion": "La autenticación biométrica utiliza características físicas del usuario y puede funcionar sin una contraseña tradicional."
+    },
+    {
+      "pregunta": "Una política de seguridad establece que el acceso al centro de datos seguro solo está permitido al personal de mantenimiento entre las 03:00 y las 05:00. ¿Qué método de control de acceso se está aplicando?",
+      "opciones": ["RBAC", "MAC", "Restricciones por hora del día", "DAC"],
+      "respuesta": 2,
+      "explicacion": "Las restricciones por hora del día condicionan el acceso al momento temporal en que se intenta acceder al recurso."
+    },
+    {
+      "pregunta": "Una empresa implementa un sistema en el que los derechos de acceso son determinados por las políticas establecidas por el propietario del recurso. ¿Qué modelo de control de acceso utiliza?",
+      "opciones": ["MAC", "DAC", "RBAC", "ABAC"],
+      "respuesta": 1,
+      "explicacion": "En DAC, el propietario del recurso tiene capacidad para decidir qué sujetos reciben acceso."
+    },
+    {
+      "pregunta": "Un sistema de seguridad concede acceso basándose en atributos como departamento, cargo y participación en proyectos. ¿Qué modelo de control de acceso describe?",
+      "opciones": ["ABAC", "DAC", "RBAC", "MAC"],
+      "respuesta": 0,
+      "explicacion": "ABAC toma decisiones de acceso utilizando atributos del usuario, del recurso, de la acción o del contexto."
+    },
+    {
+      "pregunta": "Una empresa quiere mejorar su postura de seguridad minimizando el riesgo asociado a cuentas privilegiadas estáticas. ¿Qué enfoque sería el más adecuado?",
+      "opciones": [
+        "Implementar password vaulting",
+        "Asignar derechos permanentes de administrador",
+        "Utilizar una única cuenta compartida para todos los administradores",
+        "Exigir contraseñas complejas cambiadas una vez al año"
+      ],
+      "respuesta": 0,
+      "explicacion": "El password vaulting almacena credenciales privilegiadas de forma controlada y reduce su exposición directa a usuarios y atacantes."
+    },
+    {
+      "pregunta": "Para cumplir las mejores prácticas de gestión de accesos privilegiados, ¿qué método debería utilizar una organización para gestionar el acceso de emergencia a sistemas críticos?",
+      "opciones": [
+        "Conceder cuentas de emergencia permanentes",
+        "Utilizar permisos just-in-time",
+        "Compartir contraseñas entre el equipo de TI",
+        "Documentar contraseñas en una hoja de cálculo segura"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los permisos just-in-time conceden privilegios únicamente cuando son necesarios y los revocan después, reduciendo la exposición."
+    },
+    {
+      "pregunta": "¿Qué técnica puede utilizarse para garantizar que el acceso privilegiado temporal a recursos cloud no deje a la organización expuesta a brechas de seguridad a largo plazo?",
+      "opciones": [
+        "Utilizar credenciales efímeras",
+        "Escribir los códigos de acceso en papel",
+        "Utilizar las mismas contraseñas en varias cuentas",
+        "Depender únicamente de auditorías manuales de permisos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las credenciales efímeras expiran automáticamente tras un periodo corto o cuando termina la tarea para la que fueron emitidas."
+    },
+    {
+      "pregunta": "En una empresa tecnológica que crece rápidamente, ¿qué método de gestión de acceso privilegiado ofrece escalabilidad y flexibilidad manteniendo la seguridad?",
+      "opciones": [
+        "Incluir contraseñas de administrador directamente en scripts",
+        "Utilizar permisos just-in-time con supervisión automatizada",
+        "Asignar privilegios de administrador a todos los empleados",
+        "Utilizar una contraseña común para todas las cuentas privilegiadas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los permisos just-in-time automatizados adaptan dinámicamente los privilegios a las necesidades y los retiran cuando dejan de ser necesarios."
+    },
+    {
+      "pregunta": "¿Cómo puede una organización garantizar que los desarrolladores tengan acceso oportuno a entornos de producción sin comprometer la seguridad?",
+      "opciones": [
+        "Conceder acceso completo y permanente a los servidores de producción",
+        "Utilizar credenciales efímeras para acceso temporal",
+        "Compartir credenciales entre todo el equipo de desarrollo",
+        "Exigir únicamente aprobación manual para cada acceso"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las credenciales efímeras proporcionan acceso temporal y caducan automáticamente, reduciendo la exposición de privilegios permanentes."
+    },
+    {
+      "pregunta": "Al implementar una solución de Privileged Access Management (PAM), ¿qué práctica ayuda a evitar accesos no autorizados debidos a credenciales comprometidas?",
+      "opciones": [
+        "Reutilizar contraseñas en varios sistemas",
+        "Implementar password vaulting y rotación periódica de credenciales",
+        "Mantener una lista impresa de contraseñas en una oficina segura",
+        "Utilizar contraseñas fáciles de recordar para evitar restablecimientos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El password vaulting protege las credenciales y su rotación periódica limita la utilidad de una contraseña que haya sido comprometida."
+    },
+    {
+      "pregunta": "¿Qué estrategia garantiza que los administradores de sistemas dispongan del acceso necesario para realizar sus funciones sin exponer a la organización a riesgos innecesarios?",
+      "opciones": [
+        "Conexiones VPN always-on para acceso remoto",
+        "Permisos just-in-time con control de acceso basado en roles",
+        "Acceso sin restricciones a todos los sistemas",
+        "Autenticación de un solo factor"
+      ],
+      "respuesta": 1,
+      "explicacion": "Combinar just-in-time con RBAC limita los privilegios tanto por función como por duración."
+    },
+    {
+      "pregunta": "Al migrar a una infraestructura basada en cloud, ¿qué práctica debería adoptarse para gestionar de forma segura el acceso de los proveedores de servicios cloud (CSP)?",
+      "opciones": [
+        "Utilizar claves de acceso estáticas y de larga duración compartidas por correo electrónico",
+        "Implementar credenciales efímeras para el acceso de los CSP",
+        "Conceder acceso ilimitado a los CSP",
+        "Documentar las credenciales en documentos compartidos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las credenciales efímeras proporcionan acceso limitado temporalmente y reducen el riesgo de que una credencial permanente quede expuesta."
+    },
+    {
+      "pregunta": "En el contexto de operaciones seguras, ¿por qué la integración y las pruebas continuas son fundamentales para mantener la seguridad de una aplicación?",
+      "opciones": [
+        "Permiten desplegar rápidamente funcionalidades sin revisiones de seguridad",
+        "Eliminan la necesidad de pruebas manuales y control de calidad",
+        "Permiten detectar y corregir vulnerabilidades de código de forma temprana",
+        "Se centran exclusivamente en optimizar el rendimiento"
+      ],
+      "respuesta": 2,
+      "explicacion": "La integración y las pruebas continuas incorporan verificaciones durante el ciclo de desarrollo y permiten corregir vulnerabilidades antes del despliegue."
+    },
+    {
+      "pregunta": "Al actualizar el registro de riesgos, un director de proyecto asigna un propietario a cada riesgo identificado. ¿Cuál es la razón principal?",
+      "opciones": [
+        "Garantizar que todos los empleados conozcan los riesgos",
+        "Delegar el análisis de riesgos entre más miembros del equipo",
+        "Tener personas concretas responsables de supervisar y mitigar cada riesgo",
+        "Distribuir la responsabilidad financiera de los riesgos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Asignar un propietario establece una responsabilidad clara para supervisar el riesgo y ejecutar las medidas de tratamiento correspondientes."
+    },
+    {
+      "pregunta": "Durante un proceso continuo de evaluación de riesgos, una organización identifica un aumento de la amenaza de phishing. ¿Qué KRI sería más relevante supervisar para detectar tempranamente esta amenaza?",
+      "opciones": [
+        "Número de intentos fallidos de inicio de sesión",
+        "Frecuencia de aplicación de parches a los servidores de correo",
+        "Aumento de correos recibidos que el filtro identifica como phishing",
+        "Cambios en los índices de satisfacción de los empleados"
+      ],
+      "respuesta": 2,
+      "explicacion": "El volumen de mensajes identificados como phishing es un indicador directo de la frecuencia de intentos de este tipo de ataque."
+    },
+    {
+      "pregunta": "Una entidad financiera evalúa el riesgo de acceso no autorizado a su plataforma de banca online. ¿Qué método proporcionaría la evaluación más precisa del impacto financiero potencial?",
+      "opciones": [
+        "Realizar una única evaluación de riesgos al lanzar la plataforma",
+        "Calcular la probabilidad y el impacto de los incidentes",
+        "Realizar un análisis cualitativo de riesgos una vez al año",
+        "Estimar el ALE de los incidentes de acceso no autorizado"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Annualized Loss Expectancy (ALE) cuantifica la pérdida económica anual esperada combinando la frecuencia estimada con el impacto económico de cada incidente."
+    },
+    {
+      "pregunta": "Una empresa tecnológica evalúa el riesgo de un nuevo proyecto para desarrollar software propietario. ¿Qué técnica de análisis de riesgos ayudaría mejor a estimar las posibles pérdidas financieras por retrasos o fallos del proyecto?",
+      "opciones": [
+        "Análisis cualitativo basado en opiniones de miembros del equipo",
+        "Análisis cuantitativo utilizando datos históricos de proyectos similares",
+        "Análisis de riesgos único al inicio del proyecto",
+        "Análisis continuo de riesgos durante todo el ciclo de vida"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis cuantitativo utiliza datos y valores monetarios para estimar pérdidas potenciales mediante métricas financieras."
+    },
+    {
+      "pregunta": "Tras identificar diversos riesgos asociados a un nuevo centro de datos, una empresa quiere priorizarlos para su mitigación. ¿Qué factor debería tener mayor peso?",
+      "opciones": [
+        "El coste total de implementar cada estrategia de mitigación",
+        "La probabilidad de cada riesgo y su impacto potencial",
+        "La opinión de la alta dirección sobre cada riesgo",
+        "La facilidad para implementar cada estrategia de mitigación"
+      ],
+      "respuesta": 1,
+      "explicacion": "La combinación de probabilidad e impacto permite priorizar los riesgos que representan una mayor exposición para la organización."
+    },
+    {
+      "pregunta": "Después de un desastre, una empresa descubre que su proceso de recuperación de datos no cumple el RPO establecido. ¿Qué debería priorizar para alinear su capacidad de recuperación con el RPO?",
+      "opciones": [
+        "Aumentar la tolerancia al riesgo",
+        "Aumentar la frecuencia de las copias de seguridad",
+        "Transferir la responsabilidad de recuperación de datos",
+        "Aceptar el RPO actual sin cambios"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un RPO más exigente requiere puntos de recuperación más recientes, lo que normalmente implica realizar copias de seguridad con mayor frecuencia."
+    },
+    {
+      "pregunta": "Al realizar una evaluación de un proveedor, ¿qué importancia tiene incluir una cláusula de derecho de auditoría en el acuerdo?",
+      "opciones": [
+        "Garantiza precios competitivos durante todo el contrato",
+        "Permite modificar el alcance del trabajo sin costes adicionales",
+        "Permite a la empresa contratante auditar los procesos y el cumplimiento del proveedor",
+        "Garantiza por sí sola la confidencialidad de todos los datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una cláusula right-to-audit permite comprobar directamente si el proveedor cumple los requisitos de seguridad, normativos y contractuales establecidos."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es una razón fundamental para realizar evaluaciones independientes de los proveedores?",
+      "opciones": [
+        "Reducir el coste de sus servicios",
+        "Garantizar que utilicen siempre la tecnología más reciente",
+        "Verificar las afirmaciones de los proveedores sobre sus productos y servicios",
+        "Establecer un canal de comunicación directo con su dirección"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una evaluación independiente proporciona una verificación objetiva de las capacidades, controles y afirmaciones del proveedor."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de un SLA entre una organización y su proveedor?",
+      "opciones": [
+        "Definir el marco jurídico completo de la relación",
+        "Especificar las métricas esperadas de rendimiento y disponibilidad",
+        "Documentar entendimientos mutuos sin obligaciones exigibles",
+        "Detallar las tareas y entregables concretos de un proyecto"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un SLA establece niveles de servicio medibles, como disponibilidad, tiempos de respuesta y otros objetivos de rendimiento."
+    },
+    {
+      "pregunta": "En el contexto de la selección de proveedores, ¿por qué es importante realizar due diligence?",
+      "opciones": [
+        "Para garantizar que la estrategia de marketing del proveedor coincida con la de la organización",
+        "Para verificar la salud financiera, reputación y capacidad operativa del proveedor",
+        "Para confirmar que su ubicación geográfica coincide exactamente con la de la organización",
+        "Para garantizar que ofrece el precio más bajo del mercado"
+      ],
+      "respuesta": 1,
+      "explicacion": "La due diligence permite evaluar objetivamente si el proveedor es estable, fiable y capaz de cumplir los requisitos de la organización."
+    }
+  ]
+}

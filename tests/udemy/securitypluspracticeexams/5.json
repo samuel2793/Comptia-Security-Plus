@@ -1,0 +1,917 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams - Quinto Test",
+  "procedencia": "CompTIA Security+ (SY0-701) Practice Exams, creado por TIA Training y Andrew Ramdayal",
+  "descripcion": "Quinto test de práctica para CompTIA Security+ SY0-701 sobre gestión de vulnerabilidades, amenazas, criptografía, arquitectura segura, protección de datos y resiliencia.",
+  "preguntas": [
+    {
+      "pregunta": "¿Por qué es importante priorizar las vulnerabilidades según variables del entorno?",
+      "opciones": [
+        "Para centrarse en vulnerabilidades que no pueden parchearse.",
+        "Para garantizar que todas las vulnerabilidades reciban el mismo tratamiento.",
+        "Para asignar los recursos de forma eficaz según el contexto específico y el impacto.",
+        "Para cumplir únicamente con las regulaciones gubernamentales."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las variables del entorno permiten valorar la criticidad de los activos, los controles compensatorios y el impacto potencial, priorizando las vulnerabilidades que representan mayor riesgo."
+    },
+    {
+      "pregunta": "En la gestión de vulnerabilidades, ¿qué importancia tiene comprender la tolerancia al riesgo de una organización?",
+      "opciones": [
+        "Determina las habilidades técnicas del equipo de seguridad.",
+        "Define con qué rapidez deben instalarse los parches.",
+        "Guía la decisión sobre qué vulnerabilidades abordar según el nivel de riesgo aceptable.",
+        "Especifica el presupuesto para inversiones de seguridad."
+      ],
+      "respuesta": 2,
+      "explicacion": "La tolerancia al riesgo determina qué nivel de riesgo considera aceptable la organización y ayuda a priorizar la remediación de las vulnerabilidades que superan dicho nivel."
+    },
+    {
+      "pregunta": "¿Por qué es importante clasificar las vulnerabilidades al gestionar riesgos de seguridad?",
+      "opciones": [
+        "Permite priorizar las vulnerabilidades según su explotabilidad e impacto.",
+        "Elimina la necesidad de realizar auditorías de seguridad periódicas.",
+        "Garantiza el cumplimiento de todos los estándares del sector.",
+        "Simplifica el proceso de escaneo de vulnerabilidades."
+      ],
+      "respuesta": 0,
+      "explicacion": "La clasificación permite priorizar las vulnerabilidades según factores como explotabilidad, impacto y facilidad de remediación."
+    },
+    {
+      "pregunta": "Durante un análisis de vulnerabilidades, ¿qué función cumple confirmar los falsos positivos y los falsos negativos?",
+      "opciones": [
+        "Garantiza que los equipos de seguridad concentren sus esfuerzos en amenazas reales.",
+        "Aumenta la tolerancia al riesgo de la organización.",
+        "Reduce la necesidad de considerar variables del entorno.",
+        "Simplifica el cumplimiento de los listados CVE."
+      ],
+      "respuesta": 0,
+      "explicacion": "Validar falsos positivos y falsos negativos evita desperdiciar recursos en problemas inexistentes y reduce el riesgo de pasar por alto vulnerabilidades reales."
+    },
+    {
+      "pregunta": "¿Cómo contribuye el análisis del impacto sectorial u organizativo de una vulnerabilidad a su priorización?",
+      "opciones": [
+        "Identifica las vulnerabilidades con las puntuaciones CVE más altas.",
+        "Se centra únicamente en vulnerabilidades que afectan a los sistemas más críticos.",
+        "Considera las consecuencias específicas de una vulnerabilidad dentro del contexto de las operaciones y el sector de la organización.",
+        "Prioriza las vulnerabilidades según la facilidad para implementar sus parches."
+      ],
+      "respuesta": 2,
+      "explicacion": "El impacto organizativo permite priorizar según las consecuencias reales para las operaciones, los activos, la reputación y las obligaciones regulatorias de la organización."
+    },
+    {
+      "pregunta": "Durante un proceso de gestión de vulnerabilidades, después de identificar una vulnerabilidad crítica en el sistema, ¿cuál debería ser el siguiente paso inmediato?",
+      "opciones": [
+        "Contratar un seguro para posibles brechas.",
+        "Implementar segmentación de red.",
+        "Aplicar el parche correspondiente.",
+        "Solicitar una excepción para la vulnerabilidad."
+      ],
+      "respuesta": 2,
+      "explicacion": "Aplicar el parche apropiado aborda directamente la vulnerabilidad y reduce la posibilidad de explotación."
+    },
+    {
+      "pregunta": "Después de desplegar un parche para resolver una vulnerabilidad conocida, ¿cuál es la forma más eficaz de comprobar que ha sido corregida correctamente?",
+      "opciones": [
+        "Realizar un nuevo escaneo de los sistemas afectados.",
+        "Presentar una reclamación al seguro.",
+        "Segmentar la red para aislar el sistema parcheado.",
+        "Implementar controles compensatorios alrededor del sistema parcheado."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un nuevo escaneo permite verificar directamente si la vulnerabilidad sigue presente después de aplicar el parche."
+    },
+    {
+      "pregunta": "Cuando no es posible parchear directamente una vulnerabilidad de forma inmediata, ¿cuál es la mejor medida provisional para reducir la exposición al riesgo?",
+      "opciones": [
+        "Contratar una cobertura de seguro adicional.",
+        "Implementar controles compensatorios.",
+        "Solicitar una excepción.",
+        "Ignorar la vulnerabilidad hasta que exista un parche."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los controles compensatorios reducen temporalmente el riesgo mediante medidas alternativas como restricciones de acceso, monitorización adicional o capas de protección."
+    },
+    {
+      "pregunta": "En el contexto de la gestión de vulnerabilidades, ¿cuál es el objetivo principal de realizar una auditoría?",
+      "opciones": [
+        "Contratar un seguro para vulnerabilidades no cubiertas.",
+        "Implementar segmentación de red.",
+        "Verificar el cumplimiento de las políticas de seguridad y la eficacia de los controles implementados.",
+        "Solicitar exenciones para determinadas vulnerabilidades."
+      ],
+      "respuesta": 2,
+      "explicacion": "Una auditoría verifica formalmente que se cumplen las políticas y que los controles y las medidas de remediación funcionan correctamente."
+    },
+    {
+      "pregunta": "¿Cómo debería gestionar una organización las vulnerabilidades para las que actualmente no existe un parche?",
+      "opciones": [
+        "Ignorar la vulnerabilidad hasta que se publique un parche.",
+        "Contratar un seguro para cubrir posibles pérdidas.",
+        "Aplicar controles compensatorios para mitigar el riesgo.",
+        "Segmentar la red cada vez que se encuentre una vulnerabilidad nueva."
+      ],
+      "respuesta": 2,
+      "explicacion": "Cuando no existe parche, los controles compensatorios permiten reducir la probabilidad o el impacto de una posible explotación."
+    },
+    {
+      "pregunta": "¿Qué función tienen las excepciones de vulnerabilidades dentro de un programa de gestión de vulnerabilidades?",
+      "opciones": [
+        "Ignorar las vulnerabilidades que no pueden parchearse.",
+        "Proporcionar una medida temporal hasta que se aplique un parche.",
+        "Documentar y reconocer la aceptación del riesgo de vulnerabilidades no remediadas.",
+        "Sustituir la necesidad de implementar controles compensatorios."
+      ],
+      "respuesta": 2,
+      "explicacion": "Una excepción documenta formalmente que la organización conoce y acepta temporalmente el riesgo de una vulnerabilidad que no puede remediarse dentro del plazo habitual."
+    },
+    {
+      "pregunta": "¿Cuándo es apropiado utilizar segmentación como respuesta a una vulnerabilidad?",
+      "opciones": [
+        "Como primer paso ante cualquier vulnerabilidad.",
+        "Cuando una vulnerabilidad no puede parchearse inmediatamente y representa un riesgo significativo.",
+        "En lugar de aplicar cualquier parche.",
+        "Únicamente cuando lo indiquen los proveedores de seguros."
+      ],
+      "respuesta": 1,
+      "explicacion": "La segmentación puede aislar activos o limitar el movimiento y el impacto de un ataque mientras se prepara una solución permanente."
+    },
+    {
+      "pregunta": "¿Cuál es la importancia de los informes en el contexto de la gestión de vulnerabilidades?",
+      "opciones": [
+        "Proporcionar a las aseguradoras una lista detallada de todas las vulnerabilidades parcheadas.",
+        "Garantizar que todas las vulnerabilidades sean ignoradas hasta que se informe sobre ellas.",
+        "Comunicar los hallazgos, las acciones realizadas y el estado de las vulnerabilidades a las partes interesadas.",
+        "Documentar excepciones como método principal para gestionar vulnerabilidades."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los informes proporcionan visibilidad sobre los hallazgos, la remediación y el estado actual de las vulnerabilidades, facilitando decisiones y rendición de cuentas."
+    },
+    {
+      "pregunta": "Sin embargo, no existe un aumento del tráfico de red. ¿Qué tipo de ataque es probable que se esté experimentando?",
+      "opciones": [
+        "Ataque DDoS amplificado.",
+        "Ataque DDoS reflejado.",
+        "Envenenamiento DNS.",
+        "Ataque de repetición de credenciales."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un DDoS reflejado utiliza sistemas o servicios intermedios para reflejar tráfico hacia la víctima, ocultando el origen directo del ataque."
+    },
+    {
+      "pregunta": "Un analista de seguridad descubre que un atacante está capturando paquetes de datos mientras viajan desde el equipo de la víctima hasta Internet. ¿Qué tipo de ataque representa mejor este escenario?",
+      "opciones": [
+        "Ataque on-path.",
+        "Ataque inalámbrico.",
+        "Envenenamiento DNS.",
+        "Ataque DDoS amplificado."
+      ],
+      "respuesta": 0,
+      "explicacion": "En un ataque on-path, el atacante se sitúa entre dos partes y puede interceptar o modificar sus comunicaciones."
+    },
+    {
+      "pregunta": "Un analista de red observa que varios dispositivos de la empresa realizan solicitudes DNS no solicitadas a dominios desconocidos a intervalos regulares. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "DNS tunneling.",
+        "Intrusión inalámbrica.",
+        "Ataque de repetición de credenciales.",
+        "Ataque on-path."
+      ],
+      "respuesta": 0,
+      "explicacion": "DNS tunneling utiliza consultas y respuestas DNS como canal encubierto para comunicaciones de mando y control o exfiltración de datos."
+    },
+    {
+      "pregunta": "Un profesional de seguridad de TI observa un aumento del tráfico dirigido a un puerto utilizado para administración remota. Se descubre que un atacante está intentando adivinar la contraseña del servicio. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Ataque DDoS.",
+        "Ataque de fuerza bruta.",
+        "Ataque man-in-the-middle.",
+        "Ataque de phishing."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un ataque de fuerza bruta prueba repetidamente posibles contraseñas hasta encontrar las credenciales correctas."
+    },
+    {
+      "pregunta": "Un miembro del equipo de seguridad recibe un correo que aparenta proceder de un proveedor de confianza y solicita confirmar inmediatamente datos de una cuenta debido a una brecha de seguridad. ¿Qué amenaza describe este escenario?",
+      "opciones": [
+        "Spear phishing.",
+        "Ransomware.",
+        "Ingeniería social.",
+        "Logic bomb."
+      ],
+      "respuesta": 0,
+      "explicacion": "El spear phishing es un ataque de phishing dirigido específicamente a una persona u organización y suele utilizar una identidad aparentemente legítima."
+    },
+    {
+      "pregunta": "Durante una auditoría se descubre que un programa está monitorizando y transmitiendo de forma encubierta la actividad del usuario a un servidor externo y fue instalado sin su conocimiento. ¿Qué tipo de malware es?",
+      "opciones": ["Ransomware.", "Spyware.", "Adware.", "Worm."],
+      "respuesta": 1,
+      "explicacion": "El spyware recopila información y actividad del usuario de forma oculta y la transmite a terceros sin autorización."
+    },
+    {
+      "pregunta": "¿Quién tiene más probabilidades de cometer delitos como robo de propiedad intelectual o venta de secretos comerciales por motivos personales o económicos?",
+      "opciones": [
+        "Amenaza interna.",
+        "Hacktivista.",
+        "Crimen organizado.",
+        "Estado-nación."
+      ],
+      "respuesta": 0,
+      "explicacion": "Una amenaza interna dispone de acceso legítimo a la organización y puede abusar de él por motivos económicos, personales o de represalia."
+    },
+    {
+      "pregunta": "¿Qué atributo es fundamental para diferenciar a un grupo altamente organizado y bien financiado capaz de mantener operaciones cibernéticas prolongadas de una persona con recursos limitados?",
+      "opciones": [
+        "Interno/externo.",
+        "Recursos/financiación.",
+        "Nivel de sofisticación/capacidad.",
+        "Estado-nación."
+      ],
+      "respuesta": 1,
+      "explicacion": "La cantidad de recursos y financiación disponible determina en gran medida la capacidad para mantener operaciones prolongadas y desarrollar herramientas avanzadas."
+    },
+    {
+      "pregunta": "¿Qué tipo de actor de amenazas tiene más probabilidades de utilizar su posición dentro de una empresa para eludir controles de seguridad y facilitar una brecha de datos por motivos económicos o personales?",
+      "opciones": [
+        "Amenaza interna.",
+        "Shadow IT.",
+        "Hacktivista.",
+        "Atacante no cualificado."
+      ],
+      "respuesta": 0,
+      "explicacion": "Una amenaza interna puede aprovechar su acceso legítimo y su conocimiento de los sistemas internos para eludir controles y provocar una brecha."
+    },
+    {
+      "pregunta": "¿Qué distingue a un actor de estado-nación de otros tipos de actores de amenazas en cuanto a sus capacidades de ciberataque?",
+      "opciones": [
+        "Interno.",
+        "Externo.",
+        "Recursos/financiación.",
+        "Nivel de sofisticación/capacidad."
+      ],
+      "respuesta": 3,
+      "explicacion": "Los actores de estado-nación suelen disponer de capacidades técnicas muy avanzadas para ejecutar operaciones complejas de espionaje, sabotaje o influencia."
+    },
+    {
+      "pregunta": "Una organización depende de una aplicación heredada crítica incompatible con nuevas actualizaciones de seguridad. ¿Cuál es una preocupación de seguridad significativa asociada a mantener esta aplicación?",
+      "opciones": [
+        "Reinicio del servicio.",
+        "Reinicio de la aplicación.",
+        "Aplicaciones heredadas.",
+        "Actualización de diagramas."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las aplicaciones heredadas pueden no admitir parches actuales y permanecer expuestas a vulnerabilidades conocidas."
+    },
+    {
+      "pregunta": "Una organización revisa sus políticas y procedimientos de seguridad después de implementar nuevos controles para garantizar que todas las directrices reflejen la postura de seguridad actual. ¿Qué destaca este proceso?",
+      "opciones": [
+        "Reinicio del servicio.",
+        "Reinicio de la aplicación.",
+        "Documentación.",
+        "Control de versiones."
+      ],
+      "respuesta": 2,
+      "explicacion": "Mantener actualizada la documentación garantiza que las políticas y procedimientos reflejen los controles y prácticas de seguridad vigentes."
+    },
+    {
+      "pregunta": "Para gestionar cambios en los procedimientos de seguridad y garantizar que solo se apliquen las políticas más actuales, una organización utiliza un sistema de control de versiones. ¿Qué aspecto de la gestión de cambios aborda esta práctica?",
+      "opciones": [
+        "Dependencias.",
+        "Tiempo de inactividad.",
+        "Documentación.",
+        "Control de versiones."
+      ],
+      "respuesta": 3,
+      "explicacion": "El control de versiones permite registrar modificaciones y garantizar que el personal utiliza la versión vigente de políticas y procedimientos."
+    },
+    {
+      "pregunta": "Una organización quiere proteger la información sensible almacenada en sus portátiles en caso de pérdida o robo. ¿Qué nivel de cifrado sería el más apropiado para proteger todos los datos del disco duro?",
+      "opciones": [
+        "Cifrado de disco completo.",
+        "Cifrado de partición.",
+        "Cifrado de archivo.",
+        "Cifrado de volumen."
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado de disco completo protege todo el contenido de la unidad, incluido el sistema operativo y los archivos almacenados."
+    },
+    {
+      "pregunta": "Para proteger las transacciones de su sitio web, un comercio online quiere garantizar que todos los datos transmitidos entre su servidor y los navegadores de los clientes estén cifrados. ¿Qué tipo de cifrado se utiliza normalmente para este propósito?",
+      "opciones": [
+        "Asimétrico.",
+        "Simétrico.",
+        "Intercambio de claves.",
+        "Transporte/comunicación."
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado de transporte o comunicación protege los datos mientras viajan por la red, como ocurre en las conexiones web seguras."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad de información sensible de clientes, un banco decide cifrar registros concretos de su base de datos. ¿Qué nivel de cifrado describe mejor este enfoque?",
+      "opciones": [
+        "Disco completo.",
+        "Volumen.",
+        "Base de datos.",
+        "Registro."
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado a nivel de registro permite proteger entradas o filas concretas sin necesidad de cifrar toda la base de datos."
+    },
+    {
+      "pregunta": "Una empresa necesita proteger su protocolo de transferencia de archivos para evitar la interceptación y manipulación de los archivos enviados entre servidores y clientes. ¿Qué combinación de mecanismos de cifrado debería utilizar?",
+      "opciones": [
+        "Cifrado asimétrico para las transferencias de archivos.",
+        "Cifrado simétrico para las transferencias y un mecanismo de intercambio de claves para compartir la clave.",
+        "Cifrado de intercambio de claves para las transferencias.",
+        "Cifrado de algoritmos para las transferencias."
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado simétrico es eficiente para grandes cantidades de datos y un mecanismo de intercambio de claves permite distribuir de forma segura la clave utilizada."
+    },
+    {
+      "pregunta": "Una institución financiera necesita transmitir datos sensibles de clientes entre sus sucursales garantizando confidencialidad, integridad y verificación de la identidad del remitente. ¿Qué combinación cumple mejor estos requisitos?",
+      "opciones": [
+        "Cifrado simétrico priorizando la longitud de la clave.",
+        "Cifrado asimétrico para toda la transmisión de datos.",
+        "Cifrado asimétrico para verificar identidad e intercambiar claves, junto con cifrado simétrico para transmitir los datos.",
+        "Algoritmos de intercambio de claves priorizando los algoritmos."
+      ],
+      "respuesta": 2,
+      "explicacion": "La criptografía asimétrica permite autenticación e intercambio seguro de claves, mientras que la simétrica ofrece eficiencia para cifrar el volumen principal de datos."
+    },
+    {
+      "pregunta": "Una aplicación de pagos móviles necesita proteger datos de pago en el dispositivo y realizar transacciones de forma segura y eficiente. ¿Qué tecnología es más adecuada para almacenar información sensible y realizar operaciones seguras en dispositivos móviles?",
+      "opciones": ["TPM.", "HSM.", "Key Management System.", "Secure Enclave."],
+      "respuesta": 3,
+      "explicacion": "Secure Enclave proporciona almacenamiento de claves y operaciones criptográficas aisladas mediante hardware, adecuado para proteger información sensible en dispositivos móviles."
+    },
+    {
+      "pregunta": "¿Qué tipo de actor de amenazas tiene más probabilidades de realizar un ataque por motivos políticos con la intención de difundir su ideología o influir en políticas gubernamentales?",
+      "opciones": [
+        "Estado-nación.",
+        "Atacante no cualificado.",
+        "Hacktivista.",
+        "Amenaza interna."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los hacktivistas utilizan ataques informáticos para promover causas políticas o sociales e influir en instituciones o en la opinión pública."
+    },
+    {
+      "pregunta": "¿Qué atributo describe mejor a un actor de amenazas que opera dentro de una organización y puede utilizar su acceso legítimo para realizar actividades maliciosas?",
+      "opciones": [
+        "Interno.",
+        "Externo.",
+        "Recursos/financiación.",
+        "Nivel de sofisticación/capacidad."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un actor interno pertenece a la organización y puede abusar de los permisos legítimos que ya posee."
+    },
+    {
+      "pregunta": "¿Quién tiene más probabilidades de utilizar técnicas sofisticadas y recursos patrocinados por un Estado para realizar espionaje o alterar el funcionamiento de gobiernos extranjeros?",
+      "opciones": [
+        "Estado-nación.",
+        "Atacante no cualificado.",
+        "Hacktivista.",
+        "Crimen organizado."
+      ],
+      "respuesta": 0,
+      "explicacion": "Los actores de estado-nación cuentan habitualmente con recursos, financiación y capacidades avanzadas para desarrollar operaciones de espionaje o sabotaje."
+    },
+    {
+      "pregunta": "Una empresa descubre que un atacante está difundiendo información falsa sobre sus productos en diversas plataformas online, provocando una pérdida de confianza y ventas. ¿Qué tipo de ataque describe este escenario?",
+      "opciones": [
+        "Desinformación.",
+        "Pretexting.",
+        "Business email compromise.",
+        "Vishing."
+      ],
+      "respuesta": 0,
+      "explicacion": "La difusión de información falsa busca manipular la percepción sobre la empresa y perjudicar su reputación o actividad comercial."
+    },
+    {
+      "pregunta": "Un ejecutivo recibe un SMS que exige una acción inmediata e incluye un enlace para actualizar su contraseña debido a una supuesta brecha de seguridad. ¿Qué tipo de ataque de ingeniería social es?",
+      "opciones": [
+        "Smishing.",
+        "Vishing.",
+        "Business email compromise.",
+        "Watering hole."
+      ],
+      "respuesta": 0,
+      "explicacion": "El smishing utiliza mensajes SMS para engañar a las víctimas y conseguir que visiten enlaces maliciosos o proporcionen información sensible."
+    },
+    {
+      "pregunta": "Un analista de seguridad detecta un aumento inusual del tráfico hacia una sección poco visitada del sitio web corporativo y descubre que procede de un foro concreto de una comunidad online. ¿Qué tipo de ataque podría indicar?",
+      "opciones": [
+        "Watering hole.",
+        "Vishing.",
+        "Business email compromise.",
+        "Suplantación de identidad."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un watering hole compromete un sitio que visita habitualmente un grupo concreto con el objetivo de atacar a sus miembros."
+    },
+    {
+      "pregunta": "El CFO de una organización recibe un correo aparentemente enviado por el CEO, que está de viaje, solicitando una transferencia bancaria urgente a un nuevo proveedor. La dirección parece correcta, pero presenta una pequeña alteración. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Business email compromise.",
+        "Pretexting.",
+        "Typosquatting.",
+        "Suplantación de identidad."
+      ],
+      "respuesta": 0,
+      "explicacion": "El Business Email Compromise utiliza la identidad aparente de un directivo o persona de confianza para inducir a realizar transferencias u otras acciones financieras."
+    },
+    {
+      "pregunta": "Un empleado recibe una llamada de alguien que afirma pertenecer al departamento de soporte técnico y solicita su contraseña para solucionar una supuesta amenaza de seguridad. ¿Cómo se conoce este tipo de ataque?",
+      "opciones": [
+        "Pretexting.",
+        "Vishing.",
+        "Smishing.",
+        "Suplantación de identidad."
+      ],
+      "respuesta": 1,
+      "explicacion": "El vishing utiliza llamadas de voz para manipular a la víctima y obtener credenciales u otra información sensible."
+    },
+    {
+      "pregunta": "Una organización observa un aumento de correos enviados desde direcciones externas muy similares a su dominio corporativo para engañar a empleados y conseguir transferencias de fondos o información sensible. ¿Cómo se denomina esta técnica?",
+      "opciones": [
+        "Typosquatting.",
+        "Business email compromise.",
+        "Suplantación de marca.",
+        "Pretexting."
+      ],
+      "respuesta": 0,
+      "explicacion": "El typosquatting utiliza dominios con pequeñas variaciones o errores ortográficos respecto al dominio legítimo para engañar a los usuarios."
+    },
+    {
+      "pregunta": "Durante una compra online, un usuario es redirigido a una pasarela de pago muy similar al sitio original, pero con pequeñas diferencias de diseño y URL, y se le solicita introducir los datos de su tarjeta. ¿Qué representa esta situación?",
+      "opciones": [
+        "Watering hole.",
+        "Phishing.",
+        "Typosquatting.",
+        "Suplantación de identidad."
+      ],
+      "respuesta": 1,
+      "explicacion": "El phishing puede utilizar sitios web falsos que imitan servicios legítimos para robar credenciales o información financiera."
+    },
+    {
+      "pregunta": "Un desarrollador está revisando código para reducir posibles vulnerabilidades. ¿Qué medida tiene más probabilidades de prevenir un ataque de buffer overflow?",
+      "opciones": [
+        "Actualizar periódicamente las bibliotecas de la aplicación a la versión más reciente.",
+        "Implementar validación de entrada y comprobaciones de longitud para todas las entradas del usuario.",
+        "Utilizar únicamente lenguajes de programación de alto nivel.",
+        "Cifrar los datos antes de procesarlos."
+      ],
+      "respuesta": 1,
+      "explicacion": "Controlar el tamaño y validar los datos de entrada evita que se escriba más información de la que puede contener un búfer."
+    },
+    {
+      "pregunta": "En seguridad web, ¿qué método es más eficaz para prevenir ataques de SQL injection?",
+      "opciones": [
+        "Cifrar todos los datos almacenados en la base de datos.",
+        "Utilizar CAPTCHA en todos los formularios.",
+        "Utilizar prepared statements y consultas parametrizadas.",
+        "Realizar auditorías de seguridad periódicas del sitio web."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las consultas parametrizadas separan los datos introducidos por el usuario de la estructura SQL e impiden que esos datos modifiquen la consulta."
+    },
+    {
+      "pregunta": "Un analista descubre código malicioso que solo se activa cuando se cumplen determinadas condiciones, como una fecha y hora concretas. ¿Qué tipo de malware es?",
+      "opciones": ["Logic bomb.", "Rootkit.", "Trojan.", "Keylogger."],
+      "respuesta": 0,
+      "explicacion": "Una logic bomb permanece inactiva hasta que se cumple una condición previamente definida, como una fecha, hora o evento."
+    },
+    {
+      "pregunta": "Una organización descubre que sus archivos críticos han sido cifrados y se exige un rescate a cambio de la clave de descifrado. ¿Qué tipo de ataque ha sufrido?",
+      "opciones": [
+        "Ataque de virus.",
+        "Ataque de ransomware.",
+        "Ataque de worm.",
+        "Ataque de Trojan."
+      ],
+      "respuesta": 1,
+      "explicacion": "El ransomware cifra los datos de la víctima y exige un pago para proporcionar la clave o mecanismo de recuperación."
+    },
+    {
+      "pregunta": "Durante una prueba de penetración se identifica una herramienta instalada en el sistema objetivo que permite controlarlo y administrarlo remotamente sin ser detectada. ¿Qué tipo de herramienta es?",
+      "opciones": ["Spyware.", "Rootkit.", "Logic bomb.", "Bloatware."],
+      "respuesta": 1,
+      "explicacion": "Un rootkit busca mantener acceso privilegiado mientras oculta su presencia y la de los procesos o herramientas asociadas."
+    },
+    {
+      "pregunta": "Un analista observa que un archivo ejecutable se comporta de forma diferente al ejecutarse en un sandbox que en un sistema real. Según el test, ¿qué tipo de malware sofisticado indica este comportamiento?",
+      "opciones": ["Virus.", "Worm.", "Trojan.", "Rootkit."],
+      "respuesta": 2,
+      "explicacion": "El comportamiento descrito corresponde en el test a un Trojan que modifica su actividad al detectar un entorno de análisis para intentar evadir la detección."
+    },
+    {
+      "pregunta": "Después de instalar una nueva aplicación, un usuario descubre que también se han instalado varias aplicaciones no relacionadas sin su consentimiento y que consumen una cantidad significativa de recursos. ¿Qué tipo de software no deseado es el más probable?",
+      "opciones": ["Spyware.", "Adware.", "Bloatware.", "Rootkit."],
+      "respuesta": 2,
+      "explicacion": "El bloatware consiste en software adicional no deseado que suele instalarse junto con otros productos y consume recursos del sistema."
+    },
+    {
+      "pregunta": "Durante una investigación forense digital se descubre que un atacante ha creado un sitio web fraudulento muy similar a uno legítimo para engañar a los usuarios y conseguir información sensible. ¿Qué tipo de ataque describe el escenario?",
+      "opciones": [
+        "Forgery.",
+        "Buffer overflow.",
+        "Replay.",
+        "Directory traversal."
+      ],
+      "respuesta": 0,
+      "explicacion": "Forgery consiste en crear información, documentos o recursos falsificados para hacerlos pasar por legítimos y engañar a usuarios o sistemas."
+    },
+    {
+      "pregunta": "Después de fallar repetidamente al intentar acceder a una cuenta con una única contraseña, un atacante cambia de táctica y comienza a probar numerosas contraseñas contra múltiples nombres de usuario. Según el test, ¿qué tipo de ataque de contraseñas describe este escenario?",
+      "opciones": [
+        "Fuerza bruta.",
+        "Password spraying.",
+        "Buffer overflow.",
+        "Replay."
+      ],
+      "respuesta": 0,
+      "explicacion": "Según la respuesta indicada en el test, probar un gran número de contraseñas para encontrar credenciales válidas corresponde a un ataque de fuerza bruta."
+    },
+    {
+      "pregunta": "El sistema de seguridad de una empresa detecta que la cuenta de un empleado se ha utilizado para iniciar sesión desde dos ubicaciones geográficamente distantes en un intervalo que hace imposible haber viajado entre ellas. ¿Qué indica?",
+      "opciones": [
+        "Un posible ataque de phishing.",
+        "Uso eficiente de los recursos de la empresa.",
+        "Un empleado especialmente dedicado.",
+        "Actividad de impossible travel."
+      ],
+      "respuesta": 3,
+      "explicacion": "Impossible travel indica accesos con las mismas credenciales desde ubicaciones incompatibles temporalmente, lo que puede señalar una cuenta comprometida."
+    },
+    {
+      "pregunta": "El firewall de una organización ha bloqueado repetidamente una dirección IP que intenta acceder a la red mediante un gran volumen de solicitudes. ¿Qué podría indicar?",
+      "opciones": [
+        "Una actualización interna del sistema.",
+        "Un intento de ataque DDoS.",
+        "Picos normales de tráfico.",
+        "Mantenimiento programado."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un volumen anormalmente alto de solicitudes puede indicar un intento de denegación de servicio destinado a agotar los recursos del objetivo."
+    },
+    {
+      "pregunta": "Un usuario informa de que no puede acceder a determinados recursos corporativos a los que normalmente tiene acceso y la investigación revela que no es un incidente aislado. ¿Qué podría indicar?",
+      "opciones": [
+        "Recursos inaccesibles debido a mantenimiento.",
+        "Fluctuación normal del rendimiento de la red.",
+        "Un error interno de configuración.",
+        "Una brecha de seguridad que está provocando la inaccesibilidad de recursos."
+      ],
+      "respuesta": 3,
+      "explicacion": "La pérdida generalizada e inesperada de acceso puede indicar una acción maliciosa, como modificación de permisos, ransomware u otra alteración de sistemas."
+    },
+    {
+      "pregunta": "Una organización observa un aumento significativo del consumo de CPU, memoria y ancho de banda en sus servidores sin que exista un aumento correspondiente del tráfico legítimo. ¿Cuál es la explicación más probable?",
+      "opciones": [
+        "La implantación de una nueva aplicación de alto consumo.",
+        "Un indicador de infección por malware.",
+        "Una actualización del hardware de los servidores.",
+        "Medidas de seguridad mejoradas."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un consumo elevado e inexplicable de recursos puede ser indicador de malware que ejecuta actividades maliciosas en segundo plano."
+    },
+    {
+      "pregunta": "Después de una auditoría rutinaria, una organización descubre varios huecos en sus registros de seguridad, incluidos periodos en los que no se registró ningún dato. ¿Qué puede indicar?",
+      "opciones": [
+        "Las políticas de rotación de logs funcionan correctamente.",
+        "Un atacante podría estar borrando logs para ocultar sus rastros.",
+        "El sistema de logging se bloqueó.",
+        "No existe almacenamiento suficiente para los logs."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los atacantes pueden eliminar o alterar registros para borrar evidencias de su presencia y dificultar la investigación."
+    },
+    {
+      "pregunta": "Una organización descubre que sus archivos críticos están cifrados y que se ha dejado una nota exigiendo un pago. ¿Qué indica este escenario?",
+      "opciones": [
+        "Éxito de los procedimientos de backup y disaster recovery.",
+        "Un ataque de phishing.",
+        "Un ataque de ransomware.",
+        "Cifrado accidental de archivos por parte de un empleado."
+      ],
+      "respuesta": 2,
+      "explicacion": "La combinación de archivos cifrados y una exigencia de pago es característica de un ataque de ransomware."
+    },
+    {
+      "pregunta": "Una organización revisa sus logs y observa múltiples solicitudes de autenticación a su aplicación web desde distintas ubicaciones geográficas en un corto periodo de tiempo, todas utilizando el mismo ID de usuario. Según el test, ¿qué ataque debe sospecharse?",
+      "opciones": [
+        "Password spraying.",
+        "Fuerza bruta.",
+        "Replay.",
+        "Escalada de privilegios."
+      ],
+      "respuesta": 2,
+      "explicacion": "Según la respuesta del test, el patrón corresponde a un replay attack, en el que datos válidos de autenticación son reutilizados de forma maliciosa."
+    },
+    {
+      "pregunta": "Un analista descubre que las rutinas de procesamiento de datos de una aplicación hacen que el programa se bloquee cuando la entrada supera ciertos límites y podrían permitir ejecutar código arbitrario. ¿Qué vulnerabilidad es?",
+      "opciones": [
+        "Buffer overflow.",
+        "Injection.",
+        "Forgery.",
+        "Directory traversal."
+      ],
+      "respuesta": 0,
+      "explicacion": "Un buffer overflow ocurre cuando un programa intenta almacenar más datos de los que admite una zona de memoria, pudiendo provocar fallos o ejecución de código."
+    },
+    {
+      "pregunta": "Un usuario recibe un correo que aparenta proceder de una fuente de confianza y solicita información sensible. Según las opciones del test, ¿qué tipo de ataque es?",
+      "opciones": ["Forgery.", "Injection.", "Buffer overflow.", "Downgrade."],
+      "respuesta": 0,
+      "explicacion": "Forgery implica falsificar la identidad o apariencia de una fuente legítima para engañar a la víctima, como ocurre en ataques de phishing."
+    },
+    {
+      "pregunta": "Un equipo de análisis forense descubre que un atacante ha creado numerosas cuentas falsas para saturar el proceso de autenticación del sistema. Según el test, ¿qué tipo de ataque es?",
+      "opciones": [
+        "Fuerza bruta.",
+        "Password spraying.",
+        "Account lockout.",
+        "Injection."
+      ],
+      "respuesta": 2,
+      "explicacion": "Según la respuesta indicada, se trata de un ataque de account lockout orientado a impedir el acceso legítimo mediante el abuso del mecanismo de autenticación."
+    },
+    {
+      "pregunta": "Durante una auditoría se descubre que en un sistema crítico sigue utilizándose software obsoleto. ¿Qué tipo de vulnerabilidad representa?",
+      "opciones": [
+        "Vulnerabilidad de injection.",
+        "Vulnerabilidad de software obsoleto.",
+        "Vulnerabilidad de buffer overflow.",
+        "Vulnerabilidad de escalada de privilegios."
+      ],
+      "respuesta": 1,
+      "explicacion": "El software obsoleto puede contener vulnerabilidades conocidas y carecer de actualizaciones o parches de seguridad actuales."
+    },
+    {
+      "pregunta": "Una organización quiere mejorar la seguridad de sus comunicaciones por correo electrónico. ¿Qué acción debería realizar?",
+      "opciones": [
+        "Deshabilitar el cifrado del correo para mejorar el rendimiento.",
+        "Utilizar un servicio web de correo sin HTTPS.",
+        "Exigir el uso de firmas digitales y cifrado para los correos.",
+        "Evitar utilizar correo electrónico para comunicaciones sensibles."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las firmas digitales ayudan a garantizar autenticidad e integridad, mientras que el cifrado protege la confidencialidad del contenido."
+    },
+    {
+      "pregunta": "Una organización está decidiendo entre una arquitectura de red centralizada y una descentralizada. ¿Cuál ofrece probablemente mejor escalabilidad, aunque puede aumentar el coste?",
+      "opciones": ["Centralizada.", "Descentralizada.", "Híbrida.", "Mesh."],
+      "respuesta": 1,
+      "explicacion": "Una arquitectura descentralizada permite distribuir cargas y crecer mediante múltiples nodos, aunque requiere más infraestructura y una gestión potencialmente más compleja."
+    },
+    {
+      "pregunta": "En términos de transferencia de riesgo, ¿qué estrategia podría utilizar una empresa al adoptar un modelo IaaS?",
+      "opciones": [
+        "Externalizar la gestión de seguridad a un tercero.",
+        "Contratar un ciberseguro.",
+        "Implementar un diseño de sistemas redundantes.",
+        "Utilizar software propietario."
+      ],
+      "respuesta": 1,
+      "explicacion": "El ciberseguro transfiere parte del impacto financiero de determinados incidentes a una compañía aseguradora."
+    },
+    {
+      "pregunta": "Una empresa necesita elegir un modelo de despliegue para una nueva aplicación y prioriza una recuperación sencilla en caso de desastre. ¿Qué modelo debería escoger?",
+      "opciones": [
+        "Servidores tradicionales on-premises.",
+        "Despliegue cloud multirregión.",
+        "Servicios cloud de una única región.",
+        "Instalaciones de colocation."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un despliegue multirregión distribuye servicios y datos entre distintas ubicaciones, permitiendo continuar desde otra región si una queda indisponible."
+    },
+    {
+      "pregunta": "Al evaluar las implicaciones de seguridad de diferentes modelos de arquitectura, ¿qué preocupación importante plantea la imposibilidad de parchear sistemas heredados?",
+      "opciones": [
+        "Aumento de costes operativos.",
+        "Reducción del rendimiento del sistema.",
+        "Vulnerabilidad frente a exploits.",
+        "Problemas de compatibilidad con software nuevo."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los sistemas que no pueden parchearse permanecen expuestos a vulnerabilidades conocidas que los atacantes pueden explotar."
+    },
+    {
+      "pregunta": "Una empresa quiere proteger sus aplicaciones web frente a SQL injection, XSS y otras amenazas. ¿Qué tipo de firewall debería implementar?",
+      "opciones": ["UTM.", "NGFW.", "WAF.", "Firewall de capa 4."],
+      "respuesta": 2,
+      "explicacion": "Un Web Application Firewall inspecciona tráfico HTTP y está específicamente diseñado para proteger aplicaciones web frente a amenazas como SQL injection y XSS."
+    },
+    {
+      "pregunta": "Una empresa multinacional quiere permitir que sus empleados accedan de forma segura a la red corporativa desde ubicaciones remotas. ¿Qué solución es la más adecuada?",
+      "opciones": ["TLS.", "VPN.", "UTM.", "NGFW."],
+      "respuesta": 1,
+      "explicacion": "Una VPN crea un túnel cifrado entre el dispositivo remoto y la red corporativa para proporcionar acceso seguro."
+    },
+    {
+      "pregunta": "Una organización necesita una solución que integre funciones de seguridad y red como firewall, antivirus e intrusion prevention en un único dispositivo. ¿Qué solución debería implementar?",
+      "opciones": ["WAF.", "Firewall de capa 7.", "UTM.", "NGFW."],
+      "respuesta": 2,
+      "explicacion": "Una solución UTM integra múltiples funciones de seguridad, como firewall, antivirus e IPS, dentro de un mismo dispositivo."
+    },
+    {
+      "pregunta": "Una empresa quiere proteger sus comunicaciones remotas autenticando y cifrando paquetes a través de Internet. ¿Qué protocolo debería implementar?",
+      "opciones": ["TLS.", "SSL.", "IPSec.", "SSH."],
+      "respuesta": 2,
+      "explicacion": "IPSec proporciona autenticación y cifrado a nivel IP y se utiliza habitualmente para proteger tráfico de red y construir VPN."
+    },
+    {
+      "pregunta": "Una organización quiere adoptar una arquitectura de red moderna que combine VPN, SWG y FWaaS para sus necesidades globales de red. ¿Qué solución cumple este requisito?",
+      "opciones": ["SD-WAN.", "SASE.", "UTM.", "NGFW."],
+      "respuesta": 1,
+      "explicacion": "SASE combina funciones de red y seguridad proporcionadas como servicio, incluyendo SWG, FWaaS y acceso remoto seguro."
+    },
+    {
+      "pregunta": "Una empresa almacena datos financieros confidenciales en sus servidores. ¿Qué estado de los datos representa esta información?",
+      "opciones": [
+        "Datos en tránsito.",
+        "Datos en reposo.",
+        "Datos en uso.",
+        "Datos en movimiento."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los datos almacenados y que no están siendo transmitidos ni procesados activamente se consideran datos en reposo."
+    },
+    {
+      "pregunta": "Una organización necesita garantizar el cumplimiento de las regulaciones de privacidad al transferir datos de clientes entre países. ¿Qué concepto debería considerar?",
+      "opciones": [
+        "Soberanía de los datos.",
+        "Geolocalización.",
+        "Restricciones de permisos.",
+        "Ofuscación."
+      ],
+      "respuesta": 0,
+      "explicacion": "La soberanía de los datos determina qué leyes y jurisdicciones se aplican a los datos según dónde se almacenen o procesen."
+    },
+    {
+      "pregunta": "Una empresa quiere proteger sus datos empresariales críticos de backup en caso de robo. ¿Qué método sería más eficaz?",
+      "opciones": ["Masking.", "Tokenization.", "Encryption.", "Segmentation."],
+      "respuesta": 2,
+      "explicacion": "El cifrado impide que los datos robados puedan interpretarse sin disponer de la clave de descifrado correspondiente."
+    },
+    {
+      "pregunta": "Estás implementando medidas de seguridad para proteger documentos legales sensibles almacenados en los servidores de una empresa. ¿Qué método es el más apropiado para garantizar la confidencialidad?",
+      "opciones": ["Ofuscación.", "Masking.", "Encryption.", "Tokenization."],
+      "respuesta": 2,
+      "explicacion": "El cifrado convierte los datos en información ilegible para quienes no poseen la clave de descifrado."
+    },
+    {
+      "pregunta": "Al buscar resiliencia en una arquitectura de seguridad, ¿qué factor implica la capacidad de recuperarse rápidamente de interrupciones y mantener las funciones esenciales?",
+      "opciones": [
+        "Alta disponibilidad.",
+        "Continuidad de operaciones.",
+        "Diversidad de plataformas.",
+        "Sistemas multicloud."
+      ],
+      "respuesta": 1,
+      "explicacion": "La continuidad de operaciones busca mantener las funciones críticas durante una interrupción y facilitar su recuperación posterior."
+    },
+    {
+      "pregunta": "¿Qué enfoque de resiliencia consiste en distribuir cargas de trabajo entre varios proveedores cloud para reducir los riesgos asociados a depender de uno solo?",
+      "opciones": [
+        "Balanceo de carga.",
+        "Clustering.",
+        "Sistemas multicloud.",
+        "Dispersión geográfica."
+      ],
+      "respuesta": 2,
+      "explicacion": "Una estrategia multicloud utiliza varios proveedores y reduce la dependencia de una única plataforma o proveedor."
+    },
+    {
+      "pregunta": "En la planificación de resiliencia, ¿qué factor implica poder gestionar fluctuaciones de demanda y garantizar que haya recursos disponibles cuando sean necesarios?",
+      "opciones": [
+        "Planificación de capacidad.",
+        "Alta disponibilidad.",
+        "Consideraciones del sitio.",
+        "Continuidad de operaciones."
+      ],
+      "respuesta": 0,
+      "explicacion": "La planificación de capacidad anticipa las necesidades de recursos para mantener el rendimiento ante cambios en la demanda."
+    },
+    {
+      "pregunta": "En planificación de resiliencia, ¿qué tipo de sitio dispone de servidores operativos e infraestructura redundante, pero puede no contar con sincronización de datos en tiempo real?",
+      "opciones": [
+        "Hot site.",
+        "Cold site.",
+        "Warm site.",
+        "Dispersión geográfica."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un warm site dispone de infraestructura parcialmente preparada y servidores operativos, pero suele requerir sincronización o configuración adicional antes de asumir la carga."
+    },
+    {
+      "pregunta": "Una organización utiliza cloud computing para almacenar y procesar datos de clientes. El departamento de TI detecta patrones de acceso a datos que no coinciden con el comportamiento habitual de los usuarios. ¿Cuál debería ser una preocupación de seguridad prioritaria?",
+      "opciones": [
+        "Soberanía de los datos.",
+        "Fuga de datos entre tenants.",
+        "Cumplimiento de las leyes de protección de datos.",
+        "Políticas de control de acceso."
+      ],
+      "respuesta": 3,
+      "explicacion": "Los accesos anómalos pueden indicar permisos incorrectos o uso no autorizado, por lo que deben revisarse y reforzarse los controles de acceso."
+    },
+    {
+      "pregunta": "En términos de seguridad de infraestructura, ¿cuál es una ventaja importante de los microservicios frente a las arquitecturas monolíticas?",
+      "opciones": [
+        "Son más fáciles de actualizar y parchear.",
+        "Ofrecen una gestión de seguridad centralizada.",
+        "Tienen redes menos complejas.",
+        "Tienen una sobrecarga computacional mayor."
+      ],
+      "respuesta": 0,
+      "explicacion": "Los microservicios permiten actualizar o parchear componentes individuales sin necesidad de volver a desplegar toda la aplicación."
+    },
+    {
+      "pregunta": "Una empresa utiliza IaC para gestionar su infraestructura cloud. ¿Cuál es el mejor enfoque para proteger los scripts de IaC?",
+      "opciones": [
+        "Almacenar los scripts en un repositorio público para facilitar el acceso.",
+        "Aplicar procesos manuales de aprobación para todos los cambios.",
+        "Utilizar control de versiones y monitorización continua.",
+        "Depender únicamente del cifrado automático del proveedor cloud."
+      ],
+      "respuesta": 2,
+      "explicacion": "El control de versiones permite rastrear modificaciones y la monitorización continua ayuda a detectar cambios no autorizados o vulnerabilidades en el IaC."
+    },
+    {
+      "pregunta": "Una empresa quiere mejorar la seguridad de su red adoptando un nuevo modelo de arquitectura. ¿Cuál proporciona el mayor nivel de seguridad mediante separación física?",
+      "opciones": [
+        "Arquitectura centralizada.",
+        "Servidores virtualizados.",
+        "Redes air-gapped.",
+        "Software-defined networking."
+      ],
+      "respuesta": 2,
+      "explicacion": "Una red air-gapped está físicamente aislada de otras redes, incluido Internet, reduciendo de forma significativa la exposición a ataques externos."
+    },
+    {
+      "pregunta": "Una empresa quiere adoptar un modelo de red que reduzca la superficie de ataque sin perder flexibilidad. ¿Qué opción es la más adecuada?",
+      "opciones": [
+        "Virtualización completa.",
+        "Aislamiento físico.",
+        "Segmentación lógica.",
+        "Infraestructura centralizada."
+      ],
+      "respuesta": 2,
+      "explicacion": "La segmentación lógica divide la red en zonas, limita el movimiento lateral y mantiene flexibilidad para asignar recursos y controlar accesos."
+    },
+    {
+      "pregunta": "En el contexto de sistemas de control industrial, ¿qué aspecto es más crítico para garantizar la seguridad y fiabilidad de un sistema SCADA?",
+      "opciones": [
+        "Implementar dispositivos IoT.",
+        "Utilizar un sistema operativo en tiempo real.",
+        "Configuración de alta disponibilidad.",
+        "Containerización de aplicaciones."
+      ],
+      "respuesta": 2,
+      "explicacion": "La alta disponibilidad ayuda a mantener los sistemas SCADA operativos incluso cuando se producen fallos de componentes."
+    },
+    {
+      "pregunta": "Una empresa de desarrollo de software va a desplegar una nueva aplicación. ¿Qué modelo proporcionaría la mejor combinación de escalabilidad y aislamiento?",
+      "opciones": [
+        "Despliegue on-premises.",
+        "Entorno virtualizado.",
+        "Microservicios containerizados.",
+        "Servicios cloud centralizados."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los microservicios containerizados permiten desplegar y escalar componentes de forma independiente manteniendo aislamiento entre servicios."
+    },
+    {
+      "pregunta": "Una institución financiera necesita transmitir de forma segura información de cuentas de clientes entre sus sucursales. ¿Qué método sería más eficaz para proteger los datos durante la transmisión?",
+      "opciones": ["Hashing.", "Segmentación.", "Encryption.", "Masking."],
+      "respuesta": 2,
+      "explicacion": "El cifrado protege la confidencialidad de los datos en tránsito aunque el tráfico sea interceptado por una parte no autorizada."
+    },
+    {
+      "pregunta": "Al considerar la resiliencia en una arquitectura de seguridad, ¿qué factor implica estimar las necesidades futuras de recursos para evitar un exceso o una falta de capacidad?",
+      "opciones": [
+        "Alta disponibilidad.",
+        "Continuidad de operaciones.",
+        "Planificación de capacidad.",
+        "Consideraciones del sitio."
+      ],
+      "respuesta": 2,
+      "explicacion": "La planificación de capacidad estima las necesidades futuras de procesamiento, almacenamiento y ancho de banda para dimensionar correctamente los recursos."
+    },
+    {
+      "pregunta": "En planificación de resiliencia, ¿qué tipo de sitio dispone de servidores operativos, pero con recursos limitados y una redundancia mínima?",
+      "opciones": [
+        "Hot site.",
+        "Cold site.",
+        "Warm site.",
+        "Dispersión geográfica."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un warm site dispone de parte de la infraestructura necesaria y servidores operativos, aunque requiere preparación adicional antes de asumir plenamente las operaciones."
+    }
+  ]
+}

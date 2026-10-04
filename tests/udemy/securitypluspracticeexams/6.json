@@ -1,0 +1,892 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams - Sexto Test",
+  "procedencia": "TIA Training, Andrew Ramdayal",
+  "descripcion": "Sexto test de práctica para la certificación CompTIA Security+ SY0-701.",
+  "preguntas": [
+    {
+      "pregunta": "Un departamento de TI planea realizar actualizaciones del sistema durante un periodo específico en el que el uso de la red es mínimo para reducir el impacto sobre los usuarios. ¿Cómo se denomina este periodo?",
+      "opciones": [
+        "Proceso de aprobación",
+        "Propiedad",
+        "Ventana de mantenimiento",
+        "Partes interesadas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una ventana de mantenimiento es un periodo programado para realizar actualizaciones, mejoras o tareas de mantenimiento minimizando la interrupción de las operaciones."
+    },
+    {
+      "pregunta": "Un equipo de investigadores necesita compartir de forma segura grandes conjuntos de datos mientras trabaja desde distintas ubicaciones. Necesitan cifrar los archivos antes de compartirlos y garantizar que solo el destinatario previsto pueda descifrarlos. ¿Qué método de cifrado es el más adecuado?",
+      "opciones": [
+        "Simétrico",
+        "Asimétrico",
+        "Intercambio de claves",
+        "Transporte/comunicación"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado asimétrico utiliza una clave pública para cifrar y una clave privada para descifrar, permitiendo que solo el propietario de la clave privada acceda a los datos."
+    },
+    {
+      "pregunta": "Para proteger los datos de unidades USB utilizadas por empleados para transferir documentos de trabajo, una empresa implementa cifrado. ¿Qué nivel de cifrado garantiza la protección de todo el contenido de la unidad USB?",
+      "opciones": [
+        "Cifrado de disco completo",
+        "Cifrado de partición",
+        "Cifrado de archivo",
+        "Cifrado de volumen"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado de disco completo protege todo el contenido de la unidad, incluidos archivos, carpetas y otros datos almacenados."
+    },
+    {
+      "pregunta": "Una organización quiere cifrar archivos sensibles almacenados en su red interna para protegerlos del acceso no autorizado. ¿Qué tipo de cifrado es más eficiente para grandes volúmenes de datos en reposo?",
+      "opciones": [
+        "Asimétrico",
+        "Simétrico",
+        "Intercambio de claves",
+        "Algoritmos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado simétrico utiliza la misma clave para cifrar y descifrar y es mucho más eficiente para grandes cantidades de datos."
+    },
+    {
+      "pregunta": "Una organización quiere mejorar la seguridad de las contraseñas garantizando que, aunque dos usuarios tengan la misma contraseña, los valores almacenados en la base de datos sean diferentes. ¿Qué técnica debe implementar?",
+      "opciones": ["Hashing", "Salting", "Firmas digitales", "Key stretching"],
+      "respuesta": 1,
+      "explicacion": "El salting añade un valor único a cada contraseña antes de aplicar el hash, produciendo hashes distintos incluso para contraseñas iguales."
+    },
+    {
+      "pregunta": "Una empresa de software distribuye actualizaciones a sus usuarios y necesita garantizar que no hayan sido manipuladas y que realmente procedan de la empresa. ¿Qué tecnología debe utilizar?",
+      "opciones": ["Hashing", "Salting", "Firmas digitales", "Key stretching"],
+      "respuesta": 2,
+      "explicacion": "Las firmas digitales permiten verificar tanto la integridad de la actualización como la autenticidad de su origen."
+    },
+    {
+      "pregunta": "Una organización quiere implementar una base de datos descentralizada que garantice la integridad y transparencia de los datos entre múltiples partes sin una autoridad central. ¿Qué tecnología es la más adecuada?",
+      "opciones": [
+        "Hashing",
+        "Blockchain",
+        "Firmas digitales",
+        "Key stretching"
+      ],
+      "respuesta": 1,
+      "explicacion": "Blockchain proporciona un registro descentralizado y resistente a manipulaciones mediante bloques enlazados criptográficamente."
+    },
+    {
+      "pregunta": "El propietario de un sitio web quiere garantizar que todos los datos transmitidos entre el servidor web y los navegadores de los clientes estén protegidos frente a interceptaciones. ¿Qué solución debe implementar?",
+      "opciones": ["Certificados", "Hashing", "Salting", "Key stretching"],
+      "respuesta": 0,
+      "explicacion": "Los certificados SSL/TLS permiten establecer comunicaciones cifradas entre los clientes y el servidor web."
+    },
+    {
+      "pregunta": "Una empresa tecnológica descubre que varios de sus dispositivos están siendo utilizados sin autorización para minar criptomonedas. Esta actividad probablemente es un ejemplo de:",
+      "opciones": [
+        "Shadow IT",
+        "Amenaza interna",
+        "Crimen organizado",
+        "Hacktivista"
+      ],
+      "respuesta": 1,
+      "explicacion": "El uso no autorizado de recursos corporativos para beneficio personal puede indicar una amenaza interna con acceso legítimo a los sistemas."
+    },
+    {
+      "pregunta": "Un grupo activista desfigura el sitio web de una gran corporación como protesta por sus políticas medioambientales. Este tipo de ciberataque se asocia principalmente con:",
+      "opciones": [
+        "Hacktivista",
+        "Crimen organizado",
+        "Amenaza interna",
+        "Atacante no cualificado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los hacktivistas realizan ataques informáticos motivados principalmente por objetivos políticos, sociales o ideológicos."
+    },
+    {
+      "pregunta": "El código de software propietario de una empresa es copiado en secreto y vendido a una compañía competidora. Este escenario es indicativo principalmente de:",
+      "opciones": [
+        "Amenaza interna",
+        "Crimen organizado",
+        "Estado-nación",
+        "Shadow IT"
+      ],
+      "respuesta": 0,
+      "explicacion": "El robo de información propietaria por alguien con acceso autorizado a ella es un ejemplo típico de amenaza interna."
+    },
+    {
+      "pregunta": "Una empresa de fabricación está decidiendo qué tecnología implementar para gestionar de forma segura sus sistemas de control industrial. ¿Cuál de las siguientes opciones ofrece la mejor seguridad para sus sistemas SCADA?",
+      "opciones": [
+        "Dispositivos IoT",
+        "Sistema operativo en tiempo real",
+        "Containerización",
+        "Redes air-gapped"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una red air-gapped proporciona aislamiento físico respecto a Internet y otras redes, reduciendo considerablemente la exposición remota de los sistemas SCADA."
+    },
+    {
+      "pregunta": "Una empresa tecnológica estudia opciones para mejorar la resiliencia frente a fallos de su centro de datos. ¿Cuál de las siguientes garantizaría mejor una alta disponibilidad de sus servicios?",
+      "opciones": [
+        "Arquitectura descentralizada",
+        "Sistemas embebidos",
+        "Sistema operativo en tiempo real",
+        "Infraestructura habilitada para SDN"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una arquitectura descentralizada distribuye recursos y servicios, reduciendo el impacto de un único punto de fallo."
+    },
+    {
+      "pregunta": "Una empresa está rediseñando su infraestructura de red para mejorar la escalabilidad y la capacidad de gestión. ¿Cuál de las siguientes opciones sería la más beneficiosa?",
+      "opciones": [
+        "Aislamiento físico",
+        "SDN",
+        "Redes air-gapped",
+        "Arquitectura centralizada"
+      ],
+      "respuesta": 1,
+      "explicacion": "SDN permite controlar de forma centralizada y dinámica los recursos de red, facilitando su administración y escalabilidad."
+    },
+    {
+      "pregunta": "Una empresa implementa una nueva política que obliga a los empleados a informar sobre dispositivos perdidos o robados en un plazo de 24 horas. ¿Qué aspecto de la concienciación en seguridad aborda principalmente esta política?",
+      "opciones": [
+        "Campañas de phishing",
+        "Reconocimiento de comportamientos anómalos",
+        "Orientación y formación del usuario",
+        "Notificación y monitorización"
+      ],
+      "respuesta": 3,
+      "explicacion": "La política establece un procedimiento y un plazo para notificar incidentes, por lo que se centra en la notificación y monitorización."
+    },
+    {
+      "pregunta": "Un equipo de seguridad TI planea realizar una campaña de concienciación sobre phishing. ¿Qué método sería más efectivo para enseñar a los empleados a reconocer intentos de phishing?",
+      "opciones": [
+        "Distribuir folletos impresos sobre los peligros del phishing.",
+        "Enviar un correo de phishing simulado para evaluar su capacidad de identificarlo.",
+        "Realizar un único seminario sobre la importancia de la ciberseguridad.",
+        "Publicar advertencias sobre phishing en la intranet corporativa."
+      ],
+      "respuesta": 1,
+      "explicacion": "Una simulación de phishing proporciona experiencia práctica y permite evaluar y reforzar directamente la capacidad de los empleados para reconocer ataques."
+    },
+    {
+      "pregunta": "Durante la revisión de los registros de red, un analista observa varios intentos de inicio de sesión en el panel de administración desde un país no autorizado y fuera del horario laboral habitual. ¿Qué significa esto?",
+      "opciones": [
+        "Comportamiento esperado de trabajo remoto",
+        "Actividad rutinaria de mantenimiento",
+        "Una amenaza interna",
+        "Comportamiento anómalo que indica una posible amenaza de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los intentos de acceso desde una ubicación inesperada y fuera del horario habitual constituyen un comportamiento anómalo que debe investigarse."
+    },
+    {
+      "pregunta": "La política de seguridad de una empresa prohíbe utilizar dispositivos personales para actividades laborales. Sin embargo, un empleado usa su smartphone personal para acceder al correo corporativo. ¿Con qué tema de concienciación en seguridad se relaciona más directamente este comportamiento?",
+      "opciones": [
+        "Phishing",
+        "Gestión de contraseñas",
+        "Seguridad operativa",
+        "Ingeniería social"
+      ],
+      "respuesta": 2,
+      "explicacion": "El uso de dispositivos personales en contra de las políticas corporativas constituye un problema de seguridad operativa."
+    },
+    {
+      "pregunta": "Para una empresa que gestiona datos financieros de clientes, el derecho al olvido implica que la empresa debe:",
+      "opciones": [
+        "Conservar todos los datos de clientes indefinidamente para posibles auditorías futuras.",
+        "Eliminar los datos personales cuando lo solicite el cliente, siempre que no existan motivos legales para conservarlos.",
+        "Transferir todos los datos del cliente a otra empresa cuando este lo solicite.",
+        "Almacenar los datos del cliente en el país que este elija."
+      ],
+      "respuesta": 1,
+      "explicacion": "El derecho al olvido permite solicitar la eliminación de datos personales cuando no exista una obligación o base legal que justifique conservarlos."
+    },
+    {
+      "pregunta": "Al preparar informes externos de cumplimiento, una empresa minorista debería priorizar:",
+      "opciones": [
+        "Centrarse únicamente en auditorías financieras para minimizar costes.",
+        "Cubrir todos los aspectos de cumplimiento, incluidos privacidad, seguridad y normativa financiera.",
+        "Limitar el informe únicamente a resultados positivos y mejoras.",
+        "Informar solo a las partes interesadas internas para evitar escrutinio externo."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los informes externos de cumplimiento deben cubrir todas las obligaciones regulatorias relevantes y ofrecer una visión completa y transparente."
+    },
+    {
+      "pregunta": "Una empresa está revisando su política de retención de datos para alinearla mejor con las normativas globales de privacidad. ¿Cuál sería la estrategia más efectiva que debería incluir?",
+      "opciones": [
+        "Auditorías periódicas del uso y almacenamiento de los datos",
+        "Aumentar la capacidad de almacenamiento",
+        "Reducir la frecuencia de las copias de seguridad",
+        "Limitar el acceso de los empleados a datos sensibles"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las auditorías periódicas permiten comprobar que los datos se almacenan, utilizan y conservan de acuerdo con los requisitos legales aplicables."
+    },
+    {
+      "pregunta": "Un administrador de sistemas detecta varios intentos de solicitar archivos de directorios que no son accesibles públicamente. ¿Qué tipo de ataque sugiere este escenario?",
+      "opciones": [
+        "Inyección",
+        "Directory traversal",
+        "Buffer overflow",
+        "Replay"
+      ],
+      "respuesta": 1,
+      "explicacion": "Directory traversal busca acceder a archivos o directorios restringidos manipulando las rutas solicitadas al servidor."
+    },
+    {
+      "pregunta": "Una empresa está considerando utilizar medidas de seguridad biométricas. ¿Cuál de las siguientes ofrece el mejor equilibrio entre seguridad y facilidad de uso?",
+      "opciones": [
+        "Implementar software de reconocimiento de voz.",
+        "Utilizar contraseñas complejas para todos los sistemas.",
+        "Instalar lectores de huellas dactilares para el control de acceso.",
+        "Exigir llaves físicas para acceder a los ordenadores."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los lectores de huellas proporcionan una autenticación biométrica relativamente segura y cómoda para los usuarios."
+    },
+    {
+      "pregunta": "Su empresa planea migrar su centro de datos local a un servicio en la nube. Como profesional de seguridad, debe asesorar sobre las implicaciones. ¿Qué modelo probablemente requerirá que la empresa mantenga un mayor control y responsabilidad sobre la seguridad?",
+      "opciones": ["IaaS", "PaaS", "SaaS", "Nube híbrida"],
+      "respuesta": 0,
+      "explicacion": "En IaaS, el proveedor gestiona la infraestructura física, mientras que el cliente conserva mayor responsabilidad sobre sistemas operativos, aplicaciones, datos y configuraciones."
+    },
+    {
+      "pregunta": "Una empresa está revisando la matriz de responsabilidades de su proveedor cloud antes de migrar sus aplicaciones. ¿Cuál de los siguientes aspectos suele ser responsabilidad del cliente tanto en modelos IaaS como SaaS?",
+      "opciones": [
+        "Seguridad física",
+        "Controles de red",
+        "Seguridad de la capa de aplicación",
+        "Mantenimiento del hardware"
+      ],
+      "respuesta": 2,
+      "explicacion": "Según el test original, la seguridad de la capa de aplicación se considera responsabilidad del cliente, mientras que la infraestructura física y el hardware recaen en el proveedor."
+    },
+    {
+      "pregunta": "Su organización está considerando un entorno de nube híbrida. ¿Cuál es la principal consideración de seguridad para la gestión de datos en este escenario?",
+      "opciones": [
+        "Reducción de costes",
+        "Cumplimiento de las leyes de soberanía de datos",
+        "Aumento de la capacidad de almacenamiento",
+        "Simplificación del acceso de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "La nube híbrida puede distribuir datos entre distintas ubicaciones y jurisdicciones, por lo que debe respetarse la normativa de soberanía y residencia de datos."
+    },
+    {
+      "pregunta": "En un entorno IaC, ¿cuál es la principal preocupación de seguridad que debe abordarse?",
+      "opciones": [
+        "Seguridad física del servidor",
+        "Coste de la infraestructura",
+        "Configuración incorrecta de recursos",
+        "Velocidad de despliegue"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los errores o configuraciones inseguras en código IaC pueden propagarse automáticamente a numerosos recursos y generar vulnerabilidades a gran escala."
+    },
+    {
+      "pregunta": "En términos de seguridad de la infraestructura, ¿cuál es una ventaja importante de los microservicios frente a las arquitecturas monolíticas?",
+      "opciones": [
+        "Son más fáciles de actualizar y parchear",
+        "Gestión de seguridad centralizada",
+        "Redes menos complejas",
+        "Mayor sobrecarga computacional"
+      ],
+      "respuesta": 0,
+      "explicacion": "La modularidad de los microservicios permite actualizar o parchear componentes específicos sin tener que volver a desplegar toda la aplicación."
+    },
+    {
+      "pregunta": "Su empresa utiliza IaC para gestionar su infraestructura cloud. ¿Cuál es el mejor enfoque para proteger los scripts IaC?",
+      "opciones": [
+        "Almacenar los scripts en un repositorio público para facilitar el acceso",
+        "Aplicar procesos de aprobación manual a todos los cambios",
+        "Control de versiones y monitorización continua",
+        "Confiar únicamente en el cifrado automático del proveedor cloud"
+      ],
+      "respuesta": 2,
+      "explicacion": "El control de versiones permite rastrear cambios y la monitorización continua ayuda a detectar modificaciones no autorizadas y vulnerabilidades."
+    },
+    {
+      "pregunta": "Una empresa está desplegando un nuevo conjunto de aplicaciones mediante contenedores. ¿Cuál es la ventaja de seguridad más significativa de la containerización frente a las máquinas virtuales tradicionales?",
+      "opciones": [
+        "Los contenedores proporcionan capacidad de almacenamiento ilimitada.",
+        "Los contenedores mejoran la seguridad física del centro de datos.",
+        "Los contenedores permiten despliegues rápidos y consistentes y aislamiento entre aplicaciones.",
+        "Los contenedores eliminan la necesidad de planes de copia de seguridad y recuperación ante desastres."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los contenedores encapsulan aplicaciones y dependencias de forma consistente y proporcionan aislamiento que puede limitar el impacto de una aplicación comprometida."
+    },
+    {
+      "pregunta": "En el contexto de SDN, ¿cuál es una ventaja principal de seguridad frente a la gestión de redes tradicional?",
+      "opciones": [
+        "SDN no requiere intervención humana, eliminando los errores humanos.",
+        "SDN permite una gestión y control centralizados de la red, facilitando una respuesta más rápida a las amenazas.",
+        "Las redes tradicionales son inherentemente más seguras debido a su naturaleza física.",
+        "SDN es más seguro por diseño simplemente por ser una tecnología más reciente."
+      ],
+      "respuesta": 1,
+      "explicacion": "El control centralizado de SDN permite aplicar rápidamente cambios de políticas de seguridad en toda la infraestructura."
+    },
+    {
+      "pregunta": "Su empresa está implementando IaC para gestionar y aprovisionar su infraestructura cloud. ¿Cuál es la principal preocupación de seguridad asociada a este enfoque?",
+      "opciones": [
+        "IaC puede aumentar significativamente el coste de los recursos cloud.",
+        "El proceso manual de revisión de código hace que IaC sea poco práctico.",
+        "Los scripts IaC pueden contener vulnerabilidades o configuraciones incorrectas que provoquen debilidades de seguridad.",
+        "IaC elimina la necesidad de auditorías de seguridad y controles de cumplimiento."
+      ],
+      "respuesta": 2,
+      "explicacion": "Los errores o vulnerabilidades en scripts IaC pueden crear automáticamente recursos inseguros, permisos excesivos o exposición no intencionada."
+    },
+    {
+      "pregunta": "Su empresa planea migrar su centro de datos local a un servicio en la nube. Como profesional de seguridad, debe asesorar sobre las implicaciones. ¿Qué modelo probablemente requerirá que la empresa mantenga un mayor control y responsabilidad sobre la seguridad?",
+      "opciones": ["IaaS", "PaaS", "SaaS", "Nube híbrida"],
+      "respuesta": 0,
+      "explicacion": "En IaaS, el cliente administra más componentes de la pila tecnológica y, por tanto, conserva una mayor responsabilidad sobre su seguridad."
+    },
+    {
+      "pregunta": "Una empresa está revisando la matriz de responsabilidades de su proveedor cloud antes de migrar sus aplicaciones. ¿Cuál de los siguientes aspectos suele ser responsabilidad del cliente tanto en modelos IaaS como SaaS?",
+      "opciones": [
+        "Seguridad física",
+        "Controles de red",
+        "Seguridad de la capa de aplicación",
+        "Mantenimiento del hardware"
+      ],
+      "respuesta": 2,
+      "explicacion": "Según el test original, la seguridad de la capa de aplicación corresponde al cliente, mientras que la infraestructura física y el hardware son responsabilidad del proveedor."
+    },
+    {
+      "pregunta": "Su organización está considerando un entorno de nube híbrida. ¿Cuál es la principal consideración de seguridad para la gestión de datos en este escenario?",
+      "opciones": [
+        "Reducción de costes",
+        "Cumplimiento de las leyes de soberanía de datos",
+        "Aumento de la capacidad de almacenamiento",
+        "Simplificación del acceso de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "Es necesario garantizar que el almacenamiento y transferencia de datos entre distintos entornos respete los requisitos de soberanía y jurisdicción."
+    },
+    {
+      "pregunta": "En un entorno IaC, ¿cuál es la principal preocupación de seguridad que debe abordarse?",
+      "opciones": [
+        "Seguridad física del servidor",
+        "Coste de la infraestructura",
+        "Configuración incorrecta de recursos",
+        "Velocidad de despliegue"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una configuración incorrecta en IaC puede replicarse automáticamente y provocar vulnerabilidades en múltiples recursos."
+    },
+    {
+      "pregunta": "Para proteger información sensible, una organización cifra sus datos tanto en tránsito como en reposo. ¿A qué categoría de control pertenece el cifrado?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 0,
+      "explicacion": "El cifrado es un control técnico porque utiliza mecanismos tecnológicos para proteger los datos frente al acceso no autorizado."
+    },
+    {
+      "pregunta": "Una organización implementa políticas de control de acceso para restringir el acceso de los usuarios a información y sistemas en función de su función y necesidad. ¿A qué categoría de control pertenece esta acción?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 1,
+      "explicacion": "Las políticas que definen quién puede acceder a qué recursos forman parte de los controles gerenciales o administrativos."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad, una empresa instala sistemas biométricos de acceso en la entrada de sus instalaciones protegidas. ¿A qué categoría de control pertenece esta medida?",
+      "opciones": ["Técnico", "Gerencial", "Operativo", "Físico"],
+      "respuesta": 3,
+      "explicacion": "Al controlar físicamente la entrada a una instalación, el sistema biométrico actúa como un control de seguridad física."
+    },
+    {
+      "pregunta": "Una organización implementa un firewall para supervisar y controlar el tráfico de red entrante y saliente según reglas de seguridad predefinidas. ¿A qué tipo de control pertenece?",
+      "opciones": ["Preventivo", "Disuasorio", "Detectivo", "Correctivo"],
+      "respuesta": 0,
+      "explicacion": "Un firewall es principalmente un control preventivo porque bloquea tráfico no autorizado antes de que pueda acceder a los sistemas."
+    },
+    {
+      "pregunta": "Una empresa imparte regularmente formación de concienciación en seguridad a sus empleados para informarles sobre amenazas y la importancia de seguir las políticas corporativas. ¿Qué tipo de control representa esta iniciativa?",
+      "opciones": ["Preventivo", "Disuasorio", "Directivo", "Compensatorio"],
+      "respuesta": 2,
+      "explicacion": "La formación es un control directivo porque orienta el comportamiento de los usuarios mediante instrucciones, políticas y buenas prácticas."
+    },
+    {
+      "pregunta": "Una organización coloca carteles de advertencia alrededor de sus instalaciones indicando que se utilizan cámaras de vigilancia. ¿Qué tipo de control representa esta acción?",
+      "opciones": ["Preventivo", "Disuasorio", "Detectivo", "Correctivo"],
+      "respuesta": 1,
+      "explicacion": "Los avisos sobre vigilancia buscan desalentar conductas no autorizadas aumentando la percepción de que serán detectadas."
+    },
+    {
+      "pregunta": "Para acceder a la banca online, los clientes de un banco deben introducir una contraseña y autenticarse mediante un código de un solo uso enviado a su teléfono móvil. ¿Qué estrategia de seguridad representa esta práctica?",
+      "opciones": [
+        "Política de contraseñas reforzada",
+        "Proceso de verificación dual",
+        "Autenticación de dos factores",
+        "Seguridad biométrica"
+      ],
+      "respuesta": 2,
+      "explicacion": "Se utilizan dos factores distintos: algo que el usuario sabe, la contraseña, y algo que posee, el teléfono que recibe el código."
+    },
+    {
+      "pregunta": "Una organización quiere prevenir incidentes de tailgating y piggybacking en los accesos a sus edificios. Implementa un sistema que permite entrar a una sola persona cada vez después de autenticarse. ¿De qué se trata?",
+      "opciones": [
+        "Bolardos",
+        "Vestíbulo de control de acceso",
+        "Vallado",
+        "Sensores"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un vestíbulo de control de acceso, también conocido como mantrap, controla el paso individual y dificulta que una persona no autorizada siga a otra."
+    },
+    {
+      "pregunta": "Para garantizar que solo el personal autorizado pueda acceder a determinadas áreas de un edificio, una organización utiliza un sistema que requiere algo que la persona posee. ¿Qué medida de seguridad física describe esto?",
+      "opciones": [
+        "Bolardos",
+        "Guardia de seguridad",
+        "Tarjeta de acceso",
+        "Sensores"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una tarjeta de acceso es un factor de posesión que permite controlar físicamente el acceso a zonas restringidas."
+    },
+    {
+      "pregunta": "Una empresa está rediseñando su infraestructura de red para mejorar la escalabilidad y la capacidad de gestión. ¿Cuál de las siguientes opciones sería la más beneficiosa?",
+      "opciones": [
+        "Aislamiento físico",
+        "SDN",
+        "Redes air-gapped",
+        "Arquitectura centralizada"
+      ],
+      "respuesta": 1,
+      "explicacion": "SDN proporciona control programable y centralizado de los recursos de red, facilitando su administración y escalabilidad."
+    },
+    {
+      "pregunta": "Una organización coloca un documento señuelo en su sistema de archivos que, cuando alguien accede a él, alerta al equipo de seguridad sobre un posible acceso no autorizado o una amenaza interna. ¿Qué es esto?",
+      "opciones": ["Honeypot", "Honeynet", "Honeyfile", "Honeytoken"],
+      "respuesta": 2,
+      "explicacion": "Un honeyfile es un archivo señuelo creado para generar una alerta cuando alguien intenta acceder a él."
+    },
+    {
+      "pregunta": "Después de desplegar un cambio en la configuración de red, una organización experimenta problemas inesperados que degradan el rendimiento del sistema. Decide volver a la configuración anterior. ¿Qué parte del proceso de gestión de cambios describe esto?",
+      "opciones": [
+        "Partes interesadas",
+        "Ventana de mantenimiento",
+        "Plan de reversión",
+        "Procedimiento operativo estándar"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un plan de reversión o backout plan define cómo restaurar el estado anterior cuando un cambio provoca problemas."
+    },
+    {
+      "pregunta": "Una organización está considerando actualizar sus sistemas heredados. ¿Cuál de las siguientes soluciones proporciona el mejor equilibrio entre modernización y seguridad para su infraestructura antigua?",
+      "opciones": [
+        "Containerización",
+        "Sistemas descentralizados",
+        "Actualizaciones de hardware local",
+        "Actualizaciones del sistema operativo en tiempo real"
+      ],
+      "respuesta": 0,
+      "explicacion": "La containerización puede encapsular aplicaciones heredadas, facilitando su portabilidad, aislamiento y administración sin sustituir inmediatamente toda la infraestructura."
+    },
+    {
+      "pregunta": "Una empresa global quiere mejorar su infraestructura de red para proporcionar acceso seguro a empleados remotos. ¿Cuál es el mejor enfoque para garantizar un acceso seguro y eficiente?",
+      "opciones": [
+        "Virtualización",
+        "Aislamiento físico",
+        "Arquitectura centralizada",
+        "Segmentación lógica"
+      ],
+      "respuesta": 3,
+      "explicacion": "La segmentación lógica permite separar recursos y aplicar controles de acceso específicos, reduciendo la exposición del resto de la red."
+    },
+    {
+      "pregunta": "Una organización financiera necesita garantizar la confidencialidad e integridad de las comunicaciones con sus clientes. ¿Qué tecnología debería implementar para proteger las comunicaciones de correo electrónico?",
+      "opciones": ["VPN", "TLS", "SASE", "WAF"],
+      "respuesta": 1,
+      "explicacion": "TLS cifra los datos durante su transmisión y ayuda a proteger la confidencialidad e integridad de las comunicaciones de correo."
+    },
+    {
+      "pregunta": "Para reducir posibles filtraciones de datos, una empresa quiere que todo el tráfico que sale de su red sea inspeccionado y que pueda gestionarse información sensible. ¿Qué tipo de firewall debería implementar?",
+      "opciones": ["NGFW", "WAF", "Firewall de capa 4", "UTM"],
+      "respuesta": 0,
+      "explicacion": "Un NGFW proporciona inspección avanzada del tráfico, control a nivel de aplicación y funciones como inspección SSL/TLS e IPS integrado."
+    },
+    {
+      "pregunta": "En un entorno empresarial, ¿cuál de las siguientes opciones garantiza mejor que los datos en tránsito estén protegidos frente a escuchas e interceptaciones en redes no confiables?",
+      "opciones": ["WAF", "TLS", "SASE", "UTM"],
+      "respuesta": 1,
+      "explicacion": "TLS cifra las comunicaciones entre los extremos, protegiendo los datos en tránsito frente a interceptación y manipulación."
+    },
+    {
+      "pregunta": "Una empresa busca una solución integral para gestionar amenazas como malware, phishing y APT en todo el tráfico de red. ¿Qué solución debería considerar?",
+      "opciones": ["UTM", "VPN", "Firewall de capa 4", "SASE"],
+      "respuesta": 0,
+      "explicacion": "UTM integra múltiples funciones de seguridad, como firewall, antivirus, antispam e IPS, en una solución unificada."
+    },
+    {
+      "pregunta": "Una organización quiere garantizar que solo los dispositivos autorizados puedan acceder a su red y que cumplan las políticas de seguridad corporativas. ¿Qué tecnología satisface mejor este requisito?",
+      "opciones": ["SSL VPN", "NAC", "TLS", "SD-WAN"],
+      "respuesta": 1,
+      "explicacion": "NAC controla el acceso de los dispositivos y puede verificar su estado de cumplimiento antes de permitirles utilizar los recursos de red."
+    },
+    {
+      "pregunta": "Una organización necesita una solución que filtre tráfico malicioso de Internet y también proporcione informes y análisis detallados con fines de cumplimiento. ¿Qué tipo de firewall debería implementar?",
+      "opciones": ["Firewall de capa 4", "NGFW", "WAF", "UTM"],
+      "respuesta": 1,
+      "explicacion": "Un NGFW combina filtrado avanzado, inspección a nivel de aplicación, prevención de intrusiones y capacidades detalladas de registro e informes."
+    },
+    {
+      "pregunta": "Al diseñar una arquitectura de seguridad resiliente, ¿qué enfoque ayuda a garantizar alta disponibilidad distribuyendo el tráfico entre varios servidores?",
+      "opciones": [
+        "Balanceo de carga",
+        "Clustering",
+        "Diversidad de plataformas",
+        "Sistemas multicloud"
+      ],
+      "respuesta": 0,
+      "explicacion": "El balanceo de carga distribuye las solicitudes entre múltiples servidores, evitando que uno solo se convierta en un cuello de botella o punto de fallo."
+    },
+    {
+      "pregunta": "¿Qué opción de sitio alternativo dispone de infraestructura como electricidad y refrigeración, pero no cuenta con servidores operativos?",
+      "opciones": [
+        "Hot site",
+        "Cold site",
+        "Warm site",
+        "Dispersión geográfica"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un cold site dispone de instalaciones básicas como espacio, electricidad y climatización, pero no de sistemas informáticos operativos preparados."
+    },
+    {
+      "pregunta": "Para garantizar la continuidad de las operaciones en caso de desastre, ¿qué enfoque consiste en distribuir recursos entre distintas ubicaciones geográficas?",
+      "opciones": [
+        "Alta disponibilidad",
+        "Planificación de capacidad",
+        "Dispersión geográfica",
+        "Diversidad de plataformas"
+      ],
+      "respuesta": 2,
+      "explicacion": "La dispersión geográfica reduce el riesgo de que un desastre localizado afecte simultáneamente a todos los recursos de la organización."
+    },
+    {
+      "pregunta": "¿Qué factor NO suele considerarse en la planificación de capacidad destinada a garantizar la resiliencia de una arquitectura de seguridad?",
+      "opciones": ["Personas", "Tecnología", "Infraestructura", "Cumplimiento"],
+      "respuesta": 3,
+      "explicacion": "La planificación de capacidad se centra principalmente en disponer de suficientes personas, tecnología e infraestructura para mantener las operaciones."
+    },
+    {
+      "pregunta": "Al realizar un site survey para una nueva instalación inalámbrica, ¿qué factor es más importante para garantizar un rendimiento y una seguridad óptimos?",
+      "opciones": [
+        "El esquema de colores del entorno para que coincida con los puntos de acceso.",
+        "La presencia de hornos microondas y teléfonos inalámbricos que puedan causar interferencias.",
+        "El tipo de papel pintado utilizado, ya que algunos materiales pueden bloquear señales inalámbricas.",
+        "La colocación estética de los puntos de acceso para integrarlos con el entorno."
+      ],
+      "respuesta": 1,
+      "explicacion": "Fuentes de interferencia como microondas y determinados teléfonos inalámbricos pueden degradar significativamente las comunicaciones Wi-Fi."
+    },
+    {
+      "pregunta": "¿Cuál es el método más efectivo para mantener la seguridad de una infraestructura cloud?",
+      "opciones": [
+        "Cambiar regularmente las contraseñas del CSP.",
+        "Realizar frecuentes copias de seguridad fuera de las instalaciones.",
+        "Implementar controles IAM estrictos.",
+        "Garantizar la seguridad física de los servidores cloud."
+      ],
+      "respuesta": 2,
+      "explicacion": "IAM permite controlar identidades, permisos y privilegios, garantizando que solo los usuarios autorizados puedan acceder a los recursos correspondientes."
+    },
+    {
+      "pregunta": "En el contexto de la protección de una estación de trabajo, ¿por qué es beneficioso habilitar el cifrado de disco completo?",
+      "opciones": [
+        "Acelera el rendimiento del ordenador.",
+        "Impide que usuarios no autorizados accedan a la red.",
+        "Garantiza que los datos permanezcan protegidos incluso si el dispositivo es robado físicamente.",
+        "Actualiza automáticamente el sistema operativo a la última versión."
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado de disco completo impide acceder a los datos almacenados sin la clave correspondiente, incluso si un atacante obtiene físicamente el dispositivo."
+    },
+    {
+      "pregunta": "Durante el proceso de adquisición de nuevos dispositivos informáticos para una empresa, ¿qué práctica es MÁS importante para garantizar que los dispositivos no comprometan la seguridad de la red al integrarse?",
+      "opciones": [
+        "Elegir dispositivos con las especificaciones más altas disponibles.",
+        "Garantizar que procedan de proveedores de confianza con cadenas de suministro seguras.",
+        "Seleccionar dispositivos únicamente por su menor coste.",
+        "Centrarse en los dispositivos que ofrezcan la experiencia de usuario más sencilla."
+      ],
+      "respuesta": 1,
+      "explicacion": "Una cadena de suministro de confianza reduce el riesgo de introducir hardware manipulado, malware preinstalado o componentes comprometidos."
+    },
+    {
+      "pregunta": "En el contexto de la eliminación de datos y retirada de activos, ¿por qué la sanitización de datos se considera más segura que simplemente eliminar archivos?",
+      "opciones": [
+        "Garantiza que los datos se respalden antes de eliminarlos.",
+        "Implica destruir físicamente el soporte de almacenamiento.",
+        "Elimina los datos de forma que su recuperación sea imposible.",
+        "Cifra los datos para que no puedan accederse sin una clave."
+      ],
+      "respuesta": 2,
+      "explicacion": "La sanitización aplica métodos destinados a hacer que los datos sean irrecuperables, mientras que una eliminación normal puede dejar información recuperable."
+    },
+    {
+      "pregunta": "Al retirar de servicio un centro de datos, ¿cuál de las siguientes es la medida MÁS crítica para mantener la confidencialidad de la información?",
+      "opciones": [
+        "Trasladar rápidamente los recursos del centro de datos a una nueva ubicación.",
+        "Realizar una auditoría exhaustiva del proceso de retirada.",
+        "Certificar la destrucción de todos los soportes de almacenamiento que contengan datos sensibles.",
+        "Actualizar los soportes de almacenamiento para utilizarlos en futuros proyectos."
+      ],
+      "respuesta": 2,
+      "explicacion": "La destrucción certificada de los soportes sensibles garantiza que la información no pueda recuperarse posteriormente."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones ejemplifica mejor el principio de propiedad en la política de gestión de datos de una organización?",
+      "opciones": [
+        "Se anima a los empleados a utilizar almacenamiento cloud para documentos de trabajo.",
+        "Se designa un departamento específico como responsable de mantener la integridad de los datos de clientes.",
+        "Todos los usuarios tienen el mismo nivel de acceso a la red interna.",
+        "Se utiliza cifrado para todas las comunicaciones internas."
+      ],
+      "respuesta": 1,
+      "explicacion": "La propiedad implica asignar claramente la responsabilidad y rendición de cuentas sobre determinados activos o conjuntos de datos."
+    },
+    {
+      "pregunta": "Una organización quiere retirar de servicio un servidor de bases de datos. ¿Qué método garantiza que los datos sensibles sean irrecuperables sin destruir el hardware?",
+      "opciones": [
+        "Reformatear el disco duro",
+        "Utilizar un campo magnético intenso",
+        "Utilizar software de borrado seguro",
+        "Eliminar los archivos manualmente"
+      ],
+      "respuesta": 2,
+      "explicacion": "El borrado seguro sobrescribe los datos para impedir su recuperación, permitiendo al mismo tiempo reutilizar físicamente el dispositivo."
+    },
+    {
+      "pregunta": "En el contexto de la gestión de activos, ¿por qué es importante mantener actualizado el inventario de todos los dispositivos de hardware de una organización?",
+      "opciones": [
+        "Para garantizar que los dispositivos se utilicen de forma eficiente",
+        "Para facilitar velocidades de Internet más altas",
+        "Para mejorar la estética del espacio de trabajo",
+        "Para calcular el peso total de los dispositivos para su transporte"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un inventario actualizado permite conocer el estado, ubicación y utilización de los activos y ayuda a identificar dispositivos no autorizados o desaparecidos."
+    },
+    {
+      "pregunta": "Durante la formulación de una política de retención de datos, ¿qué factor es crítico para garantizar el cumplimiento de los requisitos legales?",
+      "opciones": [
+        "El coste de los soportes de almacenamiento",
+        "La ubicación geográfica del almacenamiento",
+        "El periodo durante el que se conservan los datos",
+        "El código de colores de los archivos para facilitar su recuperación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las leyes y regulaciones suelen establecer periodos mínimos o máximos durante los que determinados tipos de datos deben conservarse."
+    },
+    {
+      "pregunta": "¿Cuál es la mejor práctica para garantizar el cumplimiento en la destrucción de datos durante la retirada de dispositivos de almacenamiento?",
+      "opciones": [
+        "Asignar la tarea a empleados sin formación para ahorrar costes",
+        "Seguir únicamente las recomendaciones del fabricante para destruir el dispositivo",
+        "Implementar un proceso certificado de destrucción de datos",
+        "Utilizar herramientas gratuitas para borrar los datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un proceso certificado proporciona métodos y verificaciones documentadas que permiten demostrar que la destrucción cumple los requisitos legales y organizativos."
+    },
+    {
+      "pregunta": "Al realizar un análisis de vulnerabilidades, ¿por qué es importante integrar feeds de amenazas actualizados en la herramienta de escaneo?",
+      "opciones": [
+        "Para garantizar el cumplimiento de requisitos legales",
+        "Para reducir el tiempo necesario para el análisis",
+        "Para aumentar la precisión en la detección de vulnerabilidades",
+        "Para centrar el análisis en amenazas internas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los feeds actualizados proporcionan información sobre vulnerabilidades, exploits y amenazas recientes, permitiendo detectar riesgos nuevos con mayor precisión."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de utilizar monitorización de paquetes en seguridad de aplicaciones?",
+      "opciones": [
+        "Automatiza la generación de informes de cumplimiento.",
+        "Permite detectar intrusiones de red en tiempo real.",
+        "Identifica vulnerabilidades en dependencias de terceros.",
+        "Simplifica el proceso de ofuscación de código."
+      ],
+      "respuesta": 2,
+      "explicacion": "La monitorización de paquetes permite detectar vulnerabilidades conocidas en librerías y dependencias externas utilizadas por una aplicación."
+    },
+    {
+      "pregunta": "¿Por qué un programa de bug bounty se considera un componente efectivo de un programa de divulgación responsable?",
+      "opciones": [
+        "Obliga legalmente a los investigadores a informar de vulnerabilidades.",
+        "Proporciona una plataforma estructurada para informar de vulnerabilidades y ofrecer recompensas.",
+        "Garantiza el anonimato de quien informa.",
+        "Prioriza vulnerabilidades según su explotación activa."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un bug bounty establece un proceso formal e incentivado para que investigadores comuniquen vulnerabilidades de forma responsable."
+    },
+    {
+      "pregunta": "Una organización está analizando su postura de seguridad frente a tendencias recientes de ataques. ¿Qué estrategia de IDS/IPS sería más efectiva para identificar y mitigar un exploit zero-day?",
+      "opciones": [
+        "Detección basada en firmas.",
+        "Análisis de tendencias.",
+        "Detección basada en anomalías.",
+        "Análisis heurístico."
+      ],
+      "respuesta": 2,
+      "explicacion": "La detección basada en anomalías busca desviaciones respecto al comportamiento normal y no depende de una firma previamente conocida del ataque."
+    },
+    {
+      "pregunta": "Un administrador de red está configurando un IDS para mejorar la seguridad. Para malware y vectores de ataque conocidos, ¿qué método de detección debería priorizar?",
+      "opciones": [
+        "Detección basada en anomalías.",
+        "Detección basada en firmas.",
+        "Análisis heurístico.",
+        "Análisis de comportamiento."
+      ],
+      "respuesta": 1,
+      "explicacion": "La detección basada en firmas compara la actividad con patrones conocidos y es especialmente precisa para amenazas previamente identificadas."
+    },
+    {
+      "pregunta": "Al configurar una red para restringir el acceso únicamente a dispositivos autorizados, ¿qué enfoque de implementación NAC es más efectivo para garantizar que los dispositivos cumplan las políticas de seguridad antes de acceder a los recursos?",
+      "opciones": [
+        "Filtrado de direcciones MAC",
+        "Autenticación basada en puertos",
+        "Análisis de seguridad del endpoint previo a la admisión",
+        "Análisis del comportamiento de red posterior a la admisión"
+      ],
+      "respuesta": 2,
+      "explicacion": "El análisis previo a la admisión verifica el estado de seguridad del dispositivo antes de concederle acceso a la red."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar la autenticidad e integridad de los correos electrónicos enviados desde su dominio. ¿Qué combinación de mecanismos de seguridad de correo debería implementar?",
+      "opciones": [
+        "DMARC y TLS",
+        "SPF y DKIM",
+        "DMARC y DKIM",
+        "SPF, DKIM y DMARC"
+      ],
+      "respuesta": 3,
+      "explicacion": "SPF valida servidores autorizados, DKIM firma criptográficamente los mensajes y DMARC establece políticas sobre cómo gestionar los mensajes que no superan dichas comprobaciones."
+    },
+    {
+      "pregunta": "¿Qué combinación de protocolo y puerto es la más apropiada para transferir archivos de forma segura entre servidores a través de Internet?",
+      "opciones": [
+        "FTP por el puerto 21",
+        "SFTP por el puerto 22",
+        "HTTP por el puerto 80",
+        "SMTP por el puerto 25"
+      ],
+      "respuesta": 1,
+      "explicacion": "SFTP utiliza SSH, normalmente a través del puerto 22, para proporcionar autenticación y transferencia de archivos cifrada."
+    },
+    {
+      "pregunta": "En el contexto de mejorar la seguridad empresarial mediante filtrado DNS, ¿qué tipo de ataque se mitiga de forma más efectiva?",
+      "opciones": [
+        "Ataques DDoS",
+        "Ataques de phishing",
+        "Ataques de inyección SQL",
+        "Ataques de buffer overflow"
+      ],
+      "respuesta": 1,
+      "explicacion": "El filtrado DNS puede bloquear la resolución o acceso a dominios maliciosos utilizados en campañas de phishing."
+    },
+    {
+      "pregunta": "¿Qué tecnología es más efectiva para monitorizar continuamente y detectar modificaciones no autorizadas en archivos críticos del sistema y configuraciones?",
+      "opciones": ["Firewalls", "Software antivirus", "FIM", "IDS"],
+      "respuesta": 2,
+      "explicacion": "File Integrity Monitoring, FIM, registra y detecta cambios en archivos críticos y puede alertar cuando se producen modificaciones no autorizadas."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe mejor el papel de UBA en la mejora de la seguridad empresarial?",
+      "opciones": [
+        "Filtrar y bloquear contenido web malicioso",
+        "Cifrar datos tanto en reposo como en tránsito",
+        "Identificar posibles amenazas internas mediante anomalías en la actividad de los usuarios",
+        "Garantizar comunicaciones inalámbricas seguras entre dispositivos"
+      ],
+      "respuesta": 2,
+      "explicacion": "UBA analiza patrones de comportamiento de los usuarios para identificar actividades anómalas que puedan indicar cuentas comprometidas o amenazas internas."
+    },
+    {
+      "pregunta": "Una empresa está evaluando protocolos para el acceso remoto seguro. ¿Qué protocolo proporciona cifrado robusto y se considera una opción segura para establecer una VPN?",
+      "opciones": ["PPTP", "L2TP", "IPSec", "SSH"],
+      "respuesta": 2,
+      "explicacion": "IPSec proporciona autenticación y cifrado a nivel IP y se utiliza ampliamente para establecer conexiones VPN seguras."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad, una empresa exige que los empleados utilicen un token físico junto con un nombre de usuario y contraseña al iniciar sesión. Esta práctica ejemplifica el uso de:",
+      "opciones": [
+        "Biometría",
+        "Tokens de autenticación software",
+        "Tokens de autenticación hardware",
+        "Claves de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un token físico es un hard authentication token y añade un factor de posesión a las credenciales conocidas por el usuario."
+    },
+    {
+      "pregunta": "Una organización quiere reducir el riesgo de escalada de privilegios debido al compromiso de credenciales de administrador. ¿Qué solución debería implementar?",
+      "opciones": [
+        "Cambios obligatorios de contraseña cada 30 días",
+        "Password vaulting combinado con MFA",
+        "Utilizar una única cuenta de administrador para facilitar el seguimiento",
+        "Fomentar contraseñas fáciles de recordar"
+      ],
+      "respuesta": 1,
+      "explicacion": "El password vaulting protege las credenciales privilegiadas y MFA añade factores adicionales de autenticación, reduciendo el impacto del robo de una contraseña."
+    },
+    {
+      "pregunta": "Para una entidad financiera que está implementando una nueva plataforma de banca online, ¿qué medida de seguridad es esencial para gestionar el acceso privilegiado a los datos financieros?",
+      "opciones": [
+        "Permitir a los desarrolladores acceso continuo a las bases de datos financieras de producción para solucionar problemas",
+        "Implementar password vaulting con controles de acceso estrictos y auditoría",
+        "Fomentar el uso de contraseñas personales en cuentas de trabajo para recordarlas mejor",
+        "Mantener una cuenta compartida para todo el personal de TI"
+      ],
+      "respuesta": 1,
+      "explicacion": "El password vaulting con controles estrictos y auditoría limita el acceso a las credenciales privilegiadas y proporciona trazabilidad sobre su utilización."
+    },
+    {
+      "pregunta": "Al implementar gestión de identidades y accesos, un administrador necesita garantizar acceso seguro a servicios cloud. ¿Cuál sería el enfoque más efectivo?",
+      "opciones": [
+        "Autenticación únicamente mediante contraseña para todos los usuarios",
+        "Implementar SSO con MFA",
+        "Utilizar cuentas compartidas con contraseñas fuertes",
+        "Habilitar acceso anónimo para facilitar la gestión de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "SSO reduce la cantidad de credenciales que debe gestionar el usuario y MFA añade una capa adicional de autenticación frente al compromiso de contraseñas."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está evaluando los beneficios de la automatización en sus operaciones de seguridad de red. ¿Qué caso de uso de automatización mejoraría de forma más efectiva el tiempo de reacción ante incidentes?",
+      "opciones": [
+        "Automatizar la generación de informes mensuales de cumplimiento",
+        "Automatizar mediante scripts las copias de seguridad de datos críticos",
+        "Escalar automáticamente las actividades sospechosas al equipo de seguridad",
+        "Programar recordatorios periódicos de cambio de contraseña"
+      ],
+      "respuesta": 2,
+      "explicacion": "El escalado automático de actividad sospechosa reduce el tiempo entre la detección de un posible incidente y su revisión por el equipo de seguridad."
+    },
+    {
+      "pregunta": "Una empresa está considerando implementar una solución de automatización para el aprovisionamiento de usuarios. ¿Cuál de los siguientes beneficios es la razón principal para adoptar esta automatización?",
+      "opciones": [
+        "Reducir la dependencia de recursos humanos para tareas rutinarias",
+        "Eliminar la necesidad de cualquier forma de control de acceso",
+        "Garantizar que todos los usuarios tengan privilegios de administrador",
+        "Hacer que el proceso de aprovisionamiento sea más complejo y lento"
+      ],
+      "respuesta": 0,
+      "explicacion": "Automatizar el aprovisionamiento reduce tareas manuales repetitivas, mejora la eficiencia y ayuda a aplicar controles de acceso de forma consistente."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes escenarios ilustra mejor el uso de guard rails en la automatización de infraestructura cloud?",
+      "opciones": [
+        "Permitir automáticamente todo el tráfico saliente hacia cualquier destino",
+        "Aplicar configuraciones de seguridad específicas a todas las nuevas instancias cloud",
+        "Exigir aprobación manual para cada cambio del entorno cloud",
+        "Desactivar el registro y la monitorización para simplificar las operaciones"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los guard rails aplican automáticamente límites y configuraciones de seguridad obligatorias para mantener una línea base segura en los recursos desplegados."
+    }
+  ]
+}

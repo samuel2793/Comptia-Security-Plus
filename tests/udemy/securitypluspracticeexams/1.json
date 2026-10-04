@@ -1,0 +1,932 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams",
+  "procedencia": "TIA Training y Andrew Ramdayal - CompTIA Security+ (SY0-701) Practice Exams",
+  "descripcion": "Batería de preguntas de práctica para la certificación CompTIA Security+ SY0-701, centrada en controles de seguridad, criptografía, vulnerabilidades, gestión de riesgos, IAM, respuesta a incidentes y operaciones de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "Una organización quiere reforzar la seguridad de su red para impedir accesos no autorizados. ¿En qué categoría de control se encuadra la implementación de un firewall?",
+      "opciones": ["Técnico", "Directivo", "Operacional", "Físico"],
+      "respuesta": 0,
+      "explicacion": "Un firewall es un control técnico porque utiliza hardware o software para filtrar el tráfico de red de acuerdo con reglas de seguridad."
+    },
+    {
+      "pregunta": "Para mitigar vulnerabilidades, un departamento de TI actualiza regularmente todas las aplicaciones de software y los sistemas operativos. ¿En qué categoría de control se encuadra esta acción?",
+      "opciones": ["Técnico", "Directivo", "Operacional", "Físico"],
+      "respuesta": 2,
+      "explicacion": "La aplicación rutinaria de parches y actualizaciones forma parte de los controles operacionales, ya que corresponde a actividades diarias destinadas a mantener la seguridad."
+    },
+    {
+      "pregunta": "Una organización crea un equipo dedicado de respuesta a incidentes de seguridad para gestionar brechas e incidentes. ¿En qué categoría de control se encuadra la creación de este equipo?",
+      "opciones": ["Técnico", "Directivo", "Operacional", "Físico"],
+      "respuesta": 2,
+      "explicacion": "Un equipo de respuesta a incidentes constituye un control operacional porque ejecuta procedimientos concretos para gestionar y responder a incidentes."
+    },
+    {
+      "pregunta": "Una organización sanitaria implementa cifrado de extremo a extremo para todos los correos electrónicos que contienen información de pacientes con el fin de impedir accesos no autorizados durante la transmisión. ¿Qué aspecto de la tríada CIA mejora principalmente esta iniciativa?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado protege la información frente a accesos no autorizados, por lo que mejora principalmente la confidencialidad."
+    },
+    {
+      "pregunta": "Para garantizar que sus servicios en línea permanezcan accesibles incluso en caso de desastre, una empresa mantiene varios centros de datos en ubicaciones geográficamente diversas. ¿Qué aspecto de la tríada CIA mejora principalmente esta estrategia?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Autenticación"
+      ],
+      "respuesta": 2,
+      "explicacion": "La redundancia geográfica permite continuar prestando servicios si una ubicación falla, mejorando principalmente la disponibilidad."
+    },
+    {
+      "pregunta": "Una empresa asigna un equipo para supervisar el despliegue de una nueva plataforma de software, incluida la planificación, ejecución y seguimiento. ¿Qué se está estableciendo con esta asignación?",
+      "opciones": [
+        "Proceso de aprobación",
+        "Propiedad",
+        "Partes interesadas",
+        "Procedimiento operativo estándar"
+      ],
+      "respuesta": 1,
+      "explicacion": "Establecer la propiedad implica asignar responsabilidad y rendición de cuentas sobre la planificación, ejecución y seguimiento de un cambio."
+    },
+    {
+      "pregunta": "Un equipo de seguridad desarrolla un plan completo para actualizar el software del firewall de la organización. Antes de continuar, debe presentar el plan a un comité para su revisión y autorización. ¿Qué parte del proceso de gestión de cambios representa esto?",
+      "opciones": [
+        "Proceso de aprobación",
+        "Propiedad",
+        "Ventana de mantenimiento",
+        "Partes interesadas"
+      ],
+      "respuesta": 0,
+      "explicacion": "La revisión y autorización formal de un cambio antes de su implementación corresponde al proceso de aprobación."
+    },
+    {
+      "pregunta": "Para garantizar la confidencialidad de las comunicaciones por correo electrónico, una organización implementa un sistema en el que los mensajes se cifran antes de enviarse y solo pueden ser descifrados por el destinatario previsto. ¿Qué tipo de cifrado describe mejor este escenario?",
+      "opciones": [
+        "Simétrico",
+        "Asimétrico",
+        "Intercambio de claves",
+        "Cifrado de disco completo"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado asimétrico utiliza una clave pública para cifrar y una clave privada correspondiente para descifrar, permitiendo que solo el destinatario pueda acceder al contenido."
+    },
+    {
+      "pregunta": "Una agencia gubernamental necesita un método para recuperar datos cifrados si se pierde la clave original o el titular de la clave no está disponible. ¿Qué práctica permite almacenar y recuperar claves criptográficas de forma segura para este propósito?",
+      "opciones": [
+        "Clave pública",
+        "Clave privada",
+        "Key escrow",
+        "Intercambio de claves"
+      ],
+      "respuesta": 2,
+      "explicacion": "El key escrow almacena de forma segura copias de claves criptográficas para permitir su recuperación autorizada cuando sea necesario."
+    },
+    {
+      "pregunta": "Un fabricante de portátiles quiere proporcionar un método basado en hardware para almacenar de forma segura las claves criptográficas utilizadas para el cifrado del disco. ¿Qué herramienta sería la más adecuada?",
+      "opciones": [
+        "TPM",
+        "HSM",
+        "Sistema de gestión de claves",
+        "Secure Enclave"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un TPM es un criptoprocesador de hardware integrado en el dispositivo diseñado para generar y almacenar de forma segura claves criptográficas."
+    },
+    {
+      "pregunta": "Unos activistas desfiguran un sitio web gubernamental para protestar contra una nueva política y sustituyen la página principal por su mensaje. ¿Con qué motivación se corresponde principalmente este tipo de ciberataque?",
+      "opciones": [
+        "Creencias filosóficas o políticas",
+        "Venganza",
+        "Disrupción o caos",
+        "Ética"
+      ],
+      "respuesta": 0,
+      "explicacion": "El objetivo es expresar o promover una posición ideológica o política mediante el ataque."
+    },
+    {
+      "pregunta": "Un administrador de TI descubre que un servidor de la red se comunica con direcciones IP maliciosas conocidas. ¿Cuál es la mejor acción para impedir la exfiltración de datos?",
+      "opciones": [
+        "Apagar inmediatamente el servidor",
+        "Supervisar el servidor en busca de más actividad sospechosa",
+        "Bloquear las direcciones IP maliciosas en el firewall",
+        "Realizar una copia de seguridad completa del sistema"
+      ],
+      "respuesta": 2,
+      "explicacion": "Bloquear inmediatamente las IP maliciosas interrumpe la comunicación con la infraestructura atacante y ayuda a detener la exfiltración."
+    },
+    {
+      "pregunta": "Durante una auditoría rutinaria se descubre que el software de virtualización de un servidor permite que un usuario de una máquina virtual acceda a datos de otra máquina virtual alojada en el mismo servidor físico. ¿Qué tipo de vulnerabilidad demuestra esta brecha?",
+      "opciones": [
+        "Reutilización de recursos",
+        "Escape de máquina virtual",
+        "Específica de la nube",
+        "Configuración incorrecta"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un escape de máquina virtual permite salir del aislamiento de una VM e interactuar con el host u otras máquinas virtuales."
+    },
+    {
+      "pregunta": "Un analista forense investiga un sistema comprometido y encuentra un programa diseñado para proporcionar a un atacante acceso root no autorizado mientras oculta su presencia. ¿Qué tipo de software malicioso describe esto?",
+      "opciones": ["Troyano", "Rootkit", "Bomba lógica", "Virus"],
+      "respuesta": 1,
+      "explicacion": "Un rootkit proporciona acceso privilegiado persistente y está diseñado específicamente para ocultar su presencia."
+    },
+    {
+      "pregunta": "Un administrador de red observa un aumento inusual del tráfico saliente desde varios dispositivos internos hacia direcciones IP externas desconocidas, incluso fuera del horario laboral. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Código malicioso",
+        "Intrusión inalámbrica",
+        "Ataque on-path",
+        "Ataque DDoS reflejado"
+      ],
+      "respuesta": 0,
+      "explicacion": "El tráfico saliente persistente hacia destinos desconocidos puede indicar malware comunicándose con servidores de mando y control."
+    },
+    {
+      "pregunta": "El firewall de una organización detecta un volumen inusualmente alto de solicitudes ICMP echo procedentes de múltiples direcciones IP externas dirigidas a un único recurso interno. ¿De qué puede ser indicativo?",
+      "opciones": [
+        "Ataque DDoS amplificado",
+        "Ataque DDoS reflejado",
+        "Ataque on-path",
+        "Ataque de repetición de credenciales"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un gran volumen de tráfico ICMP destinado a saturar un objetivo es característico de un ataque DDoS basado en inundación y, según el planteamiento original, de un DDoS amplificado."
+    },
+    {
+      "pregunta": "Un administrador de sistemas detecta un programa no autorizado diseñado para explotar vulnerabilidades de software y obtener privilegios elevados, permanecer oculto y proporcionar acceso persistente al atacante. ¿Qué tipo de programa es?",
+      "opciones": ["Rootkit", "Troyano", "Virus", "Gusano"],
+      "respuesta": 0,
+      "explicacion": "Los rootkits buscan obtener y mantener acceso privilegiado mientras ocultan su existencia al usuario y a las herramientas de seguridad."
+    },
+    {
+      "pregunta": "Un analista de seguridad observa que el tráfico cifrado entre un cliente y un servidor es forzado repetidamente a utilizar una versión más antigua y menos segura del protocolo. ¿Qué tipo de ataque criptográfico es?",
+      "opciones": ["Downgrade", "Colisión", "Birthday", "Buffer overflow"],
+      "respuesta": 0,
+      "explicacion": "Un ataque downgrade obliga a las partes a utilizar una versión o mecanismo criptográfico menos seguro para facilitar su explotación."
+    },
+    {
+      "pregunta": "Un equipo descubre que dos archivos diferentes, que deberían tener contenidos únicos, generan el mismo hash. ¿Qué tipo de ataque podría ser posible?",
+      "opciones": ["Colisión", "Downgrade", "Birthday", "Replay"],
+      "respuesta": 0,
+      "explicacion": "Una colisión ocurre cuando dos entradas diferentes producen el mismo valor hash."
+    },
+    {
+      "pregunta": "Un departamento de TI observa un número inusualmente alto de bloqueos de cuentas en un solo día debido a múltiples intentos de contraseña incorrectos. ¿Qué podría indicar esta situación?",
+      "opciones": [
+        "Aplicación rutinaria de la política de contraseñas",
+        "Un ataque coordinado de fuerza bruta",
+        "Un fallo del sistema",
+        "Mantenimiento programado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una gran cantidad de intentos fallidos y bloqueos simultáneos es un indicio típico de un ataque de fuerza bruta."
+    },
+    {
+      "pregunta": "Los sistemas de monitorización de una organización detectan inicios de sesión simultáneos en una misma cuenta desde dispositivos situados en distintas partes del mundo. ¿Cuál es la explicación más probable?",
+      "opciones": [
+        "Uso de una VPN",
+        "Colaboración de un equipo global",
+        "Uso concurrente de sesiones como indicador de compromiso de cuenta",
+        "Horario laboral flexible"
+      ],
+      "respuesta": 2,
+      "explicacion": "Sesiones simultáneas desde ubicaciones geográficamente incompatibles pueden indicar que las credenciales de la cuenta han sido comprometidas."
+    },
+    {
+      "pregunta": "Durante un ciberataque, ¿qué enfoque proporciona resiliencia permitiendo que el sistema continúe funcionando pese al fallo de algunos componentes?",
+      "opciones": [
+        "Sistemas redundantes",
+        "Punto único de fallo",
+        "Aplicación periódica de parches",
+        "Monitorización manual"
+      ],
+      "respuesta": 0,
+      "explicacion": "La redundancia permite que componentes de respaldo asuman el funcionamiento cuando falla un componente principal."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de seguridad de utilizar una política CYOD frente a una política BYOD?",
+      "opciones": [
+        "CYOD permite a los empleados utilizar sus dispositivos personales sin restricciones",
+        "CYOD ofrece una lista preaprobada de dispositivos que cumplen los estándares de seguridad de la empresa",
+        "BYOD garantiza que todos los dispositivos tengan instalado el antivirus más reciente",
+        "BYOD fomenta una postura de seguridad más relajada y mejora la satisfacción del usuario"
+      ],
+      "respuesta": 1,
+      "explicacion": "CYOD limita la elección a dispositivos previamente aprobados que cumplen los requisitos corporativos de seguridad y cumplimiento."
+    },
+    {
+      "pregunta": "Durante un análisis de vulnerabilidades, ¿cuál de las siguientes actividades es MÁS crítica para garantizar la eficacia del análisis?",
+      "opciones": [
+        "Programar el análisis fuera del horario de máxima actividad",
+        "Seleccionar el tipo y la profundidad de análisis correctos",
+        "Garantizar que los resultados del análisis estén cifrados",
+        "Actualizar la herramienta de análisis a su última versión"
+      ],
+      "respuesta": 1,
+      "explicacion": "El tipo y la profundidad determinan qué sistemas y vulnerabilidades se evaluarán y con qué nivel de detalle."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones representa mejor el uso de OSINT en la gestión de vulnerabilidades?",
+      "opciones": [
+        "Analizar registros internos de auditoría",
+        "Monitorizar foros de la dark web en busca de datos filtrados",
+        "Consultar una base de datos comercial de vulnerabilidades",
+        "Recopilar información de fuentes disponibles públicamente"
+      ],
+      "respuesta": 3,
+      "explicacion": "OSINT consiste en recopilar y analizar información disponible públicamente para obtener inteligencia relevante."
+    },
+    {
+      "pregunta": "¿Cómo contribuye el EF a la gestión de vulnerabilidades?",
+      "opciones": [
+        "Determinando el porcentaje de pérdida que causaría una vulnerabilidad",
+        "Enumerando todas las vulnerabilidades conocidas de un sistema",
+        "Aplicando automáticamente parches a las vulnerabilidades detectadas",
+        "Asignando una puntuación de gravedad a las vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Exposure Factor (EF) representa el porcentaje del valor de un activo que se perdería si una amenaza se materializara."
+    },
+    {
+      "pregunta": "¿Cómo ayuda CVE en la gestión de vulnerabilidades?",
+      "opciones": [
+        "Proporcionando una guía detallada para la gestión de parches",
+        "Ofreciendo un identificador único para vulnerabilidades conocidas públicamente",
+        "Corrigiendo automáticamente fallos de seguridad",
+        "Evaluando el impacto financiero de las vulnerabilidades"
+      ],
+      "respuesta": 1,
+      "explicacion": "CVE proporciona identificadores estandarizados y únicos que permiten referenciar de forma consistente vulnerabilidades conocidas públicamente."
+    },
+    {
+      "pregunta": "El equipo de seguridad de una empresa detecta un aumento inusual del tráfico hacia uno de sus servidores web. ¿Cuál es el paso inicial más efectivo para identificar la causa?",
+      "opciones": [
+        "Aumentar el ancho de banda del servidor web",
+        "Revisar los registros de acceso del servidor web",
+        "Aplicar una regla de firewall más restrictiva",
+        "Reiniciar el servidor web"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los registros de acceso permiten identificar fuentes, solicitudes, patrones y posibles actividades maliciosas responsables del aumento de tráfico."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está implementando un nuevo sistema SIEM. ¿Qué actividad es más importante para garantizar la eficacia del SIEM al identificar incidentes de seguridad?",
+      "opciones": [
+        "Personalizar los umbrales de alerta",
+        "Aumentar la capacidad de almacenamiento de registros",
+        "Formar al personal en principios básicos de ciberseguridad",
+        "Actualizar regularmente las definiciones del antivirus"
+      ],
+      "respuesta": 0,
+      "explicacion": "Ajustar correctamente los umbrales ayuda a detectar comportamientos anómalos reduciendo al mismo tiempo falsos positivos y ruido."
+    },
+    {
+      "pregunta": "En el contexto de los análisis de seguridad, ¿por qué es importante realizar tanto análisis de vulnerabilidades como pruebas de penetración sobre la infraestructura de una organización?",
+      "opciones": [
+        "El análisis de vulnerabilidades identifica debilidades y las pruebas de penetración evalúan el impacto de explotarlas",
+        "Las pruebas de penetración sustituyen la necesidad de realizar análisis de vulnerabilidades",
+        "El análisis de vulnerabilidades es suficiente para fines de cumplimiento",
+        "Las pruebas de penetración requieren menos recursos que el análisis de vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "Ambas técnicas son complementarias: una identifica posibles debilidades y la otra comprueba su explotabilidad e impacto real."
+    },
+    {
+      "pregunta": "Una gran organización quiere implementar una solución que agregue y analice en tiempo real registros de seguridad procedentes de distintas fuentes. ¿Qué herramienta debe implementar?",
+      "opciones": [
+        "NetFlow",
+        "Escáneres de vulnerabilidades",
+        "SIEM",
+        "Traps SNMP"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un SIEM centraliza, correlaciona y analiza eventos y registros de múltiples sistemas para detectar incidentes de seguridad."
+    },
+    {
+      "pregunta": "Para impedir que datos sensibles sean transmitidos fuera de la red corporativa, ¿qué herramienta debería implementar una empresa?",
+      "opciones": [
+        "Traps SNMP",
+        "DLP",
+        "Escáneres de vulnerabilidades",
+        "SIEM"
+      ],
+      "respuesta": 1,
+      "explicacion": "DLP está diseñado específicamente para detectar y bloquear transferencias no autorizadas de información sensible."
+    },
+    {
+      "pregunta": "Para gestionar la distribución de software y políticas de seguridad en una red sin instalar agentes en cada dispositivo, ¿qué enfoque debería utilizar una organización?",
+      "opciones": [
+        "Gestión basada en agentes",
+        "Antivirus",
+        "Gestión sin agentes",
+        "DLP"
+      ],
+      "respuesta": 2,
+      "explicacion": "La gestión agentless permite administrar dispositivos y distribuir configuraciones sin instalar un agente dedicado en cada sistema."
+    },
+    {
+      "pregunta": "Una empresa quiere restringir el acceso remoto a su red únicamente a empleados. ¿Qué configuración de lista de acceso garantiza que solo determinadas direcciones IP puedan acceder remotamente?",
+      "opciones": [
+        "Permitir cualquiera",
+        "Denegar cualquiera",
+        "Permitir por dirección MAC",
+        "Permitir direcciones IP específicas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Permitir exclusivamente IP específicas limita las conexiones a direcciones previamente autorizadas."
+    },
+    {
+      "pregunta": "Un responsable de TI quiere garantizar que todos los equipos Windows de la organización tengan una configuración de seguridad coherente, incluidas políticas de contraseñas y ajustes de Windows Defender. ¿Qué enfoque debería utilizar?",
+      "opciones": [
+        "Configurar manualmente cada equipo",
+        "Utilizar Group Policy para aplicar la configuración de seguridad",
+        "Confiar en que los usuarios configuren sus ajustes de seguridad",
+        "Utilizar herramientas de terceros para aplicar políticas de seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Group Policy permite administrar y aplicar centralmente configuraciones uniformes de seguridad a sistemas Windows."
+    },
+    {
+      "pregunta": "Para protegerse frente a ataques de phishing, una organización decide implementar un filtrado web más estricto. ¿Qué regla de bloqueo sería más efectiva?",
+      "opciones": [
+        "Bloquear todos los archivos adjuntos de correo electrónico",
+        "Bloquear sitios web con puntuaciones de reputación bajas",
+        "Bloquear todo el tráfico web saliente",
+        "Bloquear tipos de archivo específicos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los sitios de baja reputación tienen mayor probabilidad de alojar contenido fraudulento o malicioso asociado al phishing."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad del correo electrónico, una empresa implementa DKIM. ¿Qué aspecto de la seguridad del correo aborda principalmente DKIM?",
+      "opciones": [
+        "Cifrado del contenido del correo",
+        "Autenticación de los remitentes",
+        "Análisis de archivos adjuntos en busca de malware",
+        "Prevención de la suplantación de correo electrónico"
+      ],
+      "respuesta": 3,
+      "explicacion": "DKIM utiliza firmas digitales vinculadas al dominio remitente para ayudar a comprobar la autenticidad e integridad del mensaje y combatir la suplantación."
+    },
+    {
+      "pregunta": "Para una empresa que quiere implementar EDR como parte de su estrategia de seguridad, ¿cuál es el principal beneficio de esta tecnología?",
+      "opciones": [
+        "Aumentar la velocidad de las conexiones a Internet",
+        "Reducir la necesidad de actualizaciones periódicas de software",
+        "Detectar y responder en tiempo real a amenazas en endpoints",
+        "Cifrar los datos de los endpoints para impedir accesos no autorizados"
+      ],
+      "respuesta": 2,
+      "explicacion": "EDR monitoriza continuamente los endpoints para detectar actividad maliciosa y facilitar una respuesta rápida ante amenazas."
+    },
+    {
+      "pregunta": "En el contexto de la gestión de identidades y accesos, ¿cuál es el objetivo principal del de-provisioning de cuentas de usuario?",
+      "opciones": [
+        "Garantizar que los usuarios puedan acceder a recursos adicionales cuando los necesiten",
+        "Aumentar la seguridad de la red añadiendo más cuentas de usuario",
+        "Eliminar derechos de acceso y recursos cuando ya no son necesarios",
+        "Eliminar derechos de acceso y recursos cuando ya no son necesarios"
+      ],
+      "respuesta": 2,
+      "explicacion": "El de-provisioning revoca accesos cuando un usuario deja de necesitarlos, por ejemplo al abandonar la organización."
+    },
+    {
+      "pregunta": "¿Cuál es el factor más importante al seleccionar un método de cifrado para assertions SAML en una integración de inicio de sesión único?",
+      "opciones": [
+        "Velocidad del algoritmo",
+        "Compatibilidad con los sistemas existentes",
+        "Coste de implementación",
+        "Fortaleza del cifrado"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un cifrado suficientemente fuerte protege la confidencialidad de las assertions SAML frente a accesos no autorizados."
+    },
+    {
+      "pregunta": "Durante una auditoría descubres que los empleados utilizan sus cumpleaños y nombres de mascotas como contraseñas. ¿Qué práctica recomendada de contraseñas se está incumpliendo MÁS claramente?",
+      "opciones": ["Complejidad", "Longitud", "Caducidad", "Reutilización"],
+      "respuesta": 0,
+      "explicacion": "Los datos personales fácilmente predecibles producen contraseñas débiles y vulneran principalmente los requisitos de complejidad."
+    },
+    {
+      "pregunta": "Una empresa exige que los usuarios se autentiquen mediante una huella dactilar y un PIN antes de acceder a la VPN corporativa. ¿Qué tipo de autenticación multifactor se está utilizando?",
+      "opciones": [
+        "Algo que sabes y algo que tienes",
+        "Algo que eres y algo que sabes",
+        "Algo que tienes y algo que eres",
+        "Algún lugar en el que estás y algo que sabes"
+      ],
+      "respuesta": 1,
+      "explicacion": "La huella dactilar corresponde a algo que eres y el PIN a algo que sabes, por lo que se utilizan dos factores distintos."
+    },
+    {
+      "pregunta": "Un administrador de seguridad implementa un sistema que exige a los empleados autenticarse mediante su ubicación física y una llave de seguridad. ¿Qué tipo de autenticación multifactor se está utilizando?",
+      "opciones": [
+        "Algo que eres y algo que sabes",
+        "Algo que tienes y algún lugar en el que estás",
+        "Algo que sabes y algún lugar en el que estás",
+        "Algo que eres y algo que tienes"
+      ],
+      "respuesta": 1,
+      "explicacion": "La llave de seguridad es algo que tienes y la ubicación física corresponde al factor de algún lugar en el que estás."
+    },
+    {
+      "pregunta": "¿Cuál es la principal consideración al automatizar la habilitación o deshabilitación de servicios y accesos según requisitos de cumplimiento?",
+      "opciones": [
+        "Garantizar que todos los servicios queden permanentemente deshabilitados para obtener la máxima seguridad",
+        "Ajustar automáticamente los permisos de acceso y servicios para cumplir las normas regulatorias",
+        "Evitar completamente la automatización para garantizar supervisión manual",
+        "Centrarse exclusivamente en deshabilitar servicios sin considerar los controles de acceso"
+      ],
+      "respuesta": 1,
+      "explicacion": "La automatización debe adaptar permisos y servicios de forma que el entorno mantenga continuamente los requisitos regulatorios aplicables."
+    },
+    {
+      "pregunta": "Al analizar la capacidad de soporte continuado de sistemas automatizados, ¿qué consideración es crítica?",
+      "opciones": [
+        "Diseñar sistemas que no requieran mantenimiento ni actualizaciones",
+        "Ignorar las implicaciones de coste para priorizar la velocidad",
+        "Garantizar que los sistemas puedan actualizarse y mantenerse fácilmente",
+        "Evitar la documentación para acelerar el desarrollo"
+      ],
+      "respuesta": 2,
+      "explicacion": "La mantenibilidad y facilidad de actualización permiten adaptar el sistema a nuevos requisitos, tecnologías y amenazas."
+    },
+    {
+      "pregunta": "En el contexto de la gestión de identidades y accesos, ¿cuál de los siguientes modelos garantiza mejor que los usuarios tengan acceso únicamente a los recursos correspondientes a sus funciones autorizadas?",
+      "opciones": ["RBAC", "MAC", "DAC", "ABAC"],
+      "respuesta": 0,
+      "explicacion": "RBAC asigna permisos en función del rol del usuario y facilita la aplicación del principio de mínimo privilegio."
+    },
+    {
+      "pregunta": "Durante una investigación de actividad de red sospechosa, ¿qué fuente de datos sería MÁS útil para identificar una exfiltración de datos no autorizada?",
+      "opciones": [
+        "Informes automatizados",
+        "Análisis de vulnerabilidades",
+        "Capturas de paquetes",
+        "Dashboards"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las capturas de paquetes proporcionan información detallada sobre el tráfico transmitido y permiten analizar directamente posibles transferencias de datos."
+    },
+    {
+      "pregunta": "Un analista de seguridad revisa registros de IPS/IDS para mejorar la postura de seguridad. ¿Cuál sería el MEJOR indicador de un posible intento de intrusión?",
+      "opciones": [
+        "Alertas de consumo elevado de ancho de banda",
+        "Alertas basadas en firmas de tráfico de malware conocido",
+        "Anomalías en los patrones de inicio de sesión de usuarios",
+        "Cambios frecuentes en las reglas del firewall"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las alertas basadas en firmas de malware conocido corresponden directamente a patrones reconocidos de actividad maliciosa."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad de datos sensibles, ¿qué medida debería implementarse para monitorizar e identificar accesos no autorizados?",
+      "opciones": [
+        "Capturas de paquetes de todos los datos que salen de la red",
+        "Análisis de metadatos de los documentos accedidos",
+        "Revisión de registros del firewall para conexiones denegadas",
+        "Análisis de registros de endpoints para detectar intentos de acceso no autorizado a datos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los registros de endpoints permiten observar directamente intentos de acceso a los sistemas donde se encuentran los datos sensibles."
+    },
+    {
+      "pregunta": "Una organización está revisando su AUP. ¿Cuál de las siguientes opciones garantiza mejor el cumplimiento de la AUP por parte de los empleados?",
+      "opciones": [
+        "Formulario anual de aceptación de la AUP",
+        "Aplicación automática mediante controles técnicos",
+        "Sesiones mensuales de formación sobre la AUP",
+        "Publicación de la AUP en la intranet corporativa"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los controles técnicos pueden impedir directamente actividades que infringen la política, proporcionando una aplicación más efectiva que la mera concienciación."
+    },
+    {
+      "pregunta": "Durante una sesión de planificación de continuidad del negocio, ¿qué debería priorizarse para garantizar que las operaciones críticas puedan continuar durante un desastre?",
+      "opciones": [
+        "Centro de datos de respaldo en una ubicación geográficamente diversa",
+        "Pólizas de seguro para activos físicos",
+        "Unidades de oficina móviles",
+        "Capacidades de teletrabajo para empleados"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un centro de datos alternativo geográficamente separado permite mantener servicios críticos aunque el sitio principal quede inutilizado."
+    },
+    {
+      "pregunta": "En el contexto del desarrollo seguro de software, ¿cuál es el método más efectivo para identificar fallos de seguridad en una fase temprana del SDLC?",
+      "opciones": [
+        "Pruebas de penetración durante la fase de despliegue",
+        "Auditorías de seguridad al finalizar el proyecto",
+        "Revisiones de código durante la fase de desarrollo",
+        "Comentarios de usuarios finales después del lanzamiento"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las revisiones de código durante el desarrollo permiten detectar y corregir vulnerabilidades antes de que avancen a fases posteriores del SDLC."
+    },
+    {
+      "pregunta": "¿Qué política mejoraría de forma más directa la seguridad de las contraseñas de una organización?",
+      "opciones": [
+        "Exigir cambios de contraseña cada 30 días",
+        "Implementar autenticación multifactor",
+        "Prohibir contraseñas comunes y exigir requisitos de complejidad",
+        "Permitir intentos ilimitados de contraseña"
+      ],
+      "respuesta": 2,
+      "explicacion": "Bloquear contraseñas comunes y exigir complejidad aumenta directamente la resistencia de las propias contraseñas frente a ataques de adivinación."
+    },
+    {
+      "pregunta": "Una corporación multinacional amplía sus servicios a un país con leyes estrictas de localización de datos. ¿Qué acción debe realizar para cumplir esas leyes?",
+      "opciones": [
+        "Cifrar todos los datos en tránsito",
+        "Almacenar los datos localmente dentro de las fronteras del país",
+        "Aumentar la velocidad de transferencia de datos",
+        "Implementar métodos de autenticación de usuario más fuertes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las leyes de localización de datos exigen que determinados datos se almacenen físicamente dentro de la jurisdicción especificada."
+    },
+    {
+      "pregunta": "En el contexto de una estructura de gobierno descentralizada, ¿cuál es un beneficio principal de seguridad?",
+      "opciones": [
+        "Reducción de costes operativos",
+        "Mayor redundancia de datos",
+        "Mayor capacidad de adaptación a requisitos regionales específicos",
+        "Gestión centralizada de políticas de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "La descentralización facilita que cada región adapte rápidamente sus controles y decisiones a requisitos legales y operativos locales."
+    },
+    {
+      "pregunta": "Una empresa evalúa el riesgo de pérdida de datos de su base de datos de clientes y considera varias estrategias de mitigación. ¿Qué estrategia reduce mejor el riesgo según el concepto de Exposure Factor?",
+      "opciones": [
+        "Implementar un cifrado de datos más fuerte en la base de datos",
+        "Aumentar la frecuencia de las copias de seguridad",
+        "Contratar un seguro para cubrir posibles incidentes de pérdida de datos",
+        "Realizar formación periódica de concienciación en seguridad para administradores de bases de datos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Copias de seguridad más frecuentes reducen la cantidad de datos que podría perderse en un incidente y, por tanto, el impacto potencial."
+    },
+    {
+      "pregunta": "Un analista de seguridad realiza una evaluación de riesgos de un nuevo despliegue de software. ¿Qué método permitiría priorizar mejor los riesgos según su gravedad y probabilidad?",
+      "opciones": [
+        "Realizar un análisis cuantitativo para calcular impactos financieros potenciales",
+        "Realizar un análisis cualitativo para asignar niveles de gravedad y probabilidad",
+        "Revisar el calendario de mantenimiento del software en el registro de riesgos",
+        "Programar reuniones recurrentes con el equipo de desarrollo para discutir los riesgos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis cualitativo clasifica los riesgos mediante categorías de probabilidad e impacto, facilitando su priorización."
+    },
+    {
+      "pregunta": "Una empresa decide adoptar un análisis continuo de riesgos. ¿Cuál es el principal beneficio de este enfoque?",
+      "opciones": [
+        "Garantiza el cumplimiento de todos los requisitos regulatorios",
+        "Proporciona actualizaciones en tiempo real sobre la situación financiera de la empresa",
+        "Permite detectar y responder inmediatamente a nuevos riesgos",
+        "Elimina la necesidad de un equipo dedicado de gestión de riesgos"
+      ],
+      "respuesta": 2,
+      "explicacion": "El análisis continuo permite detectar cambios en amenazas y vulnerabilidades con rapidez y responder antes a los nuevos riesgos."
+    },
+    {
+      "pregunta": "Una empresa actualiza periódicamente su plan de gestión de riesgos y comunica los posibles impactos a todas las partes interesadas. ¿Qué aspecto de la gestión de riesgos representa mejor esta práctica?",
+      "opciones": [
+        "Tolerancia al riesgo",
+        "Informes de riesgos",
+        "Apetito de riesgo",
+        "Mitigación de riesgos"
+      ],
+      "respuesta": 1,
+      "explicacion": "La comunicación periódica del estado e impacto de los riesgos a las partes interesadas constituye risk reporting."
+    },
+    {
+      "pregunta": "Durante una evaluación de riesgos de terceros, ¿cuál es el objetivo principal de realizar un análisis de la cadena de suministro?",
+      "opciones": [
+        "Evaluar la estabilidad financiera del proveedor",
+        "Identificar riesgos potenciales introducidos por subproveedores",
+        "Evaluar la seguridad física de las instalaciones del proveedor",
+        "Verificar el cumplimiento del proveedor con las leyes internacionales de comercio"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis de la cadena de suministro busca identificar vulnerabilidades y riesgos introducidos por proveedores indirectos o subproveedores."
+    },
+    {
+      "pregunta": "¿Qué tipo de acuerdo es más adecuado para establecer los términos y condiciones generales entre una organización y sus proveedores que regirán futuras transacciones y servicios?",
+      "opciones": ["SLA", "MOU", "MSA", "WO/SOW"],
+      "respuesta": 2,
+      "explicacion": "Un Master Service Agreement (MSA) define el marco contractual general bajo el cual se celebrarán futuros trabajos y acuerdos."
+    },
+    {
+      "pregunta": "¿Por qué la due diligence de proveedores se considera un paso crítico en el proceso de selección?",
+      "opciones": [
+        "Para determinar la capacidad del proveedor de cumplir los plazos de entrega",
+        "Para garantizar que el proveedor tenga una política medioambiental sostenible",
+        "Para evaluar la reputación, estabilidad y capacidades operativas del proveedor",
+        "Para negociar precios más bajos y mejores condiciones de pago"
+      ],
+      "respuesta": 2,
+      "explicacion": "La due diligence permite evaluar de forma integral si el proveedor es fiable y capaz de satisfacer las necesidades y requisitos de la organización."
+    },
+    {
+      "pregunta": "Una empresa tecnológica quiere evaluar la seguridad de su red analizando tráfico para identificar posibles vulnerabilidades sin interactuar activamente con los sistemas objetivo. ¿Qué tipo de reconocimiento está utilizando?",
+      "opciones": [
+        "Reconocimiento pasivo",
+        "Reconocimiento activo",
+        "Prueba de penetración física",
+        "Prueba de penetración ofensiva"
+      ],
+      "respuesta": 0,
+      "explicacion": "El reconocimiento pasivo recopila información sin interactuar directamente con el objetivo, reduciendo la probabilidad de detección."
+    },
+    {
+      "pregunta": "Una empresa tecnológica evalúa el impacto del incumplimiento de acuerdos de licencia de software. ¿Cuál es la consecuencia más inmediata e importante que debería prever?",
+      "opciones": [
+        "Un ligero aumento de los costes operativos",
+        "Participación obligatoria en un programa de formación sobre cumplimiento",
+        "Acciones legales que provoquen multas y posibles interrupciones del negocio",
+        "Una disminución de la moral de los empleados"
+      ],
+      "respuesta": 2,
+      "explicacion": "El incumplimiento de licencias puede provocar directamente acciones legales, sanciones económicas y disrupciones operativas."
+    },
+    {
+      "pregunta": "Durante una sesión de concienciación en seguridad, un empleado pregunta cuál es la mejor forma de gestionar una memoria USB desconocida encontrada en el aparcamiento. ¿Cuál debería ser la respuesta correcta?",
+      "opciones": [
+        "Conectarla a un ordenador para buscar documentos que permitan identificar al propietario",
+        "Ignorarla y dejarla donde se encontró",
+        "Entregarla al departamento de TI para su análisis",
+        "Destruir la memoria USB para impedir que alguien la utilice"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una unidad USB desconocida puede contener malware; entregarla a TI permite analizarla de forma controlada sin exponer equipos de usuario."
+    },
+    {
+      "pregunta": "Una organización desarrolla una nueva aplicación que recopilará datos de usuarios para personalización. ¿Qué principio de seguridad debería priorizar para proteger los datos de los usuarios?",
+      "opciones": [
+        "Implementar mecanismos fuertes de autenticación de usuarios",
+        "Garantizar que el software esté libre de vulnerabilidades mediante auditorías periódicas",
+        "Recopilar únicamente los datos necesarios para la funcionalidad de la aplicación",
+        "Cifrar todos los datos en tránsito y en reposo"
+      ],
+      "respuesta": 2,
+      "explicacion": "La minimización de datos reduce la cantidad de información sensible almacenada y, por tanto, el impacto potencial de una brecha."
+    },
+    {
+      "pregunta": "Una organización quiere asegurarse de que únicamente los destinatarios previstos puedan leer el contenido de sus correos electrónicos incluso si son interceptados. ¿Qué característica de PKI se utiliza para conseguirlo?",
+      "opciones": [
+        "Clave pública",
+        "Clave privada",
+        "Key escrow",
+        "Intercambio de claves"
+      ],
+      "respuesta": 0,
+      "explicacion": "El remitente cifra el mensaje con la clave pública del destinatario, de modo que solo la correspondiente clave privada pueda descifrarlo."
+    },
+    {
+      "pregunta": "Una aplicación de mensajería instantánea requiere cifrado en tiempo real de los mensajes. ¿Qué tipo de cifrado es más adecuado teniendo en cuenta la necesidad de velocidad y eficiencia?",
+      "opciones": [
+        "Asimétrico",
+        "Simétrico",
+        "Intercambio de claves",
+        "Algoritmos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado simétrico es computacionalmente más eficiente y resulta apropiado para cifrar grandes volúmenes de comunicación en tiempo real."
+    },
+    {
+      "pregunta": "Una organización revisa su estrategia de cifrado para maximizar la seguridad de datos sensibles. Además de elegir algoritmos sólidos, ¿qué factor debería considerar?",
+      "opciones": [
+        "Asimétrico",
+        "Simétrico",
+        "Intercambio de claves",
+        "Longitud de clave"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una longitud de clave adecuada aumenta el espacio de claves y la resistencia frente a ataques de fuerza bruta."
+    },
+    {
+      "pregunta": "Un proveedor de servicios cloud quiere mejorar la seguridad de los datos de sus clientes para aplicaciones que requieren altos niveles de cifrado y gestión de claves. ¿Qué tecnología ofrece almacenamiento robusto de claves y operaciones criptográficas?",
+      "opciones": [
+        "TPM",
+        "HSM",
+        "Sistema de gestión de claves",
+        "Secure Enclave"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un HSM proporciona almacenamiento de claves y ejecución de operaciones criptográficas dentro de hardware resistente a manipulaciones."
+    },
+    {
+      "pregunta": "Una empresa quiere mejorar la privacidad de los datos almacenados de sus clientes, ocultando elementos sensibles como números de la Seguridad Social a quienes accedan directamente a la base de datos. ¿Qué técnica debería utilizar?",
+      "opciones": [
+        "Esteganografía",
+        "Tokenización",
+        "Enmascaramiento de datos",
+        "Secure Enclave"
+      ],
+      "respuesta": 2,
+      "explicacion": "El data masking sustituye u oculta datos sensibles para que no sean visibles directamente manteniendo datos utilizables para determinados procesos."
+    },
+    {
+      "pregunta": "Para monitorizar y registrar actividades dentro de sus instalaciones, una organización instala cámaras de vigilancia en ubicaciones clave. ¿En qué categoría de control se encuadra esta acción?",
+      "opciones": ["Técnico", "Directivo", "Operacional", "Físico"],
+      "respuesta": 3,
+      "explicacion": "Las cámaras de vigilancia son controles físicos destinados a supervisar y proteger instalaciones y activos."
+    },
+    {
+      "pregunta": "Tras una brecha de datos, una organización activa su plan de copia de seguridad y recuperación para restaurar los datos perdidos y reanudar las operaciones normales. ¿Qué tipo de control representa este plan?",
+      "opciones": ["Preventivo", "Disuasorio", "Detectivo", "Correctivo"],
+      "respuesta": 3,
+      "explicacion": "Los controles correctivos restauran sistemas y recursos después de que un incidente haya ocurrido."
+    },
+    {
+      "pregunta": "Para proteger la entrada de una instalación segura frente a amenazas basadas en vehículos, una organización instala barreras reforzadas capaces de detener vehículos. ¿Qué medida de seguridad física describe esto?",
+      "opciones": [
+        "Bolardos",
+        "Vestíbulo de control de acceso",
+        "Vallado",
+        "Videovigilancia"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los bolardos son barreras físicas diseñadas específicamente para impedir o dificultar el paso de vehículos."
+    },
+    {
+      "pregunta": "Una organización quiere disuadir actividades delictivas alrededor de sus instalaciones aumentando la visibilidad durante la noche. ¿Qué medida de seguridad física es la más efectiva?",
+      "opciones": [
+        "Videovigilancia",
+        "Guardia de seguridad",
+        "Tarjeta de acceso",
+        "Iluminación"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una iluminación adecuada aumenta la visibilidad y la probabilidad de detección, lo que actúa como medida disuasoria."
+    },
+    {
+      "pregunta": "Para estudiar APT y sus movimientos laterales dentro de una red, un equipo de seguridad crea un entorno de red simulado lleno de sistemas y datos señuelo. ¿Qué es esto?",
+      "opciones": ["Honeypot", "Honeynet", "Honeyfile", "Honeytoken"],
+      "respuesta": 1,
+      "explicacion": "Una honeynet simula una red completa con varios sistemas señuelo para observar técnicas, comportamiento y movimiento lateral de los atacantes."
+    },
+    {
+      "pregunta": "Antes de integrar completamente nuevos controles de seguridad en su red, una organización realiza una serie de pruebas para evaluar su eficacia y posible impacto sobre el rendimiento del sistema. ¿Qué aspecto del proceso de gestión de cambios representa esto?",
+      "opciones": [
+        "Análisis de impacto",
+        "Resultados de pruebas",
+        "Plan de reversión",
+        "Procedimiento operativo estándar"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los resultados de las pruebas permiten evaluar con datos reales la eficacia y el impacto del cambio antes de desplegarlo por completo."
+    },
+    {
+      "pregunta": "Un departamento de TI planea actualizar su software de seguridad para corregir vulnerabilidades conocidas, pero necesita evitar interrupciones del servicio de red. ¿Qué debería considerar para minimizar el impacto operativo?",
+      "opciones": [
+        "Allow lists/deny lists",
+        "Tiempo de inactividad",
+        "Reinicio del servicio",
+        "Dependencias"
+      ],
+      "respuesta": 1,
+      "explicacion": "Planificar el posible downtime permite realizar la actualización en periodos que reduzcan al mínimo la interrupción de los servicios."
+    },
+    {
+      "pregunta": "Para reducir riesgos de seguridad, una organización restringe el uso de software no esencial permitiendo únicamente la ejecución de aplicaciones aprobadas. ¿Qué mecanismo de seguridad describe esto?",
+      "opciones": [
+        "Allow lists/deny lists",
+        "Tiempo de inactividad",
+        "Reinicio del servicio",
+        "Documentación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una allow list permite ejecutar únicamente aplicaciones previamente autorizadas, reduciendo la superficie de ataque."
+    },
+    {
+      "pregunta": "Una plataforma de comercio electrónico necesita proteger la información de pago de sus clientes dentro de sus bases de datos y mantener la capacidad de procesar transacciones. ¿Qué técnica es la más adecuada?",
+      "opciones": [
+        "Esteganografía",
+        "Tokenización",
+        "Enmascaramiento de datos",
+        "Secure Enclave"
+      ],
+      "respuesta": 1,
+      "explicacion": "La tokenización sustituye los datos de pago sensibles por tokens no sensibles que pueden utilizarse en los procesos sin exponer los valores originales."
+    },
+    {
+      "pregunta": "En operaciones seguras, ¿cuál es la principal ventaja de automatizar mediante scripts la creación de tickets para incidentes de seguridad identificados?",
+      "opciones": [
+        "Garantiza que todos los incidentes se ignoren salvo que sean verificados manualmente",
+        "Genera tickets automáticamente y acelera el proceso de respuesta a incidentes",
+        "Aumenta la carga del equipo de seguridad generando un número excesivo de tickets",
+        "Sustituye la necesidad de un SIEM"
+      ],
+      "respuesta": 1,
+      "explicacion": "Automatizar la creación de tickets permite registrar y asignar incidentes inmediatamente, reduciendo el tiempo hasta su investigación."
+    },
+    {
+      "pregunta": "¿Por qué escalar de forma segura se considera una ventaja clave de la automatización en entornos cloud?",
+      "opciones": [
+        "Permite abrir indiscriminadamente todos los puertos de red",
+        "Permite expandir o reducir rápidamente los recursos manteniendo los controles de seguridad",
+        "Obliga a utilizar una única cuenta compartida para simplificar",
+        "Busca maximizar la complejidad durante el despliegue de nuevos recursos"
+      ],
+      "respuesta": 1,
+      "explicacion": "La automatización puede aplicar los mismos controles de seguridad a los nuevos recursos a medida que la infraestructura escala."
+    },
+    {
+      "pregunta": "Una organización descubre acceso no autorizado a su red. ¿Qué medida inmediata debería tomar para minimizar los daños?",
+      "opciones": [
+        "Desconectar toda la red de Internet",
+        "Ejecutar software antivirus en todos los sistemas",
+        "Iniciar el proceso de contención para aislar los sistemas afectados",
+        "Enviar un correo electrónico a todo el personal detallando la brecha"
+      ],
+      "respuesta": 2,
+      "explicacion": "La contención busca aislar los sistemas afectados y evitar que el incidente se propague o cause daños adicionales."
+    },
+    {
+      "pregunta": "Después de un ciberincidente, una organización celebra una reunión para analizar qué ocurrió, cómo se gestionó y cómo prevenir incidentes similares en el futuro. ¿Cómo se denomina este proceso?",
+      "opciones": [
+        "Análisis de causa raíz",
+        "Reunión de lecciones aprendidas",
+        "Informe de informática forense",
+        "Revisión de la estrategia de contención"
+      ],
+      "respuesta": 1,
+      "explicacion": "La reunión de lecciones aprendidas revisa el incidente y la respuesta realizada para identificar mejoras aplicables a futuros incidentes."
+    },
+    {
+      "pregunta": "¿Qué actividad consiste en buscar activamente amenazas que hayan eludido las medidas de seguridad existentes dentro de la red de una organización?",
+      "opciones": [
+        "Análisis antivirus",
+        "Threat hunting",
+        "Actualizaciones periódicas de software",
+        "Aplicación de políticas de contraseñas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Threat hunting es la búsqueda proactiva de actividad maliciosa no detectada previamente por los controles de seguridad."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de realizar un ejercicio tabletop como parte de un plan de respuesta a incidentes?",
+      "opciones": [
+        "Probar físicamente la seguridad de la infraestructura de la organización",
+        "Revisar y actualizar las políticas de seguridad de la organización",
+        "Simular un ciberincidente en un entorno controlado para evaluar el plan de respuesta",
+        "Realizar una evaluación técnica de la seguridad de red de la organización"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un tabletop exercise utiliza un escenario hipotético y discusión entre los participantes para evaluar roles, procedimientos y deficiencias del plan de respuesta."
+    },
+    {
+      "pregunta": "Una empresa global debe garantizar que sus actividades de tratamiento de datos cumplan los requisitos legales de diferentes países. ¿Qué enfoque debería adoptar para gestionar eficientemente estas distintas obligaciones?",
+      "opciones": [
+        "Utilizar una única política de privacidad para todos los países",
+        "Externalizar el tratamiento de datos a un tercero",
+        "Implementar marcos de gobierno de datos específicos para cada región",
+        "Limitar la recopilación de datos únicamente a información esencial"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los marcos regionales permiten adaptar el tratamiento de datos a las obligaciones legales particulares de cada jurisdicción."
+    },
+    {
+      "pregunta": "Una empresa de desarrollo de software está expandiendo sus operaciones globalmente. ¿Cuál de las siguientes medidas es la más crítica para garantizar que sus productos cumplan los estándares globales de protección de datos?",
+      "opciones": [
+        "Estandarizar las prácticas de programación en todos los equipos de desarrollo",
+        "Implementar cifrado de extremo a extremo en todas las aplicaciones",
+        "Realizar auditorías periódicas de seguridad de los productos",
+        "Integrar principios de privacy by design en el desarrollo de productos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Privacy by design incorpora requisitos de privacidad desde las primeras fases del diseño y durante todo el ciclo de vida del producto."
+    },
+    {
+      "pregunta": "Durante la fase de identificación de riesgos, una empresa descubre una amenaza que podría explotar una vulnerabilidad de su aplicación web y provocar acceso no autorizado a datos. ¿Qué acción aborda mejor el riesgo identificado?",
+      "opciones": [
+        "Aumentar la formación de concienciación en ciberseguridad para todos los empleados",
+        "Implementar regularmente parches y actualizaciones de seguridad para la aplicación web",
+        "Contratar un seguro adicional para cubrir posibles costes derivados de brechas de datos",
+        "Rediseñar el sitio web centrándose en la experiencia de usuario"
+      ],
+      "respuesta": 1,
+      "explicacion": "Aplicar parches y actualizaciones corrige directamente la vulnerabilidad que podría ser explotada por la amenaza."
+    },
+    {
+      "pregunta": "Una empresa evalúa el riesgo de un fallo de servidor que podría afectar a su plataforma de ventas en línea. ¿Qué enfoque cuantificaría mejor el impacto financiero potencial de este riesgo?",
+      "opciones": [
+        "Realizar un análisis cualitativo de riesgos para conocer la percepción de los empleados sobre el impacto",
+        "Utilizar un registro de riesgos para documentar el tiempo de actividad y el calendario de mantenimiento del servidor",
+        "Calcular el ALE basándose en incidentes anteriores",
+        "Organizar una reunión ad hoc con el departamento de TI para hablar sobre la fiabilidad del servidor"
+      ],
+      "respuesta": 2,
+      "explicacion": "El Annualized Loss Expectancy (ALE) cuantifica la pérdida anual esperada combinando el Single Loss Expectancy (SLE) con el Annualized Rate of Occurrence (ARO)."
+    }
+  ]
+}

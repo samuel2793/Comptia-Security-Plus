@@ -65,6 +65,18 @@
       "baterias": [
         "tests/udemy/comptia-security-sy0-701-vision/1.json"
       ]
+    },
+    {
+      "id": "udemy-securitypluspracticeexams",
+      "titulo": "Udemy securitypluspracticeexams",
+      "baterias": [
+        "tests/udemy/securitypluspracticeexams/1.json",
+        "tests/udemy/securitypluspracticeexams/2.json",
+        "tests/udemy/securitypluspracticeexams/3.json",
+        "tests/udemy/securitypluspracticeexams/4.json",
+        "tests/udemy/securitypluspracticeexams/5.json",
+        "tests/udemy/securitypluspracticeexams/6.json"
+      ]
     }
   ]
 }
