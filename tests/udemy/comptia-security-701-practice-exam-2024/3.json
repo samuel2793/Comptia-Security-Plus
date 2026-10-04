@@ -1,0 +1,877 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Tercer Test",
+  "procedencia": "CompTIA Security Plus 701 Practice Exam Questions (2026) - Cyber Learning - Tercer Test",
+  "descripcion": "Tercer examen de práctica de CompTIA Security+ SY0-701 con preguntas sobre arquitectura de seguridad, criptografía, resiliencia, redes, nube, copias de seguridad y controles de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "Para garantizar una alta disponibilidad de una aplicación web, un arquitecto de seguridad implementa una solución que distribuye el tráfico de red entrante entre un grupo de servidores backend. Esto evita que un único servidor se sobrecargue. ¿Cómo se denomina esta técnica?",
+      "opciones": ["Clustering", "Load balancing", "Journaling", "Snapshots"],
+      "respuesta": 1,
+      "explicacion": "El load balancing distribuye el tráfico entre varios servidores para evitar que un único recurso se sobrecargue y mejorar la disponibilidad y capacidad de respuesta."
+    },
+    {
+      "pregunta": "Una organización quiere impedir que los empleados accedan a redes sociales durante el horario laboral y también almacenar en caché contenido web visitado con frecuencia para reducir el consumo de ancho de banda. ¿Qué dispositivo de red cumple mejor ambos requisitos?",
+      "opciones": [
+        "Jump server",
+        "Proxy server",
+        "Next-Generation Firewall (NGFW)",
+        "Load balancer"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un proxy server puede aplicar filtrado de contenido y almacenar en caché recursos web, reduciendo al mismo tiempo el acceso no permitido y el consumo de ancho de banda."
+    },
+    {
+      "pregunta": "Una corporación clasifica una categoría de datos como información cuya pérdida, corrupción o indisponibilidad provocaría que la organización dejara de funcionar o sufriera un fallo operativo catastrófico, como el sistema central de procesamiento de pedidos. La principal preocupación es la disponibilidad y no la confidencialidad. ¿Qué etiqueta de clasificación se aplica mejor?",
+      "opciones": ["Confidencial", "Restringido", "Sensible", "Crítico"],
+      "respuesta": 3,
+      "explicacion": "La clasificación de datos críticos identifica información esencial para las operaciones cuya pérdida o indisponibilidad podría causar un fallo grave del negocio."
+    },
+    {
+      "pregunta": "Una organización utiliza tanto centros de datos locales como servicios en la nube para alojar aplicaciones y datos. ¿Qué consideración de seguridad suele estar asociada a una arquitectura híbrida?",
+      "opciones": [
+        "El cifrado de datos solo se aplica a los centros de datos locales.",
+        "La organización es responsable de toda la seguridad del entorno cloud.",
+        "La integración de los controles de seguridad locales y cloud es crucial.",
+        "Los proveedores cloud son los únicos responsables de todas las medidas de seguridad."
+      ],
+      "respuesta": 2,
+      "explicacion": "En una arquitectura híbrida es esencial integrar de forma coherente los controles de seguridad de los entornos on-premises y cloud."
+    },
+    {
+      "pregunta": "¿Cuál es el principal beneficio de implementar una DMZ en una arquitectura de red?",
+      "opciones": [
+        "Mejor rendimiento de la red interna",
+        "Configuración de red más sencilla",
+        "Mayor seguridad para los servicios expuestos públicamente",
+        "Autenticación de usuarios centralizada"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una DMZ crea una zona intermedia entre la red interna y las redes no confiables, proporcionando mayor protección a los servicios públicos."
+    },
+    {
+      "pregunta": "Un equipo de desarrollo empaqueta cada microservicio de una aplicación junto con todas sus dependencias y configuración en unidades aisladas y ligeras que comparten el kernel del sistema operativo anfitrión pero permanecen separadas entre sí. ¿Qué tecnología está utilizando?",
+      "opciones": [
+        "Virtualización",
+        "Containerization",
+        "Serverless computing",
+        "Infrastructure as Code (IaC)"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los contenedores empaquetan aplicaciones y dependencias en unidades aisladas que comparten el kernel del sistema operativo anfitrión."
+    },
+    {
+      "pregunta": "Al contratar proveedores externos de productos o servicios de seguridad, ¿qué debe ser una preocupación principal para garantizar la protección de los activos de información de la organización?",
+      "opciones": [
+        "La estabilidad financiera de los proveedores",
+        "La rentabilidad de los productos o servicios del proveedor",
+        "La reputación y experiencia del proveedor en el sector",
+        "Las prácticas y medidas de seguridad implementadas por el proveedor"
+      ],
+      "respuesta": 3,
+      "explicacion": "La organización debe verificar que el proveedor aplica prácticas y controles de seguridad adecuados para proteger sus activos de información."
+    },
+    {
+      "pregunta": "Una organización utiliza dos servidores de aplicaciones detrás de un load balancer. En condiciones normales, el load balancer envía tráfico a ambos servidores. Si uno falla las comprobaciones de estado, deja de enviarle tráfico y dirige todas las solicitudes al servidor restante. ¿Qué modelo es?",
+      "opciones": [
+        "Active-passive",
+        "Active-active",
+        "Cold standby",
+        "Backup and restore"
+      ],
+      "respuesta": 1,
+      "explicacion": "Es un modelo active-active porque ambos servidores procesan tráfico de producción durante el funcionamiento normal."
+    },
+    {
+      "pregunta": "Una institución educativa necesita una solución de recuperación ante desastres que pueda activarse en pocos días tras una interrupción importante. ¿Qué tipo de sitio sería el más apropiado?",
+      "opciones": ["Hot Site", "Cold Site", "Warm Site", "Mobile Site"],
+      "respuesta": 2,
+      "explicacion": "Un warm site ofrece un equilibrio entre coste y preparación, pudiendo ponerse en funcionamiento en un plazo de días."
+    },
+    {
+      "pregunta": "Un equipo de seguridad realiza una revisión trimestral de todas las cuentas de usuario y sus permisos. Descubre varias cuentas de empleados que abandonaron la empresa hace meses y que siguen activas con acceso completo. ¿Qué proceso debería implementar la organización para evitar esta situación?",
+      "opciones": [
+        "Aplicación de multi-factor authentication (MFA)",
+        "Implementación de role-based access control (RBAC)",
+        "Aprovisionamiento y desaprovisionamiento de cuentas de usuario",
+        "Adopción de mandatory access control (MAC)"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un proceso formal de aprovisionamiento y desaprovisionamiento garantiza que las cuentas y permisos se eliminen o deshabiliten cuando un empleado abandona la organización."
+    },
+    {
+      "pregunta": "Un administrador de seguridad está configurando una VPN entre una sucursal y la sede corporativa. Se requiere proteger todo el tráfico entre ambas redes en la capa de red, Layer 3, de forma transparente para usuarios y aplicaciones. ¿Qué protocolo debe utilizarse?",
+      "opciones": ["TLS", "SSH", "IPsec", "HTTPS"],
+      "respuesta": 2,
+      "explicacion": "IPsec opera en la capa de red y permite proteger paquetes IP completos, por lo que es una opción estándar para VPN site-to-site."
+    },
+    {
+      "pregunta": "Una empresa utiliza un entorno PaaS para desplegar una aplicación web. El equipo de seguridad quiere garantizar que los logs de la aplicación se recopilen y conserven. Según el modelo de responsabilidad compartida, ¿quién es responsable de configurarlos y gestionarlos?",
+      "opciones": [
+        "El cliente",
+        "El proveedor cloud",
+        "El ISP",
+        "El operador del centro de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "En PaaS, el proveedor administra la plataforma, mientras que el cliente sigue siendo responsable de la configuración y gestión de los logs generados por su aplicación."
+    },
+    {
+      "pregunta": "En una empresa que ha adoptado una arquitectura de microservicios, ¿qué desafío de seguridad puede surgir durante el desarrollo y despliegue de nuevas funcionalidades?",
+      "opciones": [
+        "Los ciclos rápidos de desarrollo pueden provocar que se pasen por alto buenas prácticas de seguridad",
+        "Comunicación y colaboración más eficientes entre los equipos de desarrollo",
+        "Control centralizado de todos los microservicios para una supervisión eficiente",
+        "Mejor escalabilidad sin ningún impacto en las consideraciones de seguridad"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los ciclos de desarrollo rápidos pueden priorizar la velocidad y provocar que se omitan controles o buenas prácticas de seguridad."
+    },
+    {
+      "pregunta": "Al diseñar una arquitectura de seguridad con un fuerte énfasis en la disponibilidad, ¿qué consideración es clave respecto a la redundancia de los sistemas?",
+      "opciones": [
+        "Reducir la redundancia para minimizar costes",
+        "Implementar sistemas redundantes en ubicaciones geográficamente diversas",
+        "Depender exclusivamente de sistemas de backup",
+        "Priorizar la redundancia únicamente para aplicaciones críticas"
+      ],
+      "respuesta": 1,
+      "explicacion": "La redundancia en ubicaciones geográficamente distintas reduce el riesgo de un único punto de fallo y mejora la disponibilidad."
+    },
+    {
+      "pregunta": "Una organización decide contratar un seguro cibernético para transferir el riesgo financiero asociado a una posible filtración de datos. ¿Qué estrategia de gestión de riesgos está utilizando?",
+      "opciones": [
+        "Risk avoidance",
+        "Risk mitigation",
+        "Risk acceptance",
+        "Risk transference"
+      ],
+      "respuesta": 3,
+      "explicacion": "El seguro cibernético transfiere parte del impacto financiero de un riesgo a una compañía aseguradora."
+    },
+    {
+      "pregunta": "¿Cuál es una ventaja de seguridad principal de adoptar una infraestructura on-premises?",
+      "opciones": [
+        "Mayor escalabilidad y utilización de recursos",
+        "Menor dependencia de medidas de seguridad física",
+        "Mayor control sobre la seguridad física de la infraestructura",
+        "Mayor flexibilidad para adaptarse a cargas de trabajo dinámicas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una infraestructura on-premises proporciona a la organización control directo sobre la seguridad física de sus instalaciones y equipos."
+    },
+    {
+      "pregunta": "Al comparar arquitecturas de seguridad centralizadas y descentralizadas, ¿cuál es una posible desventaja del modelo centralizado?",
+      "opciones": [
+        "Mayor control sobre las políticas de seguridad",
+        "Mejor coordinación en la aplicación de medidas de seguridad",
+        "Mayor susceptibilidad a un único punto de fallo",
+        "Gestión simplificada de diversos controles de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "La centralización puede crear un único punto de fallo cuya interrupción afecte a una gran parte de la infraestructura."
+    },
+    {
+      "pregunta": "En una organización sanitaria es necesario proteger los historiales de los pacientes y cumplir normativas de privacidad. ¿Qué tipo de datos preocupa principalmente a la organización?",
+      "opciones": [
+        "Datos de secretos comerciales",
+        "Datos regulados",
+        "Propiedad intelectual",
+        "Información legal"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los registros de pacientes están sujetos a requisitos legales y normativos de privacidad, por lo que se consideran datos regulados."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones representa la principal ventaja arquitectónica de la tokenización frente al cifrado al proteger datos sensibles en una gran base de datos empresarial?",
+      "opciones": [
+        "La tokenización utiliza algoritmos matemáticos más robustos que el cifrado.",
+        "La tokenización no requiere que la aplicación gestione una clave de descifrado.",
+        "La tokenización garantiza que los datos tengan siempre una longitud fija de 256 bits.",
+        "La tokenización es una función unidireccional que nunca puede revertirse."
+      ],
+      "respuesta": 1,
+      "explicacion": "La aplicación puede manejar tokens sin necesitar claves de descifrado; los valores originales quedan centralizados y protegidos en un token vault."
+    },
+    {
+      "pregunta": "En una agencia gubernamental se necesita manejar información relacionada con la seguridad nacional. ¿Qué nivel de clasificación de datos se asignaría probablemente a este tipo de información sensible?",
+      "opciones": ["Public", "Confidential", "Private", "Top Secret"],
+      "respuesta": 3,
+      "explicacion": "La información altamente sensible relacionada con la seguridad nacional puede clasificarse como Top Secret."
+    },
+    {
+      "pregunta": "En una institución financiera, los datos de las cuentas de clientes y los registros de transacciones requieren protección debido a requisitos regulatorios. ¿Qué nivel de clasificación se asignaría probablemente a esta información?",
+      "opciones": ["Restricted", "Sensitive", "Private", "Confidential"],
+      "respuesta": 3,
+      "explicacion": "Los datos financieros de clientes suelen clasificarse como confidenciales debido a su sensibilidad y a los requisitos regulatorios aplicables."
+    },
+    {
+      "pregunta": "En un entorno corporativo, el manual del empleado y las políticas internas deben compartirse con todos los empleados. ¿Qué nivel de clasificación se asignaría probablemente a estos documentos?",
+      "opciones": ["Restricted", "Public", "Sensitive", "Private"],
+      "respuesta": 1,
+      "explicacion": "Según la clasificación planteada en el test, estos documentos se consideran Public porque están destinados a ser accesibles para todos los empleados."
+    },
+    {
+      "pregunta": "Una corporación multinacional está ampliando sus operaciones para cumplir requisitos de soberanía de datos en distintos países. ¿Qué debe considerar al abordar estos requisitos?",
+      "opciones": [
+        "Implementar cifrado de extremo a extremo para todos los datos",
+        "Garantizar que la ubicación física de los centros de datos cumpla las normativas locales",
+        "Clasificar los datos según su sensibilidad",
+        "Establecer controles de acceso seguros para la autenticación de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "La soberanía de datos exige considerar dónde se almacenan físicamente los datos y si esa ubicación cumple las leyes y requisitos de residencia aplicables."
+    },
+    {
+      "pregunta": "¿Qué método de cifrado utiliza la misma clave tanto para cifrar como para descifrar y se utiliza habitualmente para proteger canales de comunicación?",
+      "opciones": [
+        "Cifrado asimétrico",
+        "Cifrado basado en hash",
+        "Cifrado simétrico",
+        "Cifrado de clave pública"
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado simétrico emplea la misma clave para cifrar y descifrar y es eficiente para proteger grandes cantidades de datos."
+    },
+    {
+      "pregunta": "Una organización utiliza una plataforma de colaboración cloud para que los empleados trabajen en proyectos. ¿Qué medida de seguridad debe enfatizarse para proteger los datos en uso dentro de la plataforma?",
+      "opciones": [
+        "Implementar full disk encryption en los dispositivos de los empleados",
+        "Utilizar multi-factor authentication para acceder a la plataforma",
+        "Cifrar los datos durante la transmisión hacia y desde la plataforma",
+        "Utilizar role-based access control dentro de la plataforma"
+      ],
+      "respuesta": 3,
+      "explicacion": "El control de acceso basado en roles limita qué usuarios pueden acceder o realizar determinadas acciones sobre los datos mientras se utilizan."
+    },
+    {
+      "pregunta": "Un profesional de ciberseguridad está implementando un sistema de almacenamiento de contraseñas. ¿Qué técnica criptográfica es adecuada para proteger las contraseñas frente al acceso a sus valores originales?",
+      "opciones": ["Encryption", "Hashing", "Salting", "Masking"],
+      "respuesta": 1,
+      "explicacion": "El hashing transforma las contraseñas en valores derivados no destinados a ser revertidos, evitando almacenar directamente las contraseñas originales."
+    },
+    {
+      "pregunta": "Una empresa implementa data masking para proteger información de identificación personal (PII) en un entorno que no es de producción. ¿Cuál es el objetivo principal del data masking?",
+      "opciones": [
+        "Garantizar la integridad de los datos",
+        "Proteger la confidencialidad de los datos",
+        "Mejorar la disponibilidad de los datos",
+        "Facilitar el archivado de datos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El data masking oculta los valores sensibles para reducir la exposición de PII y preservar la confidencialidad en entornos no productivos."
+    },
+    {
+      "pregunta": "Un administrador de bases de datos quiere proteger las contraseñas almacenadas frente al acceso no autorizado. Además del hashing, ¿qué técnica adicional debería implementar?",
+      "opciones": ["Encryption", "Salting", "Data masking", "Geo-fencing"],
+      "respuesta": 1,
+      "explicacion": "El salting añade un valor aleatorio único antes del hashing, dificultando ataques mediante tablas precalculadas como rainbow tables."
+    },
+    {
+      "pregunta": "Una organización mantiene un centro de datos legacy on-premises. Para garantizar la disponibilidad de los servidores físicos durante un fallo de la red eléctrica, instala un sistema que proporciona energía casi instantánea mediante baterías hasta que arranca un generador diésel. ¿Qué se está describiendo?",
+      "opciones": ["PDU", "UPS", "Managed Switch", "Air-gapping"],
+      "respuesta": 1,
+      "explicacion": "Una UPS proporciona alimentación mediante baterías de forma inmediata durante un corte eléctrico hasta que se restaura la energía o entra en funcionamiento un generador."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de un security token en un sistema de multi-factor authentication (MFA)?",
+      "opciones": [
+        "Servir como llave física para desbloquear cuentas de usuario",
+        "Proporcionar un segundo factor de autenticación",
+        "Cifrar la comunicación entre servidores y clientes",
+        "Generar contraseñas aleatorias seguras para el acceso de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un security token proporciona un factor de autenticación adicional al conocimiento de una contraseña."
+    },
+    {
+      "pregunta": "Eres desarrollador de una aplicación web que procesa entradas de usuarios y las almacena en una base de datos. ¿Cómo debes proteger la aplicación frente a ataques de SQL injection?",
+      "opciones": [
+        "Utilizar consultas parametrizadas o prepared statements.",
+        "Implementar validación únicamente en el cliente.",
+        "Ofuscar el esquema de la base de datos.",
+        "Deshabilitar los mensajes de error."
+      ],
+      "respuesta": 0,
+      "explicacion": "Las consultas parametrizadas y los prepared statements separan los datos introducidos por el usuario del código SQL ejecutable, evitando la inyección."
+    },
+    {
+      "pregunta": "Un desarrollador trabaja en una aplicación web con autenticación de usuarios y quiere proteger las cuentas frente a ataques de fuerza bruta. ¿Cuál es la práctica recomendada?",
+      "opciones": [
+        "Implementar bloqueo de cuenta después de un determinado número de intentos fallidos.",
+        "Aplicar hashing a las contraseñas con un salt único.",
+        "Aumentar el tiempo de expiración de las sesiones.",
+        "Utilizar un CAPTCHA simple en cada intento de inicio de sesión."
+      ],
+      "respuesta": 0,
+      "explicacion": "El bloqueo temporal tras varios intentos fallidos dificulta los ataques automatizados de fuerza bruta contra una cuenta."
+    },
+    {
+      "pregunta": "¿Cómo contribuye un proxy server a proteger una red interna frente a amenazas externas?",
+      "opciones": [
+        "Cifrando todas las comunicaciones internas",
+        "Actuando como barrera entre las redes internas y externas",
+        "Aislando completamente los servidores internos de Internet",
+        "Supervisando aplicaciones internas críticas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un proxy actúa como intermediario entre clientes internos y sistemas externos, permitiendo controlar e inspeccionar el tráfico."
+    },
+    {
+      "pregunta": "¿Cómo aborda Secure Access Service Edge (SASE) los problemas de las arquitecturas de red tradicionales para usuarios remotos?",
+      "opciones": [
+        "Centralizando todo el tráfico de red",
+        "Implementando concentradores VPN",
+        "Integrando servicios de seguridad en la nube",
+        "Desplegando firewalls dedicados on-premises"
+      ],
+      "respuesta": 2,
+      "explicacion": "SASE integra funciones de red y seguridad en servicios cloud distribuidos, facilitando la protección de usuarios remotos."
+    },
+    {
+      "pregunta": "¿Cuál es un beneficio clave de implementar Secure Access Service Edge (SASE) para organizaciones con una plantilla distribuida?",
+      "opciones": [
+        "Mayor dependencia de dispositivos de seguridad on-premises",
+        "Mejora garantizada de la latencia de red para todos los usuarios remotos",
+        "Mayor visibilidad y control sobre el tráfico de red",
+        "Eliminación de la necesidad de medidas de seguridad en endpoints"
+      ],
+      "respuesta": 2,
+      "explicacion": "SASE centraliza políticas y servicios de seguridad en la nube, mejorando la visibilidad y el control del tráfico de usuarios distribuidos."
+    },
+    {
+      "pregunta": "¿Cuál es una ventaja clave de utilizar Software-Defined Wide Area Network (SD-WAN) en una organización con varias sucursales?",
+      "opciones": [
+        "Mayor dependencia de líneas dedicadas",
+        "Menor latencia garantizada para todas las sucursales",
+        "Gestión y control centralizados",
+        "Eliminación de la necesidad de cifrado"
+      ],
+      "respuesta": 2,
+      "explicacion": "SD-WAN permite administrar de forma centralizada políticas y conectividad en múltiples ubicaciones."
+    },
+    {
+      "pregunta": "¿Qué tipo de firewall opera en la capa de transporte del modelo OSI y puede filtrar tráfico según direcciones IP de origen y destino, así como números de puerto?",
+      "opciones": [
+        "Packet-filtering firewall",
+        "Stateful inspection firewall",
+        "Proxy firewall",
+        "Application-layer firewall"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un stateful inspection firewall mantiene información sobre el estado de las conexiones y utiliza direcciones y puertos para tomar decisiones de filtrado."
+    },
+    {
+      "pregunta": "¿Qué tipo de firewall oculta la estructura y las direcciones IP de la red interna frente a redes externas al reenviar solicitudes en nombre de los clientes y devolverles las respuestas?",
+      "opciones": [
+        "Packet-filtering firewall",
+        "Stateful inspection firewall",
+        "Proxy firewall",
+        "Application-layer firewall"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un proxy firewall actúa como intermediario y evita que los sistemas externos se comuniquen directamente con los clientes internos."
+    },
+    {
+      "pregunta": "¿Cuál es un posible desafío o limitación asociado al uso de un Web Application Firewall (WAF) en una arquitectura segura?",
+      "opciones": [
+        "Dificultad o incapacidad para inspeccionar tráfico cifrado sin descifrado TLS",
+        "Dependencia excesiva de la seguridad de capa de red",
+        "Protección limitada frente a ataques físicos",
+        "Falta de compatibilidad con aplicaciones cloud"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un WAF necesita poder inspeccionar el contenido de las comunicaciones; el tráfico cifrado que no se termina o descifra en el punto adecuado limita esa inspección."
+    },
+    {
+      "pregunta": "En una empresa completamente remota, los empleados utilizan una VPN para conectarse de forma segura a la red corporativa. ¿Qué protocolo de túnel se utiliza habitualmente para crear un túnel seguro a través de Internet?",
+      "opciones": [
+        "IPsec (Internet Protocol Security)",
+        "SSL/TLS (Secure Sockets Layer/Transport Layer Security)",
+        "PPTP (Point-to-Point Tunneling Protocol)",
+        "L2TP (Layer 2 Tunneling Protocol)"
+      ],
+      "respuesta": 0,
+      "explicacion": "IPsec se utiliza ampliamente para crear túneles VPN protegidos mediante cifrado, integridad y autenticación."
+    },
+    {
+      "pregunta": "¿Qué mecanismo de seguridad se utiliza habitualmente para proteger secretos comerciales durante su transmisión por una red?",
+      "opciones": [
+        "Firmas digitales",
+        "Transport Layer Security (TLS)",
+        "Cifrado a nivel de archivo",
+        "Virtual Local Area Network (VLAN)"
+      ],
+      "respuesta": 1,
+      "explicacion": "TLS protege los datos en tránsito mediante cifrado y mecanismos de integridad."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos criptográficos se utiliza habitualmente para proteger comunicaciones de correo electrónico mediante cifrado y firmas digitales?",
+      "opciones": ["AES", "RSA", "DES", "SHA-256"],
+      "respuesta": 1,
+      "explicacion": "RSA puede utilizarse en sistemas de correo seguro para cifrado de claves y firmas digitales."
+    },
+    {
+      "pregunta": "En una agencia gubernamental, determinados documentos contienen información crítica para la seguridad nacional. ¿Qué etiqueta de sensibilidad es la más apropiada según las opciones disponibles?",
+      "opciones": ["Confidential", "Public", "Restricted", "Critical"],
+      "respuesta": 3,
+      "explicacion": "Según la clasificación propuesta en el test, Critical representa el nivel de sensibilidad más apropiado para información crítica de seguridad nacional."
+    },
+    {
+      "pregunta": "En un despacho jurídico existe un documento con detalles de casos de clientes y estrategias legales confidenciales. El acceso debe limitarse al equipo jurídico que trabaja en esos casos. ¿Qué etiqueta de clasificación es la más apropiada?",
+      "opciones": ["Private", "Confidential", "Sensitive", "Public"],
+      "respuesta": 1,
+      "explicacion": "Confidential refleja que la información debe estar limitada a personas específicamente autorizadas."
+    },
+    {
+      "pregunta": "Un departamento de TI está planificando la recuperación ante desastres y la continuidad del negocio. La empresa requiere un tiempo de inactividad mínimo y puede asumir el coste de un tiempo de recuperación muy corto. ¿Qué tipo de sitio es el más apropiado?",
+      "opciones": ["Hot site", "Warm site", "Cold site", "Backups off-site"],
+      "respuesta": 0,
+      "explicacion": "Un hot site dispone de infraestructura preparada y actualizada para restaurar las operaciones con un tiempo de recuperación mínimo."
+    },
+    {
+      "pregunta": "Una institución de investigación tiene datos sensibles que necesitan protección, pero dispone de un presupuesto limitado y puede tolerar cierto tiempo de inactividad tras un desastre. ¿Qué tipo de sitio es el más apropiado?",
+      "opciones": [
+        "Hot site",
+        "Warm site",
+        "Cold site",
+        "Almacenamiento cloud"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un cold site tiene un coste menor y requiere más tiempo para ponerse en funcionamiento, por lo que es adecuado cuando se puede tolerar cierto downtime."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de una prueba de failover en un sistema de alta disponibilidad?",
+      "opciones": [
+        "Identificar vulnerabilidades de la infraestructura de red",
+        "Simular el cambio a sistemas de respaldo cuando falla el sistema principal",
+        "Realizar pruebas de carga sobre el sistema principal",
+        "Recuperar datos desde backups"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una prueba de failover comprueba que los sistemas secundarios pueden asumir las operaciones cuando falla el sistema principal."
+    },
+    {
+      "pregunta": "En un escenario de recuperación ante desastres, ¿cómo contribuyen los snapshots de backup al proceso de restauración?",
+      "opciones": [
+        "Proporcionando una copia de los datos de un punto concreto en el tiempo para una recuperación rápida",
+        "Comprimiendo los datos de backup para almacenarlos de forma eficiente",
+        "Replicando los datos entre múltiples sitios en tiempo real",
+        "Cifrando los archivos de backup para evitar accesos no autorizados"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un snapshot captura el estado de los datos en un momento determinado y permite restaurarlos rápidamente a ese estado."
+    },
+    {
+      "pregunta": "¿Qué medida de seguridad está diseñada específicamente para proteger cintas de backup durante su transporte?",
+      "opciones": [
+        "Data deduplication",
+        "Disk encryption",
+        "Tape encryption",
+        "File-level encryption"
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado de las cintas protege su contenido si el soporte físico se pierde o es robado durante el transporte."
+    },
+    {
+      "pregunta": "¿Qué técnica criptográfica se utiliza habitualmente para proteger datos en tránsito durante operaciones de backup?",
+      "opciones": [
+        "Hashing",
+        "Cifrado simétrico",
+        "Cifrado asimétrico",
+        "Steganography"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado simétrico es eficiente para proteger grandes cantidades de datos transmitidos durante operaciones de backup."
+    },
+    {
+      "pregunta": "Al diseñar una estrategia de backup y recuperación, ¿cuál es el propósito de utilizar ubicaciones de almacenamiento geográficamente diversas?",
+      "opciones": [
+        "Reducir los costes de almacenamiento",
+        "Mejorar la velocidad de los backups",
+        "Mejorar la resiliencia y disponibilidad de los datos",
+        "Simplificar las tareas administrativas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las copias almacenadas en regiones distintas reducen el impacto de desastres locales o regionales sobre la capacidad de recuperación."
+    },
+    {
+      "pregunta": "Un sitio de comercio electrónico experimenta problemas de rendimiento durante las horas punta. ¿Qué solución sería más eficaz para distribuir las solicitudes entrantes y optimizar el uso de recursos?",
+      "opciones": [
+        "Load Balancing",
+        "Clustering",
+        "Load Balancing y Clustering",
+        "Content Delivery Network (CDN)"
+      ],
+      "respuesta": 0,
+      "explicacion": "El load balancing distribuye las solicitudes entre varios servidores para evitar sobrecargas y aprovechar mejor los recursos disponibles."
+    },
+    {
+      "pregunta": "El servidor de base de datos crítico de una empresa necesita mantener alta disponibilidad y tolerancia a fallos. ¿Qué solución se recomienda?",
+      "opciones": [
+        "Load Balancing",
+        "Database Clustering",
+        "Load Balancing y Database Clustering",
+        "RAID (Redundant Array of Independent Disks)"
+      ],
+      "respuesta": 1,
+      "explicacion": "El clustering de bases de datos permite que otro nodo continúe prestando servicio si uno de los servidores falla."
+    },
+    {
+      "pregunta": "Una institución financiera quiere garantizar alta disponibilidad para sus aplicaciones y datos críticos mediante varios proveedores cloud. ¿Qué beneficio clave busca con un enfoque multi-cloud?",
+      "opciones": [
+        "Enhanced Security",
+        "Geographic Redundancy",
+        "Regulatory Compliance",
+        "Centralized Management"
+      ],
+      "respuesta": 1,
+      "explicacion": "El uso de varios proveedores y regiones proporciona redundancia geográfica y reduce el riesgo de depender de un único punto de fallo."
+    },
+    {
+      "pregunta": "En un centro de datos, ¿por qué es crucial disponer de un generador como parte de la infraestructura eléctrica?",
+      "opciones": [
+        "Para reducir la factura eléctrica",
+        "Para proporcionar energía temporal durante cortes eléctricos",
+        "Para mejorar la velocidad de la red",
+        "Para mejorar la eficiencia del sistema de refrigeración"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un generador proporciona energía de respaldo durante cortes prolongados para mantener los sistemas críticos en funcionamiento."
+    },
+    {
+      "pregunta": "Una organización quiere identificar y responder a actividades sospechosas en la red en tiempo real. ¿Qué control de seguridad debería implementar según el escenario?",
+      "opciones": [
+        "Intrusion Detection System (IDS)",
+        "Intrusion Prevention System (IPS)",
+        "Two-factor authentication (2FA)",
+        "Antivirus Software"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un IDS supervisa el tráfico y detecta actividades potencialmente maliciosas, generando alertas para que el equipo pueda responder."
+    },
+    {
+      "pregunta": "Una organización está implementando una solución de alta disponibilidad para aplicaciones críticas. ¿Qué factor debería ser prioritario para garantizar la disponibilidad continua?",
+      "opciones": [
+        "Fuentes de alimentación redundantes",
+        "Autenticación biométrica",
+        "Formación periódica de seguridad para empleados",
+        "Cifrado de los archivos almacenados"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las fuentes de alimentación redundantes reducen el riesgo de que un fallo eléctrico individual interrumpa los sistemas."
+    },
+    {
+      "pregunta": "Una organización está migrando su infraestructura a un cloud service provider (CSP) y necesita definir el modelo de responsabilidad compartida. ¿Cuál de las siguientes responsabilidades corresponde normalmente al proveedor cloud?",
+      "opciones": [
+        "Configurar los ajustes de seguridad de red del cliente",
+        "Gestionar el acceso y las identidades de los usuarios del cliente",
+        "La seguridad física de los centros de datos",
+        "Garantizar el cumplimiento de las políticas internas del cliente"
+      ],
+      "respuesta": 2,
+      "explicacion": "El proveedor cloud es normalmente responsable de la seguridad física de la infraestructura y los centros de datos que opera."
+    },
+    {
+      "pregunta": "Una organización ha desplegado una aplicación serverless que procesa transacciones de clientes. El equipo de seguridad está preocupado por ataques de event injection que podrían comprometer la integridad de la aplicación. ¿Qué acción debería realizar?",
+      "opciones": [
+        "Implementar validación y sanitización de entradas en las funciones serverless",
+        "Desplegar un Web Application Firewall (WAF) en la infraestructura del proveedor cloud",
+        "Configurar un firewall de red para restringir el acceso a las funciones serverless",
+        "Utilizar multi-factor authentication para todos los usuarios de la aplicación"
+      ],
+      "respuesta": 0,
+      "explicacion": "La validación y sanitización de entradas impiden que datos maliciosos sean interpretados o procesados de forma insegura por las funciones serverless."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe MEJOR el propósito de la data obfuscation en una arquitectura de seguridad?",
+      "opciones": [
+        "Evitar la eliminación no autorizada de datos",
+        "Hacer que los datos resulten ininteligibles para usuarios no autorizados",
+        "Garantizar que los datos estén siempre disponibles durante interrupciones",
+        "Restringir el acceso según los roles de los usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "La ofuscación utiliza técnicas como masking, tokenización o anonimización para ocultar información sensible a usuarios no autorizados."
+    },
+    {
+      "pregunta": "Para mejorar la resiliencia, una organización migra su infraestructura desde sistemas on-premises a un entorno multi-cloud. ¿Qué consideración es más importante al diseñar una arquitectura multi-cloud resiliente?",
+      "opciones": [
+        "Garantizar que todos los proveedores cloud ofrezcan exactamente los mismos servicios",
+        "Implementar controles de seguridad coherentes entre los distintos proveedores cloud",
+        "Elegir proveedores cloud únicamente por su coste",
+        "Mantener un único punto de contacto para todos los problemas relacionados con cloud"
+      ],
+      "respuesta": 1,
+      "explicacion": "Aplicar controles coherentes entre proveedores permite mantener una postura de seguridad uniforme y reduce riesgos derivados de configuraciones inconsistentes."
+    },
+    {
+      "pregunta": "Una empresa implementa una red inalámbrica que debe admitir varios métodos de autenticación, incluidos certificados para dispositivos corporativos y usuario/contraseña para invitados. ¿Qué protocolo satisface mejor estos requisitos?",
+      "opciones": ["EAP", "PPP", "SSL", "DHCP"],
+      "respuesta": 0,
+      "explicacion": "EAP es un framework de autenticación flexible que admite múltiples métodos, incluidos certificados y credenciales de usuario."
+    },
+    {
+      "pregunta": "Una empresa quiere una solución que pueda filtrar contenido web, supervisar la actividad de los usuarios y aplicar políticas de uso aceptable. ¿Cuál sería la solución más apropiada?",
+      "opciones": ["Firewall", "Proxy server", "VPN", "IDS/IPS"],
+      "respuesta": 1,
+      "explicacion": "Un proxy server puede controlar las solicitudes web, filtrar contenido, registrar actividad y aplicar políticas de navegación."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar actualizaciones continuas de sus medidas de seguridad frente a nuevas vulnerabilidades y amenazas. ¿Qué característica de una Unified Threat Management (UTM) debería enfatizarse?",
+      "opciones": [
+        "Content filtering",
+        "Signature-based detection",
+        "Geolocation blocking",
+        "Application control"
+      ],
+      "respuesta": 1,
+      "explicacion": "La detección basada en firmas depende de actualizaciones periódicas de firmas para reconocer amenazas recientemente identificadas."
+    },
+    {
+      "pregunta": "Tras un ataque de ransomware, una empresa intenta restaurar sus operaciones desde backup y descubre que los archivos de backup también están cifrados porque se almacenaban en un recurso compartido accesible desde los sistemas infectados. ¿Qué estrategia habría evitado mejor este resultado?",
+      "opciones": [
+        "Aumentar la frecuencia de los backups",
+        "Utilizar backups incrementales en lugar de completos",
+        "Almacenar los backups offsite y offline",
+        "Habilitar el cifrado de los backups"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los backups offline no son accesibles desde los sistemas comprometidos, por lo que el ransomware no puede alcanzarlos; el almacenamiento offsite también aporta separación geográfica."
+    },
+    {
+      "pregunta": "Una empresa prepara una prueba de simulación basada en un ataque de ransomware. ¿Cuál sería el componente más crítico que debería evaluar?",
+      "opciones": [
+        "La velocidad con la que el equipo de respuesta puede desplegar parches",
+        "La capacidad de los empleados para identificar señales de ransomware",
+        "La eficacia de los procedimientos de backup y recuperación",
+        "La precisión de las tasas de detección del software antivirus"
+      ],
+      "respuesta": 2,
+      "explicacion": "La capacidad de recuperar correctamente los datos y sistemas desde backups es fundamental para limitar el impacto operativo de un ataque de ransomware."
+    },
+    {
+      "pregunta": "¿Cuál es una posible desventaja de depender exclusivamente de un hot site para la recuperación ante desastres?",
+      "opciones": [
+        "Recuperación de datos retrasada debido a una infraestructura mínima",
+        "Costes elevados asociados al mantenimiento de una preparación constante",
+        "Ausencia de capacidades de backup en tiempo real",
+        "Medidas de seguridad limitadas para datos críticos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Mantener un hot site completamente preparado y actualizado implica costes de infraestructura y operación elevados."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes escenarios requiere MÁS claramente un certificado SSL/TLS válido?",
+      "opciones": [
+        "Cifrar datos en reposo en una base de datos",
+        "Proteger correo electrónico almacenado en un cliente local",
+        "Alojar un sitio web de comercio electrónico accesible públicamente",
+        "Instalar software antivirus en endpoints"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un sitio web público de comercio electrónico debe utilizar HTTPS con un certificado TLS válido para cifrar y autenticar las comunicaciones con los usuarios."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe MEJOR el propósito de un Trusted Platform Module (TPM)?",
+      "opciones": [
+        "Detectar accesos de red no autorizados",
+        "Almacenar claves criptográficas en un entorno protegido por hardware",
+        "Acelerar el rendimiento de firewalls basados en software",
+        "Verificar exclusivamente la integridad del proceso de arranque"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un TPM proporciona almacenamiento y operaciones criptográficas protegidas por hardware para claves, certificados y mediciones de integridad."
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado sería MÁS apropiado para proteger únicamente la unidad D: en un sistema con varias unidades lógicas?",
+      "opciones": [
+        "Full-disk encryption",
+        "Partition encryption",
+        "File-level encryption",
+        "Email encryption"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado de particiones permite proteger una unidad lógica concreta sin cifrar todo el disco."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes medidas mitiga MEJOR el riesgo de utilizar sistemas que no pueden parchearse?",
+      "opciones": [
+        "Sustituir el sistema por hardware más reciente",
+        "Eliminar todas las cuentas de usuario del sistema",
+        "Segmentar el sistema del resto de la red",
+        "Aumentar la frecuencia de parcheo del resto de sistemas"
+      ],
+      "respuesta": 2,
+      "explicacion": "La segmentación limita la exposición del sistema vulnerable y dificulta que un atacante se mueva lateralmente desde o hacia él."
+    },
+    {
+      "pregunta": "Una organización configura su sistema de backup para restaurar automáticamente un servidor virtual a un estado utilizable en un plazo máximo de una hora tras un fallo. ¿Qué se está priorizando?",
+      "opciones": [
+        "Recovery Time Objective (RTO)",
+        "Recovery Point Objective (RPO)",
+        "Retention policy",
+        "Data integrity"
+      ],
+      "respuesta": 0,
+      "explicacion": "El RTO define el tiempo máximo objetivo necesario para restaurar un servicio después de una interrupción."
+    },
+    {
+      "pregunta": "Un firewall está configurado para bloquear todo el tráfico si deja de funcionar correctamente. ¿Cómo se denomina este comportamiento?",
+      "opciones": ["Fail-open", "Fail-over", "Fail-closed", "Fail-passive"],
+      "respuesta": 2,
+      "explicacion": "En un diseño fail-closed, el dispositivo bloquea el acceso cuando falla para evitar que el tráfico pase sin controles de seguridad."
+    },
+    {
+      "pregunta": "Un analista de seguridad observa un único evento «Failed Login» en un servidor web. Cinco minutos después aparece «Account Locked Out» en el Domain Controller y diez minutos más tarde «Large Data Transfer» en el firewall. Por separado pueden parecer eventos normales, pero juntos indican un ataque. ¿Qué herramienta es la MÁS adecuada para relacionarlos?",
+      "opciones": [
+        "SNMPv3",
+        "SIEM",
+        "Vulnerability Scanner",
+        "Protocol Analyzer"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un SIEM recopila eventos de múltiples fuentes y utiliza correlación para identificar patrones relacionados que pueden formar parte del mismo incidente."
+    },
+    {
+      "pregunta": "Una empresa migra una aplicación interna de IaaS a SaaS. ¿Qué responsabilidad es MÁS probable que pase del cliente al proveedor después de la migración?",
+      "opciones": [
+        "Clasificar la sensibilidad de los datos empresariales",
+        "Revisar los permisos de acceso de los empleados",
+        "Aplicar parches a la aplicación y al sistema operativo subyacente",
+        "Definir los requisitos de retención de registros"
+      ],
+      "respuesta": 2,
+      "explicacion": "En SaaS, el proveedor suele gestionar la aplicación y el sistema operativo subyacente, incluido su mantenimiento y parcheado."
+    },
+    {
+      "pregunta": "Una empresa quiere poder revertir rápidamente una máquina virtual a un estado anterior conocido como correcto después de una actualización fallida. ¿Qué función de virtualización lo permite MEJOR?",
+      "opciones": [
+        "VM cloning",
+        "Snapshots",
+        "Container orchestration",
+        "Load balancing"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los snapshots capturan el estado de una máquina virtual en un momento determinado y permiten volver rápidamente a ese estado."
+    },
+    {
+      "pregunta": "El portal de clientes de una empresa debe seguir disponible si falla un servidor web. El arquitecto propone dos servidores: uno procesa todo el tráfico y el segundo permanece en espera y solo toma el control si falla el principal. ¿Qué diseño se está describiendo?",
+      "opciones": [
+        "Active-active",
+        "Active-passive",
+        "Round-robin load balancing",
+        "Fault tolerance"
+      ],
+      "respuesta": 1,
+      "explicacion": "En active-passive, un sistema atiende la carga de producción y el segundo permanece en standby hasta que se produce un failover."
+    },
+    {
+      "pregunta": "Al aplicar el principio de security through obscurity, ¿qué práctica debería evitarse?",
+      "opciones": [
+        "Utilizar buenas prácticas de seguridad ampliamente conocidas",
+        "Mantener confidenciales determinados mecanismos de seguridad",
+        "Utilizar configuraciones predeterminadas en sistemas críticos",
+        "Actualizar y parchear regularmente los sistemas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las configuraciones predeterminadas son ampliamente conocidas y pueden facilitar ataques; los sistemas críticos deben endurecerse y configurarse específicamente."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes métodos de cifrado protege todo el dispositivo de almacenamiento, incluidos el sistema operativo y los archivos temporales?",
+      "opciones": [
+        "File-level encryption",
+        "Partition encryption",
+        "Full-disk encryption",
+        "Database encryption"
+      ],
+      "respuesta": 2,
+      "explicacion": "Full-disk encryption cifra el contenido completo del dispositivo, incluidos archivos del sistema operativo, swap y datos temporales."
+    },
+    {
+      "pregunta": "En una red corporativa, ¿por qué podría implementarse un Jump Server en la DMZ?",
+      "opciones": [
+        "Para facilitar la administración remota segura de servidores internos",
+        "Para alojar el sitio web público de la organización",
+        "Para mejorar el load balancing de los equipos de los empleados",
+        "Para mejorar el filtrado de correo electrónico de toda la red"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un Jump Server proporciona un punto de acceso administrativo controlado desde el que los administradores pueden acceder posteriormente a sistemas internos."
+    },
+    {
+      "pregunta": "Una organización sanitaria debe conservar los historiales de los pacientes durante siete años para cumplir requisitos regulatorios. Sin embargo, su sistema de backup elimina automáticamente las copias con más de 12 meses. ¿Qué concepto de backup está incumpliendo?",
+      "opciones": [
+        "RTO",
+        "Retention policy",
+        "Snapshot frequency",
+        "Data masking"
+      ],
+      "respuesta": 1,
+      "explicacion": "La retention policy determina durante cuánto tiempo deben conservarse las copias para satisfacer requisitos legales, regulatorios o empresariales."
+    },
+    {
+      "pregunta": "Una empresa quiere minimizar el uso de almacenamiento y mantener restauraciones relativamente rápidas. Realiza un backup completo cada semana y después copias que contienen todos los cambios producidos desde el último backup completo. ¿Qué tipo de backup utiliza?",
+      "opciones": [
+        "Incremental",
+        "Differential",
+        "Continuous replication",
+        "Snapshot"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un backup diferencial almacena todos los cambios realizados desde el último backup completo."
+    },
+    {
+      "pregunta": "Un desarrollador quiere desplegar su aplicación en distintos entornos, Development, Testing y Production, sin preocuparse por diferencias en el sistema operativo subyacente o las versiones de las librerías. Empaqueta la aplicación y todas sus dependencias en una única unidad ligera. ¿Qué tecnología utiliza?",
+      "opciones": ["Virtual Machines", "Containers", "Bare metal", "RAID 10"],
+      "respuesta": 1,
+      "explicacion": "Los contenedores empaquetan la aplicación y sus dependencias en una unidad portable, facilitando un comportamiento consistente entre entornos."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad está diseñando un clúster web de alta disponibilidad. ¿Qué elemento debe colocarse delante de los servidores web para distribuir el tráfico entrante y redirigir automáticamente a los usuarios hacia un servidor saludable si uno falla?",
+      "opciones": ["Forward Proxy", "Load Balancer", "Jump Server", "HSM"],
+      "respuesta": 1,
+      "explicacion": "Un load balancer distribuye las solicitudes entre servidores disponibles y puede dejar de enviar tráfico a nodos que fallen las comprobaciones de salud."
+    },
+    {
+      "pregunta": "Una empresa quiere impedir que los atacantes se desplacen lateralmente entre sistemas internos si una estación de trabajo resulta comprometida. ¿Qué principio arquitectónico lo permite mejor?",
+      "opciones": [
+        "High availability",
+        "Network segmentation",
+        "Load balancing",
+        "DNS filtering"
+      ],
+      "respuesta": 1,
+      "explicacion": "La segmentación divide la red en zonas aisladas y limita las rutas disponibles para el movimiento lateral de un atacante."
+    },
+    {
+      "pregunta": "Una empresa migra una aplicación interna a una plataforma cloud donde el proveedor administra el sistema operativo, el runtime y el middleware, mientras que el cliente sigue gestionando el código de la aplicación y sus datos. ¿Qué modelo cloud utiliza?",
+      "opciones": ["SaaS", "PaaS", "IaaS", "FaaS"],
+      "respuesta": 1,
+      "explicacion": "En PaaS, el proveedor gestiona la plataforma subyacente mientras el cliente administra el código de su aplicación y los datos."
+    },
+    {
+      "pregunta": "Para proteger un centro de datos frente a un corte eléctrico regional que podría durar varios días, el responsable instala una solución que convierte combustible en energía eléctrica una vez agotadas las baterías de respaldo. ¿Qué solución es?",
+      "opciones": ["UPS", "Dual Supply", "Managed PDU", "Generator"],
+      "respuesta": 3,
+      "explicacion": "Un generador utiliza combustible para proporcionar electricidad durante cortes prolongados una vez que la UPS cubre la interrupción inicial."
+    },
+    {
+      "pregunta": "Una empresa sufre un fallo de servidor y cambia automáticamente sus operaciones a un sistema de respaldo. Tras completar las reparaciones, devuelve las operaciones al servidor principal original. ¿Cómo se denomina este proceso?",
+      "opciones": ["Failback", "Failover", "Tokenization", "Load balancing"],
+      "respuesta": 0,
+      "explicacion": "Failback es el proceso de devolver las operaciones desde el sistema secundario al sistema principal una vez que este ha sido restaurado."
+    },
+    {
+      "pregunta": "Un equipo de seguridad necesita proteger identificadores sensibles de forma que los valores originales no puedan recuperarse nunca, ni siquiera por los administradores. ¿Qué método cumple este requisito?",
+      "opciones": ["Tokenization", "Hashing", "Obfuscation", "Encryption"],
+      "respuesta": 1,
+      "explicacion": "El hashing es una transformación unidireccional diseñada para no permitir recuperar directamente el valor original."
+    },
+    {
+      "pregunta": "Un analista de un SOC necesita consultar los logs de seguridad, pero no debe poder eliminarlos ni modificarlos. ¿Qué restricción de permisos debe aplicarse?",
+      "opciones": ["Write-only", "Read-only", "Execute-only", "Full control"],
+      "respuesta": 1,
+      "explicacion": "El permiso read-only permite consultar los logs sin alterarlos ni eliminarlos, preservando su integridad."
+    }
+  ]
+}

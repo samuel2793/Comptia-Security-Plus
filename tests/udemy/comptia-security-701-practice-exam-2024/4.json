@@ -1,0 +1,952 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Cuarto Test",
+  "procedencia": "CompTIA Security Plus 701 Practice Exam Questions (2026) | Cyber Learning",
+  "descripcion": "Cuarto test de práctica de CompTIA Security+ SY0-701, traducido al español y adaptado al formato de la web de tests.",
+  "preguntas": [
+    {
+      "pregunta": "¿Por qué es importante revisar y actualizar periódicamente las líneas base seguras en respuesta a la evolución de las amenazas de ciberseguridad?",
+      "opciones": [
+        "Para aumentar el rendimiento del sistema",
+        "Para cumplir con la normativa",
+        "Para adaptarse a un panorama de amenazas cambiante",
+        "Para reducir la necesidad de formación en seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Revisar y actualizar las líneas base permite adaptar las configuraciones de seguridad a amenazas nuevas y cambiantes, manteniendo la resiliencia de los sistemas."
+    },
+    {
+      "pregunta": "¿Cómo pueden las líneas base seguras facilitar una respuesta rápida y coherente en múltiples sistemas?",
+      "opciones": [
+        "Deshabilitando todas las conexiones de red",
+        "Restaurando los sistemas desde una copia de seguridad anterior",
+        "Proporcionando una configuración de seguridad predefinida",
+        "Actualizando el software antivirus en todos los sistemas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las líneas base seguras proporcionan configuraciones predefinidas que pueden aplicarse de forma uniforme a múltiples sistemas para mitigar rápidamente una vulnerabilidad."
+    },
+    {
+      "pregunta": "En un entorno cloud donde se despliegan múltiples máquinas virtuales (VM), ¿qué medida de seguridad se recomienda como parte del hardening de la infraestructura virtualizada?",
+      "opciones": [
+        "Deshabilitar toda la monitorización y el registro para reducir el consumo de recursos",
+        "Aplicar credenciales robustas y únicas para cada VM",
+        "Implementar grupos de seguridad de red y controles de acceso",
+        "Actualizar periódicamente el software de virtualización para mejorar la estabilidad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los grupos de seguridad de red y los controles de acceso restringen el tráfico entrante y saliente y limitan el acceso a las VM."
+    },
+    {
+      "pregunta": "¿Cómo pueden aplicarse los mapas de calor para identificar posibles áreas de vulnerabilidad en una infraestructura de red?",
+      "opciones": [
+        "Mapeando las ubicaciones físicas de los dispositivos de red",
+        "Visualizando patrones de autenticación de usuarios",
+        "Rastreando la frecuencia de las actualizaciones de software",
+        "Analizando la temperatura de las salas de servidores"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los mapas de calor pueden resaltar patrones de autenticación anómalos, como múltiples intentos fallidos o accesos inusuales."
+    },
+    {
+      "pregunta": "Una empresa está implementando una red Wi-Fi para invitados. ¿Qué configuración de seguridad inalámbrica debe utilizarse para aislar los dispositivos de invitados de la red corporativa interna?",
+      "opciones": [
+        "Filtrado MAC",
+        "WPA3-Enterprise",
+        "WPA2-PSK",
+        "Segregación mediante VLAN"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una VLAN separada crea un segmento lógico distinto para la red de invitados y evita que comparta el mismo dominio de red que la infraestructura interna."
+    },
+    {
+      "pregunta": "Una empresa quiere mejorar la seguridad de su red Wi-Fi evitando accesos no autorizados sin depender únicamente de contraseñas. ¿Qué configuración debería aplicar?",
+      "opciones": [
+        "Deshabilitar la difusión del SSID",
+        "Habilitar WPA3",
+        "Implementar autenticación biométrica",
+        "Habilitar el filtrado de direcciones MAC"
+      ],
+      "respuesta": 3,
+      "explicacion": "El filtrado MAC añade una capa adicional de control al permitir únicamente dispositivos con direcciones MAC autorizadas."
+    },
+    {
+      "pregunta": "Los administradores de red están preocupados por la escucha de tráfico Wi-Fi y el acceso no autorizado. ¿Qué configuración debe aplicarse para cifrar el tráfico inalámbrico y protegerlo frente a estas amenazas?",
+      "opciones": [
+        "Habilitar WPS (Wi-Fi Protected Setup)",
+        "Usar cifrado WEP",
+        "Implementar WPA2-Enterprise",
+        "Habilitar WPA3-PSK"
+      ],
+      "respuesta": 2,
+      "explicacion": "WPA2-Enterprise proporciona cifrado robusto y autenticación centralizada para proteger el tráfico inalámbrico."
+    },
+    {
+      "pregunta": "Una entidad financiera está implementando una plataforma segura de banca online. ¿Qué protocolo criptográfico debe utilizar para proteger la comunicación entre el navegador del cliente y el servidor bancario?",
+      "opciones": ["AES", "TLS", "RSA", "HMAC"],
+      "respuesta": 1,
+      "explicacion": "TLS protege las comunicaciones web proporcionando confidencialidad e integridad de los datos intercambiados entre navegador y servidor."
+    },
+    {
+      "pregunta": "Una empresa desarrolla un sistema seguro de transferencia de archivos y le preocupa la interceptación de datos en tránsito. ¿Cuál es el mayor riesgo asociado y cómo puede mitigarse?",
+      "opciones": [
+        "Riesgo: acceso no autorizado; Mitigación: implementar cifrado de extremo a extremo",
+        "Riesgo: corrupción de datos; Mitigación: realizar copias de seguridad periódicas",
+        "Riesgo: compromiso de contraseñas; Mitigación: usar autenticación de dos factores",
+        "Riesgo: congestión de red; Mitigación: usar balanceo de carga"
+      ],
+      "respuesta": 0,
+      "explicacion": "La interceptación puede exponer los datos a terceros no autorizados; el cifrado de extremo a extremo impide que puedan leerlos sin las claves adecuadas."
+    },
+    {
+      "pregunta": "Una empresa está implementando acceso remoto seguro y necesita una solución centralizada de autenticación y autorización. ¿Cuál es el mejor caso de uso de RADIUS?",
+      "opciones": [
+        "Cifrar datos en tránsito",
+        "Autenticar usuarios para acceso remoto",
+        "Gestionar la congestión del tráfico de red",
+        "Proteger la comunicación inalámbrica"
+      ],
+      "respuesta": 1,
+      "explicacion": "RADIUS centraliza servicios AAA, especialmente autenticación y autorización, para controlar el acceso remoto a la red."
+    },
+    {
+      "pregunta": "¿Cómo puede la validación de entrada contribuir a prevenir ataques de fuerza bruta?",
+      "opciones": [
+        "Limitando la longitud de los nombres de usuario",
+        "Aplicando políticas de contraseñas robustas",
+        "Implementando mecanismos de bloqueo de cuenta",
+        "Usando autenticación biométrica"
+      ],
+      "respuesta": 2,
+      "explicacion": "El bloqueo de cuenta tras varios intentos fallidos ralentiza o detiene intentos repetidos de autenticación propios de un ataque de fuerza bruta."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes métodos se considera una forma segura de destruir datos de un disco duro?",
+      "opciones": [
+        "Eliminar los archivos y vaciar la papelera",
+        "Formatear el disco duro",
+        "Sobrescribir los datos con patrones aleatorios",
+        "Mover los datos a un dispositivo de almacenamiento externo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Sobrescribir los sectores con patrones aleatorios dificulta la recuperación de los datos originales en medios magnéticos."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes métodos se utiliza habitualmente para destruir de forma segura unidades de estado sólido (SSD) e impedir la recuperación de datos?",
+      "opciones": [
+        "Sobrescribir con patrones aleatorios",
+        "Desmagnetización",
+        "Trituración física",
+        "Formateo"
+      ],
+      "respuesta": 2,
+      "explicacion": "La destrucción física, como la trituración, ofrece una forma fiable de inutilizar los chips de memoria de un SSD."
+    },
+    {
+      "pregunta": "Un administrador de seguridad está implementando una solución de Network Access Control (NAC). ¿Cuál es el propósito principal de NAC?",
+      "opciones": [
+        "Identificar vulnerabilidades de red",
+        "Autenticar y autorizar dispositivos",
+        "Cifrar el tráfico de datos entre dispositivos",
+        "Realizar escaneos de vulnerabilidades en dispositivos de red"
+      ],
+      "respuesta": 1,
+      "explicacion": "NAC comprueba y controla los dispositivos antes de permitirles acceder a la red, autorizando únicamente aquellos que cumplen las políticas."
+    },
+    {
+      "pregunta": "Una organización está definiendo una estrategia de copias de seguridad para garantizar disponibilidad y recuperación. ¿Qué consideración es clave al establecer políticas de retención?",
+      "opciones": [
+        "Maximizar la frecuencia de las copias para reducir la pérdida de datos",
+        "Almacenar las copias en la misma ubicación que los datos principales",
+        "Equilibrar el periodo de retención con los costes de almacenamiento",
+        "Evitar el cifrado para acelerar el proceso de copia"
+      ],
+      "respuesta": 2,
+      "explicacion": "La retención debe conservar los datos durante el tiempo necesario sin generar costes de almacenamiento innecesarios."
+    },
+    {
+      "pregunta": "Un analista de un SOC observa que un IDS ha marcado como amenaza varios intentos fallidos de inicio de sesión. Tras investigar, descubre que el usuario utilizaba una contraseña caducada. ¿Qué tipo de situación es?",
+      "opciones": [
+        "Falso positivo",
+        "Falso negativo",
+        "Verdadero positivo",
+        "Verdadero negativo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Es un falso positivo porque una actividad legítima fue identificada erróneamente como una amenaza."
+    },
+    {
+      "pregunta": "Un antivirus informa de que un archivo es seguro, pero posteriormente se descubre que era una nueva variante de malware no reconocida. ¿Qué tipo de situación es?",
+      "opciones": [
+        "Falso positivo",
+        "Falso negativo",
+        "Verdadero positivo",
+        "Verdadero negativo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Es un falso negativo porque existía una amenaza real que la herramienta no detectó."
+    },
+    {
+      "pregunta": "Durante una prueba de penetración, el equipo identifica una vulnerabilidad crítica en una aplicación web que permite ejecutar código arbitrario en el servidor. ¿Cuál es el siguiente paso más apropiado?",
+      "opciones": [
+        "Explotar más la vulnerabilidad para evaluar la respuesta del sistema",
+        "Informar inmediatamente de la vulnerabilidad al equipo de seguridad de la organización",
+        "Documentar la vulnerabilidad para referencia futura",
+        "Ignorar la vulnerabilidad para no interrumpir las operaciones"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una vulnerabilidad crítica debe comunicarse de inmediato al equipo responsable para que pueda contenerse y corregirse sin aumentar innecesariamente el impacto."
+    },
+    {
+      "pregunta": "Una evaluación de seguridad revela que una aplicación no valida ni sanea correctamente la entrada del usuario, permitiendo manipular consultas a la base de datos. ¿Qué vulnerabilidad es la más probable?",
+      "opciones": [
+        "Cross-Site Scripting (XSS)",
+        "SQL Injection",
+        "Cross-Site Request Forgery (CSRF)",
+        "Clickjacking"
+      ],
+      "respuesta": 1,
+      "explicacion": "La manipulación de consultas mediante entradas no validadas es característica de una SQL Injection."
+    },
+    {
+      "pregunta": "Un administrador configura un firewall para controlar el tráfico entrante y saliente. ¿Qué regla debe implementar para permitir que solo direcciones IP específicas accedan a un servidor determinado?",
+      "opciones": [
+        "Regla de entrada (ingress)",
+        "Regla de salida (egress)",
+        "Regla de denegación implícita",
+        "Regla de permiso explícito"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una regla de permiso explícito define las direcciones o rangos autorizados; el resto puede quedar bloqueado por la política de denegación."
+    },
+    {
+      "pregunta": "Una organización utiliza una herramienta automatizada de análisis de vulnerabilidades para evaluar dispositivos de red. ¿Cuál es una limitación potencial de depender únicamente del escaneo automatizado?",
+      "opciones": [
+        "Cobertura limitada de la infraestructura de red",
+        "Respuesta lenta ante amenazas emergentes",
+        "Incapacidad para identificar falsos positivos",
+        "Falta de integración con otras herramientas de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los escáneres pueden generar falsos positivos y normalmente se requiere análisis humano para confirmar si una vulnerabilidad es real."
+    },
+    {
+      "pregunta": "Tras aplicar un parche para corregir una vulnerabilidad crítica, ¿qué paso es esencial para validar la remediación?",
+      "opciones": [
+        "Realizar una auditoría de seguridad completa de todos los sistemas",
+        "Verificar que el parche se ha aplicado a todos los sistemas afectados",
+        "Ignorar la remediación y centrarse en vulnerabilidades futuras",
+        "Realizar pruebas de penetración en los sistemas parcheados"
+      ],
+      "respuesta": 1,
+      "explicacion": "La validación debe confirmar que el parche quedó instalado correctamente en todos los sistemas afectados."
+    },
+    {
+      "pregunta": "Una organización ha implementado un SIEM para centralizar y analizar registros de seguridad. ¿Cuál es un beneficio clave del SIEM para alertas y monitorización?",
+      "opciones": [
+        "Resolución automática de incidentes de seguridad",
+        "Correlación y análisis en tiempo real de eventos de seguridad",
+        "Eliminación de la necesidad de software antivirus",
+        "Prevención de todas las amenazas de seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un SIEM correlaciona eventos de múltiples fuentes en tiempo real, facilitando la detección y respuesta ante amenazas."
+    },
+    {
+      "pregunta": "En una lista de control de acceso (ACL) de un firewall, ¿cuál es el propósito de la regla \"implicit deny any\"?",
+      "opciones": [
+        "Permitir todo el tráfico por defecto",
+        "Bloquear todo el tráfico por defecto",
+        "Dar prioridad a reglas específicas sobre la denegación implícita",
+        "Permitir tráfico desde direcciones IP específicas"
+      ],
+      "respuesta": 1,
+      "explicacion": "La denegación implícita bloquea cualquier tráfico que no coincida con una regla de permiso anterior."
+    },
+    {
+      "pregunta": "Un analista revisa un informe que menciona CVE-2024-1462, que afecta a varias versiones de un servidor web. ¿Qué representa el identificador CVE?",
+      "opciones": [
+        "La versión de la herramienta de escaneo de vulnerabilidades",
+        "Un identificador único para una vulnerabilidad documentada",
+        "Una puntuación asignada según la complejidad del ataque",
+        "Un parche publicado para una vulnerabilidad específica"
+      ],
+      "respuesta": 1,
+      "explicacion": "CVE proporciona identificadores estandarizados y únicos para vulnerabilidades conocidas, facilitando su seguimiento entre herramientas y plataformas."
+    },
+    {
+      "pregunta": "El firewall de una organización está configurado para permitir tráfico por el puerto 21. ¿Qué tipo de tráfico se está permitiendo con mayor probabilidad?",
+      "opciones": [
+        "Tráfico HTTP",
+        "Tráfico SMTP",
+        "Tráfico FTP",
+        "Tráfico DNS"
+      ],
+      "respuesta": 2,
+      "explicacion": "El puerto 21 se asocia habitualmente con FTP para el canal de control de transferencias de archivos."
+    },
+    {
+      "pregunta": "Una organización quiere permitir únicamente tráfico web seguro a través del firewall. ¿Qué puerto se asocia habitualmente con comunicaciones web seguras?",
+      "opciones": ["Puerto 80", "Puerto 443", "Puerto 25", "Puerto 110"],
+      "respuesta": 1,
+      "explicacion": "El puerto 443 es el puerto estándar asociado a HTTPS."
+    },
+    {
+      "pregunta": "¿Cuál es el principal beneficio de implementar filtrado DNS en una estrategia de ciberseguridad?",
+      "opciones": [
+        "Cifrar todo el tráfico DNS para mejorar la privacidad",
+        "Bloquear el acceso a sitios web y dominios maliciosos conocidos",
+        "Aumentar la velocidad de resolución DNS para todas las consultas",
+        "Autenticar servidores DNS para evitar ataques de DNS spoofing"
+      ],
+      "respuesta": 1,
+      "explicacion": "El filtrado DNS impide resolver o acceder a dominios conocidos por ser maliciosos o no permitidos."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de Sender Policy Framework (SPF) en la seguridad del correo electrónico?",
+      "opciones": [
+        "Cifrar los mensajes de correo",
+        "Autenticar el origen de los mensajes de correo",
+        "Filtrar spam según el contenido",
+        "Comprimir archivos adjuntos para acelerar la entrega"
+      ],
+      "respuesta": 1,
+      "explicacion": "SPF permite al propietario de un dominio declarar qué servidores están autorizados para enviar correo en su nombre."
+    },
+    {
+      "pregunta": "Cuando un empleado cambia de puesto dentro de una organización, ¿qué consideración es crítica en el aprovisionamiento de cuentas para mantener la seguridad?",
+      "opciones": [
+        "Retrasar la actualización de la cuenta hasta que el empleado se adapte al nuevo puesto",
+        "Revocar inmediatamente todos los derechos de acceso anteriores",
+        "Conceder derechos adicionales para adaptarse al nuevo puesto",
+        "Coordinar con el empleado y el equipo de TI para ajustar adecuadamente los accesos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los permisos deben revisarse y ajustarse según las responsabilidades reales del nuevo puesto, coordinando a las partes implicadas."
+    },
+    {
+      "pregunta": "Una empresa colabora frecuentemente con proveedores externos. ¿Qué medida de seguridad debe enfatizarse al aprovisionar cuentas para estas entidades externas?",
+      "opciones": [
+        "Exigir a los proveedores externos que gestionen su propio acceso",
+        "Implementar acceso de mínimo privilegio para las cuentas de proveedores externos",
+        "Proporcionar a los proveedores externos el mismo acceso que a los empleados internos",
+        "Confiar en firewalls de red robustos para restringir el acceso de los proveedores externos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El principio de mínimo privilegio limita a los proveedores al acceso estrictamente necesario para realizar sus tareas."
+    },
+    {
+      "pregunta": "Un analista de seguridad abre un archivo sospechoso en un entorno virtual aislado para observar su comportamiento sin afectar al sistema de producción. ¿Qué técnica está utilizando?",
+      "opciones": [
+        "Sandboxing",
+        "Virtual patching",
+        "Tokenización",
+        "Snapshotting"
+      ],
+      "respuesta": 0,
+      "explicacion": "El sandboxing ejecuta archivos o código en un entorno aislado y controlado para analizar su comportamiento sin poner en riesgo el sistema real."
+    },
+    {
+      "pregunta": "Durante una prueba de penetración, se descubre que una red inalámbrica utiliza protocolos de cifrado obsoletos y es susceptible a ataques. ¿Qué tipo de vulnerabilidad presenta la red?",
+      "opciones": [
+        "Vulnerabilidad de Denial-of-Service (DoS)",
+        "Vulnerabilidad Man-in-the-Middle (MitM)",
+        "Vulnerabilidad de inyección",
+        "Vulnerabilidad de escalada de privilegios"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado inalámbrico débil puede facilitar ataques MitM en los que un atacante intercepta y potencialmente modifica las comunicaciones."
+    },
+    {
+      "pregunta": "Un sistema necesita utilizar software heredado que no puede cumplir los requisitos actuales de la línea base de seguridad. ¿Qué debe documentarse y aprobarse para permitir su uso continuado?",
+      "opciones": [
+        "Matriz de control de acceso",
+        "Informe de respuesta a incidentes",
+        "Solicitud de excepción de seguridad",
+        "Ticket de control de cambios"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una excepción de seguridad documenta formalmente la desviación respecto a los estándares, el riesgo aceptado y, normalmente, los controles compensatorios."
+    },
+    {
+      "pregunta": "Cuando los empleados tienen acceso a datos sensibles de clientes, ¿qué medida debe aplicarse para minimizar el riesgo de brechas derivadas de la asignación de permisos?",
+      "opciones": [
+        "Proporcionar acceso de solo lectura a los datos de clientes",
+        "Rotar periódicamente las asignaciones de permisos entre empleados",
+        "Aplicar el principio de mínimo privilegio al acceso",
+        "Permitir acceso sin restricciones a los datos de clientes"
+      ],
+      "respuesta": 2,
+      "explicacion": "El mínimo privilegio garantiza que cada empleado disponga únicamente de los permisos necesarios para su trabajo."
+    },
+    {
+      "pregunta": "En una gran organización con departamentos y funciones diversas, ¿qué modelo de control de acceso simplifica mejor la administración y garantiza que los empleados tengan los permisos necesarios para su puesto?",
+      "opciones": [
+        "Discretionary Access Control (DAC)",
+        "Role-Based Access Control (RBAC)",
+        "Rule-Based Access Control (RuBAC)",
+        "Attribute-Based Access Control (ABAC)"
+      ],
+      "respuesta": 1,
+      "explicacion": "RBAC asigna permisos según roles laborales, reduciendo la necesidad de gestionar privilegios individualmente para cada usuario."
+    },
+    {
+      "pregunta": "En un entorno con altos requisitos de cumplimiento donde se exige MFA, ¿qué combinación de implementaciones de autenticación se recomienda para mejorar la seguridad?",
+      "opciones": [
+        "Biometría y llaves de seguridad",
+        "Tokens de autenticación físicos y tokens de autenticación software",
+        "Biometría y tokens de autenticación físicos",
+        "Tokens de autenticación software y llaves de seguridad"
+      ],
+      "respuesta": 0,
+      "explicacion": "La combinación de biometría con una llave de seguridad utiliza factores de categorías diferentes: algo que eres y algo que tienes."
+    },
+    {
+      "pregunta": "En una aplicación de banca online, introducir un nombre de usuario y una contraseña es un ejemplo de ¿qué factor de autenticación?",
+      "opciones": [
+        "Algo que sabes",
+        "Algo que tienes",
+        "Algo que eres",
+        "Algún lugar en el que estás"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una contraseña pertenece al factor de conocimiento: algo que el usuario sabe."
+    },
+    {
+      "pregunta": "Usar una tarjeta inteligente o un token físico de seguridad para acceder a un edificio seguro es un ejemplo de ¿qué factor de autenticación?",
+      "opciones": [
+        "Algo que sabes",
+        "Algo que tienes",
+        "Algo que eres",
+        "Algún lugar en el que estás"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una tarjeta inteligente o un token físico pertenece al factor de posesión: algo que el usuario tiene."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de establecer una longitud mínima de contraseña en una política de seguridad?",
+      "opciones": [
+        "Animar a los usuarios a crear contraseñas complejas",
+        "Reducir la probabilidad de reutilización de contraseñas",
+        "Aumentar la resistencia frente a ataques de fuerza bruta",
+        "Agilizar el proceso de restablecimiento de contraseñas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una mayor longitud incrementa el espacio de búsqueda y hace que los ataques de fuerza bruta sean más costosos."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de utilizar un gestor de contraseñas para la gestión segura de contraseñas en una organización?",
+      "opciones": [
+        "Mayor resistencia frente a ataques de fuerza bruta",
+        "Proceso simplificado de creación de contraseñas",
+        "Eliminación de la necesidad de políticas de contraseñas",
+        "Almacenamiento centralizado y seguro de contraseñas complejas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un gestor de contraseñas almacena de forma protegida credenciales únicas y complejas, normalmente en una bóveda cifrada."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de implementar password vaulting en la infraestructura de seguridad de una organización?",
+      "opciones": [
+        "Eliminar la necesidad de autenticar a los usuarios",
+        "Almacenar contraseñas en texto plano para recuperarlas rápidamente",
+        "Gestionar y controlar de forma segura el acceso a contraseñas sensibles",
+        "Aplicar requisitos estrictos de complejidad de contraseñas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una bóveda de contraseñas protege credenciales sensibles y controla qué usuarios autorizados pueden acceder a ellas."
+    },
+    {
+      "pregunta": "Durante una respuesta a incidentes, ¿qué fuente de datos es esencial para comprender la actividad de los usuarios y los eventos de autenticación en un sistema Windows?",
+      "opciones": [
+        "Capturas de paquetes de red",
+        "Registros del antivirus",
+        "Datos del Security Information and Event Management (SIEM)",
+        "Registros de eventos de Windows"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los registros de eventos de Windows contienen información detallada sobre inicios de sesión, autenticación, actividad de usuarios y eventos del sistema."
+    },
+    {
+      "pregunta": "¿Qué fuente de datos es crucial para analizar la actividad de usuarios y la autenticación en un sistema Unix/Linux durante una investigación?",
+      "opciones": [
+        "Registros de eventos de Windows",
+        "Datos de Syslog",
+        "Registros de Active Directory",
+        "Registros de aplicaciones"
+      ],
+      "respuesta": 1,
+      "explicacion": "Syslog es un mecanismo estándar de registro en Unix/Linux y puede contener eventos relevantes de autenticación y actividad del sistema."
+    },
+    {
+      "pregunta": "En un gran entorno empresarial, ¿cómo contribuye la automatización a la gestión de vulnerabilidades?",
+      "opciones": [
+        "Introduciendo retrasos en el proceso de parcheado",
+        "Priorizando vulnerabilidades según el riesgo",
+        "Delegando todas las evaluaciones de vulnerabilidades a proveedores externos",
+        "Sustituyendo la necesidad de escaneos periódicos de vulnerabilidades"
+      ],
+      "respuesta": 1,
+      "explicacion": "La automatización puede clasificar y priorizar hallazgos por riesgo para que los equipos atiendan primero las vulnerabilidades más críticas."
+    },
+    {
+      "pregunta": "¿Cómo puede Data Loss Prevention (DLP) ayudar a proteger la propiedad intelectual y los resultados sensibles de investigación?",
+      "opciones": [
+        "Exigiendo a los empleados firmar acuerdos de confidencialidad",
+        "Cifrando todos los datos almacenados en servidores de investigación",
+        "Supervisando y evitando el intercambio no autorizado de datos de investigación",
+        "Implementando medidas de seguridad física en las instalaciones de I+D"
+      ],
+      "respuesta": 2,
+      "explicacion": "DLP detecta y bloquea transferencias no autorizadas de información sensible, ayudando a impedir la fuga de propiedad intelectual."
+    },
+    {
+      "pregunta": "Una organización necesita eliminar de forma segura discos duros retirados que contienen datos de clientes altamente sensibles. ¿Qué método ofrece la MAYOR garantía de que los datos no puedan recuperarse?",
+      "opciones": [
+        "Eliminación estándar de archivos",
+        "Formateo rápido",
+        "Desmagnetización",
+        "Reinstalación de la imagen del sistema operativo"
+      ],
+      "respuesta": 2,
+      "explicacion": "La desmagnetización altera el campo magnético del soporte y puede hacer que los datos de un disco magnético resulten irrecuperables."
+    },
+    {
+      "pregunta": "Un servidor crítico debe permanecer operativo incluso durante mantenimiento programado. ¿Qué control compensatorio puede implementarse para minimizar el tiempo de inactividad?",
+      "opciones": [
+        "Implementar balanceo de carga",
+        "Utilizar servidores hot-standby",
+        "Aumentar la capacidad del hardware del servidor",
+        "Aplicar controles de acceso estrictos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un servidor hot-standby puede asumir rápidamente la carga mientras el servidor principal está en mantenimiento."
+    },
+    {
+      "pregunta": "Los registros del firewall muestran múltiples intentos de inicio de sesión fallidos desde varias direcciones IP externas. ¿Cómo puede el análisis de estos registros mejorar la postura de seguridad?",
+      "opciones": [
+        "Implementando políticas de contraseñas más robustas para todos los usuarios",
+        "Bloqueando las direcciones IP externas con intentos fallidos",
+        "Realizando una revisión completa de las configuraciones internas de red",
+        "Aumentando el ancho de banda para soportar el tráfico de inicio de sesión"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los registros permiten identificar orígenes sospechosos y bloquearlos para reducir nuevos intentos de acceso no autorizado."
+    },
+    {
+      "pregunta": "Los empleados necesitan acceso fluido a sistemas y aplicaciones desde distintas ubicaciones geográficas. ¿Cómo puede la federación mejorar el acceso manteniendo la seguridad?",
+      "opciones": [
+        "Aplicando restricciones geográficas estrictas a todos los usuarios",
+        "Implementando cuentas separadas para cada sistema",
+        "Utilizando federación con Single Sign-On (SSO) para autenticación centralizada",
+        "Restringiendo sistemas según la ubicación física del usuario"
+      ],
+      "respuesta": 2,
+      "explicacion": "La federación con SSO permite que una identidad confiable se utilice para acceder a varios servicios sin repetir la autenticación."
+    },
+    {
+      "pregunta": "Durante una investigación forense, un analista crea una copia bit a bit de un disco duro y calcula un hash antes y después de crear la imagen. ¿Por qué se realiza el hashing?",
+      "opciones": [
+        "Para comprimir el archivo de imagen",
+        "Para cifrar la imagen forense",
+        "Para verificar la integridad de la evidencia",
+        "Para identificar firmas de malware"
+      ],
+      "respuesta": 2,
+      "explicacion": "Si los hashes coinciden, se demuestra que la imagen forense coincide con la evidencia original y no ha sido alterada."
+    },
+    {
+      "pregunta": "Un analista forense documenta a cada persona que manipuló una evidencia digital, incluyendo marcas de tiempo y firmas. ¿Qué proceso está manteniendo?",
+      "opciones": [
+        "Cadena de custodia",
+        "Correlación de evidencias",
+        "Minimización de datos",
+        "Normalización de registros"
+      ],
+      "respuesta": 0,
+      "explicacion": "La cadena de custodia documenta quién tuvo posesión de la evidencia, cuándo y cómo fue transferida, preservando su integridad y trazabilidad."
+    },
+    {
+      "pregunta": "Una organización sufre un ataque de ransomware que cifra servidores de archivos y se propaga lateralmente por la red interna. ¿Qué control habría limitado de forma MÁS efectiva el movimiento lateral del atacante?",
+      "opciones": [
+        "Software antivirus en endpoints",
+        "Segmentación de red",
+        "Copias de seguridad completas diarias",
+        "Formación de concienciación en seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "La segmentación restringe la comunicación entre zonas y reduce el radio de impacto, dificultando que el ransomware se propague libremente."
+    },
+    {
+      "pregunta": "Una organización establece que no pueden perderse más de 30 minutos de datos de transacciones ante una interrupción. ¿Qué métrica se está definiendo?",
+      "opciones": ["RTO", "MTTR", "RPO", "MTTD"],
+      "respuesta": 2,
+      "explicacion": "El RPO define la cantidad máxima de pérdida de datos aceptable expresada en tiempo; aquí es de 30 minutos."
+    },
+    {
+      "pregunta": "Una organización implementa un cold site como parte de su estrategia de recuperación ante desastres. ¿Qué característica define un cold site?",
+      "opciones": [
+        "Tiene sistemas totalmente operativos listos para failover inmediato",
+        "Dispone de infraestructura, pero requiere preparación antes de estar operativo",
+        "Replica continuamente los datos de producción en tiempo real",
+        "Comparte la misma red eléctrica que el sitio principal"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un cold site proporciona espacio e infraestructura básica, pero necesita instalación, restauración y configuración antes de operar."
+    },
+    {
+      "pregunta": "Una organización realiza una reunión basada en un escenario en la que los responsables analizan cómo responderían a un ataque de ransomware, sin desconectar sistemas reales. ¿Qué tipo de prueba es?",
+      "opciones": [
+        "Prueba de failover",
+        "Procesamiento en paralelo",
+        "Simulación",
+        "Tabletop exercise"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un tabletop exercise es una revisión basada en discusión de un escenario hipotético sin afectar a los sistemas de producción."
+    },
+    {
+      "pregunta": "Una organización compra equipos de red a un revendedor externo no autorizado a precio reducido y después descubre firmware modificado. ¿Qué riesgo de seguridad se introdujo?",
+      "opciones": [
+        "Aumento del coste operativo",
+        "Compromiso de la cadena de suministro",
+        "Política de contraseñas débil",
+        "Amenaza interna"
+      ],
+      "respuesta": 1,
+      "explicacion": "Comprar fuera de canales autorizados aumenta el riesgo de manipulación previa a la entrega, incluido firmware malicioso o puertas traseras."
+    },
+    {
+      "pregunta": "Un administrador necesita que los usuarios inicien sesión una sola vez y accedan a varias aplicaciones web independientes mediante tokens emitidos por un proveedor de identidad central. ¿Qué protocolo se utiliza habitualmente para intercambiar datos de autenticación y autorización entre un IdP y un SP?",
+      "opciones": ["RADIUS", "SAML", "LDAP", "Kerberos"],
+      "respuesta": 1,
+      "explicacion": "SAML es un estándar basado en XML utilizado para intercambiar aserciones de autenticación y autorización entre proveedores de identidad y proveedores de servicio."
+    },
+    {
+      "pregunta": "Una empresa quiere evitar que remitentes no autorizados suplanten su dominio de correo y desea que el servidor receptor verifique una firma criptográfica incluida en la cabecera del mensaje. ¿Qué debe configurar?",
+      "opciones": ["SPF", "DMARC", "DKIM", "SASE"],
+      "respuesta": 2,
+      "explicacion": "DKIM añade una firma criptográfica al correo para que el receptor pueda verificar el dominio remitente y detectar modificaciones del mensaje."
+    },
+    {
+      "pregunta": "Un administrador quiere supervisar patrones de flujo de tráfico para detectar picos inusuales de volumen entre departamentos internos sin capturar el contenido real de los paquetes. ¿Qué herramienta o protocolo proporciona estos metadatos?",
+      "opciones": [
+        "NetFlow",
+        "Trampas SNMP",
+        "Escáner de vulnerabilidades",
+        "Honeypot"
+      ],
+      "respuesta": 0,
+      "explicacion": "NetFlow recopila metadatos de los flujos, como IP origen/destino, puertos y volumen, sin registrar el payload completo."
+    },
+    {
+      "pregunta": "Un administrador revisa alertas de un Intrusion Prevention System (IPS). El sistema bloqueó conexiones porque las cabeceras de los paquetes coincidían con una secuencia de bytes conocida asociada a un exploit reciente. ¿Qué método de detección utiliza el IPS?",
+      "opciones": [
+        "Basado en comportamiento",
+        "Heurístico",
+        "Basado en firmas",
+        "Basado en anomalías"
+      ],
+      "respuesta": 2,
+      "explicacion": "La detección basada en firmas compara el tráfico con patrones o secuencias conocidas de ataques previamente identificados."
+    },
+    {
+      "pregunta": "El departamento de RR. HH. pide bloquear durante el horario laboral los sitios de búsqueda de empleo y redes sociales. El filtro web los bloquea según su finalidad y no por URL individual. ¿Qué función se está utilizando?",
+      "opciones": [
+        "Escaneo de URL",
+        "Filtrado basado en reputación",
+        "Categorización de contenido",
+        "Lista negra de direcciones IP"
+      ],
+      "respuesta": 2,
+      "explicacion": "La categorización agrupa sitios por tipo o finalidad, permitiendo bloquear categorías completas como redes sociales o empleo."
+    },
+    {
+      "pregunta": "Un empleado intenta conectarse al Wi-Fi de la oficina, pero no encuentra el nombre de la red entre las conexiones disponibles. El responsable de TI explica que la red está oculta. ¿Qué ajuste deshabilitó?",
+      "opciones": [
+        "WPS",
+        "WPA3",
+        "Difusión del SSID",
+        "Ubicación de la antena"
+      ],
+      "respuesta": 2,
+      "explicacion": "Al deshabilitar la difusión del SSID, el nombre de la red deja de anunciarse y debe introducirse manualmente."
+    },
+    {
+      "pregunta": "Cuando un huésped de un hotel se conecta al Wi-Fi, el navegador abre automáticamente una página que solicita el número de habitación y la aceptación de las condiciones de uso. ¿Cómo se llama esta función?",
+      "opciones": [
+        "WPA3 Enterprise",
+        "Captive Portal",
+        "Filtrado MAC",
+        "Site Survey"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un captive portal obliga al usuario a interactuar con una página web antes de conceder acceso normal a Internet."
+    },
+    {
+      "pregunta": "El equipo de seguridad quiere aplicar un parche crítico a la base de datos principal, pero antes debe presentar el plan a un comité para comprobar que no afectará al sistema de facturación. ¿Cómo se llama este proceso?",
+      "opciones": [
+        "Escaneo de vulnerabilidades",
+        "Gestión de cambios",
+        "Threat Hunting",
+        "Sandboxing"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de cambios documenta, evalúa, prueba y aprueba modificaciones antes de aplicarlas a producción para reducir riesgos operativos."
+    },
+    {
+      "pregunta": "Un equipo de seguridad programa escaneos semanales de vulnerabilidades, pero observa que los mismos hallazgos críticos reaparecen cada semana. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "El escáner necesita una actualización de software",
+        "Las vulnerabilidades no están siendo remediadas",
+        "Los escaneos apuntan a la subred incorrecta",
+        "El sistema está endurecido"
+      ],
+      "respuesta": 1,
+      "explicacion": "El escaneo identifica problemas, pero si no se aplican parches o cambios de configuración, las mismas vulnerabilidades seguirán apareciendo."
+    },
+    {
+      "pregunta": "Un analista investiga una posible brecha. Conoce los extremos de la comunicación, pero necesita ver el contenido bruto del archivo descargado por el atacante para demostrar la exfiltración. ¿Qué fuente de datos debe revisar?",
+      "opciones": [
+        "Registros NetFlow",
+        "Datos Syslog",
+        "Captura de paquetes",
+        "Trampas SNMP"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una captura de paquetes (PCAP) puede contener el payload real del tráfico y permite reconstruir datos transmitidos cuando no están cifrados."
+    },
+    {
+      "pregunta": "Durante un escaneo rutinario se descubre en un servidor web un puerto abierto que no parece esencial para su funcionamiento. ¿Cuál es la acción más apropiada?",
+      "opciones": [
+        "Ignorar el puerto porque podría ser un falso positivo",
+        "Cerrar inmediatamente el puerto para reducir la superficie de ataque",
+        "Documentar el hallazgo y continuar con el escaneo",
+        "Realizar un análisis adicional para determinar la finalidad del puerto"
+      ],
+      "respuesta": 3,
+      "explicacion": "Antes de cerrarlo conviene confirmar qué servicio utiliza el puerto y evaluar el impacto y el riesgo asociados."
+    },
+    {
+      "pregunta": "Una empresa de software quiere que cada cambio de código se analice automáticamente en busca de vulnerabilidades antes de poder fusionarse con la rama principal. ¿Qué concepto de automatización describe esto?",
+      "opciones": [
+        "Pipeline CI/CD",
+        "Soberanía de datos",
+        "Air-gapping",
+        "Agotamiento de recursos"
+      ],
+      "respuesta": 0,
+      "explicacion": "En un pipeline CI/CD pueden integrarse controles de seguridad automáticos para analizar el código antes de su integración o despliegue."
+    },
+    {
+      "pregunta": "Un analista recibe un feed con firmas de malware recientes, IP de atacantes y dominios de phishing conocidos. ¿Qué tipo de herramienta o servicio proporciona estos datos?",
+      "opciones": [
+        "File Integrity Monitoring",
+        "Motor de correlación SIEM",
+        "Escáner de vulnerabilidades",
+        "Plataforma de threat intelligence"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las plataformas de threat intelligence agregan indicadores de compromiso y datos actuales sobre amenazas y adversarios."
+    },
+    {
+      "pregunta": "El equipo de respuesta a incidentes ha terminado de eliminar el malware y cerrar la vulnerabilidad explotada. ¿Cuál es la SIGUIENTE fase del proceso de respuesta a incidentes?",
+      "opciones": [
+        "Contención",
+        "Detección",
+        "Recuperación",
+        "Lecciones aprendidas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Después de la erradicación viene la recuperación, en la que se restauran los sistemas y se verifica que vuelvan a operar de forma segura."
+    },
+    {
+      "pregunta": "Un equipo quiere responder automáticamente a una amenaza aislando el endpoint afectado, creando un ticket y notificando al analista de guardia sin intervención humana. ¿Qué tecnología lo permite?",
+      "opciones": ["SIEM", "EDR", "SOAR", "XDR"],
+      "respuesta": 2,
+      "explicacion": "SOAR orquesta herramientas y automatiza flujos de respuesta de varios pasos mediante playbooks predefinidos."
+    },
+    {
+      "pregunta": "Una empresa guarda todas las contraseñas privilegiadas en una bóveda, pero permite que varios administradores compartan la misma cuenta. ¿Qué principio de seguridad se debilita?",
+      "opciones": [
+        "Mínimo privilegio",
+        "No repudio",
+        "Cifrado",
+        "Disponibilidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las cuentas compartidas dificultan atribuir una acción a una persona concreta, debilitando la trazabilidad y el no repudio."
+    },
+    {
+      "pregunta": "Una organización quiere permitir únicamente tráfico de correo electrónico a través del firewall. ¿Qué puerto se asocia habitualmente con la comunicación de correo?",
+      "opciones": ["Puerto 80", "Puerto 25", "Puerto 443", "Puerto 53"],
+      "respuesta": 1,
+      "explicacion": "El puerto 25 se asocia tradicionalmente con SMTP para el envío de correo electrónico."
+    },
+    {
+      "pregunta": "Una organización quiere que todo el tráfico web de los empleados de oficina pase por un único punto donde pueda inspeccionarse, registrarse y filtrarse antes de llegar a Internet. ¿Qué método de despliegue lo consigue?",
+      "opciones": [
+        "Filtrado basado en agente",
+        "Filtrado DNS",
+        "Proxy centralizado",
+        "Filtrado por reputación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un proxy centralizado actúa como intermediario único para el tráfico web y permite aplicar inspección, registro y políticas desde un punto común."
+    },
+    {
+      "pregunta": "El sistema de monitorización detectó un ataque sofisticado, pero la alerta quedó enterrada entre miles de notificaciones de menor prioridad y no se investigó durante tres días. ¿Qué problema representa?",
+      "opciones": [
+        "Falso negativo",
+        "Fatiga de alertas",
+        "Fallo de agregación de registros",
+        "Segmentación de red inadecuada"
+      ],
+      "respuesta": 1,
+      "explicacion": "La fatiga de alertas aparece cuando el volumen de notificaciones abruma a los analistas y provoca que alertas importantes pasen inadvertidas."
+    },
+    {
+      "pregunta": "Una empresa compra portátiles nuevos sin verificar la legitimidad del proveedor y después descubre malware preinstalado. ¿Qué fase de la gestión de activos falló?",
+      "opciones": [
+        "Asignación y contabilización",
+        "Adquisición y compras",
+        "Monitorización y seguimiento de activos",
+        "Eliminación y retirada"
+      ],
+      "respuesta": 1,
+      "explicacion": "La adquisición debe incluir la verificación de proveedores y canales autorizados para reducir riesgos de manipulación en la cadena de suministro."
+    },
+    {
+      "pregunta": "Un analista descubre que un atacante modificó registros del sistema para ocultar actividad maliciosa. ¿Qué principio se vulneró?",
+      "opciones": [
+        "Disponibilidad",
+        "Confidencialidad",
+        "Integridad",
+        "No repudio"
+      ],
+      "respuesta": 2,
+      "explicacion": "La modificación no autorizada de registros altera su exactitud y fiabilidad, lo que supone una violación de la integridad."
+    },
+    {
+      "pregunta": "¿Cómo puede el uso de firmas IDS/IPS ayudar a detectar y prevenir la propagación de una variante específica de ransomware?",
+      "opciones": [
+        "Implementando segmentación de red para aislar dispositivos infectados",
+        "Analizando registros del sistema en busca de actividad inusual",
+        "Configurando IDS/IPS para detectar las firmas específicas del ransomware",
+        "Realizando una revisión exhaustiva de los permisos de acceso de los empleados"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las firmas IDS/IPS permiten reconocer patrones conocidos asociados al ransomware y generar alertas o bloquear tráfico coincidente."
+    },
+    {
+      "pregunta": "Un administrador recoge una unidad USB sospechosa de contener datos exfiltrados y la entrega al equipo de seguridad sin documentación. ¿Cuál es el riesgo MÁS importante?",
+      "opciones": [
+        "Los datos pueden estar cifrados",
+        "La cadena de custodia está rota",
+        "La evidencia puede almacenarse fuera de las instalaciones",
+        "La unidad puede estar dañada físicamente"
+      ],
+      "respuesta": 1,
+      "explicacion": "Sin documentación de recogida, manipulación y transferencia no puede demostrarse adecuadamente la cadena de custodia de la evidencia."
+    },
+    {
+      "pregunta": "Un SIEM muestra numerosos inicios de sesión correctos en un servidor VPN desde múltiples ubicaciones globales en poco tiempo usando las mismas credenciales. ¿Qué indica con mayor probabilidad esta actividad?",
+      "opciones": [
+        "Un balanceador de carga VPN mal configurado",
+        "Un problema de sincronización temporal",
+        "Un compromiso de credenciales",
+        "Una anomalía rutinaria de inicio de sesión"
+      ],
+      "respuesta": 2,
+      "explicacion": "Inicios de sesión casi simultáneos desde ubicaciones geográficamente incompatibles sugieren credenciales robadas o compartidas."
+    },
+    {
+      "pregunta": "Los usuarios pueden alternar siempre entre unas pocas contraseñas cada vez que se les obliga a cambiarlas. ¿Qué ajuste evita este comportamiento?",
+      "opciones": [
+        "Edad mínima de la contraseña",
+        "Historial de contraseñas",
+        "Edad máxima de la contraseña",
+        "Umbral de bloqueo de cuenta"
+      ],
+      "respuesta": 1,
+      "explicacion": "El historial de contraseñas registra valores anteriores e impide reutilizarlos durante un número definido de cambios."
+    },
+    {
+      "pregunta": "Un atacante compromete un servidor y accede a datos de credenciales. Puede ver inmediatamente todos los nombres de usuario y contraseñas en formato legible. ¿Qué control de seguridad faltaba?",
+      "opciones": [
+        "Tokenización",
+        "File Integrity Monitoring",
+        "Hashing",
+        "Bloqueo de cuenta"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las contraseñas deben almacenarse mediante funciones hash adecuadas, de modo que no queden disponibles en texto plano si se compromete la base de datos."
+    },
+    {
+      "pregunta": "En un proyecto de desarrollo de software, ¿por qué se utiliza la firma de código y qué beneficios de seguridad proporciona?",
+      "opciones": [
+        "Garantiza la confidencialidad del código durante el desarrollo",
+        "Garantiza que el código está libre de errores y vulnerabilidades",
+        "Verifica la integridad y autenticidad de los binarios de software",
+        "Acelera la ejecución del código compilado"
+      ],
+      "respuesta": 2,
+      "explicacion": "La firma de código permite verificar el origen del software y detectar modificaciones realizadas después de la firma."
+    },
+    {
+      "pregunta": "Un empleado de una organización asociada accede a una aplicación web interna de una empresa usando sus credenciales existentes, sin crear una cuenta nueva. ¿Qué tecnología permite este acceso?",
+      "opciones": ["SSO", "LDAP", "Federación", "MFA"],
+      "respuesta": 2,
+      "explicacion": "La federación establece confianza entre dominios u organizaciones para aceptar identidades proporcionadas por un proveedor externo."
+    },
+    {
+      "pregunta": "Un desarrollador ejecuta una herramienta que revisa el código fuente línea por línea para detectar funciones inseguras antes de compilar la aplicación. ¿Qué tipo de prueba se está realizando?",
+      "opciones": [
+        "Análisis estático de código",
+        "Fuzzing",
+        "Análisis dinámico de código",
+        "Prueba de penetración"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis estático examina el código fuente sin ejecutarlo y permite detectar vulnerabilidades durante etapas tempranas del SDLC."
+    },
+    {
+      "pregunta": "Un proveedor de software firma digitalmente su aplicación antes de distribuirla. ¿Qué garantiza esta acción?",
+      "opciones": [
+        "Que la licencia del software está activa",
+        "Que el software es compatible con todos los sistemas operativos",
+        "Que el software no ha sido alterado desde que se firmó",
+        "Que el software utiliza los estándares de cifrado más recientes"
+      ],
+      "respuesta": 2,
+      "explicacion": "La firma digital permite verificar la integridad y el origen; una modificación posterior hace que la validación de la firma falle."
+    },
+    {
+      "pregunta": "Un equipo de seguridad utiliza una herramienta para automatizar tareas como aislar endpoints, recopilar registros y crear tickets en el sistema de incidentes. ¿Qué tipo de herramienta utiliza?",
+      "opciones": ["SIEM", "DLP", "SOAR", "NAC"],
+      "respuesta": 2,
+      "explicacion": "SOAR integra distintas herramientas y automatiza playbooks de respuesta para ejecutar acciones de forma rápida y coherente."
+    },
+    {
+      "pregunta": "Una organización crea una imagen de sistema con configuraciones de seguridad y software preconfigurados y la utiliza para preparar nuevos portátiles. ¿Qué parte de la gestión de líneas base seguras se está realizando?",
+      "opciones": [
+        "Mantenimiento",
+        "Hardening",
+        "Despliegue",
+        "Pruebas de parches"
+      ],
+      "respuesta": 2,
+      "explicacion": "El despliegue consiste en aplicar o distribuir una línea base de seguridad ya definida a nuevos sistemas."
+    },
+    {
+      "pregunta": "El propietario de un archivo asigna manualmente permisos de lectura y escritura a usuarios concretos de su departamento. ¿Qué modelo de control de acceso se está utilizando?",
+      "opciones": [
+        "Role-Based Access Control",
+        "Attribute-Based Access Control",
+        "Discretionary Access Control",
+        "Rule-Based Access Control"
+      ],
+      "respuesta": 2,
+      "explicacion": "En DAC, el propietario del recurso decide qué usuarios pueden acceder y con qué permisos."
+    }
+  ]
+}

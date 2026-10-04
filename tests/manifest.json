@@ -88,6 +88,18 @@
       "pbqs": [
         "tests/udemy/comptia-security-sy0-701-mastery-course-w-labs-exams/pbq-1.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-701-practice-exam-2024",
+      "titulo": "Udemy comptia security 701 practice exam 2024",
+      "baterias": [
+        "tests/udemy/comptia-security-701-practice-exam-2024/1.json",
+        "tests/udemy/comptia-security-701-practice-exam-2024/2.json",
+        "tests/udemy/comptia-security-701-practice-exam-2024/3.json",
+        "tests/udemy/comptia-security-701-practice-exam-2024/4.json",
+        "tests/udemy/comptia-security-701-practice-exam-2024/5.json",
+        "tests/udemy/comptia-security-701-practice-exam-2024/6.json"
+      ]
     }
   ]
 }

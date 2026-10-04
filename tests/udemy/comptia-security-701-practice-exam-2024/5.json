@@ -1,0 +1,942 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Quinto Test",
+  "procedencia": "Cyber Learning - CompTIA Security Plus 701 Practice Exam Questions (2026), 6 Full Practice Exams | 540 Questions | Detailed Explanations for Security+ SY0-701",
+  "descripcion": "Quinto test de práctica para CompTIA Security+ SY0-701, centrado en gobernanza, riesgo, cumplimiento, privacidad, continuidad de negocio y evaluaciones de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "Un equipo de seguridad está revisando cómo garantiza la organización que todos los empleados sigan los comportamientos de seguridad obligatorios, como usar contraseñas seguras y reportar actividad sospechosa. ¿Qué elemento de gobernanza define estas expectativas obligatorias?",
+      "opciones": ["Directrices", "Políticas", "Estándares", "Procedimientos"],
+      "respuesta": 1,
+      "explicacion": "Las políticas definen expectativas y requisitos obligatorios para los empleados, incluidos comportamientos como el uso de contraseñas y la notificación de incidentes."
+    },
+    {
+      "pregunta": "Una organización ha sufrido una filtración de datos que afecta a información personal sensible. ¿Qué obligación legal es probable que tenga la organización en esta situación?",
+      "opciones": [
+        "Notificar a las personas afectadas y a las autoridades pertinentes",
+        "Realizar una prueba de penetración en los sistemas afectados",
+        "Aumentar el presupuesto destinado a medidas de seguridad",
+        "Implementar controles de acceso más estrictos"
+      ],
+      "respuesta": 0,
+      "explicacion": "En muchas jurisdicciones, una filtración de datos personales obliga a notificar a las personas afectadas y a las autoridades competentes dentro de los plazos establecidos."
+    },
+    {
+      "pregunta": "Según la mayoría de los marcos modernos de privacidad, si se produce una filtración de datos en una instalación de alojamiento de un tercero, ¿qué entidad tiene la principal responsabilidad legal de notificar a las personas afectadas y a los reguladores?",
+      "opciones": [
+        "El Data Processor",
+        "El Data Controller",
+        "El Data Steward",
+        "El Internet Service Provider (ISP)"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Data Controller determina los fines y medios del tratamiento y normalmente mantiene la responsabilidad legal principal frente a los interesados y reguladores, aunque el Processor deba informar al Controller."
+    },
+    {
+      "pregunta": "Una empresa inicia una asociación con una compañía logística. Quiere garantizar que, si finaliza la relación, exista un plan claro para devolver o destruir los datos compartidos. ¿En qué documento debería definirse este procedimiento de \"End of Life\" u \"Offboarding\"?",
+      "opciones": ["BPA", "AUP", "RTO", "MTBF"],
+      "respuesta": 0,
+      "explicacion": "El BPA regula la relación entre socios comerciales y puede definir obligaciones durante todo su ciclo de vida, incluida la devolución o destrucción de datos al terminar la relación."
+    },
+    {
+      "pregunta": "La dirección ejecutiva de una organización determina que la empresa tiene un apetito de riesgo moderado. Como parte de la gestión de riesgos, el equipo de seguridad define límites numéricos específicos para los riesgos aceptables en la matriz de riesgos. ¿Cómo se denominan estos límites?",
+      "opciones": [
+        "Umbrales de riesgo",
+        "Clasificaciones de riesgo",
+        "Líneas base de seguridad",
+        "Objetivos de control"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los umbrales de riesgo son límites medibles que determinan cuándo un riesgo deja de ser aceptable y requiere tratamiento o mitigación."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está realizando un business impact analysis (BIA) y necesita determinar qué funciones de negocio son más críticas y deben restaurarse primero tras una interrupción grave. ¿Qué componente del BIA proporciona esta priorización?",
+      "opciones": [
+        "Umbral de riesgo",
+        "Key risk indicators",
+        "Impacto",
+        "Recovery point objective"
+      ],
+      "respuesta": 2,
+      "explicacion": "El impacto mide las consecuencias de perder un sistema o proceso y permite priorizar las funciones más críticas para su recuperación."
+    },
+    {
+      "pregunta": "Una consultora opera en varios países de la Unión Europea (UE), cada uno con requisitos locales o regionales específicos de protección de datos. ¿Qué desafío supone esto para el cumplimiento de privacidad?",
+      "opciones": [
+        "Mantener coherencia al implementar medidas de seguridad",
+        "Cumplir los principios de minimización de datos",
+        "Gestionar requisitos legales locales o regionales diferentes",
+        "Cifrar las copias de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Operar en varias jurisdicciones exige identificar y cumplir requisitos legales locales o regionales que pueden variar entre países."
+    },
+    {
+      "pregunta": "Un negocio en línea recibe de una persona una solicitud para eliminar sus datos personales. ¿Qué derecho legal está ejerciendo y cómo debe responder la organización?",
+      "opciones": [
+        "Derecho de acceso",
+        "Derecho de rectificación",
+        "Derecho al olvido",
+        "Derecho a la portabilidad de datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "El derecho al olvido permite solicitar la supresión de datos personales cuando se cumplen las condiciones legales aplicables."
+    },
+    {
+      "pregunta": "¿Qué tipo de prueba de penetración es más apropiado para identificar y explotar vulnerabilidades en una aplicación web expuesta a Internet con el fin de evaluar su postura de seguridad?",
+      "opciones": [
+        "Prueba de penetración defensiva",
+        "Prueba de ingeniería social",
+        "Evaluación de vulnerabilidades",
+        "Prueba de penetración ofensiva"
+      ],
+      "respuesta": 3,
+      "explicacion": "La prueba de penetración ofensiva identifica y explota activamente vulnerabilidades de forma autorizada para evaluar la seguridad real de la aplicación."
+    },
+    {
+      "pregunta": "Una entidad financiera está siendo evaluada para determinar la eficacia de sus controles internos y prácticas de seguridad. ¿Qué tipo de evaluación externa es más apropiada?",
+      "opciones": [
+        "Auditoría regulatoria",
+        "Examen",
+        "Auditoría independiente de terceros",
+        "Evaluación de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una auditoría independiente de terceros utiliza una entidad externa para evaluar de forma objetiva la eficacia de los controles internos y las prácticas de seguridad."
+    },
+    {
+      "pregunta": "Una organización quiere evaluar la postura de seguridad de sus sistemas de información mediante una entidad externa. ¿Qué tipo de auditoría o evaluación externa es la más apropiada?",
+      "opciones": [
+        "Evaluación de seguridad",
+        "Examen",
+        "Auditoría independiente de terceros",
+        "Auditoría regulatoria"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una evaluación de seguridad se centra específicamente en la postura de seguridad, las vulnerabilidades y las debilidades de los sistemas de información."
+    },
+    {
+      "pregunta": "¿Qué técnica de reconocimiento es más adecuada para recopilar información sobre posibles vulnerabilidades de seguridad en la aplicación web de un competidor sin interactuar directamente con ella?",
+      "opciones": [
+        "Reconocimiento activo",
+        "Ingeniería social",
+        "Reconocimiento pasivo",
+        "Phishing"
+      ],
+      "respuesta": 2,
+      "explicacion": "El reconocimiento pasivo obtiene información sin interactuar directamente con los sistemas del objetivo, por ejemplo mediante fuentes públicas."
+    },
+    {
+      "pregunta": "En una prueba de penetración sobre un entorno desconocido, ¿qué fase inicial es crucial para recopilar información y comprender el objetivo?",
+      "opciones": [
+        "Explotación",
+        "Post-explotación",
+        "Enumeración",
+        "Reconocimiento"
+      ],
+      "respuesta": 3,
+      "explicacion": "El reconocimiento es la fase inicial destinada a recopilar información sobre el objetivo, como rangos IP, dominios y otros datos útiles para las fases posteriores."
+    },
+    {
+      "pregunta": "Como especialista en seguridad TI, recibes informes de empleados sobre correos electrónicos sospechosos. ¿Cuál es la acción inicial más apropiada?",
+      "opciones": [
+        "Ignorar los informes para evitar generar alarma",
+        "Reenviar inmediatamente los correos a todos los empleados como advertencia",
+        "Verificar los correos reportados y evaluar el nivel de amenaza",
+        "Eliminar los correos reportados sin investigar"
+      ],
+      "respuesta": 2,
+      "explicacion": "Primero debe verificarse la legitimidad de los correos y evaluarse la amenaza para poder responder de forma informada sin destruir evidencias ni propagar contenido malicioso."
+    },
+    {
+      "pregunta": "Ante un posible ataque de phishing, ¿qué acción principal deben realizar los empleados para mitigar el riesgo?",
+      "opciones": [
+        "Reenviar el correo sospechoso a sus compañeros",
+        "Hacer clic en los enlaces para comprobar su legitimidad",
+        "Eliminar inmediatamente el correo sin abrirlo",
+        "Reportar el correo sospechoso al equipo de seguridad TI"
+      ],
+      "respuesta": 3,
+      "explicacion": "Reportar el mensaje al equipo de seguridad permite investigarlo, bloquear amenazas relacionadas y proteger a otros usuarios."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de una política de clasificación de datos dentro del marco de seguridad de una organización?",
+      "opciones": [
+        "Definir medidas de seguridad para el almacenamiento físico de datos",
+        "Categorizar los datos según su sensibilidad y definir procedimientos de manejo",
+        "Describir procedimientos de recuperación ante desastres",
+        "Cifrar todos los datos sensibles"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una política de clasificación establece categorías de sensibilidad y define cómo deben manejarse, protegerse, almacenarse y transmitirse los datos de cada categoría."
+    },
+    {
+      "pregunta": "¿Cómo contribuyen las políticas de bloqueo de cuentas a la seguridad de las credenciales dentro de una organización?",
+      "opciones": [
+        "Animan a los empleados a usar contraseñas simples",
+        "Evitan accesos no autorizados limitando los intentos de inicio de sesión",
+        "Garantizan acceso continuo a todas las cuentas",
+        "Permiten intentos de inicio de sesión ilimitados"
+      ],
+      "respuesta": 1,
+      "explicacion": "El bloqueo de cuentas restringe los intentos fallidos repetidos y reduce la eficacia de ataques de fuerza bruta contra credenciales."
+    },
+    {
+      "pregunta": "Una organización busca un marco no prescriptivo que proporcione un \"lenguaje común\" para reducir la brecha entre directivos de negocio y personal técnico de seguridad. ¿Qué marco es el más apropiado?",
+      "opciones": ["ISO 27001", "NIST CSF", "PCI DSS", "GDPR"],
+      "respuesta": 1,
+      "explicacion": "NIST CSF proporciona un marco flexible para gestionar y comunicar el riesgo de ciberseguridad mediante funciones comunes comprensibles para equipos técnicos y directivos."
+    },
+    {
+      "pregunta": "¿Qué debería incluir un plan integral de gestión de riesgos de terceros?",
+      "opciones": [
+        "Cláusulas legales de exención de responsabilidad",
+        "Auditorías periódicas de seguridad de la propia organización",
+        "Un proceso de incorporación de nuevos empleados",
+        "Evaluación del acceso de terceros y de los controles asociados"
+      ],
+      "respuesta": 3,
+      "explicacion": "La gestión de riesgos de terceros debe evaluar qué acceso tienen los proveedores y qué controles existen para limitar, supervisar y proteger esos privilegios."
+    },
+    {
+      "pregunta": "Una organización planea actualizar el software de su base de datos principal. Antes del cambio, un grupo de interesados se reúne para revisar el plan, evaluar los posibles riesgos para el negocio y dar la aprobación formal. ¿Cómo se llama este grupo?",
+      "opciones": [
+        "Incident Response Team",
+        "Change Advisory Board",
+        "Blue Team",
+        "Board of Directors"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Change Advisory Board (CAB) revisa cambios propuestos, evalúa su impacto y riesgo y proporciona aprobación dentro del proceso de gestión de cambios."
+    },
+    {
+      "pregunta": "¿En qué se diferencia la gobernanza del cumplimiento en el contexto de la gestión de seguridad?",
+      "opciones": [
+        "La gobernanza trata las regulaciones y el cumplimiento se centra en políticas internas",
+        "La gobernanza se refiere a políticas y el cumplimiento a evaluación de riesgos",
+        "La gobernanza define las reglas y el cumplimiento garantiza la adhesión a esas reglas",
+        "La gobernanza establece procedimientos y el cumplimiento dicta el uso de tecnología"
+      ],
+      "respuesta": 2,
+      "explicacion": "La gobernanza establece la dirección, reglas y marco de seguridad; el cumplimiento verifica que la organización se ajuste a esos requisitos internos y externos."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de una auditoría TI sobre la gobernanza de seguridad de una organización?",
+      "opciones": [
+        "Garantizar que todo el software esté actualizado",
+        "Verificar el cumplimiento de políticas y regulaciones",
+        "Implementar nuevos protocolos de seguridad",
+        "Evaluar controles de acceso de usuarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una auditoría TI de gobernanza busca comprobar que la organización cumple las políticas, regulaciones y estándares aplicables."
+    },
+    {
+      "pregunta": "Una empresa de desarrollo de software colabora con un proveedor externo para mejorar un algoritmo propietario. ¿Cuál es un objetivo principal de que ambas partes firmen un NDA?",
+      "opciones": [
+        "Establecer la propiedad del algoritmo",
+        "Evitar la divulgación de información confidencial",
+        "Definir las condiciones de pago",
+        "Especificar plazos e hitos del proyecto"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un NDA protege la confidencialidad e impide la divulgación no autorizada de información sensible o propietaria compartida durante la colaboración."
+    },
+    {
+      "pregunta": "Una organización está implementando un plan de recuperación ante desastres y el equipo de TI necesita orientación sobre los pasos a seguir si falla un centro de datos. ¿Cuál es el propósito principal de un playbook de recuperación ante desastres?",
+      "opciones": [
+        "Diseñar la distribución física del centro de datos de respaldo",
+        "Describir las especificaciones técnicas de los servidores de respaldo",
+        "Detallar procedimientos paso a paso para la recuperación de datos",
+        "Identificar posibles causas de fallos del centro de datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un playbook de recuperación ante desastres proporciona pasos operativos concretos para guiar al equipo durante la recuperación."
+    },
+    {
+      "pregunta": "¿Qué fase del Software Development Lifecycle (SDLC) se centra en identificar y planificar los posibles riesgos de seguridad?",
+      "opciones": ["Diseño", "Desarrollo", "Pruebas", "Requisitos"],
+      "respuesta": 3,
+      "explicacion": "En la fase de requisitos se identifican necesidades y riesgos de seguridad para incorporarlos al proyecto antes de comenzar el desarrollo."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un escenario de riesgo en el que la probabilidad es una consideración crucial?",
+      "opciones": [
+        "Un fallo de servidor que provoca pérdida de datos",
+        "Una intrusión física que provoca el robo de portátiles",
+        "Un empleado que divulga involuntariamente información sensible",
+        "Un corte eléctrico que causa indisponibilidad temporal"
+      ],
+      "respuesta": 2,
+      "explicacion": "La probabilidad es especialmente relevante al estimar la frecuencia con la que puede producirse un comportamiento humano accidental que origine un incidente."
+    },
+    {
+      "pregunta": "¿Qué distingue a las evaluaciones independientes de las auditorías internas en la gestión de seguridad?",
+      "opciones": [
+        "Las evaluaciones independientes las realiza personal interno y las auditorías internas partes externas",
+        "Las evaluaciones independientes se centran más en el cumplimiento, mientras que las auditorías internas se enfocan en la gestión de riesgos",
+        "Las evaluaciones independientes son obligatorias y las auditorías internas opcionales",
+        "Las evaluaciones independientes se limitan a controles técnicos y las auditorías internas cubren toda la seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las evaluaciones independientes suelen aportar una revisión objetiva con fuerte énfasis en requisitos externos, mientras que las auditorías internas pueden abarcar más ampliamente riesgos, operaciones y políticas internas."
+    },
+    {
+      "pregunta": "¿Cuál es una responsabilidad clave de un Security Steering Committee dentro de la gestión del programa de seguridad de una organización?",
+      "opciones": [
+        "Realizar actividades diarias de respuesta a incidentes",
+        "Desarrollar controles técnicos de seguridad",
+        "Supervisar y proporcionar orientación al programa de seguridad",
+        "Realizar pruebas de penetración periódicamente"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un Security Steering Committee proporciona dirección estratégica, supervisión y apoyo a las decisiones de alto nivel del programa de seguridad."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de implementar sistemas de control de versiones en el Software Development Lifecycle (SDLC)?",
+      "opciones": [
+        "Mejorar la funcionalidad del software",
+        "Gestionar la documentación del proyecto",
+        "Registrar los cambios en el código fuente",
+        "Garantizar el cumplimiento de los plazos"
+      ],
+      "respuesta": 2,
+      "explicacion": "El control de versiones registra las modificaciones del código fuente, facilita la colaboración y conserva un historial de cambios."
+    },
+    {
+      "pregunta": "¿Cuál es una posible consecuencia de no abordar conflictos de interés en un proyecto relacionado con seguridad?",
+      "opciones": [
+        "Dificultad en la colaboración del proyecto",
+        "Integridad del proyecto comprometida",
+        "Retraso en los plazos del proyecto",
+        "Reducción de la transparencia del proyecto"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un conflicto de interés no gestionado puede hacer que decisiones profesionales favorezcan intereses personales y comprometan la integridad del proyecto."
+    },
+    {
+      "pregunta": "En un proyecto de desarrollo de software que pretende lanzar una nueva versión de una aplicación popular, ¿qué tipo de análisis de riesgos es más apropiado para asignar medidas cualitativas a riesgos relacionados con plazos, errores de software y aceptación de usuarios?",
+      "opciones": [
+        "Análisis cualitativo de riesgos",
+        "Análisis cuantitativo de riesgos",
+        "Análisis comparativo de riesgos",
+        "Análisis predictivo de riesgos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis cualitativo clasifica los riesgos mediante escalas subjetivas como bajo, medio o alto, en lugar de asignar valores monetarios o numéricos precisos."
+    },
+    {
+      "pregunta": "¿Por qué es crucial una gobernanza de seguridad eficaz para gestionar los riesgos de ciberseguridad?",
+      "opciones": [
+        "Para ignorar posibles amenazas y vulnerabilidades",
+        "Para garantizar un enfoque reactivo ante incidentes",
+        "Para proporcionar un marco estratégico para identificar y mitigar riesgos",
+        "Para delegar todas las responsabilidades de seguridad a departamentos individuales"
+      ],
+      "respuesta": 2,
+      "explicacion": "La gobernanza de seguridad establece un marco coordinado para identificar, priorizar y mitigar riesgos de ciberseguridad de forma alineada con los objetivos de la organización."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de la planificación de continuidad de negocio?",
+      "opciones": [
+        "Prevenir todos los incidentes de seguridad",
+        "Minimizar el impacto de las interrupciones en las operaciones del negocio",
+        "Recuperar datos después de un incidente de seguridad",
+        "Detectar amenazas de seguridad de forma proactiva"
+      ],
+      "respuesta": 1,
+      "explicacion": "La continuidad de negocio busca mantener las funciones críticas durante y después de una interrupción y reducir su impacto operativo."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un elemento clave de un plan de recuperación ante desastres?",
+      "opciones": [
+        "Formación rutinaria de concienciación en seguridad",
+        "Copias de seguridad de datos fuera del sitio",
+        "Configuración del firewall",
+        "Gestión de cuentas de usuario"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las copias de seguridad fuera del sitio permiten restaurar datos críticos si el entorno principal queda destruido o inaccesible."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito de un business impact analysis (BIA) en la planificación de continuidad de negocio?",
+      "opciones": [
+        "Identificar posibles amenazas de seguridad",
+        "Evaluar el impacto financiero de incidentes de seguridad",
+        "Priorizar funciones y procesos críticos de negocio",
+        "Crear procedimientos de respuesta a incidentes"
+      ],
+      "respuesta": 2,
+      "explicacion": "El BIA identifica y prioriza funciones y procesos críticos para orientar la asignación de recursos y la recuperación durante una interrupción."
+    },
+    {
+      "pregunta": "¿Cuál es una diferencia clave entre la planificación de continuidad de negocio y la planificación de recuperación ante desastres?",
+      "opciones": [
+        "La continuidad de negocio se centra en tecnología y la recuperación ante desastres en personas y procesos",
+        "La recuperación ante desastres aborda interrupciones a largo plazo y la continuidad de negocio incidentes a corto plazo",
+        "La continuidad de negocio abarca toda la organización y la recuperación ante desastres se centra específicamente en sistemas TI",
+        "La recuperación ante desastres es proactiva y la continuidad de negocio reactiva"
+      ],
+      "respuesta": 2,
+      "explicacion": "La continuidad de negocio cubre personas, procesos, instalaciones y tecnología, mientras que la recuperación ante desastres se concentra principalmente en restaurar sistemas TI y datos."
+    },
+    {
+      "pregunta": "Una empresa está implementando una solución de copia de seguridad y recuperación para sus sistemas de producción. El equipo quiere garantizar una pérdida mínima de datos en caso de interrupción. ¿Qué concepto le preocupa principalmente?",
+      "opciones": [
+        "RPO (Recovery Point Objective)",
+        "RTO (Recovery Time Objective)",
+        "SLA (Service Level Agreement)",
+        "BCP (Business Continuity Planning)"
+      ],
+      "respuesta": 0,
+      "explicacion": "El RPO define la cantidad máxima aceptable de datos que puede perderse, normalmente expresada como un intervalo de tiempo."
+    },
+    {
+      "pregunta": "¿Qué estructura de gobernanza es más probable que priorice la gestión de riesgos y el cumplimiento?",
+      "opciones": [
+        "Gobernanza regulatoria",
+        "Gobernanza empresarial",
+        "Gobernanza basada en riesgos",
+        "Gobernanza de cumplimiento"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gobernanza empresarial integra riesgo, cumplimiento y objetivos organizativos dentro de un marco común de dirección y supervisión."
+    },
+    {
+      "pregunta": "¿Qué rol sería responsable de definir controles de acceso, garantizar la integridad de los datos y supervisar la postura general de seguridad de una base de datos de clientes?",
+      "opciones": [
+        "Data Processor",
+        "Data Custodian",
+        "Data Controller",
+        "Data Owner"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Data Owner toma decisiones sobre el uso, clasificación y acceso a los datos y es responsable de su protección desde la perspectiva del negocio."
+    },
+    {
+      "pregunta": "¿Qué rol sería responsable de garantizar que las actividades de tratamiento de datos cumplan la normativa de protección de datos, obtener el consentimiento de los clientes y responder a solicitudes de los interesados?",
+      "opciones": [
+        "Data Custodian",
+        "Data Processor",
+        "Data Controller",
+        "Data Owner"
+      ],
+      "respuesta": 2,
+      "explicacion": "El Data Controller determina los fines y medios del tratamiento y es responsable de cumplir obligaciones legales como consentimiento y atención de derechos de los interesados."
+    },
+    {
+      "pregunta": "¿Qué elemento es crucial al realizar evaluaciones de riesgos eficaces para garantizar el cumplimiento?",
+      "opciones": [
+        "Implementar sistemas de detección de intrusiones",
+        "Colaborar con organismos policiales",
+        "Implicar a las partes interesadas clave",
+        "Realizar pruebas de penetración periódicas"
+      ],
+      "respuesta": 2,
+      "explicacion": "La participación de las partes interesadas clave aporta conocimiento de negocio, cumplimiento y riesgo necesario para una evaluación completa."
+    },
+    {
+      "pregunta": "¿Qué rol sería responsable de garantizar la confidencialidad, integridad y disponibilidad de historiales médicos, implementar controles de acceso y realizar formación periódica de seguridad al personal?",
+      "opciones": [
+        "Data Custodian",
+        "Chief Information Officer (CIO)",
+        "Compliance Officer",
+        "Data Processor"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Data Custodian gestiona operativamente los datos y aplica controles técnicos y procedimientos para protegerlos según las políticas definidas."
+    },
+    {
+      "pregunta": "¿Qué tipo de evaluación de riesgos sería más adecuada para identificar y abordar amenazas y vulnerabilidades emergentes de ciberseguridad en tiempo real?",
+      "opciones": [
+        "Evaluación de riesgos ad hoc",
+        "Evaluación de riesgos recurrente",
+        "Evaluación de riesgos puntual",
+        "Evaluación continua de riesgos"
+      ],
+      "respuesta": 3,
+      "explicacion": "La evaluación continua de riesgos mantiene visibilidad permanente y permite detectar y tratar cambios en el panorama de amenazas con mayor rapidez."
+    },
+    {
+      "pregunta": "¿Qué tipo de evaluación de riesgos sería más apropiada para identificar vulnerabilidades de seguridad potenciales en una nueva versión de software antes de pasar a producción?",
+      "opciones": [
+        "Evaluación de riesgos ad hoc",
+        "Evaluación de riesgos recurrente",
+        "Evaluación de riesgos puntual",
+        "Evaluación continua de riesgos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una evaluación ad hoc puede realizarse específicamente antes de una versión crítica para analizar los riesgos asociados a ese lanzamiento."
+    },
+    {
+      "pregunta": "¿Cómo contribuye una Acceptable Use Policy (AUP) a la ciberseguridad de una organización?",
+      "opciones": [
+        "Implementando controles estrictos sobre el intercambio de información sensible",
+        "Estableciendo directrices para el uso seguro y responsable de los recursos TI",
+        "Promoviendo el uso de contraseñas seguras",
+        "Animando activamente a los empleados a informar rápidamente de incidentes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una AUP establece reglas de uso aceptable y seguro de los recursos tecnológicos de la organización, reduciendo conductas que puedan generar riesgos."
+    },
+    {
+      "pregunta": "En un proyecto de ciberseguridad para proteger la infraestructura de red de una entidad financiera, ¿qué tipo de análisis de riesgos es más apropiado para asignar valores numéricos a riesgos como filtraciones de datos, vulnerabilidades del sistema y pérdidas financieras?",
+      "opciones": [
+        "Análisis cualitativo de riesgos",
+        "Análisis cuantitativo de riesgos",
+        "Análisis comparativo de riesgos",
+        "Análisis predictivo de riesgos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis cuantitativo asigna valores numéricos y monetarios a probabilidad e impacto para estimar la exposición financiera al riesgo."
+    },
+    {
+      "pregunta": "Un proveedor de servicios cloud sufre una interrupción que dura 10 horas. Durante ese tiempo estima una pérdida de 50.000 USD en ingresos. Si la probabilidad anual de que ocurra una interrupción de este tipo es del 5 %, ¿cuál es la Annualized Loss Expectancy (ALE)?",
+      "opciones": ["2.500 USD", "10.000 USD", "50.000 USD", "1.000.000 USD"],
+      "respuesta": 0,
+      "explicacion": "ALE = SLE × ARO. Con una SLE de 50.000 USD y una ARO de 0,05, la ALE es 50.000 × 0,05 = 2.500 USD."
+    },
+    {
+      "pregunta": "Una organización sanitaria evalúa el posible impacto financiero de una brecha de ciberseguridad que podría exponer información sensible de pacientes. El coste estimado de respuesta y consecuencias legales es de 500.000 USD. Si la probabilidad anual de una brecha es del 8 %, ¿cuál es la Annualized Loss Expectancy (ALE)?",
+      "opciones": ["40.000 USD", "60.000 USD", "100.000 USD", "400.000 USD"],
+      "respuesta": 0,
+      "explicacion": "ALE = SLE × ARO. Con una SLE de 500.000 USD y una ARO de 0,08, la ALE es 40.000 USD."
+    },
+    {
+      "pregunta": "Durante el proceso de due diligence para seleccionar un proveedor, ¿qué medida puede ayudar a descubrir posibles conflictos de interés?",
+      "opciones": [
+        "Investigar la estabilidad financiera del proveedor",
+        "Entrevistar a partes interesadas clave dentro de la organización",
+        "Realizar verificaciones de antecedentes de empleados del proveedor",
+        "Confiar únicamente en la declaración del proveedor sobre posibles conflictos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las verificaciones de antecedentes pueden revelar relaciones, intereses financieros u otras circunstancias que generen conflictos de interés."
+    },
+    {
+      "pregunta": "En el proceso de due diligence con un nuevo proveedor de software, ¿qué aspecto debe evaluarse para garantizar el cumplimiento de los requisitos de licencia?",
+      "opciones": [
+        "Los programas de formación de empleados del proveedor",
+        "El diseño de la interfaz de usuario del software",
+        "La estabilidad financiera del proveedor",
+        "Los acuerdos de licencia del software"
+      ],
+      "respuesta": 3,
+      "explicacion": "Revisar los acuerdos de licencia permite comprobar derechos de uso, restricciones y obligaciones legales asociadas al software."
+    },
+    {
+      "pregunta": "Una organización está formando una asociación con una institución de investigación para compartir recursos y colaborar en proyectos conjuntos. ¿Qué tipo de acuerdo utilizarías para describir los términos de colaboración, responsabilidades y expectativas sin crear un contrato legalmente vinculante?",
+      "opciones": [
+        "Service-level Agreement (SLA)",
+        "Memorandum of Agreement (MOA)",
+        "Memorandum of Understanding (MOU)",
+        "Non-Disclosure Agreement (NDA)"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un MOU documenta intenciones, responsabilidades y expectativas compartidas y suele utilizarse cuando se quiere una base de entendimiento menos formal y normalmente no vinculante."
+    },
+    {
+      "pregunta": "Una organización entra en una relación con un proveedor para desarrollar software personalizado. ¿Qué tipo de acuerdo utilizarías para definir requisitos técnicos específicos, entregables e hitos del proyecto?",
+      "opciones": [
+        "Service-level Agreement (SLA)",
+        "Memorandum of Agreement (MOA)",
+        "Memorandum of Understanding (MOU)",
+        "Statement of Work (SOW)"
+      ],
+      "respuesta": 3,
+      "explicacion": "El SOW define el alcance, objetivos, entregables, plazos, hitos y otros detalles específicos de un proyecto."
+    },
+    {
+      "pregunta": "¿Qué tipo de acuerdo debería utilizarse como marco para gobernar la relación general con un posible proveedor, incluyendo disposiciones sobre alcance del trabajo, precios y términos y condiciones generales?",
+      "opciones": [
+        "Non-Disclosure Agreement (NDA)",
+        "Master Service Agreement (MSA)",
+        "Service-level Agreement (SLA)",
+        "Memorandum of Understanding (MOU)"
+      ],
+      "respuesta": 1,
+      "explicacion": "El MSA establece los términos generales y el marco contractual de una relación de servicios a largo plazo, sobre el que pueden apoyarse trabajos específicos."
+    },
+    {
+      "pregunta": "¿Qué paso inicial tomarías para recopilar información sobre las prácticas y políticas de seguridad de un proveedor antes de firmar un acuerdo?",
+      "opciones": [
+        "Realizar una prueba de penetración sobre el software del proveedor",
+        "Enviar al proveedor un cuestionario de ciberseguridad",
+        "Implementar rules of engagement para el proveedor",
+        "Monitorizar el tráfico de red del proveedor"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un cuestionario de ciberseguridad es una forma inicial y no intrusiva de recopilar información sobre controles, políticas y postura de seguridad del proveedor."
+    },
+    {
+      "pregunta": "En el contexto de las buenas prácticas de seguridad, ¿qué pretende conseguir la \"Separation of Duties\"?",
+      "opciones": [
+        "Asignar múltiples funciones a una sola persona para maximizar la productividad",
+        "Limitar el acceso de un empleado a determinadas zonas físicas",
+        "Restringir el acceso de un empleado a datos y sistemas sensibles",
+        "Dividir tareas entre distintas personas para prevenir fraude y errores"
+      ],
+      "respuesta": 3,
+      "explicacion": "La Separation of Duties distribuye funciones críticas entre varias personas para reducir fraude, errores y abuso de privilegios."
+    },
+    {
+      "pregunta": "Una organización supervisa regularmente el rendimiento y las prácticas de seguridad de un proveedor externo crítico. ¿Qué objetivo principal pretende lograr la monitorización del proveedor?",
+      "opciones": [
+        "Establecer nuevos contratos con el proveedor",
+        "Identificar y mitigar riesgos potenciales",
+        "Desarrollar rules of engagement para futuros trabajos",
+        "Realizar un cuestionario de seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "La monitorización continua del proveedor permite detectar cambios, deficiencias o incumplimientos y reducir los riesgos asociados a la relación."
+    },
+    {
+      "pregunta": "Una empresa de ciberseguridad opera en un sector altamente regulado y se descubre que un proceso crítico de negocio no cumple los estándares del sector. ¿Cuál es una posible consecuencia de este incumplimiento?",
+      "opciones": [
+        "Daño reputacional",
+        "Sanciones",
+        "Impactos contractuales",
+        "Pérdida de licencia"
+      ],
+      "respuesta": 1,
+      "explicacion": "En sectores regulados, el incumplimiento puede provocar sanciones impuestas por organismos reguladores, incluidas multas y otras penalizaciones."
+    },
+    {
+      "pregunta": "Una empresa crea procedimientos documentados que guían la respuesta ante ataques de ransomware e incidentes DDoS. ¿Cómo se llaman estos documentos?",
+      "opciones": [
+        "Marcos de seguridad",
+        "Registros de chain of custody",
+        "Playbooks",
+        "Guías de hardening de sistemas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los playbooks contienen pasos predefinidos para responder de forma consistente a tipos concretos de incidentes como ransomware o DDoS."
+    },
+    {
+      "pregunta": "Una organización almacena datos de clientes cumpliendo leyes globales de privacidad como GDPR. ¿Qué rol es responsable de determinar cómo y por qué se procesan los datos personales?",
+      "opciones": [
+        "Data Custodian",
+        "Data Owner",
+        "Data Processor",
+        "Data Controller"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Data Controller decide los fines y los medios del tratamiento de datos personales y debe asegurar que se procesen legalmente y de forma transparente."
+    },
+    {
+      "pregunta": "¿Qué documento sería el más apropiado para definir cómo una organización gestiona la clasificación, retención y destrucción de datos?",
+      "opciones": [
+        "Registro de riesgos",
+        "Política de gobernanza de datos",
+        "Acceptable Use Policy",
+        "Plan de respuesta a incidentes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una política de gobernanza de datos establece cómo se clasifican, retienen, protegen y destruyen los datos de forma coherente y conforme a requisitos legales."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes órganos sería el más adecuado para supervisar el cumplimiento de marcos internos de ciberseguridad y escalar problemas a la dirección ejecutiva?",
+      "opciones": [
+        "Equipo de respuesta a incidentes",
+        "Change Advisory Board",
+        "Comité de gobernanza",
+        "Red Team"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un comité de gobernanza supervisa políticas y cumplimiento, alinea la ciberseguridad con objetivos de negocio y escala asuntos relevantes a la alta dirección."
+    },
+    {
+      "pregunta": "Durante una evaluación de riesgos, un consultor señala que históricamente se produce una inundación en la región del centro de datos una vez cada 10 años. ¿Qué representa esta información?",
+      "opciones": [
+        "Recovery Point Objective",
+        "Probabilidad",
+        "Exposure Factor",
+        "Riesgo residual"
+      ],
+      "respuesta": 1,
+      "explicacion": "La probabilidad expresa la frecuencia o posibilidad de que ocurra un evento de amenaza; una ocurrencia cada 10 años es una medida histórica de esa frecuencia."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes documentos suele considerarse menos formal y no legalmente vinculante, pero aun así describe responsabilidades compartidas entre las partes?",
+      "opciones": [
+        "Plan de continuidad de negocio",
+        "Memorandum of Understanding",
+        "Memorandum of Agreement",
+        "Service-level Agreement"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un MOU documenta un entendimiento y responsabilidades compartidas entre partes y normalmente es menos formal y no vinculante."
+    },
+    {
+      "pregunta": "Una empresa contrata a una firma de pruebas de penetración para evaluar una aplicación nueva. Antes de comenzar, ambas partes acuerdan qué herramientas pueden usarse, qué sistemas están dentro del alcance y cómo deben reportarse los hallazgos. ¿Cómo se llama este acuerdo?",
+      "opciones": [
+        "Acceptable Use Policy",
+        "Non-Disclosure Agreement",
+        "Registro de riesgos",
+        "Rules of Engagement"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las Rules of Engagement definen alcance, métodos autorizados, límites, comunicación, escalado y procedimientos de reporte antes de una prueba de seguridad."
+    },
+    {
+      "pregunta": "Un equipo de seguridad contrata a un Red Team para simular ataques reales contra su infraestructura e identificar debilidades. ¿Qué enfoque de seguridad es este?",
+      "opciones": [
+        "Seguridad defensiva",
+        "Seguridad ofensiva",
+        "Auditoría de cumplimiento",
+        "Formación de concienciación en seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "La seguridad ofensiva utiliza acciones autorizadas de ataque simulado, como red teaming y pentesting, para descubrir y explotar debilidades antes que un atacante real."
+    },
+    {
+      "pregunta": "Una empresa quiere validar la eficacia de sus sistemas de detección mediante ataques simulados sigilosos. ¿Qué enfoque está utilizando?",
+      "opciones": [
+        "White box testing",
+        "Seguridad defensiva",
+        "Seguridad ofensiva",
+        "Transferencia de riesgo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las simulaciones de ataques reales destinadas a probar detección y respuesta forman parte de la seguridad ofensiva."
+    },
+    {
+      "pregunta": "Una empresa recibe una multa por no informar de una filtración de datos a los reguladores dentro del plazo obligatorio de 72 horas. ¿Qué provocó más probablemente la multa?",
+      "opciones": [
+        "Incumplimiento de los requisitos legales de notificación",
+        "Incumplimiento de un acuerdo de servicio con el cliente",
+        "Violación de una política interna de control de acceso",
+        "Fallo en la monitorización de logs de red"
+      ],
+      "respuesta": 0,
+      "explicacion": "Normativas como GDPR establecen plazos específicos para notificar determinadas brechas a la autoridad competente; incumplir ese plazo puede generar sanciones."
+    },
+    {
+      "pregunta": "Una empresa de software desarrolla una aplicación orientada a clientes que procesa transacciones con tarjetas de crédito. El equipo de seguridad realiza una evaluación de riesgos al principio del proyecto, identifica amenazas y recomienda cifrado, controles de acceso y validación de entradas. ¿En qué fase del SDLC ocurre esto?",
+      "opciones": ["Desarrollo", "Planificación", "Pruebas", "Mantenimiento"],
+      "respuesta": 1,
+      "explicacion": "La planificación temprana incluye identificar riesgos y definir requisitos y controles de seguridad que guiarán el diseño y desarrollo posteriores."
+    },
+    {
+      "pregunta": "Después de desplegar una aplicación web, el equipo de seguridad detecta alertas de intentos de acceso no autorizado y recomienda aplicar un parche para una vulnerabilidad recién descubierta en el framework. ¿A qué fase del SDLC pertenece esta actividad?",
+      "opciones": ["Diseño", "Mantenimiento", "Planificación", "Desarrollo"],
+      "respuesta": 1,
+      "explicacion": "El mantenimiento incluye supervisar sistemas desplegados y aplicar actualizaciones y parches para corregir vulnerabilidades descubiertas en producción."
+    },
+    {
+      "pregunta": "Una empresa decide no invertir en herramientas adicionales de monitorización de endpoints porque la dirección considera que la probabilidad de un ataque dirigido es baja y el coste demasiado alto. ¿Qué concepto refleja esta decisión?",
+      "opciones": [
+        "Transferencia de riesgo",
+        "Apetito de riesgo",
+        "Registro de riesgos",
+        "Evitación del riesgo"
+      ],
+      "respuesta": 1,
+      "explicacion": "El apetito de riesgo representa el nivel de riesgo que una organización está dispuesta a aceptar para alcanzar sus objetivos considerando coste y beneficio."
+    },
+    {
+      "pregunta": "A un administrador de TI se le asigna implementar controles de acceso en un servidor de archivos, realizar copias de seguridad periódicas y garantizar la integridad de los datos durante las transferencias. ¿Qué rol está desempeñando?",
+      "opciones": [
+        "Data Custodian",
+        "Data Owner",
+        "Data Controller",
+        "Security Auditor"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Data Custodian se ocupa de la gestión operativa diaria de los datos, incluidos controles técnicos, copias de seguridad, integridad y disponibilidad."
+    },
+    {
+      "pregunta": "Un responsable de una unidad de negocio decide qué empleados pueden acceder a datos financieros sensibles y cuál debe ser su periodo de retención. ¿Qué rol tiene?",
+      "opciones": [
+        "Data Custodian",
+        "Data Processor",
+        "Data Owner",
+        "Privacy Officer"
+      ],
+      "respuesta": 2,
+      "explicacion": "El Data Owner es responsable de decisiones de negocio sobre uso, clasificación, acceso y retención de los datos."
+    },
+    {
+      "pregunta": "Un Privacy Officer se prepara para una auditoría GDPR y debe demostrar que la empresa puede identificar todos los datos personales que posee, dónde están ubicados y quién tiene acceso a ellos. ¿Qué intenta demostrar?",
+      "opciones": [
+        "Jerarquía de propiedad de datos",
+        "Implementación de cifrado",
+        "Inventario de datos",
+        "Cumplimiento de gestión de parches"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un inventario de datos documenta qué datos existen, dónde se almacenan y quién puede acceder a ellos, lo que facilita cumplimiento y respuesta a derechos de los interesados."
+    },
+    {
+      "pregunta": "Una empresa descubre que varios departamentos están desplegando servicios cloud sin seguir las políticas de seguridad de la organización. ¿Qué debería implementar el responsable de seguridad para recuperar un control coherente en todas las unidades de negocio?",
+      "opciones": [
+        "Propiedad de TI descentralizada",
+        "Gobernanza de seguridad centralizada",
+        "Revisiones anuales de políticas",
+        "Escaneos trimestrales de vulnerabilidades"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gobernanza de seguridad centralizada establece supervisión y requisitos obligatorios comunes para evitar que unidades independientes eludan políticas y creen Shadow IT."
+    },
+    {
+      "pregunta": "Un pentester está realizando la fase inicial de una evaluación. Utiliza herramientas para escanear puertos abiertos, hacer banner grabbing para identificar versiones de servicios y mapear el rango de direcciones IP del objetivo. ¿Qué describe mejor esta actividad?",
+      "opciones": [
+        "Reconocimiento pasivo",
+        "Reconocimiento activo",
+        "Persistencia ofensiva",
+        "Integración defensiva"
+      ],
+      "respuesta": 1,
+      "explicacion": "El reconocimiento activo interactúa directamente con el objetivo mediante escaneos, sondeos o consultas y, por ello, puede ser detectado por IDS/IPS y registros."
+    },
+    {
+      "pregunta": "Una empresa proporciona un informe SOC a un cliente importante como parte de una revisión de assurance de proveedores. ¿Qué categoría describe MEJOR este tipo de reporte?",
+      "opciones": [
+        "Reporte interno de cumplimiento",
+        "Reporte externo de cumplimiento",
+        "Reporte operativo",
+        "Reporte investigativo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Compartir un informe SOC con un cliente o tercero es reporte externo de cumplimiento porque proporciona evidencia de assurance fuera de la organización."
+    },
+    {
+      "pregunta": "El equipo de privacidad recibe de un cliente una solicitud para que sus datos personales sean eliminados permanentemente de todos los sistemas de la empresa. ¿Qué concepto de privacidad regula esta solicitud?",
+      "opciones": [
+        "Soberanía de datos",
+        "Derecho al olvido",
+        "Derechos del interesado",
+        "Distinción Controller vs. Processor"
+      ],
+      "respuesta": 1,
+      "explicacion": "El derecho al olvido permite al interesado solicitar la supresión de sus datos personales bajo determinadas condiciones legales."
+    },
+    {
+      "pregunta": "Un empleado nuevo recibe acceso a sistemas, aplicaciones y unidades compartidas en su primer día. Seis meses después cambia de puesto, pero sus accesos anteriores nunca se eliminan. ¿Qué dos problemas crea esto?",
+      "opciones": [
+        "Separation of Duties y escalada de privilegios",
+        "Privilege creep y violación del least privilege",
+        "Insider threat y problemas de soberanía de datos",
+        "Misconfiguration y riesgo de bloqueo de cuenta"
+      ],
+      "respuesta": 1,
+      "explicacion": "Conservar permisos que ya no son necesarios provoca privilege creep y viola el principio de least privilege, que limita el acceso a lo estrictamente necesario para el rol actual."
+    },
+    {
+      "pregunta": "Una organización sustituye su auditoría manual anual por un sistema que comprueba automáticamente cada hora las configuraciones de servidores frente a una baseline. ¿Qué está implementando?",
+      "opciones": [
+        "Evaluación puntual",
+        "Monitorización continua",
+        "Análisis cualitativo de riesgos",
+        "Reconocimiento pasivo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La monitorización continua verifica de forma frecuente y automatizada el estado de controles y configuraciones para detectar desviaciones o configuration drift rápidamente."
+    },
+    {
+      "pregunta": "Un equipo de cumplimiento descubre que una unidad de negocio lleva tiempo utilizando un sistema cloud fuera de los canales de compra aprobados y sin revisión de TI o seguridad. ¿Qué término describe esta situación?",
+      "opciones": [
+        "Misconfiguration",
+        "Shadow IT",
+        "Privilege creep",
+        "Violación de soberanía de datos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Shadow IT es tecnología desplegada o utilizada fuera de los procesos oficiales de TI, lo que evita revisiones, controles y supervisión establecidos."
+    },
+    {
+      "pregunta": "Un equipo de seguridad actualiza reglas de firewall sin avisar a las unidades de negocio afectadas y provoca que una aplicación crítica deje de funcionar. ¿Qué fallo de proceso de gobernanza causó esto?",
+      "opciones": [
+        "No se siguió el plan de respuesta a incidentes",
+        "Se omitió el proceso de gestión de cambios",
+        "La política de firewall tenía reglas insuficientes",
+        "La planificación de continuidad de negocio era inadecuada"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de cambios exige análisis de impacto, comunicación, pruebas, aprobación y normalmente un plan de reversión antes de modificar producción."
+    },
+    {
+      "pregunta": "Una organización realiza una \"Self-Assessment\" de su cumplimiento con el NIST Cybersecurity Framework. ¿Cuál es la principal desventaja de este tipo de evaluación?",
+      "opciones": [
+        "Es más cara que una auditoría externa",
+        "Carece de objetividad independiente",
+        "No puede utilizarse para identificar brechas de seguridad",
+        "Solo es aplicable a organismos gubernamentales"
+      ],
+      "respuesta": 1,
+      "explicacion": "Al realizarla personal de la propia organización existe riesgo de sesgo y de pasar por alto deficiencias que un evaluador independiente podría detectar."
+    },
+    {
+      "pregunta": "La política de recuperación ante desastres de una organización no se ha probado en cuatro años. Una inundación destruye el centro de datos principal y la recuperación tarda tres semanas en lugar del RTO documentado de 48 horas. ¿Qué fallo de gobernanza contribuyó de forma más directa?",
+      "opciones": [
+        "El RTO se definió de forma demasiado agresiva",
+        "La política carecía de suficiente detalle técnico",
+        "No probar y validar el plan de recuperación frente a los objetivos documentados",
+        "La inundación era un evento imprevisible no cubierto por la política"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las pruebas periódicas verifican que los RTO sean alcanzables y que procedimientos, personal e infraestructura sigan siendo válidos; sin pruebas, el plan puede quedar obsoleto."
+    },
+    {
+      "pregunta": "Se detecta una vulnerabilidad en un servidor de alta prioridad que no puede parchearse sin dejar el negocio fuera de servicio durante 24 horas. El IT Manager quiere aplicar el parche, pero el Head of Sales rechaza el tiempo de inactividad. ¿Quién es la persona más apropiada para tomar la decisión final de aceptar el riesgo?",
+      "opciones": [
+        "El Security Analyst",
+        "El IT Manager",
+        "El Risk Owner",
+        "El System Administrator"
+      ],
+      "respuesta": 2,
+      "explicacion": "El Risk Owner tiene autoridad sobre el proceso de negocio afectado y puede aceptar formalmente el riesgo al valorar el impacto empresarial frente al riesgo de seguridad."
+    },
+    {
+      "pregunta": "El CISO identifica que el uso de una base de datos legacy incumple varias políticas de seguridad. El CISO lo presenta al CFO, quien firma una \"Risk Exception\" para seguir usando la base de datos y ahorrar costes. En este escenario, el CFO actúa como:",
+      "opciones": [
+        "Risk Custodian",
+        "Risk Owner",
+        "Data Auditor",
+        "Privacy Officer"
+      ],
+      "respuesta": 1,
+      "explicacion": "Al firmar una excepción de riesgo, el CFO asume formalmente la responsabilidad de aceptar ese riesgo en nombre del negocio, por lo que actúa como Risk Owner."
+    },
+    {
+      "pregunta": "Una agencia gubernamental que maneja datos clasificados de seguridad nacional mantiene controles estrictos, evita tecnologías nuevas no probadas y exige una evaluación exhaustiva antes de trabajar con terceros. ¿Qué apetito de riesgo refleja?",
+      "opciones": ["Expansionista", "Neutral", "Residual", "Conservador"],
+      "respuesta": 3,
+      "explicacion": "Un apetito de riesgo conservador busca minimizar la exposición incluso si ello reduce velocidad, innovación u oportunidades de negocio."
+    },
+    {
+      "pregunta": "Una organización sufre un ataque de ransomware. Tras contener la amenaza inmediata, el equipo de seguridad sigue una guía específica paso a paso que describe las acciones técnicas exactas para este tipo de malware. ¿Cómo se llama este documento?",
+      "opciones": [
+        "Plan estratégico",
+        "Incident Response Playbook",
+        "Business Impact Analysis",
+        "Acceptable Use Policy"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un Incident Response Playbook contiene instrucciones tácticas y detalladas para responder de manera uniforme a un tipo concreto de incidente, como ransomware."
+    },
+    {
+      "pregunta": "Un project manager va a compartir un documento que incluye SSN de empleados, detalles de nómina y números de cuentas de depósito directo. Según una política típica de clasificación de datos, ¿cuál es la clasificación más apropiada?",
+      "opciones": ["Público", "Interno", "Confidencial", "Restringido"],
+      "respuesta": 3,
+      "explicacion": "Datos como SSN, información bancaria y nóminas suelen clasificarse como Restringidos o Highly Confidential porque su divulgación puede causar graves daños legales, financieros y de privacidad."
+    },
+    {
+      "pregunta": "Un Chief Technology Officer (CTO) está eligiendo un nuevo proveedor de firewalls. Uno de los finalistas es una empresa propiedad del hermano del CTO. El CTO no lo revela y presiona para que se seleccione ese proveedor. ¿Qué ha ocurrido?",
+      "opciones": [
+        "Due Diligence",
+        "Conflicto de interés",
+        "Vendor Lock-in",
+        "Supply Chain Risk"
+      ],
+      "respuesta": 1,
+      "explicacion": "Existe un conflicto de interés cuando una relación o interés personal puede comprometer el juicio profesional, especialmente en decisiones de selección de proveedores."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está creando un playbook para responder a incidentes de ransomware. ¿A qué elemento de gobernanza pertenece este documento?",
+      "opciones": ["Estándares", "Procedimientos", "Directrices", "Políticas"],
+      "respuesta": 1,
+      "explicacion": "Los procedimientos proporcionan instrucciones detalladas y secuenciales para realizar una tarea o responder a una situación específica; un playbook de ransomware encaja en esa categoría."
+    }
+  ]
+}

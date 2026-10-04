@@ -1,0 +1,912 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Segundo Test",
+  "procedencia": "Cyber Learning - CompTIA Security Plus 701 Practice Exam Questions (2026)",
+  "descripcion": "Segundo test de práctica para CompTIA Security+ SY0-701, con preguntas sobre amenazas, vulnerabilidades, malware, ingeniería social, seguridad de redes, criptografía, cloud, pruebas de penetración y mitigaciones.",
+  "preguntas": [
+    {
+      "pregunta": "Un desarrollador está creando una aplicación web que almacena contraseñas de usuarios en una base de datos. Para mitigar el riesgo de que los atacantes utilicen tablas arcoíris (Rainbow Tables) para obtener rápidamente las contraseñas a partir de sus hashes si la base de datos es robada, ¿qué debería implementar?",
+      "opciones": [
+        "Firmas digitales",
+        "Key Escrow",
+        "Salting",
+        "Esteganografía"
+      ],
+      "respuesta": 2,
+      "explicacion": "El salting añade un valor aleatorio y único a cada contraseña antes de calcular su hash. Esto provoca que contraseñas iguales produzcan hashes diferentes e inutiliza las tablas arcoíris precalculadas."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe mejor el concepto de vulnerabilidad zero-day?",
+      "opciones": [
+        "Una vulnerabilidad que existe desde hace cero días.",
+        "Una vulnerabilidad que ha sido explotada durante cero días.",
+        "Una vulnerabilidad desconocida para el proveedor del software y para la que no existe un parche disponible.",
+        "Una vulnerabilidad que se encuentra en el nivel de riesgo más bajo."
+      ],
+      "respuesta": 2,
+      "explicacion": "Una vulnerabilidad zero-day es una vulnerabilidad para la que el proveedor todavía no dispone de una corrección o parche, normalmente porque acaba de descubrirse o aún no se ha solucionado."
+    },
+    {
+      "pregunta": "Un empleado recibe un correo electrónico con un archivo adjunto que parece ser una factura de un proveedor conocido. Lo abre y parece un PDF inofensivo, pero en segundo plano se instala silenciosamente un programa malicioso que proporciona acceso remoto a un atacante, quien comienza a robar datos sensibles. ¿Qué tipo de malware ha encontrado el empleado?",
+      "opciones": ["Virus", "Trojan", "Worm", "Spyware"],
+      "respuesta": 1,
+      "explicacion": "Un Trojan se hace pasar por un archivo o programa legítimo para conseguir que el usuario lo ejecute. Una vez instalado puede proporcionar acceso remoto u otras funciones maliciosas."
+    },
+    {
+      "pregunta": "Un administrador junior elimina accidentalmente varios archivos críticos de configuración de un servidor de producción. La investigación revela que tenía permisos completos de escritura aunque no los necesitaba para sus tareas diarias. ¿Qué técnica de mitigación habría evitado con mayor eficacia este incidente?",
+      "opciones": [
+        "Principio de mínimo privilegio",
+        "Application allow listing",
+        "Cifrado de datos en reposo",
+        "HIPS"
+      ],
+      "respuesta": 0,
+      "explicacion": "El principio de mínimo privilegio limita los permisos a los estrictamente necesarios. Si el administrador solo hubiera tenido los permisos requeridos para su función, no habría podido eliminar esos archivos."
+    },
+    {
+      "pregunta": "Un administrador de seguridad ha detectado varios intentos de acceso no autorizado a los sistemas internos de la organización. Los intentos suelen consistir en probar combinaciones comunes de nombres de usuario y contraseñas. ¿Qué tipo de ataque describe mejor este escenario?",
+      "opciones": [
+        "Ataque de SQL injection",
+        "Ataque de fuerza bruta",
+        "Ataque DDoS",
+        "Ataque Cross-Site Scripting (XSS)"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un ataque de fuerza bruta prueba repetidamente distintas credenciales con el objetivo de encontrar una combinación válida."
+    },
+    {
+      "pregunta": "Un investigador de seguridad descubre que un popular sitio web de redes sociales ha sido comprometido. Los atacantes han inyectado código malicioso en el sitio que infecta los dispositivos de los usuarios que visitan las páginas comprometidas. ¿Qué tipo de ataque describe este escenario?",
+      "opciones": [
+        "Ataque de ransomware",
+        "Ataque watering hole",
+        "Ataque de typosquatting",
+        "Ataque de spear-phishing"
+      ],
+      "respuesta": 1,
+      "explicacion": "En un watering hole, el atacante compromete un sitio legítimo frecuentado por las víctimas objetivo para infectarlas cuando lo visitan."
+    },
+    {
+      "pregunta": "Una aplicación web heredada está configurada para utilizar el estándar de cifrado DES por compatibilidad con sistemas antiguos. Una auditoría lo considera una vulnerabilidad crítica porque la longitud efectiva de la clave es demasiado corta frente a la capacidad de cálculo moderna. ¿Qué ataque es el MÁS probable contra esta configuración?",
+      "opciones": [
+        "Birthday attack",
+        "Downgrade attack",
+        "Fuerza bruta",
+        "Side-loading"
+      ],
+      "respuesta": 2,
+      "explicacion": "DES utiliza una clave efectiva de 56 bits, suficientemente corta para que hardware moderno pueda probar el espacio de claves mediante fuerza bruta."
+    },
+    {
+      "pregunta": "La aplicación web de una empresa ha sido comprometida recientemente y se han robado datos de clientes. El equipo de ciberseguridad descubre que los atacantes explotaron una vulnerabilidad en el código de la aplicación para obtener acceso no autorizado a la base de datos. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Ataque de SQL injection",
+        "Ataque man-in-the-middle",
+        "Ataque Cross-Site Scripting (XSS)",
+        "Vulnerabilidad zero-day"
+      ],
+      "respuesta": 0,
+      "explicacion": "SQL injection aprovecha una validación inadecuada de las entradas para alterar consultas SQL y obtener acceso no autorizado a una base de datos."
+    },
+    {
+      "pregunta": "Un usuario instala una herramienta gratuita de \"optimización del sistema\" desde un anuncio emergente. Tras la instalación, el sistema empieza a mostrar anuncios constantemente, redirige el tráfico web e instala programas adicionales no deseados sin permiso. ¿Qué clasificación encaja MEJOR?",
+      "opciones": ["Adware", "Bloatware", "Spyware", "Logic bomb"],
+      "respuesta": 0,
+      "explicacion": "El adware suele distribuirse mediante programas gratuitos y genera publicidad agresiva, redirecciones u otros componentes no deseados tras la instalación."
+    },
+    {
+      "pregunta": "¿Qué ataque consiste en inundar una red con paquetes ICMP echo request enviados a una dirección de broadcast?",
+      "opciones": [
+        "SYN flood",
+        "Smurf attack",
+        "Ataque DDoS",
+        "Ataque de amplificación DNS"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un Smurf attack envía solicitudes ICMP echo a una dirección de broadcast utilizando como origen la dirección de la víctima, provocando numerosas respuestas hacia ella."
+    },
+    {
+      "pregunta": "Un usuario encuentra un fallo en un formulario de carga de archivos que le permite eludir restricciones de entrada y ejecutar comandos de shell en el servidor. Como resultado, obtiene acceso administrativo al sistema operativo subyacente. ¿De qué es un ejemplo?",
+      "opciones": [
+        "Remote code execution",
+        "Buffer overflow",
+        "Insider threat",
+        "Privilege escalation"
+      ],
+      "respuesta": 3,
+      "explicacion": "Aunque el fallo puede permitir ejecución remota de código, el resultado destacado es obtener un nivel de privilegios administrativo superior al inicial, es decir, privilege escalation."
+    },
+    {
+      "pregunta": "El sitio web de una organización está recibiendo un volumen inusualmente alto de tráfico, lo que hace que deje de responder. El tráfico procede de diversas fuentes y está sobrecargando el servidor. ¿Qué tipo de ataque indica este escenario?",
+      "opciones": [
+        "Ataque de phishing",
+        "Ataque man-in-the-middle",
+        "Ataque de Denial of Service (DoS)",
+        "Ataque de ransomware"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un ataque DoS pretende agotar los recursos de un servicio o sistema para impedir que los usuarios legítimos puedan utilizarlo."
+    },
+    {
+      "pregunta": "Un empleado ha perdido el smartphone proporcionado por la empresa y este contenía datos corporativos sensibles. ¿Qué tipo de amenaza ilustra este escenario?",
+      "opciones": [
+        "Ataque de phishing",
+        "Insider threat",
+        "Brecha de seguridad física",
+        "Ataque de ransomware"
+      ],
+      "respuesta": 2,
+      "explicacion": "La pérdida física de un dispositivo que contiene información sensible supone una brecha de seguridad física y puede provocar exposición de datos."
+    },
+    {
+      "pregunta": "Un administrador de red ha implementado una regla de firewall que permite únicamente determinado tráfico entrante procedente de direcciones IP de confianza y bloquea todo el resto. ¿Qué principio de seguridad ejemplifica esta regla?",
+      "opciones": [
+        "Principio de mínimo privilegio",
+        "Defense in depth",
+        "Zero trust",
+        "Security by design"
+      ],
+      "respuesta": 0,
+      "explicacion": "El mínimo privilegio restringe el acceso únicamente a aquello que es necesario y deniega el resto de forma predeterminada."
+    },
+    {
+      "pregunta": "Un actor de amenazas patrocinado por un Estado compromete con éxito la red de un contratista de defensa. En lugar de cifrar archivos o interrumpir las operaciones, permanece oculto durante meses copiando planos sensibles de un caza de nueva generación. ¿Cuál describe MEJOR la motivación principal?",
+      "opciones": [
+        "Espionaje",
+        "Beneficio económico",
+        "Creencias filosóficas",
+        "Venganza"
+      ],
+      "respuesta": 0,
+      "explicacion": "El espionaje busca obtener secretos militares, gubernamentales o propiedad intelectual para conseguir una ventaja estratégica a largo plazo."
+    },
+    {
+      "pregunta": "¿Qué ataque implica una avalancha de solicitudes de conexión con direcciones IP falsificadas para saturar un servidor?",
+      "opciones": [
+        "SYN Flood",
+        "Ataque DDoS",
+        "Man-in-the-Middle (MitM)",
+        "DNS Spoofing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un SYN flood envía numerosas solicitudes TCP SYN, con frecuencia utilizando direcciones de origen falsificadas, para consumir los recursos destinados a conexiones incompletas."
+    },
+    {
+      "pregunta": "Un usuario se queja de que una aplicación preinstalada de \"asistente de compras\" de su portátil muestra anuncios ocasionales y recomienda ofertas online. La aplicación fue incluida por el fabricante, no modifica la configuración del navegador ni instala componentes adicionales. ¿Qué es lo MÁS probable?",
+      "opciones": ["Bloatware", "Adware", "Trojan", "Keylogger"],
+      "respuesta": 0,
+      "explicacion": "El bloatware es software legítimo pero generalmente innecesario que viene preinstalado por el fabricante y puede consumir recursos o resultar molesto."
+    },
+    {
+      "pregunta": "El portátil de un ejecutivo fue infectado con un Keylogger después de instalar un \"Conversor PDF gratuito\". El atacante consiguió capturar las credenciales del portal financiero de la empresa. ¿Qué medida sería la MÁS eficaz para impedir que el atacante utilice las credenciales robadas?",
+      "opciones": [
+        "Software antispyware",
+        "MFA",
+        "Cambiar el nombre de usuario",
+        "Usar una VPN"
+      ],
+      "respuesta": 1,
+      "explicacion": "MFA exige un factor adicional aparte de la contraseña. Aunque el atacante disponga de las credenciales robadas, seguirá necesitando ese segundo factor para autenticarse."
+    },
+    {
+      "pregunta": "Una empresa está realizando una auditoría de seguridad y pruebas de penetración en su red para identificar y corregir vulnerabilidades antes de que puedan ser explotadas. ¿Qué práctica de seguridad está siguiendo?",
+      "opciones": [
+        "Respuesta a incidentes",
+        "Evaluación de seguridad",
+        "Formación de concienciación en seguridad",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una evaluación de seguridad, incluida la prueba de penetración, identifica vulnerabilidades y evalúa la eficacia de las defensas antes de que sean explotadas."
+    },
+    {
+      "pregunta": "Una organización ha configurado un segmento de red dedicado al acceso Wi-Fi de invitados y lo ha aislado de la red interna. ¿Con qué principio de seguridad se corresponde?",
+      "opciones": [
+        "Principio de mínimo privilegio",
+        "Defense in depth",
+        "Segmentación de red",
+        "Security by design"
+      ],
+      "respuesta": 2,
+      "explicacion": "La segmentación de red divide la infraestructura en zonas aisladas para controlar el acceso y limitar el movimiento lateral."
+    },
+    {
+      "pregunta": "Una empresa migra a un entorno cloud y asume que el proveedor cloud es responsable de protegerlo todo, incluidos los datos y las aplicaciones del cliente. ¿Qué concepto de seguridad cloud ha interpretado incorrectamente?",
+      "opciones": [
+        "Cloud federation",
+        "Modelo de responsabilidad compartida",
+        "Vulnerabilidad de reutilización de recursos",
+        "Riesgo de proveedores externos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El modelo de responsabilidad compartida divide las obligaciones de seguridad entre el proveedor cloud y el cliente. El cliente sigue siendo responsable de áreas como datos, identidades, aplicaciones y configuraciones."
+    },
+    {
+      "pregunta": "Una organización está configurando un sitio de recuperación ante desastres en una ubicación geográficamente distante de su centro de datos principal. El sitio está completamente operativo y listo para asumir las operaciones. ¿Qué estrategia de recuperación ante desastres es?",
+      "opciones": ["Alta disponibilidad", "Cold site", "Hot site", "Warm site"],
+      "respuesta": 2,
+      "explicacion": "Un hot site dispone de sistemas e infraestructura operativos y preparados para asumir rápidamente las funciones del centro principal."
+    },
+    {
+      "pregunta": "Un atacante llama a un empleado haciéndose pasar por un compañero de otro departamento y solicita información sensible para completar un informe. ¿Qué técnica de ingeniería social es?",
+      "opciones": ["Impersonation", "Tailgating", "Phishing", "Vishing"],
+      "respuesta": 0,
+      "explicacion": "Impersonation consiste en hacerse pasar por una persona de confianza para convencer a la víctima de que facilite información o realice una acción."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de un honeypot en seguridad de redes?",
+      "opciones": [
+        "Un dispositivo utilizado para capturar y analizar tráfico de red.",
+        "Un sistema señuelo diseñado para atraer y monitorizar actividad maliciosa.",
+        "Una ubicación segura para almacenar datos sensibles.",
+        "Un tipo de firewall para filtrar tráfico entrante y saliente."
+      ],
+      "respuesta": 1,
+      "explicacion": "Un honeypot simula un objetivo atractivo para atraer atacantes a un entorno controlado donde su comportamiento puede ser observado y analizado."
+    },
+    {
+      "pregunta": "Un atacante se hace pasar por repartidor, lleva un paquete para una empresa y convence a un empleado para que le permita entrar en el edificio. Una vez dentro obtiene acceso no autorizado a la red. ¿Qué técnica de ingeniería social es?",
+      "opciones": ["Tailgating", "Pretexting", "Phishing", "Vishing"],
+      "respuesta": 0,
+      "explicacion": "El tailgating consiste en acceder físicamente a una zona restringida aprovechando el acceso de una persona autorizada o convenciendo a alguien para que permita la entrada."
+    },
+    {
+      "pregunta": "Un empleado recibe un correo que parece proceder del departamento de TI de su empresa. El mensaje solicita restablecer la contraseña de correo debido a una brecha de seguridad e incluye un enlace a una página de inicio de sesión. ¿A qué amenaza se enfrenta?",
+      "opciones": [
+        "Ataque de phishing",
+        "Insider threat",
+        "Ataque man-in-the-middle",
+        "Ataque de ransomware"
+      ],
+      "respuesta": 0,
+      "explicacion": "El phishing suplanta a una entidad de confianza para engañar al usuario y conseguir que entregue información sensible, por ejemplo mediante una página de inicio de sesión falsa."
+    },
+    {
+      "pregunta": "Durante una prueba de penetración, el tester intenta conseguir acceso no autorizado a un sistema explotando vulnerabilidades conocidas sin disponer de información previa sobre el objetivo. ¿Qué técnica de penetration testing es?",
+      "opciones": [
+        "White-box testing",
+        "Black-box testing",
+        "Gray-box testing",
+        "Vulnerability scanning"
+      ],
+      "respuesta": 1,
+      "explicacion": "En una prueba black-box, el tester parte sin conocimiento interno previo y actúa de manera similar a un atacante externo."
+    },
+    {
+      "pregunta": "Un penetration tester utiliza un vulnerability scanner para identificar problemas de seguridad conocidos en un sistema objetivo. ¿A qué fase del proceso de penetration testing pertenece esta acción?",
+      "opciones": [
+        "Scoping",
+        "Information gathering",
+        "Vulnerability analysis",
+        "Exploitation"
+      ],
+      "respuesta": 2,
+      "explicacion": "El uso de scanners para detectar y clasificar vulnerabilidades conocidas forma parte de la fase de vulnerability analysis."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de un ataque Denial of Service (DoS)?",
+      "opciones": [
+        "Robar datos sensibles de una red.",
+        "Obtener acceso no autorizado a un sistema.",
+        "Interrumpir un servicio o hacerlo inaccesible para sus usuarios.",
+        "Interceptar y escuchar comunicaciones de red."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un DoS busca degradar o impedir la disponibilidad de un servicio mediante saturación de recursos u otras acciones disruptivas."
+    },
+    {
+      "pregunta": "En una prueba de penetración se utilizan herramientas y técnicas para imitar a un atacante que intenta obtener acceso no autorizado a un sistema objetivo. ¿Qué tipo de ejercicio es?",
+      "opciones": [
+        "Red teaming",
+        "Blue teaming",
+        "Pruebas de ingeniería social",
+        "Pruebas pasivas"
+      ],
+      "respuesta": 0,
+      "explicacion": "El red teaming simula las acciones de un adversario real para evaluar la capacidad de las defensas para prevenir, detectar y responder a ataques."
+    },
+    {
+      "pregunta": "Un analista de seguridad descubre que una aplicación no gestiona correctamente sus asignaciones de memoria, lo que puede provocar corrupción de datos y potencialmente ejecución de código arbitrario. ¿Con qué indicador de ataque a aplicaciones está más relacionado?",
+      "opciones": [
+        "Buffer overflows",
+        "Race conditions",
+        "Error handling",
+        "Improper input handling"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un buffer overflow se produce cuando una aplicación escribe datos fuera de los límites de memoria asignados, pudiendo corromper datos o permitir ejecución de código."
+    },
+    {
+      "pregunta": "Un atacante intercepta una solicitud legítima de un usuario y la reenvía varias veces para manipular la aplicación y hacer que ejecute acciones no previstas. ¿Qué indicador de ataque representa?",
+      "opciones": [
+        "Replay attack",
+        "Integer overflow",
+        "Request forgeries",
+        "Memory leak"
+      ],
+      "respuesta": 0,
+      "explicacion": "En un replay attack se captura una comunicación válida y posteriormente se retransmite para repetir una operación o conseguir un efecto no autorizado."
+    },
+    {
+      "pregunta": "Un actor de amenazas motivado por obtener beneficios económicos y que suele utilizar software malicioso para cifrar los datos de una víctima y exigir un rescate se denomina normalmente:",
+      "opciones": [
+        "Hacktivista",
+        "Script kiddie",
+        "Cybercriminal",
+        "Actor nation-state"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los cybercriminals suelen estar motivados por beneficios económicos y utilizan con frecuencia ransomware, fraude y robo de información."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes vectores de amenaza consiste en engañar a personas para que revelen información sensible o realicen acciones que comprometan la seguridad?",
+      "opciones": [
+        "Malware",
+        "Ingeniería social",
+        "Distributed Denial of Service (DDoS)",
+        "Exploits zero-day"
+      ],
+      "respuesta": 1,
+      "explicacion": "La ingeniería social manipula a las personas para obtener información, credenciales o acciones que benefician al atacante."
+    },
+    {
+      "pregunta": "¿Cuál es un problema de seguridad habitual asociado a vulnerabilidades Cross-Site Request Forgery (CSRF)?",
+      "opciones": [
+        "Modificación no autorizada de datos",
+        "Acceso no autorizado a recursos del sistema",
+        "Inyección de código malicioso en páginas web",
+        "Ataques Denial of Service (DoS)"
+      ],
+      "respuesta": 0,
+      "explicacion": "CSRF puede engañar al navegador de un usuario autenticado para que envíe solicitudes no deseadas y modifique datos o configuraciones en su nombre."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos de cifrado se considera seguro y ampliamente utilizado para proteger comunicaciones y datos en Internet?",
+      "opciones": [
+        "DES (Data Encryption Standard)",
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "respuesta": 1,
+      "explicacion": "AES es un algoritmo de cifrado simétrico moderno y ampliamente utilizado. DES está obsoleto, RSA se emplea principalmente en criptografía asimétrica y MD5 es una función hash insegura."
+    },
+    {
+      "pregunta": "En un incidente de ciberseguridad, los atacantes dirigen correos personalizados al equipo ejecutivo de una corporación multinacional y consiguen que revelen datos empresariales y financieros sensibles. ¿Qué tipo de ataque describe este escenario?",
+      "opciones": [
+        "Ataque de ransomware",
+        "Ataque de whaling",
+        "Ataque de spear-phishing",
+        "Ataque DDoS"
+      ],
+      "respuesta": 1,
+      "explicacion": "Whaling es una forma de phishing dirigido específicamente contra ejecutivos o personas de alto nivel dentro de una organización."
+    },
+    {
+      "pregunta": "Un ciberdelincuente registra nombres de dominio similares a sitios web bancarios conocidos pero con pequeños errores tipográficos. Los usuarios que escriben mal la URL pueden terminar en sitios fraudulentos destinados al robo de credenciales. ¿Qué ataque representa?",
+      "opciones": [
+        "Ataque Man-in-the-Middle (MitM)",
+        "Ataque de typosquatting",
+        "Ataque de phishing",
+        "Ataque watering hole"
+      ],
+      "respuesta": 1,
+      "explicacion": "El typosquatting registra dominios que imitan a dominios legítimos mediante errores ortográficos comunes para captar a usuarios que escriben incorrectamente una URL."
+    },
+    {
+      "pregunta": "Un atacante revisa los contenedores de basura de una empresa buscando documentos, facturas y otros materiales desechados que puedan contener información sensible. ¿Qué amenaza de seguridad física representa?",
+      "opciones": [
+        "Dumpster diving",
+        "Ataque de ingeniería social",
+        "Shoulder surfing",
+        "Intrusión física"
+      ],
+      "respuesta": 0,
+      "explicacion": "Dumpster diving consiste en buscar información útil o confidencial entre materiales desechados por una organización."
+    },
+    {
+      "pregunta": "¿Qué ataque pretende manipular la resolución de un sitio para redirigir a los usuarios hacia un sitio fraudulento que parece legítimo y robar su información?",
+      "opciones": [
+        "SQL injection",
+        "Cross-Site Scripting (XSS)",
+        "DNS spoofing",
+        "URL hijacking"
+      ],
+      "respuesta": 2,
+      "explicacion": "DNS spoofing manipula información de resolución DNS para dirigir al usuario hacia una dirección controlada por el atacante."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque implica interceptar o modificar la comunicación entre dos partes sin que estas lo sepan?",
+      "opciones": [
+        "Man-in-the-Middle (MitM)",
+        "Buffer overflow",
+        "Spoofing",
+        "Zero-day exploit"
+      ],
+      "respuesta": 0,
+      "explicacion": "En un ataque MitM el atacante se sitúa entre dos partes para observar, interceptar o modificar sus comunicaciones sin que estas sean conscientes."
+    },
+    {
+      "pregunta": "¿Qué ataque consiste en falsificar el origen de un correo electrónico para que parezca proceder de una fuente de confianza?",
+      "opciones": ["Smurf attack", "Phishing", "Spoofing", "Zero-day exploit"],
+      "respuesta": 2,
+      "explicacion": "El spoofing falsifica información de identidad u origen, como la dirección del remitente de un correo electrónico, para hacerla parecer legítima."
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo principal de un ataque SQL injection?",
+      "opciones": [
+        "Interrumpir conexiones de red",
+        "Modificar registros DNS",
+        "Obtener acceso no autorizado a una base de datos",
+        "Ejecutar ransomware"
+      ],
+      "respuesta": 2,
+      "explicacion": "SQL injection modifica las consultas que una aplicación envía a la base de datos para leer, alterar o controlar información sin autorización."
+    },
+    {
+      "pregunta": "¿Qué ataque consiste en falsificar el origen de un correo electrónico para que parezca proceder de una fuente de confianza?",
+      "opciones": ["Smurf attack", "Phishing", "Spoofing", "Zero-day exploit"],
+      "respuesta": 2,
+      "explicacion": "El spoofing altera la información del remitente u otros datos de origen para que un mensaje parezca proceder de una fuente legítima."
+    },
+    {
+      "pregunta": "¿Cuál podría ser un indicador de un ataque de fuerza bruta contra una red?",
+      "opciones": [
+        "Aumento rápido del tráfico legítimo",
+        "Intentos repetidos de inicio de sesión con credenciales diferentes",
+        "Disminución del uso de CPU del servidor",
+        "Aumento de los recursos disponibles del sistema"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los numerosos intentos de autenticación utilizando diferentes credenciales son un indicador característico de un intento de fuerza bruta."
+    },
+    {
+      "pregunta": "Un atacante intercepta el tráfico de red entre un usuario y el sitio web de su banco, pudiendo leer y modificar los datos intercambiados. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Credential replay attack",
+        "On-path attack",
+        "Ataque DNS",
+        "DDoS amplificado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un on-path attack coloca al atacante en la ruta de comunicación para interceptar y potencialmente modificar el tráfico entre dos extremos."
+    },
+    {
+      "pregunta": "Para mejorar la seguridad de la red, un administrador quiere asegurarse de que solo los dispositivos del departamento financiero puedan acceder al servidor financiero. ¿Qué debería implementar para controlar este acceso a nivel de red?",
+      "opciones": [
+        "Access Control List (ACL) en el router de red",
+        "Políticas de contraseñas en el servidor financiero",
+        "Cifrado de los datos en tránsito al servidor financiero",
+        "Autenticación biométrica en todos los dispositivos de finanzas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una ACL puede permitir o denegar tráfico según direcciones IP, protocolos y otros criterios, proporcionando control directo a nivel de red."
+    },
+    {
+      "pregunta": "¿Qué equipo se centra principalmente en la defensa, prevención y mitigación de amenazas de seguridad dentro de una organización?",
+      "opciones": ["Red team", "Blue team", "White team", "Purple team"],
+      "respuesta": 1,
+      "explicacion": "El blue team se encarga de las actividades defensivas, como monitorización, protección, detección y respuesta ante incidentes."
+    },
+    {
+      "pregunta": "¿Qué equipo facilita la colaboración entre los red teams y blue teams para mejorar las medidas generales de seguridad de una organización?",
+      "opciones": ["Red team", "Blue team", "White team", "Purple team"],
+      "respuesta": 3,
+      "explicacion": "El purple team combina y coordina el conocimiento ofensivo del red team y las capacidades defensivas del blue team para mejorar la seguridad."
+    },
+    {
+      "pregunta": "¿Qué riesgo está asociado al uso de configuraciones predeterminadas en dispositivos y aplicaciones?",
+      "opciones": [
+        "Mayor seguridad mediante estandarización",
+        "Menor exposición a vulnerabilidades conocidas",
+        "Mayor susceptibilidad al acceso no autorizado",
+        "Mayor protección frente a ataques de phishing"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las configuraciones predeterminadas suelen ser ampliamente conocidas y pueden incluir credenciales, servicios o permisos inseguros, aumentando el riesgo de acceso no autorizado."
+    },
+    {
+      "pregunta": "¿Qué define mejor un USB drop attack?",
+      "opciones": [
+        "Obtener acceso físico a un edificio dejando unidades USB frente a las entradas.",
+        "Un ataque físico que consiste en dejar caer dispositivos USB para dañar hardware.",
+        "Colocar unidades USB con malware en lugares públicos para engañar a personas y conseguir que las utilicen.",
+        "Dejar intencionadamente unidades USB en el aparcamiento de una organización para obtener directamente acceso a la red."
+      ],
+      "respuesta": 2,
+      "explicacion": "En un USB drop attack se dejan dispositivos USB maliciosos en lugares donde las víctimas puedan encontrarlos y conectarlos por curiosidad, ejecutando así el malware."
+    },
+    {
+      "pregunta": "En una cafetería concurrida, los clientes se conectan a la red Wi-Fi pública llamada \"FreeCoffeeShopWiFi\". Un atacante crea un punto de acceso parecido llamado \"FreeCoffeeShop_WiFi\" para interceptar el tráfico. ¿Qué ataque inalámbrico representa?",
+      "opciones": [
+        "Ataque de rogue access point",
+        "Ataque evil twin",
+        "Ataque de de-authentication",
+        "Ataque de packet sniffing"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un evil twin imita el nombre o apariencia de una red Wi-Fi legítima para inducir a los usuarios a conectarse al punto de acceso del atacante."
+    },
+    {
+      "pregunta": "En una conferencia empresarial, un asistente descubre que su dispositivo con Bluetooth ha recibido datos de una tarjeta de visita no solicitada desde una fuente desconocida. ¿Qué ataque inalámbrico puede indicar?",
+      "opciones": [
+        "Ataque Bluejacking",
+        "Ataque man-in-the-middle",
+        "Ataque Wardriving",
+        "Ataque Bluesnarfing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Bluejacking consiste en enviar mensajes o datos no solicitados a dispositivos Bluetooth cercanos sin autorización del usuario."
+    },
+    {
+      "pregunta": "En una biblioteca pública, un atacante coloca un dispositivo para capturar tráfico inalámbrico y recopila credenciales e información personal de usuarios conectados al Wi-Fi público. ¿Qué ataque inalámbrico representa?",
+      "opciones": [
+        "Ataque de packet sniffing",
+        "Ataque evil twin",
+        "Ataque de rogue access point",
+        "Ataque de wardriving"
+      ],
+      "respuesta": 0,
+      "explicacion": "Packet sniffing consiste en capturar y analizar tráfico de red; si el tráfico no está correctamente protegido puede revelar información sensible."
+    },
+    {
+      "pregunta": "Una pequeña empresa realiza un vulnerability scan y encuentra varias debilidades en su servidor web que lo hacen susceptible a SQL injection. ¿Cuál debería ser la respuesta inmediata?",
+      "opciones": [
+        "Considerar una actualización de toda la infraestructura de red.",
+        "Realizar otro vulnerability scan antes de tomar medidas.",
+        "Implementar medidas de seguridad o parches para corregir las vulnerabilidades de SQL injection.",
+        "Ignorar las vulnerabilidades porque podrían no suponer una amenaza inmediata."
+      ],
+      "respuesta": 2,
+      "explicacion": "Las vulnerabilidades confirmadas deben corregirse o mitigarse cuanto antes mediante parches, configuración segura y controles específicos para reducir la ventana de exposición."
+    },
+    {
+      "pregunta": "Durante una evaluación de seguridad de red, una herramienta de escaneo marca una versión de software antigua como riesgo de alta gravedad. Una investigación manual confirma que la vulnerabilidad ya está parcheada. ¿Qué tipo de detección es?",
+      "opciones": [
+        "False positive",
+        "False negative",
+        "True positive",
+        "True negative"
+      ],
+      "respuesta": 0,
+      "explicacion": "Es un false positive porque la herramienta informa de una vulnerabilidad que realmente ya no está presente."
+    },
+    {
+      "pregunta": "Un usuario descarga e instala lo que parece una aplicación legítima, pero contiene código malicioso oculto que compromete la seguridad del sistema. ¿Qué tipo de software malicioso describe este escenario?",
+      "opciones": ["Worm", "Trojan", "Spyware", "Ransomware"],
+      "respuesta": 1,
+      "explicacion": "Un Trojan se presenta como software legítimo o útil mientras oculta funciones maliciosas."
+    },
+    {
+      "pregunta": "Una pieza de software malicioso se propaga por una red explotando vulnerabilidades y creando copias de sí misma en otros dispositivos. ¿Qué tipo de malware es?",
+      "opciones": ["Trojan", "Worm", "Spyware", "Adware"],
+      "respuesta": 1,
+      "explicacion": "Un worm es malware autorreplicante capaz de propagarse entre sistemas, normalmente sin necesidad de interacción directa del usuario."
+    },
+    {
+      "pregunta": "Un usuario instala sin saberlo un programa que monitoriza secretamente su actividad online, registra pulsaciones de teclado y envía la información a un servidor remoto. ¿Qué tipo de malware describe?",
+      "opciones": ["Worm", "Trojan", "Spyware", "Ransomware"],
+      "respuesta": 2,
+      "explicacion": "El spyware está diseñado para recopilar de forma encubierta información sobre el usuario y transmitirla a terceros."
+    },
+    {
+      "pregunta": "Una empresa sufre un ataque de ransomware que cifra todos sus archivos críticos. Los atacantes exigen un pago en criptomoneda a cambio de la clave de descifrado. ¿Qué actor de amenazas es el responsable más probable?",
+      "opciones": [
+        "Script kiddies",
+        "Actores nation-state",
+        "Cybercriminals",
+        "Insider threat"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los cybercriminals suelen utilizar ransomware para extorsionar a las víctimas y obtener beneficios económicos."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes términos describe mejor un tipo de software que puede presentarse como legítimo pero contiene código malicioso capaz de comprometer la seguridad de un sistema?",
+      "opciones": ["Malware", "Ransomware", "Adware", "Firewall"],
+      "respuesta": 0,
+      "explicacion": "Malware es el término general para software diseñado con fines maliciosos y engloba categorías como virus, trojans, spyware y ransomware."
+    },
+    {
+      "pregunta": "¿Cuál es una característica habitual de un ataque man-in-the-middle (MitM)?",
+      "opciones": [
+        "El atacante intercepta y altera datos entre dos partes sin que estas lo sepan.",
+        "El atacante inunda una red con tráfico excesivo.",
+        "El atacante disfraza código malicioso como software legítimo.",
+        "El atacante accede a un sistema mediante credenciales robadas."
+      ],
+      "respuesta": 0,
+      "explicacion": "MitM implica situarse entre dos participantes para interceptar, observar o modificar sus comunicaciones sin que lo detecten."
+    },
+    {
+      "pregunta": "El equipo de seguridad de una empresa descubre que un grupo de atacantes ha estado escaneando la red y los sistemas de la organización en busca de vulnerabilidades explotables. Esta actividad previa al ataque es un ejemplo de:",
+      "opciones": [
+        "Intrusion detection",
+        "Dumpster diving",
+        "Reconnaissance",
+        "Cifrado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Reconnaissance es la fase en la que un atacante recopila información sobre objetivos, sistemas, servicios y vulnerabilidades antes de realizar el ataque."
+    },
+    {
+      "pregunta": "Un grupo de empleados de una empresa financiera visita con frecuencia el sitio web de una cafetería local para consultar las ofertas diarias. Un atacante compromete ese sitio para distribuir malware. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Drive-by download",
+        "Watering hole",
+        "Man-in-the-middle",
+        "SQL injection"
+      ],
+      "respuesta": 1,
+      "explicacion": "En un watering hole, el atacante compromete un sitio que sabe que visita habitualmente el grupo de víctimas objetivo."
+    },
+    {
+      "pregunta": "Un atacante llama al departamento de RR. HH. de una empresa haciéndose pasar por un candidato a un puesto. Solicita información detallada sobre los beneficios y el proceso de incorporación con intención de usarla en un ataque posterior. ¿Qué tipo de ataque está realizando?",
+      "opciones": ["Phishing", "Spear-phishing", "Pretexting", "Tailgating"],
+      "respuesta": 2,
+      "explicacion": "Pretexting consiste en inventar una historia o identidad creíble para conseguir que la víctima revele información útil."
+    },
+    {
+      "pregunta": "Un usuario inicia sesión en un portal corporativo desde el Wi-Fi público de una cafetería. Sin saberlo, un atacante ha colocado un dispositivo entre el usuario y el portal, capturando las credenciales y observando todo el tráfico intercambiado. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "On-path attack",
+        "Credential stuffing",
+        "Replay attack",
+        "Session fixation"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un on-path attack intercepta en tiempo real las comunicaciones entre dos extremos y puede observarlas o modificarlas."
+    },
+    {
+      "pregunta": "Un usuario compra un portátil nuevo de un fabricante conocido. Tras configurarlo, observa que funciona lentamente y descubre numerosas aplicaciones preinstaladas que no solicitó ni necesita y que consumen bastantes recursos. ¿Cómo se denomina este software?",
+      "opciones": ["Adware", "Spyware", "Bloatware", "Malware"],
+      "respuesta": 2,
+      "explicacion": "Bloatware es software innecesario que suele venir preinstalado por el fabricante y puede consumir espacio, memoria y otros recursos."
+    },
+    {
+      "pregunta": "Un atacante explota una vulnerabilidad en una aplicación bancaria iniciando una retirada justo después de que la aplicación compruebe el saldo pero antes de que lo actualice. Repite la operación rápidamente y retira más dinero del disponible. ¿Qué ataque se está realizando?",
+      "opciones": [
+        "Time-of-check to time-of-use",
+        "Buffer overflow",
+        "Memory injection",
+        "SQL injection"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una condición TOC/TOU explota el intervalo entre comprobar un estado y utilizar o actualizar ese estado, permitiendo que cambie antes de completar la operación."
+    },
+    {
+      "pregunta": "El servidor de actualizaciones de una empresa de software es comprometido y distribuye una actualización que contiene una backdoor. Los usuarios que la instalan conceden involuntariamente acceso remoto a los atacantes. ¿Qué tipo de brecha describe este escenario?",
+      "opciones": [
+        "Ataque de phishing",
+        "Supply chain attack",
+        "Ataque Denial of Service (DoS)",
+        "Ataque de eavesdropping"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un supply chain attack compromete un proveedor, componente o mecanismo de distribución confiable para introducir código malicioso en los sistemas de las víctimas."
+    },
+    {
+      "pregunta": "Una aplicación web permite descargar archivos especificando un nombre en la URL. Un atacante introduce: http://www.example.com/download.php?file=../../../../etc/passwd ¿Qué ataque está intentando realizar?",
+      "opciones": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Directory Traversal",
+        "Remote Code Execution"
+      ],
+      "respuesta": 2,
+      "explicacion": "Directory traversal utiliza secuencias como ../ para salir del directorio previsto y acceder a archivos ubicados en otras partes del sistema de archivos."
+    },
+    {
+      "pregunta": "Una empresa sufre con frecuencia ataques man-in-the-middle (MitM) en los que los atacantes interceptan y alteran comunicaciones entre clientes y servidores. ¿Qué mitigación es eficaz para impedir estos ataques?",
+      "opciones": [
+        "Implementar cifrado extremo a extremo mediante protocolos como TLS.",
+        "Instalar antivirus en todos los clientes y servidores.",
+        "Realizar auditorías periódicas de rendimiento de la red.",
+        "Aumentar la complejidad de las contraseñas de red."
+      ],
+      "respuesta": 0,
+      "explicacion": "TLS cifra y autentica las comunicaciones entre los extremos, dificultando que un intermediario pueda leer o modificar los datos sin ser detectado."
+    },
+    {
+      "pregunta": "Durante un ataque, un hacker obliga a una conexión a pasar del protocolo HTTPS seguro al protocolo HTTP menos seguro, permitiendo interceptar y leer los datos transmitidos. ¿Qué tipo de ataque describe mejor el escenario?",
+      "opciones": [
+        "Downgrade attack",
+        "Ataque man-in-the-middle",
+        "Replay attack",
+        "Ataque de phishing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un downgrade attack fuerza a las partes a utilizar una versión, protocolo o conjunto criptográfico menos seguro para facilitar su explotación."
+    },
+    {
+      "pregunta": "Un atacante utiliza un pequeño número de solicitudes para provocar respuestas muy grandes de una red de servidores DNS vulnerables. Las respuestas se dirigen a la IP de la víctima, inundándola de datos. ¿Qué tipo de ataque DDoS se describe?",
+      "opciones": [
+        "Ping of Death",
+        "Reflected DDoS attack",
+        "Amplified DDoS attack",
+        "SYN flood attack"
+      ],
+      "respuesta": 2,
+      "explicacion": "En un DDoS amplificado se envían pequeñas solicitudes con la dirección IP de la víctima falsificada para generar respuestas mucho mayores que terminan saturando al objetivo."
+    },
+    {
+      "pregunta": "Un security tester descubre que introducir ../../../etc/passwd en el campo de descarga de archivos de una aplicación web devuelve el contenido del archivo de contraseñas del servidor. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "SQL injection",
+        "Command injection",
+        "Directory traversal",
+        "Buffer overflow"
+      ],
+      "respuesta": 2,
+      "explicacion": "Directory traversal aprovecha una validación insuficiente de rutas para navegar fuera del directorio autorizado mediante secuencias ../ y acceder a archivos del sistema."
+    },
+    {
+      "pregunta": "Un equipo de seguridad descubre que varios empleados utilizan cuentas personales de almacenamiento cloud para compartir archivos de la empresa porque les resulta más cómodo. Estas cuentas están fuera del control de TI y no tienen una configuración de seguridad adecuada. ¿Qué vulnerabilidad específica de cloud representa?",
+      "opciones": [
+        "Shadow IT",
+        "Cloud misconfiguration",
+        "Insecure APIs",
+        "Hypervisor escape"
+      ],
+      "respuesta": 0,
+      "explicacion": "Shadow IT es el uso de servicios, aplicaciones o infraestructura no autorizados por TI, lo que impide aplicar controles corporativos adecuados."
+    },
+    {
+      "pregunta": "Un atacante compromete un sitio web visitado frecuentemente por desarrolladores de software para entregar malware dirigido específicamente a ese grupo profesional. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Typosquatting",
+        "Watering hole attack",
+        "Brand impersonation",
+        "Business email compromise"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un watering hole compromete un sitio legítimo que el grupo objetivo visita habitualmente para atacar indirectamente a sus miembros."
+    },
+    {
+      "pregunta": "Una organización observa que empleados del departamento financiero tienen acceso a sistemas y archivos que no están relacionados directamente con sus funciones. Esto genera riesgo de uso accidental o intencionado de información sensible. ¿Cuál es la mejor forma de abordar el problema?",
+      "opciones": [
+        "Implementar Role-Based Access Control (RBAC)",
+        "Proporcionar formación sobre seguridad de datos",
+        "Activar logging y monitorización en todos los sistemas",
+        "Aumentar la complejidad de las contraseñas del departamento financiero"
+      ],
+      "respuesta": 0,
+      "explicacion": "RBAC asigna permisos en función del rol laboral y facilita aplicar el principio de mínimo privilegio, eliminando accesos innecesarios."
+    },
+    {
+      "pregunta": "Un desarrollador está creando una aplicación bancaria. Para mitigar el abuso de sesiones concurrentes quiere generar en cada inicio de sesión un valor único, criptográficamente fuerte e impredecible que deba enviarse en cada solicitud posterior. ¿Qué se está describiendo?",
+      "opciones": [
+        "Session ID/Token",
+        "Public Key",
+        "Certificate Thumbprint",
+        "Digital Signature"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un Session ID o token identifica una sesión autenticada y debe ser único, impredecible y de alta entropía para evitar su adivinación o reutilización indebida."
+    },
+    {
+      "pregunta": "Antes de eliminar una máquina virtual, un administrador realiza un borrado criptográfico de su almacenamiento. ¿Qué riesgo está mitigando?",
+      "opciones": [
+        "Congestión de red",
+        "Exposición de datos por reutilización de recursos",
+        "Encryption downgrade",
+        "Configuración incorrecta del hypervisor"
+      ],
+      "respuesta": 1,
+      "explicacion": "La sanitización evita que datos residuales de discos o bloques de almacenamiento puedan quedar accesibles cuando esos recursos se reasignan a otra carga o tenant."
+    },
+    {
+      "pregunta": "Un atacante llama a un empleado fingiendo ser del soporte de TI, afirma que ha detectado malware en su equipo y solicita urgentemente credenciales de acceso remoto para solucionarlo. ¿Qué combinación de técnicas está utilizando?",
+      "opciones": [
+        "Smishing con pretexting",
+        "Vishing con pretexting e impersonation",
+        "Phishing con brand impersonation",
+        "Vishing con watering hole"
+      ],
+      "respuesta": 1,
+      "explicacion": "La llamada telefónica constituye vishing, la historia falsa del malware es pretexting y hacerse pasar por soporte de TI es impersonation."
+    },
+    {
+      "pregunta": "Un usuario descarga \"Free_PDF_Pro.exe\". El programa se instala y funciona como anuncia, pero el equipo empieza a realizar conexiones salientes periódicas a un servidor command-and-control y acepta comandos remotos. ¿Qué tipo de malware es más probable?",
+      "opciones": ["Spyware", "Virus", "Worm", "Trojan"],
+      "respuesta": 3,
+      "explicacion": "Un Trojan puede funcionar aparentemente como software legítimo mientras ejecuta funciones ocultas. Las conexiones C2 y la aceptación de comandos remotos son características típicas de un Trojan o RAT."
+    },
+    {
+      "pregunta": "La aplicación web de una organización recibe ataques frecuentes de bots automatizados que intentan abusar del formulario de restablecimiento de contraseña. ¿Qué mitigación distingue con MAYOR eficacia a usuarios legítimos de scripts automatizados?",
+      "opciones": [
+        "Implementar rate limiting y CAPTCHA",
+        "Exigir contraseñas más seguras",
+        "Exigir contraseñas más seguras",
+        "Registrar todos los intentos de restablecimiento de contraseña en el SIEM"
+      ],
+      "respuesta": 0,
+      "explicacion": "CAPTCHA ayuda a diferenciar personas de automatizaciones y el rate limiting reduce el número de solicitudes que un bot puede realizar en un periodo determinado."
+    },
+    {
+      "pregunta": "Durante una auditoría de red, un scanner descubre que un servidor de bases de datos tiene abiertos y accesibles desde Internet los puertos 22, 80, 443, 1433, 3306 y 3389. La única función del servidor es alojar una base de datos backend. ¿Qué principio de seguridad se está vulnerando?",
+      "opciones": [
+        "Mínimo privilegio",
+        "Separation of duties",
+        "Defense in depth",
+        "Data sovereignty"
+      ],
+      "respuesta": 0,
+      "explicacion": "Mantener servicios y puertos innecesarios accesibles aumenta la superficie de ataque. Aplicar mínimo privilegio implica habilitar únicamente el acceso y los servicios estrictamente necesarios."
+    },
+    {
+      "pregunta": "El sistema DLP de una empresa alerta de que un usuario está transfiriendo grandes volúmenes de archivos sensibles a una cuenta personal de almacenamiento cloud a altas horas de la noche. El usuario está sometido a un plan de mejora de rendimiento y ha expresado recientemente descontento con la dirección. ¿Qué actividad maliciosa es MÁS probable?",
+      "opciones": [
+        "Shadow IT",
+        "Data exfiltration",
+        "Credential replay",
+        "Watering hole attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "La transferencia deliberada de grandes cantidades de información sensible hacia un destino personal externo es un indicador claro de data exfiltration."
+    },
+    {
+      "pregunta": "El equipo de seguridad está evaluando controles para reducir el riesgo de ataques basados en credenciales. El entorno ya exige contraseñas complejas, bloquea la cuenta tras cinco intentos fallidos y registra todos los eventos de autenticación en el SIEM. ¿Qué control adicional proporciona la MAYOR reducción de riesgo?",
+      "opciones": [
+        "Reducir el umbral de bloqueo de cinco intentos a tres",
+        "Implementar MFA en todos los sistemas que manejan datos sensibles",
+        "Aumentar la longitud mínima de contraseña de 12 a 16 caracteres",
+        "Configurar el SIEM para alertar en tiempo real sobre patrones de fallos de inicio de sesión"
+      ],
+      "respuesta": 1,
+      "explicacion": "MFA introduce un factor de autenticación independiente. Una contraseña robada deja de ser suficiente por sí sola para acceder al sistema."
+    },
+    {
+      "pregunta": "Un analista observa que una estación de trabajo crea repetidamente nuevas claves Run del registro incluso después de eliminarlas manualmente. El sistema también inicia conexiones salientes a una IP desconocida cada 10 minutos. ¿Qué actividad maliciosa indica con MAYOR probabilidad?",
+      "opciones": [
+        "Propagación de worm",
+        "Persistencia mediante rootkit",
+        "Logic bomb",
+        "Instalación de keylogger"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un rootkit puede modificar componentes de bajo nivel del sistema para ocultarse y mantener persistencia, recreando mecanismos de ejecución incluso tras intentos manuales de eliminación."
+    },
+    {
+      "pregunta": "Después de que un ataque de ransomware cifre servidores de producción, el equipo de respuesta a incidentes aísla los sistemas afectados. El CISO pregunta qué debería hacerse PRIMERO antes de iniciar la recuperación. ¿Qué acción es la MÁS apropiada?",
+      "opciones": [
+        "Borrar y reinstalar inmediatamente todos los sistemas afectados",
+        "Avisar a las fuerzas de seguridad y pagar el rescate para restaurar rápidamente las operaciones",
+        "Preservar evidencias forenses capturando volcados de memoria",
+        "Restaurar los sistemas desde la copia de seguridad más reciente"
+      ],
+      "respuesta": 2,
+      "explicacion": "Antes de modificar o restaurar los sistemas deben preservarse las evidencias volátiles y forenses. Los volcados de memoria pueden contener procesos, conexiones, claves y artefactos que desaparecerían al reiniciar o reinstalar."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad necesita garantizar que solo el vulnerability scanner interno de la empresa pueda acceder al puerto TCP 22 de un grupo de servidores Linux. Todo el resto del tráfico SSH entrante debe bloquearse. ¿Qué mitigación lo consigue MEJOR?",
+      "opciones": [
+        "Segmentación de red",
+        "Access Control Lists",
+        "Host-based intrusion prevention",
+        "Cifrado de datos en tránsito"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una ACL permite crear una regla precisa que autorice únicamente la IP del scanner hacia TCP 22 y deniegue el resto del tráfico SSH."
+    },
+    {
+      "pregunta": "Un analista revisa la postura de seguridad del portátil de un empleado remoto. Aunque tiene instalado un HIPS, sigue siendo vulnerable a un atacante de la misma red Wi-Fi pública que intenta escanear sus puertos y servicios abiertos. ¿Qué debería habilitarse para mitigar específicamente este riesgo?",
+      "opciones": [
+        "Host-based firewall",
+        "Application allow-listing",
+        "Sandboxing",
+        "DLP"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un host-based firewall puede bloquear conexiones entrantes no solicitadas y evitar que servicios locales queden expuestos a otros equipos de una red no confiable."
+    },
+    {
+      "pregunta": "Un analista de seguridad detecta un comportamiento inusual en un servidor web después de que se haga público un nuevo exploit. El proveedor confirma que actualmente no existe ningún parche ni workaround. ¿Qué tipo de vulnerabilidad está siendo explotada?",
+      "opciones": [
+        "Zero-day",
+        "Misconfiguration",
+        "Software end-of-life",
+        "Improper input validation"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una vulnerabilidad zero-day carece de una corrección disponible en el momento en que está siendo explotada; en este caso, el proveedor confirma que todavía no existe parche ni workaround."
+    }
+  ]
+}

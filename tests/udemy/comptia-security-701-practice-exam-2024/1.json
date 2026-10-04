@@ -1,0 +1,937 @@
+{
+  "titulo": "CompTIA Security Plus 701 Practice Exam Questions (2026)",
+  "procedencia": "Udemy — Cyber Learning — CompTIA Security Plus 701 Practice Exam Questions (SY0-701)",
+  "descripcion": "Batería de 90 preguntas de práctica para CompTIA Security+ SY0-701 sobre controles de seguridad, AAA, Zero Trust, criptografía, PKI, gestión de cambios, protección de datos y otros conceptos del examen.",
+  "preguntas": [
+    {
+      "pregunta": "En una oficina corporativa, los empleados deben utilizar sus tarjetas de acceso para entrar en distintas secciones del edificio. ¿Qué tipo de control se está implementando?",
+      "opciones": [
+        "Control de detección",
+        "Control preventivo",
+        "Control físico",
+        "Control correctivo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las tarjetas de acceso son controles físicos porque restringen físicamente la entrada a zonas determinadas a personas autorizadas."
+    },
+    {
+      "pregunta": "Después de iniciar sesión en una red corporativa, los empleados tienen acceso a distintos conjuntos de recursos según sus funciones laborales. ¿Qué componente de AAA restringe el acceso a recursos específicos de la red en función del rol del usuario?",
+      "opciones": [
+        "Autenticación",
+        "Autorización",
+        "Accounting",
+        "Verificación"
+      ],
+      "respuesta": 1,
+      "explicacion": "La autorización determina qué recursos y acciones tiene permitidos un usuario después de haber sido autenticado."
+    },
+    {
+      "pregunta": "Una institución financiera implementa cifrado para todos los datos sensibles transmitidos entre sus sucursales con el fin de garantizar la confidencialidad. ¿Qué tipo de control se está aplicando?",
+      "opciones": [
+        "Control técnico",
+        "Control administrativo",
+        "Control físico",
+        "Control operativo"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado es un control técnico porque utiliza mecanismos tecnológicos para proteger la confidencialidad de los datos."
+    },
+    {
+      "pregunta": "Una organización está implementando un sistema de comunicaciones seguro y quiere garantizar que los participantes no puedan negar posteriormente su participación en una comunicación. ¿Qué concepto de seguridad aborda esta necesidad?",
+      "opciones": [
+        "Confidencialidad",
+        "No repudio",
+        "Disponibilidad",
+        "Integridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "El no repudio proporciona evidencias que impiden que una parte pueda negar de forma creíble su participación en una comunicación o transacción."
+    },
+    {
+      "pregunta": "Una empresa cifra datos sensibles de clientes para evitar accesos no autorizados. ¿Qué principio de seguridad aborda principalmente?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Responsabilidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado protege la confidencialidad al impedir que personas no autorizadas puedan interpretar los datos."
+    },
+    {
+      "pregunta": "Una agencia gubernamental maneja información altamente clasificada. Implementa un modelo de seguridad en el que el acceso está estrictamente controlado mediante etiquetas como \"Confidencial\", \"Secreto\" y \"Alto Secreto\". Solo los usuarios con la autorización adecuada pueden acceder a información de su nivel o inferior. ¿Qué modelo de control de acceso se utiliza?",
+      "opciones": [
+        "Discretionary Access Control",
+        "Role-Based Access Control",
+        "Mandatory Access Control",
+        "Attribute-Based Access Control"
+      ],
+      "respuesta": 2,
+      "explicacion": "MAC utiliza clasificaciones y etiquetas de seguridad impuestas por el sistema, en lugar de permitir que los propietarios de los recursos decidan libremente los permisos."
+    },
+    {
+      "pregunta": "Una empresa planea desactivar un protocolo de cifrado obsoleto en una aplicación interna. Las pruebas muestran que un sistema crítico de escáneres de almacén solo puede conectarse mediante el protocolo antiguo y no podrá actualizarse durante seis meses. ¿Qué implicación técnica representa MÁS directamente esta situación?",
+      "opciones": [
+        "Dependencias",
+        "Aplicaciones heredadas",
+        "Actividades restringidas",
+        "Reinicio de la aplicación"
+      ],
+      "respuesta": 1,
+      "explicacion": "La limitación procede de un sistema heredado que no admite protocolos modernos y condiciona la implantación de mejoras de seguridad."
+    },
+    {
+      "pregunta": "Una empresa necesita cifrar archivos de registros de varios gigabytes almacenados en un servidor de copias de seguridad. El cifrado debe ser rápido, eficiente y apropiado para grandes volúmenes de datos. También debe utilizar un algoritmo ampliamente compatible y seguro para almacenamiento a largo plazo. ¿Cuál es la mejor opción?",
+      "opciones": ["RSA", "AES", "ECC", "SHA-256"],
+      "respuesta": 1,
+      "explicacion": "AES es un algoritmo simétrico eficiente para cifrar grandes cantidades de datos y está ampliamente soportado."
+    },
+    {
+      "pregunta": "Una empresa utiliza un gran dispositivo NAS (Network Attached Storage) para almacenar distintos tipos de datos. Quiere cifrar una sección lógica específica que contiene registros financieros, sin afectar al resto de los datos ni a todo el NAS. ¿Qué método de cifrado sería el más apropiado?",
+      "opciones": [
+        "Cifrado de disco completo",
+        "Cifrado de partición",
+        "Cifrado de archivos",
+        "Cifrado de volumen"
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado de volumen permite proteger un volumen lógico específico sin tener que cifrar todo el dispositivo de almacenamiento."
+    },
+    {
+      "pregunta": "Una empresa no puede sustituir inmediatamente una aplicación heredada que no admite autenticación moderna. Para reducir el riesgo, el equipo de seguridad coloca el servidor en una VLAN restringida, limita el acceso entrante a un jump host y aumenta la supervisión. ¿Qué tipo de control describe MEJOR este enfoque?",
+      "opciones": ["Correctivo", "Directivo", "Compensatorio", "Disuasorio"],
+      "respuesta": 2,
+      "explicacion": "Se utilizan controles compensatorios porque no puede implantarse el control preferido y se aplican salvaguardas alternativas para reducir el riesgo."
+    },
+    {
+      "pregunta": "Una empresa de software distribuye actualizaciones a sus clientes mediante su sitio web. Quiere que los clientes puedan verificar que las actualizaciones no han sido modificadas durante la transmisión. ¿Qué mecanismo abordaría mejor este requisito?",
+      "opciones": [
+        "Proporcionar valores hash de los archivos de actualización",
+        "Utilizar HTTPS para la descarga",
+        "Cifrar los archivos de actualización",
+        "Implementar autenticación de dos factores para las descargas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Comparar el hash publicado con el hash del archivo descargado permite comprobar su integridad y detectar modificaciones."
+    },
+    {
+      "pregunta": "La política de una empresa exige que la persona que aprueba pagos a proveedores no pueda ser la misma que crea nuevos registros de proveedores en el sistema. ¿Qué concepto de seguridad se está aplicando MÁS directamente?",
+      "opciones": [
+        "Separación de funciones",
+        "Rotación de puestos",
+        "Mínimo privilegio",
+        "Defensa en profundidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "La separación de funciones divide tareas sensibles entre distintas personas para reducir el riesgo de fraude, abuso o errores."
+    },
+    {
+      "pregunta": "Un administrador de red está configurando un sistema para utilizar un protocolo de autenticación seguro para acceso remoto. ¿Qué protocolo se utiliza habitualmente para autenticar sistemas en este contexto?",
+      "opciones": ["HTTP", "LDAP", "SNMP", "RADIUS"],
+      "respuesta": 3,
+      "explicacion": "RADIUS proporciona servicios centralizados de autenticación y autorización y se utiliza habitualmente en escenarios de acceso remoto y acceso a red."
+    },
+    {
+      "pregunta": "Un empleado inicia sesión en un panel cloud mediante una contraseña y una notificación push en su dispositivo móvil. Tras autenticarse correctamente, el sistema le deniega el acceso a la página \"Admin Settings\" porque su rol no incluye privilegios administrativos. ¿Qué describe MEJOR lo sucedido?",
+      "opciones": [
+        "La autorización tuvo éxito, pero la autenticación falló",
+        "La autenticación fuerte tuvo éxito, pero la autorización falló",
+        "Tanto la autenticación como la autorización fallaron",
+        "La autenticación omitió por completo la autorización"
+      ],
+      "respuesta": 1,
+      "explicacion": "La identidad se verificó correctamente mediante MFA, pero la autorización impidió una acción que no estaba permitida para el rol del usuario."
+    },
+    {
+      "pregunta": "Un administrador de red quiere garantizar que solo dispositivos de confianza puedan conectarse a la red corporativa. La autenticación debe producirse antes de que el dispositivo reciba una dirección IP. ¿Qué protocolo cumple MEJOR este requisito?",
+      "opciones": ["802.1X", "LDAP", "Kerberos", "OAuth"],
+      "respuesta": 0,
+      "explicacion": "802.1X proporciona control de acceso a red basado en puertos y puede autenticar dispositivos o usuarios antes de conceder acceso normal a la red."
+    },
+    {
+      "pregunta": "Un administrador de sistemas implementa copias de seguridad periódicas para garantizar que los datos críticos puedan restaurarse en caso de fallo de hardware. ¿Con qué principio de seguridad se alinea esta medida?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las copias de seguridad favorecen la disponibilidad al permitir restaurar los datos y servicios después de una pérdida o fallo."
+    },
+    {
+      "pregunta": "Se va a compartir una exportación de una base de datos con un contratista para solucionar un problema. El contratista necesita ver los nombres de usuario, pero los números completos de la Seguridad Social no deben ser visibles; solo deben mostrarse los últimos cuatro dígitos. ¿Qué técnica se utiliza?",
+      "opciones": ["Data masking", "Tokenization", "Encryption", "Hashing"],
+      "respuesta": 0,
+      "explicacion": "Data masking permite ocultar partes sensibles de un dato manteniendo visibles otras partes necesarias para el uso empresarial."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos criptográficos se considera simétrico?",
+      "opciones": ["RSA", "AES", "DSA", "ECC"],
+      "respuesta": 1,
+      "explicacion": "AES es un algoritmo de cifrado simétrico que utiliza una clave compartida para cifrar y descifrar."
+    },
+    {
+      "pregunta": "Se implementa un mecanismo de seguridad para verificar que los datos permanecen sin cambios durante su transmisión por una red. ¿Qué principio de seguridad se está enfatizando?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Autenticación"
+      ],
+      "respuesta": 1,
+      "explicacion": "La integridad garantiza que los datos no hayan sido modificados de forma no autorizada durante su transmisión."
+    },
+    {
+      "pregunta": "En un entorno de red, ¿qué componente de AAA es responsable de registrar las actividades de los usuarios y supervisar el uso de recursos?",
+      "opciones": ["Autenticación", "Autorización", "Accounting", "Auditoría"],
+      "respuesta": 2,
+      "explicacion": "Accounting registra actividades como inicios de sesión, recursos utilizados, acciones realizadas y duración de las sesiones."
+    },
+    {
+      "pregunta": "En un sistema de autenticación multifactor, ¿cuál de los siguientes es un ejemplo de algo que sabes?",
+      "opciones": [
+        "Escaneo de huella dactilar",
+        "Contraseña de un solo uso",
+        "Tarjeta inteligente",
+        "Escaneo de retina"
+      ],
+      "respuesta": 1,
+      "explicacion": "La opción marcada por el test es la contraseña de un solo uso. En la práctica, la categoría de un OTP depende de cómo se genere u obtenga; un OTP producido por un token puede representar un factor de posesión."
+    },
+    {
+      "pregunta": "Un administrador de red necesita gestionar de forma remota un router situado en otra ciudad y quiere evitar que sus credenciales puedan ser interceptadas por alguien que capture tráfico de Internet. ¿Qué protocolo debería utilizar?",
+      "opciones": ["Telnet", "SNMPv2", "SSH", "HTTP"],
+      "respuesta": 2,
+      "explicacion": "SSH cifra la sesión de administración remota, incluidas las credenciales y los comandos transmitidos."
+    },
+    {
+      "pregunta": "Un usuario intenta acceder al panel \"Database Administration\", pero se le deniega porque tiene asignado el rol \"Support Technician\", que no incluye privilegios de base de datos. ¿Qué explica MEJOR la denegación?",
+      "opciones": [
+        "Su rol no incluye los permisos necesarios",
+        "Su dispositivo no cumple las políticas de seguridad",
+        "El propietario del archivo no le concedió acceso",
+        "Su etiqueta de autorización es demasiado baja"
+      ],
+      "respuesta": 0,
+      "explicacion": "En RBAC, los permisos se asignan en función del rol, y el rol del usuario carece de los privilegios necesarios para administrar bases de datos."
+    },
+    {
+      "pregunta": "Un administrador de bases de datos está implementando un mecanismo seguro de almacenamiento de contraseñas. ¿Cuál es el objetivo principal de utilizar una salt aleatoria para la contraseña de cada usuario?",
+      "opciones": [
+        "Hacer que las contraseñas sean más fáciles de recordar",
+        "Evitar ataques con rainbow tables",
+        "Reducir el coste computacional del hashing",
+        "Simplificar la recuperación de contraseñas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una salt hace que contraseñas idénticas produzcan hashes distintos y dificulta el uso eficaz de tablas hash precalculadas como las rainbow tables."
+    },
+    {
+      "pregunta": "Un jefe de proyecto crea una carpeta compartida y concede manualmente acceso de lectura a dos miembros del equipo, denegándolo al resto. Más adelante elimina el acceso de uno de ellos cuando finaliza el proyecto. ¿Qué acción demuestra MEJOR cómo funciona DAC?",
+      "opciones": [
+        "El propietario del recurso controla directamente quién puede acceder a la carpeta",
+        "El sistema asigna automáticamente permisos según el puesto de trabajo",
+        "El acceso se determina mediante etiquetas de clasificación y niveles de autorización",
+        "El acceso solo se concede si los atributos del usuario cumplen las condiciones de una política"
+      ],
+      "respuesta": 0,
+      "explicacion": "DAC permite que el propietario de un recurso conceda, modifique o revoque directamente los permisos sobre dicho recurso."
+    },
+    {
+      "pregunta": "¿Cuál es un resultado habitual de un proceso de gap analysis en el contexto de la ciberseguridad?",
+      "opciones": [
+        "Desarrollo de un plan de gestión de riesgos",
+        "Implementación de controles compensatorios",
+        "Creación de una política de seguridad",
+        "Establecimiento de un plan de remediación"
+      ],
+      "respuesta": 3,
+      "explicacion": "El gap analysis identifica diferencias entre el estado actual y el objetivo deseado y normalmente produce un plan para corregir esas deficiencias."
+    },
+    {
+      "pregunta": "Una empresa descubre que ha sido robado un portátil que contenía la clave privada del certificado de un servidor web. El equipo de seguridad necesita conseguir que los navegadores dejen de confiar inmediatamente en ese certificado. ¿Qué debe hacer?",
+      "opciones": [
+        "Actualizar la clave pública del certificado",
+        "Añadir el certificado a la CRL o utilizar OCSP",
+        "Generar una nueva Certificate Signing Request (CSR)",
+        "Renovar el certificado con una fecha de expiración más larga"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un certificado cuya clave privada está comprometida debe revocarse; CRL y OCSP permiten comunicar que ya no debe considerarse válido."
+    },
+    {
+      "pregunta": "Una empresa ha implementado recientemente una nueva política de ciberseguridad y quiere evaluar su postura de seguridad actual. ¿Qué pasos podría seguir en un proceso de gap analysis para identificar áreas de mejora?",
+      "opciones": [
+        "Realizar pruebas de penetración para identificar vulnerabilidades",
+        "Revisar los controles, políticas y procedimientos existentes frente a la nueva política",
+        "Evaluar el cumplimiento de estándares del sector",
+        "Implementar nuevas medidas de seguridad sin análisis previo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un gap analysis compara el estado actual con el estado requerido para identificar diferencias y acciones de mejora."
+    },
+    {
+      "pregunta": "Un usuario quiere enviar un correo electrónico cifrado a un compañero para garantizar que solo ese compañero pueda leerlo. Para cifrar el mensaje de forma que el destinatario pueda descifrarlo, ¿qué clave debe utilizar el remitente?",
+      "opciones": [
+        "La clave privada del remitente",
+        "La clave pública del remitente",
+        "La clave privada del destinatario",
+        "La clave pública del destinatario"
+      ],
+      "respuesta": 3,
+      "explicacion": "En cifrado asimétrico orientado a confidencialidad, se cifra con la clave pública del destinatario y solo su clave privada correspondiente puede descifrar el contenido."
+    },
+    {
+      "pregunta": "Una corporación multinacional adopta un modelo Zero Trust para mejorar su postura de ciberseguridad. ¿Cómo podría implementar los principios de Zero Trust para proteger su infraestructura de red?",
+      "opciones": [
+        "Depender de un firewall perimetral tradicional",
+        "Implementar microsegmentación, autenticación multifactor y supervisión continua",
+        "Permitir acceso sin restricciones basándose en la ubicación de red",
+        "Confiar en los usuarios según su puesto sin verificación continua"
+      ],
+      "respuesta": 1,
+      "explicacion": "Zero Trust elimina la confianza implícita y combina verificación continua, mínimo privilegio y segmentación para limitar accesos y movimientos laterales."
+    },
+    {
+      "pregunta": "Una corporación global está implementando \"Policy-Driven Access Control\" como parte de su estrategia Zero Trust. ¿Cómo podría aplicar en la práctica políticas de acceso basadas en factores contextuales?",
+      "opciones": [
+        "Permitir acceso según roles y permisos estáticos",
+        "Ajustar dinámicamente el acceso según el comportamiento del usuario, la seguridad del dispositivo y la ubicación",
+        "Confiar en todas las entidades de una subred concreta",
+        "Realizar auditorías de seguridad anuales"
+      ],
+      "respuesta": 1,
+      "explicacion": "El control dirigido por políticas en Zero Trust evalúa contexto y riesgo de manera dinámica para adaptar las decisiones de acceso."
+    },
+    {
+      "pregunta": "Una organización sanitaria está implementando principios Zero Trust para proteger los datos de pacientes. ¿Cómo podría aprovechar en la práctica la \"Adaptive Identity\" para mejorar los controles de acceso?",
+      "opciones": [
+        "Emitir credenciales de acceso estáticas a todos los empleados",
+        "Ajustar dinámicamente el acceso según condiciones cambiantes como el comportamiento del usuario",
+        "Confiar en todos los dispositivos de una subred específica",
+        "Realizar sesiones anuales de formación en ciberseguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Adaptive Identity evalúa continuamente factores contextuales y de riesgo para conceder, limitar o revocar acceso de forma dinámica."
+    },
+    {
+      "pregunta": "¿Qué tipo de control implica implementar medidas destinadas a impedir el acceso no autorizado a sistemas y datos?",
+      "opciones": [
+        "Controles de detección",
+        "Controles correctivos",
+        "Controles preventivos",
+        "Controles compensatorios"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los controles preventivos buscan impedir que el incidente o acceso no autorizado llegue a producirse."
+    },
+    {
+      "pregunta": "Un equipo de seguridad habilita registros detallados de la actividad de cuentas privilegiadas y revisa periódicamente los logs para determinar quién accedió a sistemas sensibles y qué acciones realizó. ¿Qué componente de AAA se está implementando MÁS directamente?",
+      "opciones": [
+        "Autenticación",
+        "Autorización",
+        "Accounting",
+        "Disponibilidad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Accounting se encarga del seguimiento y registro de acciones para auditoría, supervisión y responsabilidad."
+    },
+    {
+      "pregunta": "Una gran empresa minorista está implementando un modelo Zero Trust para proteger los datos de sus clientes. ¿Cómo podría aplicar el principio de \"Threat Scope Reduction\"?",
+      "opciones": [
+        "Conceder acceso sin restricciones a todos los empleados",
+        "Utilizar cifrado para los datos en tránsito",
+        "Segmentar la red para aislar las bases de datos sensibles de clientes",
+        "Confiar en los dispositivos únicamente por su ubicación"
+      ],
+      "respuesta": 2,
+      "explicacion": "La segmentación reduce el alcance potencial de una intrusión al dificultar el movimiento lateral hacia activos sensibles."
+    },
+    {
+      "pregunta": "En el centro de una ciudad existe una posible amenaza de ataques con vehículos. ¿Cómo pueden mejorar la seguridad los bolardos colocados estratégicamente alrededor de espacios públicos?",
+      "opciones": [
+        "Guiando a los peatones hacia puntos de entrada designados",
+        "Mejorando la estética del entorno",
+        "Restringiendo el acceso de vehículos y evitando ataques por embestida",
+        "Proporcionando zonas de asiento para eventos al aire libre"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los bolardos actúan como barreras físicas para impedir que vehículos accedan a determinadas áreas o sean utilizados en ataques por embestida."
+    },
+    {
+      "pregunta": "¿Por qué se considera crucial la gestión de cambios para mantener un entorno de TI seguro?",
+      "opciones": [
+        "Para acelerar el despliegue de nuevas tecnologías",
+        "Para garantizar que los cambios sean planificados, probados y aprobados y así evitar vulnerabilidades",
+        "Para minimizar la participación de los equipos de seguridad",
+        "Para priorizar la velocidad frente a la precisión"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de cambios reduce riesgos al exigir planificación, pruebas, análisis y aprobación antes de modificar sistemas."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe mejor el propósito de realizar un análisis de impacto en las operaciones de gestión de cambios?",
+      "opciones": [
+        "Acelerar los cambios sin considerar su impacto",
+        "Identificar posibles vulnerabilidades de seguridad",
+        "Comprender las consecuencias de los cambios propuestos sobre la seguridad",
+        "Limitar el alcance del proceso de aprobación"
+      ],
+      "respuesta": 2,
+      "explicacion": "El análisis de impacto estudia las consecuencias, dependencias y riesgos que un cambio puede introducir antes de su implantación."
+    },
+    {
+      "pregunta": "Una planta de fabricación instala cámaras de seguridad en puntos de entrada y zonas críticas para supervisar y registrar actividades. ¿Qué tipo de control es?",
+      "opciones": [
+        "Control de detección",
+        "Control disuasorio",
+        "Control correctivo",
+        "Control preventivo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las cámaras utilizadas para supervisar y registrar actividades funcionan principalmente como controles de detección."
+    },
+    {
+      "pregunta": "¿Por qué es importante identificar a los stakeholders en las operaciones de gestión de cambios?",
+      "opciones": [
+        "Los stakeholders solo se ocupan de aspectos empresariales no relacionados con la seguridad",
+        "Identificarlos garantiza que el equipo de seguridad tenga toda la autoridad de decisión",
+        "Pueden tener intereses relevantes e influencia sobre decisiones relacionadas con la seguridad",
+        "No son relevantes en el proceso de aprobación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los stakeholders aportan perspectivas, requisitos y autoridad relevantes para evaluar adecuadamente el impacto y la aprobación de los cambios."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito de un proceso de aprobación en la gestión de cambios y cómo contribuye a las operaciones de seguridad?",
+      "opciones": [
+        "Garantizar que todos los stakeholders sean notificados del cambio",
+        "Verificar que el cambio se ajuste a las políticas de seguridad de la organización",
+        "Acelerar el proceso de implementación",
+        "Asignar la propiedad del cambio"
+      ],
+      "respuesta": 1,
+      "explicacion": "La aprobación verifica que el cambio propuesto cumple las políticas, estándares y requisitos de seguridad antes de aplicarlo."
+    },
+    {
+      "pregunta": "Identifica y describe a los principales stakeholders implicados en la aprobación de un cambio de seguridad. ¿Cómo difieren sus funciones y por qué es crucial su participación?",
+      "opciones": [
+        "Solo el personal de TI es stakeholder y su función es aprobar o rechazar cambios",
+        "Los stakeholders pueden pertenecer a distintas áreas de la organización y desempeñar funciones desde la aprobación hasta la implementación",
+        "Los stakeholders se limitan al equipo de seguridad y solo analizan el impacto",
+        "Los stakeholders son entidades externas cuya única función es auditar el proceso"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de cambios implica a diferentes partes de la organización con responsabilidades distintas, lo que permite una evaluación y ejecución más completas."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal del proceso de aprobación en la gestión de cambios?",
+      "opciones": [
+        "Documentar todos los cambios realizados en la organización",
+        "Garantizar que los cambios propuestos sean revisados y autorizados",
+        "Asignar culpables en caso de incidente",
+        "Acelerar cambios sin una evaluación exhaustiva"
+      ],
+      "respuesta": 1,
+      "explicacion": "La aprobación garantiza que una modificación haya sido revisada y autorizada antes de su implementación."
+    },
+    {
+      "pregunta": "¿Qué tipo de control se centra en minimizar el impacto de un incidente de seguridad y restaurar rápidamente el funcionamiento normal?",
+      "opciones": [
+        "Controles preventivos",
+        "Controles de detección",
+        "Controles correctivos",
+        "Controles disuasorios"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los controles correctivos se aplican para reducir los efectos de un incidente y devolver sistemas y servicios a un estado normal."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar que, si un ataque de ransomware cifra sus datos principales, pueda restaurar las operaciones rápidamente sin pagar al atacante. ¿Qué estrategia ofrece la MEJOR protección?",
+      "opciones": [
+        "Copias de seguridad offline",
+        "Almacenamiento RAID 5",
+        "Balanceo de carga",
+        "Data masking"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las copias offline están desconectadas de los sistemas activos y reducen la posibilidad de que el ransomware también cifre las copias necesarias para la recuperación."
+    },
+    {
+      "pregunta": "¿Cómo contribuyen las allow lists y deny lists a la seguridad de la red de una organización?",
+      "opciones": [
+        "Las allow lists garantizan acceso sin restricciones y las deny lists restringen el acceso a entidades autorizadas",
+        "Las allow lists especifican entidades autorizadas y las deny lists especifican entidades que deben bloquearse",
+        "Allow lists y deny lists son términos intercambiables",
+        "No son relevantes para la seguridad de red"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una allow list define explícitamente qué entidades están permitidas, mientras que una deny list identifica las que deben bloquearse."
+    },
+    {
+      "pregunta": "¿Por qué reiniciar un servicio es una práctica habitual en respuesta a determinados incidentes o cambios de seguridad?",
+      "opciones": [
+        "Para desactivar permanentemente el servicio",
+        "Para borrar logs y ocultar evidencias",
+        "Para aplicar actualizaciones y parches de seguridad",
+        "Para resolver el incidente rápidamente sin investigarlo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Algunos parches o cambios de configuración solo entran plenamente en vigor después de reiniciar el servicio afectado."
+    },
+    {
+      "pregunta": "Un equipo de respuesta a incidentes investiga una filtración en la que podría haberse comprometido información sensible de clientes. ¿Cuál es el aspecto más crítico de la documentación durante el proceso de respuesta?",
+      "opciones": [
+        "Documentar los pasos realizados durante la investigación y la remediación",
+        "Registrar detalladamente las experiencias personales de los miembros del equipo",
+        "Anotar opiniones personales sobre la causa de la filtración",
+        "Omitir detalles para evitar posibles consecuencias legales"
+      ],
+      "respuesta": 0,
+      "explicacion": "Registrar de forma precisa las acciones, hallazgos y medidas de remediación permite reconstruir el incidente, mantener trazabilidad y mejorar futuras respuestas."
+    },
+    {
+      "pregunta": "Una empresa está trasladando su infraestructura de correo electrónico desde una solución on-premises a un servicio cloud. ¿Cuáles son las principales implicaciones técnicas de esta transición?",
+      "opciones": [
+        "Menor dependencia de la conectividad a Internet",
+        "Mayor control sobre la infraestructura física",
+        "Mayor escalabilidad y accesibilidad",
+        "Menor dependencia de proveedores externos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los servicios cloud suelen facilitar la ampliación de recursos y el acceso desde distintas ubicaciones, aunque aumentan la dependencia de Internet y del proveedor."
+    },
+    {
+      "pregunta": "Una organización está preocupada por posibles fugas de información y quiere proteger la confidencialidad de datos sensibles transmitidos por la red. ¿Qué aplicación de la esteganografía aborda esta necesidad?",
+      "opciones": [
+        "Ocultar un documento confidencial dentro de un archivo de imagen aparentemente no relacionado",
+        "Sustituir números de tarjetas de crédito por tokens",
+        "Enmascarar PII en una base de datos",
+        "Cifrar correos sensibles antes de transmitirlos"
+      ],
+      "respuesta": 0,
+      "explicacion": "La esteganografía oculta la existencia de la información insertándola dentro de otro medio, como una imagen."
+    },
+    {
+      "pregunta": "Una organización planea implementar una Public Key Infrastructure (PKI) para proteger sus comunicaciones y autenticar usuarios. ¿Qué componentes clave debe considerar?",
+      "opciones": [
+        "Solo certificados digitales",
+        "Solo claves públicas",
+        "Certificados digitales, pares de claves pública y privada y una Certificate Authority (CA)",
+        "Solo claves privadas y Certificate Revocation Lists (CRL)"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una PKI combina certificados, pares de claves y autoridades de certificación para asociar identidades con claves públicas y establecer confianza."
+    },
+    {
+      "pregunta": "Una empresa ha implementado una PKI para su red interna y los empleados utilizan certificados digitales para acceder de forma segura. Un empleado pierde su tarjeta inteligente que contiene la clave privada. ¿Qué acción es la adecuada?",
+      "opciones": [
+        "Ignorar el incidente porque probablemente se encontrará la tarjeta",
+        "Volver a emitir el mismo certificado con la clave privada existente",
+        "Revocar el certificado comprometido y emitir uno nuevo con un nuevo par de claves",
+        "Volver a emitir el certificado con la misma clave privada cambiando el nombre del empleado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una clave privada perdida debe considerarse potencialmente comprometida, por lo que se revoca su certificado y se genera un nuevo par de claves."
+    },
+    {
+      "pregunta": "Un equipo de desarrollo trabaja en una aplicación crítica y utiliza control de versiones para gestionar el código fuente. ¿Por qué es esencial el control de versiones?",
+      "opciones": [
+        "Para garantizar que solo una persona pueda trabajar en el código cada vez",
+        "Para registrar cambios, mantener un historial de revisiones y permitir la colaboración",
+        "Para limitar el acceso al código fuente y proteger la propiedad intelectual",
+        "Para aumentar el tamaño del código almacenando copias redundantes"
+      ],
+      "respuesta": 1,
+      "explicacion": "El control de versiones mantiene un historial de cambios y facilita colaboración, revisión, recuperación y gestión coordinada del código."
+    },
+    {
+      "pregunta": "Un usuario recibe una advertencia indicando que el certificado de un sitio web no puede validarse porque la CA emisora no es de confianza. ¿Qué explica MEJOR el problema?",
+      "opciones": [
+        "El certificado raíz no está presente en el almacén de confianza del usuario",
+        "El certificado utiliza un algoritmo hash obsoleto",
+        "El certificado es wildcard",
+        "El certificado ha caducado pero sigue instalado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Si el certificado raíz de la CA no es de confianza, el cliente no puede construir una cadena de confianza válida hasta el certificado del sitio."
+    },
+    {
+      "pregunta": "Una agencia gubernamental implementa una PKI para comunicaciones seguras y está preocupada por perder el acceso a datos cifrados si un empleado abandona la organización o pierde su clave privada. ¿Qué concepto de PKI aborda este problema?",
+      "opciones": [
+        "Certificate Revocation Lists (CRL)",
+        "Key Escrow",
+        "Certificate Signing Request (CSR)",
+        "Online Certificate Status Protocol (OCSP)"
+      ],
+      "respuesta": 1,
+      "explicacion": "Key Escrow mantiene de forma protegida una copia recuperable de determinadas claves para evitar la pérdida permanente de acceso a datos cifrados."
+    },
+    {
+      "pregunta": "Una organización está implementando una PKI y estudia métodos para comprobar el estado de revocación de certificados digitales. ¿Qué afirmación describe correctamente la diferencia entre OCSP y CRL?",
+      "opciones": [
+        "OCSP proporciona un estado del certificado cercano al tiempo real, mientras que las CRL se actualizan periódicamente",
+        "Las CRL proporcionan estado en tiempo real y OCSP se actualiza periódicamente",
+        "OCSP y CRL proporcionan ambos estado en tiempo real",
+        "Ni OCSP ni CRL proporcionan información sobre revocación"
+      ],
+      "respuesta": 0,
+      "explicacion": "OCSP consulta el estado de un certificado a un responder, mientras que las CRL son listas de certificados revocados publicadas y actualizadas periódicamente."
+    },
+    {
+      "pregunta": "Una organización está implementando cifrado para proteger datos sensibles y debate si utilizar cifrado simétrico o asimétrico. ¿Qué consideración es clave al elegir entre ambos?",
+      "opciones": [
+        "El cifrado simétrico siempre es más seguro que el asimétrico",
+        "El cifrado asimétrico es más rápido que el simétrico",
+        "El cifrado simétrico requiere intercambiar una clave secreta",
+        "El cifrado asimétrico utiliza una sola clave para cifrar y descifrar"
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado simétrico exige que las partes compartan de forma segura la misma clave secreta, lo que plantea un problema de distribución de claves."
+    },
+    {
+      "pregunta": "Un sitio de comercio electrónico está implementando TLS para proteger la transmisión de datos de clientes durante las transacciones. ¿Cuál es el propósito principal de TLS en este contexto?",
+      "opciones": [
+        "Cifrar los datos de clientes almacenados en la base de datos",
+        "Garantizar la integridad de los datos de clientes durante la transmisión",
+        "Simplificar los procesos de autenticación de usuarios",
+        "Reducir los costes operativos del sitio web"
+      ],
+      "respuesta": 1,
+      "explicacion": "TLS protege los datos en tránsito proporcionando confidencialidad e integridad durante la comunicación."
+    },
+    {
+      "pregunta": "Una organización está implementando cifrado para proteger datos sensibles y considera utilizar Advanced Encryption Standard (AES). ¿Qué longitud de clave de las siguientes se utiliza habitualmente con AES para un cifrado seguro?",
+      "opciones": ["64 bits", "128 bits", "256 bits", "512 bits"],
+      "respuesta": 1,
+      "explicacion": "AES-128 es una variante estándar y ampliamente utilizada que ofrece una seguridad sólida y buen rendimiento. AES también admite claves de 192 y 256 bits."
+    },
+    {
+      "pregunta": "Una organización quiere garantizar la integridad del proceso de arranque de sus dispositivos. ¿Qué herramienta criptográfica está diseñada para proporcionar una raíz de confianza segura y ayudar a proteger frente a ataques como la manipulación del firmware?",
+      "opciones": [
+        "Hardware Security Module (HSM)",
+        "Key Management System",
+        "Trusted Platform Module (TPM)",
+        "Secure Enclave"
+      ],
+      "respuesta": 2,
+      "explicacion": "TPM proporciona funciones de confianza basadas en hardware que pueden utilizarse para medir y verificar la integridad del proceso de arranque."
+    },
+    {
+      "pregunta": "Una institución financiera necesita almacenar y gestionar de forma segura las claves criptográficas utilizadas en su aplicación de procesamiento de pagos. ¿Qué herramienta es la más apropiada como solución dedicada basada en hardware?",
+      "opciones": [
+        "Key Management System",
+        "Trusted Platform Module (TPM)",
+        "Hardware Security Module (HSM)",
+        "Secure Enclave"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un HSM es hardware especializado en almacenar y proteger claves y ejecutar operaciones criptográficas de forma segura."
+    },
+    {
+      "pregunta": "Un fabricante de dispositivos móviles quiere proteger información sensible como datos biométricos y claves específicas del dispositivo. ¿Qué herramienta se utiliza habitualmente para crear un entorno seguro y aislado dentro del procesador?",
+      "opciones": [
+        "Trusted Platform Module (TPM)",
+        "Hardware Security Module (HSM)",
+        "Key Management System",
+        "Secure Enclave"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un Secure Enclave proporciona un entorno de ejecución aislado destinado a proteger claves, datos biométricos y otras operaciones sensibles."
+    },
+    {
+      "pregunta": "Un hospital quiere proteger los identificadores de pacientes de su base de datos. En lugar de almacenar los identificadores reales en los sistemas habituales, utiliza valores aleatorios y conserva los originales en un sistema seguro donde pueden recuperarse cuando sea necesario. ¿Qué técnica es?",
+      "opciones": ["Tokenization", "Data masking", "Steganography", "Salting"],
+      "respuesta": 0,
+      "explicacion": "Tokenization sustituye el valor sensible por un token y mantiene el dato real protegido en un repositorio seguro para su recuperación autorizada."
+    },
+    {
+      "pregunta": "Un analista de ciberseguridad descubre un archivo de imagen compartido en Internet y sospecha que puede contener información oculta. ¿Qué técnica podría utilizarse para esconder datos sensibles dentro de la imagen sin alterar aparentemente su aspecto?",
+      "opciones": [
+        "Encryption",
+        "Steganography",
+        "Tokenization",
+        "Data Masking"
+      ],
+      "respuesta": 1,
+      "explicacion": "La esteganografía permite ocultar información dentro de otro medio, como una imagen, intentando que la existencia de los datos pase desapercibida."
+    },
+    {
+      "pregunta": "Un equipo de seguridad quiere permitir que los empleados accedan a aplicaciones internas desde dispositivos personales sin exponer directamente la red interna. ¿Qué solución cumple MEJOR este requisito?",
+      "opciones": [
+        "Virtual desktop infrastructure",
+        "Split tunneling",
+        "Port forwarding",
+        "Monitorización SNMP"
+      ],
+      "respuesta": 0,
+      "explicacion": "VDI permite acceder a un entorno corporativo virtualizado y controlado sin conceder al dispositivo personal acceso directo equivalente a la red interna."
+    },
+    {
+      "pregunta": "Una institución financiera quiere mejorar la seguridad de su sistema de pagos reduciendo el almacenamiento de información sensible de titulares de tarjetas. ¿Qué técnica puede utilizar para sustituir los números reales de tarjetas por tokens únicos?",
+      "opciones": [
+        "Encryption",
+        "Steganography",
+        "Tokenization",
+        "Data Masking"
+      ],
+      "respuesta": 2,
+      "explicacion": "Tokenization sustituye datos sensibles, como números de tarjeta, por valores sustitutivos que pueden utilizarse en los sistemas sin exponer el dato real."
+    },
+    {
+      "pregunta": "Una organización sanitaria prepara un conjunto de datos para investigación y necesita mantener confidencial la información de identificación personal (PII) de los pacientes. ¿Qué técnica puede utilizar para sustituir nombres y direcciones reales por información ficticia o generalizada?",
+      "opciones": [
+        "Encryption",
+        "Steganography",
+        "Tokenization",
+        "Data Masking"
+      ],
+      "respuesta": 3,
+      "explicacion": "Data masking sustituye o modifica información sensible manteniendo una estructura útil para pruebas, análisis o investigación sin revelar los datos reales."
+    },
+    {
+      "pregunta": "Una organización implementa un sistema para verificar la autenticidad e integridad de documentos firmados digitalmente. ¿Cuál es el propósito principal de las firmas digitales en este contexto?",
+      "opciones": [
+        "Cifrar todo el documento para proporcionar confidencialidad",
+        "Proporcionar una marca de tiempo al documento",
+        "Verificar la identidad del remitente del documento",
+        "Garantizar que el documento no haya sido alterado"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una firma digital permite detectar modificaciones realizadas después de la firma y proporciona garantías de integridad, además de apoyar la autenticación del firmante."
+    },
+    {
+      "pregunta": "Una organización planea implementar un sistema basado en blockchain para mantener registros de forma segura y transparente. ¿Cuáles son dos características de seguridad asociadas con blockchain según el test?",
+      "opciones": [
+        "Control centralizado y protección frente a un único punto de fallo",
+        "Cifrado de datos y consenso descentralizado",
+        "Libro mayor cerrado y ofuscación de datos",
+        "Single sign-on y listas de control de acceso"
+      ],
+      "respuesta": 1,
+      "explicacion": "El consenso descentralizado ayuda a mantener la integridad del registro y los mecanismos criptográficos protegen y verifican las transacciones y bloques."
+    },
+    {
+      "pregunta": "Una empresa considera utilizar una blockchain con un libro mayor público y abierto para gestionar su cadena de suministro. ¿Qué preocupación de privacidad debería abordar?",
+      "opciones": [
+        "Control centralizado de los datos",
+        "Accesibilidad limitada del historial de transacciones",
+        "Transparencia e inmutabilidad de los datos",
+        "Protección de información propietaria"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un libro mayor público puede hacer visibles datos de las transacciones, por lo que deben adoptarse medidas para evitar la exposición de información empresarial sensible."
+    },
+    {
+      "pregunta": "Un sitio web almacena contraseñas de usuarios y quiere mejorar la seguridad mediante una función hash. ¿Cuál es una propiedad crucial de una función hash segura?",
+      "opciones": [
+        "Reversibilidad",
+        "Resistencia a colisiones",
+        "Cálculo lento para disuadir atacantes",
+        "Generar el mismo hash para contraseñas similares"
+      ],
+      "respuesta": 1,
+      "explicacion": "La resistencia a colisiones dificulta encontrar dos entradas diferentes que generen el mismo valor hash."
+    },
+    {
+      "pregunta": "Una organización utiliza aplicaciones heredadas críticas para sus operaciones. ¿Cuál es una preocupación de seguridad principal asociada con las aplicaciones heredadas?",
+      "opciones": [
+        "Normalmente son cloud-native",
+        "Pueden contener vulnerabilidades sin parchear",
+        "Utilizan algoritmos criptográficos modernos",
+        "Proporcionan actualizaciones automáticas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los sistemas heredados pueden dejar de recibir actualizaciones o soporte y conservar vulnerabilidades conocidas sin corregir."
+    },
+    {
+      "pregunta": "Un administrador de sistemas se prepara para obtener un nuevo certificado TLS para un servidor web. Genera un archivo que contiene la clave pública del servidor e información identificativa y lo envía a una Certificate Authority. ¿Cómo se llama este archivo?",
+      "opciones": [
+        "Certificate Signing Request (CSR)",
+        "Certificate Revocation List (CRL)",
+        "Certificado raíz",
+        "Secure Enclave"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una CSR contiene la clave pública y la información de identidad que una CA utiliza para procesar la solicitud de emisión de un certificado."
+    },
+    {
+      "pregunta": "Un banco está implementando un sistema de correo seguro para enviar extractos de cuenta. Debe garantizar que solo el destinatario pueda leer el correo y que pueda verificarse que realmente procede del banco. ¿Qué método o combinación de métodos de cifrado satisface mejor estos requisitos?",
+      "opciones": [
+        "Solo cifrado simétrico",
+        "Solo cifrado asimétrico",
+        "Cifrado simétrico para el contenido y asimétrico para la firma digital",
+        "Cifrado asimétrico para el contenido y simétrico para la firma digital"
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado simétrico es eficiente para proteger el contenido y la criptografía asimétrica permite crear y verificar firmas digitales."
+    },
+    {
+      "pregunta": "Una empresa sufre una filtración en la que están siendo descifrados hashes de contraseñas. El equipo sospecha que se utilizó un algoritmo hash débil. ¿Qué medida de seguridad habría dificultado significativamente el cracking mediante tablas precalculadas?",
+      "opciones": [
+        "Aumentar los requisitos de complejidad de las contraseñas",
+        "Implementar MFA",
+        "Utilizar password salting",
+        "Cifrar la base de datos de contraseñas"
+      ],
+      "respuesta": 2,
+      "explicacion": "El salting añade un valor aleatorio antes del hashing y evita que hashes de contraseñas iguales sean idénticos, reduciendo la eficacia de rainbow tables."
+    },
+    {
+      "pregunta": "¿Qué escenario es el más apropiado para utilizar tokenization en lugar de encryption?",
+      "opciones": [
+        "Un procesador de pagos necesita almacenar información de tarjetas de clientes para cobros recurrentes",
+        "Una empresa necesita transmitir datos sensibles de forma segura por Internet",
+        "Una organización quiere cifrar correos que contienen PII",
+        "Una unidad militar necesita proteger documentos clasificados enviados a una agencia externa"
+      ],
+      "respuesta": 0,
+      "explicacion": "Tokenization es especialmente útil para sustituir números de tarjeta por tokens reutilizables, manteniendo los valores reales en un sistema seguro."
+    },
+    {
+      "pregunta": "¿Qué acción inmediata debe realizarse si se detecta acceso físico no autorizado a una sala de servidores?",
+      "opciones": [
+        "Realizar una evaluación del rendimiento del equipo de seguridad",
+        "Apagar todos los sistemas hasta evaluar la intrusión",
+        "Investigar la intrusión y revisar logs de acceso y grabaciones de vigilancia",
+        "Aumentar la temperatura de la sala para desalentar la permanencia"
+      ],
+      "respuesta": 2,
+      "explicacion": "La revisión inmediata de registros y vigilancia permite determinar cómo se produjo el acceso, quién estuvo implicado y qué activos pueden haberse visto afectados."
+    },
+    {
+      "pregunta": "Un comercio electrónico implementa autenticación adaptativa. El sistema ajusta el nivel de autenticación exigido según factores de riesgo como el importe de la transacción y la ubicación de la dirección IP. ¿Qué tipo de control de seguridad se utiliza principalmente?",
+      "opciones": [
+        "Control disuasorio",
+        "Control preventivo",
+        "Control de detección",
+        "Control correctivo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La autenticación adaptativa intenta impedir accesos fraudulentos antes de que se produzcan aumentando los requisitos cuando detecta mayor riesgo."
+    },
+    {
+      "pregunta": "Un marketplace integra smart contracts basados en blockchain para automatizar la liberación de pagos cuando se confirma una entrega. ¿Qué beneficio de seguridad proporciona en el contexto de las obligaciones contractuales?",
+      "opciones": [
+        "Reduce el riesgo de impago o retraso",
+        "Elimina la necesidad de verificación por terceros",
+        "Proporciona una copia de seguridad del historial de transacciones",
+        "Aumenta la transparencia de las transacciones"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los smart contracts ejecutan automáticamente reglas verificables y registradas, aumentando la transparencia sobre las condiciones y su cumplimiento."
+    },
+    {
+      "pregunta": "Una empresa utiliza cifrado asimétrico para proteger el correo de sus ejecutivos. Cada ejecutivo dispone de una clave pública y una clave privada. ¿Para cuál de los siguientes propósitos se utiliza la clave privada?",
+      "opciones": [
+        "Cifrar mensajes salientes destinados a otras personas",
+        "Descifrar mensajes entrantes cifrados para el propietario",
+        "Distribuirla a terceros para que cifren mensajes",
+        "Crear una clave pública derivada de la clave privada"
+      ],
+      "respuesta": 1,
+      "explicacion": "En un esquema de confidencialidad asimétrica, los mensajes cifrados con la clave pública del destinatario se descifran con su clave privada."
+    },
+    {
+      "pregunta": "Un proveedor cloud quiere garantizar que el acceso a sus servicios se conceda únicamente a sistemas cuya identidad haya sido autenticada de forma segura. ¿Cuál es el mejor método para autenticar los sistemas que acceden al servicio?",
+      "opciones": [
+        "Nombre de usuario y contraseña",
+        "Filtrado por dirección MAC",
+        "Certificados",
+        "Lista blanca de direcciones IP"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los certificados permiten autenticar dispositivos o sistemas mediante credenciales criptográficas vinculadas a una identidad y emitidas por una entidad de confianza."
+    },
+    {
+      "pregunta": "Una empresa planea actualizar sus servidores de bases de datos para mejorar el rendimiento. Antes del cambio, TI presenta una solicitud al comité de gestión de cambios. Durante la revisión, el comité observa que no se ha considerado el impacto sobre las copias de seguridad. ¿Cuál debe ser el siguiente paso?",
+      "opciones": [
+        "Realizar la actualización y supervisar de cerca el sistema de copias",
+        "Aprobar el cambio y programarlo fuera del horario punta",
+        "Retrasar el cambio hasta completar un análisis exhaustivo del impacto sobre las copias de seguridad",
+        "Rechazar definitivamente el cambio por este descuido"
+      ],
+      "respuesta": 2,
+      "explicacion": "La gestión de cambios requiere analizar previamente todos los impactos y dependencias relevantes antes de autorizar la implementación."
+    },
+    {
+      "pregunta": "¿Por qué las zonas de confianza implícita se consideran un riesgo de seguridad en las arquitecturas de red modernas?",
+      "opciones": [
+        "Asumen que todos los dispositivos de una zona son de confianza sin verificarlos",
+        "Proporcionan canales cifrados para todas las transmisiones",
+        "Requieren un uso intensivo de firewalls e IDS",
+        "Garantizan que todas las comunicaciones sean registradas y supervisadas"
+      ],
+      "respuesta": 0,
+      "explicacion": "La confianza implícita permite que un sistema comprometido conserve acceso por el mero hecho de encontrarse dentro de una zona considerada confiable."
+    },
+    {
+      "pregunta": "Una empresa exige que todos los correos sensibles sean firmados digitalmente con la clave privada del remitente. Esto impide que un directivo pueda afirmar posteriormente que nunca autorizó una transferencia financiera concreta. ¿De qué concepto se trata?",
+      "opciones": [
+        "Integridad",
+        "Confidencialidad",
+        "No repudio",
+        "Ofuscación"
+      ],
+      "respuesta": 2,
+      "explicacion": "El no repudio utiliza evidencias criptográficas, como las firmas digitales, para dificultar que el autor niegue posteriormente haber realizado una acción."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad quiere bloquear inmediatamente un protocolo obsoleto en todos los servidores internos después de identificar una debilidad. El cambio es sencillo, pero una aplicación empresarial crítica podría depender todavía de ese protocolo. ¿Qué paso de gestión de cambios debería realizarse PRIMERO para reducir el riesgo de interrumpir las operaciones?",
+      "opciones": [
+        "Programar una ventana de mantenimiento",
+        "Realizar un análisis de impacto",
+        "Actualizar el procedimiento operativo estándar",
+        "Reiniciar los servicios afectados"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis de impacto debe identificar primero sistemas, dependencias, riesgos y funciones empresariales que podrían verse afectados por el cambio."
+    },
+    {
+      "pregunta": "El propietario de un archivo concede manualmente acceso de lectura a un compañero modificando los permisos del archivo. El sistema permite que el propietario decida quién puede acceder al recurso. ¿Qué modelo de autorización es?",
+      "opciones": ["DAC", "MAC", "RBAC", "ABAC"],
+      "respuesta": 0,
+      "explicacion": "DAC permite que el propietario del recurso decida directamente quién puede acceder y modifique los permisos a su discreción."
+    },
+    {
+      "pregunta": "Una empresa de logística utiliza una red blockchain para rastrear contenedores. Un responsable intenta modificar una entrada antigua para corregir el peso de un contenedor, pero el sistema rechaza la modificación y le indica que debe registrar una nueva transacción. ¿Por qué se comporta así?",
+      "opciones": [
+        "El responsable carece de permisos de edición",
+        "Las entradas de blockchain no pueden modificarse una vez registradas",
+        "Los nodos de consenso rechazaron la actualización por un error de validación",
+        "La blockchain está bloqueada temporalmente por mantenimiento"
+      ],
+      "respuesta": 1,
+      "explicacion": "La inmutabilidad implica que los registros confirmados no se editan directamente; las correcciones se reflejan mediante nuevas transacciones."
+    },
+    {
+      "pregunta": "Una empresa quiere compartir de forma segura una clave secreta con un socio remoto. Considera enviar la clave simétrica por correo electrónico, pero teme que pueda ser interceptada. ¿Qué enfoque resuelve el problema de distribución de claves?",
+      "opciones": [
+        "Enviar la clave simétrica dividida en dos correos",
+        "Cifrar la clave simétrica con la clave pública del socio",
+        "Aplicar hashing a la clave simétrica antes de enviarla",
+        "Utilizar una clave simétrica más larga para dificultar su interceptación"
+      ],
+      "respuesta": 1,
+      "explicacion": "Cifrar la clave simétrica con la clave pública del destinatario permite que únicamente quien posee la clave privada correspondiente pueda recuperarla."
+    },
+    {
+      "pregunta": "El equipo de seguridad de una empresa investiga amenazas conocidas, revisa informes de riesgos y evalúa documentación de seguridad de proveedores antes de seleccionar un nuevo proveedor cloud. ¿Qué concepto demuestra MÁS directamente esta actividad?",
+      "opciones": ["Due care", "Due diligence", "No repudio", "Ofuscación"],
+      "respuesta": 1,
+      "explicacion": "Due diligence consiste en investigar, evaluar y comprender los riesgos antes de adoptar una decisión o relación empresarial."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad quiere reducir el riesgo de que atacantes exploten vulnerabilidades en servidores web accesibles públicamente. ¿Qué estrategia proporciona la protección a largo plazo MÁS eficaz?",
+      "opciones": [
+        "Segmentación mediante VLAN",
+        "Port forwarding",
+        "Network Address Translation",
+        "Gestión periódica de parches"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una gestión de parches continua corrige vulnerabilidades conocidas en los propios servidores y reduce de forma sostenida la superficie de ataque."
+    }
+  ]
+}
