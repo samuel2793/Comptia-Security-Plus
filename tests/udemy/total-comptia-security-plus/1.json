@@ -1,0 +1,401 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Practice Exam",
+  "procedencia": "TOTAL: CompTIA Security+ Course + Practice Exam SY0-701, Total Seminars, Mike Meyers, Dan Lachance y Lyndon Williams",
+  "descripcion": "Preguntas de práctica sobre operaciones de seguridad, amenazas y vulnerabilidades, arquitectura de seguridad, conceptos generales y gestión de riesgos para CompTIA Security+ SY0-701.",
+  "preguntas": [
+    {
+      "pregunta": "¿Qué herramienta puede utilizarse principalmente para detectar configuraciones de seguridad incorrectas?",
+      "opciones": [
+        "Analizador de protocolos",
+        "Escáner de vulnerabilidades",
+        "Escáner de puertos",
+        "Escáner antivirus"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un escáner de vulnerabilidades compara la configuración de los sistemas con bases de datos de vulnerabilidades conocidas y puede detectar configuraciones de seguridad débiles o incorrectas."
+    },
+    {
+      "pregunta": "Se te ha encargado garantizar que los datos sensibles se eliminen correctamente de dispositivos de almacenamiento retirados. ¿Qué término describe lo que debe realizarse?",
+      "opciones": [
+        "Custodia de claves",
+        "Stapling",
+        "Pinning",
+        "Saneamiento de datos"
+      ],
+      "respuesta": 3,
+      "explicacion": "El saneamiento de datos garantiza que los restos de información no puedan recuperarse de un medio de almacenamiento que ya no se utilizará."
+    },
+    {
+      "pregunta": "Debes filtrar una captura de paquetes existente para mostrar únicamente tráfico DNS. ¿Qué puerto debes filtrar, suponiendo que se utilizan los puertos predeterminados?",
+      "opciones": ["80", "53", "443", "25"],
+      "respuesta": 1,
+      "explicacion": "DNS utiliza normalmente el puerto 53, tanto UDP como TCP según el tipo de consulta."
+    },
+    {
+      "pregunta": "¿Qué dispositivo de red divide una red grande en dominios de broadcast más pequeños?",
+      "opciones": ["Hub", "HSM", "Bridge", "Router"],
+      "respuesta": 3,
+      "explicacion": "Un router no reenvía normalmente tráfico de broadcast entre sus interfaces, por lo que separa las redes conectadas en dominios de broadcast diferentes."
+    },
+    {
+      "pregunta": "Una administradora utiliza SSH para administrar de forma remota un dispositivo de red y ejecuta el comando show mac-address-table. ¿Qué tipo de dispositivo está administrando?",
+      "opciones": ["Hub", "Dispositivo VPN", "Switch", "HSMaaS"],
+      "respuesta": 2,
+      "explicacion": "Los switches mantienen tablas que asocian direcciones MAC con puertos físicos. El comando show mac-address-table permite consultar esa información."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes tecnologías autentica de forma centralizada a los usuarios que se conectan a una LAN inalámbrica?",
+      "opciones": ["IPSec", "TLS", "RADIUS", "PKI"],
+      "respuesta": 2,
+      "explicacion": "RADIUS proporciona autenticación centralizada y permite que dispositivos de acceso reenvíen solicitudes de autenticación a un servidor central."
+    },
+    {
+      "pregunta": "En tu red se realizan capturas de paquetes programadas diariamente de 15:00 a 17:00. Te piden abrir la captura de ayer y filtrar los paquetes de ping. ¿Por qué protocolo debes filtrar?",
+      "opciones": ["IGMP", "TCP", "ICMP", "UDP"],
+      "respuesta": 2,
+      "explicacion": "La utilidad ping utiliza ICMP para comprobar la accesibilidad de otros sistemas en la red."
+    },
+    {
+      "pregunta": "¿Qué procedimiento garantiza que las evidencias se recopilen y protejan correctamente?",
+      "opciones": [
+        "Due diligence",
+        "Orden de volatilidad",
+        "Respuesta ante incidentes",
+        "Cadena de custodia"
+      ],
+      "respuesta": 3,
+      "explicacion": "La cadena de custodia documenta y controla la adquisición, manipulación, almacenamiento y análisis de las evidencias para preservar su integridad y legitimidad."
+    },
+    {
+      "pregunta": "Tu NIDS basado en comportamiento informa de un posible ataque de red. Tras investigarlo, concluyes que no existía ningún problema. ¿Qué término describe lo informado por el NIDS?",
+      "opciones": [
+        "Falso negativo",
+        "Alarma basada en comportamiento",
+        "Falso positivo",
+        "Excepción de anomalía"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un falso positivo se produce cuando un sistema genera una alerta de seguridad aunque en realidad no exista una amenaza."
+    },
+    {
+      "pregunta": "¿Qué impide que los usuarios cambien repetidamente su contraseña de forma inmediata para volver a reutilizar una contraseña antigua?",
+      "opciones": [
+        "Longitud mínima de contraseña",
+        "Longitud máxima de contraseña",
+        "Edad mínima de contraseña",
+        "Edad máxima de contraseña"
+      ],
+      "respuesta": 2,
+      "explicacion": "La edad mínima de contraseña obliga a conservar una contraseña durante un periodo determinado antes de poder cambiarla otra vez."
+    },
+    {
+      "pregunta": "Mientras hablas por teléfono con un técnico de red, indicas que tu red inalámbrica utiliza filtrado de capa 2. ¿Qué tipo de filtrado es?",
+      "opciones": [
+        "Direcciones IP",
+        "Nombre del equipo",
+        "Certificado PKI",
+        "Dirección MAC"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las direcciones MAC pertenecen a la capa 2 del modelo OSI, por lo que el filtrado de capa 2 suele referirse al filtrado por MAC."
+    },
+    {
+      "pregunta": "¿Qué medida debe implementarse para prevenir ataques de cross-site scripting?",
+      "opciones": [
+        "Activar firewalls personales basados en host.",
+        "Actualizar los escáneres antivirus.",
+        "Desactivar las herramientas de edición del registro para evitar el robo de cookies.",
+        "Garantizar que los sitios web validen la entrada del usuario antes de aceptar envíos."
+      ],
+      "respuesta": 3,
+      "explicacion": "La validación adecuada de las entradas proporcionadas por los usuarios ayuda a impedir que se introduzca código malicioso que pueda ejecutarse posteriormente en el navegador de otros usuarios."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones puede utilizarse para proteger todo el tráfico interno de una LAN?",
+      "opciones": ["IPSec", "TLS", "HTTPS", "Antivirus"],
+      "respuesta": 0,
+      "explicacion": "IPSec puede proteger tráfico IP independientemente de la aplicación utilizada, permitiendo cifrar y autenticar las comunicaciones de red."
+    },
+    {
+      "pregunta": "¿Qué medida pueden adoptar los desarrolladores para proteger sus aplicaciones web frente a ataques de cross-site scripting?",
+      "opciones": [
+        "Aplicar parches al sistema operativo.",
+        "Validar las entradas del usuario.",
+        "Activar SSL.",
+        "Activar TLS."
+      ],
+      "respuesta": 1,
+      "explicacion": "Validar y tratar correctamente las entradas del usuario evita que se introduzca código malicioso que pueda ejecutarse en los navegadores de otros usuarios."
+    },
+    {
+      "pregunta": "Un administrador de un servidor Unix aplica los últimos parches del sistema operativo y deshabilita cuentas de usuario sin uso. Configura el reenvío de Syslog y la auditoría, deshabilita los daemons innecesarios y ejecuta los restantes con cuentas de privilegios mínimos. ¿Qué término describe mejor lo que ha hecho?",
+      "opciones": ["Fuzzing", "Securitizing", "Fortifying", "Hardening"],
+      "respuesta": 3,
+      "explicacion": "El hardening consiste en reducir la superficie de ataque mediante parches, eliminación de servicios innecesarios, privilegios mínimos, auditoría y otras medidas de configuración segura."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque aprovecha una conexión autenticada que un usuario ya mantiene con un sitio web?",
+      "opciones": [
+        "DoS",
+        "Cross-site scripting",
+        "Directory traversal",
+        "Cross-site request forgery"
+      ],
+      "respuesta": 3,
+      "explicacion": "CSRF aprovecha la confianza que un sitio web tiene en una sesión ya autenticada para provocar que el navegador del usuario realice acciones sin su consentimiento."
+    },
+    {
+      "pregunta": "¿Qué puede hacerse para proteger las cuentas de usuario frente a ataques de fuerza bruta contra contraseñas?",
+      "opciones": [
+        "Establecer fechas de expiración para las cuentas.",
+        "Crear cuentas de usuario a partir de plantillas.",
+        "Activar SSO.",
+        "Activar el bloqueo de cuentas."
+      ],
+      "respuesta": 3,
+      "explicacion": "El bloqueo de cuentas limita los intentos repetidos de autenticación bloqueando temporalmente una cuenta después de un número determinado de contraseñas incorrectas."
+    },
+    {
+      "pregunta": "Tu red utiliza un sistema en el que las credenciales de usuario nunca se envían por la red. En su lugar, se transmite un valor único derivado de ellas para autenticar al usuario. ¿Qué riesgo permite utilizar ese valor para acceder a otros recursos de red?",
+      "opciones": [
+        "Pass the hash",
+        "Replay",
+        "Secuestro de sesión",
+        "Secuestro de URL"
+      ],
+      "respuesta": 0,
+      "explicacion": "En un ataque pass the hash, un atacante utiliza directamente un hash de autenticación robado para hacerse pasar por un usuario sin conocer su contraseña original."
+    },
+    {
+      "pregunta": "Un atacante utiliza una lista de palabras mientras intenta descubrir contraseñas de usuarios. ¿Qué tipo de ataque es?",
+      "opciones": ["Diccionario", "Birthday", "Known plain text", "Collision"],
+      "respuesta": 0,
+      "explicacion": "Un ataque de diccionario prueba contraseñas procedentes de listas de palabras o contraseñas conocidas para intentar encontrar la credencial correcta."
+    },
+    {
+      "pregunta": "¿Qué estándar Wi-Fi empareja dispositivos utilizando un PIN?",
+      "opciones": ["WPA", "WPS", "WEP", "TKIP"],
+      "respuesta": 1,
+      "explicacion": "Wi-Fi Protected Setup (WPS) puede utilizar un PIN para emparejar y configurar dispositivos Wi-Fi."
+    },
+    {
+      "pregunta": "Chris, un técnico de red, identifica una forma de obtener acceso administrativo remoto a un host Linux sin conocer credenciales administrativas. ¿Qué ha descubierto Chris?",
+      "opciones": ["Virus", "Exploit", "Vulnerabilidad", "Worm"],
+      "respuesta": 1,
+      "explicacion": "Un exploit es un método o código que aprovecha una vulnerabilidad para conseguir un resultado no autorizado, como obtener acceso administrativo."
+    },
+    {
+      "pregunta": "¿Cómo se denomina al código malicioso que se descubre antes de que exista una solución para la vulnerabilidad que explota?",
+      "opciones": ["Worm", "Trojan", "Zero-day exploit", "Virus"],
+      "respuesta": 2,
+      "explicacion": "Un zero-day exploit aprovecha una vulnerabilidad para la que todavía no existe una corrección disponible en el momento de su explotación."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque degrada conexiones HTTPS a HTTP?",
+      "opciones": [
+        "SSL stripping",
+        "Cross-site scripting",
+        "SQL injection",
+        "DDoS"
+      ],
+      "respuesta": 0,
+      "explicacion": "SSL stripping intercepta la comunicación y hace que la conexión del cliente permanezca en HTTP sin cifrar mientras el atacante puede mantener HTTPS con el servidor legítimo."
+    },
+    {
+      "pregunta": "¿Qué elemento clave debe estar presente en las políticas de seguridad para que sean efectivas?",
+      "opciones": [
+        "Procedimientos técnicos",
+        "Estándares tecnológicos",
+        "Apoyo de la dirección y aplicación de las políticas",
+        "Directrices de implementación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las políticas necesitan aprobación y respaldo de la dirección, además de mecanismos reales para garantizar su cumplimiento."
+    },
+    {
+      "pregunta": "¿Cuál es la fórmula para calcular el riesgo?",
+      "opciones": [
+        "Riesgo = probabilidad × pérdida",
+        "Riesgo = impacto × pérdida",
+        "Riesgo = amenaza + vulnerabilidad",
+        "Riesgo = SLE × ARO"
+      ],
+      "respuesta": 0,
+      "explicacion": "En este modelo, el riesgo se calcula multiplicando la probabilidad de que ocurra un evento por la pérdida o impacto asociado."
+    },
+    {
+      "pregunta": "Todos los siguientes son pasos de una evaluación de riesgos excepto uno. ¿Cuál?",
+      "opciones": [
+        "Identificar procedimientos de recuperación.",
+        "Identificar riesgos o amenazas.",
+        "Identificar activos.",
+        "Mitigar riesgos o amenazas."
+      ],
+      "respuesta": 0,
+      "explicacion": "La identificación de procedimientos de recuperación pertenece principalmente a la planificación de recuperación ante desastres, no al proceso básico de evaluación de riesgos."
+    },
+    {
+      "pregunta": "¿Qué puede hacerse para determinar si los usuarios y los equipos informáticos cumplen las políticas de seguridad corporativas?",
+      "opciones": [
+        "Establecer permisos de archivos.",
+        "Realizar auditorías periódicas.",
+        "Utilizar cadena de custodia.",
+        "Utilizar respuesta ante incidentes."
+      ],
+      "respuesta": 1,
+      "explicacion": "Las auditorías periódicas permiten comprobar configuraciones, procedimientos y comportamientos para identificar incumplimientos de las políticas establecidas."
+    },
+    {
+      "pregunta": "Un técnico analiza el rendimiento histórico de un servidor web y determina que existe una probabilidad anual del 7 % de que se produzca una interrupción de tres horas. El servidor aloja un sitio de comercio electrónico que genera una media de 350 dólares por hora. ¿Cuál es el valor ALE?",
+      "opciones": ["$73.50", "$15,000", "$8.16", "$350"],
+      "respuesta": 0,
+      "explicacion": "La pérdida por incidente es 350 × 3 = 1050 dólares. Aplicando un ARO de 0,07, ALE = 1050 × 0,07 = 73,50 dólares."
+    },
+    {
+      "pregunta": "¿Qué tipo de análisis de riesgos utiliza valores ALE para priorizar riesgos?",
+      "opciones": ["Inverted", "Subverted", "Cualitativo", "Cuantitativo"],
+      "respuesta": 3,
+      "explicacion": "El análisis cuantitativo utiliza valores numéricos y monetarios, como ALE, para estimar y comparar el impacto económico de los riesgos."
+    },
+    {
+      "pregunta": "Una funcionaria pública recibe un nivel de autorización que le permite acceder a registros fiscales de ciudadanos estadounidenses y a otros datos confidenciales. ¿Qué término describe mejor este escenario?",
+      "opciones": [
+        "Mínimo privilegio",
+        "Security clearance",
+        "Autenticación",
+        "Confidencialidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una security clearance es una autorización formal que permite a una persona acceder a determinados niveles o categorías de información sensible."
+    },
+    {
+      "pregunta": "¿Qué tipo de estudio determina el efecto que las amenazas materializadas podrían tener sobre las operaciones de una organización?",
+      "opciones": [
+        "Análisis de riesgos",
+        "Respuesta ante incidentes",
+        "Business impact analysis",
+        "Auditoría de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un Business Impact Analysis (BIA) determina cómo una interrupción afectaría a procesos, personal, sistemas, clientes, ingresos y otras funciones del negocio."
+    },
+    {
+      "pregunta": "Al preparar tu DRP, defines el procedimiento mediante el cual pueden descifrarse archivos cifrados mediante PKI pertenecientes a cuentas de usuario dañadas. ¿Qué afirmación sobre este plan es correcta?",
+      "opciones": [
+        "Restaurar las claves públicas de los usuarios desde una copia de seguridad.",
+        "Restaurar las claves privadas de los usuarios desde una copia de seguridad.",
+        "Los archivos no pueden descifrarse si la cuenta de usuario está dañada.",
+        "La cuenta dañada debe volver a crearse con el mismo nombre para descifrar los archivos."
+      ],
+      "respuesta": 1,
+      "explicacion": "Los datos cifrados con la clave pública del usuario requieren la clave privada correspondiente para ser descifrados, por lo que debe existir una copia recuperable de esa clave privada."
+    },
+    {
+      "pregunta": "Compras diez portátiles nuevos con lectores de tarjetas y almacenas las credenciales de los usuarios en tarjetas inteligentes. ¿Qué término describe mejor esta medida?",
+      "opciones": [
+        "Autorización",
+        "Control administrativo",
+        "Control técnico",
+        "Integridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "El uso de tecnología, como tarjetas inteligentes y lectores, para implementar requisitos de seguridad constituye un control técnico."
+    },
+    {
+      "pregunta": "Un usuario malicioso, Daniel, obtiene acceso a una red Wi-Fi corporativa donde otros dos usuarios están intercambiando datos. Daniel captura el tráfico entre ambos, lo modifica y vuelve a enviarlo a la red. ¿Cómo podría prevenirse este tipo de ataque?",
+      "opciones": [
+        "Jumbo frames",
+        "Autenticación de equipos mediante PKI",
+        "Autenticación de equipos mediante ARP",
+        "Cifrado del disco duro"
+      ],
+      "respuesta": 1,
+      "explicacion": "La autenticación mediante certificados PKI permite verificar criptográficamente la identidad de los equipos y rechazar comunicaciones de sistemas que no presenten certificados de confianza."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes fórmulas representa la Single Loss Expectancy (SLE)?",
+      "opciones": [
+        "SLE = valor ($) × pérdida ($)",
+        "SLE = pérdida ($) × EF (%)",
+        "SLE = valor ($) × EF (%)",
+        "SLE = ALE ($) × ARO (#)"
+      ],
+      "respuesta": 2,
+      "explicacion": "La SLE se calcula multiplicando el valor del activo por el Exposure Factor (EF), que representa el porcentaje de pérdida esperado en un único incidente."
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema de seguridad física exige que un primer conjunto de puertas aseguradas esté cerrado antes de abrir un segundo conjunto?",
+      "opciones": [
+        "Access control vestibule",
+        "Doortrap",
+        "Doorgate",
+        "Access control list"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un access control vestibule, también conocido como mantrap, controla el acceso mediante dos puertas de modo que una debe cerrarse antes de que pueda abrirse la otra."
+    },
+    {
+      "pregunta": "¿Qué clave se utiliza para cifrar un archivo en un entorno PKI?",
+      "opciones": [
+        "Clave pública",
+        "Clave privada",
+        "Clave de sesión",
+        "Clave aleatoria"
+      ],
+      "respuesta": 0,
+      "explicacion": "En el esquema descrito, la clave pública se utiliza para cifrar datos destinados al propietario de la clave y la clave privada correspondiente permite descifrarlos."
+    },
+    {
+      "pregunta": "¿Qué estándar exige autenticación de equipos mediante PKI antes de permitir el acceso a la red?",
+      "opciones": ["SSL", "802.1x", "TLS", "AES"],
+      "respuesta": 1,
+      "explicacion": "802.1X proporciona control de acceso a la red basado en autenticación y puede utilizar certificados PKI mediante métodos EAP adecuados antes de autorizar el acceso."
+    },
+    {
+      "pregunta": "Tu empresa ha instalado nuevos firewalls perimetrales que permiten tráfico TCP entrante y saliente por los puertos 80, 443, 389 y 3389. Los firewalls no pueden configurarse más. Los usuarios remotos necesitan una conexión cifrada a través de Internet para acceder a servidores web Linux internos. ¿Qué deberías configurar?",
+      "opciones": ["Servidor proxy", "SSL VPN", "IPSec VPN", "NAT"],
+      "respuesta": 1,
+      "explicacion": "Una SSL VPN puede utilizar TCP 443, que ya está permitido por el firewall, para proporcionar una conexión cifrada hacia los recursos internos."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones es un ejemplo de alta disponibilidad?",
+      "opciones": [
+        "Discos duros cifrados",
+        "Hashes de archivos para documentos sensibles",
+        "Clúster de servidores web",
+        "RAID 0"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un clúster utiliza varios servidores para mantener un servicio disponible incluso cuando uno de los nodos falla."
+    },
+    {
+      "pregunta": "DrumCo es una pequeña empresa de instrumentos musicales de Fargo, Dakota del Norte. Para reducir los costes de hardware y TI, utiliza soluciones alojadas de correo electrónico y seguimiento de clientes. El proveedor almacena los datos de clientes en un centro de datos situado en Alemania. DrumCo está preocupada por los problemas legales derivados de almacenar datos en otro país. ¿Con qué ámbito está relacionada esta preocupación?",
+      "opciones": [
+        "Cifrado",
+        "Cloud computing",
+        "Service-level agreement",
+        "Virtualización"
+      ],
+      "respuesta": 1,
+      "explicacion": "El escenario utiliza servicios de cloud computing proporcionados y alojados por un tercero, lo que introduce consideraciones relacionadas con la ubicación y jurisdicción de los datos."
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado de red no es específico de una aplicación?",
+      "opciones": ["IPSec", "TLS", "TPM", "HSM"],
+      "respuesta": 0,
+      "explicacion": "IPSec protege tráfico a nivel IP y puede asegurar comunicaciones de diferentes aplicaciones sin tener que configurar el cifrado individualmente en cada una."
+    },
+    {
+      "pregunta": "Al revisar registros de capturas de red, observas tráfico TCP por el puerto 22. ¿Con cuál de las siguientes opciones suele estar más asociado este tráfico?",
+      "opciones": ["Servidor Windows", "Servidor Linux", "DDoS", "Trojan"],
+      "respuesta": 1,
+      "explicacion": "SSH utiliza TCP 22 y se emplea habitualmente para la administración remota por línea de comandos de sistemas Unix y Linux."
+    },
+    {
+      "pregunta": "Debes garantizar que el tráfico de red de los usuarios esté protegido cuando se conectan a redes públicas. ¿Qué deberías utilizar?",
+      "opciones": ["Software antivirus", "HIDS", "HIPS", "VPN"],
+      "respuesta": 3,
+      "explicacion": "Una VPN crea un túnel cifrado entre el dispositivo del usuario y el extremo VPN, protegiendo el tráfico incluso cuando se utiliza una red pública no confiable."
+    }
+  ]
+}

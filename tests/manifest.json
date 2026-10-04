@@ -44,6 +44,13 @@
         "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/5.json",
         "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/6.json"
       ]
+    },
+    {
+      "id": "udemy-total-comptia-security-plus",
+      "titulo": "Udemy total comptia security plus",
+      "baterias": [
+        "tests/udemy/total-comptia-security-plus/1.json"
+      ]
     }
   ]
 }
