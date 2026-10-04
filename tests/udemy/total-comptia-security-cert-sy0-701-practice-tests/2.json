@@ -1,0 +1,789 @@
+{
+  "titulo": "Segundo Test - CompTIA Security+ (SY0-701)",
+  "procedencia": "TOTAL: CompTIA Security+ Cert. (SY0-701) Practice Tests - Total Seminars / Mike Meyers",
+  "descripcion": "Segundo test de práctica para CompTIA Security+ SY0-701, con preguntas sobre conceptos generales de seguridad, arquitectura, operaciones, amenazas, vulnerabilidades, mitigaciones y gestión de programas de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones no describe correctamente las características de los cifrados por bloques y de flujo?",
+      "opciones": [
+        "Un cifrado por bloques divide la información en bloques de longitud fija, normalmente de 64 bits, y cifra cada bloque.",
+        "Un cifrado de flujo cifra todo el flujo de texto en lugar de dividir los datos en bloques.",
+        "En un cifrado por bloques, los bits del texto en claro normalmente se cifran con los bits de una clave mediante una operación OR exclusiva (XOR).",
+        "En un cifrado de flujo, los bits del texto en claro normalmente se cifran con los bits de una clave mediante una operación OR exclusiva (XOR)."
+      ],
+      "respuesta": 2,
+      "explicacion": "La afirmación incorrecta es la relativa al cifrado por bloques. El uso continuo de XOR entre el texto en claro y un flujo de clave es característico de los cifrados de flujo."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no es una función proporcionada por la criptografía?",
+      "opciones": ["Cifrado", "Hashing", "Autenticación", "Disponibilidad"],
+      "respuesta": 3,
+      "explicacion": "La criptografía proporciona mecanismos de cifrado, hashing y autenticación, y se centra principalmente en confidencialidad e integridad. No garantiza la disponibilidad."
+    },
+    {
+      "pregunta": "Todos los siguientes son tipos de firewall excepto uno. ¿Cuál?",
+      "opciones": ["Filtrado de paquetes", "Stateful", "De aplicación", "VPN"],
+      "respuesta": 3,
+      "explicacion": "Una VPN no es un tipo de firewall, aunque muchos firewalls pueden incorporar funciones de VPN."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes versiones de Extensible Authentication Protocol (EAP) se utiliza para encapsular mensajes EAP dentro de un túnel seguro que utiliza TLS?",
+      "opciones": ["EAP-MD5", "LEAP", "PEAP", "EAP-PSK"],
+      "respuesta": 2,
+      "explicacion": "PEAP encapsula los mensajes EAP dentro de un túnel protegido mediante TLS."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un protocolo de autenticación habitual que controla quién obtiene acceso a una red cableada o inalámbrica exigiendo que el cliente se autentique contra una base de datos central, como un servidor RADIUS?",
+      "opciones": ["Kerberos", "CHAP", "802.1X", "PAP"],
+      "respuesta": 2,
+      "explicacion": "802.1X proporciona control de acceso a la red basado en puertos y puede utilizar un servidor RADIUS para autenticar a los clientes."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes tecnologías permitiría crear límites de comunicación dividiendo la red en diferentes dominios de broadcast sin utilizar múltiples routers?",
+      "opciones": [
+        "Zonas de seguridad",
+        "VLAN",
+        "Autenticación mutua",
+        "Firewalls"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las VLAN segmentan los hosts en redes lógicas independientes y crean diferentes dominios de broadcast mediante switches."
+    },
+    {
+      "pregunta": "Ashlyn es responsable de seguridad en tu organización y quiere instalar un dispositivo capaz de supervisar y bloquear tráfico sospechoso en la red. ¿Qué tipo de dispositivo debe utilizar?",
+      "opciones": [
+        "IDS basado en red",
+        "IDS fuera de banda",
+        "IPS basado en host",
+        "IPS en banda"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un IPS en banda se sitúa en línea con el tráfico, lo que le permite tanto supervisarlo como bloquearlo cuando detecta actividad sospechosa."
+    },
+    {
+      "pregunta": "Tu responsable quiere asegurarse de que los empleados no puedan acceder a los sistemas de contabilidad. ¿Qué acción realizarías?",
+      "opciones": [
+        "Configurar un WAP.",
+        "Deshabilitar los puertos de los sistemas de contabilidad.",
+        "Colocar los sistemas de contabilidad en su propia VLAN.",
+        "Cambiar la clave WPA2."
+      ],
+      "respuesta": 2,
+      "explicacion": "Separar los sistemas de contabilidad en una VLAN propia permite segmentar la red y controlar qué usuarios o redes pueden comunicarse con ellos."
+    },
+    {
+      "pregunta": "Tu responsable quiere implementar un servicio cloud que proporcione acceso al correo electrónico mediante un navegador web y permita a los usuarios leerlo desde cualquier lugar de Internet. ¿Qué tipo de solución cloud es?",
+      "opciones": [
+        "Software as a Service",
+        "Platform as a Service",
+        "Infrastructure as a Service",
+        "Security as a Service"
+      ],
+      "respuesta": 0,
+      "explicacion": "SaaS proporciona aplicaciones completas gestionadas por el proveedor cloud, como servicios de correo web."
+    },
+    {
+      "pregunta": "Todos los siguientes son servicios ofrecidos mediante cloud computing excepto uno. ¿Cuál?",
+      "opciones": [
+        "Software as a Service (SaaS)",
+        "Scalability as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)"
+      ],
+      "respuesta": 1,
+      "explicacion": "Scalability as a Service no es uno de los modelos estándar indicados. SaaS, PaaS e IaaS sí son modelos habituales de servicios cloud."
+    },
+    {
+      "pregunta": "¿Qué zona de seguridad suele estar situada entre dos dispositivos de seguridad y puede contener recursos accesibles públicamente, como servidores web externos?",
+      "opciones": ["Intranet", "Extranet", "DMZ", "VPN"],
+      "respuesta": 2,
+      "explicacion": "Una DMZ se utiliza habitualmente para alojar servidores accesibles desde Internet, manteniéndolos separados de la red privada."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes sitios de procesamiento alternativo proporciona una capacidad moderada de recuperación e incluye espacio de oficinas y equipos de red de reserva?",
+      "opciones": ["Cold site", "Warm site", "Hot site", "Time-shared site"],
+      "respuesta": 1,
+      "explicacion": "Un warm site ofrece un nivel intermedio de preparación, con instalaciones, servicios y parte del equipamiento necesarios para recuperar las operaciones."
+    },
+    {
+      "pregunta": "¿Qué tipo de control de seguridad es una política?",
+      "opciones": ["Operativo", "Físico", "Lógico", "Administrativo"],
+      "respuesta": 3,
+      "explicacion": "Las políticas de seguridad son controles administrativos, también denominados controles de gestión."
+    },
+    {
+      "pregunta": "Sara, responsable de TI de tu organización, quiere instalar un concentrador VPN en la red para aceptar tráfico VPN procedente de clientes de Internet. ¿Dónde debería colocarlo?",
+      "opciones": ["Red privada", "DMZ", "Red pública", "Internet"],
+      "respuesta": 1,
+      "explicacion": "El concentrador VPN suele situarse en la DMZ y se configuran en el firewall externo los puertos necesarios para permitir el tráfico VPN."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos produce un hash de 160 bits?",
+      "opciones": ["MD5", "SHA-1", "AES", "RSA"],
+      "respuesta": 1,
+      "explicacion": "SHA-1 produce un valor hash de 160 bits. MD5 produce 128 bits, mientras que AES y RSA son algoritmos de cifrado."
+    },
+    {
+      "pregunta": "¿Qué concepto de recuperación de claves requiere un número mínimo de personas para poder realizar la recuperación?",
+      "opciones": [
+        "Separación de funciones",
+        "Agente de recuperación",
+        "Escrow",
+        "Control M de N"
+      ],
+      "respuesta": 3,
+      "explicacion": "El control M de N exige la participación de un número mínimo M de un conjunto de N personas autorizadas para recuperar una clave."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es una tarjeta que se añade a un sistema y contiene un criptoprocesador para realizar funciones criptográficas asimétricas a nivel de hardware?",
+      "opciones": ["TPM", "EFS", "HSM", "PGP"],
+      "respuesta": 2,
+      "explicacion": "Un HSM es un módulo de seguridad hardware que puede realizar operaciones criptográficas y almacenar claves criptográficas de forma protegida."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es el protocolo utilizado para cifrar mensajes de correo electrónico?",
+      "opciones": ["S/MIME", "HTTPS", "IPSec", "IPSec"],
+      "respuesta": 0,
+      "explicacion": "S/MIME se utiliza para proteger mensajes de correo electrónico mediante cifrado y firmas digitales."
+    },
+    {
+      "pregunta": "¿Qué término describe una relación de confianza entre dos CA diferentes en la que cada CA confía en los certificados generados por la otra?",
+      "opciones": ["Cross-certificate", "Hierarchical", "Subordinate", "Mesh"],
+      "respuesta": 0,
+      "explicacion": "Un modelo de confianza cross-certificate establece confianza recíproca entre dos CA raíz diferentes."
+    },
+    {
+      "pregunta": "La persona o grupo de personas de una organización que puede descifrar información en caso de baja de un empleado o pérdida de claves suele denominarse ¿cómo?",
+      "opciones": [
+        "Administrador",
+        "Responsable",
+        "Agente de recuperación",
+        "Agente de las fuerzas de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un agente de recuperación está autorizado para recuperar claves o descifrar información cuando las claves originales ya no están disponibles."
+    },
+    {
+      "pregunta": "Un certificado digital puede contener todos los siguientes elementos excepto uno. ¿Cuál?",
+      "opciones": [
+        "Clave pública del sujeto",
+        "Clave privada del emisor",
+        "Número de serie",
+        "Algoritmo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La clave privada del emisor se utiliza para firmar digitalmente el certificado, pero nunca se incluye dentro de este porque comprometería la clave."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes se utiliza para identificar certificados que ya no son válidos?",
+      "opciones": ["CAL", "CRL", "PKS", "CA"],
+      "respuesta": 1,
+      "explicacion": "Una Certificate Revocation List (CRL) contiene los certificados que han sido revocados y ya no deben considerarse válidos."
+    },
+    {
+      "pregunta": "¿Cuál es el ÚLTIMO paso de la metodología de una prueba de penetración según el enfoque planteado?",
+      "opciones": [
+        "Perfilar",
+        "Obtener acceso",
+        "Escanear y enumerar",
+        "Borrar las huellas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Según la metodología planteada en la pregunta, el último paso operativo consiste en cubrir o borrar las huellas para evitar la detección."
+    },
+    {
+      "pregunta": "Tras ver varias noticias sobre empleados que se llevan copias de datos sensibles de sus empresas, tu responsable decide impedir el uso de unidades USB. ¿Qué función de seguridad recomendarías?",
+      "opciones": ["NAC", "CRL", "DLP", "TPM"],
+      "respuesta": 2,
+      "explicacion": "DLP puede impedir o controlar la copia y exfiltración de información sensible mediante dispositivos extraíbles como unidades USB."
+    },
+    {
+      "pregunta": "Todos los siguientes son elementos que deberían configurarse en una línea base de sistema excepto uno. ¿Cuál?",
+      "opciones": [
+        "Uso de protocolos",
+        "Uso de memoria",
+        "Servicios instalados",
+        "Permisos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El uso de memoria es un recurso dinámico y no suele configurarse como elemento fijo de una línea base de seguridad."
+    },
+    {
+      "pregunta": "¿Qué término describe software o hardware que analiza la información que sale de la organización para garantizar que no se esté filtrando información sensible?",
+      "opciones": [
+        "Firewall",
+        "Data loss prevention",
+        "Cifrado",
+        "Intrusion prevention system"
+      ],
+      "respuesta": 1,
+      "explicacion": "DLP analiza datos en tránsito o almacenados para detectar y evitar la salida no autorizada de información sensible."
+    },
+    {
+      "pregunta": "En lugar de permitir que una aplicación falle, la gestión de errores y excepciones utiliza una técnica para interceptar los errores y mostrar mensajes de advertencia comprensibles. ¿Cómo se denomina?",
+      "opciones": ["Injection", "Input validation", "Tunneling", "Trapping"],
+      "respuesta": 3,
+      "explicacion": "Trapping consiste en capturar o interceptar un error o excepción para gestionarlo de forma controlada en lugar de permitir que la aplicación falle."
+    },
+    {
+      "pregunta": "¿Qué término se utiliza habitualmente para describir un dispositivo que muestra un número aleatorio durante 30 a 60 segundos y que se usa junto con un nombre de usuario y una contraseña para iniciar sesión?",
+      "opciones": [
+        "Smart token",
+        "Logical token",
+        "Windows token",
+        "Hardware token"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un hardware token es un dispositivo físico que puede generar códigos temporales utilizados como factor adicional de autenticación."
+    },
+    {
+      "pregunta": "Todos los siguientes se consideran controles de seguridad eficaces para dispositivos móviles excepto uno. ¿Cuál?",
+      "opciones": [
+        "Bloqueo de pantalla",
+        "Cifrado del dispositivo",
+        "Borrado remoto o sanitización",
+        "Uso de WEP"
+      ],
+      "respuesta": 3,
+      "explicacion": "WEP es un mecanismo inalámbrico obsoleto y vulnerable, por lo que no se considera un control de seguridad adecuado."
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes tecnologías utilizan habitualmente una gestión basada en reglas?",
+      "opciones": [
+        "Sistemas operativos",
+        "Routers, firewalls y servidores proxy",
+        "Bases de datos",
+        "Servidores web"
+      ],
+      "respuesta": 1,
+      "explicacion": "Routers, firewalls y servidores proxy utilizan reglas o conjuntos de reglas para decidir qué tráfico o accesos están permitidos."
+    },
+    {
+      "pregunta": "¿Qué puerto debe habilitarse en firewalls y otros dispositivos de seguridad de red para permitir tráfico L2TP?",
+      "opciones": ["1723", "443", "22", "1701"],
+      "respuesta": 3,
+      "explicacion": "L2TP utiliza el puerto UDP 1701. El puerto 1723 corresponde a PPTP, 443 a HTTPS y 22 a SSH."
+    },
+    {
+      "pregunta": "Todos los siguientes se consideran alternativas seguras a FTP excepto una. ¿Cuál?",
+      "opciones": ["SFTP", "FTPS", "TFTP", "SCP"],
+      "respuesta": 2,
+      "explicacion": "TFTP no proporciona cifrado ni autenticación, por lo que no es una alternativa segura a FTP."
+    },
+    {
+      "pregunta": "Todos los siguientes son tipos de pruebas de penetración excepto uno. ¿Cuál?",
+      "opciones": [
+        "Entorno desconocido",
+        "Entorno conocido",
+        "Entorno parcialmente conocido",
+        "Entorno poco conocido"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las categorías habituales son entorno desconocido, conocido y parcialmente conocido. 'Entorno poco conocido' no es una categoría estándar."
+    },
+    {
+      "pregunta": "Un usuario ha informado de un incidente de seguridad por sospecha de malware en su portátil. ¿Qué fase del proceso de respuesta a incidentes debes realizar a continuación?",
+      "opciones": [
+        "Recuperación",
+        "Lecciones aprendidas",
+        "Identificación",
+        "Contención"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una vez identificado y comunicado el incidente, se debe contener para impedir que el problema se propague o aumente su impacto."
+    },
+    {
+      "pregunta": "Formas parte del equipo de gestión de riesgos de tu empresa y estás realizando una evaluación de los activos de TI. Debes calcular el SLE de un ataque de denegación de servicio contra el sitio web de la empresa. ¿Qué fórmula utilizarías?",
+      "opciones": ["AV × EF", "EF × ARO", "ALE × ARO", "AV × ARO"],
+      "respuesta": 0,
+      "explicacion": "El Single Loss Expectancy (SLE) se calcula multiplicando el Asset Value (AV) por el Exposure Factor (EF)."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor una evaluación cuantitativa del riesgo?",
+      "opciones": [
+        "Una evaluación que asigna factores ponderados arbitrarios a amenazas, vulnerabilidades y exposiciones.",
+        "Una evaluación que utiliza probabilidades estadísticas para calcular la probabilidad del riesgo.",
+        "Una evaluación que utiliza valores subjetivos de probabilidad e impacto, como alto, medio y bajo.",
+        "Una evaluación que utiliza cifras monetarias y calcula el riesgo en términos de pérdidas."
+      ],
+      "respuesta": 3,
+      "explicacion": "Una evaluación cuantitativa expresa el impacto del riesgo mediante valores numéricos, normalmente monetarios."
+    },
+    {
+      "pregunta": "¿Qué término se define con mayor precisión como la cantidad de tiempo que una empresa puede sobrevivir sin una función determinada?",
+      "opciones": [
+        "Mean time between failures (MTBF)",
+        "Recovery point objective (RPO)",
+        "Maximum tolerable downtime (MTD)",
+        "Recovery time objective (RTO)"
+      ],
+      "respuesta": 2,
+      "explicacion": "El MTD representa el máximo periodo durante el cual una función o activo puede permanecer inactivo sin provocar consecuencias inaceptables para la organización."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes suele realizarse como uno de los primeros pasos de una estrategia global de continuidad de negocio y recuperación ante desastres?",
+      "opciones": [
+        "Business impact analysis",
+        "Business continuity plan",
+        "Disaster recovery plan",
+        "System backup plan"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Business Impact Analysis (BIA) identifica las funciones críticas y el impacto de su interrupción, por lo que constituye un paso fundamental antes de desarrollar el BCP."
+    },
+    {
+      "pregunta": "Todos los siguientes son motivos válidos para realizar formación y concienciación en seguridad excepto uno. ¿Cuál?",
+      "opciones": [
+        "Aumentar la seguridad",
+        "Reducir los incidentes",
+        "Aumentar los riesgos",
+        "Reducir la responsabilidad legal"
+      ],
+      "respuesta": 2,
+      "explicacion": "La formación de seguridad busca reducir el riesgo, no aumentarlo."
+    },
+    {
+      "pregunta": "Todas las siguientes son estrategias válidas de gestión de riesgos excepto una. ¿Cuál?",
+      "opciones": [
+        "Mitigación del riesgo",
+        "Aceptación del riesgo",
+        "Transferencia del riesgo",
+        "Eliminación del riesgo"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las estrategias habituales incluyen mitigación, aceptación y transferencia. El riesgo no puede garantizarse que se elimine por completo."
+    },
+    {
+      "pregunta": "Susan recibe un correo electrónico de su hermano diciendo que, si lo reenvía a 10 personas, tendrá buena fortuna durante los próximos tres años. Susan lo reenvía. ¿Qué política ha infringido?",
+      "opciones": [
+        "Política de ingeniería social",
+        "Política de mínimo privilegio",
+        "Política de uso aceptable",
+        "Política de necesidad de saber"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una Acceptable Use Policy (AUP) define qué usos de los sistemas corporativos, incluido el correo electrónico, están permitidos o prohibidos."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el riesgo que permanece después de aplicar todas las medidas de reducción y mitigación?",
+      "opciones": [
+        "Riesgo bajo",
+        "Riesgo residual",
+        "Riesgo aceptado",
+        "Riesgo mitigado"
+      ],
+      "respuesta": 1,
+      "explicacion": "El riesgo residual es el nivel de riesgo que permanece después de haber aplicado controles y medidas de mitigación."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre las evaluaciones de vulnerabilidades y las pruebas de penetración es correcta?",
+      "opciones": [
+        "Una prueba de penetración identifica únicamente áreas de configuración que hacen vulnerable al sistema ante un ataque o incidente.",
+        "Las evaluaciones de vulnerabilidades se consideran evaluaciones pasivas.",
+        "Una evaluación de vulnerabilidades utiliza métodos habituales de ataque para eludir la seguridad del sistema.",
+        "Las pruebas de penetración se consideran evaluaciones pasivas."
+      ],
+      "respuesta": 1,
+      "explicacion": "Una evaluación de vulnerabilidades identifica debilidades sin intentar explotarlas activamente, mientras que una prueba de penetración sí intenta explotar vulnerabilidades."
+    },
+    {
+      "pregunta": "Alison, responsable sénior de seguridad de tu organización, te ha pedido que prepares una prueba de seguridad pasiva que identifique errores de configuración en un activo. ¿Qué tipo de prueba planificarías?",
+      "opciones": [
+        "Escaneo de vulnerabilidades",
+        "Prueba de penetración",
+        "Evaluación de riesgos",
+        "Revisión de código"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un escaneo de vulnerabilidades es una evaluación pasiva orientada a identificar debilidades y errores de configuración sin explotar activamente el sistema."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes se considera un impacto intangible para una organización?",
+      "opciones": [
+        "Pérdida de confianza de los clientes",
+        "Pérdida de producción",
+        "Pérdida de ingresos",
+        "Seguridad de los empleados"
+      ],
+      "respuesta": 0,
+      "explicacion": "La pérdida de confianza de los clientes es difícil de medir directamente en términos monetarios y se considera un impacto intangible."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes pasos de una transacción SSL entre un cliente y un servidor ocurre en último lugar según la secuencia descrita?",
+      "opciones": [
+        "El servidor envía la clave pública al cliente.",
+        "El cliente crea una clave simétrica aleatoria, conocida como clave de sesión.",
+        "La información cifrada se envía al servidor web, que la descifra y obtiene la clave simétrica o clave de sesión.",
+        "El cliente valida el certificado y comprueba que no haya caducado ni sido revocado."
+      ],
+      "respuesta": 2,
+      "explicacion": "En la secuencia descrita, el cliente genera la clave de sesión, la protege con la clave pública del servidor y finalmente el servidor la recibe y la recupera."
+    },
+    {
+      "pregunta": "¿Qué término hace referencia a servicios de TI elásticos accesibles a través de una red y cuyo coste depende del uso?",
+      "opciones": [
+        "Virtualización de servidores",
+        "Cloud computing",
+        "Servicios de escritorio remoto",
+        "Web-based computing"
+      ],
+      "respuesta": 1,
+      "explicacion": "Cloud computing proporciona recursos informáticos bajo demanda y normalmente utiliza un modelo de pago basado en el consumo."
+    },
+    {
+      "pregunta": "Durante el fin de semana configuras IPSec en las estaciones de trabajo cliente internas. Algunos servidores internos tienen IPSec configurado, pero otros no. El lunes, los usuarios pueden conectarse a algunos servidores pero no a otros. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Las estaciones de trabajo están configuradas para exigir conectividad IPSec.",
+        "IPSec solo puede utilizarse con VPN.",
+        "La estación de trabajo debe estar unida a Active Directory para usar IPSec.",
+        "Las estaciones de trabajo tienen IPv6 habilitado."
+      ],
+      "respuesta": 0,
+      "explicacion": "Si los clientes exigen IPSec, solo podrán comunicarse con sistemas que tengan una configuración IPSec compatible."
+    },
+    {
+      "pregunta": "Se ha descubierto una nueva vulnerabilidad en sistemas que ejecutan Remote Desktop. ¿Qué herramienta podrías utilizar para descubrir qué sistemas de la red están ejecutando Remote Desktop?",
+      "opciones": ["nmap", "ping", "traceroute", "dd"],
+      "respuesta": 0,
+      "explicacion": "nmap permite descubrir puertos abiertos e identificar los servicios que se ejecutan en los sistemas de una red."
+    },
+    {
+      "pregunta": "Estás experimentando problemas de rendimiento de red con tu servidor web. ¿Qué herramienta utilizarías para capturar tráfico de red y solucionar el problema?",
+      "opciones": ["Nessus", "tcpdump", "nmap", "traceroute"],
+      "respuesta": 1,
+      "explicacion": "tcpdump es una herramienta habitual de Linux para capturar paquetes de red y analizarlos o almacenarlos en un archivo."
+    },
+    {
+      "pregunta": "Tu responsable te ha pedido realizar una evaluación de seguridad de los servidores para determinar qué vulnerabilidades existen. Ha solicitado que no ataques los sistemas, sino que únicamente identifiques las vulnerabilidades. ¿Qué herramienta utilizarías?",
+      "opciones": ["Wireshark", "Metasploit", "NetFlow", "Nessus"],
+      "respuesta": 3,
+      "explicacion": "Nessus es un escáner de vulnerabilidades diseñado para identificar debilidades de seguridad sin necesidad de explotarlas."
+    },
+    {
+      "pregunta": "¿Qué herramienta utilizarías durante una prueba de penetración para automatizar el escaneo de un sistema e identificar las vulnerabilidades presentes?",
+      "opciones": ["Metasploit", "hping", "Sn1per", "netcat"],
+      "respuesta": 2,
+      "explicacion": "Sn1per automatiza tareas de reconocimiento y escaneo para identificar vulnerabilidades en sistemas objetivo."
+    },
+    {
+      "pregunta": "Tu empresa utiliza diferentes tipos de dispositivos móviles, como portátiles, smartphones y tablets. Tu responsable está preocupado por la instalación de aplicaciones maliciosas y por el robo de dispositivos. ¿Qué solución recomendarías para gestionarlos y supervisarlos mejor?",
+      "opciones": ["DLP", "CASB", "MDM", "802.1X"],
+      "respuesta": 2,
+      "explicacion": "Mobile Device Management (MDM) permite administrar dispositivos móviles de forma centralizada y aplicar políticas sobre aplicaciones, configuración y seguridad."
+    },
+    {
+      "pregunta": "Brendon, uno de los responsables de ventas de tu empresa, intenta visitar www.facebook.com pero se bloquea el acceso y recibe un mensaje indicando que el sitio no está permitido. ¿Qué función de seguridad se está utilizando?",
+      "opciones": [
+        "Punto de acceso",
+        "Filtro de contenido",
+        "Firewall",
+        "Network Address Translation"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un filtro de contenido permite bloquear el acceso a determinados sitios web o categorías de contenido."
+    },
+    {
+      "pregunta": "¿Qué herramienta sencilla de línea de comandos se utilizaría desde un host para determinar en qué puertos abiertos está escuchando?",
+      "opciones": ["netstat", "nbtstat", "ping", "ifconfig"],
+      "respuesta": 0,
+      "explicacion": "netstat muestra información sobre conexiones de red y puertos en escucha de un sistema."
+    },
+    {
+      "pregunta": "Estás solucionando un problema de comunicación con una aplicación que envía datos a un sistema remoto. ¿Qué herramienta puedes utilizar para ver el tráfico que la aplicación envía por la red?",
+      "opciones": [
+        "Analizador de espectro",
+        "Analizador de protocolos",
+        "Analizador de frecuencia",
+        "Monitor de switch"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un analizador de protocolos captura y examina paquetes de red para permitir el análisis del tráfico generado por una aplicación."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es la fuente de evidencias más volátil y debería recopilarse primero durante una investigación forense informática?",
+      "opciones": ["Discos duros", "RAM", "DVD", "Archivo de intercambio"],
+      "respuesta": 1,
+      "explicacion": "La RAM es altamente volátil y su contenido se pierde al apagar el sistema, por lo que debe recopilarse antes que medios de almacenamiento persistentes."
+    },
+    {
+      "pregunta": "¿Qué tipo de evidencia sería un correo electrónico impreso?",
+      "opciones": [
+        "Evidencia física",
+        "Evidencia documental",
+        "Evidencia directa",
+        "Evidencia demostrativa"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un correo electrónico impreso se considera evidencia documental porque consiste en información registrada o reproducida en un documento."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una estrategia de mitigación de riesgos que implica transferir el riesgo a otra entidad?",
+      "opciones": [
+        "Separación de funciones",
+        "Sitio alternativo",
+        "Service Level Agreement",
+        "Seguro de ciberseguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un seguro de ciberseguridad transfiere parte del impacto financiero del riesgo a una aseguradora a cambio del pago de una prima."
+    },
+    {
+      "pregunta": "Estás diseñando la seguridad de una solución de nube híbrida. ¿Qué solución utilizarías para crear políticas que controlen el tipo de tráfico permitido entre el entorno on-premises y la nube?",
+      "opciones": ["Contenedores", "CASB", "Replicación", "COPE"],
+      "respuesta": 1,
+      "explicacion": "Un Cloud Access Security Broker (CASB) aplica políticas de seguridad sobre el acceso y el tráfico entre los usuarios o sistemas de una organización y los servicios cloud."
+    },
+    {
+      "pregunta": "En un modelo Mandatory Access Control (MAC), ¿quién es responsable de determinar la clasificación de los datos?",
+      "opciones": [
+        "Responsable de TI",
+        "Usuario",
+        "Propietario de los datos",
+        "Custodio de los datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "El propietario de los datos determina su sensibilidad y clasificación, mientras que el custodio suele implementar los controles correspondientes."
+    },
+    {
+      "pregunta": "Estás revisando los registros de un servidor web implicado en un incidente de seguridad. ¿Qué comando utilizarías para buscar en el registro un patrón específico de caracteres?",
+      "opciones": ["grep", "head", "tail", "chmod"],
+      "respuesta": 0,
+      "explicacion": "grep permite buscar líneas que coincidan con un patrón de texto o una expresión regular."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque de ingeniería social implica que el atacante finja ser un administrador, ejecutivo u otro miembro importante de la organización?",
+      "opciones": [
+        "Ataque de pretexto",
+        "Suplantación de identidad",
+        "Tailgating",
+        "Whaling"
+      ],
+      "respuesta": 1,
+      "explicacion": "La suplantación de identidad consiste en hacerse pasar por otra persona para manipular a la víctima y obtener acceso o información."
+    },
+    {
+      "pregunta": "¿Cómo se denomina un punto de acceso malicioso configurado para parecerse al punto de acceso legítimo de una organización?",
+      "opciones": ["Supplicant", "Spoofed AP", "Evil twin", "FakeAP"],
+      "respuesta": 2,
+      "explicacion": "Un evil twin es un punto de acceso malicioso que imita a uno legítimo para conseguir que las víctimas se conecten a él."
+    },
+    {
+      "pregunta": "¿Qué término describe un ataque en el que el atacante desconecta a una de las partes de una sesión de comunicación y asume su identidad durante el resto de la sesión?",
+      "opciones": [
+        "Impersonation",
+        "Spoofing",
+        "Session hijacking",
+        "Cross-site scripting"
+      ],
+      "respuesta": 2,
+      "explicacion": "Session hijacking consiste en apropiarse de una sesión legítima existente y continuarla haciéndose pasar por una de las partes."
+    },
+    {
+      "pregunta": "¿Qué término se utiliza para describir código malicioso escrito en el lenguaje de una aplicación utilizado normalmente para automatizar tareas dentro de dicha aplicación?",
+      "opciones": [
+        "Virus troyano",
+        "Virus ejecutable",
+        "Virus de sector de arranque",
+        "Virus de macro"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un virus de macro utiliza el lenguaje de macros de una aplicación para ejecutar acciones maliciosas."
+    },
+    {
+      "pregunta": "¿Qué tipo de virus ataca el primer sector del disco que contiene el código cargador del sistema operativo y sobrescribe dicho código?",
+      "opciones": ["Ejecutable", "Macro", "Sector de arranque", "Worm"],
+      "respuesta": 2,
+      "explicacion": "Un virus de sector de arranque infecta el área del disco utilizada para iniciar la secuencia de arranque del sistema."
+    },
+    {
+      "pregunta": "¿Qué ataque se utiliza para introducir comandos dentro de un mensaje HTTP con el objetivo de desplazarse por el sistema de directorios y llegar al sistema operativo?",
+      "opciones": [
+        "Cross-site scripting",
+        "XML injection",
+        "SQL injection",
+        "Directory traversal"
+      ],
+      "respuesta": 3,
+      "explicacion": "Directory traversal explota rutas de archivos para acceder a directorios fuera de la ubicación prevista por la aplicación."
+    },
+    {
+      "pregunta": "¿Cómo se denomina un ataque que inyecta datos en un formulario web que realiza consultas a una base de datos de directorio?",
+      "opciones": [
+        "Cross-site scripting",
+        "XML injection",
+        "LDAP injection",
+        "SQL injection"
+      ],
+      "respuesta": 2,
+      "explicacion": "LDAP injection introduce datos manipulados en consultas LDAP con el objetivo de alterar su comportamiento o acceder a información no autorizada."
+    },
+    {
+      "pregunta": "¿Qué método de ataque aprovecha debilidades relacionadas con las claves de cifrado WEP?",
+      "opciones": [
+        "Birthday attack",
+        "IV attack",
+        "Plain-text attack",
+        "Brute-force attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los ataques contra los initialization vectors (IV) de WEP aprovechan las debilidades de su implementación y la repetición de IV."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes términos hace referencia a una vulnerabilidad explotable de una aplicación que todavía es desconocida para sus desarrolladores?",
+      "opciones": [
+        "Zero day",
+        "XML injection",
+        "LDAP injection",
+        "Cross-site scripting"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una vulnerabilidad o exploit zero-day es desconocido para el fabricante o todavía no dispone de una corrección disponible."
+    },
+    {
+      "pregunta": "¿Qué forma de malware tiene la característica de poder replicarse por sí misma sin necesitar que un usuario la active?",
+      "opciones": ["Virus", "Trojan", "Worm", "Spyware"],
+      "respuesta": 2,
+      "explicacion": "Un worm puede propagarse automáticamente entre sistemas sin requerir que el usuario ejecute manualmente un archivo infectado."
+    },
+    {
+      "pregunta": "Todos los siguientes elementos suelen ser objeto de spoofing en ataques excepto uno. ¿Cuál?",
+      "opciones": [
+        "Correo electrónico",
+        "Claves de cifrado",
+        "Direcciones IP",
+        "Direcciones MAC"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las direcciones de correo, IP y MAC pueden falsificarse. Una clave criptográfica incorrecta simplemente no funcionará, por lo que no se considera normalmente un objetivo de spoofing."
+    },
+    {
+      "pregunta": "¿Qué término hace referencia a una forma de phishing cuyo objetivo es engañar mediante correo electrónico a una persona muy importante de la organización para que revele su nombre de cuenta y contraseña?",
+      "opciones": ["Vishing", "Impersonation", "Whaling", "Gold phishing"],
+      "respuesta": 2,
+      "explicacion": "Whaling es una modalidad de phishing dirigida específicamente contra altos cargos, ejecutivos u otros objetivos de gran valor."
+    },
+    {
+      "pregunta": "¿Qué término describe una debilidad en la configuración de hardware o software?",
+      "opciones": ["Riesgo", "Exposición", "Amenaza", "Vulnerabilidad"],
+      "respuesta": 3,
+      "explicacion": "Una vulnerabilidad es una debilidad que puede ser aprovechada por una amenaza para causar un impacto sobre un activo."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque implica que el atacante se coloque en medio de la ruta de comunicación entre las víctimas previstas?",
+      "opciones": [
+        "MAC flooding",
+        "On-path attack",
+        "DNS poisoning",
+        "Zero-day attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un on-path attack, anteriormente denominado man-in-the-middle, sitúa al atacante en la ruta de comunicación para interceptar o manipular el tráfico."
+    },
+    {
+      "pregunta": "Jeff es un usuario de la red y necesita poder cambiar la hora del sistema. En lugar de añadirlo al grupo Administradores, le concedes únicamente el derecho 'Cambiar la hora del sistema'. ¿Qué principio de seguridad estás aplicando?",
+      "opciones": [
+        "Separación de funciones",
+        "Mínimo privilegio",
+        "Control de acceso basado en roles",
+        "Control de acceso discrecional"
+      ],
+      "respuesta": 1,
+      "explicacion": "El principio de mínimo privilegio establece que un usuario debe recibir únicamente los permisos necesarios para realizar sus funciones."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes términos se define como algo que puede causar daño a un activo?",
+      "opciones": ["Riesgo", "Vulnerabilidad", "Pérdida", "Amenaza"],
+      "respuesta": 3,
+      "explicacion": "Una amenaza es un evento, circunstancia o entidad con capacidad potencial para causar daño a un activo."
+    },
+    {
+      "pregunta": "¿Cuál es el término de seguridad para la práctica de deshabilitar servicios innecesarios en un sistema y desinstalar software que no se necesita?",
+      "opciones": [
+        "System reduction",
+        "System hardening",
+        "Network hardening",
+        "Application restriction"
+      ],
+      "respuesta": 1,
+      "explicacion": "System hardening reduce la superficie de ataque eliminando software innecesario y deshabilitando servicios y protocolos que no se utilizan."
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema de detección de intrusiones identifica actividad sospechosa supervisando los archivos de registro del propio sistema?",
+      "opciones": ["NIDS", "NIPS", "ACL", "HIDS"],
+      "respuesta": 3,
+      "explicacion": "Un Host-based Intrusion Detection System (HIDS) supervisa la actividad local de un host, incluidos sus registros y otros indicadores de compromiso."
+    },
+    {
+      "pregunta": "¿Qué término se utiliza cuando dos conjuntos de datos diferentes generan el mismo valor hash?",
+      "opciones": [
+        "Disruption",
+        "Collision",
+        "Crossover error",
+        "Interference"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una colisión se produce cuando dos entradas distintas generan el mismo valor hash."
+    },
+    {
+      "pregunta": "¿Qué tipo de prueba de un Business Continuity Plan (BCP) consiste en distribuir el plan al representante de cada departamento para que lo revise individualmente y compruebe que no falten componentes importantes?",
+      "opciones": [
+        "Checklist review",
+        "Structured walkthrough",
+        "Simulation test",
+        "Parallel test"
+      ],
+      "respuesta": 0,
+      "explicacion": "En una checklist review, los responsables de los departamentos revisan el BCP para comprobar individualmente su integridad y detectar elementos ausentes."
+    },
+    {
+      "pregunta": "Todos los siguientes son pasos para crear y mantener un Business Continuity Plan (BCP) excepto uno. ¿Cuál?",
+      "opciones": [
+        "Inicio del proyecto",
+        "Business impact assessment",
+        "Probar el plan",
+        "Desarrollar políticas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los pasos indicados incluyen iniciar el proyecto, realizar el BIA, desarrollar el plan, probarlo y mantenerlo. Desarrollar políticas no figura como una fase independiente de este proceso."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes daemons se utiliza en Linux para ayudar a auditar eventos de seguridad?",
+      "opciones": ["inetd", "syslogd", "named", "crond"],
+      "respuesta": 1,
+      "explicacion": "syslogd proporciona registro de eventos del sistema y puede utilizarse junto con otros mecanismos de auditoría para registrar eventos relevantes de seguridad."
+    },
+    {
+      "pregunta": "Un plan de recuperación ante desastres debería incluir todos los siguientes elementos excepto uno. ¿Cuál?",
+      "opciones": [
+        "Ubicación del software y las claves de producto",
+        "Ubicación de los medios de copia de seguridad",
+        "Contraseñas",
+        "Pasos para reconstruir servidores"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las contraseñas no deberían almacenarse directamente dentro del plan de recuperación. El plan puede indicar dónde se custodian de forma segura las credenciales necesarias."
+    },
+    {
+      "pregunta": "Has recuperado un sistema después de que fuera afectado por un virus. ¿Qué fase debes realizar a continuación, siendo además la última fase del proceso de respuesta a incidentes?",
+      "opciones": [
+        "Erradicación",
+        "Contención",
+        "Preparación",
+        "Lecciones aprendidas"
+      ],
+      "respuesta": 3,
+      "explicacion": "La fase de lecciones aprendidas revisa el incidente después de la recuperación para determinar cómo mejorar los controles y evitar incidentes similares."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es la forma más eficaz de prevenir ataques de ingeniería social?",
+      "opciones": [
+        "Complejidad de contraseñas",
+        "Filtrado de spam",
+        "Formación",
+        "Destrucción de documentos"
+      ],
+      "respuesta": 2,
+      "explicacion": "La formación y concienciación de los usuarios es la medida más general y eficaz para reducir el éxito de los ataques de ingeniería social."
+    }
+  ]
+}

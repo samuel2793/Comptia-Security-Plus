@@ -1,0 +1,735 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) - Practice Test",
+  "procedencia": "TOTAL: CompTIA Security+ Cert. (SY0-701) Practice Tests, Total Seminars / Mike Meyers",
+  "descripcion": "Batería de preguntas de práctica para CompTIA Security+ SY0-701 sobre conceptos generales de seguridad, arquitectura, operaciones, amenazas, vulnerabilidades, mitigaciones y gestión de programas de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "Un router tiene dos interfaces llamadas E0 y E1. E0 se conecta a Internet y tiene la dirección IP 211.1.1.1/24. E1 se conecta a una LAN y tiene la dirección IP 172.16.45.88/16. El administrador utiliza SSH en el puerto TCP 2222 o la dirección http://172.16.45.88 para administrar el router. El router está configurado con una contraseña compleja. ¿Qué se puede hacer para aumentar aún más la seguridad del router?",
+      "opciones": [
+        "Deshabilitar SSH y habilitar Telnet.",
+        "Configurar SSH para usar el puerto TCP 22.",
+        "Configurar un certificado SSL para la dirección de administración web.",
+        "Cambiar la máscara de subred de la interfaz E1 a /24."
+      ],
+      "respuesta": 2,
+      "explicacion": "La administración web debe protegerse mediante HTTPS con un certificado SSL/TLS, evitando que la sesión de administración viaje sin cifrar."
+    },
+    {
+      "pregunta": "Tu responsable te pide identificar el tiempo y el personal necesarios para resolver una infección por gusano en la WAN corporativa. Estimas que seis técnicos necesitarían dos días para eliminarla, con un coste total de 2800 dólares. ¿Con qué tipo de análisis se relaciona mejor esta cifra económica?",
+      "opciones": [
+        "Análisis de impacto empresarial",
+        "Análisis cuantitativo de riesgos",
+        "Análisis ALE",
+        "Análisis ARO"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis de impacto empresarial evalúa el impacto que un incidente puede producir sobre la organización, incluido su coste económico."
+    },
+    {
+      "pregunta": "Rachelle es administradora de servidores. Durante sus tareas mensuales de mantenimiento elimina todos los registros del servidor para aumentar el espacio disponible. Su trabajo también requiere crear cuentas de usuario y conceder permisos sobre carpetas compartidas e impresoras. ¿Qué principio de seguridad se está vulnerando?",
+      "opciones": [
+        "Mínimo privilegio",
+        "Uso aceptable",
+        "Separación de funciones",
+        "Gestión de incidentes"
+      ],
+      "respuesta": 2,
+      "explicacion": "La misma persona dispone de privilegios administrativos y puede eliminar los registros que servirían para auditar sus propias acciones, lo que vulnera la separación de funciones."
+    },
+    {
+      "pregunta": "¿En qué circunstancia podría ser aceptable un riesgo?",
+      "opciones": [
+        "El ALE es menor que el coste de mitigar el riesgo.",
+        "El ALE es mayor que el coste de mitigar el riesgo.",
+        "El SLE es menor que el coste de mitigar el riesgo.",
+        "El ARO es menor que el coste de mitigar el riesgo."
+      ],
+      "respuesta": 0,
+      "explicacion": "Si el ALE, o pérdida anual esperada, es inferior al coste anual de mitigar el riesgo, puede ser económicamente razonable aceptar dicho riesgo."
+    },
+    {
+      "pregunta": "¿Qué tipo de política describe cómo se recopilan, utilizan y almacenan los datos de los clientes?",
+      "opciones": ["Uso aceptable", "Privacidad", "Secreto", "Cifrado"],
+      "respuesta": 1,
+      "explicacion": "Una política de privacidad establece cómo se recopilan, gestionan, utilizan y almacenan los datos personales o de clientes."
+    },
+    {
+      "pregunta": "¿Qué tipo de planificación está relacionada con la recuperación de un sistema específico?",
+      "opciones": [
+        "Análisis de impacto empresarial",
+        "Evaluación de riesgos",
+        "Plan de comunicación",
+        "Plan de recuperación ante desastres"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un plan de recuperación ante desastres proporciona procedimientos para devolver un sistema afectado a un estado operativo."
+    },
+    {
+      "pregunta": "Eres responsable de la red Wi-Fi de tu empresa. ¿Cómo puedes dificultar que los war drivers descubran tu WLAN?",
+      "opciones": [
+        "Habilitar WEP.",
+        "Deshabilitar la difusión del SSID.",
+        "Habilitar WPA2.",
+        "Habilitar el filtrado de direcciones MAC."
+      ],
+      "respuesta": 1,
+      "explicacion": "Deshabilitar la difusión del SSID evita que el nombre de la WLAN se anuncie normalmente, aunque herramientas especializadas todavía pueden detectar redes ocultas."
+    },
+    {
+      "pregunta": "¿En qué orden deberían realizarse los siguientes elementos?",
+      "opciones": [
+        "Análisis de riesgos, ALE, análisis de impacto empresarial",
+        "ALE, análisis de riesgos, análisis de impacto empresarial",
+        "Análisis de impacto empresarial, ALE, análisis de riesgos",
+        "ALE, análisis empresarial, análisis de riesgos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Según el planteamiento del test, primero se determina el ALE, después se realiza el análisis de riesgos y finalmente se estudia el impacto empresarial."
+    },
+    {
+      "pregunta": "¿Qué tipo de pruebas de seguridad no proporciona ninguna información previa a los evaluadores?",
+      "opciones": [
+        "Entorno conocido",
+        "Entorno parcialmente conocido",
+        "Entorno lateralmente conocido",
+        "Entorno desconocido"
+      ],
+      "respuesta": 3,
+      "explicacion": "En una prueba de entorno desconocido los evaluadores no reciben información previa sobre software, red, usuarios u otros detalles del objetivo."
+    },
+    {
+      "pregunta": "Estás investigando herramientas de evaluación de vulnerabilidades de red para encontrar una que pueda identificar debilidades específicas del sistema operativo. ¿Qué herramienta deberías utilizar?",
+      "opciones": ["netstat", "Nmap", "Nessus", "Wireshark"],
+      "respuesta": 2,
+      "explicacion": "Nessus es un escáner de vulnerabilidades capaz de identificar hosts, servicios y vulnerabilidades específicas de software y sistemas operativos."
+    },
+    {
+      "pregunta": "¿Qué tipo de herramienta se utiliza habitualmente para automatizar la respuesta a incidentes?",
+      "opciones": ["SOAR", "SIEM", "MDM", "PKI"],
+      "respuesta": 0,
+      "explicacion": "Las soluciones SOAR utilizan automatización, orquestación y runbooks o playbooks para ejecutar acciones de respuesta a incidentes."
+    },
+    {
+      "pregunta": "¿Durante qué fase de respuesta a incidentes se limitaría un brote de malware para evitar que infecte otros dispositivos?",
+      "opciones": [
+        "Identificación",
+        "Contención",
+        "Erradicación",
+        "Recuperación"
+      ],
+      "respuesta": 1,
+      "explicacion": "La contención pretende impedir que el incidente siga propagándose, por ejemplo aislando de la red los equipos infectados."
+    },
+    {
+      "pregunta": "Chandra es desarrolladora de software y acaba de terminar una aplicación web para un sitio de comercio electrónico reforzado. ¿Qué debería hacerse antes de poner la aplicación en producción?",
+      "opciones": [
+        "Probar el código PKI de la aplicación web.",
+        "Realizar fuzzing de seguridad.",
+        "Aplicar parches al servidor web.",
+        "Hacer ping al sitio web para comprobar que funciona."
+      ],
+      "respuesta": 1,
+      "explicacion": "El fuzzing suministra datos inesperados o especialmente construidos a la aplicación para detectar fallos de seguridad y funcionamiento antes de desplegarla."
+    },
+    {
+      "pregunta": "Los puertos no utilizados de los switches Ethernet están deshabilitados. Debes garantizar que únicamente los ordenadores apropiados de los empleados puedan utilizarse al conectarlos a las tomas Ethernet de sus puestos. ¿Cómo puede conseguirse?",
+      "opciones": [
+        "Configurar cada puerto del switch para permitir una dirección MAC específica.",
+        "Configurar cada puerto del switch para permitir una dirección IP específica.",
+        "Configurar cada puerto del switch para permitir un puerto TCP específico.",
+        "Configurar cada puerto del switch para permitir un puerto UDP específico."
+      ],
+      "respuesta": 0,
+      "explicacion": "La seguridad de puerto puede restringir cada puerto físico del switch a una dirección MAC autorizada asociada al equipo correspondiente."
+    },
+    {
+      "pregunta": "Te piden configurar dispositivos de seguridad de red para detectar actividades anómalas que puedan indicar un ataque o un gusano. ¿Qué debes hacer primero?",
+      "opciones": [
+        "Aplicar parches a los dispositivos de red.",
+        "Aplicar parches al sistema operativo.",
+        "Establecer una línea base de la red.",
+        "Establecer un calendario de configuración."
+      ],
+      "respuesta": 2,
+      "explicacion": "Para identificar actividad anómala primero es necesario conocer cómo es la actividad normal de la red mediante una línea base."
+    },
+    {
+      "pregunta": "¿Qué tipo de registro mostraría intentos fallidos de inicio de sesión?",
+      "opciones": [
+        "Registro de acceso",
+        "Registro de eventos",
+        "Registro de aplicaciones",
+        "Registro de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "El registro de seguridad de Windows contiene eventos auditados como intentos de inicio de sesión correctos y fallidos."
+    },
+    {
+      "pregunta": "Después de descargar e intentar instalar un controlador de vídeo desde el sitio web de un fabricante, el antivirus informa de que el archivo es sospechoso. Actualizas el antivirus y vuelves a analizarlo, pero no se detecta ningún virus. ¿Qué término describe esta situación?",
+      "opciones": [
+        "Falso positivo",
+        "Infección",
+        "Falso compromiso",
+        "Falso negativo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un falso positivo ocurre cuando una herramienta informa de una amenaza o problema que en realidad no existe."
+    },
+    {
+      "pregunta": "Todos los siguientes son pasos relacionados con la recopilación de evidencia digital excepto uno. ¿Cuál?",
+      "opciones": [
+        "Incautar la evidencia.",
+        "Adquirir la evidencia.",
+        "Verificar la evidencia.",
+        "Juzgar la evidencia."
+      ],
+      "respuesta": 3,
+      "explicacion": "El examinador forense debe preservar, adquirir, verificar y analizar la evidencia, pero no determinar su culpabilidad ni juzgarla."
+    },
+    {
+      "pregunta": "En el pasado, tu empresa ha sufrido infecciones de malware en la LAN porque los usuarios hacían clic en enlaces maliciosos recibidos por correo electrónico. ¿Qué puedes hacer para reducir este riesgo?",
+      "opciones": [
+        "Proporcionar formación sobre malware a los usuarios.",
+        "Cifrar el contenido de los discos duros.",
+        "Habilitar firmas digitales de correo electrónico.",
+        "Instalar un firewall personal en todos los equipos."
+      ],
+      "respuesta": 0,
+      "explicacion": "La formación y concienciación permite a los usuarios identificar mensajes de phishing y enlaces sospechosos antes de interactuar con ellos."
+    },
+    {
+      "pregunta": "Has investigado un incidente en el que varios usuarios instalaron un juego gratuito descargado de Internet y posteriormente se descubrió que era un virus. ¿Qué podrías utilizar para impedir que los usuarios instalen y ejecuten ese juego?",
+      "opciones": [
+        "MDM",
+        "Lista de denegación de aplicaciones",
+        "DLP",
+        "Playbook"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una lista de denegación de aplicaciones permite bloquear explícitamente la ejecución de software conocido como no autorizado o malicioso."
+    },
+    {
+      "pregunta": "Tu empresa tiene una comercial que viaja con frecuencia y se conecta a redes de hoteles. ¿Qué recomendación de seguridad harías para su portátil?",
+      "opciones": [
+        "Firewall basado en host",
+        "Unidad sin cifrar",
+        "Contraseña nula",
+        "FDE"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un firewall basado en host protege el equipo frente a conexiones no solicitadas cuando se conecta a redes no confiables, como las de hoteles."
+    },
+    {
+      "pregunta": "Tienes un servidor web expuesto a Internet que únicamente sirve páginas web estáticas. Recientemente has descubierto que alguien lo está utilizando como relay de correo. ¿Qué servicio y puerto deberías eliminar para detener este uso?",
+      "opciones": [
+        "HTTP, puerto 80",
+        "SMTP, puerto 110",
+        "HTTP, puerto 443",
+        "SMTP, puerto 25"
+      ],
+      "respuesta": 3,
+      "explicacion": "SMTP utiliza normalmente el puerto TCP 25 para el envío de correo y no debería ejecutarse en un servidor dedicado únicamente a contenido web."
+    },
+    {
+      "pregunta": "¿Cómo se denomina una lista de sistemas o personas autorizados para acceder a un recurso, como una red o un archivo?",
+      "opciones": [
+        "Lista de control de acceso",
+        "Conjunto de reglas",
+        "Política",
+        "Archivo hosts"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una ACL, o lista de control de acceso, especifica qué usuarios, sistemas o entidades tienen determinados permisos sobre un recurso."
+    },
+    {
+      "pregunta": "Si se pierde una unidad USB extraíble, ¿qué mecanismo de protección podría ayudar a evitar la divulgación de los datos almacenados?",
+      "opciones": [
+        "Permisos",
+        "Cifrado",
+        "Autenticación fuerte",
+        "Borrado remoto"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado mantiene los datos ilegibles para quien no disponga de la clave de descifrado aunque obtenga físicamente la unidad USB."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque aprovecha una vulnerabilidad en la que una página web contiene código que hace referencia a otro sitio y utiliza automáticamente las cookies de autenticación de la víctima si siguen siendo válidas?",
+      "opciones": [
+        "Desbordamiento de búfer",
+        "Cross-site scripting",
+        "Cross-site request forgery",
+        "Inyección SQL"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un ataque CSRF o XSRF induce al navegador autenticado de la víctima a realizar una solicitud no deseada utilizando automáticamente sus credenciales o cookies existentes."
+    },
+    {
+      "pregunta": "Todos los siguientes son posibles problemas de seguridad específicos de aplicaciones que requieren atención excepto uno. ¿Cuál?",
+      "opciones": [
+        "Malware",
+        "Cross-site scripting",
+        "Inyección SQL",
+        "Desbordamientos de búfer"
+      ],
+      "respuesta": 0,
+      "explicacion": "El malware es un problema general de seguridad, mientras que XSS, SQL injection y los desbordamientos de búfer son vulnerabilidades directamente asociadas al desarrollo o funcionamiento de aplicaciones."
+    },
+    {
+      "pregunta": "¿Cuál de estas técnicas puede utilizarse para ejecutar código malicioso, aplicar ingeniería social a usuarios desprevenidos o simplemente resultar molesta?",
+      "opciones": [
+        "Advertencias de certificados",
+        "Ventanas emergentes",
+        "Navegación por pestañas",
+        "Código HTML estático"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las ventanas emergentes pueden ejecutar contenido, engañar al usuario para que introduzca información sensible o utilizarse como mecanismo publicitario intrusivo."
+    },
+    {
+      "pregunta": "Todos los siguientes se consideran posibles problemas de seguridad del cloud computing excepto uno. ¿Cuál?",
+      "opciones": [
+        "Gestión de la seguridad",
+        "Problemas legales",
+        "Huella de hardware",
+        "Muchos clientes compartiendo el servicio"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una menor huella de hardware suele ser una ventaja del cloud computing, mientras que la gestión, la soberanía de datos y la multitenencia pueden introducir riesgos."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes métodos se utiliza para garantizar la integridad de los datos?",
+      "opciones": ["Cifrado", "Firma", "Hashing", "Autenticación"],
+      "respuesta": 2,
+      "explicacion": "El hashing genera un resumen de longitud fija que permite comprobar si los datos han sido modificados."
+    },
+    {
+      "pregunta": "¿Qué tipo de análisis de riesgos pondera las amenazas potenciales utilizando cifras económicas?",
+      "opciones": ["ALE", "Cualitativo", "ARO", "Cuantitativo"],
+      "respuesta": 3,
+      "explicacion": "El análisis cuantitativo utiliza valores monetarios y cálculos como SLE, ARO y ALE para evaluar y priorizar riesgos."
+    },
+    {
+      "pregunta": "Durante una reunión sobre políticas de respuesta a incidentes, tu responsable solicita una cifra económica y la cantidad de tiempo de inactividad que sufriría la empresa si un gusano infectara la LAN corporativa. ¿Qué tipo de estudio deberías realizar?",
+      "opciones": [
+        "Análisis de impacto empresarial",
+        "Análisis de riesgos",
+        "Análisis de paquetes",
+        "Análisis de vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis de impacto empresarial determina cómo un incidente afectaría a las operaciones, incluido el tiempo de inactividad y las pérdidas económicas."
+    },
+    {
+      "pregunta": "A un dependiente de una tienda no se le permite mantener los registros contables relacionados con sus propias ventas. ¿Qué principio de seguridad se está aplicando?",
+      "opciones": [
+        "Due diligence",
+        "Separación de funciones",
+        "Mínimo privilegio",
+        "Rotación de puestos"
+      ],
+      "respuesta": 1,
+      "explicacion": "La separación de funciones evita que una sola persona controle tanto una operación como sus registros contables, reduciendo el riesgo de fraude."
+    },
+    {
+      "pregunta": "Un empleado firma un documento que establece que el correo electrónico de la empresa solo puede utilizarse para actividades profesionales y que los mensajes personales están prohibidos. ¿Qué tipo de política es?",
+      "opciones": [
+        "Recuperación ante desastres",
+        "Retención de correo electrónico",
+        "Retención de almacenamiento",
+        "Uso aceptable"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una política de uso aceptable establece cómo pueden y no pueden utilizarse los sistemas, servicios y demás activos de una organización."
+    },
+    {
+      "pregunta": "¿Qué rol de seguridad determina quién puede acceder a los datos?",
+      "opciones": [
+        "Custodio",
+        "Administrador del servidor",
+        "Propietario de los datos",
+        "Usuario final"
+      ],
+      "respuesta": 2,
+      "explicacion": "El propietario de los datos determina quién debe tener acceso y qué permisos corresponden a cada parte."
+    },
+    {
+      "pregunta": "James conduce por el centro de Vancouver utilizando su portátil y una antena de alta ganancia para detectar redes inalámbricas. ¿Qué término describe mejor esta actividad?",
+      "opciones": [
+        "Punto de acceso rogue",
+        "War chalking",
+        "War driving",
+        "Bluesnarfing"
+      ],
+      "respuesta": 2,
+      "explicacion": "War driving consiste en desplazarse por una zona mientras se buscan y detectan redes inalámbricas."
+    },
+    {
+      "pregunta": "Leslie está calculando los plazos necesarios para completar distintos informes de análisis. ¿Qué lista presenta el orden correcto en que deberían realizarse?",
+      "opciones": [
+        "Amenazas, riesgos",
+        "Riesgos, amenazas",
+        "Amenazas, vulnerabilidades",
+        "Impacto empresarial, riesgos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Primero se identifican y analizan las amenazas y después se evalúa el riesgo asociado a ellas."
+    },
+    {
+      "pregunta": "Todos los siguientes son clases de controles excepto uno. ¿Cuál?",
+      "opciones": ["Inhibitivo", "Preventivo", "Correctivo", "Detectivo"],
+      "respuesta": 0,
+      "explicacion": "Inhibitivo no es una de las clases estándar de controles de seguridad indicadas en el test; preventivo, correctivo y detectivo sí lo son."
+    },
+    {
+      "pregunta": "Un administrador de Linux habilita cifrado de disco por hardware en las unidades de datos utilizadas por un servidor Linux. El disco del sistema operativo está físicamente en el servidor, pero las unidades de datos están en una SAN. ¿Qué afirmación es correcta?",
+      "opciones": [
+        "Se está protegiendo la integridad de los datos.",
+        "No es posible utilizar cifrado de disco con unidades SAN.",
+        "Se está protegiendo la confidencialidad de los datos.",
+        "Linux no puede utilizar unidades SAN."
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado protege principalmente la confidencialidad al impedir que personas sin la clave adecuada puedan leer los datos."
+    },
+    {
+      "pregunta": "Estás modificando la programación de copias de seguridad para trece servidores Windows y siete Unix. Se harán copias completas los sábados a las 9:00 y copias incrementales cada día laborable a partir de las 19:00. Cada servidor contiene una media de 400 GB. Las cintas de copia se guardan en una caja fuerte situada en el despacho del responsable de TI, en el mismo edificio. ¿Qué problema existe?",
+      "opciones": [
+        "Las copias incrementales deben utilizarse junto con copias diferenciales.",
+        "No hay suficiente tiempo para realizar las copias incrementales si empiezan a las 19:00.",
+        "Las copias diferenciales solo pueden utilizarse con copias completas.",
+        "Las cintas de copia deberían almacenarse fuera de las instalaciones."
+      ],
+      "respuesta": 3,
+      "explicacion": "Debe existir una copia almacenada fuera de las instalaciones para que un incendio, inundación u otro desastre local no destruya simultáneamente los sistemas y sus copias."
+    },
+    {
+      "pregunta": "¿Qué finalidad tiene el etiquetado de datos en un entorno informático?",
+      "opciones": [
+        "Facilitar la lectura de los registros de auditoría.",
+        "Facilitar la localización de hardware de repuesto.",
+        "Permitir recuperar rápidamente documentos de archivadores físicos.",
+        "Identificar el nivel de sensibilidad de los datos digitales."
+      ],
+      "respuesta": 3,
+      "explicacion": "El etiquetado permite clasificar los datos según su sensibilidad y aplicar los controles de protección correspondientes."
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema se utilizaría para monitorizar y recibir notificaciones sobre datos en tiempo real en una instalación industrial?",
+      "opciones": ["SNMP", "Cloud computing", "Virtualización", "SCADA"],
+      "respuesta": 3,
+      "explicacion": "SCADA se utiliza en entornos industriales para adquirir datos, supervisar equipos y generar alertas en tiempo real."
+    },
+    {
+      "pregunta": "Para mejorar el tiempo de respuesta de tu sitio web público decides utilizar tres dispositivos de balanceo de carga para tus tres servidores web. El sitio www.faroutwidets.com utiliza la dirección IP 216.76.0.55. ¿Qué direcciones IP deberían utilizar las interfaces públicas de los tres balanceadores?",
+      "opciones": [
+        "216.76.0.56, 216.76.0.57, 216.76.0.58",
+        "216.76.0.52, 216.76.0.53, 216.76.0.54",
+        "216.76.0.55, 216.76.0.56, 216.76.0.57",
+        "216.76.0.55, 216.76.0.55, 216.76.0.55"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los balanceadores deben aceptar solicitudes dirigidas a la misma IP virtual pública del servicio y distribuirlas después entre los servidores backend."
+    },
+    {
+      "pregunta": "Estás configurando una conexión remota para una estación de trabajo y debes seleccionar un protocolo de autenticación. ¿Cuál sería la opción más segura?",
+      "opciones": ["PAP", "CHAP", "MD5", "EAP-TLS"],
+      "respuesta": 3,
+      "explicacion": "EAP-TLS utiliza certificados PKI para autenticar tanto al cliente como al servidor y proporciona una autenticación robusta."
+    },
+    {
+      "pregunta": "Un técnico quiere aprovechar la infraestructura PKI existente con la nueva red inalámbrica. ¿Qué opción de seguridad inalámbrica requiere certificados PKI?",
+      "opciones": ["WEP", "WPA PSK", "WPA2 PSK", "EAP-TLS"],
+      "respuesta": 3,
+      "explicacion": "EAP-TLS utiliza certificados digitales PKI para la autenticación, mientras que las variantes PSK utilizan una clave previamente compartida."
+    },
+    {
+      "pregunta": "¿Qué tipo de escaneo envía a cada puerto un paquete con los flags PSH, URG y FIN activados?",
+      "opciones": ["XMAS", "TCP", "SYN", "ACK"],
+      "respuesta": 0,
+      "explicacion": "Un XMAS scan activa simultáneamente los flags TCP PSH, URG y FIN para observar cómo responde el objetivo."
+    },
+    {
+      "pregunta": "En cifrado asimétrico, ¿qué clave se utiliza para cifrar un mensaje enviado de Bob a Sue?",
+      "opciones": [
+        "La clave pública de Sue",
+        "La clave privada de Sue",
+        "La clave pública de Bob",
+        "La clave privada de Bob"
+      ],
+      "respuesta": 0,
+      "explicacion": "Bob cifra el mensaje con la clave pública de Sue para que únicamente la clave privada de Sue pueda descifrarlo."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos es el algoritmo de hashing más fuerte entre las opciones indicadas?",
+      "opciones": ["3DES", "MD5", "SHA-1", "AES-256"],
+      "respuesta": 2,
+      "explicacion": "Entre las opciones de hashing disponibles, SHA-1 produce un hash de 160 bits frente a los 128 bits de MD5; 3DES y AES-256 son algoritmos de cifrado, no de hashing."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes algoritmos produce un hash de 128 bits?",
+      "opciones": ["MD5", "SHA-1", "AES", "3DES"],
+      "respuesta": 0,
+      "explicacion": "MD5 genera un resumen de 128 bits. SHA-1 genera 160 bits, mientras que AES y 3DES son algoritmos de cifrado."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor un Trusted Platform Module?",
+      "opciones": [
+        "Un módulo de hardware que realiza funciones criptográficas",
+        "Un módulo de software que evita ataques contra aplicaciones",
+        "Un módulo de código que realiza autenticación",
+        "Un módulo de inicio de sesión seguro"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un TPM es un componente de hardware especializado que protege claves y realiza operaciones criptográficas."
+    },
+    {
+      "pregunta": "¿Qué objetivo de la seguridad de la información se ocupa de identificar modificaciones realizadas sobre los datos?",
+      "opciones": [
+        "Confidencialidad",
+        "Disponibilidad",
+        "Integridad",
+        "No repudio"
+      ],
+      "respuesta": 2,
+      "explicacion": "La integridad permite comprobar que la información no ha sido alterada de manera no autorizada."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes controles de seguridad está diseñado para prevenir el tailgating?",
+      "opciones": [
+        "Mantrap",
+        "Separación de funciones",
+        "Mínimo privilegio",
+        "Autenticación multifactor"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un mantrap o vestíbulo de control de acceso utiliza dos puertas interbloqueadas para impedir que varias personas entren aprovechando una única autorización."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes dispositivos se deja deliberadamente con ciertas vulnerabilidades para atraer a un atacante, apartarlo de los sistemas reales y observar su actividad?",
+      "opciones": ["Bastion host", "Honeypot", "IDS", "IPS"],
+      "respuesta": 1,
+      "explicacion": "Un honeypot es un sistema señuelo diseñado para atraer atacantes y registrar sus técnicas sin exponer directamente los sistemas de producción."
+    },
+    {
+      "pregunta": "Un atacante ha comprometido tu servidor web y se activa una alarma cuando abre el archivo password.txt que colocaste deliberadamente en el escritorio. ¿Qué técnica de engaño describe mejor este mecanismo de detección?",
+      "opciones": ["Honeypot", "Honeyfile", "DNS sinkhole", "Honeynet"],
+      "respuesta": 1,
+      "explicacion": "Un honeyfile es un archivo señuelo cuyo acceso genera una alerta para detectar actividad potencialmente maliciosa."
+    },
+    {
+      "pregunta": "Debes proteger un router inalámbrico corporativo. Todo el tráfico inalámbrico debe estar cifrado y todos los dispositivos que se conecten deben autenticarse de forma centralizada. ¿Qué mecanismo de seguridad permite hacerlo?",
+      "opciones": ["WEP", "WPA PSK", "WPA2 PSK", "802.1x"],
+      "respuesta": 3,
+      "explicacion": "802.1X proporciona control de acceso basado en autenticación centralizada y puede utilizar métodos como EAP-TLS para redes empresariales seguras."
+    },
+    {
+      "pregunta": "Todos los siguientes son tipos válidos de registros de eventos de Windows excepto uno. ¿Cuál?",
+      "opciones": ["System", "Application", "Security", "Process"],
+      "respuesta": 3,
+      "explicacion": "Windows dispone de registros como System, Application y Security, pero no de un registro estándar independiente denominado Process."
+    },
+    {
+      "pregunta": "Para ser admisible en un tribunal, la evidencia debe cumplir todos los siguientes requisitos excepto uno. ¿Cuál?",
+      "opciones": ["Suficiente", "Incriminatoria", "Competente", "Relevante"],
+      "respuesta": 1,
+      "explicacion": "La evidencia no tiene que ser necesariamente incriminatoria; también puede ser exculpatoria y demostrar la inocencia de una persona."
+    },
+    {
+      "pregunta": "Tu responsable te pide crear una imagen forense del disco duro de un empleado. ¿Qué herramienta utilizarías?",
+      "opciones": ["FTK Imager", "WinHex", "Autopsy", "Nessus"],
+      "respuesta": 0,
+      "explicacion": "FTK Imager permite adquirir imágenes forenses de discos y memoria para su posterior análisis."
+    },
+    {
+      "pregunta": "Estás realizando una evaluación de seguridad de la red y quieres enviar datos a un sistema en el que has configurado un puerto personalizado para recibirlos. ¿Qué herramienta utilizarías?",
+      "opciones": ["nmap", "arp", "Netcat", "ifconfig"],
+      "respuesta": 2,
+      "explicacion": "Netcat puede abrir un puerto en modo escucha y utilizarse para establecer conexiones y enviar o recibir datos."
+    },
+    {
+      "pregunta": "Quieres realizar un escaneo de vulnerabilidades en la red. ¿Qué herramienta utilizarías?",
+      "opciones": ["hping", "Nessus", "nmap", "chmod"],
+      "respuesta": 1,
+      "explicacion": "Nessus es un escáner de vulnerabilidades diseñado para identificar vulnerabilidades conocidas en sistemas y servicios."
+    },
+    {
+      "pregunta": "Estás realizando una investigación forense interna. Has incautado el teléfono, el portátil y el PC de sobremesa de un empleado. ¿Qué deberías completar en primer lugar después de incautar la evidencia?",
+      "opciones": [
+        "Contención",
+        "Ejercicio tabletop",
+        "Orden de volatilidad",
+        "Cadena de custodia"
+      ],
+      "respuesta": 3,
+      "explicacion": "La cadena de custodia debe documentarse desde el momento en que se obtiene la evidencia para registrar quién la ha poseído o manipulado."
+    },
+    {
+      "pregunta": "Estás investigando un incidente relacionado con un empleado y quieres evitar que elimine mensajes de correo electrónico que puedan utilizarse como evidencia. ¿Qué puedes hacer?",
+      "opciones": [
+        "Legal hold",
+        "Lista de aplicaciones aprobadas",
+        "Hashing",
+        "Orden de volatilidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un legal hold obliga a conservar la información relevante e impide su eliminación normal durante una investigación o procedimiento legal."
+    },
+    {
+      "pregunta": "Estás realizando una prueba de penetración para tu empresa y quieres recopilar información pública sobre ella utilizando una herramienta OSINT. ¿Qué herramienta usarías?",
+      "opciones": ["nslookup", "nmap", "netcat", "theHarvester"],
+      "respuesta": 3,
+      "explicacion": "theHarvester es una herramienta OSINT utilizada para recopilar información pública como correos electrónicos, dominios, hosts y nombres relacionados con una organización."
+    },
+    {
+      "pregunta": "Eres el administrador de seguridad de una pequeña empresa y quieres limitar por dirección de hardware qué clientes pueden conectarse a la red inalámbrica. ¿Qué harías?",
+      "opciones": [
+        "Implementar WEP.",
+        "Implementar NAC.",
+        "Implementar filtrado MAC.",
+        "Habilitar ocultación del SSID."
+      ],
+      "respuesta": 2,
+      "explicacion": "El filtrado MAC permite autorizar o bloquear dispositivos según la dirección MAC de su interfaz de red."
+    },
+    {
+      "pregunta": "¿Qué tipo de restricción hace que una cuenta deje de ser utilizable después de un determinado periodo de tiempo o de una fecha concreta?",
+      "opciones": [
+        "Restricción por horario",
+        "Bloqueo de cuenta",
+        "Caducidad de cuenta",
+        "Deshabilitación de cuenta"
+      ],
+      "respuesta": 2,
+      "explicacion": "La caducidad de cuenta establece una fecha o duración tras la cual la cuenta deja automáticamente de poder utilizarse."
+    },
+    {
+      "pregunta": "¿Qué método de autenticación permite a un usuario autenticarse una vez en la red y acceder después a múltiples sistemas sin volver a introducir credenciales?",
+      "opciones": ["Single sign-on", "PKI", "Multifactor", "Kerberos"],
+      "respuesta": 0,
+      "explicacion": "Single sign-on o SSO permite utilizar una única autenticación para acceder posteriormente a varios sistemas o aplicaciones integrados."
+    },
+    {
+      "pregunta": "Un técnico de red ha configurado un router inalámbrico para que las estaciones tengan que autenticarse antes de obtener acceso a la red. ¿Qué ha configurado?",
+      "opciones": ["WEP", "WPA PSK", "802.1x", "WPA2 PSK"],
+      "respuesta": 2,
+      "explicacion": "802.1X exige que el cliente se autentique, normalmente contra un servidor central, antes de recibir acceso completo a la red."
+    },
+    {
+      "pregunta": "Quieres utilizar caché para optimizar la cantidad de tráfico HTTP y HTTPS entre tu red interna e Internet. ¿Qué solución deberías utilizar?",
+      "opciones": [
+        "Servidor proxy",
+        "NAT",
+        "Firewall de filtrado de paquetes",
+        "VPN"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un servidor proxy puede almacenar en caché contenido solicitado para responder a peticiones posteriores localmente y reducir el tráfico hacia Internet."
+    },
+    {
+      "pregunta": "Marcel, especialista en seguridad, configura un dispositivo de red para detectar y bloquear actividad de red sospechosa. ¿Qué ha configurado?",
+      "opciones": [
+        "NIDS basado en firmas",
+        "NIPS basado en anomalías",
+        "NIDS basado en host",
+        "NIDS basado en anomalías"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un NIPS basado en anomalías detecta desviaciones respecto a una línea base y puede actuar activamente para bloquear la actividad sospechosa."
+    },
+    {
+      "pregunta": "Una empresa necesita que sus usuarios que viajan puedan acceder de forma segura a la LAN corporativa a través de Internet. ¿Qué tecnología proporciona esta solución?",
+      "opciones": [
+        "NAT",
+        "Firewall de filtrado de paquetes",
+        "Servidor proxy",
+        "VPN"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una VPN establece un túnel cifrado a través de una red no confiable como Internet para permitir acceso remoto seguro a la red corporativa."
+    },
+    {
+      "pregunta": "Debes distribuir el tráfico de red entre un conjunto de servidores replicados. ¿Qué dispositivo deberías utilizar?",
+      "opciones": [
+        "Servidor proxy",
+        "Load mirror",
+        "Balanceador de carga",
+        "NAT"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un balanceador de carga distribuye las solicitudes entre varios servidores y puede evitar enviar tráfico a servidores que no estén disponibles."
+    },
+    {
+      "pregunta": "Los administradores conceden acceso a los recursos asignando primero los usuarios a funciones laborales y asignando después permisos a dichas funciones. ¿Qué modelo de control de acceso describe este sistema?",
+      "opciones": [
+        "Control de acceso discrecional",
+        "Control de acceso obligatorio",
+        "Control de acceso basado en reglas",
+        "Control de acceso basado en roles"
+      ],
+      "respuesta": 3,
+      "explicacion": "RBAC asigna permisos a roles asociados a funciones laborales y posteriormente asigna los usuarios a esos roles."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque ejecuta código sobrescribiendo áreas de memoria que no deberían sobrescribirse?",
+      "opciones": [
+        "Integer overflow",
+        "Buffer overflow",
+        "Pointer dereference",
+        "DLL injection"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un buffer overflow escribe datos más allá de los límites reservados de un búfer y puede permitir la ejecución de código especialmente preparado."
+    },
+    {
+      "pregunta": "¿Qué vulnera principalmente la ingeniería social?",
+      "opciones": ["Intimidación", "Familiaridad", "Confianza", "Autoridad"],
+      "respuesta": 2,
+      "explicacion": "La ingeniería social explota y vulnera la confianza de las víctimas para conseguir información o acciones que normalmente no realizarían."
+    },
+    {
+      "pregunta": "Tanya quiere obtener acceso a un servidor de una compañía telefónica. Primero investiga a la empresa en Internet y después busca entre su basura, donde encuentra memorandos impresos y documentación de configuración de servidores. Finalmente consigue acceder al servidor. ¿Qué técnica contribuyó a su éxito?",
+      "opciones": [
+        "Dumpster diving",
+        "Tailgating",
+        "Shoulder surfing",
+        "Suplantación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Dumpster diving consiste en buscar información útil entre documentos y objetos desechados, como contraseñas, nombres de servidores o documentación de red."
+    },
+    {
+      "pregunta": "Un usuario malicioso utiliza un chat de Internet para enviar órdenes a 700 equipos comprometidos distribuidos por todo el mundo. Los zombies reciben instrucciones para ejecutar un ataque smurf contra un sitio web. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Framework de explotación",
+        "Denegación de servicio distribuida",
+        "Cracker distribuido",
+        "Ataque distribuido Gargamel-ElGamel"
+      ],
+      "respuesta": 1,
+      "explicacion": "Utilizar numerosos equipos comprometidos para inundar de tráfico a una víctima constituye un ataque distribuido de denegación de servicio, o DDoS."
+    },
+    {
+      "pregunta": "¿Qué tipo de malware se activa cuando se cumple una condición determinada o llega una fecha concreta?",
+      "opciones": ["Dateware", "Spyware", "Logic bomb", "Conditionware"],
+      "respuesta": 2,
+      "explicacion": "Una logic bomb permanece inactiva hasta que se cumple una condición determinada, como una fecha o un evento específico."
+    },
+    {
+      "pregunta": "Eres desarrollador web. Algunos clientes indican que aparecen enlaces a productos no relacionados dentro de tus páginas. Revisas el código del sitio y verificas que esos enlaces no existen en él. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Los equipos de los clientes están infectados con adware.",
+        "Los equipos de los clientes están infectados con un virus fileless.",
+        "Los equipos de los clientes están infectados con un gusano.",
+        "Los equipos de los clientes están infectados con un troyano."
+      ],
+      "respuesta": 0,
+      "explicacion": "El adware puede insertar anuncios o enlaces publicitarios en las páginas que visualiza el usuario sin que formen parte del código original del sitio."
+    },
+    {
+      "pregunta": "Tu NIDS alerta de una cantidad excesiva de tráfico propagándose por cada una de tus cinco VLAN. El problema parece provenir de software malicioso que continúa replicándose por la red. Siguiendo el plan de respuesta a incidentes, apagas los switches afectados. ¿Qué causó el problema?",
+      "opciones": ["Troyano", "Virus fileless", "Spyware", "Gusano"],
+      "respuesta": 3,
+      "explicacion": "Los gusanos son malware autorreplicante capaz de propagarse automáticamente por una red y consumir grandes cantidades de ancho de banda."
+    }
+  ]
+}

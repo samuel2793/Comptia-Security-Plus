@@ -100,6 +100,15 @@
         "tests/udemy/comptia-security-701-practice-exam-2024/5.json",
         "tests/udemy/comptia-security-701-practice-exam-2024/6.json"
       ]
+    },
+    {
+      "id": "udemy-total-comptia-security-cert-sy0-701-practice-tests",
+      "titulo": "Udemy total comptia security cert sy0 701 practice tests",
+      "baterias": [
+        "tests/udemy/total-comptia-security-cert-sy0-701-practice-tests/1.json",
+        "tests/udemy/total-comptia-security-cert-sy0-701-practice-tests/2.json",
+        "tests/udemy/total-comptia-security-cert-sy0-701-practice-tests/3.json"
+      ]
     }
   ]
 }
