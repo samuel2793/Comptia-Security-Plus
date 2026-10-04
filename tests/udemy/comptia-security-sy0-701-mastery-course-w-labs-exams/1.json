@@ -1,0 +1,872 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) - Test de práctica",
+  "procedencia": "CompTIA Security+ (SY0-701) Mastery Course w/ Labs & Exams — François B. Arthanas",
+  "descripcion": "Batería de preguntas de práctica para preparar el examen CompTIA Security+ SY0-701, con contenidos de conceptos generales de seguridad, amenazas y vulnerabilidades, arquitectura, operaciones y gestión de programas de seguridad.",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el beneficio PRINCIPAL de la segmentación de red en un entorno de red plana?",
+      "opciones": [
+        "Reduce el movimiento lateral",
+        "Mejora la fortaleza del cifrado",
+        "Bloquea todo el malware",
+        "Evita los ataques de phishing"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación aísla los sistemas en áreas lógicas y limita el movimiento de un atacante entre sistemas comprometidos."
+    },
+    {
+      "pregunta": "Un analista está implementando un modelo de seguridad en el que ningún usuario o dispositivo es de confianza por defecto, incluso si ya se encuentra dentro de la red. ¿Qué concepto describe MEJOR este enfoque?",
+      "opciones": [
+        "Zero Trust",
+        "Least Privilege",
+        "Segmentación",
+        "Defense in Depth"
+      ],
+      "respuesta": 0,
+      "explicacion": "Zero Trust elimina la confianza implícita y exige verificación continua de usuarios, dispositivos y solicitudes de acceso."
+    },
+    {
+      "pregunta": "Un usuario recibe un correo electrónico que parece proceder de su banco y le insta a verificar los datos de su cuenta. El enlace redirige a un sitio falso. ¿Qué ataque es este?",
+      "opciones": ["Phishing", "Smishing", "Whaling", "Pretexting"],
+      "respuesta": 0,
+      "explicacion": "El phishing utiliza mensajes fraudulentos, normalmente por correo electrónico, para engañar a las víctimas y obtener información sensible."
+    },
+    {
+      "pregunta": "Un actor de amenazas explota una vulnerabilidad antes de que el proveedor tenga conocimiento de ella. ¿Qué tipo de amenaza es esta?",
+      "opciones": [
+        "Zero-day",
+        "Ataque on-path",
+        "Password spraying",
+        "Replay attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un ataque zero-day explota una vulnerabilidad desconocida para el proveedor y para la que todavía no existe un parche disponible."
+    },
+    {
+      "pregunta": "Una empresa necesita proteger el acceso administrativo remoto a servidores internos. ¿Qué solución proporciona conexiones cifradas y autenticadas?",
+      "opciones": ["SSH", "FTP", "Telnet", "TFTP"],
+      "respuesta": 0,
+      "explicacion": "SSH proporciona acceso remoto seguro mediante cifrado de la sesión y autenticación del usuario."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad detecta intentos rápidos de inicio de sesión contra múltiples cuentas de usuario, todos utilizando la misma contraseña. ¿Qué ataque está ocurriendo?",
+      "opciones": [
+        "Password spraying",
+        "Brute force",
+        "Credential stuffing",
+        "Rainbow attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "El password spraying prueba una misma contraseña en muchas cuentas para reducir la probabilidad de activar bloqueos de cuenta."
+    },
+    {
+      "pregunta": "¿Qué acuerdo define requisitos de disponibilidad, garantías de uptime y métricas de rendimiento para un servicio alojado?",
+      "opciones": ["SLA", "MOU", "BPA", "NDA"],
+      "respuesta": 0,
+      "explicacion": "Un SLA establece compromisos específicos de rendimiento, fiabilidad y disponibilidad entre el proveedor y el cliente."
+    },
+    {
+      "pregunta": "Un atacante obtiene acceso al token de sesión de un usuario y lo reutiliza para hacerse pasar por él. ¿Qué ataque es este?",
+      "opciones": [
+        "Replay attack",
+        "MITM attack",
+        "Password stuffing",
+        "Typosquatting"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los replay attacks reutilizan tokens o credenciales de autenticación válidos capturados previamente para suplantar a un usuario legítimo."
+    },
+    {
+      "pregunta": "Una empresa necesita garantizar que los datos sensibles solo sean legibles por usuarios autorizados durante su transmisión a través de canales inseguros. ¿Qué objetivo de seguridad respalda esto?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 0,
+      "explicacion": "La confidencialidad garantiza que la información solo pueda ser accedida por entidades autorizadas; el cifrado es uno de los controles principales para conseguirlo."
+    },
+    {
+      "pregunta": "Un analista de SOC observa tráfico saliente periódico desde un host hacia una IP extranjera cada 5 minutos. ¿Qué indicador representa este comportamiento?",
+      "opciones": [
+        "Beaconing",
+        "DDoS",
+        "Escalada de privilegios",
+        "Exfiltración de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El beaconing consiste en comunicaciones periódicas de malware con una infraestructura de command-and-control o C2."
+    },
+    {
+      "pregunta": "Un usuario se conecta a un punto de acceso Wi-Fi malicioso y, sin saberlo, envía sus credenciales a un atacante. ¿Cuál es el mayor riesgo?",
+      "opciones": [
+        "Intercepción on-path",
+        "Ataque de fuerza bruta",
+        "Amenaza interna",
+        "Malware de sector de arranque"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un punto de acceso malicioso puede situar al atacante entre la víctima y el servicio legítimo, permitiéndole interceptar comunicaciones."
+    },
+    {
+      "pregunta": "¿Qué framework proporciona orientación de ciberseguridad mediante las funciones Identify, Protect, Detect, Respond y Recover?",
+      "opciones": ["NIST CSF", "ISO 27001", "COBIT", "SOC 2"],
+      "respuesta": 0,
+      "explicacion": "NIST CSF estructura la gestión de la ciberseguridad mediante funciones centrales como Identify, Protect, Detect, Respond y Recover."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito PRINCIPAL de un WAF?",
+      "opciones": [
+        "Proteger aplicaciones web frente a ataques de capa 7",
+        "Cifrar datos en reposo",
+        "Bloquear IP spoofing",
+        "Supervisar tráfico DNS"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un WAF inspecciona tráfico HTTP/HTTPS y protege aplicaciones web contra ataques de capa de aplicación como SQL injection y XSS."
+    },
+    {
+      "pregunta": "¿Qué ataque utiliza un pretexto, como hacerse pasar por personal de soporte de TI, para engañar a empleados y conseguir que revelen contraseñas?",
+      "opciones": ["Pretexting", "Whaling", "Vishing", "Tailgating"],
+      "respuesta": 0,
+      "explicacion": "El pretexting utiliza una situación o historia ficticia creíble para ganarse la confianza de la víctima y obtener información."
+    },
+    {
+      "pregunta": "Un investigador forense necesita mantener la integridad de las evidencias durante su recogida. ¿Qué paso es el MÁS importante?",
+      "opciones": [
+        "Documentación de la cadena de custodia",
+        "Ejecutar análisis antimalware",
+        "Restablecer las marcas de tiempo de los archivos",
+        "Utilizar enmascaramiento de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "La cadena de custodia documenta quién ha controlado y manipulado la evidencia en cada momento, preservando su trazabilidad y admisibilidad."
+    },
+    {
+      "pregunta": "Un atacante introduce datos inesperados en un formulario web, haciendo que la base de datos del backend ejecute comandos no autorizados. ¿Qué vulnerabilidad es esta?",
+      "opciones": [
+        "SQL injection",
+        "XSS",
+        "Directory traversal",
+        "Buffer overflow"
+      ],
+      "respuesta": 0,
+      "explicacion": "SQL injection permite manipular consultas de una base de datos mediante entradas de usuario que no han sido validadas o saneadas correctamente."
+    },
+    {
+      "pregunta": "Una empresa implementa servidores redundantes en centros de datos geográficamente separados. ¿Qué beneficio proporciona esto?",
+      "opciones": [
+        "Capacidad de recuperación ante desastres",
+        "Ofuscación de datos",
+        "Generación de tokens",
+        "Comprobación de integridad"
+      ],
+      "respuesta": 0,
+      "explicacion": "La redundancia geográfica permite mantener o recuperar operaciones cuando una región o centro de datos queda fuera de servicio."
+    },
+    {
+      "pregunta": "Un analista de SOC descubre malware diseñado para permanecer oculto modificando archivos a nivel de kernel. ¿Qué tipo de malware es?",
+      "opciones": ["Rootkit", "Worm", "Logic bomb", "RAT"],
+      "respuesta": 0,
+      "explicacion": "Los rootkits buscan ocultar la presencia del atacante modificando componentes profundos del sistema operativo, incluidos elementos del kernel."
+    },
+    {
+      "pregunta": "Una empresa quiere reducir la posibilidad de cambios no autorizados en sistemas financieros asegurándose de que ningún empleado pueda completar por sí solo transacciones críticas. ¿Qué concepto se aplica?",
+      "opciones": [
+        "Separation of duties",
+        "Least privilege",
+        "Tokenización",
+        "Ofuscación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Separation of duties distribuye las responsabilidades de operaciones sensibles entre varias personas, reduciendo el riesgo de fraude o abuso."
+    },
+    {
+      "pregunta": "¿Cuál es la MEJOR mitigación contra ataques de credential stuffing?",
+      "opciones": [
+        "Aplicar MFA",
+        "Aumentar la longitud de las contraseñas",
+        "Cambiar de proveedor DNS",
+        "Utilizar cifrado simétrico"
+      ],
+      "respuesta": 0,
+      "explicacion": "MFA exige un factor adicional de autenticación, por lo que una contraseña robada por sí sola no suele ser suficiente para acceder a la cuenta."
+    },
+    {
+      "pregunta": "Un usuario informa de un rendimiento extremadamente lento. Los registros muestran la CPU al 100 % debido a actividad de minería no autorizada. ¿Qué malware es?",
+      "opciones": ["Cryptominer", "Trojan", "Worm", "Keylogger"],
+      "respuesta": 0,
+      "explicacion": "El malware de cryptomining utiliza recursos del sistema de la víctima para realizar operaciones de minería de criptomonedas."
+    },
+    {
+      "pregunta": "Un cliente de cloud quiere poder aumentar o reducir automáticamente los recursos de computación según la demanda. ¿Qué característica del cloud proporciona esta capacidad?",
+      "opciones": [
+        "Elasticidad",
+        "Facturación medida",
+        "Multi-tenancy",
+        "Resiliencia"
+      ],
+      "respuesta": 0,
+      "explicacion": "La elasticidad permite ajustar dinámicamente la cantidad de recursos asignados en función de las necesidades de la carga de trabajo."
+    },
+    {
+      "pregunta": "Un desarrollador realiza un commit de código que contiene API keys hardcodeadas. ¿Cuál es la mitigación MÁS apropiada?",
+      "opciones": [
+        "Secret scanning",
+        "Load balancing",
+        "HTTP caching",
+        "Traducción NAT"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las herramientas de secret scanning detectan credenciales, tokens y claves expuestas accidentalmente en repositorios de código."
+    },
+    {
+      "pregunta": "¿Qué métrica especifica la cantidad máxima aceptable de pérdida de datos medida en tiempo?",
+      "opciones": ["RPO", "RTO", "MTBF", "MTTR"],
+      "respuesta": 0,
+      "explicacion": "RPO define la antigüedad máxima aceptable de los datos recuperables y ayuda a determinar con qué frecuencia deben realizarse las copias de seguridad."
+    },
+    {
+      "pregunta": "Un actor malicioso explota un sistema antes de que exista un parche disponible. ¿Qué tipo de vulnerabilidad está siendo explotada?",
+      "opciones": [
+        "Zero-day",
+        "Configuración incorrecta",
+        "Software EOL",
+        "Race condition"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una vulnerabilidad zero-day puede ser explotada antes de que exista un parche del proveedor."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito PRINCIPAL de un CASB (Cloud Access Security Broker)?",
+      "opciones": [
+        "Supervisar y aplicar políticas de seguridad cloud",
+        "Gestionar concesiones DHCP",
+        "Optimizar tráfico CDN",
+        "Balancear servidores internos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un CASB actúa entre usuarios y servicios cloud para proporcionar visibilidad, aplicar políticas, controlar el cumplimiento y proteger frente a amenazas."
+    },
+    {
+      "pregunta": "Un actor de amenazas modifica los registros del sistema para ocultar actividad maliciosa. ¿Qué técnica representa esto?",
+      "opciones": [
+        "Defense evasion",
+        "Discovery",
+        "Impact",
+        "Access token manipulation"
+      ],
+      "respuesta": 0,
+      "explicacion": "Modificar o eliminar registros es una técnica de defense evasion destinada a ocultar la presencia y las acciones del atacante."
+    },
+    {
+      "pregunta": "¿Qué política establece las expectativas sobre el comportamiento de los empleados, incluido el uso aceptable y no aceptable de los sistemas corporativos?",
+      "opciones": ["AUP", "BIA", "BCP", "IRP"],
+      "respuesta": 0,
+      "explicacion": "Una AUP, o Acceptable Use Policy, define las normas y límites para el uso apropiado de los recursos y sistemas de una organización."
+    },
+    {
+      "pregunta": "Un tester descubre que un servidor web devuelve distintos mensajes de error dependiendo de si existe o no un nombre de usuario. ¿Qué vulnerabilidad permite esto?",
+      "opciones": [
+        "User enumeration",
+        "Escalada de privilegios",
+        "Directory traversal",
+        "Buffer overflow"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las diferencias en las respuestas permiten a un atacante determinar qué nombres de usuario son válidos, facilitando la enumeración de usuarios."
+    },
+    {
+      "pregunta": "Un analista de seguridad revisa registros con múltiples intentos fallidos de inicio de sesión seguidos de un acceso correcto desde una IP extranjera. ¿Cuál es la explicación MÁS probable?",
+      "opciones": [
+        "Password spraying",
+        "Credential stuffing",
+        "Ataque de fuerza bruta",
+        "Replay attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "El credential stuffing utiliza credenciales obtenidas de filtraciones previas y puede producir accesos correctos tras varios intentos fallidos."
+    },
+    {
+      "pregunta": "Un usuario informa de que, después de hacer clic en un enlace de un correo, su navegador lo redirigió a un sitio idéntico al portal corporativo. ¿Qué amenaza explica MEJOR este comportamiento?",
+      "opciones": [
+        "Pharming",
+        "Typosquatting",
+        "Watering hole attack",
+        "Impersonation"
+      ],
+      "respuesta": 0,
+      "explicacion": "El pharming manipula mecanismos como DNS o archivos hosts para redirigir a los usuarios hacia sitios fraudulentos."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad implementa un modelo de acceso que exige volver a autenticar al usuario cada vez que accede a un recurso nuevo, incluso dentro de la misma sesión. ¿Qué concepto se está aplicando?",
+      "opciones": [
+        "Zero Trust",
+        "Discretionary access control",
+        "Mandatory access control",
+        "Separation of duties"
+      ],
+      "respuesta": 0,
+      "explicacion": "Zero Trust exige verificar continuamente cada solicitud de acceso en lugar de asumir confianza implícita después del inicio de sesión."
+    },
+    {
+      "pregunta": "Un penetration tester consigue alterar una consulta de base de datos inyectando una entrada manipulada en un formulario web. ¿Qué vulnerabilidad se explotó?",
+      "opciones": ["SQL injection", "XSS", "Buffer overflow", "Path traversal"],
+      "respuesta": 0,
+      "explicacion": "La falta de una validación adecuada de las entradas permite modificar consultas SQL mediante SQL injection."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar que las claves de cifrado permanezcan protegidas y no puedan exportarse desde un almacenamiento seguro. ¿Qué tecnología debería utilizar?",
+      "opciones": ["HSM", "SIEM", "WAF", "CASB"],
+      "respuesta": 0,
+      "explicacion": "Un HSM almacena y utiliza claves criptográficas dentro de hardware resistente a manipulaciones, evitando su exposición o exportación no autorizada."
+    },
+    {
+      "pregunta": "Un responsable de respuesta a incidentes identifica una estación de trabajo que genera tráfico hacia servidores command-and-control conocidos a intervalos regulares. ¿Cómo se denomina este comportamiento?",
+      "opciones": [
+        "Beaconing",
+        "Exfiltración de datos",
+        "Escalada de privilegios",
+        "Movimiento lateral"
+      ],
+      "respuesta": 0,
+      "explicacion": "El beaconing consiste en comunicaciones periódicas con servidores C2 para mantener el contacto entre malware y atacante."
+    },
+    {
+      "pregunta": "Un desarrollador deja código de depuración comentado en una aplicación de producción que revela endpoints internos de API. ¿Qué riesgo introduce esto?",
+      "opciones": [
+        "Divulgación de información",
+        "Broken access control",
+        "Escalada de privilegios",
+        "Replay attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los comentarios y datos de depuración pueden revelar información interna de la arquitectura que un atacante podría aprovechar."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad configura una regla de firewall que deniega todo el tráfico entrante excepto el expresamente permitido. ¿Qué principio se está utilizando?",
+      "opciones": [
+        "Implicit deny",
+        "Defense in depth",
+        "Separation of duties",
+        "Tokenización"
+      ],
+      "respuesta": 0,
+      "explicacion": "Implicit deny bloquea por defecto todo aquello que no haya sido expresamente autorizado."
+    },
+    {
+      "pregunta": "Durante una investigación, los analistas descubren que los atacantes modificaron las marcas de tiempo del sistema para ocultar su actividad. ¿Qué táctica representa esto?",
+      "opciones": ["Defense evasion", "Reconnaissance", "Impact", "Execution"],
+      "respuesta": 0,
+      "explicacion": "Modificar marcas de tiempo u otras evidencias es una técnica de defense evasion para dificultar la detección y el análisis forense."
+    },
+    {
+      "pregunta": "Un analista de seguridad revisa registros con múltiples intentos fallidos de inicio de sesión seguidos de un acceso correcto desde una IP extranjera. ¿Cuál es la explicación MÁS probable?",
+      "opciones": [
+        "Password spraying",
+        "Credential stuffing",
+        "Ataque de fuerza bruta",
+        "Replay attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "El credential stuffing utiliza credenciales obtenidas de filtraciones previas y puede producir accesos correctos tras varios intentos fallidos."
+    },
+    {
+      "pregunta": "Un usuario informa de que, después de hacer clic en un enlace de un correo, su navegador lo redirigió a un sitio idéntico al portal corporativo. ¿Qué amenaza explica MEJOR este comportamiento?",
+      "opciones": [
+        "Pharming",
+        "Typosquatting",
+        "Watering hole attack",
+        "Impersonation"
+      ],
+      "respuesta": 0,
+      "explicacion": "El pharming manipula mecanismos como DNS o archivos hosts para redirigir a los usuarios hacia sitios fraudulentos."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad implementa un modelo de acceso que exige volver a autenticar al usuario cada vez que accede a un recurso nuevo, incluso dentro de la misma sesión. ¿Qué concepto se está aplicando?",
+      "opciones": [
+        "Zero Trust",
+        "Discretionary access control",
+        "Mandatory access control",
+        "Separation of duties"
+      ],
+      "respuesta": 0,
+      "explicacion": "Zero Trust exige verificar continuamente cada solicitud de acceso en lugar de asumir confianza implícita después del inicio de sesión."
+    },
+    {
+      "pregunta": "Un penetration tester consigue alterar una consulta de base de datos inyectando una entrada manipulada en un formulario web. ¿Qué vulnerabilidad se explotó?",
+      "opciones": ["SQL injection", "XSS", "Buffer overflow", "Path traversal"],
+      "respuesta": 0,
+      "explicacion": "La falta de una validación adecuada de las entradas permite modificar consultas SQL mediante SQL injection."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar que las claves de cifrado permanezcan protegidas y no puedan exportarse desde un almacenamiento seguro. ¿Qué tecnología debería utilizar?",
+      "opciones": ["HSM", "SIEM", "WAF", "CASB"],
+      "respuesta": 0,
+      "explicacion": "Los HSM almacenan y procesan claves criptográficas dentro de hardware resistente a manipulaciones."
+    },
+    {
+      "pregunta": "Un responsable de respuesta a incidentes identifica una estación de trabajo que genera tráfico hacia servidores command-and-control conocidos a intervalos regulares. ¿Cómo se denomina este comportamiento?",
+      "opciones": [
+        "Beaconing",
+        "Exfiltración de datos",
+        "Escalada de privilegios",
+        "Movimiento lateral"
+      ],
+      "respuesta": 0,
+      "explicacion": "El beaconing consiste en comunicaciones periódicas con infraestructura C2 para recibir órdenes o informar de estado."
+    },
+    {
+      "pregunta": "Un desarrollador deja código de depuración comentado en una aplicación de producción que revela endpoints internos de API. ¿Qué riesgo introduce esto?",
+      "opciones": [
+        "Divulgación de información",
+        "Broken access control",
+        "Escalada de privilegios",
+        "Replay attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los comentarios de depuración pueden exponer detalles internos que ayuden a un atacante durante el reconocimiento y la explotación."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad configura una regla de firewall que deniega todo el tráfico entrante excepto el expresamente permitido. ¿Qué principio se está utilizando?",
+      "opciones": [
+        "Implicit deny",
+        "Defense in depth",
+        "Separation of duties",
+        "Tokenización"
+      ],
+      "respuesta": 0,
+      "explicacion": "Implicit deny establece que todo lo no autorizado explícitamente debe ser bloqueado."
+    },
+    {
+      "pregunta": "Un usuario intenta acceder a una aplicación SaaS con certificados obsoletos y recibe una advertencia del navegador. ¿Qué está ocurriendo con MAYOR probabilidad?",
+      "opciones": [
+        "Expiración del certificado",
+        "Fallo de OCSP stapling",
+        "DNS poisoning",
+        "Replay attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los certificados expirados dejan de considerarse válidos dentro de la cadena de confianza y provocan advertencias del navegador."
+    },
+    {
+      "pregunta": "Durante una investigación, los analistas descubren que los atacantes modificaron las marcas de tiempo del sistema para ocultar su actividad. ¿Qué táctica representa esto?",
+      "opciones": ["Defense evasion", "Reconnaissance", "Impact", "Execution"],
+      "respuesta": 0,
+      "explicacion": "Modificar marcas de tiempo o eliminar evidencias forma parte de las técnicas de defense evasion destinadas a evitar la detección."
+    },
+    {
+      "pregunta": "Un threat hunter descubre malware propagándose internamente mediante credenciales de administrador robadas. ¿Qué está realizando el atacante con MAYOR probabilidad?",
+      "opciones": [
+        "Movimiento lateral",
+        "Escalada de privilegios",
+        "Acceso inicial",
+        "Exfiltración de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El movimiento lateral consiste en desplazarse de un sistema a otro dentro de una red, frecuentemente utilizando credenciales comprometidas."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad necesita garantizar que los datos sensibles de clientes sean ilegibles incluso si se roban los archivos de la base de datos. ¿Qué control cumple MEJOR este requisito?",
+      "opciones": [
+        "Cifrado en reposo",
+        "Cifrado TLS",
+        "Hashing",
+        "Tokenización"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado en reposo protege la confidencialidad de los archivos almacenados de modo que no puedan interpretarse sin las claves de descifrado."
+    },
+    {
+      "pregunta": "Un atacante envía múltiples paquetes malformados intentando bloquear la pila de red de un sistema. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "DoS",
+        "Phishing",
+        "Ataque on-path",
+        "Credential harvesting"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los ataques DoS buscan degradar o impedir la disponibilidad de un servicio mediante agotamiento de recursos o tráfico malformado."
+    },
+    {
+      "pregunta": "Un administrador de cloud quiere restringir qué usuarios y aplicaciones pueden asumir determinados roles IAM dentro de un entorno cloud. ¿Qué debe configurarse?",
+      "opciones": [
+        "Políticas de acceso",
+        "NAT gateway",
+        "TLS offloading",
+        "Enrutamiento CASB"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las políticas de acceso de IAM determinan qué identidades pueden asumir roles y realizar operaciones concretas."
+    },
+    {
+      "pregunta": "Un desarrollador añade una validación estricta de entradas a todos los formularios web públicos. ¿Qué objetivo de seguridad mejora MÁS?",
+      "opciones": ["Integridad", "Disponibilidad", "No repudio", "Ofuscación"],
+      "respuesta": 0,
+      "explicacion": "La validación de entradas ayuda a preservar la integridad al impedir que datos maliciosos o incorrectos alteren sistemas del backend."
+    },
+    {
+      "pregunta": "Un actor de amenazas engaña a un empleado del help desk para que restablezca la contraseña de un CEO. ¿Qué técnica de ataque representa MEJOR?",
+      "opciones": [
+        "Ingeniería social",
+        "Tailgating",
+        "Fuerza bruta",
+        "DNS poisoning"
+      ],
+      "respuesta": 0,
+      "explicacion": "La ingeniería social manipula a personas mediante persuasión o engaño para conseguir que realicen acciones que comprometen la seguridad."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar que todos los documentos confidenciales se cifren antes de salir de la red por correo electrónico. ¿Qué solución es la MEJOR?",
+      "opciones": ["DLP", "SIEM", "VPN", "WAF"],
+      "respuesta": 0,
+      "explicacion": "Una solución DLP puede inspeccionar correo saliente y aplicar políticas para bloquear o cifrar información sensible."
+    },
+    {
+      "pregunta": "Al revisar los resultados de un escaneo de vulnerabilidades, un analista identifica componentes Apache obsoletos que están siendo explotados activamente. ¿Cuál es el siguiente paso MÁS urgente?",
+      "opciones": [
+        "Aplicar los parches del proveedor",
+        "Modificar las firmas del IDS",
+        "Aumentar la longitud de las contraseñas",
+        "Actualizar los registros DNS"
+      ],
+      "respuesta": 0,
+      "explicacion": "Aplicar los parches corrige directamente las vulnerabilidades conocidas y reduce la superficie de ataque frente a exploits activos."
+    },
+    {
+      "pregunta": "Un responsable quiere garantías de que las prácticas de seguridad cumplen las políticas internas y los requisitos regulatorios. ¿Qué proceso proporciona MEJOR esta garantía?",
+      "opciones": [
+        "Auditoría interna",
+        "Penetration testing",
+        "Gestión de parches",
+        "Control de cambios"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las auditorías internas verifican el cumplimiento de políticas, procedimientos y requisitos normativos."
+    },
+    {
+      "pregunta": "Un analista de seguridad revisa registros con múltiples intentos fallidos de inicio de sesión seguidos de un acceso correcto desde una IP extranjera. ¿Cuál es la explicación MÁS probable?",
+      "opciones": [
+        "Password spraying",
+        "Credential stuffing",
+        "Ataque de fuerza bruta",
+        "Replay attack"
+      ],
+      "respuesta": 1,
+      "explicacion": "El credential stuffing reutiliza credenciales filtradas anteriormente y puede conseguir accesos válidos después de varios intentos fallidos."
+    },
+    {
+      "pregunta": "Un usuario informa de que, después de hacer clic en un enlace de un correo, su navegador lo redirigió a un sitio idéntico al portal corporativo. ¿Qué amenaza explica MEJOR este comportamiento?",
+      "opciones": [
+        "Pharming",
+        "Typosquatting",
+        "Watering hole attack",
+        "Impersonation"
+      ],
+      "respuesta": 0,
+      "explicacion": "El pharming manipula la resolución DNS u otros mecanismos para redirigir a los usuarios hacia sitios fraudulentos."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad implementa un modelo de acceso que exige volver a autenticar al usuario cada vez que accede a un recurso nuevo, incluso dentro de la misma sesión. ¿Qué concepto se está aplicando?",
+      "opciones": [
+        "Zero Trust",
+        "Discretionary access control",
+        "Mandatory access control",
+        "Separation of duties"
+      ],
+      "respuesta": 0,
+      "explicacion": "Zero Trust verifica cada solicitud de acceso y no asume confianza implícita por el hecho de que el usuario ya haya iniciado sesión."
+    },
+    {
+      "pregunta": "Un penetration tester consigue alterar una consulta de base de datos inyectando una entrada manipulada en un formulario web. ¿Qué vulnerabilidad se explotó?",
+      "opciones": ["SQL injection", "XSS", "Buffer overflow", "Path traversal"],
+      "respuesta": 0,
+      "explicacion": "SQL injection permite alterar consultas SQL mediante entradas que no han sido correctamente validadas o saneadas."
+    },
+    {
+      "pregunta": "Una empresa quiere garantizar que las claves de cifrado permanezcan protegidas y no puedan exportarse desde un almacenamiento seguro. ¿Qué tecnología debería utilizar?",
+      "opciones": ["HSM", "SIEM", "WAF", "CASB"],
+      "respuesta": 0,
+      "explicacion": "Los HSM proporcionan almacenamiento y operaciones criptográficas dentro de hardware especializado y resistente a manipulaciones."
+    },
+    {
+      "pregunta": "Un responsable de respuesta a incidentes identifica una estación de trabajo que genera tráfico hacia servidores command-and-control conocidos a intervalos regulares. ¿Cómo se denomina este comportamiento?",
+      "opciones": [
+        "Beaconing",
+        "Exfiltración de datos",
+        "Escalada de privilegios",
+        "Movimiento lateral"
+      ],
+      "respuesta": 0,
+      "explicacion": "El beaconing es una comunicación periódica entre un sistema comprometido y su servidor C2."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad configura una regla de firewall que deniega todo el tráfico entrante excepto el expresamente permitido. ¿Qué principio se está utilizando?",
+      "opciones": [
+        "Implicit deny",
+        "Defense in depth",
+        "Separation of duties",
+        "Tokenización"
+      ],
+      "respuesta": 0,
+      "explicacion": "Implicit deny bloquea todo el tráfico salvo aquel que haya sido autorizado explícitamente."
+    },
+    {
+      "pregunta": "Un usuario intenta acceder a una aplicación SaaS con certificados obsoletos y recibe una advertencia del navegador. ¿Qué está ocurriendo con MAYOR probabilidad?",
+      "opciones": [
+        "Expiración del certificado",
+        "Fallo de OCSP stapling",
+        "DNS poisoning",
+        "Replay attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "La expiración del certificado hace que deje de considerarse válido dentro de la cadena de confianza y provoca avisos del navegador."
+    },
+    {
+      "pregunta": "Durante una investigación, los analistas descubren que los atacantes modificaron las marcas de tiempo del sistema para ocultar su actividad. ¿Qué táctica representa esto?",
+      "opciones": ["Defense evasion", "Reconnaissance", "Impact", "Execution"],
+      "respuesta": 0,
+      "explicacion": "La modificación de marcas de tiempo tiene como finalidad ocultar evidencias y constituye una técnica de defense evasion."
+    },
+    {
+      "pregunta": "Una empresa de servicios financieros quiere garantizar que, si un atacante compromete una cuenta de usuario, el radio de impacto quede limitado únicamente a los recursos que ese usuario necesita. ¿Qué principio debe priorizar el arquitecto de seguridad?",
+      "opciones": [
+        "Zero Trust",
+        "Least privilege",
+        "Separation of duties",
+        "Defense in depth"
+      ],
+      "respuesta": 1,
+      "explicacion": "Least privilege concede a cada identidad únicamente los permisos mínimos necesarios, limitando el daño potencial si la cuenta resulta comprometida."
+    },
+    {
+      "pregunta": "Un usuario informa de que su navegador muestra una advertencia de certificado al acceder al portal web interno de la empresa. El certificado ha expirado recientemente. ¿Qué objetivo de seguridad se ve MÁS afectado?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Confianza"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un certificado expirado afecta principalmente a la confianza en la identidad del sitio y en la cadena de confianza de la PKI."
+    },
+    {
+      "pregunta": "Un técnico de help desk recibe una llamada de alguien que afirma ser el CFO y necesita urgentemente que le restablezcan la contraseña antes de una reunión crítica. El interlocutor insiste en evitar la verificación habitual. ¿Qué técnica de ingeniería social se está utilizando?",
+      "opciones": ["Pretexting", "Tailgating", "Vishing", "Impersonation"],
+      "respuesta": 3,
+      "explicacion": "Impersonation consiste en hacerse pasar por una persona concreta y de confianza, en este caso el CFO, para conseguir que otra persona omita controles de seguridad."
+    },
+    {
+      "pregunta": "Una empresa quiere proteger las claves de cifrado utilizadas para una base de datos de forma que las claves privadas nunca aparezcan en texto claro en la memoria del sistema. ¿Qué solución es la MÁS apropiada?",
+      "opciones": ["TPM", "HSM", "Software key store", "Password vault"],
+      "respuesta": 1,
+      "explicacion": "Un HSM genera, almacena y utiliza claves dentro de hardware resistente a manipulaciones sin exponer las claves privadas en texto claro al sistema anfitrión."
+    },
+    {
+      "pregunta": "Un analista de seguridad observa que una estación de trabajo realiza conexiones salientes cifradas cada pocos minutos hacia una IP asociada a una botnet conocida, incluso cuando el usuario está inactivo. ¿Cuál es la MEJOR descripción de este comportamiento?",
+      "opciones": [
+        "Beaconing hacia un servidor C2",
+        "Port scanning",
+        "Exfiltración de datos",
+        "Ataque de fuerza bruta"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las comunicaciones periódicas hacia una infraestructura maliciosa conocida son características del beaconing hacia un servidor command-and-control."
+    },
+    {
+      "pregunta": "Un servidor web está configurado para mostrar mensajes de error detallados que incluyen rutas completas de archivos y stack traces cuando ocurre una excepción. ¿Qué riesgo introduce MÁS directamente?",
+      "opciones": [
+        "Divulgación de información",
+        "Escalada de privilegios",
+        "Account takeover",
+        "Denial of service"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los errores detallados pueden revelar rutas internas, tecnologías y lógica de la aplicación que resultan útiles para el reconocimiento de un atacante."
+    },
+    {
+      "pregunta": "Un arquitecto de seguridad diseña una solución para garantizar que, si un centro de datos queda fuera de servicio, los servicios continúen funcionando en otra región geográfica con una interrupción mínima. ¿Qué estrategia cumple MEJOR este requisito?",
+      "opciones": [
+        "Redundancia active/active entre regiones",
+        "Cold site con cintas de backup",
+        "Backups completos semanales en un NAS local",
+        "Auto-scaling en una sola región"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una arquitectura active/active distribuida entre regiones permite continuidad del servicio y failover prácticamente inmediato ante una caída regional."
+    },
+    {
+      "pregunta": "Un usuario informa de que, mientras navegaba por un sitio web de noticias popular, apareció una ventana emergente que le pidió instalar un 'códec de vídeo ausente'. Después de instalarlo, el sistema empezó a mostrar anuncios y a funcionar lentamente. ¿Qué describe MEJOR este malware?",
+      "opciones": ["Trojan", "Worm", "Logic bomb", "Ransomware"],
+      "respuesta": 0,
+      "explicacion": "Un Trojan se hace pasar por software legítimo o necesario para convencer al usuario de que lo instale y después ejecuta acciones maliciosas."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad quiere limitar el impacto de una API key comprometida asegurándose de que solo pueda acceder a determinados microservicios y recursos. ¿Qué concepto aborda MEJOR esta necesidad?",
+      "opciones": [
+        "Scope-based access control",
+        "Geofencing",
+        "Network TAPs",
+        "SSO"
+      ],
+      "respuesta": 0,
+      "explicacion": "Limitar el scope de una clave o token restringe sus permisos y recursos accesibles, reduciendo el daño potencial si se compromete."
+    },
+    {
+      "pregunta": "Los registros muestran una cuenta de usuario autenticándose desde dos países diferentes con solo 5 minutos de diferencia. ¿Cuál es la MEJOR explicación para esta alerta?",
+      "opciones": [
+        "Impossible travel que indica posible compromiso de la cuenta",
+        "El usuario se ha conectado mediante un servicio VPN",
+        "Ataque on-path entre dos ISP",
+        "Comportamiento normal de roaming"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una alerta de impossible travel indica inicios de sesión desde ubicaciones geográficamente incompatibles en un intervalo de tiempo demasiado corto, lo que puede señalar compromiso de credenciales."
+    },
+    {
+      "pregunta": "Durante una auditoría interna se descubre que los desarrolladores pueden desplegar código directamente en producción sin revisión ni aprobación independiente. ¿Qué control falta de forma MÁS evidente?",
+      "opciones": [
+        "Change management",
+        "Hashing",
+        "Cifrado completo de disco",
+        "Geofencing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Change management exige que los cambios en producción estén documentados, revisados, probados y aprobados antes de su despliegue."
+    },
+    {
+      "pregunta": "Un instructor de ciberseguridad explica por qué los equipos de seguridad no deben depender únicamente de una sola herramienta o dispositivo de protección. ¿Qué concepto ilustra MEJOR esta idea?",
+      "opciones": [
+        "Defense in depth",
+        "Least privilege",
+        "Vendor lock-in",
+        "Fail open"
+      ],
+      "respuesta": 0,
+      "explicacion": "Defense in depth utiliza múltiples capas de controles para que el fallo de una medida no comprometa por sí solo todo el entorno."
+    },
+    {
+      "pregunta": "Un equipo de seguridad quiere garantizar que los administradores de sistemas no puedan aprobar sus propias solicitudes de cambios de alto riesgo. ¿Qué control aborda MEJOR este requisito?",
+      "opciones": [
+        "Separation of duties",
+        "Restricciones de inicio de sesión por horario",
+        "Job rotation",
+        "Vacaciones obligatorias"
+      ],
+      "respuesta": 0,
+      "explicacion": "Separation of duties divide las funciones críticas entre distintas personas, evitando que una única persona solicite y apruebe una acción sensible."
+    },
+    {
+      "pregunta": "Una organización detecta que su servidor web público está siendo saturado con paquetes SYN procedentes de un rango de IP falsificado. El three-way handshake nunca se completa. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "SYN flood",
+        "Smurf attack",
+        "ARP poisoning",
+        "DNS tunneling"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un SYN flood envía grandes cantidades de solicitudes SYN sin completar el handshake TCP, consumiendo recursos del servidor y degradando su disponibilidad."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad configura todos los servidores de producción para denegar la ejecución de cualquier código que no esté firmado criptográficamente y aprobado por la organización. ¿Qué control es este?",
+      "opciones": [
+        "Application allow listing",
+        "Detección basada en heurísticas",
+        "Blacklisting",
+        "Security through obscurity"
+      ],
+      "respuesta": 0,
+      "explicacion": "Application allow listing permite ejecutar únicamente aplicaciones o binarios que hayan sido aprobados explícitamente."
+    },
+    {
+      "pregunta": "Un actor de amenazas utiliza credenciales VPN robadas para iniciar sesión y después ejecuta escaneos de red y enumera hosts internos. ¿Qué etapa de la cyber kill chain está MÁS representada por este comportamiento?",
+      "opciones": ["Discovery", "Weaponization", "Delivery", "Impact"],
+      "respuesta": 0,
+      "explicacion": "Discovery comprende actividades de reconocimiento interno después de obtener acceso, como escanear la red, identificar hosts y enumerar servicios."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad quiere garantizar que las consultas y respuestas DNS estén autenticadas para evitar spoofing. ¿Qué tecnología lo consigue MEJOR?",
+      "opciones": ["DNSSEC", "DHCP snooping", "NAT", "IPSec transport mode"],
+      "respuesta": 0,
+      "explicacion": "DNSSEC utiliza firmas digitales para proporcionar autenticidad e integridad a los registros DNS y reducir el riesgo de spoofing o poisoning."
+    },
+    {
+      "pregunta": "Un equipo de operaciones de seguridad quiere garantizar que acciones administrativas de alto valor, como crear cuentas o modificar reglas de firewall, puedan atribuirse a personas concretas. ¿Qué mecanismo respalda este objetivo?",
+      "opciones": [
+        "No repudio mediante autenticación fuerte y logging",
+        "NAT con puertos dinámicos",
+        "Geofencing mediante dirección IP",
+        "Filtrado de contenido mediante proxy"
+      ],
+      "respuesta": 0,
+      "explicacion": "La combinación de autenticación fuerte y registros detallados permite atribuir acciones a identidades concretas y proporciona no repudio."
+    },
+    {
+      "pregunta": "Un equipo de desarrollo migra una aplicación desde VMs on-premises a contenedores orquestados mediante Kubernetes. ¿Qué nuevo riesgo debe considerar con MÁS atención el equipo de seguridad?",
+      "opciones": [
+        "Imágenes y registros de contenedores inseguros",
+        "Menor dependencia de librerías open source",
+        "Ausencia total de controles de red",
+        "Eliminación de las obligaciones de gestión de parches"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los entornos de contenedores dependen de imágenes y registros; una imagen comprometida o vulnerable puede propagarse rápidamente a numerosas cargas de trabajo."
+    },
+    {
+      "pregunta": "Un analista junior propone deshabilitar todo el logging de los sistemas de producción para mejorar el rendimiento. ¿Cuál es la respuesta MÁS apropiada?",
+      "opciones": [
+        "Rechazar la propuesta porque el logging es esencial para detección y análisis forense",
+        "Aprobar el cambio para aumentar el throughput",
+        "Registrar únicamente los eventos correctos para reducir el volumen",
+        "Deshabilitar el logging pero aumentar los backups"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los registros son fundamentales para detectar amenazas, investigar incidentes y cumplir requisitos regulatorios; los problemas de rendimiento deben resolverse por otros medios."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad debe diseñar una solución que aísle automáticamente endpoints comprometidos de la red cuando se detecten determinados indicadores de comportamiento. ¿Qué tecnología cumple MEJOR este requisito?",
+      "opciones": [
+        "EDR con respuesta automatizada",
+        "Concentrador VPN",
+        "Reverse proxy",
+        "Servidor TFTP"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las soluciones EDR modernas pueden detectar comportamientos maliciosos y ejecutar automáticamente acciones de contención como el aislamiento de red del endpoint."
+    },
+    {
+      "pregunta": "Un responsable de seguridad quiere reducir los puntos únicos de fallo en funciones críticas para que más de un empleado conozca los procesos esenciales. ¿Qué control aborda MEJOR esta necesidad?",
+      "opciones": [
+        "Job rotation",
+        "Geofencing",
+        "Single sign-on",
+        "Security through obscurity"
+      ],
+      "respuesta": 0,
+      "explicacion": "Job rotation permite que varias personas adquieran experiencia práctica en tareas críticas, reduciendo la dependencia de un único empleado."
+    },
+    {
+      "pregunta": "Un programa de gestión de vulnerabilidades prioriza la remediación según la disponibilidad de exploits y el impacto para el negocio. ¿Qué tipo de análisis se está realizando?",
+      "opciones": [
+        "Priorización basada en riesgo",
+        "Análisis exclusivamente cuantitativo",
+        "Escaneo heurístico",
+        "Análisis estático de código"
+      ],
+      "respuesta": 0,
+      "explicacion": "La priorización basada en riesgo combina factores como probabilidad de explotación e impacto empresarial para decidir qué vulnerabilidades deben corregirse primero."
+    },
+    {
+      "pregunta": "Un atacante compromete un servicio de transferencia gestionada de archivos de un tercero utilizado por varias organizaciones y roba datos de clientes de cada una de ellas. ¿Qué tipo de riesgo ilustra MEJOR este caso?",
+      "opciones": [
+        "Compromiso de la cadena de suministro",
+        "Amenaza interna",
+        "Configuración incorrecta on-premises",
+        "Shadow IT"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un compromiso de la cadena de suministro explota un proveedor, servicio o componente externo de confianza para afectar simultáneamente a múltiples organizaciones dependientes."
+    }
+  ]
+}

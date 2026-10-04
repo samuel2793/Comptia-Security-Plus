@@ -77,6 +77,17 @@
         "tests/udemy/securitypluspracticeexams/5.json",
         "tests/udemy/securitypluspracticeexams/6.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-sy0-701-mastery-course-w-labs-exams",
+      "titulo": "Udemy comptia security sy0 701 mastery course w labs exams",
+      "baterias": [
+        "tests/udemy/comptia-security-sy0-701-mastery-course-w-labs-exams/1.json",
+        "tests/udemy/comptia-security-sy0-701-mastery-course-w-labs-exams/2.json"
+      ],
+      "pbqs": [
+        "tests/udemy/comptia-security-sy0-701-mastery-course-w-labs-exams/pbq-1.json"
+      ]
     }
   ]
 }
