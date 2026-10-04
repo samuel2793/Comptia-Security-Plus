@@ -51,6 +51,13 @@
       "baterias": [
         "tests/udemy/total-comptia-security-plus/1.json"
       ]
+    },
+    {
+      "id": "udemy-curso-de-certificacion-oficial-comptia-security-sy0-701",
+      "titulo": "Udemy curso de certificacion oficial comptia security sy0 701",
+      "baterias": [
+        "tests/udemy/curso-de-certificacion-oficial-comptia-security-sy0-701/1.json"
+      ]
     }
   ]
 }

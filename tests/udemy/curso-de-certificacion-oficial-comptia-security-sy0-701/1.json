@@ -1,0 +1,245 @@
+{
+  "titulo": "CompTIA Security+ SY0-701",
+  "procedencia": "Curso de Certificación Oficial CompTIA Security+ SY0-701 - Netfyks Security",
+  "descripcion": "Preguntas de preparación para el examen CompTIA Security+ SY0-701 sobre arquitectura de seguridad, gestión de riesgos, criptografía, redes, respuesta a incidentes y seguridad en la nube.",
+  "preguntas": [
+    {
+      "pregunta": "Una empresa ha implementado una solución de certificados digitales para proteger su dominio principal (domain.com) y todos sus subdominios asociados, como mail.domain.com, app.domain.com y dev.domain.com, utilizando un único certificado. ¿Qué tipo de certificado adquirió?",
+      "opciones": [
+        "Certificado multidominio (SAN)",
+        "Certificado Wildcard",
+        "Certificado autofirmado",
+        "Certificado de firma de código"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un certificado Wildcard utiliza una notación como *.domain.com para proteger múltiples subdominios de primer nivel pertenecientes al mismo dominio."
+    },
+    {
+      "pregunta": "Una organización quiere garantizar que los datos enviados por su red interna no puedan ser alterados por dispositivos intermediarios no autorizados. ¿Qué concepto fundamental de la tríada CIA aborda directamente la prevención de modificaciones no autorizadas de los datos?",
+      "opciones": [
+        "Confidencialidad",
+        "Disponibilidad",
+        "Integridad",
+        "No repudio"
+      ],
+      "respuesta": 2,
+      "explicacion": "La integridad garantiza que los datos no hayan sido modificados, manipulados o alterados de forma no autorizada durante su almacenamiento o transmisión."
+    },
+    {
+      "pregunta": "Un analista de seguridad detecta que la cuenta de un usuario interno se ha autenticado correctamente desde dos ubicaciones geográficas separadas por miles de kilómetros en un intervalo de dos minutos. ¿Qué anomalía o indicador de compromiso (IoC) describe esta situación?",
+      "opciones": [
+        "Viaje imposible",
+        "Agotamiento de recursos",
+        "Escalada de privilegios",
+        "Alerta de falso positivo"
+      ],
+      "respuesta": 0,
+      "explicacion": "El viaje imposible se detecta cuando una misma cuenta inicia sesión desde ubicaciones geográficamente incompatibles con el tiempo transcurrido entre ambas autenticaciones."
+    },
+    {
+      "pregunta": "Antes de adoptar un nuevo servicio de nube pública, una entidad financiera evalúa los posibles impactos financieros, operativos y regulatorios asociados a la pérdida de datos o a una interrupción de las operaciones. ¿Qué proceso está realizando?",
+      "opciones": [
+        "Business Impact Analysis (BIA)",
+        "Prueba de penetración",
+        "Root Cause Analysis (RCA)",
+        "Escaneo de vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un Business Impact Analysis (BIA) evalúa las consecuencias que una interrupción puede tener sobre las funciones del negocio, incluyendo impactos financieros, operativos y de cumplimiento."
+    },
+    {
+      "pregunta": "Un atacante configura un Access Point (AP) inalámbrico no autorizado con el mismo SSID y parámetros de emisión que la red Wi-Fi corporativa legítima, pero con una señal más potente, para interceptar credenciales de los usuarios. ¿Qué tipo de ataque está ejecutando?",
+      "opciones": [
+        "Evil Twin",
+        "MAC Spoofing",
+        "Ataque de desasociación",
+        "Bluejacking"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un Evil Twin es un punto de acceso fraudulento que imita a una red Wi-Fi legítima para engañar a los usuarios y capturar su tráfico o credenciales."
+    },
+    {
+      "pregunta": "El departamento financiero de una empresa recibe un correo urgente que aparenta proceder de su proveedor principal de servicios cloud y solicita modificar los datos bancarios de una factura. El dominio del remitente es v3ndor.com en lugar de vendor.com y el mensaje está dirigido específicamente a dos empleados de cuentas por pagar. ¿Qué combinación de técnicas de ataque se ha utilizado?",
+      "opciones": [
+        "Whaling y Watering Hole",
+        "Spear Phishing y Typosquatting",
+        "Vishing y robo de identidad",
+        "Pharming y Ransomware"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Spear Phishing dirige el ataque a personas concretas utilizando información personalizada, mientras que el Typosquatting emplea dominios visualmente similares o con errores intencionados para engañar a las víctimas."
+    },
+    {
+      "pregunta": "Una empresa está implementando una Zero Trust Architecture (ZTA). ¿Qué principio fundamental establece que las solicitudes de acceso no deben considerarse confiables por su ubicación de red y deben evaluarse continuamente usando factores como identidad, estado del dispositivo y nivel de riesgo?",
+      "opciones": [
+        "Defense in Depth",
+        "Verificación continua",
+        "Confianza implícita",
+        "Separación de funciones"
+      ],
+      "respuesta": 1,
+      "explicacion": "La verificación continua exige autenticar, autorizar y validar constantemente las solicitudes de acceso utilizando el contexto disponible, en lugar de conceder confianza implícita."
+    },
+    {
+      "pregunta": "Un administrador necesita configurar servicios de directorio para que las aplicaciones internas consulten los controladores de dominio mediante un canal cifrado con TLS sobre el puerto TCP 636. ¿Qué protocolo debe utilizar?",
+      "opciones": ["LDAP", "LDAPS", "SNMPv3", "SFTP"],
+      "respuesta": 1,
+      "explicacion": "LDAPS proporciona comunicaciones LDAP protegidas mediante TLS y utiliza tradicionalmente el puerto TCP 636."
+    },
+    {
+      "pregunta": "Un técnico de soporte necesita acceso administrativo temporal para restablecer el MFA de un empleado bloqueado. El acceso debe conceder únicamente los permisos necesarios, activarse inmediatamente y expirar automáticamente cuando se complete la tarea. ¿Qué enfoque de Privileged Access Management (PAM) cumple mejor el principio de mínimo privilegio?",
+      "opciones": [
+        "Añadir al técnico permanentemente al grupo Enterprise Admins",
+        "Acceso privilegiado Just-in-Time (JIT)",
+        "Compartir una credencial estática de Domain Administrator",
+        "Desactivar globalmente el MFA"
+      ],
+      "respuesta": 1,
+      "explicacion": "El acceso Just-in-Time (JIT) concede privilegios elevados únicamente durante el tiempo necesario para realizar una tarea concreta y los revoca posteriormente."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está actualizando su infraestructura AAA para centralizar el acceso administrativo a routers y switches. Necesita un protocolo que cifre todo el contenido del paquete y mantenga separadas las funciones de autenticación y autorización. ¿Qué protocolo debe implementar?",
+      "opciones": ["RADIUS", "TACACS+", "Kerberos", "LDAP"],
+      "respuesta": 1,
+      "explicacion": "TACACS+ cifra el cuerpo completo del paquete y separa las funciones de autenticación, autorización y accounting, por lo que es adecuado para la administración de dispositivos de red."
+    },
+    {
+      "pregunta": "Un investigador de seguridad analiza una aplicación C heredada y descubre que la entrada de usuario puede desbordar un búfer de pila y sobrescribir el puntero de instrucciones EIP/RIP. ¿Qué mecanismo de defensa del sistema operativo o compilador aleatoriza las ubicaciones de memoria de la pila, el heap y las bibliotecas para dificultar la explotación?",
+      "opciones": [
+        "Address Space Layout Randomization (ASLR)",
+        "Data Execution Prevention (DEP) / bit NX",
+        "Static Application Security Testing (SAST)",
+        "Input Fuzzing"
+      ],
+      "respuesta": 0,
+      "explicacion": "ASLR aleatoriza las direcciones de memoria utilizadas por componentes del proceso, dificultando que un atacante pueda predecir direcciones concretas durante la explotación de un desbordamiento."
+    },
+    {
+      "pregunta": "Una instalación de infraestructura crítica con sistemas SCADA necesita el máximo aislamiento frente a amenazas externas. Los arquitectos desconectan físicamente todos los cables de red e interfaces inalámbricas entre la red de control industrial y la red IT empresarial. ¿Qué patrón de seguridad arquitectónica se está implementando?",
+      "opciones": [
+        "Microsegmentación mediante VLAN",
+        "Air-gapping",
+        "Software-Defined Networking (SDN)",
+        "Demilitarized Zone (DMZ)"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Air-gapping consiste en aislar físicamente una red o sistema de otras redes no confiables, evitando conexiones directas tanto cableadas como inalámbricas."
+    },
+    {
+      "pregunta": "Un investigador forense descarga una imagen de disco desde un servidor remoto. Antes de analizarla, calcula su hash criptográfico SHA-256 y lo compara con el hash generado durante la adquisición original. ¿Cuál es el objetivo principal de este procedimiento?",
+      "opciones": [
+        "Cifrar la imagen de disco para su almacenamiento a largo plazo",
+        "Verificar la integridad del archivo de evidencia",
+        "Comprimir la imagen de disco para ahorrar espacio",
+        "Establecer el no repudio de las credenciales del investigador"
+      ],
+      "respuesta": 1,
+      "explicacion": "La comparación de hashes permite verificar que la evidencia no ha sido alterada, dañada o manipulada desde el momento de su adquisición."
+    },
+    {
+      "pregunta": "Una organización está calculando el riesgo financiero para su presupuesto anual de seguridad. La Single Loss Expectancy (SLE) es de 30.000 dólares y la Annualized Rate of Occurrence (ARO) es de 0,5. ¿Cuál es la Annualized Loss Expectancy (ALE)?",
+      "opciones": [
+        "15.000 dólares",
+        "30.000 dólares",
+        "50.000 dólares",
+        "60.000 dólares"
+      ],
+      "respuesta": 0,
+      "explicacion": "La fórmula es ALE = SLE × ARO. Por tanto, 30.000 × 0,5 = 15.000 dólares anuales."
+    },
+    {
+      "pregunta": "Una empresa está migrando su correo electrónico y almacenamiento de archivos a aplicaciones SaaS. Para aplicar políticas Data Loss Prevention (DLP), supervisar el uso de servicios cloud y restringir servicios cloud no autorizados, el equipo de seguridad implementa una solución gateway en línea. ¿Qué tecnología es la más apropiada?",
+      "opciones": [
+        "Cloud Access Security Broker (CASB)",
+        "Web Application Firewall (WAF)",
+        "Intrusion Prevention System (IPS)",
+        "Virtual Private Network (VPN)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un CASB actúa entre los usuarios y los servicios cloud para aplicar controles de seguridad, cumplimiento, DLP y detección de Shadow IT."
+    },
+    {
+      "pregunta": "Un atacante intenta acceder a miles de cuentas de usuario de un dominio Active Directory probando una única contraseña común, Summer2026!, contra cada nombre de usuario para evitar los umbrales de bloqueo de cuentas. ¿Qué técnica está utilizando?",
+      "opciones": [
+        "Password Spraying",
+        "Dictionary Attack",
+        "Credential Stuffing",
+        "Rainbow Table Attack"
+      ],
+      "respuesta": 0,
+      "explicacion": "Password Spraying consiste en probar una o unas pocas contraseñas comunes contra muchas cuentas para reducir la probabilidad de activar políticas de bloqueo."
+    },
+    {
+      "pregunta": "Durante una auditoría rutinaria, un administrador de red ejecuta una utilidad de línea de comandos en un servidor Linux para mostrar los puertos TCP en escucha y las conexiones de red establecidas. ¿Qué utilidad está utilizando?",
+      "opciones": ["netstat", "nslookup", "traceroute", "dig"],
+      "respuesta": 0,
+      "explicacion": "netstat permite consultar conexiones de red activas, puertos en escucha, estadísticas de interfaces y otra información relacionada con la red."
+    },
+    {
+      "pregunta": "Un administrador necesita comprobar en tiempo real si el certificado digital de un servidor ha sido revocado sin descargar una Certificate Revocation List (CRL) completa. ¿Qué protocolo permite consultar en línea el estado de un certificado individual?",
+      "opciones": [
+        "Online Certificate Status Protocol (OCSP)",
+        "Key Escrow Protocol",
+        "Secure Shell (SSH)",
+        "Transport Layer Security (TLS)"
+      ],
+      "respuesta": 0,
+      "explicacion": "OCSP permite consultar a un responder el estado de revocación de un certificado X.509 concreto sin descargar una CRL completa."
+    },
+    {
+      "pregunta": "Una arquitectura de seguridad empresarial necesita almacenar claves criptográficas raíz y ejecutar operaciones criptográficas de alto rendimiento dentro de un dispositivo físico dedicado y resistente a manipulaciones. ¿Qué dispositivo debe utilizarse?",
+      "opciones": [
+        "Hardware Security Module (HSM)",
+        "Trusted Platform Module (TPM)",
+        "Self-Encrypting Drive (SED)",
+        "Network Interface Card (NIC)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un HSM es un dispositivo físico especializado en generar, almacenar y proteger claves criptográficas y en ejecutar operaciones criptográficas de forma segura."
+    },
+    {
+      "pregunta": "Un desarrollador descubre que la entrada de usuario de un formulario se concatena directamente en una consulta SQL, permitiendo que un atacante manipule los comandos enviados a la base de datos. ¿Qué mitigación debe implementar primero?",
+      "opciones": [
+        "Consultas parametrizadas o Prepared Statements",
+        "Desactivar JavaScript en el cliente",
+        "Aumentar la complejidad de las contraseñas de la base de datos",
+        "Instalar antivirus en el servidor de base de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las consultas parametrizadas separan el código SQL de los datos introducidos por el usuario, evitando que la entrada sea interpretada como instrucciones SQL ejecutables."
+    },
+    {
+      "pregunta": "Una organización define la cantidad máxima de tiempo que un sistema crítico puede permanecer fuera de servicio después de una interrupción antes de provocar daños operativos o financieros inaceptables. ¿Qué métrica está estableciendo?",
+      "opciones": [
+        "Recovery Time Objective (RTO)",
+        "Recovery Point Objective (RPO)",
+        "Mean Time Between Failures (MTBF)",
+        "Annualized Loss Expectancy (ALE)"
+      ],
+      "respuesta": 0,
+      "explicacion": "El RTO establece el tiempo objetivo máximo permitido para restaurar un servicio después de una interrupción."
+    },
+    {
+      "pregunta": "Un analista de un SOC utiliza una plataforma que agrega registros de seguridad de toda la organización, ejecuta playbooks automatizados de respuesta a incidentes y realiza llamadas API para aislar automáticamente endpoints comprometidos. ¿Qué tipo de plataforma está utilizando?",
+      "opciones": [
+        "Security Orchestration, Automation, and Response (SOAR)",
+        "Intrusion Detection System (IDS)",
+        "Data Loss Prevention (DLP)",
+        "Network Address Translation (NAT)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las plataformas SOAR automatizan y orquestan procesos de respuesta a incidentes mediante playbooks e integraciones con distintas herramientas de seguridad."
+    },
+    {
+      "pregunta": "Un equipo de ingeniería cloud define configuraciones de servidores, reglas de firewall y subredes mediante plantillas de código versionadas, utilizando herramientas como Terraform o Ansible para desplegar entornos de manera consistente. ¿Qué práctica arquitectónica describe esta situación?",
+      "opciones": [
+        "Infrastructure as Code (IaC)",
+        "Containerización",
+        "Serverless Computing",
+        "Virtual Desktop Infrastructure (VDI)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Infrastructure as Code (IaC) permite definir y aprovisionar infraestructura mediante archivos de configuración legibles por máquinas y gestionados como código."
+    }
+  ]
+}
