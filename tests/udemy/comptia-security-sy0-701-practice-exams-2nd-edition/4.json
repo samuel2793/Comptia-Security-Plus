@@ -1,0 +1,906 @@
+{
+  "titulo": "CompTIA Security+ (SY0-701) Practice Exams Set 2 - Cuarto Test",
+  "procedencia": "Udemy - Jason Dion - CompTIA Security+ (SY0-701) Practice Exams Set 2",
+  "descripcion": "Cuarto test de práctica para CompTIA Security+ SY0-701, traducido al español y adaptado a formato de preguntas de opción múltiple.",
+  "preguntas": [
+    {
+      "pregunta": "Un atacante se infiltra en una red para obtener secretos políticos, lo que sugiere que podría estar respaldado por un gobierno extranjero. ¿Qué tipo de actor de amenazas representa con mayor probabilidad?",
+      "opciones": [
+        "Hacktivista",
+        "Amenaza interna",
+        "Actor estatal",
+        "Competidor"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los actores estatales están respaldados por gobiernos y suelen buscar inteligencia política, militar o económica de otros países."
+    },
+    {
+      "pregunta": "Eres analista de seguridad en Dion Training e investigas una brecha en uno de los servidores web. Descubres que el atacante explotó una vulnerabilidad de la aplicación web usando una herramienta descargada de un sitio web que automatizaba el proceso de explotación. ¿Con qué tipo de actor de amenazas estás tratando con mayor probabilidad?",
+      "opciones": [
+        "Hacktivista",
+        "Actor de Estado-nación",
+        "Crimen organizado",
+        "Atacante poco cualificado"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los atacantes poco cualificados suelen depender de scripts, exploit kits y otras herramientas automatizadas que requieren pocos conocimientos técnicos."
+    },
+    {
+      "pregunta": "María trabaja en Dion Training desarrollando y gestionando el programa de seguridad de la información. Es responsable de definir e implementar políticas y procedimientos para proteger los datos sensibles y los sistemas de TI. ¿Qué función desempeña María?",
+      "opciones": [
+        "Custodio de seguridad",
+        "Controlador de datos",
+        "Responsable de seguridad",
+        "Propietario de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "El responsable de seguridad, como un CISO o Information Security Manager, dirige el programa de seguridad y define e implanta políticas y procedimientos de seguridad."
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia principal entre un actor de amenazas externo y uno interno?",
+      "opciones": [
+        "Motivación",
+        "Nivel de conocimiento",
+        "Origen del acceso",
+        "Nivel de recursos o financiación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un actor externo debe obtener acceso no autorizado desde fuera de la organización, mientras que uno interno ya dispone de algún tipo de acceso legítimo."
+    },
+    {
+      "pregunta": "Para mantenerse al día frente a amenazas y vulnerabilidades cambiantes, ¿qué método de evaluación enfatiza MEJOR las evaluaciones periódicas?",
+      "opciones": [
+        "Evaluación de riesgos ad hoc",
+        "Evaluación de riesgos única",
+        "Evaluación continua de riesgos",
+        "Evaluación recurrente de riesgos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una evaluación recurrente de riesgos se realiza a intervalos regulares para revisar cómo han cambiado las amenazas, vulnerabilidades y riesgos."
+    },
+    {
+      "pregunta": "En el análisis de riesgos, ¿qué método asigna valores subjetivos mediante términos descriptivos como \"alto\", \"medio\" o \"bajo\"?",
+      "opciones": [
+        "Análisis cuantitativo de riesgos",
+        "Análisis cualitativo de riesgos",
+        "Matriz de riesgos",
+        "Aceptación del riesgo"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis cualitativo utiliza valoraciones descriptivas y subjetivas de probabilidad e impacto en lugar de valores numéricos."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe el uso del nombre de usuario y la contraseña que vienen configurados de fábrica en un dispositivo?",
+      "opciones": [
+        "Gestor de contraseñas",
+        "Autenticación biométrica",
+        "Credenciales predeterminadas",
+        "Autenticación de dos factores"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las credenciales predeterminadas son las establecidas por el fabricante y constituyen un riesgo si no se cambian."
+    },
+    {
+      "pregunta": "El equipo de gestión de riesgos de Canivys Technologies está analizando las posibles consecuencias de riesgos identificados sobre las operaciones empresariales para tomar decisiones de mitigación. ¿Qué proceso está realizando?",
+      "opciones": [
+        "Aceptación del riesgo",
+        "Umbral de riesgo",
+        "Gestión de cambios",
+        "Análisis de impacto empresarial"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Business Impact Analysis (BIA) analiza las consecuencias de interrupciones o riesgos sobre los procesos empresariales y ayuda a identificar funciones críticas."
+    },
+    {
+      "pregunta": "Estás probando una aplicación web local en el puerto 8080 configurada para aceptar conexiones de otros equipos. Un compañero descubre el servidor mediante un escaneo de puertos, inicia sesión sin dificultad y modifica archivos. ¿Qué vulnerabilidad permitió con mayor probabilidad el ataque?",
+      "opciones": [
+        "Sistemas y aplicaciones sin soporte",
+        "Puertos de servicio abiertos",
+        "Watering Hole",
+        "Credenciales predeterminadas"
+      ],
+      "respuesta": 3,
+      "explicacion": "El puerto abierto permitió descubrir el servicio, pero las credenciales predeterminadas explican que el atacante pudiera autenticarse fácilmente y modificar el contenido."
+    },
+    {
+      "pregunta": "Dark Sky Technologies contrata a un proveedor para desarrollar una solución de software personalizada. Necesita un documento que detalle funciones, requisitos, plazos y otras condiciones específicas del proyecto. ¿Qué documento debería utilizar?",
+      "opciones": ["BPA", "SOW", "MSA", "SLA"],
+      "respuesta": 1,
+      "explicacion": "Un Statement of Work (SOW) define el trabajo concreto que debe realizarse, sus requisitos, entregables y plazos."
+    },
+    {
+      "pregunta": "Zenith Solutions quiere incluir en el contrato de un proveedor la posibilidad de realizar evaluaciones periódicas de seguridad sobre sus sistemas y redes. ¿Qué cláusula permite hacerlo?",
+      "opciones": [
+        "Cláusula de derecho de auditoría",
+        "Evaluaciones independientes",
+        "Análisis de la cadena de suministro",
+        "Evidencia de auditorías internas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una cláusula de derecho de auditoría otorga contractualmente al cliente la autoridad para evaluar los controles y prácticas del proveedor."
+    },
+    {
+      "pregunta": "Travid observa que un atacante introdujo una gran cantidad de datos en el área de memoria de una API destinada a almacenar temporalmente la entrada del usuario. ¿Qué ataque ha descubierto?",
+      "opciones": [
+        "Fragmentación de memoria",
+        "Fuga de memoria",
+        "Desbordamiento de búfer",
+        "Subdesbordamiento de búfer"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un buffer overflow ocurre cuando se escriben más datos de los que puede contener un búfer, sobrescribiendo memoria adyacente."
+    },
+    {
+      "pregunta": "Scherazade descubre que un servidor utiliza un protocolo de cifrado antiguo pese a que las configuraciones están estandarizadas. ¿Qué ataque de red es el causante MÁS probable?",
+      "opciones": [
+        "Fuerza bruta",
+        "Downgrade",
+        "Ataque inalámbrico",
+        "On-path"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un ataque de downgrade fuerza a las partes a utilizar un protocolo o algoritmo criptográfico más débil y vulnerable."
+    },
+    {
+      "pregunta": "Claudius pierde su tarjeta corporativa de acceso en una tienda. ¿Qué ataque debería preocupar especialmente al equipo de seguridad?",
+      "opciones": [
+        "Diccionario",
+        "Fuerza bruta",
+        "Clonación RFID",
+        "Suplantación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Si la tarjeta utiliza RFID, un atacante podría copiar sus datos para crear una credencial duplicada y obtener acceso."
+    },
+    {
+      "pregunta": "Una empresa quiere disuadir a posibles atacantes de acceder físicamente a su propiedad. ¿Cuál sería un control disuasorio?",
+      "opciones": [
+        "Implementar un plan de respuesta a incidentes",
+        "Revisar archivos de registro",
+        "Realizar formación periódica de concienciación",
+        "Instalar vallas con alambre de espino alrededor del perímetro"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una barrera física visible como una valla con alambre de espino desincentiva los intentos de acceso y constituye un control disuasorio."
+    },
+    {
+      "pregunta": "¿Cuál es una consideración principal al adquirir nuevos activos de hardware, software y datos?",
+      "opciones": [
+        "Verificar el cumplimiento de seguridad de los productos",
+        "Implementar particiones de red",
+        "Supervisar los procesos de parcheado",
+        "Gestionar los ciclos de actualización"
+      ],
+      "respuesta": 0,
+      "explicacion": "Antes de adquirir un activo se debe comprobar que cumple los estándares y requisitos de seguridad de la organización."
+    },
+    {
+      "pregunta": "¿Qué opción explica MEJOR la función crítica de la sanitización en la gestión segura de hardware, software y activos de datos?",
+      "opciones": [
+        "Crea múltiples copias de seguridad para garantizar redundancia",
+        "Borra los datos de un dispositivo de almacenamiento de forma que no puedan recuperarse",
+        "Limpia físicamente el hardware para eliminar polvo",
+        "Actualiza regularmente las aplicaciones"
+      ],
+      "respuesta": 1,
+      "explicacion": "La sanitización elimina de forma segura los datos de un soporte para impedir su recuperación, especialmente antes de reutilizarlo o retirarlo."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones explica MEJOR la diferencia entre CVSS y CVE en la gestión de vulnerabilidades?",
+      "opciones": [
+        "CVSS es una organización gubernamental y CVE es una métrica de impacto",
+        "CVSS es una base de datos de activos y CVE un protocolo de mitigación",
+        "CVSS proporciona un sistema estandarizado para puntuar vulnerabilidades y CVE identifica vulnerabilidades conocidas",
+        "CVSS es una lista de identificadores y CVE un sistema de puntuación"
+      ],
+      "respuesta": 2,
+      "explicacion": "CVSS puntúa la gravedad de una vulnerabilidad, mientras que CVE proporciona identificadores estandarizados para vulnerabilidades públicamente conocidas."
+    },
+    {
+      "pregunta": "¿Qué técnica de mitigación puede impedir que el malware se propague de un sistema o proceso a otro limitando su interacción y comunicación?",
+      "opciones": ["Aislamiento", "Hardening", "Permisos", "Segmentación"],
+      "respuesta": 0,
+      "explicacion": "El aislamiento separa un sistema o proceso comprometido del resto del entorno, por ejemplo mediante desconexión o sandboxing."
+    },
+    {
+      "pregunta": "¿Qué técnica de mitigación protege un dispositivo frente a tráfico de red no autorizado mediante software que controla el tráfico según reglas y políticas predefinidas?",
+      "opciones": [
+        "Host-based Intrusion Prevention",
+        "Patching",
+        "Host-based Firewall",
+        "Cifrado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un host-based firewall filtra el tráfico entrante y saliente del propio dispositivo según direcciones, puertos, protocolos y otras reglas."
+    },
+    {
+      "pregunta": "Eres ingeniero de red en un hospital y quieres aplicar únicamente el nivel mínimo de acceso o privilegios necesario para que usuarios y procesos realicen sus funciones. ¿Qué técnica debes utilizar?",
+      "opciones": [
+        "Mínimo privilegio",
+        "Patching",
+        "Control de acceso",
+        "Aislamiento"
+      ],
+      "respuesta": 0,
+      "explicacion": "El principio de mínimo privilegio limita los permisos de cada usuario o proceso estrictamente a los necesarios para desempeñar su tarea."
+    },
+    {
+      "pregunta": "¿Qué afirmación describe MEJOR la Dark Web en el contexto de la gestión de vulnerabilidades?",
+      "opciones": [
+        "Es una parte de Internet utilizada principalmente para encontrar herramientas de penetración",
+        "Es una red que facilita comunicaciones anónimas y suele estar asociada a actividades ilegales",
+        "Es una red segura creada para profesionales de ciberseguridad",
+        "Es una sección de Internet accesible mediante Google y Bing para encontrar ataques"
+      ],
+      "respuesta": 1,
+      "explicacion": "La Dark Web incluye servicios deliberadamente ocultos y accesibles mediante software especializado que facilitan el anonimato y también pueden albergar actividades ilícitas."
+    },
+    {
+      "pregunta": "¿Qué afirmación explica MEJOR la importancia de un programa Bug Bounty en la gestión de vulnerabilidades?",
+      "opciones": [
+        "Incentiva a hackers éticos a identificar y comunicar vulnerabilidades de seguridad",
+        "Realiza automáticamente pruebas periódicas de penetración",
+        "Ayuda principalmente a gestionar inventarios de hardware y software",
+        "Se centra principalmente en descubrir virus y gusanos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un programa Bug Bounty recompensa a investigadores que descubren y comunican responsablemente vulnerabilidades para que puedan corregirse."
+    },
+    {
+      "pregunta": "¿Qué afirmación explica MEJOR la importancia de un SIEM?",
+      "opciones": [
+        "Es un IDS que analiza exclusivamente tráfico de red",
+        "Es un protocolo de red para transmitir datos cifrados",
+        "Es una tecnología de firewall que bloquea conexiones sospechosas",
+        "Es una solución de seguridad que combina varias capacidades para ofrecer una visión más completa de la postura de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un SIEM centraliza registros, correlaciona eventos y facilita la monitorización y detección de incidentes en múltiples sistemas."
+    },
+    {
+      "pregunta": "¿Qué afirmación explica MEJOR la diferencia entre Blue Team y Red Team?",
+      "opciones": [
+        "Blue Team establece las reglas y Red Team realiza ataques ofensivos",
+        "Red Team realiza ataques ofensivos y Blue Team defiende y evalúa los controles frente a esos ataques",
+        "Blue Team ataca y Red Team defiende",
+        "Ambos equipos realizan las mismas actividades"
+      ],
+      "respuesta": 1,
+      "explicacion": "El Red Team simula al atacante y prueba las defensas, mientras que el Blue Team protege, detecta y responde a esas acciones."
+    },
+    {
+      "pregunta": "Jeanette compra un frigorífico capaz de detectar alimentos que se están agotando y añadirlos automáticamente a una aplicación de lista de la compra del teléfono. ¿De qué es un ejemplo?",
+      "opciones": ["ICS", "Tecnología serverless", "Sistema embebido", "IoT"],
+      "respuesta": 3,
+      "explicacion": "El frigorífico es un dispositivo IoT porque se conecta a una red y comunica datos con otros sistemas o aplicaciones."
+    },
+    {
+      "pregunta": "¿Qué característica está diseñada específicamente para gestionar un aumento de la demanda, por ejemplo creando múltiples instancias de un sistema o servicio?",
+      "opciones": [
+        "Escalabilidad",
+        "Capacidad de respuesta",
+        "Facilidad de despliegue",
+        "Contenerización"
+      ],
+      "respuesta": 0,
+      "explicacion": "La escalabilidad permite aumentar o reducir recursos e instancias para adaptarse a variaciones de carga."
+    },
+    {
+      "pregunta": "¿Qué término describe el proceso habitual de una organización para informar a las partes interesadas sobre el cumplimiento de normas de seguridad y regulación, demostrando que se siguen procedimientos y controles?",
+      "opciones": [
+        "Informes internos de cumplimiento",
+        "Análisis de evaluación de riesgos",
+        "Formación de concienciación en seguridad",
+        "Registro de respuesta a incidentes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los informes internos de cumplimiento documentan y comunican a dirección y otras partes interesadas el grado de cumplimiento de requisitos y controles."
+    },
+    {
+      "pregunta": "El bufete Pope, Olivia y Juarez decide implementar DMARC. ¿Qué opción explica MEJOR la importancia de hacerlo?",
+      "opciones": [
+        "DMARC solo alerta y rastrea estados de entrega después de ataques",
+        "DMARC analiza y pone en cuarentena archivos adjuntos",
+        "DMARC ayuda a prevenir spoofing y phishing verificando la autenticidad del dominio y aplicando políticas de autenticación de correo",
+        "DMARC cifra los mensajes de correo durante el tránsito"
+      ],
+      "respuesta": 2,
+      "explicacion": "DMARC utiliza los resultados de SPF y DKIM y permite definir políticas para reducir la suplantación de dominios y el phishing."
+    },
+    {
+      "pregunta": "Crusty Crabbypatties implementa DKIM en su infraestructura de correo. ¿Qué opción explica MEJOR su función?",
+      "opciones": [
+        "DKIM cifra automáticamente los correos",
+        "DKIM permite verificar la integridad y autenticidad de los mensajes mediante firmas criptográficas",
+        "DKIM proporciona seguimiento en tiempo real de la entrega",
+        "DKIM bloquea por sí mismo el spam y todos los correos maliciosos"
+      ],
+      "respuesta": 1,
+      "explicacion": "DKIM añade una firma digital al correo que permite al destinatario comprobar que el mensaje procede del dominio firmado y no ha sido modificado."
+    },
+    {
+      "pregunta": "Dizzy Crows ha sufrido ataques sofisticados contra sus endpoints y decide implantar EDR. ¿Cuál es la principal ventaja?",
+      "opciones": [
+        "Proporciona autenticación y cifrado completos en los hosts",
+        "Monitoriza principalmente el consumo de ancho de banda",
+        "Se limita a aplicar políticas de acceso en todos los endpoints",
+        "Proporciona análisis avanzado de comportamiento e inteligencia de amenazas para detectar y responder a ataques en endpoints"
+      ],
+      "respuesta": 3,
+      "explicacion": "EDR monitoriza endpoints, analiza comportamientos sospechosos y proporciona capacidades de investigación y respuesta frente a amenazas avanzadas."
+    },
+    {
+      "pregunta": "Una empresa de desarrollo móvil quiere permitir que aplicaciones de terceros accedan a datos de las cuentas de los usuarios sin compartir sus credenciales. ¿Cuál es la forma MÁS efectiva de implementar OAuth?",
+      "opciones": [
+        "Dar acceso sin autenticación ni autorización",
+        "Pedir al usuario que comparta sus credenciales con las aplicaciones",
+        "Generar tokens aleatorios y compartirlos directamente sin servidor de autorización",
+        "Implementar un servidor central de autorización OAuth que autentique usuarios y emita tokens de acceso a las aplicaciones"
+      ],
+      "respuesta": 3,
+      "explicacion": "OAuth utiliza un servidor de autorización para autenticar al usuario y emitir tokens con permisos limitados sin entregar las credenciales a la aplicación de terceros."
+    },
+    {
+      "pregunta": "¿Qué afirmación explica MEJOR la importancia de un ejercicio tabletop en el proceso de respuesta a incidentes?",
+      "opciones": [
+        "Es una discusión interactiva y ejercicio de roles para probar y mejorar los planes y la coordinación",
+        "Es una simulación física completa de procedimientos reales",
+        "Es una reunión para comentar estrategias favoritas",
+        "Es un ejercicio práctico contra amenazas reales activas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un tabletop permite que los participantes recorran un escenario hipotético y evalúen decisiones, responsabilidades, comunicaciones y procedimientos sin ejecutar un incidente real."
+    },
+    {
+      "pregunta": "¿Qué afirmación explica MEJOR la diferencia entre un ejercicio tabletop y una simulación en respuesta a incidentes?",
+      "opciones": [
+        "Tabletop es interactivo y la simulación es solo una reunión formal",
+        "Tabletop implica ejercicios prácticos y la simulación es exclusivamente física",
+        "Tabletop es teórico y basado en discusión, mientras que una simulación implica practicar procedimientos de forma interactiva en un entorno controlado",
+        "Tabletop utiliza amenazas reales y una simulación solo discusión"
+      ],
+      "respuesta": 2,
+      "explicacion": "El tabletop se basa principalmente en discutir respuestas hipotéticas, mientras que una simulación incluye la ejecución práctica de acciones frente a un escenario simulado."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC necesita comunicaciones privadas y seguras entre determinados dispositivos de red. ¿Qué opción sería la MÁS adecuada?",
+      "opciones": ["NGFW", "Jump servers", "Sensores", "TLS"],
+      "respuesta": 3,
+      "explicacion": "TLS proporciona cifrado, integridad y autenticación para comunicaciones entre aplicaciones a través de redes no confiables."
+    },
+    {
+      "pregunta": "Dion Training despliega varios WAP identificados por BSSID y operando en distintas bandas. ¿Qué principio debe priorizar en su ubicación y configuración para garantizar seguridad y rendimiento?",
+      "opciones": [
+        "Minimizar las interferencias co-channel y adjacent-channel",
+        "Operar exclusivamente en 5 GHz",
+        "Usar un SSID distinto para cada WAP",
+        "Aumentar simplemente el número de puntos de acceso"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una planificación adecuada de canales reduce CCI y ACI, disminuyendo colisiones, retransmisiones y pérdida de rendimiento."
+    },
+    {
+      "pregunta": "¿Cuál es la forma MÁS efectiva de proteger los secretos comerciales de una empresa?",
+      "opciones": [
+        "Usar contraseñas de cuatro letras",
+        "Confiar principalmente en comunicación verbal",
+        "Publicar solo parte de la información en el sitio web",
+        "Implementar NDA para empleados y contratistas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los acuerdos de confidencialidad o NDA establecen obligaciones legales para proteger información empresarial sensible y secretos comerciales."
+    },
+    {
+      "pregunta": "Ella trabaja en una empresa estadounidense que va a recopilar datos de consumidores canadienses y descubre que existen restricciones legales sobre cómo deben almacenarse y utilizarse esos datos. ¿De qué concepto se trata?",
+      "opciones": [
+        "Soberanía de datos",
+        "Geolocalización",
+        "Clasificación de datos",
+        "Estados de los datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "La soberanía de datos establece que la información puede quedar sometida a las leyes y regulaciones de determinadas jurisdicciones."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre la enumeración en el proceso de seguimiento de activos NO es cierta?",
+      "opciones": [
+        "Ayuda a crear un catálogo completo de activos",
+        "Puede sustituir las auditorías de seguridad rutinarias y hacerlas innecesarias",
+        "Ayuda a detectar dispositivos no autorizados",
+        "Puede incluir la documentación de la ubicación física de los servidores"
+      ],
+      "respuesta": 1,
+      "explicacion": "La enumeración complementa la gestión de activos, pero no sustituye las auditorías de seguridad periódicas."
+    },
+    {
+      "pregunta": "¿Qué categoría de datos solo es accesible para personas o grupos específicos debido a su sensibilidad y requiere controles de acceso estrictos?",
+      "opciones": [
+        "Públicos",
+        "Cifrados",
+        "Restringidos",
+        "Legibles por humanos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los datos restringidos tienen acceso limitado a usuarios explícitamente autorizados debido a su nivel de sensibilidad."
+    },
+    {
+      "pregunta": "¿Qué tipo de datos podría incluir expedientes judiciales redactados o informes gubernamentales publicados?",
+      "opciones": ["Críticos", "Confidenciales", "Públicos", "Regulados"],
+      "respuesta": 2,
+      "explicacion": "Una vez eliminada la información confidencial mediante redacción, muchos expedientes judiciales e informes gubernamentales pueden considerarse información pública."
+    },
+    {
+      "pregunta": "¿Qué tipo de evaluación externa realiza una agencia gubernamental para comprobar que las empresas cumplen las leyes?",
+      "opciones": [
+        "Auditoría independiente de terceros",
+        "Attestation",
+        "Assessment",
+        "Examen regulatorio"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un examen regulatorio lo realiza una autoridad gubernamental o reguladora para verificar el cumplimiento de requisitos legales."
+    },
+    {
+      "pregunta": "¿Qué método de protección de datos implica crear periódicamente una copia exacta de los datos para protegerlos frente a pérdida o daño?",
+      "opciones": [
+        "Copia incremental",
+        "Replicación de datos",
+        "Copia diferencial",
+        "Balanceo de carga"
+      ],
+      "respuesta": 1,
+      "explicacion": "La replicación mantiene copias de los datos en otros sistemas o ubicaciones para mejorar su disponibilidad y recuperación."
+    },
+    {
+      "pregunta": "¿Qué tipo de prueba de penetración se realiza sin conocimiento previo del entorno objetivo, simulando la perspectiva de un atacante externo?",
+      "opciones": ["White box", "Blue team", "Black box", "Grey box"],
+      "respuesta": 2,
+      "explicacion": "En una prueba black box, el pentester comienza sin información interna previa sobre la arquitectura o configuración del objetivo."
+    },
+    {
+      "pregunta": "¿Qué estrategia de backup garantiza que las copias de los datos se almacenen en una ubicación diferente del sitio donde están los datos principales?",
+      "opciones": [
+        "Backup sincronizado",
+        "Backup incremental",
+        "Backup offsite",
+        "Backup local"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un backup offsite mantiene una copia en otra ubicación física para protegerla frente a desastres que afecten al sitio principal."
+    },
+    {
+      "pregunta": "Montgomery County proporciona a los pentesters nombres y cargos de empleados e información sobre sistemas operativos y aplicaciones, pero ningún otro dato. ¿Qué tipo de prueba de penetración está realizando?",
+      "opciones": [
+        "Reconocimiento",
+        "Entorno parcialmente conocido",
+        "Entorno desconocido",
+        "Entorno conocido"
+      ],
+      "respuesta": 1,
+      "explicacion": "En un entorno parcialmente conocido los testers disponen de cierta información previa, pero no de conocimiento completo de la infraestructura."
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado puede utilizarse para cifrar únicamente archivos o carpetas específicos?",
+      "opciones": [
+        "Cifrado de partición",
+        "Cifrado de disco completo",
+        "Cifrado de volumen",
+        "Cifrado a nivel de archivo"
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado a nivel de archivo permite proteger selectivamente archivos y carpetas sin cifrar necesariamente todo el disco o volumen."
+    },
+    {
+      "pregunta": "Dion Training necesita un protocolo de cifrado que proporcione comunicación segura entre sus servidores internos y clientes externos a través de Internet. ¿Cuál sería la MEJOR opción?",
+      "opciones": ["L2TP", "SNMP", "FTP", "TLS"],
+      "respuesta": 3,
+      "explicacion": "TLS está diseñado para proporcionar confidencialidad e integridad a las comunicaciones entre aplicaciones a través de redes como Internet."
+    },
+    {
+      "pregunta": "Cada mes, Sasha revisa logs de firewalls, IDS y otras herramientas, recopila tendencias, amenazas potenciales y recomendaciones, y presenta el resultado a la dirección. ¿Qué tipo de informe está creando?",
+      "opciones": [
+        "Revisión de políticas",
+        "Informe de incidente",
+        "Briefing de inteligencia de amenazas",
+        "Informe recurrente"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un informe recurrente se genera a intervalos regulares para mantener informadas a las partes interesadas sobre métricas, tendencias y riesgos."
+    },
+    {
+      "pregunta": "Sasha toma políticas de seguridad recientemente formuladas, imparte sesiones de formación, distribuye materiales de concienciación y configura herramientas de seguimiento. ¿En qué fase de las prácticas de concienciación se encuentra?",
+      "opciones": ["Implementación", "Adaptación", "Feedback", "Desarrollo"],
+      "respuesta": 0,
+      "explicacion": "La impartición de formación y distribución de materiales corresponde a la fase de implementación del programa."
+    },
+    {
+      "pregunta": "Una empresa utiliza un algoritmo que convierte las contraseñas en una cadena de longitud fija mediante un proceso ejecutado una sola vez para evitar almacenarlas o transmitirlas en texto claro. ¿Cómo se denomina este método?",
+      "opciones": ["Salting", "Key Stretching", "Hashing", "Firmas digitales"],
+      "respuesta": 2,
+      "explicacion": "El hashing transforma una entrada de longitud arbitraria en un resumen de longitud fija mediante una función hash."
+    },
+    {
+      "pregunta": "¿Cuál es una consideración principal para optimizar costes al desplegar una arquitectura serverless?",
+      "opciones": [
+        "Transferencia del riesgo",
+        "Capacidad de respuesta",
+        "Escalabilidad",
+        "Facilidad de despliegue"
+      ],
+      "respuesta": 2,
+      "explicacion": "La escalabilidad dinámica permite consumir y pagar recursos en función de la carga real, una ventaja fundamental de las arquitecturas serverless."
+    },
+    {
+      "pregunta": "Al desplegar una arquitectura de microservicios, ¿qué factor es crucial para que el sistema pueda gestionar eficientemente el crecimiento y el aumento de la demanda?",
+      "opciones": [
+        "Capacidad de respuesta",
+        "Facilidad de recuperación",
+        "Escalabilidad",
+        "Disponibilidad"
+      ],
+      "respuesta": 2,
+      "explicacion": "La escalabilidad permite aumentar recursos o instancias de servicios individuales a medida que crece la carga."
+    },
+    {
+      "pregunta": "Al combinar proveedores cloud con servidores on-premises, ¿qué consideración es esencial para el funcionamiento fluido entre ambos entornos?",
+      "opciones": [
+        "Conectividad e integración de red",
+        "Escalado de recursos",
+        "Autenticación multifactor",
+        "Sincronización y consistencia de datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una conectividad e integración de red adecuadas permiten que los recursos cloud y on-premises se comuniquen y funcionen conjuntamente."
+    },
+    {
+      "pregunta": "¿Qué proceso se centra en realizar seguimiento y análisis de los sistemas y componentes críticos de una organización para tomar decisiones y alcanzar objetivos empresariales?",
+      "opciones": [
+        "Gestión de activos",
+        "Planificación del esquema IP",
+        "Seguimiento mediante RFID",
+        "Convenciones de nomenclatura"
+      ],
+      "respuesta": 0,
+      "explicacion": "La gestión de activos mantiene información e inventarios sobre sistemas, dispositivos, software y otros recursos necesarios para la organización."
+    },
+    {
+      "pregunta": "Tras completar la incorporación, Reed entrega a Susan un portátil de empresa. ¿Quién es principalmente responsable de la seguridad del portátil mientras está asignado a Susan?",
+      "opciones": [
+        "El departamento de TI",
+        "Susan",
+        "Kelly Innovations LLC",
+        "Reed"
+      ],
+      "respuesta": 1,
+      "explicacion": "Aunque la empresa sea propietaria del dispositivo y TI administre controles, el usuario al que se asigna es responsable de protegerlo y cumplir las políticas."
+    },
+    {
+      "pregunta": "Reed está enfadado por no haber recibido un ascenso. Antes de abandonar la empresa protege con contraseña documentos importantes para dificultar el acceso de la organización. ¿Qué término describe MEJOR su motivación?",
+      "opciones": [
+        "Disrupción",
+        "Espionaje",
+        "Beneficio económico",
+        "Exfiltración"
+      ],
+      "respuesta": 0,
+      "explicacion": "La intención de Reed es dificultar las operaciones y provocar una interrupción temporal, por lo que su motivación es la disrupción."
+    },
+    {
+      "pregunta": "¿Qué afirmación describe MEJOR el Data Plane dentro de un modelo Zero Trust?",
+      "opciones": [
+        "Gestiona la transmisión de datos después de que se aprueba el acceso",
+        "Decide el acceso mediante verificación de identidad",
+        "Consulta políticas para decidir el acceso",
+        "Se centra en decisiones dinámicas de seguridad"
+      ],
+      "respuesta": 0,
+      "explicacion": "El Data Plane ejecuta y transporta el tráfico autorizado, mientras que las decisiones de acceso pertenecen al Control Plane."
+    },
+    {
+      "pregunta": "Antes de implementar un cambio en una infraestructura crítica es necesario que la modificación propuesta sea evaluada, revisada y autorizada. ¿Qué proceso garantiza estos pasos?",
+      "opciones": [
+        "Proceso de despliegue",
+        "Proceso de aprobación",
+        "Proceso de desarrollo",
+        "Proceso de pruebas"
+      ],
+      "respuesta": 1,
+      "explicacion": "El proceso de aprobación asegura que un cambio sea revisado y autorizado antes de su implementación."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC quiere cifrar determinados documentos confidenciales y dejar otros documentos no sensibles sin cifrar en la misma unidad. ¿Qué método satisface esta necesidad?",
+      "opciones": [
+        "Cifrado de disco completo",
+        "Clave privada",
+        "Cifrado a nivel de archivo",
+        "Cifrado de partición"
+      ],
+      "respuesta": 2,
+      "explicacion": "El cifrado a nivel de archivo permite seleccionar individualmente qué archivos o carpetas se cifran."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC desarrolla una aplicación que almacenará datos de tarjetas de crédito y quiere cifrar individualmente cada entrada. ¿Qué nivel de cifrado se ajusta mejor a esta necesidad?",
+      "opciones": [
+        "Cifrado de base de datos",
+        "Cifrado de volumen",
+        "Cifrado a nivel de archivo",
+        "Cifrado a nivel de registro"
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado a nivel de registro protege de manera independiente cada registro de una base de datos, proporcionando una granularidad muy alta."
+    },
+    {
+      "pregunta": "¿Qué algoritmo criptográfico se utiliza habitualmente con certificados raíz dentro de PKI?",
+      "opciones": ["SHA256", "RSA", "Cualquier algoritmo simétrico", "MD5"],
+      "respuesta": 1,
+      "explicacion": "RSA es un algoritmo asimétrico de clave pública que puede utilizarse para las claves y firmas de certificados dentro de una PKI."
+    },
+    {
+      "pregunta": "Tras infiltrarse en los servidores de Dion Innovations, un grupo de crimen organizado transfiere grandes cantidades de datos propietarios a una ubicación externa para venderlos posteriormente. ¿Qué acción representa?",
+      "opciones": ["Venganza", "Disrupción", "Exfiltración de datos", "Guerra"],
+      "respuesta": 2,
+      "explicacion": "La exfiltración de datos es la transferencia no autorizada de información desde la red de la víctima hacia una ubicación controlada por el atacante."
+    },
+    {
+      "pregunta": "La empresa de Sasha utiliza un sistema de base de datos que ha sido discontinuado y ya no recibe actualizaciones de seguridad del proveedor. ¿Qué descripción encaja MEJOR con esta vulnerabilidad?",
+      "opciones": [
+        "Firmware desactualizado",
+        "Sistema deprecado",
+        "Plataforma legacy",
+        "Hardware end-of-life"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una plataforma legacy puede seguir en uso pese a haber perdido soporte y actualizaciones de seguridad, lo que incrementa su exposición a vulnerabilidades."
+    },
+    {
+      "pregunta": "Muchos empleados de una multinacional aparecen bloqueados al iniciar sesión debido a numerosos intentos incorrectos durante la noche. Las cámaras no muestran presencia física no autorizada. ¿Qué actividad maliciosa es la explicación MÁS probable?",
+      "opciones": [
+        "Infección de malware",
+        "Fuerza bruta",
+        "Clonación RFID",
+        "Ataque ambiental"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una gran cantidad de intentos de autenticación fallidos contra muchas cuentas es coherente con un ataque de fuerza bruta."
+    },
+    {
+      "pregunta": "¿Qué método criptográfico utiliza dos claves distintas, una pública y otra privada, de forma que los datos cifrados con una de ellas se relacionan criptográficamente con su contraparte?",
+      "opciones": ["HMAC", "RSA", "AES", "3DES"],
+      "respuesta": 1,
+      "explicacion": "RSA es un algoritmo criptográfico asimétrico basado en un par de claves pública y privada."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC está migrando a IPv6. ¿Qué característica de IPsec hace que sea adecuado para proteger tráfico de red completo y no solo aplicaciones concretas?",
+      "opciones": [
+        "IPsec opera en la capa de red, capa 3 del modelo OSI",
+        "IPsec es exclusivo de IPv4",
+        "IPsec funciona principalmente en la capa de aplicación",
+        "IPsec proporciona únicamente confidencialidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "Al operar en la capa 3, IPsec puede proteger paquetes IP independientemente de la aplicación que genere el tráfico."
+    },
+    {
+      "pregunta": "Emily investiga un aumento inesperado de tráfico de red durante la noche y sospecha actividad maliciosa. ¿En qué control debería apoyarse PRINCIPALMENTE para detectar y responder al posible incidente?",
+      "opciones": [
+        "Sensores de red",
+        "Logs del firewall",
+        "Sistema DLP",
+        "IDS/IPS"
+      ],
+      "respuesta": 3,
+      "explicacion": "IDS e IPS están específicamente diseñados para analizar tráfico en busca de patrones maliciosos y generar alertas o bloquear actividad."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC quiere que sus datos de investigación solo puedan consultarse desde sus laboratorios de Europa y Norteamérica. ¿Qué tecnología sería la MÁS adecuada?",
+      "opciones": [
+        "VPN",
+        "Filtrado de direcciones MAC",
+        "Geofencing",
+        "Cifrado SSL/TLS"
+      ],
+      "respuesta": 2,
+      "explicacion": "El geofencing permite aplicar controles según la ubicación geográfica del dispositivo o usuario."
+    },
+    {
+      "pregunta": "Enrique quiere reducir al máximo la superficie de ataque de los sistemas de Dion Training. ¿Qué técnica sería la MÁS eficaz?",
+      "opciones": [
+        "Exigir cambios frecuentes de contraseña",
+        "Desactivar servicios no utilizados y cerrar puertos innecesarios",
+        "Implantar una VPN para accesos remotos",
+        "Instalar antivirus en todos los equipos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Eliminar servicios y puertos innecesarios reduce directamente el número de componentes expuestos que podrían ser atacados."
+    },
+    {
+      "pregunta": "Susan y David quieren impedir modificaciones no autorizadas de configuraciones centrales del sistema como parte de una baseline segura. ¿Qué técnica concreta deberían aplicar?",
+      "opciones": [
+        "Obligar a cambiar contraseñas regularmente",
+        "Activar actualizaciones automáticas del antivirus",
+        "Implantar reglas de firewall más estrictas",
+        "Restringir la capacidad de editar el registro del sistema"
+      ],
+      "respuesta": 3,
+      "explicacion": "Restringir la modificación del registro ayuda a impedir alteraciones no autorizadas de configuraciones fundamentales del sistema."
+    },
+    {
+      "pregunta": "Dion Training quiere que todas las nuevas máquinas virtuales de su infraestructura cloud se desplieguen con la misma configuración de seguridad. ¿Cuál es la MEJOR recomendación?",
+      "opciones": [
+        "Usar exclusivamente los valores predeterminados del proveedor cloud",
+        "Usar imágenes públicas del marketplace",
+        "Configurar manualmente cada VM",
+        "Utilizar una golden image con los ajustes de seguridad preconfigurados"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una golden image proporciona una plantilla estandarizada y preconfigurada que garantiza consistencia en todas las VM desplegadas."
+    },
+    {
+      "pregunta": "En el marco de métricas CVSS, ¿qué métrica determina si la explotación depende de la interacción de un usuario, como abrir un archivo adjunto malicioso?",
+      "opciones": ["AC", "UI", "PR", "AV"],
+      "respuesta": 1,
+      "explicacion": "UI significa User Interaction e indica si la explotación requiere alguna acción por parte de un usuario distinto del atacante."
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal del archivado como método para reforzar la monitorización de seguridad?",
+      "opciones": [
+        "Proporcionar información histórica sobre incidentes para futuras investigaciones",
+        "Cumplir regulaciones sin necesidad de almacenamiento a largo plazo",
+        "Proporcionar exclusivamente un backup externo ante fallos",
+        "Analizar amenazas en tiempo real y mitigarlas inmediatamente"
+      ],
+      "respuesta": 0,
+      "explicacion": "El archivado conserva registros y otros datos históricos que pueden utilizarse posteriormente en investigaciones, auditorías y análisis forenses."
+    },
+    {
+      "pregunta": "Susan necesita permitir únicamente a Jamario, con IP 10.0.0.5, y Sasha, con IP 10.0.0.6, acceder a una aplicación interna en el puerto 8080. Reed, con IP 10.0.0.7, también puede acceder. ¿Qué entrada de ACL podría haber provocado el problema?",
+      "opciones": [
+        "permit tcp host 10.0.0.6 eq 8080 any",
+        "deny tcp host 10.0.0.7 eq 8080 any",
+        "permit tcp any host 10.0.0.0 0.0.0.255 eq 8080",
+        "permit tcp host 10.0.0.5 eq 8080 any"
+      ],
+      "respuesta": 2,
+      "explicacion": "La tercera regla es excesivamente permisiva y permite tráfico TCP hacia el puerto 8080 más allá de los dos hosts que se pretendía autorizar."
+    },
+    {
+      "pregunta": "¿Qué mecanismo de seguridad de correo permite definir una política sobre cómo tratar mensajes que fallan otras verificaciones y ofrece informes a los propietarios de dominios?",
+      "opciones": ["SPF", "DKIM", "IMAP", "DMARC"],
+      "respuesta": 3,
+      "explicacion": "DMARC utiliza los resultados de SPF y DKIM, permite establecer políticas de tratamiento y proporciona informes sobre fallos de autenticación."
+    },
+    {
+      "pregunta": "Kelly Innovations LLC sufre phishing mediante correos que aparentan proceder de su dominio. ¿Qué mecanismo debería implementar para firmar criptográficamente los correos y permitir verificar que realmente fueron autorizados por el dominio?",
+      "opciones": ["SMTP", "DKIM", "DMARC", "SPF"],
+      "respuesta": 1,
+      "explicacion": "DKIM añade una firma criptográfica a los mensajes salientes que puede validarse utilizando la clave pública publicada por el dominio."
+    },
+    {
+      "pregunta": "¿Cuál es la principal ventaja de integrar automatización y orquestación para mejorar la capacidad de una organización frente a amenazas?",
+      "opciones": [
+        "Aumentar el número de auditorías",
+        "Facilitar formación más frecuente",
+        "Mejorar principalmente la investigación de inteligencia de amenazas",
+        "Mejorar la capacidad de respuesta a amenazas en tiempo real"
+      ],
+      "respuesta": 3,
+      "explicacion": "Automatizar la detección y orquestar respuestas reduce significativamente el tiempo necesario para contener y mitigar amenazas."
+    },
+    {
+      "pregunta": "En PrimeTech Corp. muchos empleados utilizan la contraseña \"Prime2023\". ¿Qué medida sería la MÁS efectiva de las siguientes para mejorar la resistencia de esas contraseñas frente a ataques?",
+      "opciones": [
+        "Recomendar contraseñas más largas",
+        "Implementar CAPTCHA en el inicio de sesión",
+        "Cambiar el algoritmo de hashing",
+        "Obligar a cambiar las contraseñas mensualmente"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una mayor longitud incrementa sustancialmente el espacio de búsqueda de una contraseña y dificulta los ataques de adivinación y fuerza bruta."
+    },
+    {
+      "pregunta": "Un departamento de TI está redactando una política de control de acceso. ¿Cuál es su objetivo principal?",
+      "opciones": [
+        "Gestionar quién o qué puede acceder a los recursos de la empresa",
+        "Definir únicamente los tipos de contraseña permitidos",
+        "Describir los procedimientos de contratación",
+        "Detallar los protocolos de actualización de software"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una política de control de acceso establece quién puede acceder a qué recursos y bajo qué condiciones."
+    },
+    {
+      "pregunta": "En un playbook de ciberseguridad, ¿qué suele iniciar el proceso de detección y gestión de un incidente?",
+      "opciones": [
+        "Una reunión formal con el consejo de administración",
+        "La identificación del responsable del ataque",
+        "Un informe o consulta de SIEM diseñada para detectar el incidente",
+        "Una llamada a analistas senior para confirmar la amenaza"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los playbooks suelen activarse a partir de una alerta, informe o consulta del SIEM que detecta una condición asociada a un posible incidente."
+    },
+    {
+      "pregunta": "¿Qué opción describe MEJOR la función del data controller en relación con GDPR y la gobernanza de datos?",
+      "opciones": [
+        "Posee toda la autoridad estratégica sobre la organización",
+        "Genera y administra claves criptográficas",
+        "Determina los fines y condiciones del tratamiento de datos y garantiza el cumplimiento de los requisitos legales",
+        "Se limita a implementar procedimientos de respuesta a incidentes"
+      ],
+      "respuesta": 2,
+      "explicacion": "El data controller determina los fines y medios del tratamiento de datos personales y tiene responsabilidades directas de cumplimiento bajo GDPR."
+    },
+    {
+      "pregunta": "La dirección de TI observa una tendencia creciente de intentos de inicio de sesión no autorizados y decide seguir de cerca esta métrica porque podría anticipar una brecha. ¿Qué término la describe MEJOR?",
+      "opciones": [
+        "Key Risk Indicator",
+        "Umbral de riesgo",
+        "Parámetro de riesgo",
+        "Métrica de riesgo genérica"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un Key Risk Indicator (KRI) es una métrica utilizada para advertir sobre un aumento potencial de la exposición al riesgo."
+    },
+    {
+      "pregunta": "Un comercio electrónico tiene una Single Loss Expectancy (SLE) de 25.000 dólares por cada caída de su sistema y un Annual Rate of Occurrence (ARO) de 0,05. ¿Cuál es la Annual Loss Expectancy (ALE)?",
+      "opciones": ["$1,250", "$125", "$500,000", "$5,000"],
+      "respuesta": 0,
+      "explicacion": "ALE = SLE × ARO. Por tanto, 25.000 × 0,05 = 1.250 dólares al año."
+    },
+    {
+      "pregunta": "Dion Training sufre un fallo de servidor que podría provocar la pérdida de semanas de desarrollo. El responsable propone conservar un historial de los cambios realizados en el código para facilitar la recuperación. ¿Cuál es la MEJOR solución?",
+      "opciones": [
+        "Control de versiones",
+        "Plan de recuperación ante desastres",
+        "Backup en la nube",
+        "Servidores redundantes"
+      ],
+      "respuesta": 0,
+      "explicacion": "El control de versiones registra las distintas revisiones del código y permite recuperar estados anteriores de forma precisa."
+    },
+    {
+      "pregunta": "Un competidor contrata hackers para infiltrarse en la red de una empresa y robar diseños de productos y secretos comerciales con el objetivo de desarrollar productos similares. ¿Qué motivación impulsa a los atacantes?",
+      "opciones": [
+        "Beneficio económico",
+        "Espionaje",
+        "Venganza",
+        "Hacking ético"
+      ],
+      "respuesta": 1,
+      "explicacion": "El espionaje busca obtener información confidencial o estratégica para conseguir una ventaja competitiva, política o militar."
+    },
+    {
+      "pregunta": "Mientras buscas un producto, haces clic en un anuncio que parece conducir al sitio oficial de una marca. La web resultante imita su diseño, pero presenta pequeñas diferencias en el logotipo, nombre y URL. ¿Qué ataque describe MEJOR el escenario?",
+      "opciones": [
+        "Phishing",
+        "Watering Hole",
+        "On-path",
+        "Suplantación de marca"
+      ],
+      "respuesta": 3,
+      "explicacion": "La suplantación de marca crea sitios, perfiles o comunicaciones que imitan a una organización legítima para engañar a sus usuarios."
+    },
+    {
+      "pregunta": "Cosmic Comix ve comprometidos sus sistemas debido a una vulnerabilidad explotada en uno de sus proveedores externos. ¿Cómo se denomina este tipo de ataque indirecto?",
+      "opciones": [
+        "Ataque a la cadena de suministro",
+        "Ataque on-path",
+        "XSS",
+        "Denegación de servicio (DoS)"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un ataque a la cadena de suministro compromete a un proveedor o tercero para alcanzar indirectamente a la organización objetivo."
+    },
+    {
+      "pregunta": "Sarah endurece los servidores web deshabilitando servicios innecesarios, cerrando puertos no utilizados, utilizando una allow list de software, desactivando el listado de directorios y restringiendo la administración remota. ¿Cuál es el principal beneficio de seguridad?",
+      "opciones": [
+        "Facilitar un acceso remoto más rápido",
+        "Reducir la superficie de ataque y evitar accesos no autorizados",
+        "Mejorar principalmente el rendimiento del servidor",
+        "Aumentar la disponibilidad durante picos de tráfico"
+      ],
+      "respuesta": 1,
+      "explicacion": "El hardening elimina o restringe componentes y servicios innecesarios, reduciendo los posibles puntos de entrada que puede explotar un atacante."
+    }
+  ]
+}

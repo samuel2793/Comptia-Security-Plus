@@ -32,6 +32,18 @@
       "baterias": [
         "tests/udemy/comptia_security_plus/1.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-sy0-701-practice-exams-2nd-edition",
+      "titulo": "Udemy comptia security sy0 701 practice exams 2nd edition",
+      "baterias": [
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/1.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/2.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/3.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/4.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/5.json",
+        "tests/udemy/comptia-security-sy0-701-practice-exams-2nd-edition/6.json"
+      ]
     }
   ]
 }
