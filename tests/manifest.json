@@ -58,6 +58,13 @@
       "baterias": [
         "tests/udemy/curso-de-certificacion-oficial-comptia-security-sy0-701/1.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-sy0-701-vision",
+      "titulo": "Udemy comptia security sy0 701 vision",
+      "baterias": [
+        "tests/udemy/comptia-security-sy0-701-vision/1.json"
+      ]
     }
   ]
 }

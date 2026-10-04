@@ -1,0 +1,2217 @@
+{
+  "titulo": "CompTIA Security+ SY0-701 - Banco de preguntas",
+  "procedencia": "CompTIA Security Plus Course SY0-701 and Hands on Labs - Vision Training Systems : IT Training",
+  "descripcion": "Banco de preguntas traducido al español a partir del curso CompTIA Security+ SY0-701. Se han omitido las preguntas de selección múltiple porque el formato solicitado solo admite un único índice numérico como respuesta correcta.",
+  "preguntas": [
+    {
+      "pregunta": "Tu organización sanitaria quiere desplegar una aplicación web que permita a las personas informar digitalmente de emergencias médicas. ¿En qué parte de la tríada CIA deberían centrarse los desarrolladores de la aplicación?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 2,
+      "explicacion": "La aplicación debe estar accesible cuando se produzca una emergencia, por lo que la disponibilidad es prioritaria."
+    },
+    {
+      "pregunta": "Quieres aplicar permisos a un recurso compartido de archivos de recursos humanos siguiendo el principio de mínimo privilegio. ¿Qué parte de la tríada CIA respalda esta medida?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "No repudio"
+      ],
+      "respuesta": 0,
+      "explicacion": "Restringir el acceso solo a usuarios autorizados protege la confidencialidad de la información."
+    },
+    {
+      "pregunta": "En términos de seguridad de red, ¿cuál es la premisa fundamental de Zero Trust?",
+      "opciones": [
+        "Que los usuarios autenticados una vez no necesitan autenticarse de nuevo hasta iniciar una nueva sesión",
+        "Que el firewall establece el perímetro de red",
+        "Que los proveedores de servicios cloud son inherentemente menos fiables por ser terceros",
+        "Que la red ya está comprometida"
+      ],
+      "respuesta": 3,
+      "explicacion": "Zero Trust parte de la premisa de no confiar implícitamente en ningún usuario, dispositivo o segmento, asumiendo posible compromiso."
+    },
+    {
+      "pregunta": "¿Qué puedes utilizar para identificar posibles actividades de atacantes sin afectar a tus servidores de producción?",
+      "opciones": ["Honeypot", "Videovigilancia", "Zero Trust", "Geofencing"],
+      "respuesta": 0,
+      "explicacion": "Un honeypot actúa como sistema señuelo para atraer y observar a posibles atacantes sin exponer los sistemas de producción."
+    },
+    {
+      "pregunta": "Un administrador coloca un documento llamado password.txt en el escritorio de una cuenta administrativa de un servidor. ¿Qué tipo de honey asset es?",
+      "opciones": ["Jam jar", "Honeypot", "Honeynet", "Honey file"],
+      "respuesta": 3,
+      "explicacion": "Un honey file es un archivo señuelo diseñado para detectar accesos o actividades sospechosas."
+    },
+    {
+      "pregunta": "Te preocupa que un atacante pueda entrar físicamente en una instalación y conectar un equipo Kali Linux accesible remotamente. ¿Cuál debería ser la primera línea de defensa?",
+      "opciones": [
+        "Vestíbulo de control de acceso",
+        "Seguridad de puertos",
+        "Filtrado MAC",
+        "Cámaras"
+      ],
+      "respuesta": 0,
+      "explicacion": "La primera medida es impedir físicamente que personas no autorizadas entren en las instalaciones."
+    },
+    {
+      "pregunta": "¿A qué categoría de controles pertenece un torno de acceso?",
+      "opciones": ["Lógico", "Físico", "Administrativo", "Técnico"],
+      "respuesta": 1,
+      "explicacion": "Un torno controla físicamente el acceso de personas a una instalación."
+    },
+    {
+      "pregunta": "¿Qué puedes utilizar para evitar que un vehículo embista la entrada de un edificio?",
+      "opciones": ["Puertas reforzadas", "Mantrap", "Bolardo", "Vallado"],
+      "respuesta": 2,
+      "explicacion": "Los bolardos constituyen barreras físicas diseñadas para impedir el acceso o impacto de vehículos."
+    },
+    {
+      "pregunta": "¿Qué categoría de control de seguridad representa mejor una política de uso aceptable (AUP)?",
+      "opciones": ["Administrativo", "Técnico", "Físico", "Lógico"],
+      "respuesta": 0,
+      "explicacion": "Una AUP es una política organizativa y, por tanto, un control administrativo."
+    },
+    {
+      "pregunta": "Tu centro de datos exige atravesar varios puntos de acceso: un vestíbulo, un vestíbulo de control de acceso, puertas hacia la sala de servidores y una zona enjaulada que contiene el hardware. ¿Qué tipo de control describe este escenario?",
+      "opciones": ["Mitigador", "Preventivo", "Correctivo", "Detectivo"],
+      "respuesta": 1,
+      "explicacion": "Estas barreras buscan impedir físicamente el acceso no autorizado antes de que ocurra un incidente."
+    },
+    {
+      "pregunta": "Estás revisando archivos de registro después de un reciente ataque de ransomware. ¿Qué tipo de control estás utilizando?",
+      "opciones": ["Detectivo", "Mitigador", "Compensatorio", "Correctivo"],
+      "respuesta": 0,
+      "explicacion": "La revisión de registros permite detectar y analizar actividades que ya han ocurrido."
+    },
+    {
+      "pregunta": "Dispones de un sistema Linux heredado que no admite muchos controles de seguridad. Implementas un firewall basado en host que solo permite conexiones desde determinadas direcciones IP internas. ¿Qué tipo de control utilizas?",
+      "opciones": ["Correctivo", "Mitigador", "Detectivo", "Compensatorio"],
+      "respuesta": 3,
+      "explicacion": "El firewall compensa las limitaciones de seguridad del sistema heredado mediante un control alternativo."
+    },
+    {
+      "pregunta": "Necesitas aplicar un parche de alta prioridad a un sistema de producción. ¿Qué deberías hacer primero?",
+      "opciones": [
+        "Crear una solicitud de control de cambios",
+        "Registrar los cambios",
+        "Documentar el estado anterior y posterior",
+        "Ejecutar el plan"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los cambios en producción deben comenzar mediante el proceso formal de gestión y aprobación de cambios."
+    },
+    {
+      "pregunta": "Quieres garantizar la disponibilidad de los sistemas y minimizar el impacto empresarial del mantenimiento. ¿Qué utilizarías para especificar un periodo determinado durante el que realizar cambios en un sistema operativo?",
+      "opciones": [
+        "Notificaciones push a usuarios",
+        "Tiempo de actividad programado",
+        "Tiempo de inactividad programado",
+        "Análisis de impacto"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una ventana de inactividad programada reserva un periodo concreto para realizar mantenimiento minimizando el impacto."
+    },
+    {
+      "pregunta": "¿Qué procedimiento deberías seguir al configurar un nuevo conjunto de reglas de firewall?",
+      "opciones": [
+        "Evaluación lógica de reglas",
+        "Procedimiento de gestión de cambios",
+        "Requisitos del caso de uso",
+        "Directivas de dirección"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las modificaciones de firewall deben gestionarse mediante procedimientos formales de change management."
+    },
+    {
+      "pregunta": "¿Qué hace que una clave de cifrado sea fuerte?",
+      "opciones": [
+        "Longitud",
+        "Complejidad",
+        "Conjunto de caracteres",
+        "Algoritmo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una mayor longitud de clave aumenta el espacio de claves y dificulta los ataques de fuerza bruta."
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado utilizarías normalmente para cifrar un archivo?",
+      "opciones": [
+        "Cifrado simétrico por bloques",
+        "Cifrado asimétrico",
+        "Hashing",
+        "Firma digital"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado simétrico por bloques es eficiente para proteger grandes cantidades de datos como archivos."
+    },
+    {
+      "pregunta": "¿Qué clave debe utilizar JaJa para cifrar algo que solo Moo pueda leer?",
+      "opciones": [
+        "Clave pública de JaJa",
+        "Clave privada de JaJa",
+        "Clave pública de Moo",
+        "Clave privada de Moo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Al cifrar con la clave pública del destinatario, solo la clave privada correspondiente puede descifrar el contenido."
+    },
+    {
+      "pregunta": "¿Qué elemento se utiliza para añadir complejidad adicional antes de aplicar un algoritmo de transformación unidireccional?",
+      "opciones": ["Clave privada", "Clave simétrica", "Salt", "Clave pública"],
+      "respuesta": 2,
+      "explicacion": "Un salt añade datos aleatorios antes del hashing para dificultar ataques con hashes precomputados."
+    },
+    {
+      "pregunta": "¿Qué puede utilizar una aplicación de autenticación para validar las credenciales de un usuario sin almacenar la contraseña real?",
+      "opciones": [
+        "Cifrado simétrico",
+        "Hashing",
+        "Cifrado asimétrico",
+        "Archivo de texto plano"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las contraseñas pueden almacenarse como hashes y verificarse comparando el hash calculado durante la autenticación."
+    },
+    {
+      "pregunta": "Un proveedor de certificados te ha informado de certificados invalidados recientemente. ¿Qué deberías utilizar para determinar si los certificados instalados en los equipos de tu empresa necesitan actualizarse?",
+      "opciones": ["CRL", "OCSP", "Root CA", "Subordinate CA"],
+      "respuesta": 0,
+      "explicacion": "Una Certificate Revocation List (CRL) enumera certificados revocados por la autoridad certificadora."
+    },
+    {
+      "pregunta": "¿Qué puedes utilizar para acelerar la comprobación del estado de revocación de certificados frente al uso de una CRL completa?",
+      "opciones": ["Root CA", "OCSP", "Subordinate CA", "CRL"],
+      "respuesta": 1,
+      "explicacion": "OCSP permite consultar directamente el estado de un certificado sin descargar una lista completa de revocación."
+    },
+    {
+      "pregunta": "Quieres simplificar la gestión de certificados. Tienes un único dominio con varias decenas de subdominios, todos accesibles públicamente desde Internet. ¿Qué tipo de certificado deberías utilizar?",
+      "opciones": ["Público", "De confianza", "Autofirmado", "Wildcard"],
+      "respuesta": 3,
+      "explicacion": "Un certificado wildcard puede proteger múltiples subdominios bajo un mismo dominio."
+    },
+    {
+      "pregunta": "¿Qué se utiliza para verificar que un certificado no ha sido revocado?",
+      "opciones": ["Clave pública", "CSR", "Clave privada", "CRL"],
+      "respuesta": 3,
+      "explicacion": "La CRL contiene los certificados que la CA ha revocado antes de su fecha de expiración."
+    },
+    {
+      "pregunta": "¿Qué extensión de archivo se utiliza para solicitar un certificado digital?",
+      "opciones": [".pfx", ".csr", ".pvk", ".cer"],
+      "respuesta": 1,
+      "explicacion": "Un archivo .csr contiene una Certificate Signing Request enviada a una autoridad certificadora."
+    },
+    {
+      "pregunta": "Un ingeniero de seguridad de una instalación gubernamental está preocupado por la validez de un certificado SSL y quiere comprobar con la menor demora posible si ha sido revocado. ¿Qué opción satisface mejor este requisito?",
+      "opciones": ["Subordinate CA", "OCSP", "Root CA", "Public CA"],
+      "respuesta": 1,
+      "explicacion": "OCSP permite obtener rápidamente el estado de revocación de un certificado concreto."
+    },
+    {
+      "pregunta": "Necesitas generar un certificado de servidor para comunicaciones seguras. ¿Qué deberías hacer primero?",
+      "opciones": [
+        "Leer la CRL",
+        "Consultar un servidor OCSP",
+        "Generar una CSR",
+        "Importar el certificado de la Trusted Root CA"
+      ],
+      "respuesta": 2,
+      "explicacion": "La generación de una Certificate Signing Request es el paso necesario para solicitar el certificado a una CA."
+    },
+    {
+      "pregunta": "¿Qué tipo de certificado puede reducir el esfuerzo administrativo?",
+      "opciones": ["Wildcard", "Autofirmado", "Root CA", "Subordinate CA"],
+      "respuesta": 0,
+      "explicacion": "Un certificado wildcard permite proteger varios subdominios con un único certificado."
+    },
+    {
+      "pregunta": "¿Qué propiedad permite atribuir mensajes a individuos concretos?",
+      "opciones": [
+        "Confidencialidad",
+        "No repudio",
+        "Integridad",
+        "Disponibilidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "El no repudio proporciona evidencia que vincula una acción o mensaje con su autor."
+    },
+    {
+      "pregunta": "¿Qué se garantiza cuando un usuario firma un correo electrónico utilizando una clave privada?",
+      "opciones": [
+        "Confidencialidad",
+        "No repudio",
+        "Originalidad",
+        "Indisputabilidad"
+      ],
+      "respuesta": 1,
+      "explicacion": "La firma digital con la clave privada proporciona autenticidad e integridad y respalda el no repudio."
+    },
+    {
+      "pregunta": "Tienes una autoridad certificadora raíz pública que emite certificados para sitios de comercio electrónico. ¿Qué puedes utilizar para proteger la clave privada del certificado raíz frente a una pérdida o compromiso?",
+      "opciones": [
+        "Key escrow",
+        "Subordinate CA",
+        "Copia de seguridad cifrada",
+        "Alta disponibilidad"
+      ],
+      "respuesta": 0,
+      "explicacion": "El key escrow mantiene una copia protegida de material criptográfico para recuperación controlada."
+    },
+    {
+      "pregunta": "Un banco exige que todos sus proveedores eviten la pérdida de datos en portátiles robados. ¿Qué estrategia de cifrado está exigiendo?",
+      "opciones": [
+        "Cifrado de datos en tránsito",
+        "Cifrado de datos en uso",
+        "Cifrado de datos en reposo",
+        "Perfect Forward Secrecy"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los datos almacenados en un portátil se consideran datos en reposo y deben cifrarse para protegerlos si el dispositivo es robado."
+    },
+    {
+      "pregunta": "Si una clave privada actual se ve comprometida, ¿qué mecanismo evitaría que pudiera utilizarse para descifrar todos los datos históricos?",
+      "opciones": [
+        "Firma digital",
+        "Perfect Forward Secrecy",
+        "Key escrow",
+        "Key stretching"
+      ],
+      "respuesta": 1,
+      "explicacion": "Perfect Forward Secrecy utiliza claves de sesión independientes para impedir que una clave comprometida permita descifrar sesiones anteriores."
+    },
+    {
+      "pregunta": "Tienes una memoria USB cifrada con datos y la transportas físicamente a otra oficina. ¿En qué estado se encuentran los datos?",
+      "opciones": ["En tránsito", "En uso", "En reposo", "En escrow"],
+      "respuesta": 2,
+      "explicacion": "Aunque el dispositivo se esté transportando físicamente, los datos permanecen almacenados y no se están transmitiendo por una red."
+    },
+    {
+      "pregunta": "¿Qué técnica se utiliza para hacer que una clave derivada de una contraseña sea más costosa de descifrar?",
+      "opciones": [
+        "Perfect Forward Secrecy",
+        "Key stretching",
+        "Colisiones de hashing",
+        "Key escrow"
+      ],
+      "respuesta": 1,
+      "explicacion": "Key stretching aplica operaciones criptográficas repetidas para aumentar el coste computacional de los ataques."
+    },
+    {
+      "pregunta": "¿Qué técnica se utiliza para garantizar que, si una clave se ve comprometida, solo quede expuesta una cantidad mínima de datos históricos?",
+      "opciones": [
+        "Firma digital",
+        "Perfect Forward Secrecy",
+        "Cifrado simétrico",
+        "Cifrado asimétrico"
+      ],
+      "respuesta": 1,
+      "explicacion": "Perfect Forward Secrecy limita el impacto del compromiso de una clave al utilizar claves de sesión independientes."
+    },
+    {
+      "pregunta": "Tu responsable quiere llevarse cada noche las cintas de copia de seguridad a casa en su maletín. ¿Cómo puede protegerlas durante el transporte?",
+      "opciones": [
+        "Transmitir los datos por la red a una ubicación segura",
+        "Replicar los datos en otro servidor",
+        "Copiar la copia de seguridad a una unidad extraíble",
+        "Cifrar las cintas de copia de seguridad"
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado protege la confidencialidad de la información si las cintas se pierden o son robadas durante el transporte."
+    },
+    {
+      "pregunta": "Examinas el contenido de /etc/shadow. Sabes que algunos usuarios utilizaron la misma contraseña, pero ninguno de los hashes es idéntico. ¿Por qué?",
+      "opciones": [
+        "Cada contraseña tenía un salt diferente",
+        "Las contraseñas utilizaban algoritmos de hashing diferentes",
+        "Las contraseñas utilizaban key stretching",
+        "Las contraseñas estaban codificadas en Base64"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los salts únicos provocan hashes distintos incluso cuando varios usuarios utilizan la misma contraseña."
+    },
+    {
+      "pregunta": "Quieres almacenar datos de clientes en la nube y permitir que sean procesados sin que el proveedor pueda conocer su contenido. No te preocupa la sobrecarga computacional. Según las opciones proporcionadas, ¿qué tipo de cifrado satisface mejor el requisito?",
+      "opciones": [
+        "Cifrado simétrico",
+        "Cifrado asimétrico",
+        "Hashing",
+        "Data masking"
+      ],
+      "respuesta": 1,
+      "explicacion": "Según la respuesta indicada en el test original, el cifrado asimétrico es la opción seleccionada."
+    },
+    {
+      "pregunta": "Un desarrollador subió accidentalmente la clave privada del certificado de firma de código de la empresa a un servidor web público. Te preocupa su posible uso malicioso. ¿Qué deberías hacer primero?",
+      "opciones": [
+        "Renovar el certificado de firma de código",
+        "Reemitir el certificado de firma de código",
+        "Revocar el certificado de firma de código",
+        "Crear un certificado autofirmado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una clave privada expuesta debe considerarse comprometida y su certificado debe revocarse inmediatamente."
+    },
+    {
+      "pregunta": "Examinas un certificado que contiene HTTPS://*.comptia.org. ¿Qué tipo de certificado es?",
+      "opciones": ["Autofirmado", "Trusted root", "Webserver", "Wildcard"],
+      "respuesta": 3,
+      "explicacion": "El carácter * indica que el certificado puede utilizarse con múltiples subdominios del dominio comptia.org."
+    },
+    {
+      "pregunta": "Utilizaste una CA interna para emitir un certificado a una aplicación pública. Los usuarios reciben el mensaje «Tu conexión no es privada». ¿Cómo puedes solucionarlo?",
+      "opciones": [
+        "Pedir al administrador de la CA que revoque el certificado",
+        "Enviar una CSR a una CA reconocida e instalar el certificado firmado en el servidor",
+        "Crear un certificado autofirmado",
+        "Eliminar la firma digital del certificado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los clientes públicos deben confiar en la CA emisora; utilizar una CA pública reconocida evita el error de confianza."
+    },
+    {
+      "pregunta": "Quieres comprar portátiles compatibles con cifrado completo de disco (FDE) integrado. ¿Qué deberías asegurarte de que incorporen?",
+      "opciones": [
+        "Un chip Trusted Platform Module (TPM)",
+        "Espacio de disco suficiente",
+        "Varias particiones",
+        "Un sistema operativo compatible con FDE"
+      ],
+      "respuesta": 0,
+      "explicacion": "El TPM puede almacenar y proteger de forma segura material criptográfico utilizado por soluciones FDE."
+    },
+    {
+      "pregunta": "Quieres proteger los datos de los portátiles de los empleados incluso si los dispositivos son robados. ¿Qué técnica de cifrado deberías utilizar?",
+      "opciones": [
+        "Cifrar archivos sensibles",
+        "No almacenar archivos sensibles en los portátiles",
+        "Full Disk Encryption",
+        "Control de acceso fuerte"
+      ],
+      "respuesta": 2,
+      "explicacion": "FDE cifra todo el contenido de la unidad y protege los datos cuando el dispositivo está apagado o bloqueado."
+    },
+    {
+      "pregunta": "Decides utilizar blockchain para seguir el desarrollo y movimiento de productos en una cadena de suministro. Quieres realizar consultas ad hoc sobre el progreso de un producto. ¿Qué puedes implementar?",
+      "opciones": [
+        "Una aplicación que lea rápidamente todos los bloques de una cadena",
+        "Una base de datos local actualizada con cada transacción sucesiva de la blockchain",
+        "Un acuerdo para almacenar copias en texto claro",
+        "Una copia duplicada de la blockchain"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una base de datos indexada y actualizada desde la blockchain facilita consultas rápidas sin recorrer toda la cadena."
+    },
+    {
+      "pregunta": "El equipo de bases de datos necesita proteger determinados campos de datos de titulares de tarjetas sustituyendo cada dato sensible por otro valor no sensible e inútil en caso de brecha. ¿Qué técnica cumple mejor el requisito?",
+      "opciones": ["Masking", "Cifrado", "Tokenización", "Hashing"],
+      "respuesta": 2,
+      "explicacion": "La tokenización sustituye datos sensibles por tokens sin valor fuera del sistema que mantiene la correspondencia."
+    },
+    {
+      "pregunta": "¿Qué término describe el proceso de ocultar código o texto dentro de una imagen gráfica?",
+      "opciones": [
+        "Esteganografía",
+        "Cifrado",
+        "Hashing",
+        "Honey tokenization"
+      ],
+      "respuesta": 0,
+      "explicacion": "La esteganografía oculta la existencia de información insertándola dentro de otro medio, como una imagen."
+    },
+    {
+      "pregunta": "Quieres proteger información de tarjetas de crédito almacenada en una base de datos frente a exposición y reutilización, pero el sistema de punto de venta no admite cifrado. ¿Qué alternativa puedes utilizar?",
+      "opciones": [
+        "Host-based IPS",
+        "Tokenización",
+        "Web Application Firewall",
+        "Anonimización"
+      ],
+      "respuesta": 1,
+      "explicacion": "La tokenización reemplaza los números reales de tarjeta por tokens que no revelan el dato original."
+    },
+    {
+      "pregunta": "¿Qué tipo de actor de amenazas es el más probable detrás de ransomware-as-a-service?",
+      "opciones": [
+        "Hacktivista",
+        "Script kiddie",
+        "Suicide hacker",
+        "Crimen organizado"
+      ],
+      "respuesta": 3,
+      "explicacion": "El ransomware-as-a-service suele formar parte de operaciones criminales organizadas orientadas a obtener beneficios económicos."
+    },
+    {
+      "pregunta": "El departamento de marketing ha configurado por su cuenta un software de gestión de proyectos sin informar a los departamentos correspondientes. ¿Cómo se describe este escenario?",
+      "opciones": [
+        "Administradores rogue",
+        "Shadow IT",
+        "TI descentralizada",
+        "TI centralizada"
+      ],
+      "respuesta": 1,
+      "explicacion": "Shadow IT es el uso de tecnología no autorizada o no gestionada formalmente por el departamento de TI."
+    },
+    {
+      "pregunta": "¿Qué tipo de actor de amenazas tiene mayor probabilidad de utilizar grandes recursos financieros para atacar sistemas críticos de otros países?",
+      "opciones": [
+        "Estado-nación",
+        "Crimen organizado",
+        "White hat",
+        "Black hat"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los actores patrocinados por Estados disponen de amplios recursos y pueden perseguir objetivos estratégicos o geopolíticos."
+    },
+    {
+      "pregunta": "Descubres que varios archivos de un servidor de base de datos fueron cifrados recientemente y los registros muestran que el último acceso fue realizado por un usuario del dominio. ¿Qué tipo de actor de amenazas es?",
+      "opciones": ["Insider", "APT", "Pentester", "White hat"],
+      "respuesta": 0,
+      "explicacion": "El uso de una cuenta interna para causar daño puede indicar una amenaza interna."
+    },
+    {
+      "pregunta": "¿Qué concepto está más asociado con la introducción de vulnerabilidades en una red corporativa mediante el despliegue de software no autorizado?",
+      "opciones": [
+        "Insider threat",
+        "Hacktivista",
+        "Estado-nación",
+        "Shadow IT"
+      ],
+      "respuesta": 3,
+      "explicacion": "Shadow IT introduce aplicaciones y servicios fuera de los procesos oficiales de seguridad y gestión."
+    },
+    {
+      "pregunta": "Descubres que un usuario inició sesión remotamente fuera del horario laboral y copió grandes cantidades de datos a un dispositivo personal. ¿Qué describe mejor esta actividad?",
+      "opciones": [
+        "Prueba de penetración",
+        "Insider threat",
+        "Campaña de phishing",
+        "Auditoría externa"
+      ],
+      "respuesta": 1,
+      "explicacion": "El comportamiento describe una posible amenaza interna y exfiltración de datos por un usuario autorizado."
+    },
+    {
+      "pregunta": "¿Qué término describe el conjunto total de todos los posibles puntos de entrada o vectores de amenaza para acceder sin autorización a una red?",
+      "opciones": [
+        "Vulnerabilidad",
+        "Exposure factor",
+        "Superficie de ataque",
+        "Threat landscape"
+      ],
+      "respuesta": 2,
+      "explicacion": "La superficie de ataque comprende todos los puntos que un atacante podría intentar explotar."
+    },
+    {
+      "pregunta": "¿Qué término representa la vía o punto de entrada que conduce hasta una vulnerabilidad?",
+      "opciones": [
+        "Vector de amenaza",
+        "Vulnerabilidad",
+        "Exploit",
+        "Actor de amenazas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un threat vector es el camino o mecanismo utilizado para alcanzar y explotar un objetivo."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes escenarios describe un posible ataque de Business Email Compromise (BEC)?",
+      "opciones": [
+        "Los empleados que abren un adjunto reciben mensajes que exigen un pago para recuperar sus archivos",
+        "Un empleado del service desk recibe un correo del director de RR. HH. solicitando credenciales de una cuenta cloud administrativa",
+        "Un empleado recibe por correo una solicitud para comprar tarjetas regalo con el nombre de un ejecutivo en el campo de remitente",
+        "Un empleado recibe un correo con un enlace a un portal de phishing que imita al correo corporativo"
+      ],
+      "respuesta": 2,
+      "explicacion": "El BEC suele implicar la suplantación de ejecutivos para inducir transferencias, compras u otras acciones financieras."
+    },
+    {
+      "pregunta": "¿Qué término representa un ataque concreto seleccionado para aprovechar una vulnerabilidad específica?",
+      "opciones": [
+        "Vector de amenaza",
+        "Vulnerabilidad",
+        "Exploit",
+        "Actor de amenazas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un exploit es una técnica o código diseñado para aprovechar una vulnerabilidad."
+    },
+    {
+      "pregunta": "Recibes información falsa por teléfono. ¿Qué tipo de ataque de ingeniería social es?",
+      "opciones": ["Waterholing", "Vishing", "Pharming", "Spear phishing"],
+      "respuesta": 1,
+      "explicacion": "Vishing es phishing realizado mediante comunicaciones de voz, normalmente por teléfono."
+    },
+    {
+      "pregunta": "Un malware se propagó por la red de una empresa después de que un empleado visitara un blog del sector comprometido. ¿Qué tipo de ingeniería social representa?",
+      "opciones": ["Watering hole", "Pharming", "Vishing", "Fat fingering"],
+      "respuesta": 0,
+      "explicacion": "Un ataque watering hole compromete un sitio que se sabe que visita habitualmente el grupo objetivo."
+    },
+    {
+      "pregunta": "Los usuarios reciben mensajes de texto no solicitados en sus teléfonos que contienen un enlace para restablecer la contraseña. ¿Qué tipo de ataque es?",
+      "opciones": ["Pharming", "Vishing", "Spear phishing", "Smishing"],
+      "respuesta": 3,
+      "explicacion": "Smishing es phishing realizado mediante SMS o mensajes de texto."
+    },
+    {
+      "pregunta": "¿Qué tipo de control suele ser preferible para reducir el impacto del error humano?",
+      "opciones": ["Administrativo", "Físico", "Técnico", "Procedimental"],
+      "respuesta": 2,
+      "explicacion": "Los controles técnicos pueden prevenir o limitar automáticamente acciones humanas incorrectas."
+    },
+    {
+      "pregunta": "Trabajas para un contratista de defensa. Un compañero realiza viajes inesperados al extranjero, muestra un aumento inexplicable de riqueza y empieza a trabajar fuera de su horario habitual. ¿Cómo deberían considerarse estos cambios?",
+      "opciones": [
+        "No deberían considerarse relevantes",
+        "Probablemente trabaja muchas horas extra",
+        "Probablemente recibió un ascenso",
+        "Podrían ser indicadores de una amenaza interna"
+      ],
+      "respuesta": 3,
+      "explicacion": "Cambios financieros y conductuales anómalos pueden formar parte de los indicadores utilizados para detectar amenazas internas."
+    },
+    {
+      "pregunta": "¿Qué término representa una característica, servicio o protocolo desprotegido que puede ser explotado?",
+      "opciones": ["Amenaza", "Vulnerabilidad", "Exploit", "Payload"],
+      "respuesta": 1,
+      "explicacion": "Una vulnerabilidad es una debilidad que puede ser aprovechada por una amenaza."
+    },
+    {
+      "pregunta": "La difusión de información falsa sobre un nuevo virus el día de unas elecciones hace que votantes elegibles decidan no acudir a votar. ¿Qué tipo de ataque de ingeniería social es?",
+      "opciones": [
+        "Campaña de desinformación",
+        "Pharming",
+        "Waterholing",
+        "Tailgating"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una campaña de desinformación difunde deliberadamente información falsa para influir en decisiones o comportamientos."
+    },
+    {
+      "pregunta": "Un usuario hace clic en un enlace de un correo de un sitio de pagos que le solicita actualizar información. Introduce sus credenciales y recibe después un error de página no encontrada. ¿Qué ataque de ingeniería social sufrió?",
+      "opciones": ["Impersonation", "Pharming", "Phishing", "Whaling"],
+      "respuesta": 2,
+      "explicacion": "El atacante utilizó un correo engañoso para obtener las credenciales del usuario, lo que corresponde a phishing."
+    },
+    {
+      "pregunta": "Un atacante intenta convencer por teléfono a una persona para que proporcione información financiera y así acceder a sus fondos. ¿Qué tipo de ataque es?",
+      "opciones": ["Spear phishing", "Vishing", "Whaling", "Typosquatting"],
+      "respuesta": 1,
+      "explicacion": "El uso del teléfono para engañar a la víctima y obtener información se denomina vishing."
+    },
+    {
+      "pregunta": "Recibes un correo afirmando que has ganado la lotería e incluye un enlace para introducir datos de contacto y confirmar tu identidad. ¿Qué tipo de correo es?",
+      "opciones": ["Phishing", "Vishing", "Impersonation", "Tailgating"],
+      "respuesta": 0,
+      "explicacion": "El mensaje utiliza un señuelo y un enlace para obtener información personal, característica del phishing."
+    },
+    {
+      "pregunta": "Después de obtener mediante phishing las credenciales de un usuario estándar, el red team desplegó un payload malicioso que le proporcionó privilegios SYSTEM. ¿Qué tipo de ataque empleó?",
+      "opciones": [
+        "Scanning",
+        "Escalada de privilegios",
+        "Spoofing",
+        "Password cracking"
+      ],
+      "respuesta": 1,
+      "explicacion": "Pasar de una cuenta de bajo privilegio a SYSTEM constituye una escalada de privilegios."
+    },
+    {
+      "pregunta": "¿Qué tipo de vulnerabilidad se explota cuando un atacante sobrescribe un registro con una dirección maliciosa?",
+      "opciones": [
+        "Buffer overflow",
+        "Race condition",
+        "Ausencia de permisos",
+        "Escalada de privilegios"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un buffer overflow puede sobrescribir memoria de control, incluidos registros o direcciones de retorno."
+    },
+    {
+      "pregunta": "Después de comprometer un sistema, el atacante introdujo comandos desconocidos con cadenas de texto muy largas y después comenzó a utilizar sudo. ¿Qué estaba haciendo probablemente?",
+      "opciones": [
+        "Directory traversal",
+        "Password spraying",
+        "Eliminación de políticas",
+        "Buffer overflow"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las entradas excesivamente largas son un indicador clásico de intentos de explotación de desbordamiento de búfer."
+    },
+    {
+      "pregunta": "Estás en el extranjero y retiras el último dinero disponible de tu cuenta en un cajero. Inmediatamente utilizas otro cajero de un banco distinto y consigues retirar de nuevo la misma cantidad antes de que el saldo se actualice. Según la respuesta proporcionada en el test original, ¿qué vulnerabilidad permitió esto?",
+      "opciones": [
+        "Ingeniería social",
+        "Race condition",
+        "Escalada de privilegios",
+        "System hacking"
+      ],
+      "respuesta": 2,
+      "explicacion": "El test original identifica la opción de escalada de privilegios como respuesta correcta."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque aprovecha configuraciones incorrectas o entradas inseguras relacionadas con bases de datos?",
+      "opciones": [
+        "SQL injection",
+        "Buffer overflow",
+        "DNS redirect",
+        "Hashdump"
+      ],
+      "respuesta": 0,
+      "explicacion": "SQL injection introduce sentencias SQL manipuladas para consultar o modificar datos de una base de datos."
+    },
+    {
+      "pregunta": "¿Cuál es el error de programación más importante que permite que se produzcan ataques de inyección?",
+      "opciones": [
+        "Comentarios excesivos",
+        "Utilizar un lenguaje de programación antiguo",
+        "Entrada no sanitizada",
+        "Falta de control de acceso"
+      ],
+      "respuesta": 2,
+      "explicacion": "No validar ni sanitizar la entrada permite introducir datos que el sistema interpreta como código o comandos."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque utiliza una cadena como admin’ or 1=1--?",
+      "opciones": [
+        "Credential stuffing",
+        "SQL injection",
+        "Buffer overflow",
+        "Password cracking"
+      ],
+      "respuesta": 1,
+      "explicacion": "La expresión modifica la lógica de una consulta SQL y es característica de un ataque SQL injection."
+    },
+    {
+      "pregunta": "¿Qué ataque web explota la confianza del cliente en un servidor?",
+      "opciones": [
+        "Cross-Site Request Forgery",
+        "Robo de cookies",
+        "Cross-Site Scripting",
+        "CSRF"
+      ],
+      "respuesta": 2,
+      "explicacion": "XSS explota la confianza del navegador del usuario en el contenido recibido desde un sitio web legítimo."
+    },
+    {
+      "pregunta": "Alice detecta transacciones financieras no reconocidas. Los registros muestran dos inicios de sesión consecutivos desde IP diferentes, aunque asegura que solo inició sesión una vez. ¿Qué técnica utilizó probablemente el atacante?",
+      "opciones": [
+        "ARP poisoning",
+        "Password cracking",
+        "Credential stuffing",
+        "Credential replay"
+      ],
+      "respuesta": 3,
+      "explicacion": "Credential replay reutiliza credenciales o artefactos de autenticación capturados para hacerse pasar por el usuario."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque utiliza un campo de entrada para ejecutar comandos que permiten consultar o manipular datos?",
+      "opciones": [
+        "Buffer overflow",
+        "SQL injection",
+        "Pass-the-hash",
+        "Jailbreaking"
+      ],
+      "respuesta": 1,
+      "explicacion": "SQL injection utiliza entradas manipuladas para ejecutar consultas no autorizadas contra una base de datos."
+    },
+    {
+      "pregunta": "Estás ayudando a desarrolladores con buenas prácticas de programación y quieres defender la aplicación frente a SQL injection. ¿Cuál debería ser tu primera recomendación?",
+      "opciones": [
+        "Cambiar a Python",
+        "Implementar validación de entradas",
+        "Firmar digitalmente el código",
+        "Implementar cifrado fuerte"
+      ],
+      "respuesta": 1,
+      "explicacion": "Validar y sanitizar correctamente las entradas evita que datos controlados por el usuario se interpreten como SQL."
+    },
+    {
+      "pregunta": "Estás abriendo puertos en un firewall para un nuevo sistema que será desplegado y soportado por un proveedor SaaS. ¿Qué tipo de riesgo o vector de amenaza introduce para tu empresa?",
+      "opciones": [
+        "Ingeniería social",
+        "Cadena de suministro",
+        "Insider",
+        "Crimen organizado"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un proveedor externo forma parte de la cadena de suministro y puede introducir riesgos en los sistemas de la organización."
+    },
+    {
+      "pregunta": "¿Cuál es una preocupación de seguridad principal al establecer un programa BYOD?",
+      "opciones": [
+        "Coste",
+        "Adopción por los usuarios",
+        "Jailbreaking/rooting",
+        "Aumento del tráfico de red"
+      ],
+      "respuesta": 2,
+      "explicacion": "El jailbreaking o rooting elimina controles de seguridad del fabricante y aumenta el riesgo del dispositivo."
+    },
+    {
+      "pregunta": "¿Qué ataque web explota la confianza del servidor en un cliente autenticado?",
+      "opciones": [
+        "Cross-Site Request Forgery",
+        "Cross-Site Scripting",
+        "SQL injection",
+        "Password cracking"
+      ],
+      "respuesta": 0,
+      "explicacion": "CSRF induce al navegador autenticado de la víctima a enviar solicitudes no deseadas a un servidor que confía en su sesión."
+    },
+    {
+      "pregunta": "Una empresa sufre una brecha y se determina que datos de tarjetas fueron exfiltrados a través de una conexión dedicada con un proveedor que no aplica los mismos controles de seguridad. ¿Qué tipo de vulnerabilidad es?",
+      "opciones": [
+        "Cadena de suministro",
+        "Insider threat",
+        "Hacker externo",
+        "Políticas débiles"
+      ],
+      "respuesta": 0,
+      "explicacion": "La vulnerabilidad proviene de un tercero conectado a la organización y forma parte del riesgo de cadena de suministro."
+    },
+    {
+      "pregunta": "Tu empresa añade a su AUP una cláusula que prohíbe modificar el sistema operativo de dispositivos móviles. ¿Qué vulnerabilidad está abordando?",
+      "opciones": [
+        "Contraseñas débiles",
+        "Amenazas relacionadas con BYOD",
+        "Amenazas relacionadas con CYOD",
+        "Jailbreaking/rooting"
+      ],
+      "respuesta": 3,
+      "explicacion": "Jailbreaking y rooting modifican las restricciones del sistema operativo y pueden eliminar controles de seguridad."
+    },
+    {
+      "pregunta": "Durante una evaluación se descubre una vulnerabilidad en un sistema operativo común. El proveedor desconocía el problema y todavía no dispone de un parche. ¿Qué tipo de vulnerabilidad es?",
+      "opciones": [
+        "Zero-day",
+        "No probada",
+        "Error del proveedor",
+        "Cadena de suministro"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una vulnerabilidad zero-day es desconocida previamente por el proveedor o carece de una corrección disponible."
+    },
+    {
+      "pregunta": "Un proveedor te envía un boletín de seguridad recomendando actualizar la BIOS. ¿Qué tipo de vulnerabilidad aborda la actualización?",
+      "opciones": [
+        "Software",
+        "Firmware",
+        "Medio de almacenamiento",
+        "Sistema operativo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La BIOS es firmware almacenado en el hardware del sistema."
+    },
+    {
+      "pregunta": "Una pequeña empresa utiliza quioscos con sistemas operativos end-of-life. ¿Qué implicación de seguridad es más probable documentar?",
+      "opciones": [
+        "Resultados de un escaneo de vulnerabilidades",
+        "Cumplimiento de la política de contraseñas",
+        "Disponibilidad de parches",
+        "Coste"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los sistemas EOL suelen dejar de recibir actualizaciones y parches de seguridad."
+    },
+    {
+      "pregunta": "¿Dentro de qué tipo de vulnerabilidades se clasifica normalmente el firmware?",
+      "opciones": [
+        "Específicas de software",
+        "Específicas de hardware",
+        "Específicas del proveedor",
+        "Específicas de la organización"
+      ],
+      "respuesta": 1,
+      "explicacion": "El firmware está estrechamente ligado al dispositivo físico y se considera una cuestión asociada al hardware."
+    },
+    {
+      "pregunta": "¿Qué vulnerabilidad está asociada con instalar software fuera del repositorio aprobado por el fabricante?",
+      "opciones": [
+        "Sideloading",
+        "Jailbreaking",
+        "Rooting",
+        "Licencias pirateadas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Sideloading consiste en instalar aplicaciones desde fuentes distintas al repositorio oficial."
+    },
+    {
+      "pregunta": "Recibes una alerta de FIM porque el hash de cmd.exe ha cambiado, aunque no se han aplicado parches durante dos meses. ¿Qué ocurrió probablemente?",
+      "opciones": [
+        "Code injection",
+        "SQL Slammer",
+        "Infestación de bots",
+        "Se instaló un rootkit"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un rootkit puede modificar archivos esenciales del sistema para ocultar su presencia y mantener privilegios."
+    },
+    {
+      "pregunta": "Ves esta cadena en un registro: https://www.comptia.org/contact-us/%3Ffile%3D..%2F..%2F..%2Fetc%2Fpasswd. ¿Qué tipo de ataque representa?",
+      "opciones": [
+        "Buffer overflow",
+        "Directory traversal",
+        "Password cracking",
+        "SQLi"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las secuencias ../ codificadas intentan navegar fuera del directorio permitido y acceder a archivos del sistema."
+    },
+    {
+      "pregunta": "Una tienda recibe informes de robo de tarjetas de clientes que también utilizaron un cajero de la tienda. Los atacantes usan los datos de esas tarjetas para realizar compras online. ¿Cuál es la causa más probable?",
+      "opciones": ["Shoulder surfing", "Sniffing", "Card skimming", "Spoofing"],
+      "respuesta": 2,
+      "explicacion": "El skimming utiliza dispositivos para copiar los datos de la banda magnética de una tarjeta en cajeros o terminales."
+    },
+    {
+      "pregunta": "Usuarios que comparten estaciones de trabajo informan de cuentas utilizadas para enviar correos no autorizados y de datos sensibles enviados a sitios externos. La protección endpoint está deshabilitada y el problema continúa tras cambiar las contraseñas. ¿Qué ataque es el más probable?",
+      "opciones": ["Sniffing", "Keylogger", "Spoofing", "Sideloading"],
+      "respuesta": 1,
+      "explicacion": "Un keylogger puede volver a capturar las nuevas credenciales y transmitirlas al atacante."
+    },
+    {
+      "pregunta": "Examinas una captura de paquetes procedente de un host comprometido y algunos paquetes contienen grandes cantidades de texto. ¿Qué podría estar instalado en el equipo?",
+      "opciones": [
+        "Cuenta no autorizada",
+        "Honeypot",
+        "Keylogger de software",
+        "Escáner de vulnerabilidades"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un keylogger puede capturar texto introducido por el usuario y enviarlo por la red."
+    },
+    {
+      "pregunta": "¿Qué fragmento representa un ataque de directory traversal?",
+      "opciones": [
+        "nmap 10.0.0.0/24",
+        "user = 'admin', pass='letmein'",
+        "http://example.com/events.php?file=../../../../etc/passwd",
+        "ifconfig"
+      ],
+      "respuesta": 2,
+      "explicacion": "El uso repetido de ../ intenta acceder a directorios situados fuera de la ruta autorizada."
+    },
+    {
+      "pregunta": "Crees que cierto tráfico fue interceptado antes de salir a Internet. En la caché ARP de un host observas varias direcciones IP asociadas a la misma dirección MAC. ¿Qué ataque es más probable?",
+      "opciones": [
+        "On-path/ARP poisoning",
+        "DNS poisoning",
+        "Buffer overflow",
+        "SQLi"
+      ],
+      "respuesta": 0,
+      "explicacion": "ARP poisoning manipula las asociaciones IP-MAC para desviar tráfico a través del atacante."
+    },
+    {
+      "pregunta": "Estás recibiendo grandes cantidades de tráfico en el perímetro de la red procedente de muchas direcciones IP diferentes. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "DDoS",
+        "Buffer overflow",
+        "Bot cryptomining",
+        "DNS redirect"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un DDoS utiliza múltiples orígenes para saturar un servicio o enlace."
+    },
+    {
+      "pregunta": "Tu sitio https://www.example.com debería resolver a 93.184.216.34, pero nslookup devuelve 131.107.1.200 y los usuarios ven contenido incorrecto. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Cross-Site Request Forgery",
+        "DNS poisoning",
+        "Cross-Site Scripting",
+        "Code injection"
+      ],
+      "respuesta": 1,
+      "explicacion": "DNS poisoning altera las respuestas de resolución para dirigir a los usuarios a una dirección IP maliciosa."
+    },
+    {
+      "pregunta": "Los usuarios no pueden acceder a sitios externos. La interfaz de tu servidor DNS está inundada de consultas, aunque los registros muestran pocas solicitudes DNS originales dirigidas al servidor. ¿Qué ocurre?",
+      "opciones": [
+        "Password cracking remoto",
+        "Code injection",
+        "Ataque DDoS reflejado contra el servidor DNS",
+        "DNS amplification contra el servidor web"
+      ],
+      "respuesta": 2,
+      "explicacion": "En un ataque reflejado se falsifica la dirección de origen para que numerosos sistemas envíen respuestas o tráfico hacia la víctima."
+    },
+    {
+      "pregunta": "Los usuarios no pueden acceder a tu sitio web y la interfaz de red del servidor está inundada de respuestas DNS procedentes de muchos servidores DNS. ¿Qué ocurre?",
+      "opciones": [
+        "Ataque de amplificación DNS contra el servidor web",
+        "Buffer overflow",
+        "Password spraying",
+        "Credential stuffing"
+      ],
+      "respuesta": 0,
+      "explicacion": "La amplificación DNS utiliza respuestas DNS grandes enviadas a una víctima cuya IP ha sido falsificada como origen."
+    },
+    {
+      "pregunta": "Tu portátil se desconecta constantemente de la red Wi-Fi. Al reconectarse puedes acceder a Internet pero no a recursos internos. ¿Qué ataque podría estar ocurriendo?",
+      "opciones": ["Jamming", "On-path downgrade", "DDoS", "Evil twin"],
+      "respuesta": 3,
+      "explicacion": "Un evil twin imita un punto de acceso legítimo y puede proporcionar Internet sin acceso real a la red corporativa."
+    },
+    {
+      "pregunta": "Algunos usuarios Wi-Fi no pueden conectarse aunque todos los WAP funcionan correctamente. Los clientes afectados están en un edificio cercano a un aparcamiento. ¿Cuál es el ataque más probable?",
+      "opciones": ["Evil twin", "Jamming", "WIPS", "IP spoofing"],
+      "respuesta": 1,
+      "explicacion": "Un atacante cercano puede generar interferencias de radio para impedir las conexiones inalámbricas legítimas."
+    },
+    {
+      "pregunta": "Quieres desplegar una tecnología que permita transferir datos entre teléfonos cuando están muy próximos entre sí. ¿Cuál utilizarías?",
+      "opciones": ["NFC", "Bluetooth", "802.11ax", "802.15"],
+      "respuesta": 0,
+      "explicacion": "NFC está diseñado para comunicaciones inalámbricas de muy corto alcance."
+    },
+    {
+      "pregunta": "Las conexiones a un sitio HTTPS pasan repentinamente a utilizar HTTP y se vuelven más lentas, aunque verificas que el tráfico sigue llegando al sitio correcto. ¿Qué ataque es?",
+      "opciones": ["DoS", "ARP spoofing", "Downgrade", "Password attack"],
+      "respuesta": 2,
+      "explicacion": "Un ataque de downgrade fuerza el uso de un protocolo o configuración menos segura."
+    },
+    {
+      "pregunta": "Durante una investigación forense descubres el comando crackmapexec smb 192.168.1.200 –u localadmin –H 5f4dcc3b5aa765d61d8327deb882cf99. ¿Qué tipo de ataque de contraseña representa?",
+      "opciones": [
+        "Buffer overflow",
+        "Password spraying",
+        "Pass-the-hash",
+        "Code injection"
+      ],
+      "respuesta": 2,
+      "explicacion": "La opción -H utiliza directamente un hash de contraseña para autenticarse sin conocer la contraseña en texto claro."
+    },
+    {
+      "pregunta": "Un registro muestra intentos contra varios usuarios diferentes utilizando en todos los casos la misma contraseña Spring2023. ¿Qué tipo de ataque es?",
+      "opciones": [
+        "Credential stuffing",
+        "Password spraying",
+        "Brute force",
+        "Dictionary"
+      ],
+      "respuesta": 1,
+      "explicacion": "Password spraying prueba una contraseña común contra muchas cuentas para reducir el riesgo de bloqueos."
+    },
+    {
+      "pregunta": "Cuando un usuario reutiliza las mismas credenciales en varios sitios web, ¿qué ataque puede aprovecharlo?",
+      "opciones": [
+        "Password spraying",
+        "Impersonation",
+        "Credential stuffing",
+        "Account lockout"
+      ],
+      "respuesta": 2,
+      "explicacion": "Credential stuffing prueba combinaciones de usuario y contraseña filtradas en otros servicios."
+    },
+    {
+      "pregunta": "Tras un phishing, un atacante accede a un PC, extrae credenciales de la memoria y las utiliza sin descifrarlas para desplazarse lateralmente. ¿Qué ataque es?",
+      "opciones": [
+        "Pass-the-Hash",
+        "Password spraying",
+        "Credential stuffing",
+        "Brute force"
+      ],
+      "respuesta": 0,
+      "explicacion": "Pass-the-hash permite autenticarse utilizando directamente un hash válido de la contraseña."
+    },
+    {
+      "pregunta": "Quieres construir una estación de trabajo para realizar ataques de fuerza bruta contra hashes. ¿Qué componente puede proporcionar gran capacidad paralela de cálculo?",
+      "opciones": ["GPU", "Más RAM", "CPU más rápida", "Más núcleos de CPU"],
+      "respuesta": 0,
+      "explicacion": "Las GPU pueden ejecutar enormes cantidades de operaciones de hashing en paralelo."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe un ataque de diccionario contra contraseñas?",
+      "opciones": [
+        "Se prueban combinaciones de caracteres hasta encontrar la contraseña",
+        "Se coacciona físicamente a la víctima",
+        "Se prueba una larga lista de contraseñas posibles contra una cuenta",
+        "Se engaña a la víctima para que revele la contraseña"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un ataque de diccionario prueba palabras y contraseñas candidatas obtenidas de una lista predefinida."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe un ataque de fuerza bruta contra contraseñas?",
+      "opciones": [
+        "Se prueban combinaciones de caracteres hasta encontrar la contraseña",
+        "Se engaña a la víctima para que revele la contraseña",
+        "Se prueba una lista de posibles contraseñas",
+        "Se coacciona físicamente a la víctima"
+      ],
+      "respuesta": 0,
+      "explicacion": "La fuerza bruta prueba sistemáticamente combinaciones posibles hasta encontrar la correcta."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones describe un ataque de contraseña denominado rubber hose?",
+      "opciones": [
+        "Se coacciona físicamente a la víctima para revelar la contraseña",
+        "Se prueba una larga lista de contraseñas",
+        "Se engaña a la víctima",
+        "Se prueban combinaciones de caracteres"
+      ],
+      "respuesta": 0,
+      "explicacion": "Rubber hose attack es una expresión para la obtención de secretos mediante coerción física."
+    },
+    {
+      "pregunta": "Instalaste un nuevo programa de escaneo de documentos, pero cuando el usuario intenta ejecutarlo no responde. ¿Cuál es una causa probable?",
+      "opciones": [
+        "El usuario no tiene privilegios para ejecutarlo",
+        "No tenías privilegios para instalarlo",
+        "Los archivos fuente están corruptos",
+        "El software no fue añadido a la lista de aplicaciones permitidas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una política de application allowlisting impedirá ejecutar programas que no hayan sido autorizados explícitamente."
+    },
+    {
+      "pregunta": "¿Cómo puedes bloquear la ejecución de programas desconocidos?",
+      "opciones": [
+        "Application allow list",
+        "Host-based firewall",
+        "Aislamiento del sistema",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una allow list permite ejecutar únicamente aplicaciones explícitamente autorizadas."
+    },
+    {
+      "pregunta": "¿Qué opción protege mejor frente a que un empleado instale accidentalmente malware en un sistema corporativo?",
+      "opciones": [
+        "Host-based firewall",
+        "Aislamiento del sistema",
+        "Application allow list",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 2,
+      "explicacion": "Application allowlisting bloquea la ejecución de software que no se encuentre expresamente autorizado."
+    },
+    {
+      "pregunta": "¿Qué puedes hacer para asegurar que estaciones de trabajo y servidores estén monitorizados ante cambios y software no autorizados?",
+      "opciones": [
+        "Crear una AUP",
+        "Colocar cámaras en la sala de servidores",
+        "Instalar keyloggers en todos los equipos",
+        "Instalar software de gestión de endpoints en todos los sistemas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las plataformas de endpoint management proporcionan inventario, monitorización y control centralizado de los equipos."
+    },
+    {
+      "pregunta": "Las credenciales de un usuario fueron comprometidas después de introducirlas en una ventana emergente mostrada dentro de un sitio de confianza que normalmente no utiliza ese tipo de ventana. ¿Qué ataque es?",
+      "opciones": ["CSRF", "XSS", "DDoS", "Injection"],
+      "respuesta": 1,
+      "explicacion": "XSS puede insertar contenido o scripts maliciosos en un sitio de confianza para engañar al usuario."
+    },
+    {
+      "pregunta": "Tu proveedor cloud informa de que las máquinas virtuales de algunos clientes han sido atacadas desde máquinas virtuales de otro cliente. ¿Cómo se denomina este ataque?",
+      "opciones": [
+        "Abuso de permisos",
+        "VM injection",
+        "VM escape",
+        "Configuración incorrecta del hipervisor"
+      ],
+      "respuesta": 2,
+      "explicacion": "VM escape implica salir del aislamiento de una máquina virtual y alcanzar el hipervisor u otras máquinas virtuales."
+    },
+    {
+      "pregunta": "Un usuario BYOD no puede conectar su iPhone. En el MDM observas software que no aparece en la App Store oficial. ¿Qué detectó probablemente el MDM?",
+      "opciones": [
+        "El dispositivo está jailbroken",
+        "El usuario olvidó la contraseña Wi-Fi",
+        "El usuario eligió el SSID incorrecto",
+        "El usuario está fuera del alcance del MDM"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un dispositivo con jailbreak puede instalar software fuera del ecosistema autorizado de Apple."
+    },
+    {
+      "pregunta": "¿Qué tipo de ataque utiliza código como https://www.c0mpt1a.com/contact-us/%3Fname%3D%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E?",
+      "opciones": ["Directory traversal", "Collision", "XSS", "CSRF"],
+      "respuesta": 2,
+      "explicacion": "La cadena contiene una etiqueta script destinada a ejecutar JavaScript en el navegador, característica de XSS."
+    },
+    {
+      "pregunta": "Los clientes informan de que durante una hora el sitio de tu empresa mostró una página diferente. Los registros indican que durante ese periodo cambió la dirección IP asociada al sitio. ¿Qué ataque es?",
+      "opciones": [
+        "DDoS",
+        "DNS spoofing",
+        "Website defacement",
+        "Drive-by downloads"
+      ],
+      "respuesta": 1,
+      "explicacion": "DNS spoofing puede redirigir el nombre legítimo del sitio a una dirección IP controlada por el atacante."
+    },
+    {
+      "pregunta": "¿Qué ocurre cuando un algoritmo de hashing genera el mismo valor hash para dos entradas diferentes?",
+      "opciones": ["Overflow", "Spoofing", "Colisión", "Brute force"],
+      "respuesta": 2,
+      "explicacion": "Una colisión ocurre cuando dos entradas distintas producen el mismo digest."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el dato aleatorio adicional que se añade a una contraseña antes de aplicar hashing?",
+      "opciones": ["Salt", "Key", "Signature", "Certificate"],
+      "respuesta": 0,
+      "explicacion": "El salt modifica la entrada antes del hashing y dificulta ataques con tablas precomputadas."
+    },
+    {
+      "pregunta": "¿Qué ataque de contraseñas utiliza una lista de hashes precalculados?",
+      "opciones": [
+        "Dictionary",
+        "Rainbow table",
+        "Brute force",
+        "Pass-the-hash"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las rainbow tables contienen valores hash precalculados para acelerar la búsqueda de contraseñas."
+    },
+    {
+      "pregunta": "¿Qué ataque utiliza la misma contraseña contra muchas cuentas diferentes?",
+      "opciones": [
+        "Rainbow table",
+        "Pass-the-hash",
+        "Password spraying",
+        "Brute force"
+      ],
+      "respuesta": 2,
+      "explicacion": "Password spraying prueba una o pocas contraseñas comunes frente a múltiples cuentas."
+    },
+    {
+      "pregunta": "¿Qué ataque puede utilizar un atacante cuando la contraseña de un usuario es demasiado larga o compleja para descifrarla directamente?",
+      "opciones": [
+        "Password spraying",
+        "Pass-the-hash",
+        "Brute force",
+        "Rainbow table"
+      ],
+      "respuesta": 1,
+      "explicacion": "Pass-the-hash permite autenticarse con un hash robado sin necesidad de recuperar la contraseña original."
+    },
+    {
+      "pregunta": "¿En qué ataque un atacante proporciona a la víctima un enlace para que haga clic?",
+      "opciones": ["Pharming", "Phishing", "Waterholing", "Whaling"],
+      "respuesta": 1,
+      "explicacion": "Los ataques de phishing suelen utilizar mensajes engañosos que contienen enlaces hacia sitios maliciosos."
+    },
+    {
+      "pregunta": "¿En qué ataque una víctima es redirigida a un sitio falso, normalmente mediante manipulación de DNS?",
+      "opciones": ["Waterholing", "Pharming", "Bluesmacking", "Spear phishing"],
+      "respuesta": 1,
+      "explicacion": "Pharming redirige al usuario a sitios fraudulentos mediante técnicas como DNS poisoning."
+    },
+    {
+      "pregunta": "¿En qué ataque el atacante compromete un sitio web sabiendo que el grupo objetivo probablemente lo visitará?",
+      "opciones": ["Bluejacking", "Whaling", "Watering hole", "Spear phishing"],
+      "respuesta": 2,
+      "explicacion": "Watering hole consiste en comprometer sitios frecuentados por las víctimas objetivo."
+    },
+    {
+      "pregunta": "Necesitas poder rastrear cualquier cambio realizado en datos críticos. ¿Qué deberías implementar?",
+      "opciones": [
+        "Cifrado",
+        "Cámaras",
+        "Monitorización de pulsaciones",
+        "File Integrity Monitoring"
+      ],
+      "respuesta": 3,
+      "explicacion": "FIM registra o alerta cuando archivos y datos monitorizados sufren modificaciones."
+    },
+    {
+      "pregunta": "Ves http://comptia.org/../../../etc/passwd en el registro de un servidor web. ¿Qué puede bloquear este tipo de entrada maliciosa?",
+      "opciones": [
+        "Web Application Firewall",
+        "File Integrity Monitoring",
+        "Cifrado",
+        "Hashing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un WAF puede inspeccionar solicitudes HTTP y bloquear patrones asociados con ataques de directory traversal."
+    },
+    {
+      "pregunta": "¿Cuál sería la vía más común de pérdida de datos en una red air-gapped?",
+      "opciones": [
+        "Cambios ambientales",
+        "Wi-Fi",
+        "Ethernet",
+        "Dispositivos extraíbles"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los soportes USB y otros medios extraíbles pueden transportar datos dentro y fuera de redes físicamente aisladas."
+    },
+    {
+      "pregunta": "¿Cuál es la forma más eficaz de aislar completamente una sección de red y sus recursos externos de la red corporativa interna?",
+      "opciones": [
+        "VLAN enrutadas",
+        "Air gapping",
+        "Subnetting",
+        "Protocolos de red diferentes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Air gapping elimina la conectividad directa entre redes y proporciona el mayor grado de aislamiento."
+    },
+    {
+      "pregunta": "¿Qué tipo de replicación puedes implementar para minimizar el downtime en una zona propensa a terremotos?",
+      "opciones": [
+        "Replicación off-site",
+        "Cintas duplicadas",
+        "Replicación en cold site",
+        "Cifrado de copias de seguridad"
+      ],
+      "respuesta": 0,
+      "explicacion": "La replicación geográficamente separada mantiene una copia operativa fuera de la zona afectada."
+    },
+    {
+      "pregunta": "¿Qué opción es especialmente adecuada para entornos que cambian constantemente?",
+      "opciones": [
+        "Centros de datos on-premises",
+        "Servicios cloud",
+        "Contenedores",
+        "Virtualización local"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los contenedores son ligeros, reproducibles y fáciles de desplegar o reemplazar rápidamente."
+    },
+    {
+      "pregunta": "Tu empresa adopta trabajo remoto. Todos los recursos estarán en la nube, los empleados usarán sus equipos personales y la empresa gestionará el sistema operativo del entorno de trabajo. ¿Qué modelo implementarías?",
+      "opciones": ["VDI", "Contenedores", "SaaS", "Infrastructure-as-Code"],
+      "respuesta": 0,
+      "explicacion": "VDI proporciona escritorios virtuales centralizados y administrados a los que se accede desde dispositivos personales."
+    },
+    {
+      "pregunta": "¿Qué tipo de virtualización permite que los datos se almacenen en un servidor, sea fácil de escalar y pueda administrarse de forma centralizada?",
+      "opciones": ["Containerization", "VMware", "Hyper-V", "VirtualBox"],
+      "respuesta": 0,
+      "explicacion": "Según el test original, containerization es la opción seleccionada para este escenario."
+    },
+    {
+      "pregunta": "Al planificar un entorno virtual estableces políticas para limitar quién crea nuevas VM, asignar recursos según uso real y exigir justificación para configuraciones excepcionales. ¿Qué intentas evitar?",
+      "opciones": [
+        "Shadow IT",
+        "Coste excesivo",
+        "VM sprawl",
+        "Usuarios descontentos"
+      ],
+      "respuesta": 2,
+      "explicacion": "VM sprawl ocurre cuando se crean máquinas virtuales de manera descontrolada y se consumen recursos innecesariamente."
+    },
+    {
+      "pregunta": "Según el modelo de responsabilidad compartida, el cliente es responsable de proteger la base de datos de la empresa en un entorno cloud IaaS.",
+      "opciones": ["VERDADERO", "FALSO"],
+      "respuesta": 0,
+      "explicacion": "En IaaS el cliente conserva responsabilidad sobre sus sistemas operativos, aplicaciones, configuraciones y datos."
+    },
+    {
+      "pregunta": "¿Qué deberías utilizar para garantizar un despliegue sencillo y consistente de recursos dentro de un proveedor cloud?",
+      "opciones": [
+        "VM on-premises",
+        "Infrastructure-as-Code (IaC)",
+        "Plantillas individuales",
+        "Golden image"
+      ],
+      "respuesta": 1,
+      "explicacion": "IaC define infraestructura mediante código repetible y automatizado, mejorando la consistencia de los despliegues."
+    },
+    {
+      "pregunta": "Buscas una solución cloud de bajo coste para alojar una aplicación. ¿Qué arquitectura cumple mejor el requisito?",
+      "opciones": ["IaaS", "PaaS", "Arquitectura serverless", "Hybrid"],
+      "respuesta": 2,
+      "explicacion": "Serverless permite ejecutar aplicaciones sin administrar servidores y suele cobrar en función del uso."
+    },
+    {
+      "pregunta": "Has reducido el espacio físico utilizado en el centro de datos creando redes virtuales mediante automatización y definiendo rutas y reglas de aprovisionamiento mediante scripts. ¿Qué describe esto?",
+      "opciones": [
+        "Virtualización",
+        "Containerization",
+        "Microservices",
+        "Infrastructure-as-Code (IaC)"
+      ],
+      "respuesta": 3,
+      "explicacion": "IaC utiliza código y automatización para aprovisionar y configurar infraestructura de forma repetible."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones NO se considera una debilidad de seguridad habitual de IoT?",
+      "opciones": [
+        "Contraseñas embebidas",
+        "Ausencia de autenticación de dispositivos",
+        "Capacidad de las máquinas para comunicarse directamente entre sí",
+        "Dificultad para parchear o actualizar firmware"
+      ],
+      "respuesta": 2,
+      "explicacion": "La comunicación máquina a máquina es una característica funcional de IoT, no necesariamente una vulnerabilidad por sí misma."
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes opciones se considera el mayor riesgo de seguridad para muchos sistemas SCADA?",
+      "opciones": [
+        "Muchas utilities utilizan SCADA",
+        "Muchos sistemas SCADA no pueden actualizarse",
+        "Muchos sistemas SCADA se administran remotamente",
+        "Muchos sistemas SCADA utilizan protocolos antiguos"
+      ],
+      "respuesta": 1,
+      "explicacion": "La imposibilidad de aplicar actualizaciones deja vulnerabilidades conocidas sin corrección durante largos periodos."
+    },
+    {
+      "pregunta": "Quieres actualizar sistemas embebidos que utilizan protocolos inseguros, pero el fabricante ya no existe. ¿Por qué no puede remediarse fácilmente el problema?",
+      "opciones": [
+        "No puedes localizar al proveedor que adquirió el producto",
+        "Es demasiado caro",
+        "No existen parches disponibles",
+        "Los dispositivos están demasiado lejos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Sin soporte del fabricante no se publican parches que corrijan las vulnerabilidades del producto."
+    },
+    {
+      "pregunta": "¿Qué tipo de sistema operativo está deliberadamente diseñado para realizar tareas específicas y responder dentro de restricciones temporales definidas?",
+      "opciones": ["macOS", "Windows", "Linux", "RTOS"],
+      "respuesta": 3,
+      "explicacion": "Un Real-Time Operating System está optimizado para operaciones específicas con requisitos temporales predecibles."
+    },
+    {
+      "pregunta": "¿En qué tipo de sistema el ordenador forma parte integral de otro dispositivo?",
+      "opciones": ["Real-time", "Enclave", "Embedded", "Multitasking"],
+      "respuesta": 2,
+      "explicacion": "Un sistema embebido integra capacidades informáticas dentro de un dispositivo dedicado."
+    },
+    {
+      "pregunta": "Se revisan los controles de seguridad de un centro de datos para proteger la información y tener en cuenta la seguridad de las personas. ¿Qué modo de fallo describe mejor cómo deberían configurarse los controles de acceso físico?",
+      "opciones": ["Fail safe", "Fail open", "Fail neutral", "Remain secure"],
+      "respuesta": 1,
+      "explicacion": "Ante situaciones que amenazan la vida, determinados controles físicos deben permitir la salida aunque falle el sistema."
+    },
+    {
+      "pregunta": "El sitio web público de una organización fue comprometido mediante un buffer overflow. ¿Qué debería desplegarse para proteger mejor la aplicación frente a ataques similares?",
+      "opciones": ["NGFW", "WAF", "TLS", "SD-WAN"],
+      "respuesta": 1,
+      "explicacion": "Un WAF inspecciona tráfico dirigido a aplicaciones web y puede bloquear patrones de explotación maliciosos."
+    },
+    {
+      "pregunta": "Si un atacante envía tráfico web malicioso cifrado con SSL/TLS, ¿qué necesita un WAF para poder inspeccionarlo?",
+      "opciones": [
+        "Un certificado de descifrado",
+        "Un certificado de cifrado",
+        "Una clave pública",
+        "Una clave simétrica"
+      ],
+      "respuesta": 0,
+      "explicacion": "El tráfico debe terminarse o descifrarse en un punto de inspección antes de que el WAF pueda analizar su contenido."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el resultado de un IDS cuando informa de un incidente que en realidad no ocurrió?",
+      "opciones": [
+        "True Positive",
+        "True Negative",
+        "False Positive",
+        "False Negative"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un false positive es una alerta generada cuando no existe realmente actividad maliciosa."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el resultado de un IDS cuando el sistema informa correctamente de que no se produjo ningún incidente?",
+      "opciones": [
+        "True Positive",
+        "True Negative",
+        "False Positive",
+        "False Negative"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un true negative ocurre cuando no hay ataque y el sistema correctamente no genera una alerta."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el resultado de un IDS cuando ocurrió un incidente real pero no fue detectado?",
+      "opciones": [
+        "True Positive",
+        "True Negative",
+        "False Positive",
+        "False Negative"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un false negative significa que una actividad maliciosa real pasó inadvertida."
+    },
+    {
+      "pregunta": "¿Cómo se denomina el resultado de un IDS cuando realmente hubo un incidente y el ataque fue detectado correctamente?",
+      "opciones": [
+        "True Positive",
+        "True Negative",
+        "False Positive",
+        "False Negative"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un true positive es una detección correcta de actividad maliciosa real."
+    },
+    {
+      "pregunta": "¿Qué tipo de VPN utilizarías entre una oficina central y una sucursal?",
+      "opciones": [
+        "Host-to-host",
+        "Transport mode tunnel",
+        "Site-to-site tunnel",
+        "Client-server VPN"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una VPN site-to-site conecta de forma segura dos redes completas a través de una red no confiable."
+    },
+    {
+      "pregunta": "Tienes una VPN que conecta una sucursal con la sede central. ¿Qué estado de los datos protege principalmente?",
+      "opciones": [
+        "Datos en uso",
+        "Datos en reposo",
+        "Datos ocultos",
+        "Datos en tránsito"
+      ],
+      "respuesta": 3,
+      "explicacion": "La VPN cifra el tráfico mientras atraviesa la red entre los dos extremos."
+    },
+    {
+      "pregunta": "Necesitas añadir una capa de seguridad para el acceso remoto. Implementas un host al que los usuarios se conectan desde Internet y, desde él, realizan una segunda conexión hacia los recursos internos. ¿Qué mecanismo estás desplegando?",
+      "opciones": ["VPN", "Firewall", "Jump server", "Servidor RADIUS"],
+      "respuesta": 2,
+      "explicacion": "Un jump server actúa como punto intermedio controlado para acceder a sistemas internos."
+    },
+    {
+      "pregunta": "Usuarios remotos necesitan acceder de forma segura a tu red privada a través de Internet. ¿Qué deberían utilizar?",
+      "opciones": ["Firewall", "VPN", "Jump server", "WAF"],
+      "respuesta": 1,
+      "explicacion": "Una VPN establece un túnel cifrado y autenticado entre el usuario remoto y la red privada."
+    },
+    {
+      "pregunta": "Una normativa exige MFA para acceder a servidores críticos, pero los servidores heredados no admiten MFA. ¿Qué control compensatorio podrías implementar?",
+      "opciones": ["Jump box", "Firewall", "VPN", "802.1X"],
+      "respuesta": 0,
+      "explicacion": "Un jump box compatible con MFA puede actuar como punto obligatorio de acceso antes de llegar a los sistemas heredados."
+    },
+    {
+      "pregunta": "Descubres que un usuario utiliza RDP directamente a través de Internet para conectarse a la red de producción. ¿Qué cambio deberías recomendar?",
+      "opciones": [
+        "Aumentar el cifrado de RDP de 56 a 128 bits",
+        "Cambiar el puerto RDP",
+        "Configurar una VPN y colocar un jump server dentro del firewall",
+        "Exigir MFA al usuario"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una VPN más un jump server evita exponer directamente RDP a Internet y crea una ruta de administración controlada."
+    },
+    {
+      "pregunta": "Necesitas impedir el acceso directo desde las estaciones de los administradores de bases de datos al segmento que contiene los servidores de bases de datos. ¿Qué puedes desplegar para permitir la administración remota sin acceso directo a esa red privada?",
+      "opciones": ["DMZ", "VPN", "SSH", "Jump server"],
+      "respuesta": 3,
+      "explicacion": "Un jump server centraliza y controla las conexiones administrativas hacia una red protegida."
+    },
+    {
+      "pregunta": "Necesitas acceso remoto seguro al entorno de un cliente. ¿Qué deberías utilizar?",
+      "opciones": [
+        "IPsec",
+        "RDP",
+        "Host-based firewall",
+        "Wireless access point"
+      ],
+      "respuesta": 0,
+      "explicacion": "IPsec proporciona autenticación, integridad y cifrado para comunicaciones IP a través de redes no confiables."
+    },
+    {
+      "pregunta": "Necesitas proporcionar acceso administrativo a recursos internos minimizando el tráfico permitido a través de la frontera de seguridad. ¿Qué utilizarías?",
+      "opciones": ["DMZ", "VPN", "Jump server", "RDP"],
+      "respuesta": 2,
+      "explicacion": "Un jump server concentra las conexiones administrativas y reduce el número de flujos que deben atravesar la frontera."
+    },
+    {
+      "pregunta": "Quieres proteger una LAN/WLAN de manera que los usuarios se autentiquen y los datos se transporten de forma segura, mitigando ataques on-path y evil twin. ¿Qué puedes utilizar?",
+      "opciones": ["Contraseña Wi-Fi", "802.1X", "Filtrado MAC", "WEP"],
+      "respuesta": 1,
+      "explicacion": "802.1X proporciona autenticación de acceso a la red y puede integrarse con mecanismos seguros como EAP."
+    },
+    {
+      "pregunta": "Tu organización tiene problemas de escalado en su concentrador VPN y circuito de Internet debido al trabajo remoto. Buscas una solución cloud que reduzca ese tráfico, proporcione túneles cifrados al centro de datos y monitorice el tráfico de Internet de empleados remotos. ¿Qué solución usarías?",
+      "opciones": ["SD-WAN", "VPN", "SASE", "MPLS"],
+      "respuesta": 2,
+      "explicacion": "SASE combina conectividad WAN y funciones de seguridad cloud para usuarios y sedes distribuidas."
+    },
+    {
+      "pregunta": "¿Qué utilizarías para confirmar mediante un checksum verificado que un archivo descargado de un sitio de confianza no fue modificado ni corrompido?",
+      "opciones": [
+        "Firma digital",
+        "Cifrado simétrico",
+        "Cifrado asimétrico",
+        "Hashing"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un hash permite comparar la huella del archivo descargado con un valor conocido y detectar modificaciones."
+    },
+    {
+      "pregunta": "El departamento jurídico guarda documentos sensibles en una aplicación SaaS y quiere impedir el acceso desde países de alto riesgo. ¿Qué mecanismo es más efectivo?",
+      "opciones": [
+        "Data masking",
+        "Cifrado",
+        "Política de geolocalización",
+        "Regulación de soberanía de datos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una política basada en geolocalización puede permitir o bloquear accesos en función del origen geográfico."
+    },
+    {
+      "pregunta": "Quieres implementar protección de datos que permita acceder según necesidad de conocer y nivel de autorización. ¿Qué deberías hacer primero?",
+      "opciones": [
+        "Auditar la infraestructura de TI",
+        "Inventariar el hardware",
+        "Inventariar el software",
+        "Clasificar los datos"
+      ],
+      "respuesta": 3,
+      "explicacion": "La clasificación determina la sensibilidad de la información y permite aplicar controles acordes a cada categoría."
+    },
+    {
+      "pregunta": "Tras una auditoría descubres que todos los usuarios tienen acceso a datos confidenciales de un servidor. Ya sabes qué nivel de acceso corresponde a cada usuario. ¿Qué puedes utilizar para restringir rápidamente el acceso según autorización?",
+      "opciones": [
+        "Mandatory Access Control",
+        "Discretionary Access Control",
+        "Rule-Based Access Control",
+        "MFA"
+      ],
+      "respuesta": 1,
+      "explicacion": "DAC permite al propietario o administrador del recurso asignar permisos concretos a usuarios y grupos."
+    },
+    {
+      "pregunta": "El equipo de desarrollo quiere utilizar datos PHI reales para probar una aplicación sanitaria. ¿Qué puedes hacer para proteger la privacidad de los pacientes?",
+      "opciones": [
+        "Anonimizar los datos",
+        "Agregar los datos",
+        "Cifrar los datos",
+        "Ofuscar los datos"
+      ],
+      "respuesta": 0,
+      "explicacion": "La anonimización elimina o transforma identificadores para impedir vincular los datos de prueba con pacientes concretos."
+    },
+    {
+      "pregunta": "Quieres proteger datos de tarjetas de crédito de forma que solo sean visibles los últimos cuatro dígitos. ¿Qué deberías utilizar?",
+      "opciones": [
+        "Data masking",
+        "Tokenización",
+        "Anonimización",
+        "Ofuscación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Data masking oculta partes del dato original mientras muestra únicamente la información necesaria."
+    },
+    {
+      "pregunta": "¿Por qué implementarías un par de alta disponibilidad?",
+      "opciones": [
+        "Para mejorar el rendimiento",
+        "Para eliminar un único punto de fallo",
+        "Para justificar una migración al cloud",
+        "Para gastar presupuesto no utilizado"
+      ],
+      "respuesta": 1,
+      "explicacion": "La redundancia permite que otro sistema continúe prestando servicio si uno de los componentes falla."
+    },
+    {
+      "pregunta": "Te preocupa que fenómenos meteorológicos dañen la sala de servidores y provoquen downtime. ¿Qué puedes utilizar para mitigar este riesgo?",
+      "opciones": [
+        "Buenas copias de seguridad",
+        "Cold site",
+        "Dispersión geográfica",
+        "Warm site"
+      ],
+      "respuesta": 2,
+      "explicacion": "Distribuir recursos entre ubicaciones geográficas reduce el riesgo de que un único desastre afecte a todos ellos."
+    },
+    {
+      "pregunta": "Estás desarrollando un plan de continuidad y necesitas determinar cuántos empleados serían necesarios para mantener el negocio durante una interrupción. ¿Cómo se denomina este paso?",
+      "opciones": [
+        "Testing",
+        "Capacity planning",
+        "Implementación del DRP",
+        "Fuzzy logic"
+      ],
+      "respuesta": 1,
+      "explicacion": "Capacity planning determina los recursos, incluido personal, necesarios para mantener las operaciones."
+    },
+    {
+      "pregunta": "Quieres realizar una copia completa semanal de los servidores y capturar los cambios de cada día utilizando el mínimo espacio posible. ¿Qué estrategia deberías utilizar?",
+      "opciones": [
+        "Copia completa semanal con incrementales diarias",
+        "Copia completa semanal con diferenciales diarias",
+        "Copia completa diaria",
+        "Copia diferencial diaria"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las copias incrementales almacenan solo los cambios desde la última copia y consumen menos espacio que las diferenciales."
+    },
+    {
+      "pregunta": "Quieres revisar el plan de recuperación ante desastres con los responsables de equipo. ¿Qué actividad requeriría menos tiempo?",
+      "opciones": [
+        "Tabletop walkthrough",
+        "Simulación de desastre",
+        "Full interrupt test",
+        "Ejercicio en un cold site"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un ejercicio tabletop revisa procedimientos mediante discusión sin interrumpir sistemas reales."
+    },
+    {
+      "pregunta": "Quieres que el equipo esté preparado para responder ante un desastre. ¿Qué actividad proporciona una experiencia más cercana a un incidente real?",
+      "opciones": [
+        "Structured walkthrough",
+        "Tabletop walkthrough",
+        "Simulación",
+        "Revisión grupal de procedimientos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una simulación reproduce de manera práctica condiciones similares a las de un desastre sin necesidad de provocar uno real."
+    },
+    {
+      "pregunta": "Quieres utilizar un tipo de copia que permita restaurar rápidamente una máquina virtual a un estado anterior. ¿Cuál utilizarías?",
+      "opciones": ["Full", "Snapshot", "Incremental", "Differential"],
+      "respuesta": 1,
+      "explicacion": "Un snapshot captura el estado de una VM en un momento concreto y permite revertir rápidamente."
+    },
+    {
+      "pregunta": "Se instala un nuevo dispositivo de almacenamiento plug-and-play en un PC corporativo. ¿Qué deberías modificar para proteger el equipo de archivos maliciosos contenidos en el dispositivo?",
+      "opciones": [
+        "Configuraciones predeterminadas",
+        "Base de firmas antivirus",
+        "Configuración del firewall del host",
+        "Contraseñas existentes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las configuraciones por defecto pueden habilitar comportamientos inseguros como ejecución automática y deben endurecerse."
+    },
+    {
+      "pregunta": "Se descubre una nueva vulnerabilidad de acceso de red en el sistema operativo de dispositivos IoT heredados que deben permanecer conectados. ¿Qué puedes utilizar para mitigarla rápidamente?",
+      "opciones": [
+        "Aislamiento de dispositivos",
+        "IDS de red",
+        "Firewall appliance",
+        "Segmentación con ACL"
+      ],
+      "respuesta": 3,
+      "explicacion": "La segmentación con ACL limita qué sistemas pueden comunicarse con los dispositivos vulnerables sin retirarlos de la red."
+    },
+    {
+      "pregunta": "Tras un escaneo de vulnerabilidades necesitas endurecer los routers corporativos. ¿Qué deshabilitarías para impedir inicios de sesión administrativos mediante HTTP?",
+      "opciones": [
+        "Administración por consola",
+        "Administración web",
+        "Administración remota mediante SSH",
+        "Administración remota mediante Telnet"
+      ],
+      "respuesta": 1,
+      "explicacion": "La interfaz de administración web es la que proporciona acceso administrativo mediante HTTP o HTTPS."
+    },
+    {
+      "pregunta": "Quieres configurar una Wi-Fi de invitados que capture direcciones MAC y nombres de usuarios para poder atribuir actividad maliciosa. ¿Qué implementarías?",
+      "opciones": [
+        "Firewall en el segmento Wi-Fi",
+        "IDS en el segmento Wi-Fi",
+        "VLAN para Wi-Fi",
+        "Portal cautivo que registre dirección MAC y nombre"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un captive portal puede solicitar identificación al usuario y asociarla con información del dispositivo."
+    },
+    {
+      "pregunta": "Una empresa quiere habilitar BYOD para correo y documentos que contienen información sensible. ¿Qué debería desplegar primero antes de permitir dispositivos personales?",
+      "opciones": [
+        "Endpoint protection",
+        "Control de acceso",
+        "Mobile Device Management",
+        "Formación de usuarios"
+      ],
+      "respuesta": 2,
+      "explicacion": "MDM permite aplicar políticas de seguridad y gestión antes de conceder acceso a datos corporativos."
+    },
+    {
+      "pregunta": "Quieres dar flexibilidad a los empleados con dispositivos móviles, pero limitar la variedad de hardware y mantener un alto control sobre datos e infraestructura. ¿Qué modelo es la mejor opción?",
+      "opciones": [
+        "BYOD",
+        "CYOD",
+        "COPE",
+        "Dispositivo corporativo completamente bloqueado"
+      ],
+      "respuesta": 1,
+      "explicacion": "CYOD permite al usuario elegir entre dispositivos previamente aprobados por la empresa, equilibrando flexibilidad y control."
+    },
+    {
+      "pregunta": "Una prueba de penetración descubre que un campo de formulario web es vulnerable a XSS. ¿Qué técnica debería implementar el desarrollador para prevenirlo?",
+      "opciones": [
+        "Secure cookies",
+        "Control de versiones",
+        "Validación de entradas",
+        "Code signing"
+      ],
+      "respuesta": 2,
+      "explicacion": "La validación y sanitización de entradas limita la introducción de scripts maliciosos."
+    },
+    {
+      "pregunta": "Un responsable de desarrollo quiere garantizar la autenticidad del código creado por la empresa. ¿Qué opción es más apropiada?",
+      "opciones": [
+        "Probar validación de entradas",
+        "Realizar code signing del software",
+        "Realizar análisis estático",
+        "Asegurar el uso de cookies seguras"
+      ],
+      "respuesta": 1,
+      "explicacion": "La firma de código permite verificar el origen y detectar modificaciones del software firmado."
+    },
+    {
+      "pregunta": "La política de seguridad establece que expresiones regulares deben eliminar caracteres especiales como $, |, ;, &, ` y ? de variables procedentes de formularios web. ¿Qué técnica se está aplicando?",
+      "opciones": [
+        "Software Development Lifecycle",
+        "Static Code Analysis",
+        "Dynamic Code Analysis",
+        "Input sanitization"
+      ],
+      "respuesta": 3,
+      "explicacion": "La sanitización elimina o transforma caracteres potencialmente peligrosos antes de procesar la entrada."
+    },
+    {
+      "pregunta": "La empresa exige borrar de forma segura los discos duros antes de enviar sistemas retirados a reciclaje. ¿Cómo se describe esta política?",
+      "opciones": [
+        "Sanitization",
+        "Shredding",
+        "Destruction",
+        "Perforar los discos"
+      ],
+      "respuesta": 0,
+      "explicacion": "La sanitización elimina de manera segura los datos de un medio antes de reutilizarlo o desecharlo."
+    },
+    {
+      "pregunta": "¿Cómo contribuye una política eficaz de gestión de activos a la seguridad?",
+      "opciones": [
+        "Ayuda con el ciclo de vida de dispositivos",
+        "Ayuda a seguir el presupuesto",
+        "Facilita obtener datos necesarios para cuantificar el riesgo",
+        "Demuestra la necesidad de comprar nueva tecnología"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un inventario preciso permite conocer qué activos existen, su valor y exposición para evaluar mejor el riesgo."
+    },
+    {
+      "pregunta": "Vas a desechar una cabina de almacenamiento con información clasificada mediante un proveedor externo. ¿Qué deberías solicitar al proveedor?",
+      "opciones": [
+        "Prueba de propiedad",
+        "Certificación",
+        "Lista de inventario",
+        "Clasificación"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un certificado de destrucción o sanitización proporciona evidencia de que el proveedor completó correctamente el proceso."
+    },
+    {
+      "pregunta": "Realizas una evaluación de vulnerabilidades, el equipo de operaciones corrige los problemas encontrados y finaliza la remediación. ¿Qué debería hacerse después?",
+      "opciones": [
+        "Sanitizar los datos",
+        "Parchear todos los dispositivos",
+        "Aislar los dispositivos afectados",
+        "Volver a escanear la red"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un nuevo escaneo confirma si la remediación fue efectiva y si las vulnerabilidades siguen presentes."
+    },
+    {
+      "pregunta": "Deshabilitas servicios innecesarios y colocas un firewall delante de un sistema heredado crítico. ¿Qué tipo de control has implementado?",
+      "opciones": ["Compensatorio", "Correctivo", "Preventivo", "Detectivo"],
+      "respuesta": 0,
+      "explicacion": "Los controles compensatorios reducen el riesgo cuando el sistema no admite directamente el control ideal."
+    },
+    {
+      "pregunta": "¿Qué sistema de puntuación se utiliza para medir cuantitativamente la gravedad de una vulnerabilidad?",
+      "opciones": ["Priority-Severity", "CVSS", "CVE", "CWE"],
+      "respuesta": 1,
+      "explicacion": "CVSS proporciona una puntuación numérica estandarizada que refleja la gravedad de una vulnerabilidad."
+    },
+    {
+      "pregunta": "Descubres que usuarios que abandonaron la empresa hace seis meses todavía tienen cuentas activas. ¿Qué mecanismo podría haber ayudado a detectarlo y prevenirlo?",
+      "opciones": [
+        "Auditoría de cuentas",
+        "Política de cuentas",
+        "SoP",
+        "Desactivación manual de cuentas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las revisiones periódicas de cuentas detectan cuentas obsoletas o privilegios que ya no son necesarios."
+    },
+    {
+      "pregunta": "Un escaneo encuentra malware en varios sistemas con versiones antiguas de Windows. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Falta de antivirus",
+        "Falta de actualizaciones de hardware",
+        "Contraseñas predeterminadas",
+        "Gestión de parches deficiente"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los sistemas sin parches mantienen vulnerabilidades conocidas que pueden ser explotadas por malware."
+    },
+    {
+      "pregunta": "¿Qué técnica utiliza una empresa de software para recompensar económicamente a investigadores que encuentran vulnerabilidades?",
+      "opciones": [
+        "White-box pentest",
+        "Bug bounty",
+        "Black-box pentest",
+        "Vulnerability scan"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un programa bug bounty recompensa a investigadores por comunicar vulnerabilidades de forma responsable."
+    },
+    {
+      "pregunta": "Tras una avería de hardware se realiza mantenimiento de emergencia no planificado y el SIEM genera múltiples alertas. ¿Por qué ocurrió probablemente?",
+      "opciones": [
+        "La reparación no resolvió completamente el problema",
+        "Los técnicos se enviaban mensajes",
+        "El tráfico inesperado coincidió con múltiples reglas y generó alertas",
+        "El SIEM descargó una base de datos actualizada"
+      ],
+      "respuesta": 2,
+      "explicacion": "El comportamiento no habitual producido durante el mantenimiento puede coincidir con varias reglas de correlación del SIEM."
+    },
+    {
+      "pregunta": "Un SOC determina que una actividad detectada como maliciosa en un servidor es en realidad normal. ¿Cómo se denomina ajustar el sistema para ignorar esa actividad en el futuro?",
+      "opciones": [
+        "Tuning",
+        "False positive",
+        "True negative",
+        "True positive"
+      ],
+      "respuesta": 0,
+      "explicacion": "Tuning consiste en ajustar reglas y umbrales para reducir alertas incorrectas o irrelevantes."
+    },
+    {
+      "pregunta": "¿Qué herramienta recopila registros de sistemas, aplicaciones y redes de múltiples fuentes en una plataforma centralizada para monitorización y alertas de seguridad?",
+      "opciones": ["SEM", "SIEM", "SIM", "Escáner de vulnerabilidades"],
+      "respuesta": 1,
+      "explicacion": "SIEM centraliza logs y aplica correlación y análisis para identificar eventos de seguridad."
+    },
+    {
+      "pregunta": "¿Qué tipo de control utiliza un SIEM para identificar eventos de seguridad en toda la empresa?",
+      "opciones": ["Correctivo", "Compensatorio", "Preventivo", "Detectivo"],
+      "respuesta": 3,
+      "explicacion": "Un SIEM detecta y alerta sobre actividad potencialmente maliciosa, por lo que actúa principalmente como control detectivo."
+    },
+    {
+      "pregunta": "Determinas que numerosas conexiones no deseadas a un servidor web proceden de diez direcciones IP específicas de otro país. ¿Qué puedes utilizar para impedirlas?",
+      "opciones": ["Medidas anti-DDoS", "Reglas de firewall", "IDS", "IPS"],
+      "respuesta": 1,
+      "explicacion": "El firewall puede bloquear explícitamente las direcciones IP de origen identificadas."
+    },
+    {
+      "pregunta": "Quieres una regla de firewall que bloquee una dirección IP concreta de Internet para impedir que acceda a la red de la organización. ¿Qué regla serviría mejor según el test original?",
+      "opciones": [
+        "access-list inbound deny IP source 10.1.4.9/32 destination 0.0.0.0/0",
+        "access-list inbound deny TCP source 0.0.0.0/0 destination 10.1.4.9/32 port 23",
+        "access-list inbound deny IP source 0.0.0.0/0 destination 10.1.4.9/32",
+        "access-list inbound deny UDP source 10.1.4.9/32 destination 0.0.0.0/0 port 53"
+      ],
+      "respuesta": 0,
+      "explicacion": "La respuesta original selecciona una regla deny IP aplicada a la dirección concreta como origen."
+    },
+    {
+      "pregunta": "Una empresa solo quiere permitir consultas DNS salientes desde el dispositivo 10.50.10.25. ¿Qué ACL cumpliría el requisito?",
+      "opciones": [
+        "Access list outbound deny 10.50.10.25/32 0.0.0.0/0 port 53; Access list outbound permit 0.0.0.0/0 0.0.0.0/0 port 53",
+        "Access list outbound deny 0.0.0.0/0 10.50.10.25/32 port 53; Access list outbound permit 0.0.0.0/0 0.0.0.0/0 port 53",
+        "Access list outbound permit 10.50.10.25/32 0.0.0.0/0 port 53; Access list outbound deny 0.0.0.0/0 0.0.0.0/0 port 53",
+        "Access list outbound permit 0.0.0.0/0 0.0.0.0/0 port 53; Access list outbound deny 10.50.10.25/0 0.0.0.0/0 port 53"
+      ],
+      "respuesta": 2,
+      "explicacion": "Primero se permite DNS desde el host autorizado y después se deniega el resto del tráfico DNS saliente."
+    },
+    {
+      "pregunta": "Añades una política «deny any» al final de una ACL de producción y varios servidores dejan de estar accesibles. ¿Cómo podrías haber prevenido el problema?",
+      "opciones": [
+        "No usar nunca deny any y utilizar siempre permit any",
+        "Pedir a un compañero que revise las reglas",
+        "Probar la política en un entorno no productivo antes de activarla",
+        "Crear una copia de seguridad de las reglas actuales"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las pruebas previas en un entorno controlado permiten detectar efectos no deseados antes de modificar producción."
+    },
+    {
+      "pregunta": "Quieres crear reglas de firewall para una subred que permitan DHCP, HTTP, HTTPS y SFTP, bloqueen explícitamente FTP y denieguen lo demás. ¿Qué conjunto es correcto?",
+      "opciones": [
+        "Permitir 80, 443, 67 y 68; denegar 22 y 21; permitir cualquier otro tráfico",
+        "Permitir 80, 443, 67, 68 y 22; denegar 21; denegar cualquier otro tráfico",
+        "Denegar 80; permitir 443, 67, 68, 22 y 21; denegar el resto",
+        "Permitir 80 y 443; denegar 67 y 68; permitir 22; denegar 21; permitir el resto"
+      ],
+      "respuesta": 1,
+      "explicacion": "HTTP usa 80, HTTPS 443, DHCP 67/68 y SFTP 22; FTP en 21 debe bloquearse y el resto denegarse."
+    },
+    {
+      "pregunta": "Un atacante accedió mediante phishing y desplegó ransomware lateralmente por la red, donde permaneció inactivo durante semanas. ¿Qué tecnología podría haber mitigado la propagación?",
+      "opciones": ["IPS", "IDS", "WAF", "UAC"],
+      "respuesta": 0,
+      "explicacion": "Un IPS puede bloquear activamente patrones de tráfico malicioso y limitar la propagación de ataques por la red."
+    },
+    {
+      "pregunta": "Quieres monitorizar la red en busca de ataques conocidos mediante firmas. ¿Qué deberías desplegar?",
+      "opciones": ["IPS", "IDS", "WAF", "UAC"],
+      "respuesta": 1,
+      "explicacion": "Un IDS basado en firmas detecta patrones conocidos y genera alertas sin necesidad de bloquear el tráfico."
+    },
+    {
+      "pregunta": "Descubres múltiples intentos sospechosos de acceso a recursos de la empresa que no fueron detenidos. ¿Qué puedes implementar para prevenirlos activamente?",
+      "opciones": ["IDS", "WAF", "IPS", "UAC"],
+      "respuesta": 2,
+      "explicacion": "Un IPS opera en línea y puede bloquear tráfico identificado como malicioso."
+    },
+    {
+      "pregunta": "Un nuevo sitio de venta que tu equipo necesita visitar es bloqueado porque el filtro web lo clasifica erróneamente como sitio de apuestas. ¿Qué debes hacer?",
+      "opciones": [
+        "Decir al equipo que no visite el sitio",
+        "Cambiar la categoría del sitio a compras o retail",
+        "Bloquear el sitio en el firewall",
+        "Bloquear los sitios de apuestas en el firewall"
+      ],
+      "respuesta": 1,
+      "explicacion": "Corregir la categorización elimina el false positive sin desactivar la política general de filtrado."
+    },
+    {
+      "pregunta": "Un filtro web busca cadenas dentro de las URL y bloquea las coincidencias. ¿Qué cadena utilizarías para prohibir acceso a sitios web sin cifrado?",
+      "opciones": ["https://", "http://", "ftp://", "file://"],
+      "respuesta": 1,
+      "explicacion": "HTTP sin TLS utiliza el prefijo http:// y transmite el tráfico web sin el cifrado proporcionado por HTTPS."
+    },
+    {
+      "pregunta": "Quieres que la nueva arquitectura de correo electrónico soporte cifrado y firmas digitales. ¿Qué deberías implementar?",
+      "opciones": ["HTTPS", "S/MIME", "SFTP", "FIM"],
+      "respuesta": 1,
+      "explicacion": "S/MIME proporciona cifrado y firmas digitales para mensajes de correo electrónico mediante PKI."
+    },
+    {
+      "pregunta": "Envías datos syslog mediante UDP 514 a un SIEM a través de una red no segura. ¿Cómo puedes proteger el tráfico?",
+      "opciones": [
+        "Usar TLS sobre TCP 443",
+        "Usar TLS sobre TCP 80",
+        "Usar TLS sobre TCP 6514",
+        "Usar TLS sobre TCP 514"
+      ],
+      "respuesta": 2,
+      "explicacion": "Syslog sobre TLS utiliza habitualmente TCP 6514 para proporcionar confidencialidad e integridad."
+    },
+    {
+      "pregunta": "¿Qué herramienta puede detectar que un empleado ha enviado accidentalmente por correo un archivo que contiene PII de un cliente?",
+      "opciones": ["DLP", "SIEM", "Docker", "nmap"],
+      "respuesta": 0,
+      "explicacion": "DLP inspecciona datos sensibles y puede detectar o impedir su transmisión por canales como correo electrónico."
+    },
+    {
+      "pregunta": "Quieres minimizar el riesgo de que información propietaria quede expuesta accidentalmente durante visitas a las instalaciones. ¿Qué política puedes implementar?",
+      "opciones": [
+        "Restricted Access Policy",
+        "Clean Desk Policy",
+        "Social Engineering Policy",
+        "Acceptable Use Policy"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una Clean Desk Policy exige retirar documentos y datos sensibles de espacios visibles cuando no se utilizan."
+    },
+    {
+      "pregunta": "Quieres realizar una prueba piloto de una solución DLP sin que interfiera accidentalmente con las operaciones de datos. ¿Cómo deberías desplegarla?",
+      "opciones": [
+        "Modo activo",
+        "Modo pasivo",
+        "Modo enforcement",
+        "Modo monitor"
+      ],
+      "respuesta": 3,
+      "explicacion": "En monitor mode la solución registra y alerta sobre eventos sin bloquear las operaciones."
+    },
+    {
+      "pregunta": "¿Qué solución puede impedir que un empleado descontento copie datos confidenciales a una memoria USB?",
+      "opciones": [
+        "Cifrado",
+        "DLP",
+        "Confiscar todos los USB",
+        "Instalar software de cámara en los portátiles"
+      ],
+      "respuesta": 1,
+      "explicacion": "DLP puede controlar el uso de almacenamiento extraíble y bloquear la copia de información sensible."
+    },
+    {
+      "pregunta": "Un usuario intenta subir un documento fiscal solicitado por finanzas, pero un programa de seguridad bloquea la subida porque contiene PII. ¿Cómo puedes permitir la transferencia legítima?",
+      "opciones": [
+        "Modificar la lista de excepciones del DLP para permitir la subida",
+        "Cambiar permisos del archivo",
+        "Cambiar reglas del firewall",
+        "Cambiar reglas del IPS"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una excepción DLP autorizada permite el flujo legítimo sin desactivar la protección general de PII."
+    },
+    {
+      "pregunta": "Necesitas proteger datos mediante comprobaciones que permitan detectar y rastrear cualquier modificación. ¿Qué deberías configurar?",
+      "opciones": ["NAC", "SPF", "FIM", "GPO"],
+      "respuesta": 2,
+      "explicacion": "File Integrity Monitoring compara atributos o hashes de archivos para detectar modificaciones."
+    },
+    {
+      "pregunta": "Instalas destructoras de corte cruzado para reducir riesgos de fuga de información. ¿Qué riesgo específico estás mitigando?",
+      "opciones": [
+        "Shoulder surfing",
+        "Dumpster diving",
+        "Smishing",
+        "Vishing"
+      ],
+      "respuesta": 1,
+      "explicacion": "Destruir correctamente documentos impide recuperar información sensible de residuos desechados."
+    },
+    {
+      "pregunta": "Te preocupa que empleados con portátiles corporativos roben datos al acceder a recursos compartidos de red. ¿Qué deberías implementar?",
+      "opciones": [
+        "DLP",
+        "Restricciones de puertos USB",
+        "Configuración de proxy",
+        "Configuración de firewall"
+      ],
+      "respuesta": 0,
+      "explicacion": "DLP puede identificar y bloquear transferencias no autorizadas de información sensible desde los endpoints."
+    },
+    {
+      "pregunta": "Tras una campaña de phishing, la tasa de clics supera el umbral de riesgo. Quieres reducir el impacto cuando un usuario hace clic en un enlace malicioso. ¿Cómo puede ayudar EDR?",
+      "opciones": [
+        "No puede ayudar; solo sirve formar mejor a los usuarios",
+        "Alertar al usuario cuando un correo contiene enlaces",
+        "Configurar la política EDR para bloquear la ejecución automática de programas descargados",
+        "Alertar cuando el usuario hace clic en un enlace"
+      ],
+      "respuesta": 2,
+      "explicacion": "EDR puede bloquear comportamientos posteriores al clic, como la ejecución automática de payloads descargados."
+    },
+    {
+      "pregunta": "Configuras autenticación para una aplicación SaaS y quieres reducir el número de credenciales que mantienen los empleados utilizando sus credenciales de dominio. ¿Qué método permite esta funcionalidad?",
+      "opciones": ["MFA", "SSO", "PEAP", "LEAP"],
+      "respuesta": 1,
+      "explicacion": "Single Sign-On permite autenticarse una vez y utilizar esa identidad para acceder a múltiples aplicaciones integradas."
+    },
+    {
+      "pregunta": "Una empresa global sufre accesos no autorizados por robo de credenciales y bloqueos derivados de ataques de fuerza bruta. Está evaluando proveedores externos de identidad. ¿Qué control debería exigir principalmente?",
+      "opciones": ["SSO", "Contraseñas complejas", "MFA", "Federación"],
+      "respuesta": 2,
+      "explicacion": "MFA reduce la utilidad de una contraseña robada al exigir factores adicionales de autenticación."
+    },
+    {
+      "pregunta": "Observas inicios de sesión desde direcciones IP sospechosas que los usuarios afirman no haber realizado. Tras cambiar sus contraseñas, ¿qué deberías implementar para evitar que el ataque vuelva a tener éxito?",
+      "opciones": ["Contraseñas complejas", "MFA", "SSO", "OAuth"],
+      "respuesta": 1,
+      "explicacion": "MFA exige un factor adicional y reduce la posibilidad de acceso con credenciales robadas."
+    },
+    {
+      "pregunta": "Durante el onboarding un empleado crea una contraseña para la intranet y después obtiene acceso a otros sitios corporativos basándose en su perfil de intranet. ¿Qué mecanismo se utiliza según las opciones del test?",
+      "opciones": [
+        "Identity proofing",
+        "Password complexity",
+        "Cambio de contraseña predeterminada",
+        "Open authorization"
+      ],
+      "respuesta": 3,
+      "explicacion": "El test original identifica Open Authorization como el mecanismo utilizado para conceder ese acceso."
+    },
+    {
+      "pregunta": "Estás considerando mecanismos de MFA para dispositivos móviles. ¿Cuál es el menos seguro?",
+      "opciones": ["HOTP", "TOTP", "SMS", "Token keys"],
+      "respuesta": 2,
+      "explicacion": "Los códigos SMS pueden ser interceptados mediante técnicas como SIM swapping y ataques contra redes de telefonía."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes métodos de autenticación biométrica se considera el más preciso según el test?",
+      "opciones": ["Iris", "Voz", "Geometría facial", "Retina"],
+      "respuesta": 3,
+      "explicacion": "El reconocimiento de retina analiza patrones vasculares altamente distintivos y se considera extremadamente preciso."
+    },
+    {
+      "pregunta": "Quieres crear una federación de identidades entre dos organizaciones utilizando SAML. ¿Qué servicio proporcionará a los usuarios?",
+      "opciones": [
+        "MFA",
+        "Single Sign-On",
+        "Credenciales en caché",
+        "Identity proofing"
+      ],
+      "respuesta": 1,
+      "explicacion": "SAML permite intercambiar assertions de autenticación entre proveedores de identidad y servicios, facilitando SSO."
+    },
+    {
+      "pregunta": "Quieres proteger la VPN con MFA utilizando algo que sabes, algo que tienes y algo que eres. ¿Qué combinación cumple el objetivo?",
+      "opciones": [
+        "Usuario, contraseña y SMS de un solo uso",
+        "Notificación push, escaneo facial y comando de voz",
+        "Contraseña, token de autenticación y huella dactilar",
+        "Correo de un solo uso, contraseña y token de autenticación"
+      ],
+      "respuesta": 2,
+      "explicacion": "La contraseña es conocimiento, el token es posesión y la huella dactilar es un factor biométrico inherente."
+    },
+    {
+      "pregunta": "Quieres permitir acceso a una carpeta según las responsabilidades laborales de cada usuario utilizando un método sencillo y sin software adicional. ¿Cuál es la mejor opción?",
+      "opciones": [
+        "Lectores biométricos",
+        "Tokens hardware",
+        "Códigos de un solo uso",
+        "RBAC"
+      ],
+      "respuesta": 3,
+      "explicacion": "RBAC asigna permisos en función del rol o función laboral del usuario."
+    },
+    {
+      "pregunta": "Quieres aplicar controles fuertes sobre credenciales root, administrativas y cuentas de servicio, incluyendo check-in/check-out, uso sin conocer la contraseña, cambios automáticos y registro de accesos. ¿Qué deberías utilizar?",
+      "opciones": [
+        "Privileged Access Management (PAM)",
+        "Política de contraseñas fuertes",
+        "Auditoría de intentos de autenticación",
+        "Host-based IDS"
+      ],
+      "respuesta": 0,
+      "explicacion": "PAM gestiona, protege, rota y audita el uso de credenciales privilegiadas."
+    },
+    {
+      "pregunta": "Una auditoría de excepciones para uso de almacenamiento USB revela accesos aprobados que frecuentemente no se eliminan cuando dejan de ser necesarios. ¿Qué debería implementar la empresa para revisar periódicamente y retirar accesos innecesarios sin interrumpir los válidos?",
+      "opciones": [
+        "Política de contraseñas fuertes",
+        "Attestation",
+        "MFA",
+        "Mandatory Access Control"
+      ],
+      "respuesta": 1,
+      "explicacion": "La attestation o recertificación obliga a revisar y confirmar periódicamente que los permisos siguen siendo necesarios."
+    },
+    {
+      "pregunta": "Estás desarrollando una iniciativa para reducir amenazas internas. ¿En qué deberías centrarte para conseguir el mayor impacto?",
+      "opciones": [
+        "Privileged Access Management",
+        "Mínimo privilegio",
+        "Mandatory Access Control",
+        "Restricciones por hora"
+      ],
+      "respuesta": 1,
+      "explicacion": "El mínimo privilegio limita el acceso de cada usuario a aquello estrictamente necesario y reduce el impacto de abusos internos."
+    },
+    {
+      "pregunta": "Quieres conceder acceso lógico según la ubicación física y proximidad del usuario. ¿Qué solución ofrece esta capacidad?",
+      "opciones": [
+        "Firewall",
+        "Portal de inicio de sesión",
+        "Geo-fencing",
+        "Mantrap"
+      ],
+      "respuesta": 2,
+      "explicacion": "Geofencing aplica controles en función de la ubicación geográfica o de la presencia del dispositivo dentro de una zona definida."
+    },
+    {
+      "pregunta": "Un responsable de TI indica que solo él y el responsable del help desk tendrán acceso a la consola administrativa del software de soporte. ¿Qué técnica de seguridad está aplicando?",
+      "opciones": [
+        "MAC",
+        "Cuentas privilegiadas",
+        "Mínimo privilegio",
+        "RuleBAC"
+      ],
+      "respuesta": 2,
+      "explicacion": "El principio de mínimo privilegio limita las funciones administrativas únicamente a quienes las necesitan para su trabajo."
+    }
+  ]
+}
