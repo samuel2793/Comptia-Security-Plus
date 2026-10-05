@@ -117,6 +117,14 @@
         "tests/udemy/the-ultimate-guide-for-comptia-security-plus-exam/1.json",
         "tests/udemy/the-ultimate-guide-for-comptia-security-plus-exam/2.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-securitysy0-601-complete-course-comptia-2021",
+      "titulo": "Udemy comptia securitysy0 601 complete course comptia 2021",
+      "baterias": [
+        "tests/udemy/comptia-securitysy0-601-complete-course-comptia-2021/1.json",
+        "tests/udemy/comptia-securitysy0-601-complete-course-comptia-2021/2.json"
+      ]
     }
   ]
 }

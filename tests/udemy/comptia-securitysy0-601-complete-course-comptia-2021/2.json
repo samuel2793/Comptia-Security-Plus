@@ -1,0 +1,786 @@
+{
+  "titulo": "Segundo Test - CompTIA Security+ (SY0-701)",
+  "procedencia": "Udemy — CompTIA Security Plus (SY0-701) Course | Comptia Security+ — Oak Academy",
+  "descripcion": "Batería de preguntas del segundo test del curso de CompTIA Security+ (SY0-701) de Oak Academy.",
+  "preguntas": [
+    {
+      "pregunta": "Según el modelo de responsabilidad compartida, ¿qué rol es responsable de proteger la base de datos de la empresa en un modelo IaaS dentro de un entorno cloud?",
+      "opciones": ["Cliente", "Proveedor externo", "Proveedor cloud", "DBA"],
+      "respuesta": 0,
+      "explicacion": "En IaaS, el proveedor cloud protege la infraestructura física, mientras que el cliente es responsable de proteger sistemas operativos, aplicaciones y datos, incluida la base de datos."
+    },
+    {
+      "pregunta": "Un administrador de seguridad está desplegando una solución DLP para evitar la exfiltración de datos sensibles de clientes. ¿Qué debería hacer primero?",
+      "opciones": [
+        "Bloquear el acceso a sitios web de almacenamiento cloud.",
+        "Crear una regla para bloquear adjuntos de correo saliente.",
+        "Aplicar clasificaciones a los datos.",
+        "Eliminar todos los permisos de usuario de los recursos compartidos del servidor de archivos."
+      ],
+      "respuesta": 2,
+      "explicacion": "La clasificación de datos permite identificar qué información es sensible y definir después las políticas y reglas DLP adecuadas."
+    },
+    {
+      "pregunta": "Una empresa está preocupada por que fenómenos meteorológicos dañen la sala de servidores y provoquen tiempo de inactividad. ¿Qué debería considerar?",
+      "opciones": [
+        "Agrupación de servidores en clúster",
+        "Dispersión geográfica",
+        "Balanceadores de carga",
+        "Copias de seguridad fuera del sitio"
+      ],
+      "respuesta": 1,
+      "explicacion": "La dispersión geográfica distribuye los sistemas entre ubicaciones distintas, reduciendo el riesgo de que un evento regional afecte simultáneamente a toda la infraestructura."
+    },
+    {
+      "pregunta": "Se ha descubierto una nueva vulnerabilidad de acceso a la red en el sistema operativo de dispositivos IoT heredados. ¿Qué medida mitigaría mejor y con mayor rapidez esta vulnerabilidad?",
+      "opciones": [
+        "Seguro",
+        "Aplicación de parches",
+        "Segmentación",
+        "Sustitución"
+      ],
+      "respuesta": 2,
+      "explicacion": "La segmentación aísla los dispositivos IoT heredados, reduce su superficie de ataque y limita el impacto de una posible explotación cuando no es viable parchearlos de inmediato."
+    },
+    {
+      "pregunta": "Uno de los proveedores de una empresa envió a un analista un boletín de seguridad que recomienda una actualización de la BIOS. ¿Qué tipo de vulnerabilidad aborda el parche?",
+      "opciones": [
+        "Virtualización",
+        "Firmware",
+        "Aplicación",
+        "Sistema operativo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La BIOS es firmware integrado en el hardware; una actualización de BIOS corrige vulnerabilidades del firmware."
+    },
+    {
+      "pregunta": "Los visitantes de una instalación protegida deben registrarse con una identificación con fotografía y entrar mediante un vestíbulo de control de acceso. ¿Qué tipo de control de seguridad describe mejor esta medida?",
+      "opciones": ["Físico", "Gerencial", "Técnico", "Operativo"],
+      "respuesta": 0,
+      "explicacion": "La identificación física y el vestíbulo de control de acceso, o mantrap, son controles físicos destinados a impedir accesos no autorizados."
+    },
+    {
+      "pregunta": "Un analista de seguridad y el equipo directivo revisan el rendimiento de una campaña reciente de phishing. La tasa de clics superó el umbral de riesgo aceptable y la dirección quiere reducir el impacto cuando un usuario hace clic en un enlace de phishing. ¿Qué debería hacer el analista?",
+      "opciones": [
+        "Colocar carteles en la oficina para concienciar sobre actividades comunes de phishing.",
+        "Implementar filtros de seguridad de correo para impedir la entrega de mensajes de phishing.",
+        "Actualizar las políticas de EDR para bloquear la ejecución automática de programas descargados.",
+        "Crear formación adicional para que los usuarios reconozcan señales de phishing."
+      ],
+      "respuesta": 2,
+      "explicacion": "Bloquear mediante EDR la ejecución automática de programas descargados reduce directamente el impacto de un clic malicioso aunque el usuario llegue a interactuar con el enlace."
+    },
+    {
+      "pregunta": "¿Cuál es la vía de pérdida de datos más común en una red air-gapped?",
+      "opciones": [
+        "Bastion host",
+        "Bluetooth no protegido",
+        "Sistema operativo sin parchear",
+        "Dispositivos extraíbles"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los dispositivos extraíbles, como memorias USB, pueden introducir malware o extraer información de una red físicamente aislada."
+    },
+    {
+      "pregunta": "Un banco exige que todos sus proveedores eviten la pérdida de datos en portátiles robados. ¿Qué estrategia está exigiendo?",
+      "opciones": [
+        "Cifrado en reposo",
+        "Enmascaramiento",
+        "Clasificación de datos",
+        "Restricciones de permisos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El cifrado en reposo protege los datos almacenados y evita que puedan leerse sin la clave aunque el dispositivo sea robado."
+    },
+    {
+      "pregunta": "Los empleados de la unidad de investigación y desarrollo reciben formación extensa para proteger los datos de la empresa. ¿Qué tipo de datos es más probable que utilicen en su trabajo diario?",
+      "opciones": [
+        "Datos cifrados",
+        "Propiedad intelectual",
+        "Datos críticos",
+        "Datos en tránsito"
+      ],
+      "respuesta": 1,
+      "explicacion": "Investigación y desarrollo trabaja habitualmente con ideas, diseños e innovaciones que constituyen propiedad intelectual y requieren protección frente a uso o divulgación no autorizados."
+    },
+    {
+      "pregunta": "¿Cuál sería la mejor forma de gestionar una aplicación empresarial crítica que se ejecuta en un servidor heredado?",
+      "opciones": [
+        "Segmentación",
+        "Aislamiento",
+        "Hardening",
+        "Retirada del servicio"
+      ],
+      "respuesta": 1,
+      "explicacion": "El aislamiento reduce la exposición del servidor heredado y limita su interacción con otros sistemas, disminuyendo el riesgo mientras la aplicación crítica sigue operativa."
+    },
+    {
+      "pregunta": "El departamento de marketing instaló su propio software de gestión de proyectos sin informar a los departamentos correspondientes. ¿Cómo se describe este escenario?",
+      "opciones": [
+        "Amenaza interna",
+        "Exfiltración de datos",
+        "Interrupción del servicio",
+        "Shadow IT"
+      ],
+      "respuesta": 3,
+      "explicacion": "Shadow IT es el uso de sistemas, aplicaciones o servicios tecnológicos no autorizados o no aprobados por la organización."
+    },
+    {
+      "pregunta": "Un CISO quiere destacar explícitamente en un informe a la dirección el aumento del ransomware-as-a-service. ¿Qué actor de amenaza describe mejor este fenómeno?",
+      "opciones": [
+        "Amenaza interna",
+        "Hacktivista",
+        "Estado-nación",
+        "Crimen organizado"
+      ],
+      "respuesta": 3,
+      "explicacion": "El ransomware-as-a-service se basa normalmente en grupos criminales que desarrollan, alquilan o distribuyen ransomware con fines económicos, por lo que se asocia al crimen organizado."
+    },
+    {
+      "pregunta": "Una empresa sufre ataques que explotan vulnerabilidades conocidas de versiones antiguas de navegadores. ¿Qué solución de seguridad debería configurarse para monitorizar y bloquear mejor estos ataques basados en firmas conocidas?",
+      "opciones": ["ACL", "DLP", "IPS", "IDS"],
+      "respuesta": 2,
+      "explicacion": "Un IPS puede detectar firmas conocidas y bloquear activamente el tráfico malicioso antes de que alcance el sistema vulnerable."
+    },
+    {
+      "pregunta": "Un administrador de seguridad necesita un método para proteger datos que incluya comprobaciones que permitan rastrear cualquier cambio. ¿Qué debería configurar?",
+      "opciones": ["FIM", "SPF", "GPO", "NAC"],
+      "respuesta": 0,
+      "explicacion": "FIM, File Integrity Monitoring, detecta y registra cambios en archivos, directorios o configuraciones para verificar su integridad."
+    },
+    {
+      "pregunta": "¿Qué opción puede proteger mejor contra la instalación accidental de malware por parte de un empleado en un sistema corporativo?",
+      "opciones": [
+        "Firewall basado en host",
+        "Aislamiento del sistema",
+        "Mínimo privilegio",
+        "Lista de aplicaciones permitidas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una lista de aplicaciones permitidas impide ejecutar software no autorizado, incluido malware que un usuario pudiera intentar instalar accidentalmente."
+    },
+    {
+      "pregunta": "Un empleado recibe un mensaje de texto desde un número desconocido que afirma ser el CEO de la empresa y le pide comprar varias tarjetas regalo. ¿Qué tipo de ataque describe?",
+      "opciones": ["Vishing", "Smishing", "Pretexting", "Phishing"],
+      "respuesta": 1,
+      "explicacion": "El smishing es phishing realizado mediante SMS o aplicaciones de mensajería para engañar a la víctima."
+    },
+    {
+      "pregunta": "Tras una auditoría, un administrador descubre que todos los usuarios tienen acceso a datos confidenciales en un servidor de archivos. ¿Qué debería usar para restringir rápidamente el acceso?",
+      "opciones": [
+        "Filtrado de contenido",
+        "DLP",
+        "Listas de control de acceso",
+        "Group Policy"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las ACL permiten conceder o denegar permisos de acceso a archivos y carpetas según usuarios o grupos."
+    },
+    {
+      "pregunta": "¿En qué fase del proceso de respuesta a incidentes un analista de seguridad revisa roles y responsabilidades?",
+      "opciones": [
+        "Preparación",
+        "Recuperación",
+        "Lecciones aprendidas",
+        "Análisis"
+      ],
+      "respuesta": 0,
+      "explicacion": "Durante la preparación se definen y revisan roles, responsabilidades, procedimientos, herramientas y contactos necesarios para responder a incidentes."
+    },
+    {
+      "pregunta": "Un responsable de TI informa al personal de help desk de que solo él y el responsable del help desk tendrán acceso a la consola de administración del software. ¿Qué técnica de seguridad está aplicando?",
+      "opciones": [
+        "Hardening",
+        "Monitorización de empleados",
+        "Aplicación de configuración",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 3,
+      "explicacion": "El principio de mínimo privilegio limita el acceso administrativo únicamente a quienes lo necesitan para desempeñar sus funciones."
+    },
+    {
+      "pregunta": "Un técnico quiere mejorar la conciencia situacional y del entorno de usuarios existentes al pasar del trabajo remoto al presencial. ¿Cuál es la mejor opción?",
+      "opciones": [
+        "Enviar recordatorios periódicos de seguridad.",
+        "Actualizar el contenido de la documentación para nuevas incorporaciones.",
+        "Modificar el contenido de la formación recurrente.",
+        "Implementar una campaña de phishing."
+      ],
+      "respuesta": 2,
+      "explicacion": "La formación recurrente permite actualizar a los usuarios existentes sobre amenazas, políticas y prácticas aplicables al nuevo entorno de trabajo."
+    },
+    {
+      "pregunta": "Una organización quiere almacenar datos de clientes en una parte separada de la red que no sea accesible desde la red corporativa principal. ¿Qué debería utilizar el administrador?",
+      "opciones": [
+        "Segmentación",
+        "Aislamiento",
+        "Aplicación de parches",
+        "Cifrado"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación divide la red en zonas separadas y permite aplicar controles de acceso entre ellas para limitar el alcance de usuarios y amenazas."
+    },
+    {
+      "pregunta": "Un CISO quiere monitorizar los servidores de la empresa frente a ataques SQLi y permitir investigaciones exhaustivas si se produce uno. La empresa utiliza descifrado SSL para inspeccionar el tráfico. ¿Qué estrategia cumpliría mejor el objetivo?",
+      "opciones": [
+        "Registrar todo el tráfico NetFlow en un SIEM",
+        "Desplegar sensores de tráfico de red en la misma subred que los servidores",
+        "Registrar logs de endpoints y del sistema operativo",
+        "Habilitar captura completa de paquetes para el tráfico que entra y sale de los servidores"
+      ],
+      "respuesta": 3,
+      "explicacion": "La captura completa de paquetes conserva el contenido y el contexto del tráfico, lo que facilita una investigación detallada de un ataque SQLi."
+    },
+    {
+      "pregunta": "Un administrador de sistemas está creando un script para ahorrar tiempo y evitar errores humanos al crear cuentas para muchos usuarios finales. ¿Qué caso de uso describe mejor esta tarea?",
+      "opciones": [
+        "Software comercial estándar",
+        "Orquestación",
+        "Baseline",
+        "Aplicación de políticas"
+      ],
+      "respuesta": 1,
+      "explicacion": "La orquestación automatiza flujos de trabajo y tareas repetitivas entre sistemas, reduciendo trabajo manual y errores."
+    },
+    {
+      "pregunta": "Un analista de seguridad necesita reforzar el acceso a una red. Uno de los requisitos es autenticar a los usuarios con smart cards. ¿Qué debería habilitar?",
+      "opciones": ["CHAP", "PEAP", "MS-CHAPv2", "EAP-TLS"],
+      "respuesta": 3,
+      "explicacion": "EAP-TLS usa certificados digitales y es adecuado para autenticación fuerte con smart cards."
+    },
+    {
+      "pregunta": "¿Cuál es una preocupación de seguridad principal para una empresa que implanta un programa BYOD?",
+      "opciones": [
+        "Fin de vida",
+        "Buffer overflow",
+        "VM escape",
+        "Jailbreaking"
+      ],
+      "respuesta": 3,
+      "explicacion": "El jailbreaking elimina restricciones del fabricante y puede desactivar controles de seguridad, aumentando el riesgo en dispositivos BYOD."
+    },
+    {
+      "pregunta": "Tras un ataque reciente de ransomware, un administrador revisó los archivos de log. ¿Qué tipo de control utilizó?",
+      "opciones": ["Compensatorio", "Detectivo", "Preventivo", "Correctivo"],
+      "respuesta": 1,
+      "explicacion": "La revisión de logs es un control detectivo porque ayuda a identificar y analizar actividad maliciosa que ya ha ocurrido o está ocurriendo."
+    },
+    {
+      "pregunta": "¿Qué práctica sería la mejor para impedir que una persona interna introduzca código malicioso en el proceso de desarrollo de una empresa?",
+      "opciones": [
+        "Escaneo de código en busca de vulnerabilidades",
+        "Uso de componentes open source",
+        "Pruebas de aseguramiento de calidad",
+        "Revisión y aprobación por pares"
+      ],
+      "respuesta": 3,
+      "explicacion": "La revisión y aprobación por pares añade supervisión independiente antes de integrar o desplegar código, facilitando la detección de cambios maliciosos."
+    },
+    {
+      "pregunta": "Para reforzar una contraseña y dificultar que un atacante la descifre, se añadió una cadena aleatoria de 36 caracteres. ¿Cómo se denomina esta técnica?",
+      "opciones": [
+        "Key stretching",
+        "Tokenización",
+        "Enmascaramiento de datos",
+        "Salting"
+      ],
+      "respuesta": 3,
+      "explicacion": "El salting añade un valor aleatorio a la contraseña antes del hash para impedir que contraseñas iguales produzcan hashes iguales y dificultar ataques con tablas precalculadas."
+    },
+    {
+      "pregunta": "¿Por qué debe realizarse un análisis de causa raíz como parte de la respuesta a incidentes?",
+      "opciones": [
+        "Para prevenir futuros incidentes de la misma naturaleza",
+        "Para recopilar IoC para la investigación",
+        "Para descubrir qué sistemas se han visto afectados",
+        "Para erradicar cualquier rastro de malware en la red"
+      ],
+      "respuesta": 0,
+      "explicacion": "El análisis de causa raíz identifica los factores subyacentes que originaron el incidente para corregirlos y evitar que vuelva a ocurrir."
+    },
+    {
+      "pregunta": "Un nuevo miembro del consejo con conocimientos de ciberseguridad quiere recibir un informe trimestral con el número de incidentes que afectaron a la organización. ¿Qué debería utilizar el administrador de sistemas para presentar los datos?",
+      "opciones": [
+        "Capturas de paquetes",
+        "Escaneos de vulnerabilidades",
+        "Metadatos",
+        "Dashboard"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un dashboard presenta métricas, tendencias e indicadores de forma visual y resumida, adecuada para informar al consejo de administración."
+    },
+    {
+      "pregunta": "¿Qué documento detalla los términos de una prueba realizada por un pentester externo?",
+      "opciones": [
+        "Rules of engagement",
+        "Análisis de la cadena de suministro",
+        "Cláusula de derecho de auditoría",
+        "Due diligence"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las rules of engagement definen el alcance, objetivos, métodos, límites y responsabilidades de una prueba de penetración."
+    },
+    {
+      "pregunta": "¿Qué se utiliza para proteger un equipo frente a virus, malware y troyanos, así como para impedir su movimiento lateral por la red?",
+      "opciones": ["IDS", "ACL", "EDR", "NAC"],
+      "respuesta": 2,
+      "explicacion": "EDR monitoriza endpoints, detecta comportamiento malicioso y permite contener amenazas antes de que se propaguen lateralmente."
+    },
+    {
+      "pregunta": "El malware se propagó por la red de una empresa después de que un empleado visitara un blog del sector comprometido. ¿Qué tipo de ataque describe mejor esta situación?",
+      "opciones": [
+        "Smishing",
+        "Watering-hole",
+        "Suplantación",
+        "Desinformación"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un ataque watering-hole compromete un sitio web que suele visitar el grupo objetivo para infectar a sus usuarios."
+    },
+    {
+      "pregunta": "¿Qué técnica se utiliza para añadir complejidad adicional antes de aplicar un algoritmo de transformación de datos unidireccional?",
+      "opciones": [
+        "Key stretching",
+        "Salting",
+        "Esteganografía",
+        "Enmascaramiento de datos"
+      ],
+      "respuesta": 1,
+      "explicacion": "El salting añade datos aleatorios antes de aplicar una función hash, dificultando ataques de fuerza bruta y tablas precalculadas."
+    },
+    {
+      "pregunta": "Una organización utiliza una VPN entre su sede central y una sucursal. ¿Qué está protegiendo la VPN?",
+      "opciones": [
+        "Soberanía de datos",
+        "Datos en uso",
+        "Datos en tránsito",
+        "Restricciones geográficas"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una VPN cifra el tráfico mientras viaja entre dos puntos, protegiendo los datos en tránsito."
+    },
+    {
+      "pregunta": "¿Qué método es el más adecuado para proteger datos de tarjetas de crédito cuando el requisito es mostrar únicamente los últimos cuatro dígitos?",
+      "opciones": ["Cifrado", "Hashing", "Enmascaramiento", "Tokenización"],
+      "respuesta": 2,
+      "explicacion": "El enmascaramiento oculta parte del número y permite dejar visibles solo los últimos cuatro dígitos."
+    },
+    {
+      "pregunta": "Un arquitecto de seguridad de una organización multinacional quiere reducir la complejidad de gestionar múltiples claves de cifrado en un entorno multicloud, reutilizar las claves existentes y mantener control centralizado con baja latencia. ¿Qué opción cumpliría mejor estos objetivos?",
+      "opciones": ["Trusted Platform Module", "IaaS", "PaaS", "HSMaaS"],
+      "respuesta": 3,
+      "explicacion": "HSMaaS proporciona módulos de seguridad hardware como servicio para generar, proteger y gestionar claves criptográficas de forma centralizada en entornos multicloud."
+    },
+    {
+      "pregunta": "Una organización deshabilitó servicios innecesarios y colocó un firewall delante de un sistema heredado crítico para el negocio. ¿Cómo se describen mejor estas acciones?",
+      "opciones": [
+        "Excepción",
+        "Segmentación",
+        "Transferencia de riesgo",
+        "Controles compensatorios"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los controles compensatorios son medidas alternativas aplicadas cuando el control principal no es viable o suficiente para reducir el riesgo."
+    },
+    {
+      "pregunta": "¿Qué buena práctica proporciona a los administradores un periodo definido para realizar cambios en un sistema operativo y minimizar el impacto en el negocio?",
+      "opciones": [
+        "Análisis de impacto",
+        "Tiempo de inactividad programado",
+        "Plan de reversión",
+        "Comité de gestión de cambios"
+      ],
+      "respuesta": 1,
+      "explicacion": "El tiempo de inactividad programado establece una ventana planificada para realizar mantenimiento o cambios minimizando interrupciones inesperadas."
+    },
+    {
+      "pregunta": "Un cliente exige al menos un 99,99 % de disponibilidad en los servicios de seguridad alojados de un proveedor. ¿Qué documento debe incluir esa información?",
+      "opciones": ["MOA", "SOW", "MOU", "SLA"],
+      "respuesta": 3,
+      "explicacion": "Un SLA define niveles de servicio medibles, como disponibilidad o uptime, así como posibles consecuencias si no se cumplen."
+    },
+    {
+      "pregunta": "La cuenta de administrador local de un appliance VPN se utilizó inesperadamente para iniciar sesión en la interfaz de gestión remota. ¿Qué medida habría evitado con mayor probabilidad este hecho?",
+      "opciones": [
+        "Aplicar mínimo privilegio",
+        "Cambiar la contraseña predeterminada",
+        "Asignar identificadores de usuario individuales",
+        "Revisar los logs con mayor frecuencia"
+      ],
+      "respuesta": 1,
+      "explicacion": "Cambiar la contraseña predeterminada evita que credenciales conocidas o fáciles de obtener permitan acceder a la cuenta administrativa."
+    },
+    {
+      "pregunta": "Un analista recibe alertas de un sistema interno que envía una gran cantidad de consultas DNS inusuales a sistemas de Internet durante periodos breves fuera del horario laboral. ¿Qué es lo más probable que esté ocurriendo?",
+      "opciones": [
+        "Un gusano se está propagando por la red.",
+        "Una logic bomb está eliminando datos.",
+        "Se están exfiltrando datos.",
+        "Un ransomware está cifrando archivos."
+      ],
+      "respuesta": 2,
+      "explicacion": "Un volumen anómalo de consultas DNS puede indicar un túnel DNS utilizado para exfiltrar datos hacia sistemas externos."
+    },
+    {
+      "pregunta": "Un pentester comienza un encargo realizando escaneos de puertos y servicios contra el entorno del cliente según las rules of engagement. ¿Qué tipo de reconocimiento está realizando?",
+      "opciones": ["Activo", "Pasivo", "Defensivo", "Ofensivo"],
+      "respuesta": 0,
+      "explicacion": "El reconocimiento activo interactúa directamente con el objetivo mediante sondas, escaneos o solicitudes para obtener información."
+    },
+    {
+      "pregunta": "¿Qué técnica permite utilizar un campo de entrada para ejecutar comandos que consulten o manipulen datos?",
+      "opciones": [
+        "Cross-site scripting",
+        "Side loading",
+        "Buffer overflow",
+        "SQL injection"
+      ],
+      "respuesta": 3,
+      "explicacion": "SQL injection introduce sentencias SQL maliciosas en entradas de una aplicación para consultar, modificar o eliminar datos en una base de datos."
+    },
+    {
+      "pregunta": "Una empresa ha bloqueado el acceso directo desde las estaciones de trabajo de los DBA al segmento de red que contiene los servidores de bases de datos. ¿Qué debería utilizar un DBA para acceder a esos servidores?",
+      "opciones": ["Jump server", "RADIUS", "HSM", "Balanceador de carga"],
+      "respuesta": 0,
+      "explicacion": "Un jump server actúa como intermediario seguro entre la estación del administrador y sistemas situados en segmentos restringidos."
+    },
+    {
+      "pregunta": "¿Qué herramienta de alertas y monitorización de seguridad recopila logs de sistemas, aplicaciones y redes desde múltiples fuentes en un sistema centralizado?",
+      "opciones": ["SIEM", "DLP", "IDS", "SNMP"],
+      "respuesta": 0,
+      "explicacion": "Un SIEM centraliza logs, correlaciona eventos, genera alertas y facilita la investigación de incidentes."
+    },
+    {
+      "pregunta": "Un administrador quiere impedir que los usuarios accedan a datos según responsabilidades y aplicar la estructura de acceso de forma simplificada. ¿Qué debería aplicar al grupo de recursos de recuperación del sitio?",
+      "opciones": ["ACL", "SAML", "RBAC", "GPO"],
+      "respuesta": 2,
+      "explicacion": "RBAC asigna permisos a roles y después asocia usuarios a esos roles, simplificando la gestión de acceso según responsabilidades."
+    },
+    {
+      "pregunta": "Un atacante que se hace pasar por el CEO llama a un empleado y le ordena comprar tarjetas regalo. ¿Qué técnica está utilizando?",
+      "opciones": ["Smishing", "Desinformación", "Suplantación", "Whaling"],
+      "respuesta": 2,
+      "explicacion": "La suplantación consiste en hacerse pasar por otra persona para obtener confianza, información o inducir una acción."
+    },
+    {
+      "pregunta": "Las directrices locales exigen que todos los sistemas de información cumplan una baseline mínima de seguridad. ¿Qué pueden utilizar los administradores para evaluar sus configuraciones frente a esa baseline?",
+      "opciones": [
+        "Playbook de SOAR",
+        "Matriz de controles de seguridad",
+        "Marco de gestión de riesgos",
+        "Benchmarks"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los benchmarks, como los de CIS, proporcionan configuraciones de referencia con las que comparar y endurecer sistemas."
+    },
+    {
+      "pregunta": "¿Qué se utiliza para validar el estado de un certificado cuando se presenta a un usuario?",
+      "opciones": ["OCSP", "CSR", "CA", "CRC"],
+      "respuesta": 0,
+      "explicacion": "OCSP consulta en tiempo real si un certificado sigue siendo válido o ha sido revocado."
+    },
+    {
+      "pregunta": "Una organización está creando un único entorno virtual que alojará aplicaciones y datos de clientes que deben estar disponibles en todo momento. El centro de datos proporciona generador eléctrico y servicios ISP. ¿Qué solución es la mejor para apoyar este requisito?",
+      "opciones": [
+        "NIC teaming",
+        "Copias de seguridad cloud",
+        "Appliance de balanceo de carga",
+        "UPS"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un UPS proporciona alimentación inmediata durante un corte hasta que entra en funcionamiento el generador, ayudando a mantener la disponibilidad continua."
+    },
+    {
+      "pregunta": "¿Qué acción puede realizar un ingeniero de seguridad para garantizar que estaciones de trabajo y servidores se supervisen adecuadamente frente a cambios y software no autorizados?",
+      "opciones": [
+        "Configurar todos los sistemas para registrar tareas programadas.",
+        "Instalar software de gestión de endpoints en todos los sistemas.",
+        "Bloquear tráfico según firmas maliciosas conocidas.",
+        "Recopilar y monitorizar todo el tráfico que sale de la red."
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión centralizada de endpoints permite monitorizar configuraciones, detectar software no autorizado y aplicar políticas de seguridad."
+    },
+    {
+      "pregunta": "Un administrador observa que estaciones de trabajo y servidores muestran un mensaje asociado a archivos con extensión .ryk. ¿Qué tipo de infección está presente?",
+      "opciones": ["Virus", "Troyano", "Ransomware", "Spyware"],
+      "respuesta": 2,
+      "explicacion": "La extensión .ryk está asociada a Ryuk, un ransomware que cifra archivos y exige un rescate."
+    },
+    {
+      "pregunta": "Un proveedor de certificados informó a una empresa de que certificados invalidados recientemente podrían necesitar actualización. ¿Qué mecanismo debería usar un administrador para determinar si los certificados instalados deben actualizarse?",
+      "opciones": ["SCEP", "OCSP", "CSR", "CRL"],
+      "respuesta": 3,
+      "explicacion": "Una CRL contiene los certificados revocados por una CA y permite comparar de forma masiva los certificados instalados con la lista de revocación."
+    },
+    {
+      "pregunta": "Una empresa trabaja con un proveedor para realizar una prueba de penetración. ¿Qué documento incluye una estimación del número de horas necesarias para completar el trabajo?",
+      "opciones": ["SOW", "BPA", "SLA", "NDA"],
+      "respuesta": 0,
+      "explicacion": "El SOW define alcance, entregables, cronograma, esfuerzo estimado y costes del trabajo contratado."
+    },
+    {
+      "pregunta": "¿Qué equipo combina técnicas ofensivas y defensivas para proteger los sistemas críticos de una organización?",
+      "opciones": ["Red", "Blue", "Purple", "Yellow"],
+      "respuesta": 2,
+      "explicacion": "El Purple Team integra el trabajo ofensivo del Red Team con las capacidades defensivas del Blue Team para mejorar la postura de seguridad."
+    },
+    {
+      "pregunta": "¿Cuál es la mejor forma de impedir que se ejecuten programas desconocidos?",
+      "opciones": [
+        "Lista de control de acceso",
+        "Lista de aplicaciones permitidas",
+        "Firewall basado en host",
+        "Solución DLP"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una lista de aplicaciones permitidas autoriza únicamente software aprobado y bloquea la ejecución de programas no reconocidos."
+    },
+    {
+      "pregunta": "¿Cuál es el resultado más probable si un gran banco suspende una evaluación interna de cumplimiento PCI DSS?",
+      "opciones": [
+        "Multas",
+        "Hallazgos de auditoría",
+        "Sanciones",
+        "Daño reputacional"
+      ],
+      "respuesta": 1,
+      "explicacion": "El resultado inmediato de una evaluación interna fallida son hallazgos que documentan las brechas de cumplimiento que deben corregirse."
+    },
+    {
+      "pregunta": "Un consultor de seguridad necesita acceso remoto seguro al entorno de un cliente. ¿Qué debería utilizar con mayor probabilidad?",
+      "opciones": ["EAP", "DHCP", "IPSec", "NAT"],
+      "respuesta": 2,
+      "explicacion": "IPSec proporciona autenticación, integridad y cifrado para crear túneles VPN seguros sobre redes IP."
+    },
+    {
+      "pregunta": "Un ingeniero necesita una solución que añada una capa de seguridad impidiendo el acceso no autorizado a recursos internos de la empresa. ¿Cuál sería la mejor solución?",
+      "opciones": [
+        "Servidor RDP",
+        "Jump server",
+        "Servidor proxy",
+        "Hipervisor"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un jump server actúa como punto intermedio controlado para acceder a sistemas internos y permite aplicar autenticación, autorización y auditoría."
+    },
+    {
+      "pregunta": "¿Qué ejercicio debería utilizar una organización para mejorar su proceso de respuesta a incidentes?",
+      "opciones": ["Tabletop", "Replicación", "Failover", "Recuperación"],
+      "respuesta": 0,
+      "explicacion": "Un ejercicio tabletop simula un incidente y permite revisar roles, decisiones, coordinación y procedimientos sin afectar sistemas reales."
+    },
+    {
+      "pregunta": "El sitio web público de una organización fue comprometido mediante la explotación de un buffer overflow. ¿Qué debería desplegar para protegerse mejor contra ataques similares?",
+      "opciones": ["NGFW", "WAF", "TLS", "SD-WAN"],
+      "respuesta": 1,
+      "explicacion": "Un WAF inspecciona y filtra tráfico dirigido a aplicaciones web y puede bloquear patrones de ataques contra la aplicación."
+    },
+    {
+      "pregunta": "Un analista evalúa la implementación de principios Zero Trust dentro del data plane. ¿Qué elemento sería más relevante evaluar?",
+      "opciones": [
+        "Rol del sujeto",
+        "Identidad adaptativa",
+        "Reducción del alcance de amenazas",
+        "Zonas protegidas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las zonas protegidas segmentan recursos y datos dentro del data plane y aplican políticas granulares para limitar accesos y movimiento lateral."
+    },
+    {
+      "pregunta": "Un analista investiga un servidor de aplicaciones y observa que un software que normalmente solo ejecuta trabajos por lotes locales ahora genera tráfico saliente por puertos altos aleatorios. ¿Qué vulnerabilidad es probable que haya sido explotada?",
+      "opciones": [
+        "Inyección de memoria",
+        "Race condition",
+        "Side loading",
+        "SQL injection"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una inyección de memoria puede introducir código malicioso en el proceso y provocar comportamientos anómalos, como conexiones salientes no previstas."
+    },
+    {
+      "pregunta": "Un administrador de datos está configurando la autenticación de una aplicación SaaS y quiere reducir el número de credenciales que deben mantener los empleados. La empresa prefiere usar credenciales de dominio. ¿Qué método lo permite?",
+      "opciones": ["MFA", "PEAP", "SSO", "LEAP"],
+      "respuesta": 2,
+      "explicacion": "SSO permite acceder a múltiples aplicaciones con un único conjunto de credenciales, incluidas credenciales corporativas de dominio."
+    },
+    {
+      "pregunta": "Una empresa decidió reducir el coste anual de su seguro cibernético eliminando la cobertura frente a ransomware. ¿Qué elemento de análisis utilizó con mayor probabilidad para tomar la decisión?",
+      "opciones": ["IMTTR", "RTO", "ARO", "MTBF"],
+      "respuesta": 2,
+      "explicacion": "ARO, Annualized Rate of Occurrence, estima cuántas veces se espera que ocurra un evento en un año y se utiliza para valorar cuantitativamente el riesgo."
+    },
+    {
+      "pregunta": "¿Qué vulnerabilidad se explota cuando un atacante sobrescribe un registro con una dirección maliciosa?",
+      "opciones": [
+        "VM escape",
+        "SQL injection",
+        "Buffer overflow",
+        "Race condition"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un buffer overflow puede sobrescribir memoria adyacente o registros de control para redirigir la ejecución hacia una dirección elegida por el atacante."
+    },
+    {
+      "pregunta": "Un administrador descubre que algunos archivos de un servidor de bases de datos fueron cifrados recientemente. Los logs muestran que los datos fueron accedidos por última vez por un usuario del dominio. ¿Qué tipo de ataque describe mejor el incidente?",
+      "opciones": [
+        "Amenaza interna",
+        "Ingeniería social",
+        "Watering-hole",
+        "Atacante no autorizado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una amenaza interna procede de una persona con acceso legítimo que abusa de sus privilegios para causar daño o comprometer datos."
+    },
+    {
+      "pregunta": "¿Qué debería utilizar un administrador de sistemas para facilitar el despliegue de recursos dentro de un proveedor cloud?",
+      "opciones": [
+        "Software as a Service",
+        "Infrastructure as Code",
+        "Internet of Things",
+        "Software-defined networking"
+      ],
+      "respuesta": 1,
+      "explicacion": "Infrastructure as Code permite definir y desplegar infraestructura mediante código y automatización, haciendo los despliegues repetibles y consistentes."
+    },
+    {
+      "pregunta": "Un administrador observa que varios usuarios inician sesión desde direcciones IP sospechosas. Tras confirmar que no eran los empleados y restablecer sus contraseñas, ¿qué debería implementar para evitar que este ataque tenga éxito en el futuro?",
+      "opciones": [
+        "Asignación de permisos",
+        "Gestión de acceso",
+        "Complejidad de contraseñas",
+        "Multifactor authentication"
+      ],
+      "respuesta": 3,
+      "explicacion": "MFA exige un factor adicional además de la contraseña, por lo que una credencial robada por sí sola no basta para iniciar sesión."
+    },
+    {
+      "pregunta": "Un cliente pidió a una empresa de seguridad un documento que describa el proyecto, su coste y el plazo de finalización. ¿Qué documento debería proporcionar la empresa?",
+      "opciones": ["MSA", "SLA", "SOW", "BPA"],
+      "respuesta": 2,
+      "explicacion": "Un SOW detalla alcance, entregables, cronograma, responsabilidades y costes del proyecto."
+    },
+    {
+      "pregunta": "Un empleado de contabilidad envió dinero a la cuenta bancaria de un atacante tras recibir instrucciones fraudulentas para usar una cuenta nueva. ¿Qué medida evitaría con mayor probabilidad que esto ocurra de nuevo?",
+      "opciones": [
+        "Estandarizar el reporte de incidentes de seguridad",
+        "Ejecutar campañas periódicas de phishing",
+        "Implementar medidas de detección de amenazas internas",
+        "Actualizar los procesos para realizar transferencias bancarias"
+      ],
+      "respuesta": 3,
+      "explicacion": "Actualizar el proceso de transferencias puede exigir validación independiente, doble aprobación o confirmación por un canal separado antes de cambiar datos bancarios."
+    },
+    {
+      "pregunta": "Una empresa debe realizar una evaluación de riesgos cada año. ¿Qué tipo de evaluación describe este requisito?",
+      "opciones": ["Única", "Recurrente", "Continua", "Ad hoc"],
+      "respuesta": 1,
+      "explicacion": "Una evaluación recurrente se ejecuta a intervalos programados, como una vez al año."
+    },
+    {
+      "pregunta": "¿Qué opción garantiza mejor un tiempo de inactividad y una pérdida de datos mínimos para organizaciones con equipos informáticos críticos en zonas propensas a terremotos?",
+      "opciones": [
+        "Redes de alta disponibilidad",
+        "Replicación fuera del sitio",
+        "Generadores y UPS",
+        "Cold sites redundantes"
+      ],
+      "respuesta": 1,
+      "explicacion": "La replicación fuera del sitio mantiene copias actualizadas de sistemas y datos en otra ubicación, permitiendo recuperar operaciones si el sitio principal queda inutilizado."
+    },
+    {
+      "pregunta": "Un dispositivo heredado se está retirando y ya no recibe actualizaciones ni parches. ¿Cómo se describe este escenario?",
+      "opciones": [
+        "Fin del negocio",
+        "Fin de pruebas",
+        "Fin de soporte",
+        "Fin de vida"
+      ],
+      "respuesta": 2,
+      "explicacion": "End of support significa que el fabricante ha dejado de proporcionar soporte, incluidas actualizaciones y parches."
+    },
+    {
+      "pregunta": "¿Cuál es la mejor forma de proteger un centro de datos local frente a la intrusión de una persona interna?",
+      "opciones": [
+        "Bolardos",
+        "Tarjeta de acceso",
+        "Sensor de movimiento",
+        "Videovigilancia"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una tarjeta de acceso restringe la entrada física a personal autorizado y permite registrar quién accede y cuándo."
+    },
+    {
+      "pregunta": "Un ingeniero cambió de equipo y no puede acceder a las carpetas compartidas del nuevo equipo, aunque todavía accede a las del anterior. Se descubre que su cuenta nunca fue movida al nuevo grupo. ¿Qué control de acceso causa con mayor probabilidad la falta de acceso?",
+      "opciones": [
+        "Basado en roles",
+        "Discrecional",
+        "Según la hora del día",
+        "Mínimo privilegio"
+      ],
+      "respuesta": 0,
+      "explicacion": "En RBAC el acceso depende del rol o grupo asignado; si la cuenta no se actualiza al nuevo rol, no recibe los permisos correspondientes."
+    },
+    {
+      "pregunta": "Un técnico está desplegando una nueva cámara de seguridad. ¿Qué debería hacer primero?",
+      "opciones": [
+        "Configurar la VLAN correcta.",
+        "Realizar un escaneo de vulnerabilidades.",
+        "Deshabilitar puertos innecesarios.",
+        "Realizar un estudio del sitio."
+      ],
+      "respuesta": 3,
+      "explicacion": "El estudio del sitio permite determinar la ubicación, cobertura y condiciones adecuadas antes de instalar y configurar la cámara."
+    },
+    {
+      "pregunta": "Una empresa sufre una caída de sus servicios web en la red pública. Los servicios siguen activos, pero son inaccesibles, y los logs muestran un aumento repentino del tráfico de red. ¿Qué ataque está sufriendo?",
+      "opciones": ["ARP poisoning", "Fuerza bruta", "Buffer overflow", "DDoS"],
+      "respuesta": 3,
+      "explicacion": "Un DDoS satura recursos o ancho de banda con un volumen masivo de tráfico, haciendo que un servicio operativo resulte inaccesible."
+    },
+    {
+      "pregunta": "¿Qué actor de amenaza es más probable que esté motivado por el beneficio económico?",
+      "opciones": [
+        "Hacktivista",
+        "Amenaza interna",
+        "Crimen organizado",
+        "Shadow IT"
+      ],
+      "respuesta": 2,
+      "explicacion": "El crimen organizado suele realizar ciberataques con objetivos financieros, como robo, fraude, extorsión o ransomware."
+    },
+    {
+      "pregunta": "Un visitante conecta un portátil a una toma de red del vestíbulo y consigue acceder a la red de la empresa. ¿Qué debería configurarse en la infraestructura de red existente para impedir mejor esta actividad?",
+      "opciones": [
+        "Port security",
+        "Web Application Firewall",
+        "Transport Layer Security",
+        "Virtual Private Network"
+      ],
+      "respuesta": 0,
+      "explicacion": "Port security limita qué dispositivos pueden utilizar un puerto de switch, normalmente según direcciones MAC autorizadas."
+    },
+    {
+      "pregunta": "Un administrador de sistemas quiere desplegar un cambio en producción. ¿Qué debe presentar para demostrar que el sistema puede volver a un estado operativo si aparece un problema de rendimiento?",
+      "opciones": [
+        "Plan de reversión",
+        "Análisis de impacto",
+        "Procedimiento de prueba",
+        "Procedimiento de aprobación"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un plan de reversión define cómo deshacer los cambios y restaurar el sistema a un estado funcional si el despliegue falla."
+    },
+    {
+      "pregunta": "Una empresa está rediseñando su infraestructura y quiere reducir el número de servidores físicos utilizados. ¿Qué arquitectura es la más adecuada?",
+      "opciones": [
+        "Serverless",
+        "Segmentación",
+        "Virtualización",
+        "Microservicios"
+      ],
+      "respuesta": 2,
+      "explicacion": "La virtualización permite ejecutar varias máquinas virtuales sobre un mismo servidor físico, consolidando cargas y reduciendo la cantidad de hardware necesario."
+    }
+  ]
+}
