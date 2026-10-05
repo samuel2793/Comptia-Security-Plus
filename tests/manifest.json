@@ -109,6 +109,14 @@
         "tests/udemy/total-comptia-security-cert-sy0-701-practice-tests/2.json",
         "tests/udemy/total-comptia-security-cert-sy0-701-practice-tests/3.json"
       ]
+    },
+    {
+      "id": "udemy-the-ultimate-guide-for-comptia-security-plus-exam",
+      "titulo": "Udemy the ultimate guide for comptia security plus exam",
+      "baterias": [
+        "tests/udemy/the-ultimate-guide-for-comptia-security-plus-exam/1.json",
+        "tests/udemy/the-ultimate-guide-for-comptia-security-plus-exam/2.json"
+      ]
     }
   ]
 }

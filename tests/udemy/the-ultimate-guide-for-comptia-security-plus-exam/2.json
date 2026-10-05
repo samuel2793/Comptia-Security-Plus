@@ -1,0 +1,1652 @@
+{
+  "titulo": "Ultimate CompTIA Security+ Masterclass - Segundo Test",
+  "procedencia": "Udemy - Ultimate CompTIA Security+ Masterclass - Start Cybersecurity, creado por Cyvitrix Learning",
+  "descripcion": "Segundo test de práctica de CompTIA Security+ con preguntas sobre criptografía, gestión de riesgos, arquitectura segura, operaciones de seguridad, IAM, continuidad, respuesta a incidentes y cumplimiento.",
+  "preguntas": [
+    {
+      "pregunta": "Una empresa de rápido crecimiento descubre que los equipos crean nuevos tipos de datos más rápido de lo que se actualizan las políticas. Como resultado, los empleados no saben cómo etiquetar y proteger los nuevos activos de información. ¿Qué mejora mantendría MEJOR la eficacia del programa de clasificación a lo largo del tiempo?",
+      "opciones": [
+        "Aumentar la capacidad de CPU de los servidores de archivos",
+        "Centralizar todos los tickets del help desk",
+        "Sustituir anualmente las puertas de enlace VPN",
+        "Establecer un proceso de actualización y reclasificación"
+      ],
+      "respuesta": 3,
+      "explicacion": "Un proceso formal de revisión y reclasificación permite adaptar la clasificación a nuevos tipos de datos, cambios del negocio y nuevos riesgos."
+    },
+    {
+      "pregunta": "Un arquitecto de seguridad está integrando IaC en la canalización CI/CD de la organización. La dirección quiere detectar configuraciones incorrectas antes del despliegue en lugar de hacerlo cuando los sistemas ya estén en producción. ¿Cuál es el MEJOR enfoque?",
+      "opciones": [
+        "Separar la seguridad del despliegue",
+        "Depender de ventanas de cambio en producción",
+        "Añadir escaneo y validación automatizados",
+        "Revisar únicamente después de que ocurran incidentes"
+      ],
+      "respuesta": 2,
+      "explicacion": "El escaneo y la validación automatizados dentro de la canalización permiten detectar vulnerabilidades y errores de configuración antes del despliegue."
+    },
+    {
+      "pregunta": "Una empresa descubre que varios empleados se autenticaron en un portal web desde una cafetería usando una red Wi-Fi abierta. Horas después, las mismas cuentas se utilizaron para acceder a datos internos desde un dispositivo desconocido. Los investigadores creen que el atacante no adivinó ninguna contraseña. ¿Qué vía de ataque explica MÁS probablemente lo ocurrido?",
+      "opciones": [
+        "Se capturaron credenciales y se reprodujeron posteriormente",
+        "Los hashes de contraseñas fueron atacados por fuerza bruta",
+        "Las copias de seguridad se restauraron incorrectamente",
+        "Se elevaron los permisos de archivos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un ataque de replay reutiliza credenciales o datos de sesión válidos previamente interceptados para autenticarse sin necesidad de adivinar la contraseña."
+    },
+    {
+      "pregunta": "Un minorista multinacional recibe alertas aisladas de inicios de sesión fallidos en varias aplicaciones expuestas a Internet. Cada equipo revisa sus propios registros y no encuentra nada concluyente. El SOC sospecha una campaña distribuida de fuerza bruta contra múltiples sistemas. ¿Qué control ayudaría MEJOR a confirmar esta sospecha?",
+      "opciones": [
+        "Correlación centralizada mediante SIEM",
+        "Revisión local de registros por administradores",
+        "Cifrado de discos de endpoints",
+        "Atestación mensual de políticas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un SIEM agrega, normaliza y correlaciona eventos de múltiples sistemas, permitiendo detectar patrones distribuidos que no son evidentes en registros aislados."
+    },
+    {
+      "pregunta": "Una empresa de servicios financieros detecta repetidos inicios de sesión correctos en una cuenta de administrador de nóminas a las 2:30 a. m. desde el portátil corporativo del empleado. Después, la cuenta accede a registros ajenos a su función. La organización ya utiliza firewalls perimetrales robustos y protección de endpoints. ¿Qué control mejoraría MÁS la detección temprana de esta amenaza?",
+      "opciones": [
+        "Actualizar los firewalls externos",
+        "Monitorización conductual del acceso",
+        "Añadir más filtrado antispam",
+        "Realizar escaneo público de vulnerabilidades"
+      ],
+      "respuesta": 1,
+      "explicacion": "La monitorización de comportamiento puede detectar anomalías como horarios inusuales, acceso a datos no habituales y desviaciones respecto al patrón normal del usuario."
+    },
+    {
+      "pregunta": "Una empresa sufrió un compromiso por phishing cuando un empleado aprobó una solicitud falsa y reveló credenciales. El entorno ya contaba con firewalls, herramientas de endpoint y cifrado. La dirección quiere la capa adicional MÁS efectiva para reducir incidentes similares. ¿Cuál es la MEJOR opción?",
+      "opciones": [
+        "Ampliar la formación de concienciación en seguridad",
+        "Aumentar los ciclos de parcheo de servidores",
+        "Actualizar las cámaras de vigilancia de las oficinas",
+        "Añadir más routers perimetrales"
+      ],
+      "respuesta": 0,
+      "explicacion": "La formación en concienciación aborda directamente el reconocimiento del phishing y la respuesta del usuario, reforzando la capa humana de la defensa en profundidad."
+    },
+    {
+      "pregunta": "Un equipo de seguridad está seleccionando el modelo de acceso principal para una empresa de rápido crecimiento. El entorno cambia con frecuencia y los empleados trabajan remotamente desde distintas ubicaciones y dispositivos. La dirección quiere que las decisiones de acceso tengan en cuenta horario laboral, confianza del dispositivo y postura de red. ¿Cuál es la PRINCIPAL desventaja del modelo preferido?",
+      "opciones": [
+        "Gestión compleja de reglas",
+        "Reducción del etiquetado de datos",
+        "Herencia débil de roles",
+        "Compartición excesiva por parte de propietarios"
+      ],
+      "respuesta": 0,
+      "explicacion": "El control de acceso basado en reglas permite evaluar condiciones dinámicas, pero las reglas pueden volverse complejas de definir y mantener a medida que crece el entorno."
+    },
+    {
+      "pregunta": "Tras un posible robo de credenciales en una Wi-Fi pública, una empresa quiere un control que siga evitando el compromiso de la cuenta incluso si un nombre de usuario y una contraseña son interceptados durante un ataque man-in-the-middle. ¿Cuál es el MEJOR control?",
+      "opciones": [
+        "Reglas de complejidad de contraseña",
+        "Ajuste del bloqueo de cuentas",
+        "Autenticación multifactor",
+        "Actualización de banners de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "MFA añade un segundo factor, por lo que las credenciales interceptadas por sí solas no son suficientes para autenticarse."
+    },
+    {
+      "pregunta": "Una empresa minorista se prepara para una revisión de cumplimiento relacionada con sistemas de pago. El equipo de seguridad propone implementar file integrity monitoring en los servidores de procesamiento de tarjetas. ¿Qué razón respalda MEJOR esta decisión desde la perspectiva del cumplimiento?",
+      "opciones": [
+        "Supervisa cambios en archivos críticos",
+        "Verifica la calidad de la programación segura",
+        "Elimina el riesgo de cuentas privilegiadas",
+        "Sustituye el registro formal de auditoría"
+      ],
+      "respuesta": 0,
+      "explicacion": "FIM permite detectar cambios en archivos sensibles o críticos y proporciona evidencia de supervisión útil para requisitos de cumplimiento."
+    },
+    {
+      "pregunta": "Durante una auditoría interna, un equipo descubre varios servidores heredados que todavía utilizan cuentas y contraseñas predeterminadas del fabricante. Operaciones argumenta que cambiarlas podría afectar aplicaciones antiguas y propone mantenerlas mientras se supervisan más estrechamente los sistemas. ¿Cuál es la MEJOR respuesta desde el punto de vista de seguridad?",
+      "opciones": [
+        "Aceptar el riesgo con revisión semanal",
+        "Eliminar los valores predeterminados y endurecer la configuración",
+        "Aislar los servidores y aplazar los cambios",
+        "Mantener las cuentas predeterminadas y añadir MFA"
+      ],
+      "respuesta": 1,
+      "explicacion": "Eliminar cuentas o credenciales predeterminadas y endurecer la configuración elimina directamente una vía de ataque conocida en lugar de limitarse a vigilarla."
+    },
+    {
+      "pregunta": "Un investigador está recopilando evidencias en una sucursal tras un incidente interno. La oficina contiene portátiles, un dispositivo NAS, varias cámaras IoT y una cuenta de compartición de archivos en la nube. ¿Qué acción debe realizar PRIMERO en el ciclo de vida de la evidencia?",
+      "opciones": [
+        "Destruir las copias temporales de trabajo",
+        "Identificar todas las fuentes de evidencia relevantes",
+        "Analizar el dispositivo de almacenamiento más grande",
+        "Devolver los dispositivos a sus propietarios"
+      ],
+      "respuesta": 1,
+      "explicacion": "La primera etapa es identificar qué dispositivos, sistemas y fuentes de datos pueden contener evidencia antes de preservarla, adquirirla o analizarla."
+    },
+    {
+      "pregunta": "Un analista de seguridad de un hospital debe examinar la estación de trabajo de una enfermera por una posible sustracción interna de historiales de pacientes. Quiere preservar la evidencia para que pueda utilizarse en un juicio y permitir un análisis detallado posterior. ¿Qué acción debe realizar PRIMERO?",
+      "opciones": [
+        "Crear una imagen bit a bit",
+        "Buscar anomalías en los registros",
+        "Recuperar documentos eliminados",
+        "Revisar archivos adjuntos de correo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una imagen forense bit a bit preserva el medio original y permite realizar el análisis posterior sobre una copia sin alterar la evidencia."
+    },
+    {
+      "pregunta": "Una empresa de fabricación planea obtener la certificación ISO 27001 en 18 meses. El CISO está definiendo mediciones y quiere distinguir entre el objetivo final y las condiciones necesarias para alcanzarlo. ¿Cuál es el MEJOR ejemplo de un factor crítico de éxito y no de un indicador de objetivo?",
+      "opciones": [
+        "Establecer una función de auditoría interna",
+        "Conseguir la certificación en el sexto trimestre",
+        "Controlar semanalmente las denegaciones del firewall",
+        "Informar mensualmente de fallos de controles"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una función de auditoría interna es una capacidad habilitadora necesaria para apoyar el objetivo superior de conseguir la certificación."
+    },
+    {
+      "pregunta": "Una startup está construyendo una plataforma de sensores IoT alimentados por batería que transmiten lecturas frecuentes. El arquitecto quiere cifrado con bajo consumo de procesamiento que siga protegiendo los datos en tránsito. ¿Qué factor debe evaluarse con MÁS cuidado al elegir la longitud de una clave simétrica?",
+      "opciones": [
+        "Impacto en el rendimiento del dispositivo",
+        "Volumen de registros del firewall",
+        "Tiempo de revocación de certificados",
+        "Historial de contraseñas de usuarios"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las claves más largas pueden requerir más recursos de cálculo, algo especialmente importante en dispositivos IoT con recursos y batería limitados."
+    },
+    {
+      "pregunta": "Un administrador observa que los usuarios reciben advertencias del navegador al conectarse al sitio de nóminas de la empresa aunque HTTPS está habilitado. El equipo de seguridad está especialmente preocupado por evitar la suplantación del sitio durante la conexión inicial. ¿Qué control debe revisarse PRIMERO?",
+      "opciones": [
+        "Reglas de salida del firewall",
+        "Fortaleza del cifrado simétrico",
+        "Cadena de validación del certificado",
+        "Tiempo de espera de la sesión web"
+      ],
+      "respuesta": 2,
+      "explicacion": "La confianza en HTTPS depende de que el certificado y su cadena hasta una CA raíz confiable puedan validarse correctamente."
+    },
+    {
+      "pregunta": "Una empresa de servicios financieros descubre que los clientes pueden enviar ocasionalmente dos solicitudes de retirada casi al mismo tiempo y ambas se aprueban contra el mismo saldo disponible. ¿Cuál es el MEJOR control para reducir esta situación en la aplicación de pagos?",
+      "opciones": [
+        "Desactivar la caché del cliente",
+        "Aumentar la retención de registros",
+        "Aplicar transacciones de base de datos",
+        "Rotar los secretos de la aplicación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las transacciones con aislamiento adecuado hacen que la comprobación y actualización del saldo se ejecuten de forma atómica, evitando condiciones de carrera."
+    },
+    {
+      "pregunta": "Un responsable de seguridad prepara un plan de mejora de gestión de riesgos para una empresa que adopta rápidamente servicios móviles y cloud. Solo puede financiar una iniciativa este trimestre. ¿Qué opción ayudaría MEJOR a gestionar el riesgo residual cambiante a lo largo del tiempo?",
+      "opciones": [
+        "Un único memorando para usuarios",
+        "Un escaneo de referencia único",
+        "Programa de monitorización continua",
+        "Reescritura anual de políticas"
+      ],
+      "respuesta": 2,
+      "explicacion": "La monitorización continua permite evaluar de forma sostenida la eficacia de los controles y detectar cambios en la exposición y el riesgo residual."
+    },
+    {
+      "pregunta": "El servicio DNS empresarial se vuelve inestable durante una campaña regional de ataques. Los servidores web siguen funcionando, pero las demoras de resolución de nombres impiden a los clientes acceder a los sitios. ¿Qué categoría de ataque encaja MEJOR?",
+      "opciones": [
+        "Inundación de consultas DNS",
+        "Inundación de handshake SYN",
+        "Inundación ICMP por broadcast",
+        "Ataque de ARP spoofing"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una inundación de consultas DNS sobrecarga los servidores de resolución y puede impedir el acceso a sitios web aunque los servidores web sigan operativos."
+    },
+    {
+      "pregunta": "Un contratista de defensa utiliza un entorno air-gapped para sistemas de investigación sensibles. La dirección pide la salvaguarda administrativa MÁS importante para reducir el uso indebido interno sin volver a conectar los sistemas. ¿Qué acción debe implementarse primero?",
+      "opciones": [
+        "Habilitar Wi-Fi para invitados",
+        "Añadir filtrado de redes sociales",
+        "Registrar el acceso físico",
+        "Aumentar la compartición de escritorios"
+      ],
+      "respuesta": 2,
+      "explicacion": "En sistemas aislados, registrar y revisar el acceso físico mejora la responsabilidad y permite investigar posibles acciones internas no autorizadas."
+    },
+    {
+      "pregunta": "Un hospital regional está rediseñando el acceso al sistema de historias clínicas electrónicas. Enfermería, médicos y facturación deben recibir permisos según sus funciones laborales, y las nuevas altas deben aprovisionarse rápidamente mediante el servicio de directorio. ¿Qué modelo de control de acceso encaja MEJOR?",
+      "opciones": [
+        "Control de acceso discrecional",
+        "Control de acceso basado en roles",
+        "Control de acceso obligatorio",
+        "Control de acceso basado en reglas"
+      ],
+      "respuesta": 1,
+      "explicacion": "RBAC asigna permisos a roles organizativos como enfermero o personal de facturación, facilitando un aprovisionamiento coherente y escalable."
+    },
+    {
+      "pregunta": "Una empresa de fabricación dispone de poco personal y presupuesto, pero debe mejorar rápidamente su postura de seguridad tras varios incidentes relacionados con accesos. ¿Qué conjunto de prioridades ofrece el MAYOR valor inmediato?",
+      "opciones": [
+        "Instalaciones, catering y planificación de eventos",
+        "Prácticas de incidentes, cambios y accesos",
+        "Marca, analítica y respuesta a medios",
+        "Marketing, compras y controles de viajes"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gestión de incidentes, el control de cambios y la gestión de accesos reducen directamente riesgos operativos y de seguridad con gran impacto."
+    },
+    {
+      "pregunta": "Una empresa de software decide si desplegar una nueva aplicación orientada a clientes en contenedores o máquinas virtuales. El requisito principal es lanzar instancias adicionales en segundos durante picos impredecibles y mantener bajos los costes. ¿Qué opción debe recomendar el arquitecto?",
+      "opciones": [
+        "Usar máquinas virtuales dedicadas",
+        "Usar servidores físicos más grandes",
+        "Usar contenedores ligeros",
+        "Usar clústeres de failover manuales"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los contenedores arrancan rápidamente y consumen menos recursos que las máquinas virtuales completas, por lo que son adecuados para escalado elástico."
+    },
+    {
+      "pregunta": "Un fabricante de tarjetas inteligentes valida un nuevo dispositivo de pago. La implementación criptográfica es matemáticamente sólida, pero se pueden recuperar claves observando pequeñas diferencias en los tiempos de procesamiento. ¿Qué mejora de diseño aborda MEJOR el problema?",
+      "opciones": [
+        "Rotación de claves más frecuente",
+        "Rutinas criptográficas de tiempo constante",
+        "Reglas de contraseña más fuertes",
+        "Reglas adicionales de firewall del host"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las rutinas de tiempo constante minimizan variaciones temporales dependientes de secretos y reducen ataques de canal lateral basados en timing."
+    },
+    {
+      "pregunta": "Una multinacional considera implantar key escrow para las comunicaciones de empleados. El equipo jurídico señala que las normas de acceso legal varían entre países. ¿Qué preocupación debe considerarse MÁS importante antes del despliegue?",
+      "opciones": [
+        "Lentitud en el despliegue de parches",
+        "Requisitos legales y de privacidad inconsistentes",
+        "Exceso de ajuste del filtro antispam",
+        "Cobertura inalámbrica limitada"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las diferencias entre jurisdicciones en privacidad, acceso legal y protección de datos pueden crear graves problemas de cumplimiento y confianza para un sistema de key escrow."
+    },
+    {
+      "pregunta": "Un minorista sujeto a PCI DSS identifica varias vulnerabilidades críticas en sistemas que procesan datos de tarjetas. El equipo propone esperar seis semanas hasta el próximo mantenimiento trimestral. ¿Qué debe hacer el responsable de seguridad?",
+      "opciones": [
+        "Rebajar los hallazgos a severidad media",
+        "Exigir un plan de remediación más rápido",
+        "Excluir los sistemas del escaneo",
+        "Aceptar la demora por conveniencia"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las vulnerabilidades críticas en entornos regulados requieren remediación rápida conforme a los plazos aplicables; la conveniencia operativa no justifica mantener la exposición."
+    },
+    {
+      "pregunta": "Un hospital necesita que su aplicación de historiales de pacientes siga disponible aunque falle inesperadamente el servidor principal. Los usuarios deben sufrir poca o ninguna interrupción mientras un sistema secundario asume automáticamente el procesamiento. ¿Qué diseño es MÁS adecuado?",
+      "opciones": [
+        "Clúster de servidores con failover",
+        "Modelo de segmentación VLAN",
+        "Rotación programada de copias de seguridad",
+        "Ubicación de un bastion host"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un clúster de failover permite que otro nodo asuma automáticamente la carga cuando falla el servidor principal."
+    },
+    {
+      "pregunta": "Una empresa logística ha contenido un ransomware en su plataforma de mensajería. Los empleados necesitan coordinar entregas, avisar a clientes y comunicarse con socios mientras continúa la remediación técnica. ¿Qué elemento de planificación debe utilizarse A CONTINUACIÓN?",
+      "opciones": [
+        "Plan de comunicación de crisis",
+        "Política de retención de datos",
+        "Mapa de rutas de evacuación",
+        "Calendario de escaneos de vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "El plan de comunicación de crisis establece responsables, canales y mensajes aprobados para coordinar a las partes interesadas durante una interrupción."
+    },
+    {
+      "pregunta": "Un analista recibe miles de alertas IDS diarias, muchas relacionadas con campañas legítimas de marketing que parecen picos de tráfico. El responsable del SOC quiere reducir la fatiga sin perder capacidad de detección. ¿Cuál es la MEJOR acción?",
+      "opciones": [
+        "Desactivar por completo las reglas de anomalías",
+        "Ajustar las políticas con analistas cualificados",
+        "Mover los sensores detrás de los endpoints",
+        "Sustituir el IDS por antivirus"
+      ],
+      "respuesta": 1,
+      "explicacion": "Ajustar las reglas y políticas reduce falsos positivos manteniendo la capacidad de detectar actividad realmente sospechosa."
+    },
+    {
+      "pregunta": "Un equipo de soporte investiga un iPhone con jailbreak utilizado por un ejecutivo. El usuario informa de compras no autorizadas vinculadas a la cuenta de pagos corporativa. ¿Qué riesgo del jailbreak explica MEJOR el incidente?",
+      "opciones": [
+        "El código no firmado puede ejecutarse más fácilmente",
+        "El servicio celular queda expuesto automáticamente",
+        "El cifrado del dispositivo se elimina permanentemente",
+        "La biometría deja de funcionar tras las actualizaciones"
+      ],
+      "respuesta": 0,
+      "explicacion": "El jailbreak debilita mecanismos como la firma de código, facilitando la ejecución de aplicaciones no confiables o modificadas capaces de robar credenciales."
+    },
+    {
+      "pregunta": "Una empresa lanza un portal de clientes y quiere que los usuarios envíen credenciales de forma segura por Internet sin compartir previamente un secreto con el servidor web. ¿Qué enfoque aborda MEJOR este requisito?",
+      "opciones": [
+        "Compartir una clave secreta por correo electrónico",
+        "Cifrar el tráfico con la clave privada del servidor",
+        "Usar una única contraseña para ambos extremos",
+        "Cifrar utilizando la clave pública del servidor"
+      ],
+      "respuesta": 3,
+      "explicacion": "La criptografía asimétrica permite proteger información con la clave pública del servidor para que solo su clave privada correspondiente pueda descifrarla."
+    },
+    {
+      "pregunta": "Una pequeña empresa utiliza un servidor de escritorio remoto para contabilidad. El servidor mantiene habilitada una cuenta de administrador predeterminada con un nombre conocido aunque ya existen cuentas administrativas nominales. ¿Qué acción reduciría MEJOR el riesgo de ataques de adivinación de contraseñas con mínimo impacto operativo?",
+      "opciones": [
+        "Desactivar la cuenta de administrador predeterminada",
+        "Parchear el servicio de escritorio remoto",
+        "Habilitar copias de seguridad completas diarias",
+        "Eliminar registros de eventos antiguos"
+      ],
+      "respuesta": 0,
+      "explicacion": "Deshabilitar una cuenta privilegiada predeterminada innecesaria elimina un objetivo predecible y reduce la superficie de ataque."
+    },
+    {
+      "pregunta": "Un minorista online aloja su servidor web público de forma accesible desde Internet, pero quiere impedir que su compromiso proporcione acceso directo a las bases de datos internas. ¿Qué diseño cumple MEJOR el requisito?",
+      "opciones": [
+        "Colocar el servidor web en la VLAN de administración",
+        "Colocar el servidor web en la subred de usuarios",
+        "Colocar el servidor web en la red Wi-Fi de invitados",
+        "Colocar el servidor web en una DMZ"
+      ],
+      "respuesta": 3,
+      "explicacion": "Una DMZ aísla servicios expuestos a Internet de los sistemas internos sensibles y limita el impacto de su posible compromiso."
+    },
+    {
+      "pregunta": "Una agencia gubernamental planea un entorno cloud junto con otras organizaciones públicas que comparten estándares de seguridad y requisitos de cumplimiento. Quiere compartir costes sin utilizar una plataforma pública general multiinquilino. ¿Qué modelo es MÁS adecuado?",
+      "opciones": [
+        "Nube pública para acceso general",
+        "Nube comunitaria para misiones compartidas",
+        "Nube híbrida para capacidad adicional",
+        "Nube privada para una sola agencia"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una community cloud está diseñada para organizaciones que comparten misión, requisitos de seguridad, cumplimiento u objetivos operativos."
+    },
+    {
+      "pregunta": "Un procesador de pagos debe proteger claves de cifrado utilizadas en varios sistemas regulados y demostrar controles de acceso y auditabilidad sólidos. ¿Qué solución ofrece el MEJOR ajuste general?",
+      "opciones": [
+        "Desplegar HSM dedicados",
+        "Enviar las claves por correo a administradores",
+        "Archivar las claves junto con los datos",
+        "Guardar las claves en el código"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los HSM proporcionan generación, almacenamiento y uso protegido de claves, controles de acceso y trazabilidad de operaciones criptográficas."
+    },
+    {
+      "pregunta": "Una empresa de software cloud descubre un fallo crítico en una biblioteca utilizada por varias aplicaciones. Todavía no existe parche y aumentan los intentos de explotación. ¿Cuál es la MEJOR respuesta inmediata?",
+      "opciones": [
+        "Esperar al parche oficial",
+        "Retirar todos los sistemas afectados",
+        "Reconstruir todo el entorno",
+        "Aplicar rápidamente mitigaciones temporales"
+      ],
+      "respuesta": 3,
+      "explicacion": "Cuando existe explotación activa y no hay parche, deben aplicarse controles compensatorios o mitigaciones temporales para reducir la exposición."
+    },
+    {
+      "pregunta": "Un banco rediseña su arquitectura de seguridad de correo y web. El arquitecto quiere que el sandboxing mejore la resiliencia sin crear una falsa sensación de protección completa. ¿Qué estrategia es la MEJOR?",
+      "opciones": [
+        "Integrarlo con controles en capas",
+        "Utilizarlo como única defensa contra malware",
+        "Desplegarlo únicamente para ejecutivos",
+        "Restringirlo a auditorías anuales"
+      ],
+      "respuesta": 0,
+      "explicacion": "El sandboxing debe formar parte de una estrategia de defensa en profundidad junto con controles de red, endpoints, detección y respuesta."
+    },
+    {
+      "pregunta": "Una empresa sufrió un brote de malware que interrumpió servidores de archivos y acceso remoto. Tras el incidente se comprobó que el plan de continuidad había subestimado el impacto sobre soporte al cliente porque varios equipos dependían de la misma plataforma de autenticación. ¿Qué debilidad de la BIA causó MÁS probablemente este problema?",
+      "opciones": [
+        "Rotación infrecuente de contraseñas",
+        "Falta de mapeo de dependencias",
+        "Escaneo de vulnerabilidades retrasado",
+        "Retención excesiva de copias de seguridad"
+      ],
+      "respuesta": 1,
+      "explicacion": "La BIA no identificó correctamente una dependencia común crítica, por lo que subestimó el impacto en múltiples funciones de negocio."
+    },
+    {
+      "pregunta": "Un ingeniero compara dos planes tras descubrir que la clave privada de un servidor podría haberse expuesto. El plan 1 mantiene el intercambio de claves RSA tradicional. El plan 2 utiliza Diffie-Hellman efímero en TLS. Si la principal preocupación es proteger tráfico capturado anteriormente, ¿qué plan debe elegirse?",
+      "opciones": [
+        "Plan 1, por la validación de la CA",
+        "Plan 1, por su despliegue más sencillo",
+        "Plan 2, por una revocación más rápida",
+        "Plan 2, por forward secrecy"
+      ],
+      "respuesta": 3,
+      "explicacion": "El Diffie-Hellman efímero proporciona forward secrecy, evitando que el compromiso posterior de la clave privada de largo plazo permita descifrar sesiones anteriores."
+    },
+    {
+      "pregunta": "Una universidad probó una nueva puerta de enlace de seguridad de correo en laboratorio. Bloqueó muchos mensajes maliciosos, pero también puso en cuarentena gran cantidad de correos legítimos. ¿Qué debe hacer el equipo de seguridad A CONTINUACIÓN?",
+      "opciones": [
+        "Ajustar las políticas antes del despliegue",
+        "Ampliar inmediatamente el despliegue",
+        "Sustituir los módulos de formación",
+        "Desactivar la cuarentena"
+      ],
+      "respuesta": 0,
+      "explicacion": "El propósito de una prueba de concepto es detectar problemas como falsos positivos y ajustar la configuración antes del despliegue general."
+    },
+    {
+      "pregunta": "La autoridad certificadora interna de una organización emite certificados para VPN y sistemas de intranet. ¿Por qué debe protegerse el entorno de la CA más que la mayoría de servidores?",
+      "opciones": [
+        "Alojar una CA reduce la reutilización de contraseñas",
+        "Los servidores CA procesan la mayor cantidad de tráfico",
+        "El compromiso de la CA rompe el modelo de confianza",
+        "Los sistemas CA sustituyen todos los firewalls"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una CA es una raíz central de confianza; si se compromete, un atacante puede emitir certificados fraudulentos y socavar todo el sistema PKI."
+    },
+    {
+      "pregunta": "Un programa multinacional de analítica utiliza grid computing entre organizaciones asociadas. Los datos contienen investigación propietaria y cada socio quiere garantizar que solo participen usuarios y sistemas autorizados. ¿Qué conjunto de controles es MÁS apropiado?",
+      "opciones": [
+        "Certificados y acuerdos formales",
+        "MFA y segmentación",
+        "Thin clients y brokers",
+        "Parches y autoescalado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los certificados digitales establecen identidades de confianza y los acuerdos formales definen las relaciones y obligaciones entre organizaciones participantes."
+    },
+    {
+      "pregunta": "Una startup de rápido crecimiento afirma que los procesos formales de TI frenan la innovación, por lo que los equipos hacen cambios en producción sin revisión. Ya se han producido varias interrupciones menores. ¿Cuál es la MEJOR recomendación?",
+      "opciones": [
+        "Detener todos los cambios hasta madurar un framework",
+        "Aplicar controles basados en riesgo que preserven la agilidad",
+        "Centrarse solo en documentación posterior a incidentes",
+        "Dejar todas las decisiones a cada equipo técnico"
+      ],
+      "respuesta": 1,
+      "explicacion": "Los controles basados en riesgo permiten conservar velocidad y flexibilidad mientras se gestionan de forma proporcional los riesgos de cambios en producción."
+    },
+    {
+      "pregunta": "Una empresa de fabricación tiene cámaras en muelles de carga, entradas y aparcamiento. Una revisión detecta puntos ciegos y poca visibilidad nocturna. ¿Qué acción mejoraría MÁS la eficacia de la monitorización?",
+      "opciones": [
+        "Reposicionar estratégicamente las cámaras",
+        "Extender la caducidad de las tarjetas de acceso",
+        "Sustituir los libros de visitas",
+        "Añadir únicamente carteles de advertencia"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una ubicación estratégica de las cámaras reduce puntos ciegos y mejora la cobertura de las zonas que requieren vigilancia."
+    },
+    {
+      "pregunta": "Un equipo de desarrollo creó un flujo de transferencia de fondos que valida al usuario al iniciar sesión, pero no vuelve a comprobar la autorización cuando se modifican límites mediante una API oculta. Un atacante manipula el flujo y realiza transferencias superiores a las permitidas. ¿Qué problema existe MÁS probablemente?",
+      "opciones": [
+        "Debilidad de claves criptográficas",
+        "Carencia de registro de eventos de seguridad",
+        "Diseño inseguro de lógica de negocio",
+        "Exposición de un componente vulnerable"
+      ],
+      "respuesta": 2,
+      "explicacion": "El problema es un fallo de diseño en la lógica del proceso que permite eludir controles de autorización en una operación sensible."
+    },
+    {
+      "pregunta": "Una empresa de generación eléctrica permite a proveedores mantener remotamente equipos de control de turbinas. Se detectan inicios de sesión de un solo factor, sesiones sin cifrar y registros inconsistentes de los cambios realizados. ¿Qué conjunto de controles debe implementarse PRIMERO?",
+      "opciones": [
+        "Sandboxing, tokenización y hashing",
+        "MFA, cifrado y audit logging",
+        "NAC, DLP y bloqueo de pantalla",
+        "Backups, clustering y load balancing"
+      ],
+      "respuesta": 1,
+      "explicacion": "MFA, cifrado de la sesión y registros de auditoría abordan directamente autenticación débil, interceptación y falta de trazabilidad en el acceso remoto OT."
+    },
+    {
+      "pregunta": "Un proveedor sanitario envía el mismo informe técnico detallado de riesgos al SOC y al consejo de administración. El consejo indica que no resulta útil para tomar decisiones. ¿Cuál es la MEJOR mejora?",
+      "opciones": [
+        "Adaptar los informes a cada audiencia",
+        "Enviar los informes con menor frecuencia",
+        "Eliminar todas las métricas de riesgo",
+        "Sustituir los informes por dashboards"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los equipos operativos necesitan detalle técnico, mientras que los ejecutivos requieren impacto empresarial, tendencias y decisiones necesarias."
+    },
+    {
+      "pregunta": "Un hospital diseña seguridad de endpoints para personal clínico, facturación y contratistas remotos. Debe abordar malware, uso interno indebido, exfiltración y cumplimiento sin depender de un único control. ¿Cuál es la MEJOR estrategia general?",
+      "opciones": [
+        "Estandarizar únicamente antivirus",
+        "Aplicar controles de endpoint integrados y en capas",
+        "Cifrar únicamente los portátiles",
+        "Centrarse únicamente en el perímetro de red"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una estrategia de defensa en profundidad combinando EPP, EDR, DLP, cifrado y otros controles cubre distintos riesgos y evita depender de una sola tecnología."
+    },
+    {
+      "pregunta": "Después de un incidente grave, el blue team mapea cada paso del atacante a MITRE ATT&CK y observa buena cobertura en initial access y execution, pero poca visibilidad en lateral movement y exfiltration. ¿Cuál es la conclusión MÁS útil?",
+      "opciones": [
+        "El equipo debería retirar las detecciones actuales",
+        "El equipo ha identificado brechas defensivas",
+        "El incidente se contuvo completamente al inicio",
+        "El atacante utilizó únicamente herramientas comunes"
+      ],
+      "respuesta": 1,
+      "explicacion": "La cobertura desigual entre tácticas revela brechas de detección y monitorización que pueden utilizarse para priorizar mejoras."
+    },
+    {
+      "pregunta": "Una multinacional comparte documentos contractuales sensibles con equipos regionales. Quiere que los archivos solo puedan abrirse desde países aprobados y durante un periodo de revisión de dos semanas. ¿Qué capacidad lo soporta MEJOR?",
+      "opciones": [
+        "Restricciones geográficas y temporales",
+        "Reglas de antivirus y sandbox",
+        "Controles de VLAN y subred",
+        "Políticas de backup y retención"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las restricciones contextuales de ubicación y tiempo pueden aplicarse mediante gestión de derechos para controlar el uso del archivo después de compartirlo."
+    },
+    {
+      "pregunta": "Un proveedor sanitario actualiza su programa de seguridad inalámbrica tras una auditoría que encontró deficiencias en controles técnicos, documentación y preparación ante incidentes. ¿Cuál es el MEJOR siguiente paso que apoya tanto cumplimiento como respuesta operativa?",
+      "opciones": [
+        "Dejar de anunciar todos los SSID",
+        "Desplegar un plan de respuesta a incidentes inalámbricos",
+        "Eliminar el acceso a la red de invitados",
+        "Sustituir todos los portátiles"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un plan específico de respuesta a incidentes inalámbricos mejora preparación, documentación, responsabilidades y capacidad de respuesta conforme a requisitos regulatorios."
+    },
+    {
+      "pregunta": "Una empresa financiera desplegó FIM en servidores de trading. Tras una actualización aprobada, el SOC recibe cientos de alertas por cambios legítimos en ejecutables y configuraciones. ¿Qué debe hacer PRIMERO el equipo para mejorar la eficacia del control?",
+      "opciones": [
+        "Actualizar las líneas base mediante control de cambios",
+        "Desactivar alertas durante ventanas de parcheo",
+        "Enviar menos eventos al SIEM",
+        "Reconstruir todos los servidores afectados"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las líneas base de FIM deben actualizarse mediante un proceso de cambios autorizado para distinguir modificaciones legítimas de cambios no autorizados."
+    },
+    {
+      "pregunta": "Un despacho jurídico necesita enviar contratos electrónicamente y quiere que los destinatarios puedan verificar quién firmó cada documento y detectar cualquier modificación posterior. ¿Qué control debe implementar PRIMERO?",
+      "opciones": [
+        "Cifrados simétricos para copias de seguridad",
+        "Cifrado de disco en reposo",
+        "Hashing sin pares de claves",
+        "Firmas digitales en los archivos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las firmas digitales proporcionan autenticidad, integridad y no repudio al permitir verificar el firmante y detectar alteraciones."
+    },
+    {
+      "pregunta": "Tras un incidente menor de uso indebido interno, una organización quiere mejorar su resiliencia mediante defensa en profundidad. Ya dispone de controles preventivos y solo puede financiar una incorporación inmediata. ¿Qué opción complementa MEJOR esos controles mejorando recogida de evidencias y respuesta?",
+      "opciones": [
+        "Ampliar IDS y monitorización de registros",
+        "Cambiar la distribución del mobiliario del vestíbulo",
+        "Añadir más señales de advertencia perimetrales",
+        "Reescribir el formulario de gastos de viaje"
+      ],
+      "respuesta": 0,
+      "explicacion": "IDS y monitorización de logs añaden capacidad detective, mejoran visibilidad y proporcionan evidencia para investigar incidentes."
+    },
+    {
+      "pregunta": "Un analista investiga posible actividad on-path en una sucursal y necesita una herramienta que permita identificar patrones sospechosos y dispositivos no autorizados comunicándose en el segmento. ¿Qué opción sería MÁS útil?",
+      "opciones": [
+        "Revisión del password vault",
+        "Análisis de captura de paquetes",
+        "Auditoría de eliminación de activos",
+        "Escaneo de código fuente"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis de paquetes permite observar tráfico, ARP, DNS y hosts inesperados, ayudando a detectar indicios de interceptación o redirección."
+    },
+    {
+      "pregunta": "Un auditor pide a un proveedor sanitario demostrar que los cambios realizados sobre registros sensibles y pistas de auditoría pueden reconstruirse durante una investigación. Ya dispone de backups y protección de endpoints. ¿Qué capacidad adicional satisfaría MEJOR la solicitud?",
+      "opciones": [
+        "Rotación programada de contraseñas",
+        "Resolución DNS cifrada",
+        "Líneas base de rendimiento de red",
+        "Registro detallado de eventos de archivos"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los eventos detallados de archivos permiten conocer qué se cambió, cuándo y por qué cuenta, aportando trazabilidad forense."
+    },
+    {
+      "pregunta": "Una empresa financiera quiere reducir el impacto de una futura brecha. ¿Qué control seguiría protegiendo la confidencialidad de los datos de clientes incluso si los atacantes consiguen exfiltrar los archivos almacenados?",
+      "opciones": [
+        "Ampliar la formación contra phishing",
+        "Segmentar los puestos de usuario",
+        "Aumentar la retención del SIEM",
+        "Cifrar los datos sensibles"
+      ],
+      "respuesta": 3,
+      "explicacion": "El cifrado hace que los archivos robados sean ininteligibles si el atacante no obtiene también las claves de descifrado."
+    },
+    {
+      "pregunta": "Un responsable de desarrollo pregunta si el equipo debería crear su propio algoritmo de cifrado ligero para ahorrar batería en una aplicación móvil. ¿Cuál es la respuesta MÁS adecuada?",
+      "opciones": [
+        "Crear criptografía propia para mejorar rendimiento",
+        "Reutilizar algoritmos antiguos por compatibilidad",
+        "Utilizar bibliotecas criptográficas de confianza de la plataforma",
+        "Guardar las claves en la configuración de la aplicación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Debe utilizarse criptografía estándar y bibliotecas mantenidas y auditadas; las implementaciones propias suelen introducir errores graves."
+    },
+    {
+      "pregunta": "Una empresa de trading financiero diseña una nueva instalación para sistemas que requieren latencia muy baja y, al mismo tiempo, debe cumplir legislación sobre tratamiento de datos sensibles. ¿Qué enfoque de planificación aborda MEJOR ambos requisitos?",
+      "opciones": [
+        "Elegir una instalación compartida con acceso común",
+        "Elegir una instalación remota con alquiler más bajo",
+        "Elegir una instalación cercana y alineada legalmente",
+        "Elegir una instalación visible con mejor aparcamiento"
+      ],
+      "respuesta": 2,
+      "explicacion": "La proximidad ayuda a reducir latencia y la elección de una jurisdicción adecuada garantiza el cumplimiento de requisitos legales y de privacidad."
+    },
+    {
+      "pregunta": "Un minorista quiere saber cómo intentaría comprometer su entorno público un atacante real desde Internet. Los testers no deben recibir diagramas internos, credenciales ni código fuente. ¿Qué metodología encaja MEJOR?",
+      "opciones": [
+        "Evaluación white box",
+        "Evaluación gray box",
+        "Revisión interna de código",
+        "Evaluación black box"
+      ],
+      "respuesta": 3,
+      "explicacion": "Black box simula a un atacante externo sin conocimiento previo del entorno, obligando a realizar reconocimiento y descubrimiento."
+    },
+    {
+      "pregunta": "Un SOC está saturado de alertas de intrusión y los analistas han empezado a ignorar muchas notificaciones. La dirección teme que se pierdan ataques reales. ¿Qué acción es MÁS apropiada?",
+      "opciones": [
+        "Desactivar eventos de baja severidad",
+        "Aumentar permanentemente los umbrales",
+        "Refinar regularmente la lógica de detección",
+        "Rotar a los analistas con mayor frecuencia"
+      ],
+      "respuesta": 2,
+      "explicacion": "La mejora continua de reglas y lógica de detección reduce falsos positivos y mejora la relación señal-ruido sin crear puntos ciegos."
+    },
+    {
+      "pregunta": "Un hospital regional rediseña la conectividad de bombas de infusión que deben permanecer disponibles y protegidas contra malware. Las actualizaciones son poco frecuentes y solo pueden realizarse mediante mantenimiento muy controlado. ¿Qué método de comunicación encaja MEJOR?",
+      "opciones": [
+        "Red air-gapped para los dispositivos",
+        "Acceso público a Internet",
+        "Red empresarial compartida",
+        "Segmento inalámbrico plano"
+      ],
+      "respuesta": 0,
+      "explicacion": "Una red aislada proporciona el máximo aislamiento frente a amenazas externas y se adapta a sistemas actualizados mediante procedimientos manuales controlados."
+    },
+    {
+      "pregunta": "Un proveedor sanitario quiere compartir datos de pacientes con una empresa externa de analítica minimizando la exposición de identificadores como nombres y números de seguro. ¿Qué control apoya MEJOR este objetivo?",
+      "opciones": [
+        "Archivar los campos sensibles",
+        "Replicar los campos sensibles",
+        "Tokenizar los campos sensibles",
+        "Difundir los campos sensibles"
+      ],
+      "respuesta": 2,
+      "explicacion": "La tokenización sustituye identificadores sensibles por valores no sensibles, manteniendo la utilidad del conjunto de datos con menor riesgo de privacidad."
+    },
+    {
+      "pregunta": "Un responsable de seguridad compara dos propuestas para una plataforma de mensajería. La primera usa solo cifrado híbrido; la segunda combina cifrado híbrido y firmas digitales. Si se necesitan confidencialidad, autenticación del remitente e integridad, ¿cuál debe elegirse?",
+      "opciones": [
+        "Propuesta 1, porque el cifrado híbrido ya demuestra la identidad del remitente",
+        "Propuesta 2, porque las firmas añaden autenticidad e integridad",
+        "Propuesta 2, porque las firmas sustituyen la necesidad de cifrado",
+        "Propuesta 1, porque el cifrado simétrico valida el origen"
+      ],
+      "respuesta": 1,
+      "explicacion": "El cifrado híbrido aporta confidencialidad y las firmas digitales añaden autenticidad e integridad, por lo que la segunda propuesta cubre los tres requisitos."
+    },
+    {
+      "pregunta": "El comité de riesgos recibe informes mensuales donde varios riesgos aparecen como aceptados, pero no existe justificación documentada ni historial de aprobación. Un miembro afirma que basta con la aprobación verbal de los responsables. ¿Qué debe hacer el security manager?",
+      "opciones": [
+        "Mantener únicamente las aprobaciones verbales",
+        "Exigir registros formales de aceptación",
+        "Convertir los riesgos aceptados en incidencias",
+        "Reclasificarlos como riesgo bajo"
+      ],
+      "respuesta": 1,
+      "explicacion": "La aceptación de riesgo debe quedar formalmente documentada, incluyendo justificación y aprobación, para garantizar responsabilidad y auditabilidad."
+    },
+    {
+      "pregunta": "Una multinacional quiere que sus controles de seguridad sigan siendo eficaces a medida que cambian modelos de negocio, tecnologías y relaciones con socios. ¿Qué práctica mantiene MEJOR la alineación a largo plazo?",
+      "opciones": [
+        "Delegar las decisiones de políticas únicamente en especialistas técnicos",
+        "Bloquear la estrategia actual durante tres años",
+        "Limitar la participación de interesados a reuniones presupuestarias anuales",
+        "Mantener comunicación continua entre gobierno y gestión"
+      ],
+      "respuesta": 3,
+      "explicacion": "La comunicación continua permite que gestión y gobierno ajusten prioridades y estrategia conforme cambian riesgos y condiciones empresariales."
+    },
+    {
+      "pregunta": "Una empresa minorista realiza una BIA de su proceso de pedidos online. Ya ha identificado la pasarela de pagos, el sistema de preparación de almacén y la API del transportista. ¿Qué debe hacer A CONTINUACIÓN para mejorar la calidad del análisis?",
+      "opciones": [
+        "Redactar primero comunicaciones para clientes",
+        "Programar simulacros de evacuación",
+        "Mapear completamente las dependencias del proceso",
+        "Comprar inmediatamente servidores de respaldo"
+      ],
+      "respuesta": 2,
+      "explicacion": "El mapeo de dependencias identifica relaciones ascendentes, descendentes y servicios compartidos que pueden alterar el verdadero impacto de una interrupción."
+    },
+    {
+      "pregunta": "Un responsable de seguridad compara propuestas para reforzar una infraestructura virtual administrada por varias personas. Una añade contraseñas únicas robustas, MFA y restricciones RBAC para administrar el hipervisor; otra solo añade más antivirus dentro de las VM. ¿Cuál debe elegirse PRIMERO?",
+      "opciones": [
+        "Añadir más antivirus en las VM",
+        "Reforzar los controles de acceso al hipervisor",
+        "Aumentar la frecuencia de snapshots",
+        "Ampliar la disponibilidad de API públicas"
+      ],
+      "respuesta": 1,
+      "explicacion": "El plano de administración del hipervisor controla múltiples máquinas virtuales, por lo que protegerlo con MFA y mínimo privilegio ofrece un impacto de seguridad mayor."
+    },
+    {
+      "pregunta": "Una empresa permite que el mismo responsable de infraestructura despliegue controles de endpoint, revise sus registros y certifique que funcionan correctamente. ¿Cuál es la razón PRINCIPAL para oponerse a esta situación?",
+      "opciones": [
+        "Debilita la separación de funciones",
+        "Aumenta los costes de formación",
+        "Retrasa la contención de incidentes",
+        "Reduce la competencia entre proveedores"
+      ],
+      "respuesta": 0,
+      "explicacion": "La misma persona no debería implementar y auditar sus propios controles porque se pierde independencia y se incrementa el riesgo de error o conflicto de intereses."
+    },
+    {
+      "pregunta": "Una empresa global quiere medir la eficacia de su programa de concienciación de seguridad. La dirección pide un único número para el dashboard trimestral. ¿Cuál es la MEJOR respuesta del profesional de seguridad?",
+      "opciones": [
+        "Usar únicamente hallazgos de auditoría",
+        "Usar únicamente la tasa de fallos de phishing",
+        "Utilizar múltiples medidas de eficacia",
+        "Usar únicamente la tasa de finalización de formación"
+      ],
+      "respuesta": 2,
+      "explicacion": "La eficacia de un programa de awareness requiere combinar métricas como simulaciones, resultados, finalización, reportes y feedback, no depender de un único indicador."
+    },
+    {
+      "pregunta": "Un proveedor sanitario está desplegando un SIEM en hospitales, clínicas y aplicaciones cloud. Necesita recopilar registros de eventos Windows y Linux de muchos servidores con impacto mínimo en rendimiento. ¿Qué componente debe instalarse primero en esos hosts?",
+      "opciones": [
+        "Agente universal de forwarding",
+        "Proceso de exportación de flujos de red",
+        "Servicio de polling de estado de dispositivos",
+        "Nodo central de normalización de logs"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un universal forwarder es un agente ligero diseñado para recopilar logs locales y enviarlos de forma eficiente a la infraestructura SIEM."
+    },
+    {
+      "pregunta": "Una multinacional despliega una nueva plataforma de detección de incidentes y quiere mejorar el tiempo de respuesta sin generar ruido. ¿Qué decisión de diseño es MÁS importante durante la implantación?",
+      "opciones": [
+        "Maximizar el volumen de alertas por defecto",
+        "Enviar todos los eventos a todos los equipos",
+        "Desactivar el enriquecimiento automatizado",
+        "Garantizar que las alertas incluyan contexto de respuesta"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las alertas accionables con contexto permiten valorar rápidamente el impacto y responder, reduciendo tiempo de análisis y fatiga."
+    },
+    {
+      "pregunta": "Una empresa global quiere proteger rápidamente varias aplicaciones web públicas sin añadir appliances locales. También quiere que el proveedor gestione escalado y mantenimiento. ¿Qué opción de despliegue WAF encaja MEJOR?",
+      "opciones": [
+        "Despliegue hardware inline",
+        "Firewall local del host",
+        "Servicio gestionado basado en cloud",
+        "Despliegue pasivo mediante tráfico reflejado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un WAF gestionado en la nube ofrece escalado, mantenimiento delegado y protección centralizada sin requerir infraestructura local adicional."
+    },
+    {
+      "pregunta": "Una empresa construye una PKI interna para certificados de smart cards y VPN. Quiere reducir la emisión no autorizada exigiendo verificar la identidad antes de aprobar cada certificado. ¿Qué componente debe realizar esa función?",
+      "opciones": [
+        "Registration Authority",
+        "Servicio de Online Responder",
+        "Almacén de confianza raíz",
+        "Hardware Security Module"
+      ],
+      "respuesta": 0,
+      "explicacion": "La RA verifica la identidad del solicitante y valida la solicitud antes de que la CA emita el certificado."
+    },
+    {
+      "pregunta": "Una empresa financiera descubre que un atacante explotó una vulnerabilidad antes de que el proveedor publicara una corrección. Las herramientas basadas en firmas no alertaron, pero después se observaron comportamientos de procesos anómalos. ¿Qué control habría sido MÁS útil para detectarlo antes?",
+      "opciones": [
+        "Formación mensual de concienciación",
+        "Cifrado completo de disco",
+        "Monitorización conductual de endpoints",
+        "Revisión anual del firewall"
+      ],
+      "respuesta": 2,
+      "explicacion": "La monitorización conductual puede detectar actividad anómala aunque todavía no exista firma ni parche para una vulnerabilidad zero-day."
+    },
+    {
+      "pregunta": "Una universidad puede tolerar hasta cuatro horas de caída de su plataforma educativa, pero no más de 15 minutos de pérdida de entregas de estudiantes. ¿Qué combinación se ajusta MEJOR?",
+      "opciones": [
+        "RTO de 15 minutos y RPO de 4 horas",
+        "RTO de 4 horas y RPO de 15 minutos",
+        "RTO de 4 horas y MTD de 15 minutos",
+        "RTO de 15 minutos y MTD de 4 horas"
+      ],
+      "respuesta": 1,
+      "explicacion": "RTO define el tiempo máximo objetivo para restaurar el servicio y RPO la cantidad máxima de datos que se puede perder."
+    },
+    {
+      "pregunta": "Una universidad revisa su defensa de red tras un incidente de malware. Los firewalls bloquean tráfico no autorizado, el SOC revisa alertas IDS y los backups restauran sistemas afectados. ¿Qué afirmación describe MEJOR este enfoque?",
+      "opciones": [
+        "Utiliza tipos de controles en capas",
+        "Elimina el riesgo residual",
+        "Depende de salvaguardas físicas",
+        "Sustituye el mantenimiento de líneas base"
+      ],
+      "respuesta": 0,
+      "explicacion": "Se combinan controles preventivos, detectivos y correctivos, lo que constituye una estrategia de defensa en profundidad."
+    },
+    {
+      "pregunta": "Una empresa financiera utiliza nube privada para pagos y quiere enviar temporalmente cargas analíticas no sensibles a una nube pública durante picos. La dirección teme que los controles sean distintos en cada entorno. ¿Qué riesgo debe abordarse PRIMERO?",
+      "opciones": [
+        "Disponibilidad limitada del proveedor",
+        "Menor propiedad del hardware",
+        "Latencia excesiva de almacenamiento",
+        "Aplicación inconsistente de políticas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los entornos híbridos necesitan políticas y controles coherentes entre plataformas para evitar brechas de acceso, protección y monitorización."
+    },
+    {
+      "pregunta": "Un hospital actualiza el inventario de dispositivos médicos, portátiles y repositorios de datos. Quiere responsabilidad clara de cada activo y documentar quién realiza las tareas diarias de protección. ¿Qué enfoque cumple MEJOR el requisito?",
+      "opciones": [
+        "Registrar propietario y custodio",
+        "Registrar usuario y aprobador",
+        "Registrar proveedor y comprador",
+        "Registrar auditor y gerente"
+      ],
+      "respuesta": 0,
+      "explicacion": "El propietario mantiene la responsabilidad última y el custodio se encarga de la operación y protección diaria del activo."
+    },
+    {
+      "pregunta": "Una empresa quiere que reglas de firewall, políticas de acceso y controles de despliegue se apliquen de forma coherente en desarrollo, pruebas y producción. Los cambios manuales están generando configuration drift. ¿Qué enfoque lo aborda MEJOR?",
+      "opciones": [
+        "Exigir más revisiones administrativas",
+        "Programar reuniones mensuales de línea base",
+        "Centralizar todos los tickets de cambio",
+        "Gestionar las políticas como código"
+      ],
+      "respuesta": 3,
+      "explicacion": "Security as Code permite aplicar configuraciones de forma automatizada, repetible y coherente, reduciendo errores humanos y drift."
+    },
+    {
+      "pregunta": "Una empresa global despliega VNFs en varias regiones cloud. Una revisión descubre que algunas funciones de inspección podrían procesar datos regulados fuera de jurisdicciones autorizadas. ¿Qué control debe implementarse PRIMERO?",
+      "opciones": [
+        "Políticas automáticas de ubicación con pistas de auditoría",
+        "Captura adicional de paquetes en cada edge",
+        "Más acceso administrativo para troubleshooting",
+        "Escaneos de vulnerabilidades más frecuentes"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las políticas de colocación impiden desplegar VNFs en regiones no aprobadas y los logs permiten demostrar cumplimiento de requisitos de residencia de datos."
+    },
+    {
+      "pregunta": "Un centro de datos universitario aloja sistemas que deben mantenerse online durante cortes prolongados. Ya existen UPS para cada rack. ¿Qué medida adicional mejora MEJOR la continuidad eléctrica de larga duración?",
+      "opciones": [
+        "Reducir la humedad de la sala",
+        "Instalar generadores de respaldo",
+        "Añadir más regletas contra sobretensiones",
+        "Sustituir detectores de humo"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las UPS cubren interrupciones breves; los generadores proporcionan energía durante apagones de larga duración."
+    },
+    {
+      "pregunta": "Una empresa cloud-first quiere proteger documentos sensibles usados en Microsoft 365, intercambios con socios y endpoints remotos. Necesita clasificación automática por sensibilidad y políticas de protección. ¿Cuál es la MEJOR opción?",
+      "opciones": [
+        "Gestor de parches de endpoints",
+        "Azure Information Protection",
+        "Network Access Control",
+        "Web Application Firewall"
+      ],
+      "respuesta": 1,
+      "explicacion": "Azure Information Protection permite clasificar documentos y aplicar controles persistentes basados en su sensibilidad."
+    },
+    {
+      "pregunta": "Un administrador explica a ejecutivos por qué la computación cuántica afecta a la estrategia criptográfica. ¿Qué explicación describe MEJOR el riesgo único de los ordenadores cuánticos para algunos sistemas actuales?",
+      "opciones": [
+        "Pueden resolver determinados problemas matemáticos mucho más rápido",
+        "Eliminan la necesidad de claves de cifrado",
+        "Vuelven obsoletos todos los controles de seguridad",
+        "Pueden probar todas las contraseñas simultáneamente"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los algoritmos cuánticos pueden acelerar problemas concretos como factorización y logaritmo discreto, amenazando RSA, Diffie-Hellman y ECC."
+    },
+    {
+      "pregunta": "Una empresa lanza un portal público y quiere que los usuarios se conecten sin advertencias de confianza del navegador. ¿Qué certificado cumple MEJOR el requisito?",
+      "opciones": [
+        "Certificado firmado por una CA pública",
+        "Certificado autofirmado",
+        "Certificado de dispositivo caducado",
+        "Certificado interno revocado"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los navegadores confían por defecto en las principales CA públicas, por lo que un certificado válido emitido por ellas evita advertencias de confianza."
+    },
+    {
+      "pregunta": "Una planta química rediseña los flujos entre su red de control crítica y un sistema de informes que envía datos a la red corporativa. Quiere impedir que puedan enviarse comandos de vuelta hacia el entorno de control. ¿Qué control es el MÁS adecuado?",
+      "opciones": [
+        "Appliance NAC inalámbrico",
+        "Relay de seguridad de correo",
+        "Gateway de data diode",
+        "Proxy web stateful"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una data diode aplica físicamente o lógicamente comunicación unidireccional, permitiendo salida de datos sin canal de retorno hacia OT."
+    },
+    {
+      "pregunta": "Un proveedor sanitario almacena historiales que deben permanecer confidenciales durante muchos años. Aunque los ordenadores cuánticos a gran escala aún no existen, quiere reducir la exposición futura. ¿Qué riesgo justifica MÁS iniciar ya la transición a criptografía quantum-safe?",
+      "opciones": [
+        "Mayor reutilización externa de contraseñas",
+        "Capturar ahora tráfico para descifrarlo en el futuro",
+        "Propagación interna más rápida de malware",
+        "Más phishing contra personal clínico"
+      ],
+      "respuesta": 1,
+      "explicacion": "El riesgo harvest now, decrypt later permite que un adversario almacene hoy datos cifrados y los descifre en el futuro cuando disponga de capacidad cuántica suficiente."
+    },
+    {
+      "pregunta": "Una consultora permite a contratistas remotos conectarse a recursos internos. Tras varios incidentes de malware originados en portátiles no gestionados, quiere reducir este riesgo antes de permitir el acceso. ¿Cuál es la MEJOR opción?",
+      "opciones": [
+        "Revisar logs de conexión semanalmente",
+        "Aumentar las sesiones anuales de concienciación",
+        "Exigir comprobaciones de salud del endpoint",
+        "Mostrar banners de inicio de sesión más estrictos"
+      ],
+      "respuesta": 2,
+      "explicacion": "Las comprobaciones de postura o salud verifican que el dispositivo cumple requisitos de seguridad antes de conceder acceso a la red."
+    },
+    {
+      "pregunta": "Un SOC quiere estandarizar cómo se describe el comportamiento de atacantes en tickets, informes de amenazas y reglas de detección. Distintos equipos usan términos diferentes para la misma actividad. ¿Qué acción aborda MEJOR el problema?",
+      "opciones": [
+        "Rastrear malware únicamente mediante hashes",
+        "Clasificar incidentes solo por severidad",
+        "Sustituir reglas SIEM por analítica EDR",
+        "Adoptar terminología MITRE ATT&CK en toda la organización"
+      ],
+      "respuesta": 3,
+      "explicacion": "ATT&CK ofrece un lenguaje común de tácticas y técnicas que mejora coherencia, colaboración e intercambio de inteligencia."
+    },
+    {
+      "pregunta": "Una empresa de fabricación investiga infecciones repetidas de malware en puestos de ingeniería compartidos. Varias comenzaron después de conectar memorias USB personales. ¿Qué control reduce MEJOR este riesgo sin depender de decisiones del usuario?",
+      "opciones": [
+        "Habilitar políticas de control de dispositivos",
+        "Desplegar cifrado completo de disco",
+        "Aumentar análisis mediante sandbox",
+        "Añadir analítica de comportamiento de usuarios"
+      ],
+      "respuesta": 0,
+      "explicacion": "Las políticas de device control pueden bloquear o limitar medios USB no autorizados y permiten controlar directamente este vector de infección."
+    },
+    {
+      "pregunta": "Un minorista sujeto al GDPR descubre acceso no autorizado a una base con datos personales y confirma una probable violación de datos. ¿Qué acción debe planificarse inmediatamente?",
+      "opciones": [
+        "Esperar primero a tener certeza forense completa",
+        "Notificar únicamente a los proveedores afectados",
+        "Esperar hasta la auditoría anual",
+        "Notificar a la autoridad competente dentro de 72 horas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Cuando corresponde notificar una brecha de datos personales, el GDPR establece un plazo general de 72 horas para informar a la autoridad de control."
+    },
+    {
+      "pregunta": "Una multinacional quiere mejorar su resiliencia frente a ataques ocultos activados por condiciones o disparadores a través de desarrollo, operaciones y proveedores. ¿Qué estrategia es la MEJOR?",
+      "opciones": [
+        "Depender de una sola herramienta de detección",
+        "Externalizar todas las revisiones de código",
+        "Eliminar la formación de concienciación",
+        "Utilizar controles defensivos en capas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Las amenazas como logic bombs requieren varias capas de prevención, monitorización, control de acceso, revisión, gestión de proveedores y respuesta."
+    },
+    {
+      "pregunta": "Una agencia pública quiere mejorar el escaso reporte de problemas de seguridad. Los empleados evitan informar porque los responsables reaccionan negativamente y apenas dan seguimiento. ¿Qué acción fortalecería MÁS la cultura de riesgo?",
+      "opciones": [
+        "Reducir los requisitos de documentación",
+        "Fomentar una comunicación transparente",
+        "Aumentar las sanciones por errores",
+        "Limitar los reportes a ejecutivos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una cultura de riesgo eficaz depende de transparencia, comunicación abierta, responsabilidad y apoyo del liderazgo para que los problemas se comuniquen pronto."
+    },
+    {
+      "pregunta": "Una empresa regional abre tres nuevas sucursales y necesita que cada ubicación comparta recursos internos con la sede de forma segura por Internet. También quiere poder añadir nuevas oficinas con poco retrabajo. ¿Qué solución es MÁS adecuada?",
+      "opciones": [
+        "Clientes remotos con portales web",
+        "Túneles entre gateways de las oficinas",
+        "Proxies independientes en cada sucursal",
+        "Portátiles con split routing"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las VPN site-to-site conectan redes completas mediante gateways y pueden ampliarse incorporando nuevas sedes con túneles adicionales."
+    },
+    {
+      "pregunta": "Un proveedor sanitario está actualizando documentación de continuidad y quiere aclarar qué debe abordar principalmente el disaster recovery plan. ¿Cuál debe ser su objetivo principal?",
+      "opciones": [
+        "Restaurar sistemas TI críticos",
+        "Reconstruir todas las funciones de negocio",
+        "Aumentar el personal de atención al cliente",
+        "Reescribir políticas corporativas de riesgo"
+      ],
+      "respuesta": 0,
+      "explicacion": "El DRP se centra en restaurar infraestructura, sistemas y datos tecnológicos; la continuidad completa del negocio pertenece al BCP."
+    },
+    {
+      "pregunta": "Una empresa de software construye entornos separados de desarrollo, pruebas y producción sobre el mismo hardware físico de red. Quiere mantenerlos lógicamente aislados. ¿Qué tecnología lo soporta MEJOR?",
+      "opciones": [
+        "Software de hipervisor alojado",
+        "Abstracción del sistema de archivos",
+        "Clustering de servidores bare-metal",
+        "Capas de virtualización de red"
+      ],
+      "respuesta": 3,
+      "explicacion": "La virtualización de red permite crear redes lógicas aisladas sobre una infraestructura física compartida."
+    },
+    {
+      "pregunta": "Un hospital incorpora una nueva enfermera que necesita acceso a la historia clínica, programación y administración de medicación desde el primer día. El equipo quiere evitar retrasos y exceso de permisos. ¿Qué enfoque lo soporta MEJOR?",
+      "opciones": [
+        "Asignar acceso desde un perfil de rol de enfermería",
+        "Crear una cuenta compartida para la unidad",
+        "Hacer que el responsable apruebe cada sistema individualmente",
+        "Dar acceso amplio y recortarlo después"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un perfil RBAC permite asignar de forma rápida y consistente los permisos correspondientes a la función laboral y favorece el mínimo privilegio."
+    },
+    {
+      "pregunta": "El SIEM genera una alerta por tráfico saliente anómalo desde un equipo de finanzas. El analista confirma malware activo y quiere detener la propagación preservando evidencia. ¿Qué acción es MÁS apropiada a continuación?",
+      "opciones": [
+        "Reconstruir el equipo infectado",
+        "Restaurar archivos desde backup",
+        "Notificar al personal sobre la recuperación",
+        "Desconectar el dispositivo afectado"
+      ],
+      "respuesta": 3,
+      "explicacion": "Aislar el dispositivo es una medida de contención inmediata que limita propagación y mantiene el sistema disponible para investigación."
+    },
+    {
+      "pregunta": "Una empresa financiera migra una aplicación monolítica a microservicios y quiere que el equipo de facturación publique cambios sin retrasar autenticación o reporting. ¿Qué característica arquitectónica permite MÁS directamente este objetivo?",
+      "opciones": [
+        "Despliegue independiente de servicios",
+        "Empaquetado centralizado de la aplicación",
+        "Acceso compartido al kernel del host",
+        "Aislamiento completo del sistema operativo"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los microservicios pueden desarrollarse y desplegarse de forma independiente, permitiendo ciclos de lanzamiento separados por funcionalidad."
+    },
+    {
+      "pregunta": "Una empresa de fabricación inicia una auditoría externa de sistemas con datos personales. Los responsables de negocio temen interrupciones y retrasos de producción. ¿Qué acción reducirá MÁS probablemente la resistencia antes del trabajo de campo?",
+      "opciones": [
+        "Escalar las preocupaciones al departamento legal",
+        "Involucrar pronto a las partes interesadas",
+        "Limitar drásticamente las solicitudes de evidencia",
+        "Retrasar los informes hasta el final del trimestre"
+      ],
+      "respuesta": 1,
+      "explicacion": "La participación temprana permite explicar objetivos, alcance y expectativas y ajustar el trabajo a las necesidades operativas."
+    },
+    {
+      "pregunta": "Tras una brecha, una organización descubre que el atacante utilizó herramientas integradas del sistema operativo y API empresariales legítimas para exfiltrar datos sin instalar malware. ¿Qué respuesta estratégica debe priorizar el CISO?",
+      "opciones": [
+        "Depender de actualizaciones de firmas",
+        "Reforzar las capas de visibilidad",
+        "Confiar plenamente en aplicaciones aprobadas",
+        "Eliminar todas las herramientas administrativas"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las técnicas living-off-the-land requieren visibilidad sobre endpoints, redes, usuarios y servicios porque las firmas tradicionales pueden no distinguir el uso malicioso de herramientas legítimas."
+    },
+    {
+      "pregunta": "Una empresa de software cloud quiere que investigadores externos prueben una nueva API antes de su lanzamiento. Probar los servicios activos podría afectar a clientes. ¿Qué enfoque equilibra MEJOR seguridad y seguridad operativa?",
+      "opciones": [
+        "Retrasar las pruebas hasta después del lanzamiento",
+        "Proporcionar un entorno de pruebas no productivo",
+        "Permitir escaneo irrestricto de producción",
+        "Limitar las pruebas a desarrolladores internos"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un entorno no productivo permite pruebas externas realistas sin exponer a clientes ni servicios críticos a interrupciones innecesarias."
+    },
+    {
+      "pregunta": "Tras una prueba importante de recuperación, una universidad comprobó que las notificaciones llegaron a empleados pero no a reguladores ni contactos de medios. ¿Qué mejora reforzaría MEJOR el DRP?",
+      "opciones": [
+        "Ampliar los procedimientos de comunicación externa",
+        "Reducir el alcance del cifrado de backups",
+        "Acortar la caducidad de contraseñas",
+        "Añadir más antivirus de endpoint"
+      ],
+      "respuesta": 0,
+      "explicacion": "El DRP debe incluir procedimientos y canales para informar también a las partes externas relevantes durante una recuperación."
+    },
+    {
+      "pregunta": "Un analista observa múltiples inicios de sesión fallidos desde un país, después un inicio correcto desde otra región y finalmente la descarga de un archivo sensible. ¿Por qué el SIEM genera una alerta prioritaria?",
+      "opciones": [
+        "Comprimió los registros para ahorrar almacenamiento",
+        "Sustituyó las firmas del antivirus de endpoint",
+        "Archivó los logs para retención",
+        "Correlacionó eventos relacionados en tiempo real"
+      ],
+      "respuesta": 3,
+      "explicacion": "La correlación en tiempo real permite unir eventos aparentemente independientes y detectar patrones compatibles con compromiso de cuenta."
+    },
+    {
+      "pregunta": "Una empresa de comercio electrónico ya utiliza firewall, desarrollo seguro y escaneos trimestrales. La dirección pregunta si desplegar un WAF permite reducir las revisiones de desarrollo seguro. ¿Cuál es la MEJOR respuesta?",
+      "opciones": [
+        "Mantener intactas las defensas en capas",
+        "Usar el WAF como único control",
+        "Pasar todas las revisiones a frecuencia anual",
+        "Sustituir gradualmente las revisiones de código"
+      ],
+      "respuesta": 0,
+      "explicacion": "Un WAF complementa, pero no sustituye, la programación segura, revisión de código, evaluación de vulnerabilidades y otros controles."
+    },
+    {
+      "pregunta": "Durante un incidente, un analista sospecha que un atacante oculta datos robados dentro de imágenes enviadas por canales permitidos. ¿Qué concepto describe MEJOR este riesgo?",
+      "opciones": [
+        "Canal encubierto esteganográfico",
+        "Codificación de conjuntos de caracteres",
+        "Explotación de colisión hash",
+        "Escrow de clave simétrica"
+      ],
+      "respuesta": 0,
+      "explicacion": "La esteganografía oculta la existencia de información dentro de otros medios y puede utilizarse como canal encubierto de exfiltración."
+    },
+    {
+      "pregunta": "Una empresa cloud-first quiere mejorar la detección temprana en portátiles, servidores y móviles. Necesita visibilidad en tiempo real sobre acciones como desactivar defensas, instalar software no autorizado o abusar de herramientas del sistema. ¿Qué debe recomendar?",
+      "opciones": [
+        "Monitorización de actividad de bases de datos",
+        "CMDB",
+        "Endpoint Detection and Response",
+        "Network Access Control"
+      ],
+      "respuesta": 2,
+      "explicacion": "EDR supervisa el comportamiento en los endpoints y permite detectar, investigar y responder a acciones sospechosas directamente en los dispositivos."
+    },
+    {
+      "pregunta": "Un despacho jurídico recibe currículums por correo para una vacante. Un usuario abre un adjunto y se ejecuta malware aunque el remitente parecía legítimo. ¿Qué solución puede inspeccionar archivos sospechosos antes de que los usuarios interactúen con ellos?",
+      "opciones": [
+        "Servicio de sandboxing de adjuntos",
+        "Filtro de contenido de sitios públicos",
+        "Reinicio obligatorio mensual de contraseñas",
+        "Recordatorios impresos de clean desk"
+      ],
+      "respuesta": 0,
+      "explicacion": "El sandboxing ejecuta o analiza adjuntos sospechosos en un entorno aislado para detectar comportamiento malicioso antes de entregarlos o permitir su ejecución."
+    },
+    {
+      "pregunta": "Un hospital ofrece Wi-Fi de invitados. El responsable teme que un atacante pueda interceptar tráfico y desplazarse hacia sistemas clínicos internos. ¿Qué acción reduce MEJOR este riesgo manteniendo el acceso de invitados?",
+      "opciones": [
+        "Separar las VLAN de invitados y corporativa",
+        "Aumentar la cobertura inalámbrica",
+        "Exigir rotaciones de contraseña más frecuentes",
+        "Desactivar el autocompletado del navegador"
+      ],
+      "respuesta": 0,
+      "explicacion": "La segmentación entre red de invitados y red corporativa limita las rutas de acceso y reduce el movimiento lateral hacia sistemas sensibles."
+    },
+    {
+      "pregunta": "Una empresa logística con presupuesto limitado quiere que su política de continuidad sea realista y aplicable. ¿Qué elemento demuestra MÁS directamente que la dirección está comprometida con hacerla operativa?",
+      "opciones": [
+        "Declaración general sobre resiliencia futura",
+        "Compromiso explícito de los recursos necesarios",
+        "Lista detallada de comodidades de oficina",
+        "Orientación opcional para responsables locales"
+      ],
+      "respuesta": 1,
+      "explicacion": "Comprometer recursos humanos, financieros y tecnológicos demuestra que la política puede ejecutarse y no es solo una declaración de intenciones."
+    },
+    {
+      "pregunta": "Una empresa financiera debe demostrar due diligence y mantener configuraciones endurecidas en Windows y Linux. ¿Qué referencia reconocida debe adoptar para guiar el hardening?",
+      "opciones": [
+        "Depender de la formación de usuarios",
+        "Centrarse en cambios de contraseña",
+        "Adoptar CIS Benchmarks",
+        "Usar la configuración predeterminada del fabricante"
+      ],
+      "respuesta": 2,
+      "explicacion": "CIS Benchmarks proporciona líneas base de configuración segura reconocidas para múltiples plataformas y ayuda a demostrar diligencia y cumplimiento."
+    },
+    {
+      "pregunta": "Una empresa moderniza una aplicación antigua que todavía utiliza DES y 3DES para proteger archivos sensibles. ¿Cuál es el MEJOR siguiente paso para seguridad a largo plazo?",
+      "opciones": [
+        "Mantener 3DES con monitorización",
+        "Migrar a cifrado AES",
+        "Añadir checksums públicos a los archivos",
+        "Sustituirlo por hashing MD5"
+      ],
+      "respuesta": 1,
+      "explicacion": "AES es un cifrado de bloque moderno y ampliamente aceptado, mientras que DES y 3DES se consideran algoritmos heredados y débiles."
+    },
+    {
+      "pregunta": "Una empresa manufacturera está formalizando su programa de seguridad y quiere reducir confusión durante incidentes y alinear decisiones con objetivos de producción. ¿Qué acción debe realizar PRIMERO para definir bien los roles?",
+      "opciones": [
+        "Programar ejercicios anuales de phishing",
+        "Comprar herramientas para monitorizar equipos",
+        "Externalizar toda la gestión de incidentes",
+        "Mapear funciones según riesgo y estructura organizativa"
+      ],
+      "respuesta": 3,
+      "explicacion": "La definición eficaz de funciones parte de comprender estructura, objetivos, riesgos y responsabilidades antes de asignar autoridad y tareas concretas."
+    },
+    {
+      "pregunta": "Una empresa lanzará un nuevo dispositivo biométrico y quiere derechos exclusivos que impidan a competidores fabricar o vender el diseño del sensor durante un periodo limitado. ¿Qué acción debe apoyar el programa de seguridad?",
+      "opciones": [
+        "Registrar un eslogan de marca",
+        "Archivar fechas de creación del código",
+        "Presentar una solicitud detallada de patente",
+        "Mantener el diseño secreto sin divulgarlo"
+      ],
+      "respuesta": 2,
+      "explicacion": "Una patente permite solicitar derechos exclusivos temporales sobre una invención novedosa, útil y no obvia mediante un proceso formal de solicitud."
+    },
+    {
+      "pregunta": "Una empresa de medios ejecuta autenticación, recomendaciones y facturación como microservicios en contenedores. Solo el servicio de recomendaciones sufre mucha carga durante un evento. ¿Cuál es la MEJOR acción?",
+      "opciones": [
+        "Escalar únicamente el servicio de recomendaciones",
+        "Combinar todos los servicios en uno",
+        "Migrar todos los servicios a máquinas virtuales",
+        "Escalar todos los servicios por igual"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los microservicios permiten escalar componentes de forma independiente, evitando consumir recursos adicionales en servicios que no los necesitan."
+    },
+    {
+      "pregunta": "En una revisión trimestral se informa de que un programa de modernización de seguridad va retrasado porque las prioridades empresariales cambiaron tras una nueva oportunidad de mercado. ¿Qué debe ocurrir A CONTINUACIÓN?",
+      "opciones": [
+        "Los equipos de seguridad deben continuar sin cambios",
+        "Gobierno debe revisar prioridades utilizando el feedback de gestión",
+        "Los departamentos deben aprobar excepciones independientes",
+        "La gestión debe congelar todos los proyectos hasta fin de año"
+      ],
+      "respuesta": 1,
+      "explicacion": "La gobernanza debe utilizar la información operativa de gestión para reajustar estrategia y prioridades cuando cambia el contexto del negocio."
+    },
+    {
+      "pregunta": "Una universidad quiere que los estudiantes accedan a la red inalámbrica usando varios métodos de autenticación, incluidos certificados y smart cards. ¿Qué enfoque debe utilizar?",
+      "opciones": [
+        "Métodos EAP",
+        "Consultas LDAP",
+        "Tokens SAML",
+        "Framing PPP"
+      ],
+      "respuesta": 0,
+      "explicacion": "EAP es un framework extensible que admite múltiples métodos de autenticación robustos y se utiliza ampliamente en redes Wi-Fi empresariales."
+    },
+    {
+      "pregunta": "Una empresa migró cargas públicas al cloud. El proveedor ofrece protección DDoS, cifrado y monitorización, pero la empresa no ha configurado correctamente permisos ni privacidad. ¿Qué afirmación refleja MEJOR el modelo de responsabilidad compartida?",
+      "opciones": [
+        "El cliente solo se ocupa de la seguridad de endpoints",
+        "Todo el cumplimiento se transfiere al proveedor",
+        "Las responsabilidades de seguridad se reparten por función",
+        "El proveedor toma todas las decisiones de seguridad"
+      ],
+      "respuesta": 2,
+      "explicacion": "El proveedor protege ciertos componentes de la infraestructura cloud y el cliente sigue siendo responsable de áreas como permisos, configuración, datos y cumplimiento."
+    },
+    {
+      "pregunta": "Una empresa quiere que miles de clientes externos envíen mensajes cifrados sin compartir previamente una clave secreta. ¿Qué enfoque criptográfico encaja MEJOR?",
+      "opciones": [
+        "Tokens de hardware locales",
+        "Hashes de integridad de archivos",
+        "Claves públicas y privadas",
+        "Secretos simétricos compartidos"
+      ],
+      "respuesta": 2,
+      "explicacion": "La criptografía asimétrica permite distribuir ampliamente una clave pública manteniendo privada la clave de descifrado, evitando secretos previos compartidos."
+    },
+    {
+      "pregunta": "Una autoridad de transporte quiere mejorar la seguridad de un entorno OT antiguo que funciona continuamente y contiene controladores que no pueden parchearse durante la operación normal. ¿Qué estrategia es MÁS apropiada a corto plazo?",
+      "opciones": [
+        "Esperar hasta reemplazar todo el sistema",
+        "Parchear todos los dispositivos en horario laboral",
+        "Mover los controladores a nube pública",
+        "Añadir segmentación y controles de hardening"
+      ],
+      "respuesta": 3,
+      "explicacion": "Cuando el parcheo no es viable, segmentación, restricciones de acceso y hardening actúan como controles compensatorios para reducir el riesgo."
+    },
+    {
+      "pregunta": "Un minorista quiere registrar autenticidad de productos en blockchain, pero teme que información empresarial sensible sea visible para usuarios no autorizados. ¿Qué opción aborda MEJOR la privacidad sin abandonar blockchain?",
+      "opciones": [
+        "Cambiar a proof of work",
+        "Utilizar acceso permissioned",
+        "Aumentar el tamaño del bloque",
+        "Añadir más full nodes"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una blockchain permissioned limita quién puede participar o ver la información, reduciendo los problemas de confidencialidad de una cadena pública."
+    },
+    {
+      "pregunta": "Un hospital despliega un nuevo servidor Linux para una aplicación de programación de pacientes. Hay servicios predeterminados, aplicaciones de ejemplo y varios puertos de administración abiertos aunque solo se necesita una aplicación. ¿Qué acción debe realizarse PRIMERO?",
+      "opciones": [
+        "Desplegar agentes de backup completo",
+        "Ampliar el historial de contraseñas",
+        "Aumentar los periodos de retención de backup",
+        "Desactivar servicios y puertos innecesarios"
+      ],
+      "respuesta": 3,
+      "explicacion": "Eliminar servicios, aplicaciones y puertos innecesarios reduce inmediatamente la superficie de ataque y es una medida básica de hardening."
+    },
+    {
+      "pregunta": "Un proveedor sanitario prepara su primera prueba de penetración formal de un portal de pacientes y quiere resultados útiles sin afectar a usuarios activos. ¿Qué debe hacerse PRIMERO?",
+      "opciones": [
+        "Definir alcance y reglas de engagement",
+        "Iniciar reconocimiento de hosts de producción",
+        "Capturar tráfico de sesiones de usuarios",
+        "Ejecutar exploits contra servicios expuestos"
+      ],
+      "respuesta": 0,
+      "explicacion": "El alcance, las técnicas permitidas, las restricciones y las reglas de engagement deben acordarse antes de cualquier actividad técnica."
+    },
+    {
+      "pregunta": "Una empresa financiera rediseña el proceso de onboarding de clientes. El formulario actual solicita identificadores y datos demográficos que no son necesarios para abrir la cuenta. ¿Qué acción correctiva debe realizarse PRIMERO?",
+      "opciones": [
+        "Eliminar los campos que no sean necesarios",
+        "Cifrar todos los registros almacenados",
+        "Ampliar los plazos de retención",
+        "Publicar un aviso de privacidad más largo"
+      ],
+      "respuesta": 0,
+      "explicacion": "El principio de minimización de datos exige no recopilar información personal innecesaria; eliminar esos campos aborda la causa raíz."
+    },
+    {
+      "pregunta": "Una empresa utiliza herramientas IAM distintas para aplicaciones cloud, VPN y directorios internos. Una auditoría encuentra reglas inconsistentes y retrasos en la retirada de permisos cuando cambian los roles. ¿Qué mejora reduce MEJOR el riesgo?",
+      "opciones": [
+        "Acortar los timeouts de sesión",
+        "Ampliar las redes de invitados",
+        "Centralizar las políticas de acceso",
+        "Añadir más cuentas de usuario"
+      ],
+      "respuesta": 2,
+      "explicacion": "La gestión centralizada de políticas mejora la coherencia y facilita que los cambios de rol y desaprovisionamiento se apliquen uniformemente."
+    },
+    {
+      "pregunta": "Una empresa financiera evalúa fully homomorphic encryption para analítica de fraude en cloud. El piloto funciona, pero los procesos tardan mucho más. ¿Qué preocupación debe destacarse PRIMERO?",
+      "opciones": [
+        "Validación rota de certificados",
+        "Mayor sobrecarga de procesamiento",
+        "Debilitamiento del cifrado de transporte",
+        "Menor resistencia a colisiones hash"
+      ],
+      "respuesta": 1,
+      "explicacion": "FHE es computacionalmente muy costoso, por lo que el rendimiento y los recursos necesarios son una de sus principales limitaciones prácticas."
+    },
+    {
+      "pregunta": "Un ransomware se ha propagado a varias unidades de negocio y el SOC coordina la contención técnica. Los ejecutivos solicitan mensajes para clientes, revisión legal y planificación de notificaciones a reguladores. ¿Qué debe priorizar el SOC?",
+      "opciones": [
+        "Suspender todas las actualizaciones internas",
+        "Limitar la respuesta a los analistas",
+        "Retrasar la documentación",
+        "Seguir los protocolos de comunicación"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los protocolos establecidos coordinan SOC, dirección, legal, relaciones públicas y reguladores y garantizan comunicaciones coherentes y documentadas."
+    },
+    {
+      "pregunta": "Un equipo mueve funciones sensibles a un secure enclave y la aplicación falla al procesar conjuntos de datos grandes pese a que el host dispone de mucha RAM. ¿Cuál es la explicación MÁS probable?",
+      "opciones": [
+        "La memoria del enclave es limitada",
+        "El paging del hipervisor está desactivado",
+        "Los drivers del kernel no están firmados",
+        "Las ventanas de backup son más cortas"
+      ],
+      "respuesta": 0,
+      "explicacion": "Los enclaves suelen disponer de una cantidad limitada de memoria protegida, independientemente de la RAM total disponible en el host."
+    },
+    {
+      "pregunta": "Una empresa despliega autenticación basada en certificados para miles de sensores IoT y quiere que cada dispositivo demuestre su identidad sin depender principalmente de contraseñas. ¿Qué enfoque encaja MEJOR?",
+      "opciones": [
+        "Usar cuentas locales en cada sensor",
+        "Desactivar verificaciones de identidad durante el enrollment",
+        "Compartir una contraseña entre todos los dispositivos",
+        "Emitir certificados de dispositivo mediante PKI"
+      ],
+      "respuesta": 3,
+      "explicacion": "PKI permite asignar a cada dispositivo una identidad criptográfica única y escalable mediante certificados."
+    },
+    {
+      "pregunta": "Una empresa financiera quiere abordar el riesgo de credential replay entre empleados, contratistas y aplicaciones heredadas mediante defensa en profundidad. ¿Qué estrategia es la MEJOR?",
+      "opciones": [
+        "Obligar únicamente a cambiar contraseñas",
+        "Bloquear todas las IP extranjeras",
+        "Formar a los usuarios una vez al año",
+        "Combinar MFA, cifrado y monitorización"
+      ],
+      "respuesta": 3,
+      "explicacion": "MFA limita el uso de credenciales robadas, el cifrado evita su interceptación y la monitorización ayuda a detectar intentos de replay."
+    },
+    {
+      "pregunta": "Una empresa manufacturera presenta riesgos a la alta dirección y quiere un método sencillo que produzca resultados ordenados y comparables, mejores que etiquetas puramente narrativas. ¿Qué enfoque encaja MEJOR?",
+      "opciones": [
+        "Modelado Monte Carlo completo",
+        "Ranking semicuantitativo",
+        "Métricas exclusivamente anualizadas",
+        "Valoración exclusivamente cualitativa"
+      ],
+      "respuesta": 1,
+      "explicacion": "El análisis semicuantitativo asigna valores numéricos a juicios cualitativos y facilita clasificar riesgos sin necesitar un modelo cuantitativo complejo."
+    },
+    {
+      "pregunta": "Una empresa descubre que varios registros de productos fueron modificados sin aprobación, provocando envíos incorrectos. Necesita saber quién cambió cada registro y cuándo. ¿Qué control debe implementar PRIMERO?",
+      "opciones": [
+        "Política de minimización de datos",
+        "Plan de sanitización de medios",
+        "Transferencia segura de archivos",
+        "Registro de pistas de auditoría"
+      ],
+      "respuesta": 3,
+      "explicacion": "Los audit trails registran quién realizó cada modificación, qué cambió y cuándo, proporcionando trazabilidad y responsabilidad."
+    },
+    {
+      "pregunta": "Varios empleados remotos navegan directamente por Internet mientras están conectados a la VPN corporativa. Un analista advierte que esto puede exponer los dispositivos a amenazas fuera de los controles de la empresa. ¿Qué configuración causa MÁS probablemente el problema?",
+      "opciones": [
+        "Modo de certificados para clientes",
+        "Full tunnel para todo el tráfico",
+        "Split tunnel para tráfico web",
+        "Tunnel mode para enlaces de sucursales"
+      ],
+      "respuesta": 2,
+      "explicacion": "Split tunneling permite que parte del tráfico evite la VPN corporativa y salga directamente a Internet, eludiendo controles de seguridad centralizados."
+    },
+    {
+      "pregunta": "Una empresa sanitaria pasa de lanzamientos trimestrales a semanales, pero las revisiones de seguridad siguen ocurriendo solo antes de producción y se encuentran fallos graves muy tarde. ¿Qué cambio se alinea MEJOR con DevSecOps?",
+      "opciones": [
+        "Integrar controles de seguridad desde etapas tempranas",
+        "Separar aún más las aprobaciones de seguridad",
+        "Retrasar lanzamientos para auditorías",
+        "Ampliar únicamente las pruebas de penetración finales"
+      ],
+      "respuesta": 0,
+      "explicacion": "Shift-left integra seguridad temprana y continuamente en el ciclo de desarrollo, permitiendo detectar y corregir problemas antes y con menor coste."
+    },
+    {
+      "pregunta": "Un hospital quiere garantías más frecuentes de que sus procedimientos de privacidad y acceso funcionan y desea recomendaciones adaptadas a sus operaciones diarias. ¿Qué enfoque de auditoría encaja MEJOR?",
+      "opciones": [
+        "Auditoría anual de cumplimiento por terceros",
+        "Auditoría interna de seguridad basada en riesgos",
+        "Revisión de atestación contractual de clientes",
+        "Auditoría de certificación dirigida por regulador"
+      ],
+      "respuesta": 1,
+      "explicacion": "Una auditoría interna basada en riesgos puede ejecutarse con mayor frecuencia y orientarse específicamente a los procesos y riesgos operativos del hospital."
+    },
+    {
+      "pregunta": "Una empresa financiera quiere detener callbacks de malware conocidos y bloquear automáticamente sesiones salientes maliciosas en tiempo real. ¿Qué control es el MEJOR?",
+      "opciones": [
+        "Sensor IDS basado en red",
+        "Agente IDS basado en host",
+        "Appliance IPS basado en red",
+        "Parser SIEM centralizado"
+      ],
+      "respuesta": 2,
+      "explicacion": "Un IPS de red inspecciona tráfico inline y puede bloquear o finalizar conexiones maliciosas mientras se producen."
+    },
+    {
+      "pregunta": "Una clínica almacena historiales de pacientes en cloud y mantiene backups nocturnos. La base de datos principal está cifrada, pero los backups no. ¿Cuál es la preocupación MÁS importante?",
+      "opciones": [
+        "Los backups aumentan el tiempo de procesamiento",
+        "Los backups siguen siendo un objetivo de ataque",
+        "Los backups eluden los calendarios de retención",
+        "Los backups impiden el seguimiento de versiones"
+      ],
+      "respuesta": 1,
+      "explicacion": "Las copias de seguridad contienen los mismos datos sensibles y deben protegerse con controles equivalentes, incluido cifrado, para evitar exposición."
+    },
+    {
+      "pregunta": "Un equipo de migración cloud desplegó rápidamente controles que no cubren los principales riesgos de interrupción del servicio. ¿Qué resultado es MÁS probable?",
+      "opciones": [
+        "El riesgo inherente desaparece por completo",
+        "El riesgo residual permanece elevado",
+        "La capacidad de riesgo aumenta rápidamente",
+        "El apetito de riesgo disminuye automáticamente"
+      ],
+      "respuesta": 1,
+      "explicacion": "Si los controles no están alineados con los riesgos reales, no reducen adecuadamente la exposición y el riesgo residual sigue siendo alto."
+    },
+    {
+      "pregunta": "Una multinacional evalúa un servicio cloud de gestión de claves. La dirección valora automatización y cumplimiento, pero preocupa trasladar confianza a un tercero. ¿Qué factor es MÁS importante evaluar antes de adoptarlo?",
+      "opciones": [
+        "Madurez del roadmap de marketing",
+        "Seguridad y confiabilidad del proveedor",
+        "Número de oficinas regionales",
+        "Tamaño del catálogo de formación"
+      ],
+      "respuesta": 1,
+      "explicacion": "Al externalizar la gestión de material criptográfico crítico, la postura de seguridad y confiabilidad del proveedor se convierten en un factor central del modelo de riesgo."
+    },
+    {
+      "pregunta": "Una empresa manufacturera tiene buenos equipos técnicos, pero muchos proyectos se cancelan tras un gasto significativo porque la dirección no acuerda prioridades. Las iniciativas de seguridad se financian tarde y compiten con compras no relacionadas. ¿Qué acción mejoraría MÁS la situación?",
+      "opciones": [
+        "Establecer una gobernanza formal para prioridades e inversiones",
+        "Aumentar privilegios de administradores para project managers",
+        "Externalizar operaciones de seguridad",
+        "Ampliar escaneos de vulnerabilidades"
+      ],
+      "respuesta": 0,
+      "explicacion": "La gobernanza formal establece prioridades, criterios de inversión y responsabilidad, abordando directamente la desalineación estratégica y presupuestaria."
+    },
+    {
+      "pregunta": "Un proveedor sanitario completó una BIA hace dos años. Desde entonces adoptó historiales cloud, amplió telemedicina y aumentó el trabajo remoto. ¿Qué debe recomendar el equipo de seguridad?",
+      "opciones": [
+        "Centrarse únicamente en escenarios de ciberataque",
+        "Reutilizar la BIA sin cambios",
+        "Actualizar la BIA tras cambios importantes",
+        "Sustituir inmediatamente todas las métricas de recuperación"
+      ],
+      "respuesta": 2,
+      "explicacion": "Los cambios sustanciales en tecnologías, procesos y dependencias requieren actualizar la BIA para que refleje el impacto y las necesidades de recuperación actuales."
+    },
+    {
+      "pregunta": "Un banco monitoriza fallos de login, resultados de simulaciones de phishing y violaciones de acceso privilegiado. El CISO quiere un indicador que ofrezca aviso temprano antes de un incidente grave de acceso. ¿Cuál es el MEJOR KRI entre estas opciones?",
+      "opciones": [
+        "Pérdidas por brechas anteriores",
+        "Número de hallazgos de auditoría",
+        "Tasas de finalización de formación",
+        "Crecimiento mensual de ingresos"
+      ],
+      "respuesta": 2,
+      "explicacion": "La caída en la finalización de formación puede actuar como indicador adelantado de una menor preparación de los usuarios y un aumento potencial de exposición."
+    },
+    {
+      "pregunta": "Un administrador investiga por qué un nuevo modelo de portátil falla las comprobaciones de arranque seguro. Se detecta código no firmado intentando ejecutarse antes del sistema operativo. ¿Qué beneficio relacionado con TPM es MÁS relevante?",
+      "opciones": [
+        "Federación de cuentas de usuario",
+        "Retención centralizada de logs",
+        "Separación de roles de bases de datos",
+        "Validación de la cadena de confianza"
+      ],
+      "respuesta": 3,
+      "explicacion": "TPM y measured boot permiten verificar cada etapa del arranque y mantener una cadena de confianza que impide ejecutar componentes no autorizados."
+    },
+    {
+      "pregunta": "Tras un incidente, se descubre que atacantes accedieron a un appliance de red utilizando la contraseña de administrador de fábrica. ¿Qué mejora de hardening debe implementarse PRIMERO?",
+      "opciones": [
+        "Aumentar la cobertura inalámbrica",
+        "Acortar la retención de backups",
+        "Ampliar almacenamiento de logs",
+        "Cambiar inmediatamente las credenciales predeterminadas"
+      ],
+      "respuesta": 3,
+      "explicacion": "Cambiar las credenciales predeterminadas elimina directamente la debilidad que permitió el compromiso y es una medida básica de hardening."
+    },
+    {
+      "pregunta": "Un investigador debe analizar un smartphone corporativo bloqueado utilizado por un empleado sospechoso de filtrar diseños. Se quieren recuperar mensajes activos y, si es posible, chats eliminados. ¿Qué herramienta es la MÁS adecuada?",
+      "opciones": ["Wireshark", "Volatility", "Cellebrite UFED", "Autopsy"],
+      "respuesta": 2,
+      "explicacion": "Cellebrite UFED está especializada en adquisición y análisis forense de dispositivos móviles, incluidos datos de aplicaciones y artefactos eliminados."
+    },
+    {
+      "pregunta": "Un equipo de seguridad introdujo aprobaciones manuales muy restrictivas para cada solicitud de clave. Los administradores empezaron a compartir claves por canales no oficiales para mantener los sistemas operativos. ¿Cuál es el MEJOR siguiente paso?",
+      "opciones": [
+        "Aumentar las sanciones por compartir claves",
+        "Añadir más responsables de aprobación",
+        "Reequilibrar los controles con feedback de las partes interesadas",
+        "Prohibir completamente el acceso de emergencia a claves"
+      ],
+      "respuesta": 2,
+      "explicacion": "Cuando un control excesivamente restrictivo genera atajos inseguros, debe rediseñarse con los interesados para equilibrar seguridad y operatividad."
+    },
+    {
+      "pregunta": "Un minorista descubre que la red Wi-Fi de invitados puede verse y utilizarse desde el aparcamiento, mucho más allá del perímetro del edificio. ¿Qué acción aborda MEJOR el riesgo?",
+      "opciones": [
+        "Reducir la cobertura de señal de los AP",
+        "Cambiar el nombre del SSID",
+        "Rotar mensualmente la PSK de invitados",
+        "Aumentar el logging de la VLAN de invitados"
+      ],
+      "respuesta": 0,
+      "explicacion": "Reducir potencia y ajustar ubicación y antenas limita la propagación de radio fuera del área prevista y reduce la superficie de ataque."
+    },
+    {
+      "pregunta": "Un hospital introduce segmentación para separar dispositivos médicos de sistemas de oficina. Algunos equipos antiguos no soportan funciones modernas de seguridad. ¿Qué enfoque de implantación reduce MEJOR el riesgo preservando operaciones?",
+      "opciones": [
+        "Sustituir todos los dispositivos heredados",
+        "Realizar un despliegue por fases con pruebas",
+        "Esperar al próximo ciclo presupuestario",
+        "Segmentarlo todo de una sola vez"
+      ],
+      "respuesta": 1,
+      "explicacion": "Un despliegue gradual con pruebas permite validar compatibilidad y corregir problemas sin provocar interrupciones generalizadas en sistemas clínicos."
+    },
+    {
+      "pregunta": "Una empresa utiliza usuario y contraseña para acceder a la VPN. Tras varios robos de credenciales, necesita reducir significativamente los accesos remotos no autorizados realizados con contraseñas robadas. ¿Qué control es MÁS efectivo?",
+      "opciones": [
+        "Acortar el tiempo de bloqueo de cuenta",
+        "Revisar logs semanalmente",
+        "Aumentar la longitud de las contraseñas",
+        "Añadir autenticación multifactor"
+      ],
+      "respuesta": 3,
+      "explicacion": "MFA exige otro factor además de la contraseña, por lo que una contraseña robada por sí sola deja de ser suficiente para acceder."
+    },
+    {
+      "pregunta": "Una empresa depende de un proveedor pequeño para mantener una aplicación propietaria crítica para pedidos. Existe riesgo de que el proveedor cierre repentinamente. ¿Qué salvaguarda protege MEJOR la continuidad del negocio?",
+      "opciones": [
+        "Acuerdo de software escrow",
+        "Más formación de concienciación",
+        "Ventanas de parcheo más frecuentes",
+        "Objetivo SLA de disponibilidad más alto"
+      ],
+      "respuesta": 0,
+      "explicacion": "El software escrow puede proporcionar acceso al código fuente bajo condiciones pactadas si el proveedor deja de operar o prestar soporte."
+    },
+    {
+      "pregunta": "Una empresa de fabricación rediseña el onboarding después de que una auditoría descubriera que nuevos empleados obtenían acceso antes de completar la formación de seguridad. ¿Qué cambio de control aborda MEJOR el hallazgo?",
+      "opciones": [
+        "Cifrar los portátiles en reposo",
+        "Exigir formación antes de conceder acceso",
+        "Rotar contraseñas trimestralmente",
+        "Instalar filtros de correo electrónico"
+      ],
+      "respuesta": 1,
+      "explicacion": "Hacer que la formación obligatoria sea un requisito previo al acceso corrige directamente la deficiencia detectada en el proceso de incorporación."
+    }
+  ]
+}

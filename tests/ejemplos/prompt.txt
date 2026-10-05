@@ -1,1 +1,12 @@
 Convierte el test que pego abajo al formato JSON de mi web de tests. Formato exacto requerido: { "titulo": "Titulo de la bateria", "procedencia": "Origen o procedencia del test", "descripcion": "Descripcion breve", "preguntas": [ { "pregunta": "Texto de la pregunta", "opciones": ["Opcion A", "Opcion B", "Opcion C", "Opcion D"], "respuesta": 0, "explicacion": "Explicacion breve de por que esa respuesta es correcta" } ] } Reglas: - Devuelve SOLO JSON valido, sin Markdown, sin comentarios y sin texto adicional. - "respuesta" debe ser el indice numerico de la opcion correcta, empezando en 0. - Mantén el significado tecnico original. - Conserva siglas y terminos tecnicos como CIA, MFA, IDS, IPS, SIEM, DLP, PKI, etc. - Si las opciones vienen como A/B/C/D, conviertelas a array y transforma la respuesta correcta a indice 0/1/2/3. - Si una pregunta no tiene respuesta correcta identificable, no la incluyas. - La bateria debe tener el atributo "procedencia". - Usa español claro y tecnicamente preciso. - No inventes preguntas nuevas. Test a convertir:
+
+https://www.udemy.com/course/the-ultimate-guide-for-comptia-security-plus-exam/learn/lecture/45016957#overview
+Ultimate CompTIA Security+ Masterclass - Start Cybersecurity
+Pass CompTIA Security+: 500+ Practice Questions, Expert Explanations & Cybersecurity Skills to Pass First Try
+Calificación: 4,6 de 5
+4,6
+(182 valoraciones)
+5560 estudiantes
+Creado por
+Cyvitrix Learning | PMP, Security+, CISSP, CISA, CISM, GRC, CGRC, SSCP Trainings
+Convierte el test que pego abajo al formato JSON de mi web de tests. Formato exacto requerido: { "titulo": "Titulo de la bateria", "procedencia": "Origen o procedencia del test", "descripcion": "Descripcion breve", "preguntas": [ { "pregunta": "Texto de la pregunta", "opciones": ["Opcion A", "Opcion B", "Opcion C", "Opcion D"], "respuesta": 0, "explicacion": "Explicacion breve de por que esa respuesta es correcta" } ] } Reglas: - Devuelve SOLO JSON valido, sin Markdown, sin comentarios y sin texto adicional. - "respuesta" debe ser el indice numerico de la opcion correcta, empezando en 0. - Mantén el significado tecnico original. - Conserva siglas y terminos tecnicos como CIA, MFA, IDS, IPS, SIEM, DLP, PKI, etc. - Si las opciones vienen como A/B/C/D, conviertelas a array y transforma la respuesta correcta a indice 0/1/2/3. - Si una pregunta no tiene respuesta correcta identificable, no la incluyas. - La bateria debe tener el atributo "procedencia". - Usa español claro y tecnicamente preciso. - No inventes preguntas nuevas. Test a convertir:
