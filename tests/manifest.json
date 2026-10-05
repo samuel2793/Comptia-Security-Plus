@@ -125,6 +125,13 @@
         "tests/udemy/comptia-securitysy0-601-complete-course-comptia-2021/1.json",
         "tests/udemy/comptia-securitysy0-601-complete-course-comptia-2021/2.json"
       ]
+    },
+    {
+      "id": "udemy-comptia-security-sy0-601-complete-training-guide",
+      "titulo": "Udemy comptia security sy0 601 complete training guide",
+      "baterias": [
+        "tests/udemy/comptia-security-sy0-601-complete-training-guide/1.json"
+      ]
     }
   ]
 }
